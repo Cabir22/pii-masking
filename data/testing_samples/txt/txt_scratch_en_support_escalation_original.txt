@@ -1,0 +1,14 @@
+From: Алисафа Гюлагмадова <asi.alqabilov@bakutech.az>
+To: Tier-2 Support
+Subject: Escalation -- account still locked
+
+Hi team,
+
+I'm writing again because my account is still locked as of 13/03/1991 at 23:41. I already verified my identity with card ending matching 5576081838214453 and IBAN TR208825786702413403871391 on our first call.
+
+Please call me back at (070) 775-88-77 -- I'm reachable most of the day. My billing address is 32A Yuharı Garhun Cad., Bankədə AZ3300.
+
+For reference, the API key my integration is using is sq0atp-zJVfYXQA7QDyOmVJcg_ehM, in case that's related to the lockout. My access token was bDezdtbtw_EKNR-FyvZtDFrWmKrZGMO2GYYh.wWuv8ANCNuAjS8t3MBs0rFq1FmMS8skWxe9qDsqxsbH0LAnTlIreHvvssOT04dBFnEwH71tzr3gqyZT6WHJTR4mQQZOb4-ERp.XBPwxpTdgvVJNv-MIePCNfeX0-ZDoNdVXol5mcVO6bZ, which may have expired around 13.05.89.
+
+Regards,
+Hezretşah Nodarov

@@ -1,0 +1,6 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000126,"Dəmirbəy bəy, zəng edirəm, bu 2001:0db8:49de:264b:57de:10e9:501f:88cb ünvanı haradır? Tam başa düşmürəm!
+
+> Cavab: Zənginiz qeydə alındı.
+
+E-poçt: dəstək@şirkət.az",az,"[{""start"":0,""end"":8,""label"":""GIVENNAME"",""text"":""Dəmirbəy""},{""start"":30,""end"":69,""label"":""IPV6_ADDRESS"",""text"":""2001:0db8:49de:264b:57de:10e9:501f:88cb""}]",voicemail_transcript,very_short,anxious and confused,[],0,0,llm,"{""index"":126,""lang"":""az"",""doc_type"":""voicemail_transcript"",""doc_type_hint"":""an automatically transcribed voicemail"",""register"":""anxious and confused"",""band"":""very_short"",""min_chars"":40,""max_chars"":150,""length_hint"":""one or two lines"",""entities"":[{""label"":""GIVENNAME"",""value"":""Dəmirbəy""},{""label"":""IPV6_ADDRESS"",""value"":""2001:0db8:49de:264b:57de:10e9:501f:88cb""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a quoted reply section with '>' markers"",""include an email signature block at the end""],""negative_only"":false,""seed"":300369494,""edge_case"":null,""reference_year"":2019}",source

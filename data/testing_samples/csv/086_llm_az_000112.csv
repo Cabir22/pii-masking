@@ -1,0 +1,31 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000112,"İcarə Müqaviləsi (Qısa variant)
+
+Bu sənəd 2024-cü ilin daxili qeydləri əsasında hazırlanıb.
+
+Tərəflər:
+Kirayə verən: Ocaqlının ailə üzvləri (burada sadəcə Ocaqlının mülkiyyəti kimi qeyd olunur)
+Kirayəçi: Müvəqqəti şəxs
+
+Müqavilənin şərtləri:
+Mənzil 22/08/2010 tarixli köhnə sənədlərə əsasən kirayə verilir.  Mənzil daxilindəki texniki avadanlıqların siyahısı aşağıdakı kimidir:
+- Wi-Fi router və şəbəkə qurğusu: MAC ünvanı 00-16-3e-a0-66-d4 olaraq qeyd edilib.
+
+Qeyd: Kirayəçi mənzildəki avadanlıqlara və internetə daxil olarkən yuxarıdakı texniki parametrləri qorumalıdır. Əgər routerdə problem yaranarsa, dərhal bildirməlidir.
+
+---
+
+[2024-05-12 14:22:01] LOG: Müqavilə sənədi rəqəmsal formata köçürüldü.
+[2024-05-12 14:25:33] LOG: MAC ünvanı yoxlanıldı – status: OK.
+
+Kirayəçi tərəfindən sənədin təsdiqi:
+Mən tapşırıqları və şərtləri qəbul edirəm. Şərtlərdə hər hansı dəyişiklik olsa, əvvəlcədən xəbər verilməlidir. 
+
+(İmza yerinə baxın: Sənəd rəqəmsal formatdadır və bəzi hissələrdə boşluq səhvləri ola bilər — məsələn, bu  hissədə iki boşluq var)
+
+Mənzil ərazisindəki texniki təminatla bağlı əlavə qeyd: Cihazların qoşulması üçün MAC ünvanı 00-16-3e-a0-66-d4 göstərilmişdir. Bu, routerin daxili ayarları üçündür.
+
+Mütləq qayda: 22/08/2010 tarixli əvvəlki sənədlərlə ziddiyyət olmamalıdır. Ocaqlının mülkiyyət hüquqları qorunur.
+
+---
+Sənəd sonlandırıldı.",az,"[{""start"":249,""end"":259,""label"":""DATE"",""text"":""22/08/2010""},{""start"":423,""end"":440,""label"":""MAC_ADDRESS"",""text"":""00-16-3e-a0-66-d4""},{""start"":1145,""end"":1162,""label"":""MAC_ADDRESS"",""text"":""00-16-3e-a0-66-d4""},{""start"":1232,""end"":1242,""label"":""DATE"",""text"":""22/08/2010""}]",rental_agreement,long,casual with typos and abbreviations,[],0,0,llm,"{""index"":112,""lang"":""az"",""doc_type"":""rental_agreement"",""doc_type_hint"":""a rental or lease agreement excerpt"",""register"":""casual with typos and abbreviations"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""MAC_ADDRESS"",""value"":""00-16-3e-a0-66-d4""},{""label"":""DATE"",""value"":""22/08/2010""},{""label"":""SURNAME"",""value"":""Ocaqli""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a copy-paste artifact such as smart quotes or an en-dash"",""use inconsistent spacing and a stray double space"",""include a timestamp-prefixed log line or two""],""negative_only"":false,""seed"":1862832469,""edge_case"":null,""reference_year"":2024}",source

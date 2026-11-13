@@ -1,0 +1,15 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000159,"Məktəb İdarə Heyəti
+Təhsil İlinin Hesabatı
+
+Tarix: 12 sentyabr 2018-ci il
+
+Aşağıda 2018-ci tədris ilinin əvvəlində qəbul edilmiş yeni şagirdlərin məlumatları təqdim olunur:
+
+* Şagirdin soyadı: Araşbabayev
+* Şagirdin adı: Səddam
+* Hazırkı yaşı: 5
+
+Qeyd edilmiş şagirdin hazırlıq sinfinə qəbulu ilə bağlı aşağıdakı qərar qəbul edilmişdir.
+
+> Məktəb rəhbərliyi tərəfindən edilən yoxlamanın nəticəsinə əsasən, Səddam Araşbabayevin sinifə qəbulu üçün zəruri şərtlər tam ödənilmişdir.",az,"[{""start"":193,""end"":204,""label"":""SURNAME"",""text"":""Araşbabayev""},{""start"":221,""end"":227,""label"":""GIVENNAME"",""text"":""Səddam""},{""start"":244,""end"":245,""label"":""AGE"",""text"":""5""},{""start"":406,""end"":412,""label"":""GIVENNAME"",""text"":""Səddam""},{""start"":413,""end"":426,""label"":""SURNAME"",""text"":""Araşbabayevin""}]",school_record,medium,matter-of-fact administrative,[],0,0,llm,"{""index"":159,""lang"":""az"",""doc_type"":""school_record"",""doc_type_hint"":""a school or university administrative record"",""register"":""matter-of-fact administrative"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""AGE"",""value"":""5""},{""label"":""SURNAME"",""value"":""Araşbabayev""},{""label"":""GIVENNAME"",""value"":""Səddam""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a quoted reply section with '>' markers"",""include a bulleted list""],""negative_only"":false,""seed"":1664876543,""edge_case"":null,""reference_year"":2018}",source

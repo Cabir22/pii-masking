@@ -1,0 +1,42 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000003,"# Texniki Bilik Bazası: Şəbəkə İnfrastrukturu və Protokolları
+
+Salam komanda! Bu səhifə, şirkətimizin daxili şəbəkə sistemlərində istifadə olunan əsas texnologiyalar və keçid prosesləri haqqında ümumi məlumat vermək üçün yaradılıb. Xüsusilə yeni başlayan mühəndislərimiz üçün bu sənəd çox faydalı olacaq. Zəhmət olmasa, şəbəkə konfiqurasiyaları ilə işləyərkən buradakı qaydalara riayət etməyi unutmayın.
+
+## Giriş: Niyə IPv6-ya keçirik?
+
+Bildiyiniz kimi, uzun illərdir ki, dünyada IPv4 ünvanlarının tükənməsi problemi ilə üzləşirik. Şirkətimiz də rəqəmsal transformasiya çərçivəsində şəbəkə infrastrukturunu daha genişləndirilə bilən və daha təhlükəsiz bir formaya salmaq üçün IPv6 protokoluna keçidi təmin edir. IPv6 yalnız daha çox IP ünvanı demək deyil, həm də şəbəkə idarəetməsində və təhlükəsizlik protokollarında bir çox üstünlüklər gətirir.
+
+Bu keçid prosesi bir gecədə baş vermir. Biz hazırda ""Dual Stack"" (İkili Yığın) metodundan istifadə edirik. Bu o deməkdir ki, həm köhnə IPv4, həm də yeni IPv6 protokolları eyni vaxtda mövcud olur və cihazlar avtomatik olaraq uyğun olanı seçir.
+
+## Şəbəkə Konfiqurasiyası və Adresləmə
+
+Şəbəkə mühəndislərimiz üçün ən vacib məqamlardan biri ünvanların düzgün təyin edilməsidir. IPv6 ünvanları IPv4-dən fərqli olaraq 128 bitlikdir və onaltılıq (hexadecimal) sistemdə yazılır. Bu, ünvanların daha mürəkkəb görünməsinə səbəb ola bilər, lakin strukturlaşdırılmış bir yanaşma ilə onları idarə etmək kifayət qədər asandır.
+
+Bəzən sistem loqlarında və ya konfiqurasiya fayllarında ünvanların qısaldılmış formasını görmək mümkündür. Məsələn, ardıcıl sıfır blokları olan ünvanlar qısaldılmış formaya salınır ki, bu da oxunaqlılığı artırır. Aşağıdakı nümunədə bir serverin daxili şəbəkə üzrə təyin edilmiş ünvanını görə bilərsiniz:
+
+Sistem konfiqurasiyasında təyin olunan əsas ünvan: 2001:0db8:22f2:44f5:8d66:9cbe:e377:2a07
+
+Bu ünvan bizim daxili test mühitimizdəki bir nod üçün ayrılıb. Unutmayın ki, hər bir yeni cihaz əlavə edildikdə, bu ünvanın digər aktiv ünvanlarla toqquşmaması üçün mütləq IPAM (IP Address Management) sistemində qeydiyyatdan keçirilməlidir.
+
+## Şəbəkə Təhlükəsizliyi və Monitorinq
+
+IPv6 mühitində təhlükəsizlik səviyyəsini qorumaq üçün biz bir neçə əsas tədbir görürük:
+
+1. **ICMPv6 İdarəetməsi:** IPv6-da ICMPv6 protokolu çox kritik rol oynayır. Onu tamamilə bloklamaq şəbəkənin düzgün işləməsinə mane ola bilər, lakin lazımsız sorğuların qarşısını almaq üçün ciddi filtrləmə tətbiq etməliyik.
+2. **SLAAC və DHCPv6:** Cihazların avtomatik ünvan alması (SLAAC) və ya mərkəzləşdirilmiş idarəetmə (DHCPv6) arasındakı balansı qorumalıyıq. Biz hazırda daha çox DHCPv6 tərəfdarı olan bir strategiya izləyirik.
+3. **Firewall Konfiqurasiyaları:** Hər bir yeni subnet üçün firewall qaydaları yazılarkən, IPv6 üçün xüsusi qaydaların (rules) tətbiq olunduğundan əmin olun.
+
+## Tez-tez Verilən Suallar (FAQ)
+
+**S: IPv4-dən tamamilə imtina edəcəyikmi?**
+C: Xeyr, yaxın gələcəkdə də IPv4 dəstəyi mövcud olacaq. Lakin yeni layihələrdə birbaşa IPv6 mühitində işləmək daha məqsədəuyğundur.
+
+**S: Ünvanların qısaldılmış forması qarışıqlıq yaradırmı?**
+C: Başlanğıcda bir qədər çətin görünə bilər, lakin standartlaşdırılmış yazılış qaydaları (RFC 5952) tətbiq olunduğu üçün mühəndislərimiz üçün bu, adi bir gündəlik işdir.
+
+**S: Yeni bir cihaz əlavə edərkən nə etməliyəm?**
+C: İlk növbədə şəbəkə planlaşdırıcısına məlumat verin və IPAM sistemində mövcud boş ünvanları yoxlayın.
+
+---
+*Qeyd: Bu sənəd 2018-ci ilin texniki standartlarına əsasən hazırlanmışdır. Əgər hər hansı texniki dəyişiklik olarsa, zəhmət olmasa, şəbəkə komandasına məlumat verin.*",az,"[{""start"":1820,""end"":1859,""label"":""IPV6_ADDRESS"",""text"":""2001:0db8:22f2:44f5:8d66:9cbe:e377:2a07""}]",internal_wiki,very_long,warm and conversational,[],0,0,llm,"{""index"":3,""lang"":""az"",""doc_type"":""internal_wiki"",""doc_type_hint"":""an internal wiki or knowledge-base page"",""register"":""warm and conversational"",""band"":""very_long"",""min_chars"":2600,""max_chars"":4200,""length_hint"":""a long multi-section document"",""entities"":[{""label"":""IPV6_ADDRESS"",""value"":""2001:0db8:22f2:44f5:8d66:9cbe:e377:2a07""}],""hard_negatives"":[],""adversarials"":[],""noise"":[],""negative_only"":false,""seed"":252860896,""edge_case"":{""id"":""IP6-01"",""status"":""positive_valid"",""description"":""Compressed form."",""scenario"":""""},""reference_year"":2018}",source

@@ -1,0 +1,26 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000040,"Nömrəli nəqliyyat vasitəsi qeydiyyat və texniki xidmət hesabatı
+
+Sənəd tarixi: 14.05.2023
+Status: Tamamlandı
+
+Nəqliyyat vasitəsinin texniki vəziyyəti üzrə qeydiyyat məlumatları:
+- Model: Toyota Hilux
+- Dövlət qeydiyyat nişanı: 99-AA-000
+- Şassi nömrəsi: JT1KK1234567890
+- Son servis vaxtı: 2023-ci ilin aprel ayı
+
+Maliyyə və əlaqə məlumatları:
+Xidmət haqqının ödənilməsi üçün aşağıdakı hesabı istifadə edin:
+IBAN: AE42 0109 4396 9078 4473 647
+
+Əlaqəli şəxs və ünvan:
+Mənzil ünvanı: Nizami küç. bina 119
+Sistem girişi üçün IP: 172.26.21.213
+
+Cədvəl məlumatları (kopyalanmış):
+ID	Vasıta_ID	Xidmət_Tipi	Qiymət	Tarix
+1045	V-992	Yağ dəyişmə	45.00	2023-04-12
+
+Qeyd: Sənədin s/on versiyasıdır. Sistemdəki ləğv edilmiş (0/O) sətirlər nəzərə alınmalıdır. 
+Sistemdəki daxili xətalar: xidmət_muddeti_bitib.",az,"[{""start"":414,""end"":442,""label"":""IBAN"",""text"":""AE42 0109 4396 9078 4473 647""},{""start"":499,""end"":502,""label"":""BUILDINGNUM"",""text"":""119""},{""start"":526,""end"":539,""label"":""IPV4_ADDRESS"",""text"":""172.26.21.213""}]",vehicle_record,medium,terse and clipped,[],0,0,llm,"{""index"":40,""lang"":""az"",""doc_type"":""vehicle_record"",""doc_type_hint"":""a vehicle registration, service, or fleet record"",""register"":""terse and clipped"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""IPV4_ADDRESS"",""value"":""172.26.21.213""},{""label"":""IBAN"",""value"":""AE42 0109 4396 9078 4473 647""},{""label"":""BUILDINGNUM"",""value"":""119""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a line that was clearly pasted from a spreadsheet"",""include an OCR-style artifact (a 0/O or 1/l confusion) in non-sensitive text"",""drop some diacritics as if typed on the wrong keyboard layout""],""negative_only"":false,""seed"":1591458030,""edge_case"":null,""reference_year"":2023}",source

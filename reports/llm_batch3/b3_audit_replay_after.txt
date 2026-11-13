@@ -1,0 +1,39 @@
+REPLAY with today's code: 6,000 stored -> 2,933 accepted, 3,067 rejected (540 of them noised)
+    3047  quality: unlabelled date (D-N)
+       9  quality: planned value never labeled (SURNAME, misspelled)
+       4  no entities resolved: 
+       3  quality: invented PII (GIVENNAME)
+       3  quality: planned value never labeled (GIVENNAME, misspelled
+       1  quality: planned value never labeled (STREET, misspelled)
+
+documents: 2,933
+
+1. PLANNED VALUES PRESENT BUT UNLABELLED: 0 occurrence(s) in 0 document(s)
+   of which a value with no labelled occurrence at all (count): 0 in 0 document(s) {}
+   by label: {}
+   by form : {}
+   planned values with no labelled occurrence, by label (share of that label's plans):
+   DATE 3/330 (0.9%), GIVENNAME 5/726 (0.7%), TIME 1/182 (0.5%), SURNAME 2/621 (0.3%), TELEPHONENUM 1/668 (0.1%), ACCESS_TOKEN 0/145 (0.0%), AGE 0/187 (0.0%), API_KEY 0/191 (0.0%)
+
+2. LABELS THAT DISAGREE WITH THE PLAN: 0  {}
+
+3. DECOY INTEGRITY: 3160 decoy span(s) checked, 1255 policy/contextual; problems: {'not a planted decoy string': 1}
+   llm_az_004479  not a planted decoy string: MAC_LIKE_HASH '8c:18:94:ca:68:13:00:f2:20:09:6b:07:cb:45:5a-2d'  ...i parametrləri: - Cihaz identifikatoru: [[8c:18:94:ca:68:13:00:f2:20:09:6b:07:cb:45:5a-2d]] - Referans kodu: 978-9-788-73591-5  [TI...
+
+4. RATES (share of all documents)
+   hard_negative  requested 30.0%   in the text 29.2%   in the briefs 30.9%
+   adversarial    requested 20.0%   in the text 19.8%   in the briefs 20.1%
+   pii_free       requested 10.0%   in the text 10.8%
+   edge_case      requested 30.0%   in the text 31.2%
+   any decoy in the text (_hard_negatives > 0, the batch-1 README's measure): 35.8%
+   label share / target, furthest off: TIME 1.74, IPV6_ADDRESS 1.68, ICCID 1.62, AZ_VOEN 1.34, AZ_DRIVER_LICENSE_NUMBER 1.30, AZ_ID_CARD_NUMBER 1.26
+
+5. D-9: {'mentions': 3114, 'suffixed (label includes the suffix)': 1282}
+   D-10: {'documents of 1-5 words': 6}
+   validate_example failures: none
+
+7. INDEPENDENT SWEEP, PII THE MODEL INVENTED (informational): 0 document(s) (0.0%), 0 of them declared PII-free; {}
+
+8. STANDALONE DATES LEFT UNLABELLED (D-17; timestamps excluded): 0 in 0 document(s) (0.0%); {}. scripts/relabel_standalone_dates.py labels them
+
+json -> reports\llm_batch3\b3_audit_replay_after.json

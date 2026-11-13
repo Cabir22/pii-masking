@@ -1,0 +1,53 @@
+==========================================================================
+CORPUS VALIDATION -- sprint1_llm_b5.clean.jsonl
+==========================================================================
+records            : 21,265
+entity mentions    : 78,917
+distinct ids       : 21,265
+labels present     : 27/27
+length             : min 37  p50 568  p95 3,137  max 23,605
+doc types          : 42
+sha256             : bd9da35212bd5041e1332ea53e4fc1d2...
+
+MUST-BE-ZERO CHECKS
+  malformed_json                        0   ok
+  duplicate_id                          0   ok
+  span_text_mismatch                    0   ok
+  span_out_of_range                     0   ok
+  empty_span                            0   ok
+  overlapping_spans                     0   ok
+  duplicate_span                        0   ok
+  unknown_label                         0   ok
+  removed_label                         0   ok
+  zero_width_in_span                    0   ok
+  not_nfc                               0   ok
+  no_entities                           0   ok
+  exact_duplicate_text                  0   ok
+  structural_number_span                0   ok
+  missing_anchor                        0   ok
+  repeat_mention_incomplete             0   ok
+  validator_failure                     0   ok
+  unlabeled_pii_leak                    0   ok
+  resolver_drift                        0   ok
+  planned_value_unlabelled              0   ok
+
+INFORMATIONAL
+  band_metadata_mismatch            1,713
+  cyrillic_present                    463
+  near_duplicate                        0
+  unlabelled_standalone_date            0
+
+LABEL DISTRIBUTION (actual / target)
+  IPV6_ADDRESS                 1,385 mentions    1,062 distinct  ratio 2.92
+  DATE                         9,553 mentions    7,089 distinct  ratio 2.69
+  MAC_ADDRESS                  1,386 mentions    1,139 distinct  ratio 2.19
+  AZ_DRIVER_LICENSE_NUMBER     1,693 mentions    1,294 distinct  ratio 2.15
+  AZ_ID_CARD_NUMBER            1,932 mentions    1,507 distinct  ratio 1.63
+  ACCESS_TOKEN                 1,735 mentions    1,514 distinct  ratio 1.47
+  TIME                         2,505 mentions      961 distinct  ratio 1.27
+  ICCID                          580 mentions      443 distinct  ratio 1.23
+
+==========================================================================
+RESULT: PASS -- corpus is fit to train on
+==========================================================================
+json -> reports\llm_batch5\b5_after_validate.json

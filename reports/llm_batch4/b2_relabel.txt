@@ -1,0 +1,18 @@
+documents: 5,779
+DATE labels: 783 -> 4,390
+unlabelled standalone dates: 3,609 in 2,871 documents (49.7%) -> 2 in 2 (0.0%)
+DATE spans added: 3,607; DATE labels removed (inside a timestamp): 0; documents changed: 2,870
+left unlabelled, by reason: {'no anchor': 2}
+documents changed, by language: {'az': 2870}
+  e.g. Tarix: 12 oktyabr 2018  Agent: Salam, xoş 
+  e.g. 14.05.2022 10:05:12 - Görüş ba
+  e.g. [Səs yazısının transkripsiyası] Tarix: 22 noyabr 2015  "Salam, ümid edirə
+  e.g. Hesab-faktura Tarix: 22.04.2026  Xidmət haqqının öd
+  e.g. inda Hesabat (Tələb № 2024-089)  Tarix: 12 Oktyabr 2024  Bu sənəd, sığorta 
+  e.g. ində Cihaz Tanınmaması Problemi  Tarix: 12 noyabr 2015-ci il Status: Kriti
+  e.g. iz Mesaj Portalı Mesaj ID: 882-X Tarix: 14.08.2021  Mövzu: Məlumatları
+  e.g.  Biliklər Bazası (Wiki) *Son yenilənmə: 14.03.2022*  Sistemi idarə etm
+  e.g. Yönləndirilmiş mesaj: Tarix: 12.07.2022 Mövzu: Profil yenil
+  e.g. Versiya: 3.1.0 # Son dəyişiklik tarixi: 2022-09-15  # Bu konfiqurasiya
+  e.g. Hesab Fakturası № 2015-0892 Tarix: 22.08.2015  Bu hesab sənədi il
+  e.g. Tarix: 12.05.2016  Üzr istəyirəm, l0q

@@ -1,0 +1,28 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000311,"---------- Forwarded Message ----------
+From: Yəqinəliyeva, A.
+Date: 14.11.2022
+Subject: Şikayət: Hesabın yanlış bağlanması və əlaqə saxlanıla bilməməsi
+----------------------------------------
+
+Hörmətli müştəri xidmətləri komandası,
+
+Mən bu məktubu böyük bir narahatlıq və daxili təşviş içində yazıram. Nə baş verdiyini həqiqətən anlamıram və bu vəziyyət məni çox qorxudur. Hesabımla bağlı olan bütün məlumatlar və şəxsi profilim birdən-birə sistemdən silinibmi? Mən sadəcə öz profilimi yoxlamaq istəyirdim, lakin qarşımda tamamilə boş bir ekran gördüm.
+
+Aşağıda mənim müştəri məlumatlarımın bəzi hissələrini qeyd edirəm, lakin sistem sizi mənə yönləndirmir:
+
+Müştəri Məlumatları:
+-----------------------------------------
+Soyad:            Yəqinəliyeva
+Məkan:            Qobustan Mərəzə
+Əlaqə Nömrəsi:    012 709 42-45
+Status:           Gözləmədə
+-----------------------------------------
+
+Mən Qobustan Mərəzə ətrafında fəaliyyət göstərən bir təşkilatla əlaqəli olduğum üçün bu texniki nasazlığın mənim işimə və şəxsi məlumatlarımın təhlükəsizliyinə təsir edəcəyindən çox narahatam. Nömrəm olan 012 709 42-45 vasitəsilə mənə zəng etməyə çalışdım, lakin xətt hər dəfə kəsilir və ya ""belə bir nömrə mövcud deyil"" mesajı gəlir. Bu necə ola bilər? Mənim nömrəm niyə sistemdə yoxdur?
+
+I am extremely confused about this error.
+
+Hər dəfə sayta daxil olmağa çalışanda özümü çox qeyri-səаf və qorxmuş hiss edirəm. Sanki bütün keçmişim, bütün sənədlərim yox olub. Yəqinəliyeva ailəsi olaraq biz uzun illərdir sizin xidmətlərinizdən istifadə edirik, amma belə bir qarşılaşma gözləmirdik. Məlumatlarımın başqa birinin əlinə keçib-keçmədiyini bilmirəm və bu düşüncə məni yuxulardan məhrum edir.
+
+Xahiş edirəm, dərhal mənim statusumu yoxlayın və bu qarışıqlığı aradan qaldırın. Mənim hesabım niyə bağlandı? Mən heç bir qaydanı pozmamışam. Zəhmət olmasa, 012 709 42-45 nömrəsinə təcili geri dönüş edin, çünki bu vəziyyət artıq idarəolunmaz hala gəlib. Cavabınızı səbirsizliklə və çox böyük bir təşvişlə gözləyirəm.",az,"[{""start"":46,""end"":58,""label"":""SURNAME"",""text"":""Yəqinəliyeva""},{""start"":742,""end"":754,""label"":""SURNAME"",""text"":""Yəqinəliyeva""},{""start"":773,""end"":788,""label"":""CITY"",""text"":""Qobustan Mərəzə""},{""start"":807,""end"":820,""label"":""TELEPHONENUM"",""text"":""012 709 42-45""},{""start"":896,""end"":911,""label"":""CITY"",""text"":""Qobustan Mərəzə""},{""start"":1097,""end"":1110,""label"":""TELEPHONENUM"",""text"":""012 709 42-45""},{""start"":1457,""end"":1469,""label"":""SURNAME"",""text"":""Yəqinəliyeva""},{""start"":1843,""end"":1856,""label"":""TELEPHONENUM"",""text"":""012 709 42-45""}]",complaint_letter,long,anxious and confused,[],0,0,llm,"{""index"":311,""lang"":""az"",""doc_type"":""complaint_letter"",""doc_type_hint"":""an angry or frustrated complaint letter"",""register"":""anxious and confused"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""SURNAME"",""value"":""Yəqinəliyeva""},{""label"":""CITY"",""value"":""Qobustan Mərəzə""},{""label"":""TELEPHONENUM"",""value"":""012 709 42-45""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a forwarded-message header block"",""mix in one short sentence or log line in English"",""use a table-like layout with aligned columns""],""negative_only"":false,""seed"":606667026,""edge_case"":null,""reference_year"":2022}",source

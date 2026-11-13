@@ -1,0 +1,43 @@
+{"id": "bare_name_001", "text": "Fidan.", "lang": "az", "family": "bare_name", "pair": 0, "role": "exact_failure", "entities": [{"start": 0, "end": 5, "label": "GIVENNAME"}]}
+{"id": "bare_name_002", "text": "Fidan Məmmədova", "lang": "az", "family": "bare_name", "pair": 1, "role": "exact_failure", "entities": [{"start": 0, "end": 5, "label": "GIVENNAME"}, {"start": 6, "end": 15, "label": "SURNAME"}]}
+{"id": "bare_name_003", "text": "Aydın", "lang": "az", "family": "bare_name", "pair": 2, "role": "exact_failure", "entities": [{"start": 0, "end": 5, "label": "GIVENNAME"}]}
+{"id": "bare_name_004", "text": "Bahar", "lang": "az", "family": "bare_name", "pair": 3, "role": "exact_failure", "entities": [{"start": 0, "end": 5, "label": "GIVENNAME"}]}
+{"id": "bare_name_005", "text": "Dəniz", "lang": "az", "family": "bare_name", "pair": 4, "role": "exact_failure", "entities": [{"start": 0, "end": 5, "label": "GIVENNAME"}]}
+{"id": "bare_name_006", "text": "Rəşad", "lang": "az", "family": "bare_name", "pair": 5, "role": "bare", "entities": [{"start": 0, "end": 5, "label": "GIVENNAME"}]}
+{"id": "bare_name_007", "text": "Nigar", "lang": "az", "family": "bare_name", "pair": 6, "role": "bare", "entities": [{"start": 0, "end": 5, "label": "GIVENNAME"}]}
+{"id": "bare_name_008", "text": "Kamran", "lang": "az", "family": "bare_name", "pair": 7, "role": "bare", "entities": [{"start": 0, "end": 6, "label": "GIVENNAME"}]}
+{"id": "bare_name_009", "text": "Səbinə", "lang": "az", "family": "bare_name", "pair": 8, "role": "bare", "entities": [{"start": 0, "end": 6, "label": "GIVENNAME"}]}
+{"id": "bare_name_010", "text": "Orxan", "lang": "az", "family": "bare_name", "pair": 9, "role": "bare", "entities": [{"start": 0, "end": 5, "label": "GIVENNAME"}]}
+{"id": "bare_name_011", "text": "Günay", "lang": "az", "family": "bare_name", "pair": 10, "role": "bare", "entities": [{"start": 0, "end": 5, "label": "GIVENNAME"}]}
+{"id": "bare_name_012", "text": "Elçin", "lang": "az", "family": "bare_name", "pair": 11, "role": "bare", "entities": [{"start": 0, "end": 5, "label": "GIVENNAME"}]}
+{"id": "bare_name_013", "text": "Tural Hüseynov", "lang": "az", "family": "bare_name", "pair": 12, "role": "bare", "entities": [{"start": 0, "end": 5, "label": "GIVENNAME"}, {"start": 6, "end": 14, "label": "SURNAME"}]}
+{"id": "bare_name_014", "text": "Aysel Quliyeva", "lang": "az", "family": "bare_name", "pair": 13, "role": "bare", "entities": [{"start": 0, "end": 5, "label": "GIVENNAME"}, {"start": 6, "end": 14, "label": "SURNAME"}]}
+{"id": "bare_name_015", "text": "Vüqar Səfərov", "lang": "az", "family": "bare_name", "pair": 14, "role": "bare", "entities": [{"start": 0, "end": 5, "label": "GIVENNAME"}, {"start": 6, "end": 13, "label": "SURNAME"}]}
+{"id": "bare_name_016", "text": "Rzayeva Lalə", "lang": "az", "family": "bare_name", "pair": 15, "role": "bare", "entities": [{"start": 0, "end": 7, "label": "SURNAME"}, {"start": 8, "end": 12, "label": "GIVENNAME"}]}
+{"id": "bare_name_017", "text": "Orucov Ramil", "lang": "az", "family": "bare_name", "pair": 16, "role": "bare", "entities": [{"start": 0, "end": 6, "label": "SURNAME"}, {"start": 7, "end": 12, "label": "GIVENNAME"}]}
+{"id": "bare_name_018", "text": "Abbasova Könül", "lang": "az", "family": "bare_name", "pair": 17, "role": "bare", "entities": [{"start": 0, "end": 8, "label": "SURNAME"}, {"start": 9, "end": 14, "label": "GIVENNAME"}]}
+{"id": "bare_name_019", "text": "Fidan!", "lang": "az", "family": "bare_name", "pair": 18, "role": "bare", "entities": [{"start": 0, "end": 5, "label": "GIVENNAME"}]}
+{"id": "bare_name_020", "text": "(Fidan)", "lang": "az", "family": "bare_name", "pair": 19, "role": "bare", "entities": [{"start": 1, "end": 6, "label": "GIVENNAME"}]}
+{"id": "bare_name_021", "text": "\"Nərmin\"", "lang": "az", "family": "bare_name", "pair": 20, "role": "bare", "entities": [{"start": 1, "end": 7, "label": "GIVENNAME"}]}
+{"id": "bare_name_022", "text": "Aysel,", "lang": "az", "family": "bare_name", "pair": 21, "role": "bare", "entities": [{"start": 0, "end": 5, "label": "GIVENNAME"}]}
+{"id": "bare_name_023", "text": "Tural?", "lang": "az", "family": "bare_name", "pair": 22, "role": "bare", "entities": [{"start": 0, "end": 5, "label": "GIVENNAME"}]}
+{"id": "bare_name_024", "text": "— Kamran", "lang": "az", "family": "bare_name", "pair": 23, "role": "bare", "entities": [{"start": 2, "end": 8, "label": "GIVENNAME"}]}
+{"id": "bare_name_025", "text": "Salam, Nigar!", "lang": "az", "family": "bare_name", "pair": 24, "role": "bare", "entities": [{"start": 7, "end": 12, "label": "GIVENNAME"}]}
+{"id": "bare_name_026", "text": "Hörmətlə, Orxan", "lang": "az", "family": "bare_name", "pair": 25, "role": "bare", "entities": [{"start": 10, "end": 15, "label": "GIVENNAME"}]}
+{"id": "bare_name_027", "text": "Sağ ol, Səbinə!", "lang": "az", "family": "bare_name", "pair": 26, "role": "bare", "entities": [{"start": 8, "end": 14, "label": "GIVENNAME"}]}
+{"id": "bare_name_028", "text": "Əziz Fuad,", "lang": "az", "family": "bare_name", "pair": 27, "role": "bare", "entities": [{"start": 5, "end": 9, "label": "GIVENNAME"}]}
+{"id": "bare_name_029", "text": "Görüşənədək, Zəhra", "lang": "az", "family": "bare_name", "pair": 28, "role": "bare", "entities": [{"start": 13, "end": 18, "label": "GIVENNAME"}]}
+{"id": "bare_name_030", "text": "Hörmətlə, Ceyhun Musayev", "lang": "az", "family": "bare_name", "pair": 29, "role": "bare", "entities": [{"start": 10, "end": 16, "label": "GIVENNAME"}, {"start": 17, "end": 24, "label": "SURNAME"}]}
+{"id": "bare_name_031", "text": "Gəncə", "lang": "az", "family": "bare_name", "pair": 30, "role": "bare", "entities": [{"start": 0, "end": 5, "label": "CITY"}]}
+{"id": "bare_name_032", "text": "Şəki", "lang": "az", "family": "bare_name", "pair": 31, "role": "bare", "entities": [{"start": 0, "end": 4, "label": "CITY"}]}
+{"id": "bare_name_033", "text": "Lənkəran", "lang": "az", "family": "bare_name", "pair": 32, "role": "bare", "entities": [{"start": 0, "end": 8, "label": "CITY"}]}
+{"id": "bare_name_034", "text": "Quba", "lang": "az", "family": "bare_name", "pair": 33, "role": "bare", "entities": [{"start": 0, "end": 4, "label": "CITY"}]}
+{"id": "bare_name_035", "text": "Nizami küçəsi", "lang": "az", "family": "bare_name", "pair": 34, "role": "bare", "entities": [{"start": 0, "end": 13, "label": "STREET"}]}
+{"id": "bare_name_036", "text": "Azadlıq prospekti", "lang": "az", "family": "bare_name", "pair": 35, "role": "bare", "entities": [{"start": 0, "end": 17, "label": "STREET"}]}
+{"id": "bare_name_037", "text": "Füzuli küçəsi", "lang": "az", "family": "bare_name", "pair": 36, "role": "bare", "entities": [{"start": 0, "end": 13, "label": "STREET"}]}
+{"id": "bare_name_038", "text": "dəniz", "lang": "az", "family": "bare_name", "pair": 100, "role": "lowercase_homograph", "entities": [], "control": true, "resembles": "GIVENNAME"}
+{"id": "bare_name_039", "text": "bahar", "lang": "az", "family": "bare_name", "pair": 101, "role": "lowercase_homograph", "entities": [], "control": true, "resembles": "GIVENNAME"}
+{"id": "bare_name_040", "text": "aydın", "lang": "az", "family": "bare_name", "pair": 102, "role": "lowercase_homograph", "entities": [], "control": true, "resembles": "GIVENNAME"}
+{"id": "bare_name_041", "text": "fidan", "lang": "az", "family": "bare_name", "pair": 103, "role": "lowercase_homograph", "entities": [], "control": true, "resembles": "GIVENNAME"}
+{"id": "bare_name_042", "text": "ulduz", "lang": "az", "family": "bare_name", "pair": 104, "role": "lowercase_homograph", "entities": [], "control": true, "resembles": "GIVENNAME"}
+{"id": "bare_name_043", "text": "lalə", "lang": "az", "family": "bare_name", "pair": 105, "role": "lowercase_homograph", "entities": [], "control": true, "resembles": "GIVENNAME"}

@@ -1,0 +1,12 @@
+LEAKAGE GUARD (C4)
+inputs: data\raw\sprint1_llm_b1.clean.jsonl
+D-2 allowlist: 9 values from the D-2 allowlist
+Benchmark values: 18259 distinct.
+CHECK 1  benchmark values (FAIL): 0 hit(s)
+CHECK 1b D-2 allowlisted values (reported, not a failure): 68 hit(s)
+CHECK 1c low-entropy values (reported, not a failure): 609 hit(s)
+CHECK 2  benchmark 8-grams (FAIL): 0 hit(s)
+CHECK 3  shadow 8-grams, hash + doc id only (FAIL): 0 hit(s)
+CHECK 3  shadow values, hash + doc id only (FAIL): 0 hit(s)
+documents scanned: 5718
+RESULT: CLEAN (exit 0)

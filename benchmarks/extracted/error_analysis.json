@@ -1,0 +1,1050 @@
+{
+ "documents": 3464,
+ "doc_error_types": [
+  [
+   "Hard-negative trigger",
+   1822
+  ],
+  [
+   "Tam miss",
+   1248
+  ],
+  [
+   "Yanlış label",
+   588
+  ],
+  [
+   "Spurious mask",
+   516
+  ],
+  [
+   "Span/boundary",
+   395
+  ],
+  [
+   "Label + span",
+   59
+  ]
+ ],
+ "fn_class_by_label": {
+  "API_KEY": {
+   "missed": 96,
+   "boundary_error": 42
+  },
+  "ICCID": {
+   "missed": 15,
+   "boundary_error": 9
+  },
+  "CITY": {
+   "missed": 69,
+   "wrong_label": 13,
+   "boundary_error": 9,
+   "wrong_label_and_boundary": 2
+  },
+  "EMAIL": {
+   "missed": 52,
+   "boundary_error": 1
+  },
+  "ACCESS_TOKEN": {
+   "wrong_label": 229,
+   "missed": 139,
+   "wrong_label_and_boundary": 17
+  },
+  "DATE": {
+   "missed": 192,
+   "boundary_error": 14
+  },
+  "AZ_ID_CARD_NUMBER": {
+   "wrong_label": 55,
+   "missed": 14,
+   "boundary_error": 8,
+   "wrong_label_and_boundary": 2
+  },
+  "AZ_VOEN": {
+   "missed": 40,
+   "boundary_error": 14,
+   "wrong_label": 1
+  },
+  "IPV4_ADDRESS": {
+   "missed": 69,
+   "boundary_error": 25
+  },
+  "PAYMENT_CARD_NUMBER": {
+   "missed": 178,
+   "boundary_error": 38
+  },
+  "IPV6_ADDRESS": {
+   "missed": 246,
+   "wrong_label": 101,
+   "wrong_label_and_boundary": 30,
+   "boundary_error": 22
+  },
+  "MAC_ADDRESS": {
+   "missed": 119,
+   "boundary_error": 31
+  },
+  "AZ_FIN": {
+   "boundary_error": 16,
+   "missed": 5
+  },
+  "AGE": {
+   "missed": 61
+  },
+  "AZ_DRIVER_LICENSE_NUMBER": {
+   "wrong_label": 210,
+   "boundary_error": 17,
+   "missed": 11,
+   "wrong_label_and_boundary": 4
+  },
+  "BUILDINGNUM": {
+   "missed": 16,
+   "boundary_error": 11
+  },
+  "ZIPCODE": {
+   "missed": 51,
+   "boundary_error": 25
+  },
+  "IBAN": {
+   "missed": 133,
+   "boundary_error": 30,
+   "wrong_label": 7,
+   "wrong_label_and_boundary": 2
+  },
+  "TELEPHONENUM": {
+   "boundary_error": 31,
+   "missed": 3
+  },
+  "CARD_SECURITY_CODE": {
+   "missed": 12,
+   "wrong_label_and_boundary": 2,
+   "boundary_error": 2,
+   "wrong_label": 1
+  },
+  "STREET": {
+   "boundary_error": 6,
+   "missed": 5
+  },
+  "TIME": {
+   "missed": 36,
+   "boundary_error": 12
+  },
+  "AZ_PASSPORT_NUMBER": {
+   "missed": 16,
+   "boundary_error": 11
+  },
+  "URL": {
+   "boundary_error": 8
+  },
+  "GIVENNAME": {
+   "missed": 6,
+   "boundary_error": 1
+  },
+  "PRIVATE_KEY": {
+   "boundary_error": 29
+  },
+  "SURNAME": {
+   "wrong_label": 3,
+   "boundary_error": 1,
+   "missed": 1
+  }
+ },
+ "fp_class_by_label": {
+  "TIME": {
+   "hard_negative_trigger": 216,
+   "hard_negative_other_label": 60,
+   "boundary_error": 12,
+   "spurious": 1
+  },
+  "AZ_ID_CARD_NUMBER": {
+   "wrong_label": 210,
+   "wrong_label_and_boundary": 14,
+   "boundary_error": 10,
+   "hard_negative_other_label": 7,
+   "hard_negative_trigger": 6
+  },
+  "AZ_DRIVER_LICENSE_NUMBER": {
+   "hard_negative_trigger": 82,
+   "wrong_label": 54,
+   "spurious": 47,
+   "hard_negative_other_label": 23,
+   "boundary_error": 19,
+   "wrong_label_and_boundary": 2
+  },
+  "GIVENNAME": {
+   "spurious": 246,
+   "wrong_label": 7,
+   "wrong_label_and_boundary": 3,
+   "boundary_error": 1
+  },
+  "IPV4_ADDRESS": {
+   "hard_negative_trigger": 64,
+   "boundary_error": 29,
+   "hard_negative_other_label": 5,
+   "spurious": 1
+  },
+  "BUILDINGNUM": {
+   "spurious": 252,
+   "hard_negative_other_label": 81,
+   "boundary_error": 11,
+   "hard_negative_trigger": 1
+  },
+  "CARD_SECURITY_CODE": {
+   "hard_negative_trigger": 548,
+   "hard_negative_other_label": 321,
+   "boundary_error": 2,
+   "spurious": 1
+  },
+  "AZ_FIN": {
+   "hard_negative_trigger": 158,
+   "hard_negative_other_label": 67,
+   "boundary_error": 17,
+   "wrong_label_and_boundary": 6,
+   "spurious": 3,
+   "wrong_label": 1
+  },
+  "MAC_ADDRESS": {
+   "wrong_label": 101,
+   "wrong_label_and_boundary": 79,
+   "boundary_error": 59,
+   "hard_negative_trigger": 50,
+   "hard_negative_other_label": 33
+  },
+  "ICCID": {
+   "boundary_error": 11,
+   "spurious": 3,
+   "wrong_label_and_boundary": 1
+  },
+  "DATE": {
+   "hard_negative_trigger": 39,
+   "spurious": 20,
+   "boundary_error": 15,
+   "hard_negative_other_label": 5
+  },
+  "CITY": {
+   "hard_negative_trigger": 45,
+   "boundary_error": 11
+  },
+  "PAYMENT_CARD_NUMBER": {
+   "hard_negative_trigger": 59,
+   "boundary_error": 52,
+   "spurious": 35,
+   "hard_negative_other_label": 1
+  },
+  "ZIPCODE": {
+   "hard_negative_other_label": 116,
+   "hard_negative_trigger": 111,
+   "boundary_error": 26
+  },
+  "API_KEY": {
+   "wrong_label": 236,
+   "boundary_error": 57,
+   "wrong_label_and_boundary": 37,
+   "spurious": 3
+  },
+  "AZ_VOEN": {
+   "hard_negative_trigger": 43,
+   "boundary_error": 14,
+   "hard_negative_other_label": 10,
+   "spurious": 8
+  },
+  "AGE": {
+   "hard_negative_trigger": 268,
+   "hard_negative_other_label": 6,
+   "wrong_label_and_boundary": 2,
+   "wrong_label": 1
+  },
+  "STREET": {
+   "hard_negative_trigger": 17,
+   "boundary_error": 10,
+   "spurious": 6
+  },
+  "IPV6_ADDRESS": {
+   "boundary_error": 42
+  },
+  "AZ_PASSPORT_NUMBER": {
+   "hard_negative_trigger": 40,
+   "boundary_error": 12
+  },
+  "TELEPHONENUM": {
+   "boundary_error": 39,
+   "wrong_label": 1
+  },
+  "SURNAME": {
+   "hard_negative_trigger": 36,
+   "wrong_label": 9,
+   "wrong_label_and_boundary": 1,
+   "boundary_error": 1
+  },
+  "IBAN": {
+   "boundary_error": 51,
+   "hard_negative_trigger": 1,
+   "spurious": 1
+  },
+  "URL": {
+   "boundary_error": 16
+  },
+  "PRIVATE_KEY": {
+   "boundary_error": 53
+  },
+  "EMAIL": {
+   "boundary_error": 1
+  }
+ },
+ "fn_by_label": [
+  [
+   "IPV6_ADDRESS",
+   399
+  ],
+  [
+   "ACCESS_TOKEN",
+   385
+  ],
+  [
+   "AZ_DRIVER_LICENSE_NUMBER",
+   242
+  ],
+  [
+   "PAYMENT_CARD_NUMBER",
+   216
+  ],
+  [
+   "DATE",
+   206
+  ],
+  [
+   "IBAN",
+   172
+  ],
+  [
+   "MAC_ADDRESS",
+   150
+  ],
+  [
+   "API_KEY",
+   138
+  ],
+  [
+   "IPV4_ADDRESS",
+   94
+  ],
+  [
+   "CITY",
+   93
+  ],
+  [
+   "AZ_ID_CARD_NUMBER",
+   79
+  ],
+  [
+   "ZIPCODE",
+   76
+  ],
+  [
+   "AGE",
+   61
+  ],
+  [
+   "AZ_VOEN",
+   55
+  ],
+  [
+   "EMAIL",
+   53
+  ],
+  [
+   "TIME",
+   48
+  ],
+  [
+   "TELEPHONENUM",
+   34
+  ],
+  [
+   "PRIVATE_KEY",
+   29
+  ],
+  [
+   "BUILDINGNUM",
+   27
+  ],
+  [
+   "AZ_PASSPORT_NUMBER",
+   27
+  ],
+  [
+   "ICCID",
+   24
+  ],
+  [
+   "AZ_FIN",
+   21
+  ],
+  [
+   "CARD_SECURITY_CODE",
+   17
+  ],
+  [
+   "STREET",
+   11
+  ],
+  [
+   "URL",
+   8
+  ],
+  [
+   "GIVENNAME",
+   7
+  ],
+  [
+   "SURNAME",
+   5
+  ]
+ ],
+ "fp_by_predicted_label": [
+  [
+   "CARD_SECURITY_CODE",
+   872
+  ],
+  [
+   "BUILDINGNUM",
+   345
+  ],
+  [
+   "API_KEY",
+   333
+  ],
+  [
+   "MAC_ADDRESS",
+   322
+  ],
+  [
+   "TIME",
+   289
+  ],
+  [
+   "AGE",
+   277
+  ],
+  [
+   "GIVENNAME",
+   257
+  ],
+  [
+   "ZIPCODE",
+   253
+  ],
+  [
+   "AZ_FIN",
+   252
+  ],
+  [
+   "AZ_ID_CARD_NUMBER",
+   247
+  ],
+  [
+   "AZ_DRIVER_LICENSE_NUMBER",
+   227
+  ],
+  [
+   "PAYMENT_CARD_NUMBER",
+   147
+  ],
+  [
+   "IPV4_ADDRESS",
+   99
+  ],
+  [
+   "DATE",
+   79
+  ],
+  [
+   "AZ_VOEN",
+   75
+  ],
+  [
+   "CITY",
+   56
+  ],
+  [
+   "IBAN",
+   53
+  ],
+  [
+   "PRIVATE_KEY",
+   53
+  ],
+  [
+   "AZ_PASSPORT_NUMBER",
+   52
+  ],
+  [
+   "SURNAME",
+   47
+  ],
+  [
+   "IPV6_ADDRESS",
+   42
+  ],
+  [
+   "TELEPHONENUM",
+   40
+  ],
+  [
+   "STREET",
+   33
+  ],
+  [
+   "URL",
+   16
+  ],
+  [
+   "ICCID",
+   15
+  ],
+  [
+   "EMAIL",
+   1
+  ]
+ ],
+ "fn_classes": [
+  [
+   "missed",
+   1585
+  ],
+  [
+   "wrong_label",
+   620
+  ],
+  [
+   "boundary_error",
+   413
+  ],
+  [
+   "wrong_label_and_boundary",
+   59
+  ]
+ ],
+ "fp_classes": [
+  [
+   "hard_negative_trigger",
+   1784
+  ],
+  [
+   "hard_negative_other_label",
+   735
+  ],
+  [
+   "spurious",
+   627
+  ],
+  [
+   "wrong_label",
+   620
+  ],
+  [
+   "boundary_error",
+   571
+  ],
+  [
+   "wrong_label_and_boundary",
+   145
+  ]
+ ],
+ "confusion_exact_span": [
+  [
+   "ACCESS_TOKEN -> API_KEY",
+   229
+  ],
+  [
+   "AZ_DRIVER_LICENSE_NUMBER -> AZ_ID_CARD_NUMBER",
+   210
+  ],
+  [
+   "IPV6_ADDRESS -> MAC_ADDRESS",
+   101
+  ],
+  [
+   "AZ_ID_CARD_NUMBER -> AZ_DRIVER_LICENSE_NUMBER",
+   54
+  ],
+  [
+   "CITY -> SURNAME",
+   9
+  ],
+  [
+   "IBAN -> API_KEY",
+   7
+  ],
+  [
+   "CITY -> GIVENNAME",
+   4
+  ],
+  [
+   "SURNAME -> GIVENNAME",
+   3
+  ],
+  [
+   "CARD_SECURITY_CODE -> AGE",
+   1
+  ],
+  [
+   "AZ_VOEN -> TELEPHONENUM",
+   1
+  ],
+  [
+   "AZ_ID_CARD_NUMBER -> AZ_FIN",
+   1
+  ]
+ ],
+ "confusion_including_boundary": [
+  [
+   "ACCESS_TOKEN -> API_KEY",
+   254
+  ],
+  [
+   "AZ_DRIVER_LICENSE_NUMBER -> AZ_ID_CARD_NUMBER",
+   224
+  ],
+  [
+   "IPV6_ADDRESS -> MAC_ADDRESS",
+   180
+  ],
+  [
+   "AZ_ID_CARD_NUMBER -> AZ_DRIVER_LICENSE_NUMBER",
+   56
+  ],
+  [
+   "IBAN -> API_KEY",
+   19
+  ],
+  [
+   "CITY -> SURNAME",
+   10
+  ],
+  [
+   "CITY -> GIVENNAME",
+   6
+  ],
+  [
+   "SURNAME -> GIVENNAME",
+   4
+  ],
+  [
+   "IBAN -> AZ_FIN",
+   4
+  ],
+  [
+   "CARD_SECURITY_CODE -> AGE",
+   3
+  ],
+  [
+   "AZ_ID_CARD_NUMBER -> AZ_FIN",
+   3
+  ],
+  [
+   "PAYMENT_CARD_NUMBER -> ICCID",
+   1
+  ],
+  [
+   "AZ_VOEN -> TELEPHONENUM",
+   1
+  ]
+ ],
+ "fp_score_by_class": {
+  "hard_negative_trigger": {
+   "n": 1784,
+   "mean": 0.905,
+   "median": 0.979,
+   "share_below_0.8": 0.189
+  },
+  "hard_negative_other_label": {
+   "n": 735,
+   "mean": 0.848,
+   "median": 0.93,
+   "share_below_0.8": 0.317
+  },
+  "spurious": {
+   "n": 627,
+   "mean": 0.744,
+   "median": 0.743,
+   "share_below_0.8": 0.603
+  },
+  "boundary_error": {
+   "n": 571,
+   "mean": 0.769,
+   "median": 0.744,
+   "share_below_0.8": 0.564
+  },
+  "wrong_label": {
+   "n": 620,
+   "mean": 0.969,
+   "median": 0.999,
+   "share_below_0.8": 0.044
+  },
+  "wrong_label_and_boundary": {
+   "n": 145,
+   "mean": 0.622,
+   "median": 0.579,
+   "share_below_0.8": 0.869
+  }
+ },
+ "fp_score_histogram": {
+  "0.00-0.50": 102,
+  "0.50-0.80": 1321,
+  "0.80-0.90": 489,
+  "0.90-0.95": 345,
+  "0.95-0.99": 635,
+  "0.99-1.00": 1590
+ },
+ "hard_negative_lines": [
+  [
+   "same_label",
+   1721
+  ],
+  [
+   "other_label",
+   967
+  ]
+ ],
+ "hard_negative_same_label_by_target": [
+  [
+   "CARD_SECURITY_CODE",
+   548
+  ],
+  [
+   "AGE",
+   221
+  ],
+  [
+   "TIME",
+   213
+  ],
+  [
+   "AZ_FIN",
+   151
+  ],
+  [
+   "ZIPCODE",
+   111
+  ],
+  [
+   "AZ_DRIVER_LICENSE_NUMBER",
+   82
+  ],
+  [
+   "IPV4_ADDRESS",
+   63
+  ],
+  [
+   "PAYMENT_CARD_NUMBER",
+   58
+  ],
+  [
+   "MAC_ADDRESS",
+   50
+  ],
+  [
+   "CITY",
+   45
+  ],
+  [
+   "AZ_PASSPORT_NUMBER",
+   40
+  ],
+  [
+   "AZ_VOEN",
+   39
+  ],
+  [
+   "DATE",
+   38
+  ],
+  [
+   "SURNAME",
+   36
+  ],
+  [
+   "STREET",
+   17
+  ],
+  [
+   "AZ_ID_CARD_NUMBER",
+   7
+  ],
+  [
+   "IBAN",
+   1
+  ],
+  [
+   "BUILDINGNUM",
+   1
+  ]
+ ],
+ "mid_word_spans_among_fp": {
+  "spurious|mid_word": 157,
+  "spurious|word_aligned": 462,
+  "boundary_error|mid_word": 260,
+  "boundary_error|word_aligned": 248,
+  "wrong_label_and_boundary|mid_word": 110,
+  "wrong_label_and_boundary|word_aligned": 28
+ },
+ "error_docs_by_detected_format": [
+  [
+   "prose",
+   3048
+  ],
+  [
+   "unknown",
+   117
+  ],
+  [
+   "dialogue",
+   86
+  ],
+  [
+   "pipe_table",
+   79
+  ],
+  [
+   "log",
+   72
+  ],
+  [
+   "csv",
+   62
+  ]
+ ],
+ "missed_gold_by_format": [
+  [
+   "prose",
+   1497
+  ],
+  [
+   "csv",
+   24
+  ],
+  [
+   "unknown",
+   22
+  ],
+  [
+   "pipe_table",
+   17
+  ],
+  [
+   "dialogue",
+   14
+  ],
+  [
+   "log",
+   11
+  ]
+ ],
+ "missed_gold_by_format_and_label": [
+  [
+   "prose:IPV6_ADDRESS",
+   238
+  ],
+  [
+   "prose:DATE",
+   191
+  ],
+  [
+   "prose:PAYMENT_CARD_NUMBER",
+   177
+  ],
+  [
+   "prose:ACCESS_TOKEN",
+   139
+  ],
+  [
+   "prose:IBAN",
+   131
+  ],
+  [
+   "prose:MAC_ADDRESS",
+   118
+  ],
+  [
+   "prose:API_KEY",
+   95
+  ],
+  [
+   "prose:IPV4_ADDRESS",
+   68
+  ],
+  [
+   "prose:CITY",
+   66
+  ],
+  [
+   "prose:AGE",
+   61
+  ],
+  [
+   "prose:ZIPCODE",
+   51
+  ],
+  [
+   "prose:AZ_VOEN",
+   40
+  ],
+  [
+   "prose:TIME",
+   34
+  ],
+  [
+   "prose:AZ_PASSPORT_NUMBER",
+   16
+  ],
+  [
+   "prose:ICCID",
+   15
+  ],
+  [
+   "prose:AZ_ID_CARD_NUMBER",
+   14
+  ],
+  [
+   "pipe_table:EMAIL",
+   14
+  ],
+  [
+   "prose:BUILDINGNUM",
+   12
+  ],
+  [
+   "dialogue:EMAIL",
+   12
+  ],
+  [
+   "prose:AZ_DRIVER_LICENSE_NUMBER",
+   11
+  ],
+  [
+   "unknown:EMAIL",
+   10
+  ],
+  [
+   "log:EMAIL",
+   10
+  ],
+  [
+   "csv:CARD_SECURITY_CODE",
+   8
+  ],
+  [
+   "csv:EMAIL",
+   6
+  ],
+  [
+   "prose:AZ_FIN",
+   5
+  ]
+ ],
+ "docs_containing_invisible_chars_in_extracted_text": 0,
+ "distinct_fp_values": 1744,
+ "top20_fp_values_share": 0.3556,
+ "top20_fp_values": [
+  {
+   "label": "CARD_SECURITY_CODE",
+   "value": "12345",
+   "count": 275
+  },
+  {
+   "label": "GIVENNAME",
+   "value": "Ərizənin",
+   "count": 151
+  },
+  {
+   "label": "TIME",
+   "value": "25:81",
+   "count": 126
+  },
+  {
+   "label": "CARD_SECURITY_CODE",
+   "value": "123",
+   "count": 105
+  },
+  {
+   "label": "ZIPCODE",
+   "value": "AZ1994",
+   "count": 95
+  },
+  {
+   "label": "AGE",
+   "value": "999",
+   "count": 86
+  },
+  {
+   "label": "CARD_SECURITY_CODE",
+   "value": "12-3",
+   "count": 77
+  },
+  {
+   "label": "CARD_SECURITY_CODE",
+   "value": "42",
+   "count": 74
+  },
+  {
+   "label": "CARD_SECURITY_CODE",
+   "value": "1234",
+   "count": 73
+  },
+  {
+   "label": "BUILDINGNUM",
+   "value": "123",
+   "count": 66
+  },
+  {
+   "label": "TIME",
+   "value": "12:34:56",
+   "count": 53
+  },
+  {
+   "label": "AGE",
+   "value": "5",
+   "count": 53
+  },
+  {
+   "label": "CARD_SECURITY_CODE",
+   "value": "68i",
+   "count": 50
+  },
+  {
+   "label": "AGE",
+   "value": "-",
+   "count": 48
+  },
+  {
+   "label": "GIVENNAME",
+   "value": "Ə",
+   "count": 47
+  },
+  {
+   "label": "CITY",
+   "value": "Bakı",
+   "count": 44
+  },
+  {
+   "label": "CARD_SECURITY_CODE",
+   "value": "234",
+   "count": 43
+  },
+  {
+   "label": "ZIPCODE",
+   "value": "AZ100000",
+   "count": 43
+  },
+  {
+   "label": "AGE",
+   "value": "234",
+   "count": 43
+  },
+  {
+   "label": "AZ_DRIVER_LICENSE_NUMBER",
+   "value": "AA123",
+   "count": 42
+  }
+ ]
+}

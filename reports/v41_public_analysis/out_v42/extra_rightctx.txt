@@ -1,0 +1,12 @@
+===== v4.1
+kimi targeted: lab 2281 / look 1772 / unl 0 | LLM: lab 1793 / look 2657 / unl 987 | old corpus: lab 2683 / look 6 / unl 2833 | all: lab 6757 / look 4435 / unl 3820
+qeyd olun- targeted: lab 259 / look 18 / unl 0 | LLM: lab 101 / look 148 / unl 18 | old corpus: lab 92 / look 0 / unl 56 | all: lab 452 / look 166 / unl 74
+yazıl- targeted: lab 147 / look 72 / unl 0 | LLM: lab 247 / look 267 / unl 26 | old corpus: lab 312 / look 2 / unl 239 | all: lab 706 / look 341 / unl 265
+görünür targeted: lab 78 / look 50 / unl 0 | LLM: lab 19 / look 47 / unl 9 | old corpus: lab 21 / look 0 / unl 53 | all: lab 118 / look 97 / unl 62
+göstəril- targeted: lab 217 / look 70 / unl 0 | LLM: lab 146 / look 161 / unl 15 | old corpus: lab 76 / look 0 / unl 72 | all: lab 439 / look 231 / unl 87
+===== v4.2
+kimi targeted: lab 2846 / look 2406 / unl 0 | LLM: lab 1824 / look 2695 / unl 973 | old corpus: lab 2683 / look 6 / unl 2833 | all: lab 7353 / look 5107 / unl 3806
+qeyd olun- targeted: lab 368 / look 18 / unl 0 | LLM: lab 93 / look 151 / unl 14 | old corpus: lab 92 / look 0 / unl 56 | all: lab 553 / look 169 / unl 70
+yazıl- targeted: lab 146 / look 100 / unl 0 | LLM: lab 233 / look 282 / unl 26 | old corpus: lab 312 / look 2 / unl 239 | all: lab 691 / look 384 / unl 265
+görünür targeted: lab 78 / look 100 / unl 0 | LLM: lab 18 / look 45 / unl 11 | old corpus: lab 21 / look 0 / unl 53 | all: lab 117 / look 145 / unl 64
+göstəril- targeted: lab 306 / look 76 / unl 0 | LLM: lab 136 / look 170 / unl 15 | old corpus: lab 76 / look 0 / unl 72 | all: lab 518 / look 246 / unl 87

@@ -1,0 +1,8 @@
+# 2021 Yılı Teknik Arıza ve Güvenlik Olayı Hakkında
+
+Bu arşiv sayfasının hala bazı güvenlik açıkları ile ilgili notlar içerdiğinden dolayı özür dileriz. 2021 yılının Temmuz ayında meydana gelen ve sistemin stabilitesini ciddi şekilde etkileyen teknik olaydan dolayı ekip olarak çok üzgünüz.
+
+O dönemde sunucu loglarında aşağıdaki satır kaydedilmişti:
+`[ERROR] Unauthorized access attempt from 203.229.212.176`
+
+Bu durumun oluşmasına sebep olan sistem konfigürasyon hatası tarafımızdan zamanında tespit edilemedi. Bu saygısız ve profesyonellikten uzak yaklaşım nedeniyle tüm çalışanlardan ve endişeli kullanıcılardan içtenlikle özür dileriz. Bu olay bizim için büyük bir ders oldu. Gelecekte böyle durumların tekrarlanmaması için tüm güvenlik protokolleri ve izleme sistemleri tamamen yenilendi.

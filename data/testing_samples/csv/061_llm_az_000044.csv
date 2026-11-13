@@ -1,0 +1,39 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000044,"KLİNİK MÜŞAHİDƏ VƏ YÖNLƏNDİRİLMƏ QEYDİ
+
+Tarix: 14.11.2022
+Həkim: Dr. Elvin Məmmədov
+Xəstə: Şirov Cəlil (Təkrarlanan yoxlama)
+
+---
+
+Xəstənin ümumi vəziyyəti haqqında qeydlər:
+
+Bu gün poliklinikaya müraciət edən Cəlil müəllimi (Şirov) bir az narahat görsənirdi, amma ümumi enerjisi yerində idi. Özünü ""bir az köhnəlmiş, amma hələ də işlək"" kimi tərifləməsi ilə gülüşümüzə səbəb oldu. Xəstənin anamnezinə əsasən, son bir neçə ayda yaranan yüngül halsızlıq və bəzi sızılarla bağlı müayinə olunması zəruridir.
+
+Xəstənin şəxsi məlumatları və qeydiyyat forması:
+
+Ad: Cəlil
+Soyad: Şirov
+Doğum tarixi: 30.08.1963
+Ünvan: Bakı şəhəri, Nizami küçəsi, bina 106, AZ1059
+Əlaqə nömrəsi: 050-293-24-14
+E-poçt: m.tehsinov@kaspitrade.az
+Alternativ e-poçt: kamane.ellezov76@sirket.az
+
+Klinik status:
+Xəstənin arterial təzyiqi 135/85 mmHg diapazonundadır, bu da bir az yüksək olsa da, qorxulu deyil. Ürək ritmi stabil görünür. Lakin xəstə qeyd edir ki, bəzən axşam saatlarında ayaqlarda şişkinlik hiss edir. Şəxsi maddi və ya sığorta məsələləri ilə bağlı xəstənin sistemdəki ödəniş məlumatlarını yoxlaması xatırladıldı. Ödəniş kartı ilə bağlı sistemdə görünən son qeyd: 4169 6870 5685 6621.
+
+Diagnostik analizlər (OCR Skanyası):
+Skan olunmuş sənədlərdə bəzi oxunma çətinlikləri mövcuddur:
+[Skan nümunəsi 0/O qarışıqlığı]: REZULTAT: 0_NORMAL_LEVEL
+[Skan nümunəsi 1/l qarışıqlığı]: ID: l092837465
+
+Müşahidə və tövsiyələr:
+Cəlil müəllimə məsləhətdir ki, həddindən artıq duzdan uzaq dursun, yoxsa biz onu bir az ""turş"" qələmək məcburiyyətində qalacağıq (zarafatla deyilmişdir). Ümumi qan analizi və lipid profili üçün yönləndirmə verilib. 
+
+Növbəti addım:
+Xəstənin nəticələri hazır olduqda, qeyd olunan e-poçt ünvanına göndərilməsi və ya 050-293-24-14 nömrəsinə zəng edilməsi təmin edilməlidir. 
+
+Həkim imzası:
+Dr. E. Məmmədov",az,"[{""start"":91,""end"":96,""label"":""SURNAME"",""text"":""Şirov""},{""start"":226,""end"":231,""label"":""SURNAME"",""text"":""Şirov""},{""start"":573,""end"":578,""label"":""SURNAME"",""text"":""Şirov""},{""start"":593,""end"":603,""label"":""DATE"",""text"":""30.08.1963""},{""start"":644,""end"":647,""label"":""BUILDINGNUM"",""text"":""106""},{""start"":649,""end"":655,""label"":""ZIPCODE"",""text"":""AZ1059""},{""start"":671,""end"":684,""label"":""TELEPHONENUM"",""text"":""050-293-24-14""},{""start"":693,""end"":717,""label"":""EMAIL"",""text"":""m.tehsinov@kaspitrade.az""},{""start"":737,""end"":763,""label"":""EMAIL"",""text"":""kamane.ellezov76@sirket.az""},{""start"":1149,""end"":1168,""label"":""PAYMENT_CARD_NUMBER"",""text"":""4169 6870 5685 6621""},{""start"":1713,""end"":1726,""label"":""TELEPHONENUM"",""text"":""050-293-24-14""}]",medical_note,extreme,friendly with light humour,[],0,0,llm,"{""index"":44,""lang"":""az"",""doc_type"":""medical_note"",""doc_type_hint"":""a clinical note or referral letter"",""register"":""friendly with light humour"",""band"":""extreme"",""min_chars"":4200,""max_chars"":9000,""length_hint"":""a very long document or log dump"",""entities"":[{""label"":""TELEPHONENUM"",""value"":""050-293-24-14""},{""label"":""SURNAME"",""value"":""Şirov""},{""label"":""ZIPCODE"",""value"":""AZ1059""},{""label"":""EMAIL"",""value"":""kamane.ellezov76@sirket.az""},{""label"":""PAYMENT_CARD_NUMBER"",""value"":""4169 6870 5685 6621""},{""label"":""EMAIL"",""value"":""m.tehsinov@kaspitrade.az""},{""label"":""DATE"",""value"":""30.08.1963""},{""label"":""BUILDINGNUM"",""value"":""106""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include an OCR-style artifact (a 0/O or 1/l confusion) in non-sensitive text""],""negative_only"":false,""seed"":339604915,""edge_case"":null,""reference_year"":2022}",source

@@ -1,0 +1,9 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000004,"Göndərildi: 14 may 2016-cı il
+Mövzu: Tələbə şəbəkə girişi barədə
+
+Salam! Tələbənin yeni daxili şəbəkə ünvanı budur: fd4f:7fd6:33db:dde1:31ca:3766:e4d5:8e72. Artıq sistemə problemsiz daxil ola bilər.
+
+> Bu ünvanı siyahıya əlavə edək, yoxsa köhnəni saxlayaq?
+
+Hələlik, hər şey qaydasındadır!",az,"[{""start"":116,""end"":155,""label"":""IPV6_ADDRESS"",""text"":""fd4f:7fd6:33db:dde1:31ca:3766:e4d5:8e72""}]",school_record,short,friendly with light humour,[],0,0,llm,"{""index"":4,""lang"":""az"",""doc_type"":""school_record"",""doc_type_hint"":""a school or university administrative record"",""register"":""friendly with light humour"",""band"":""short"",""min_chars"":150,""max_chars"":400,""length_hint"":""a short paragraph"",""entities"":[{""label"":""IPV6_ADDRESS"",""value"":""fd4f:7fd6:33db:dde1:31ca:3766:e4d5:8e72""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a forwarded-message header block"",""include a quoted reply section with '>' markers""],""negative_only"":false,""seed"":63384488,""edge_case"":{""id"":""IP6-01"",""status"":""positive_valid"",""description"":""Compressed form."",""scenario"":""""},""reference_year"":2016}",source

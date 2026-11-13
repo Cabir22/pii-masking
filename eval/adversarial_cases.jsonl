@@ -1,0 +1,56 @@
+{"id": "suffix-01", "lang": "az", "category": "suffix_attached", "text": "Mənim adım Əli Məmmədovdur", "expect": [{"label": "GIVENNAME", "value": "Əli"}, {"label": "SURNAME", "value": "Məmmədovdur"}]}
+{"id": "suffix-02", "lang": "az", "category": "suffix_attached", "text": "Mənim adım Aygün Hüseynovadır", "expect": [{"label": "GIVENNAME", "value": "Aygün"}, {"label": "SURNAME", "value": "Hüseynovadır"}]}
+{"id": "suffix-03", "lang": "az", "category": "suffix_attached", "text": "Adım Vüqar Əliyevdir", "expect": [{"label": "GIVENNAME", "value": "Vüqar"}, {"label": "SURNAME", "value": "Əliyevdir"}]}
+{"id": "suffix-04", "lang": "az", "category": "suffix_attached", "text": "Mən Əliyevəm", "expect": [{"label": "SURNAME", "value": "Əliyevəm"}]}
+{"id": "suffix-05", "lang": "az", "category": "suffix_attached", "text": "Sən Məmmədovsan", "expect": [{"label": "SURNAME", "value": "Məmmədovsan"}]}
+{"id": "suffix-06", "lang": "az", "category": "suffix_attached", "text": "Onlar Quliyevlərdir", "expect": [{"label": "SURNAME", "value": "Quliyevlərdir"}]}
+{"id": "suffix-07", "lang": "az", "category": "suffix_attached", "text": "Bu sənəd Nəbiyevindir", "expect": [{"label": "SURNAME", "value": "Nəbiyevindir"}]}
+{"id": "suffix-08", "lang": "az", "category": "suffix_attached", "text": "Ofis Rəhimovdadır", "expect": [{"label": "SURNAME", "value": "Rəhimovdadır"}]}
+{"id": "suffix-09", "lang": "az", "category": "suffix_attached", "text": "Telefon Kərimovundur", "expect": [{"label": "SURNAME", "value": "Kərimovundur"}], "note": "observed detected but mislabeled GIVENNAME"}
+{"id": "suffix-10", "lang": "tr", "category": "suffix_attached", "text": "Benim adım Ahmet Yılmazdır", "expect": [{"label": "GIVENNAME", "value": "Ahmet"}, {"label": "SURNAME", "value": "Yılmazdır"}]}
+{"id": "suffix-11", "lang": "az", "category": "suffix_attached", "text": "Mənim adım Əli-Xan Məmmədov-Zadədir", "expect": [{"label": "GIVENNAME", "value": "Əli-Xan"}, {"label": "SURNAME", "value": "Məmmədov-Zadədir"}]}
+{"id": "suffix-12", "lang": "az", "category": "suffix_attached", "text": "Dostlar mənə Sasha deyir, əsl adım Aleksandrdır", "expect": [{"label": "GIVENNAME", "value": "Sasha"}, {"label": "GIVENNAME", "value": "Aleksandrdır"}]}
+{"id": "suffix-13", "lang": "az", "category": "suffix_attached", "text": "Mənim adım Əli Əlidir", "expect": [{"label": "GIVENNAME", "value": "Əli"}, {"label": "SURNAME", "value": "Əlidir"}]}
+{"id": "diacritic-01", "lang": "az", "category": "missing_diacritics", "text": "Soyadım Eliyevdir, unutmayın", "expect": [{"label": "SURNAME", "value": "Eliyevdir"}]}
+{"id": "diacritic-02", "lang": "az", "category": "missing_diacritics", "text": "Imza: Kamran Rzayev", "expect": [{"label": "GIVENNAME", "value": "Kamran"}, {"label": "SURNAME", "value": "Rzayev"}]}
+{"id": "caps-01", "lang": "az", "category": "all_caps", "text": "MƏNIM ADIM ƏLİ MƏMMƏDOVDUR", "expect": [{"label": "GIVENNAME", "value": "ƏLİ"}, {"label": "SURNAME", "value": "MƏMMƏDOVDUR"}]}
+{"id": "caps-02", "lang": "az", "category": "all_caps", "text": "MƏNIM ADIM RUSLAN MƏMMƏDOVDUR", "expect": [{"label": "GIVENNAME", "value": "RUSLAN"}, {"label": "SURNAME", "value": "MƏMMƏDOVDUR"}]}
+{"id": "order-01", "lang": "az", "category": "surname_first", "text": "Məmmədov Əli, doğum tarixi 12.05.1990", "expect": [{"label": "SURNAME", "value": "Məmmədov"}, {"label": "GIVENNAME", "value": "Əli"}, {"label": "DATE", "value": "12.05.1990"}]}
+{"id": "plural-01", "lang": "az", "category": "plural_collective", "text": "Məmmədovların evi böyükdür", "expect": [{"label": "SURNAME", "value": "Məmmədovların"}]}
+{"id": "plural-02", "lang": "az", "category": "plural_collective", "text": "Əliyevlərə salam söylə", "expect": [{"label": "SURNAME", "value": "Əliyevlərə"}]}
+{"id": "plural-03", "lang": "az", "category": "plural_collective", "text": "Hüseynovlarla görüşdük", "expect": [{"label": "SURNAME", "value": "Hüseynovlarla"}]}
+{"id": "signature-01", "lang": "az", "category": "low_context_signature", "text": "Hörmətlə,\nElnur Bağırov", "expect": [{"label": "GIVENNAME", "value": "Elnur"}, {"label": "SURNAME", "value": "Bağırov"}]}
+{"id": "signature-02", "lang": "az", "category": "low_context_signature", "text": "Sayğılarımla,\nRəşad Əliyev", "expect": [{"label": "GIVENNAME", "value": "Rəşad"}, {"label": "SURNAME", "value": "Əliyev"}]}
+{"id": "signature-03", "lang": "az", "category": "low_context_signature", "text": "Best regards,\nOrxan Nəbiyev", "expect": [{"label": "GIVENNAME", "value": "Orxan"}, {"label": "SURNAME", "value": "Nəbiyev"}]}
+{"id": "signature-04", "lang": "az", "category": "low_context_signature", "text": "\nLeyla Həsənova", "expect": [{"label": "GIVENNAME", "value": "Leyla"}, {"label": "SURNAME", "value": "Həsənova"}]}
+{"id": "signature-05", "lang": "az", "category": "low_context_signature", "text": "Kimdən: HR üzrə mütəxəssis Фирдуст Hadiyev", "expect": [{"label": "GIVENNAME", "value": "Фирдуст"}, {"label": "SURNAME", "value": "Hadiyev"}]}
+{"id": "street-01", "lang": "az", "category": "surname_derived_street", "text": "Nərimanov prospektindəyəm", "expect": [{"label": "STREET", "value": "Nərimanov"}]}
+{"id": "squished-01", "lang": "az", "category": "no_separator", "text": "Telefon:0501234567Email:eli@mail.az", "expect": [{"label": "TELEPHONENUM", "value": "0501234567"}, {"label": "EMAIL", "value": "eli@mail.az"}]}
+{"id": "squished-02", "lang": "az", "category": "no_separator", "text": "ƏliyevRəşad1990Bakı", "expect": [{"label": "SURNAME", "value": "Əliyev"}, {"label": "GIVENNAME", "value": "Rəşad"}, {"label": "CITY", "value": "Bakı"}]}
+{"id": "squished-03", "lang": "az", "category": "no_separator", "text": "Ad:VüqarSoyad:Məmmədov", "expect": [{"label": "GIVENNAME", "value": "Vüqar"}, {"label": "SURNAME", "value": "Məmmədov"}]}
+{"id": "spelled-01", "lang": "az", "category": "non_digit_form", "text": "Doğum tarixim 1990-dır", "expect": [{"label": "DATE", "value": "1990"}]}
+{"id": "spelled-02", "lang": "az", "category": "non_digit_form", "text": "Yaşım iyirmi beşdir", "expect": [{"label": "AGE", "value": "iyirmi beş"}]}
+{"id": "spelled-03", "lang": "az", "category": "non_digit_form", "text": "Bina nömrəsi on yeddidir", "expect": [{"label": "BUILDINGNUM", "value": "on yeddi"}]}
+{"id": "spelled-04", "lang": "ru", "category": "non_digit_form", "text": "Договор подписан 14 mart 2016 года", "expect": [{"label": "DATE", "value": "14 mart 2016"}]}
+{"id": "spaced-01", "lang": "az", "category": "non_digit_form", "text": "0 7 0   9 2 2   8 1 - 5 8", "expect": [{"label": "TELEPHONENUM", "value": "0 7 0   9 2 2   8 1 - 5 8"}]}
+{"id": "mislabel-01", "lang": "az", "category": "shape_collision", "text": "VÖEN-im 123", "expect": [{"label": "AZ_VOEN", "value": "123"}], "note": "observed tagged CARD_SECURITY_CODE"}
+{"id": "mislabel-02", "lang": "az", "category": "shape_collision", "text": "FİN kodum 45", "expect": [{"label": "AZ_FIN", "value": "45"}], "note": "observed tagged CARD_SECURITY_CODE"}
+{"id": "mislabel-03", "lang": "az", "category": "shape_collision", "text": "Nömrəm 102-182-56-12", "expect": [{"label": "TELEPHONENUM", "value": "102-182-56-12"}], "note": "observed tagged IPV4_ADDRESS"}
+{"id": "boundary-01", "lang": "az", "category": "span_boundary", "text": "Mən Mingəçevir'de yaşayıram", "expect": [{"label": "CITY", "value": "Mingəçevir"}]}
+{"id": "boundary-02", "lang": "az", "category": "span_boundary", "text": "Şəhər: A stara", "expect": [{"label": "CITY", "value": "A stara"}]}
+{"id": "boundary-03", "lang": "az", "category": "span_boundary", "text": "Şəhər: Ağ\nstafa", "expect": [{"label": "CITY", "value": "Ağ\nstafa"}]}
+{"id": "ru-decl-01", "lang": "ru", "category": "ru_case_declension", "text": "Я познакомился с Акбаром Айдыновым", "expect": [{"label": "GIVENNAME", "value": "Акбаром"}, {"label": "SURNAME", "value": "Айдыновым"}]}
+{"id": "ru-decl-02", "lang": "ru", "category": "ru_case_declension", "text": "Я познакомился с Акбар Айдынов", "expect": [{"label": "GIVENNAME", "value": "Акбар"}, {"label": "SURNAME", "value": "Айдынов"}], "note": "undeclined control - observed PASSING"}
+{"id": "ru-decl-03", "lang": "ru", "category": "ru_case_declension", "text": "Акбар Айдынов", "expect": [{"label": "GIVENNAME", "value": "Акбар"}, {"label": "SURNAME", "value": "Айдынов"}]}
+{"id": "ru-decl-04", "lang": "ru", "category": "ru_case_declension", "text": "Документы переданы Айдынову Акбару", "expect": [{"label": "SURNAME", "value": "Айдынову"}, {"label": "GIVENNAME", "value": "Акбару"}]}
+{"id": "ru-decl-05", "lang": "ru", "category": "ru_case_declension", "text": "Заявление от Айдынова Акбара", "expect": [{"label": "SURNAME", "value": "Айдынова"}, {"label": "GIVENNAME", "value": "Акбара"}]}
+{"id": "fp-01", "lang": "az", "category": "false_positive_probe", "text": "Görüş saat 14:00-da başlayır", "expect": [{"label": "TIME", "value": "14:00"}], "note": "Gorush/Görüş must not be tagged as a name"}
+{"id": "fp-02", "lang": "az", "category": "false_positive_probe", "text": "Sifariş nömrəsi ORD-2024-889120 təsdiqləndi", "expect": []}
+{"id": "fp-03", "lang": "az", "category": "false_positive_probe", "text": "Faktura INV-77301 ödənilib", "expect": []}
+{"id": "fp-04", "lang": "en", "category": "false_positive_probe", "text": "Build 4.19.2 passed with checksum 9f2ac41", "expect": []}
+{"id": "fp-05", "lang": "en", "category": "false_positive_probe", "text": "Tracking number 1Z999AA10123456784 is in transit", "expect": []}
+{"id": "fp-06", "lang": "az", "category": "false_positive_probe", "text": "Ümid var ki, layihə vaxtında bitəcək", "expect": [], "note": "Ümid is a common word and also a given name"}
+{"id": "fp-07", "lang": "az", "category": "false_positive_probe", "text": "Tamam, sabah görüşərik", "expect": [], "note": "Tamam is a common word and also a given name"}
+{"id": "fp-08", "lang": "ru", "category": "false_positive_probe", "text": "Код ошибки E-4041 повторяется в логах", "expect": []}
+{"id": "fp-09", "lang": "en", "category": "false_positive_probe", "text": "Container id 8f14e45fceea167a5a36dedd4bea2543 restarted", "expect": []}
+{"id": "fp-10", "lang": "tr", "category": "false_positive_probe", "text": "Sipariş 10045 kargoya verildi", "expect": []}

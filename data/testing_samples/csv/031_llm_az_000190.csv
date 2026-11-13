@@ -1,0 +1,7 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000190,"----- Forwarded Message -----
+Date: 14.05.2020
+From: ŞikayƏt Bölməsi
+To: Baş idarə
+
+Təcili! Erazim tərəfindən göndərilən rəsmi müraciət dərhaL nəzərə alınmalıdır. Sənədlərdəki sərtdəki 0/O xətası səbəbindən proses ləngiyir.",az,"[{""start"":92,""end"":98,""label"":""GIVENNAME"",""text"":""Erazim""}]",government_form,short,urgent and escalating,"[""case_glitch""]",0,0,llm,"{""index"":190,""lang"":""az"",""doc_type"":""government_form"",""doc_type_hint"":""a completed government form or official request"",""register"":""urgent and escalating"",""band"":""short"",""min_chars"":150,""max_chars"":400,""length_hint"":""a short paragraph"",""entities"":[{""label"":""GIVENNAME"",""value"":""Erazim""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include an OCR-style artifact (a 0/O or 1/l confusion) in non-sensitive text"",""include a forwarded-message header block""],""negative_only"":false,""seed"":328323466,""edge_case"":null,""reference_year"":2020}",source

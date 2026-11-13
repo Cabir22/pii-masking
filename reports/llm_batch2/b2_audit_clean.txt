@@ -1,0 +1,33 @@
+documents: 5,803
+
+1. PLANNED VALUES PRESENT BUT UNLABELLED: 0 occurrence(s) in 0 document(s)
+   of which a value with no labelled occurrence at all (count): 0 in 0 document(s) {}
+   by label: {}
+   by form : {}
+   planned values with no labelled occurrence, by label (share of that label's plans):
+   DATE 4/684 (0.6%), STREET 4/706 (0.6%), SURNAME 5/1337 (0.4%), TIME 1/378 (0.3%), GIVENNAME 4/1633 (0.2%), AGE 1/444 (0.2%), CITY 1/836 (0.1%), TELEPHONENUM 1/1463 (0.1%)
+
+2. LABELS THAT DISAGREE WITH THE PLAN: 22  {'changed by noise after labelling (ok)': 22}
+   llm_az_000305  changed by noise after labelling (ok): STREET 'Pa-\nrlaq küç.'  ...k etməyə ehtiyacım var. Mən hal-hazırda [[Pa- rlaq küç.]] tərəfə gedirəm və sifarişimi bu ərazidə...
+   llm_az_000330  changed by noise after labelling (ok): DATE '16.11.205'  ... təmsil olunaj müəsssisə. İkinci tərəf: [[16.11.205]] tarixli əsnədlərə əsaslanan müştəri.  I...
+   llm_az_000786  changed by noise after labelling (ok): GIVENNAME 'Kə-\nbilin'  ...for user: Kəbil. [DEBUG: operator_note: [[Kə- bilin]] məlumatlarında problem var, amma sistem...
+   llm_az_001161  changed by noise after labelling (ok): DATE '21/08/19884'  ...ra elave edirem ki, tapin: dogum tarixi [[21/08/19884]]-dur. E-p- oct: kabusov.t@optimal.az. El...
+   llm_az_001177  changed by noise after labelling (ok): SURNAME 'Z-\nəbilinin'  ... ünvanı redaktə edərkən xəta baş verir. [[Z- əbilinin]] məlumatlarını yeniləyəndə Nehrəmdə bina...
+
+3. DECOY INTEGRITY: 5956 decoy span(s) checked, 2374 policy/contextual; problems: none
+
+4. RATES (share of all documents)
+   hard_negative  requested 30.0%   in the text 27.5%   in the briefs 28.7%
+   adversarial    requested 20.0%   in the text 19.0%   in the briefs 19.0%
+   pii_free       requested 10.0%   in the text 10.0%
+   edge_case      requested 30.0%   in the text 31.0%
+   any decoy in the text (_hard_negatives > 0, the batch-1 README's measure): 34.0%
+   label share / target, furthest off: IPV6_ADDRESS 1.78, ICCID 1.65, MAC_ADDRESS 1.48, AZ_VOEN 1.47, AZ_DRIVER_LICENSE_NUMBER 1.45, TIME 1.19
+
+5. D-9: {'mentions': 7128, 'suffixed (label includes the suffix)': 2645}
+   D-10: {'documents of 1-5 words': 2}
+   validate_example failures: none
+
+7. INDEPENDENT SWEEP, PII THE MODEL INVENTED (informational): 0 document(s) (0.0%), 0 of them declared PII-free; {}
+
+json -> reports\llm_batch2\b2_audit_clean.json

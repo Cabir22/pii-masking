@@ -1,0 +1,6 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000153,"Fwd: 12.05.2019 14:22
+Göndərən: Müştəri Xidmətləri
+Mövzu: Zəng transkripti
+
+(Operator): Alo, buyurun... eh, sən deyirsən ki, Möhlətova xanım Şəkidədir? (Müştəri): Bəli, Göyçəkqız xanımın sifarişini Şəki şəhərinə göndərməlisiniz, zəhmət olmasa. (Operator): Anladım, səs uzaq gəlir, bir az təkrar edə bilərsiz?",az,"[{""start"":125,""end"":134,""label"":""SURNAME"",""text"":""Möhlətova""},{""start"":169,""end"":178,""label"":""GIVENNAME"",""text"":""Göyçəkqız""},{""start"":198,""end"":202,""label"":""CITY"",""text"":""Şəki""}]",call_center_transcript,short,casual with typos and abbreviations,[],0,0,llm,"{""index"":153,""lang"":""az"",""doc_type"":""call_center_transcript"",""doc_type_hint"":""a transcribed phone call with disfluencies"",""register"":""casual with typos and abbreviations"",""band"":""short"",""min_chars"":150,""max_chars"":400,""length_hint"":""a short paragraph"",""entities"":[{""label"":""SURNAME"",""value"":""Möhlətova""},{""label"":""CITY"",""value"":""Şəki""},{""label"":""GIVENNAME"",""value"":""Göyçəkqız""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a forwarded-message header block""],""negative_only"":false,""seed"":1472735564,""edge_case"":null,""reference_year"":2019}",source

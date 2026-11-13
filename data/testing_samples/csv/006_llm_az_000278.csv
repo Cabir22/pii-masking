@@ -1,0 +1,32 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000278,"ŞƏRKƏTİN İNSAN RESURSLARI İDARƏSİ
+İŞÇİNİN QEYDİ VƏ İŞƏ QƏBUL SənƏDİ
+
+Tarix: 14.05.2022
+
+Sənəd nömrəsi: HR-2022/449
+Mövzu: Yeni işçinin işə qəbulu və şəxsi məlumatların təsdiqi
+
+Aşağıda qeyd olunan şəxs şirkətimizin ""Maliyyə Analitiki"" vəzifəsinə qəbul edilmişdir. Şirkətin daxili qaydalarına əsasən, işçinin şəxsiyyətinin təsdiqi və əmək haqqı ödənişləri üçün lazımi məlumatlar sistemə daxil edilmişdir.
+
+İşçinin tam adı və şəxsiyyət sənədi məlumatları:
+Ad: Əşrəfqız
+Soyad: Yüzbəyova
+Şəxsiyyət vəsiqəsinin seriya və nömrəsi: P20385934
+
+İşçinin əlaqə və yaşayış məlumatları:
+Elektron poçt ünvanı: ealtayov70@kaspitrade.az
+Poçt indeksi: AZ1007
+
+Maliyyə və ödəniş detalları:
+Şəxsi bank hesab nömrəsi (FIN): WU5GWWN
+
+İşçinin şirkət daxili şəbəkəyə (VPN) girişi üçün təyin edilmiş IP ünvanı: 101.255.247.166
+
+İşçinin işə qəbul prosesi zamanı təqdim etdiyi sənədlərin yoxlanılması nəticəsində hər hansı bir uyğunsuzluq aşkar edilməmişdir. Qeyd etmək lazımdır ki, əvvəlki sistem qeydlərində (və ya loq fayllarında) texniki bir xəta səbəbindən işçinin soyadı yanlış yazılmışdı, lakin indi düzəldildi - Yüzbəyova ailəsinin sənədləri tamamilə doğrudur. Həmçinin, işçinin müraciət formasında kiçik bir hərf səhvi (əşrəfqız yerinə eşrəfqiz yazılmışdı) görmüşəm, lakin bunu rəsmi bazada əvvəlki formaya, yəni Əşrəfqız formasına qaytarmışam.
+
+İşçinin rəsmi işə başlama tarixi 01.06.2022 olacaqdır. Bütün giriş icazələri və IT infrastrukturunun təmin edilməsi üçün müvafiq şöbələrə tapşırıq verilir. Şirkət daxili sistemlərə giriş zamanı təhlükəsizlik protokollarına ciddi riayət edilməlidir.
+
+Təsdiq edən:
+İnsan Resursları Meneceri
+(İmza)",az,"[{""start"":458,""end"":466,""label"":""GIVENNAME"",""text"":""Əşrəfqız""},{""start"":474,""end"":483,""label"":""SURNAME"",""text"":""Yüzbəyova""},{""start"":525,""end"":534,""label"":""AZ_PASSPORT_NUMBER"",""text"":""P20385934""},{""start"":596,""end"":620,""label"":""EMAIL"",""text"":""ealtayov70@kaspitrade.az""},{""start"":635,""end"":641,""label"":""ZIPCODE"",""text"":""AZ1007""},{""start"":704,""end"":711,""label"":""AZ_FIN"",""text"":""WU5GWWN""},{""start"":787,""end"":802,""label"":""IPV4_ADDRESS"",""text"":""101.255.247.166""},{""start"":1094,""end"":1103,""label"":""SURNAME"",""text"":""Yüzbəyova""},{""start"":1296,""end"":1304,""label"":""GIVENNAME"",""text"":""Əşrəfqız""}]",hr_record,long,matter-of-fact administrative,[],0,0,llm,"{""index"":278,""lang"":""az"",""doc_type"":""hr_record"",""doc_type_hint"":""an HR record, offer letter, or performance note"",""register"":""matter-of-fact administrative"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""AZ_PASSPORT_NUMBER"",""value"":""P20385934""},{""label"":""SURNAME"",""value"":""Yüzbəyova""},{""label"":""GIVENNAME"",""value"":""Əşrəfqız""},{""label"":""IPV4_ADDRESS"",""value"":""101.255.247.166""},{""label"":""ZIPCODE"",""value"":""AZ1007""},{""label"":""AZ_FIN"",""value"":""WU5GWWN""},{""label"":""EMAIL"",""value"":""ealtayov70@kaspitrade.az""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a few realistic typos and a self-correction""],""negative_only"":false,""seed"":1830730164,""edge_case"":null,""reference_year"":2022}",source

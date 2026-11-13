@@ -1,0 +1,230 @@
+1-ci Mikrorayon
+2-ci Alatava
+2-ci Mikrorayon
+2-ci Sovxoz
+20-ci Sahə
+205-ci Qəsəbə
+24-cü Məhəllə
+27-ci Məhəllə
+28-ci Məhəllə
+29-cu Məhəllə
+3-cü mikrorayon
+39-cu Məhəllə
+4-cü Mikrorayon
+40-cı Məhəllə
+5-ci mikrorayon
+54-cü Məhəllə
+6-cı mikrorayon
+7-ci Məhəllə
+75-ci məhəllə
+8-ci mikrorayon
+9-cu Mikrorayon
+AAAF Park
+AB massivi
+AB yaşayış massivi
+Abdulxan Məhəlləsi
+Adışirinlər Məhəlləsi
+Alhüseynli tirəsi
+Atbarmaq tirəsi
+Axçaabad məhəlləsi
+Ağabəyli
+Ağcabədi Yeni Yaşayış Kompleksi
+Ağcakənd qəsəbəsi
+Aşağı Çaylı tirəsi
+Aşağı Şıxlı tirəsi
+Aşağıı Şəhər məhəlləsi
+Babək məhəlləsi
+Badamdar
+Badamdar Massiv 2
+Badamdar Massiv 3
+Bakı Cənub Qapısı YK
+Bakıxanov
+Balıqçı Məhəlləsi
+Bayıl
+Bağlar
+Bibiheybət
+Bilan tirəsi
+Biləcəri
+Binəqədi
+Binəqədi rayonu
+Birləşmiş (7,8,12) Məhəllə
+Bozalqanlı
+Bozdağ məhəlləsi
+Bulqan
+Böyükşor Qəsəbəsi
+Bəhrəli
+Cavadxan
+Cavidabad
+Corat bağları
+Cumhurriyət Məhəlləsi
+D massivi
+Dağ Massivi
+Dərnəgül
+Dərə məhəllə
+Eko Park YK
+Elektrotok
+Fatmayı bağları
+Goradil bağları
+Gülüstan
+Günəşli
+Hevili tirəsi
+Hərbi şəhərcik
+Hərbi Şəhərçik
+Həsənqulu tirəsi
+Həzi Aslanov Qəsəbəsi
+İkiçayarası Məhəlləsi
+İslamiyyət Məhəlləsi
+İstixana Ziyadlı
+İçəri Məhəllə
+İçəri Şəhər
+İşçilər Məhəlləsi
+Karxana Məhəlləsi
+Keşlə
+Krisral Abşeron 1
+Kristal Abşeron 2
+Köhnə Corat
+Kürşad Məhəlləsi
+Kürəkçay qəsəbəsi
+Mahrasa Bağı
+Malazgird məhəlləsi
+Mansırlı tirəsi
+Masazır
+Massiv 1
+Massiv 2
+Massiv 3
+Massiv 4
+Massiv 5
+Massiv 6
+Maşad Məhəlləsi
+Maşad Qəsəbə
+Mehdixanlı tirəsi
+Mirvari Park kompleksi
+Montin
+Montin Qəsəbəsi
+Morul
+Motodrom YS
+MTS qəsbəsi
+Mədənçilər qəsəbəsi
+Məlikli məhəlləsi
+Məmmədli
+Məşədi Cəfər tirəsi
+Məşədi Oruc tirəsi
+Nizami rayonu
+Novxanı Bağları
+Nərimanov rayonu
+Nəsimi rayonu
+Oğlandərə
+Pambıqçı Məhəlləsi
+Panorama Villa
+Park Yasamal YK
+Pirallahı rayonu
+Plastik Qəsəbə
+Q massivi
+Qaracuq
+Qaradağ rayonu
+Qaradağ Stansiyası
+Qaramanlı Məhəlləsi
+Qaraxanbəyli
+Qaraçuxur
+Qaraçılar Məhəlləsi
+Qazıməmməd Məhəlləsi
+Qaçqın Şəhərciyi
+Qaçqınlar məhəlləsi
+Qobu Park 1 YK
+Qobu Park 2 YK
+Qobu Park 3 YK
+Qolqəti Məhəlləsi
+Qrand Park
+Qres qəsəbəsi
+Qumlu
+Qurd Dərəsi
+Qurdlar tirəsi
+Quşçuluq
+Qızıl Dövr Məhləsi
+Qəza Məhəlləsi
+Rüşdiyyə Məhəlləsi
+Rəsulzadə
+Sabunçu rayonu
+Sadaxlı Təzə Məhəllə
+Sadıllı
+Sadıqbəy Məhəlləsi
+Saray
+Saray Bağları
+Saray H MTK
+Saray Üzümlük
+Sarı Qaya
+Sarıxalça Məhəlləsi
+Sea Life Residence
+Sevil Massivi
+Sevinc
+Stansiya Sumqayıt
+Suraxanı rayonu
+Süleyman Qayıblı Məhəlləsi
+Səbail rayonu
+Səbzəbar Məhəlləsi
+Səvəylər tirəsi
+Təkudarxan məhəlləsi
+Təzə Məhlə
+Təzə Məhəllə
+Uğur 1 YK
+V massivi
+Vağzal Qəsəbə Qazax
+Villa Butik Paradis
+Villa Siena
+Villalar
+Villalar YK
+Xanbağı məhəlləsi
+Xaşaxuna Məhəlləsi
+Xocəsən
+Xuluf
+Xutor
+Xırdalan
+Xətai rayonu
+Xəzər rayonu
+Yasamal
+Yasamal rayonu
+Yeni Ceyranbatan
+Yeni Günəşli
+Yeni Günəşli Yaylası
+Yeni Gəncə
+Yeni Kompleks
+Yeni Müşfiqabad qəsəbəsi
+Yeni məhəllə
+Yeni Poylu
+Yeni Qəsəbə Şamaxı
+Yeni Saray
+Yeni Sumqayıt qəsəbəsi
+Yeni villalar
+Yeni Yasamal
+Yeni Yaşayış Kompleksi
+Yeni Yaşayış Kompleksi Ucar
+Yeni Yevlax Məhəlləsi
+Yeniməhlə tirəsi
+Yurdabad tirəsi
+Yuxarı Şıxlı tirəsi
+Yuxarı Şəhər məhəlləsi
+Zabit Binaları
+Zeynalabdin Tağıyev
+Zeytunluq Yaşayış Sahəsi
+Zığ
+Zəfəran YK
+Çinar 2016 MTK
+Çuxanlı
+Çöl Məhəllə
+Çəllər tirəsi
+Üznük Məhəlləsi
+Üçqovaq Məhəlləsi
+Üçxoz məhəlləsi
+Şahabad Məhəlləsi
+Şahlarşah Məhəlləsi
+Şikak məhəlləsi
+Şirvan qəsəbəsi
+Şirvan Yeni Yaşayış Kompleksi
+Şubanı
+Şıx qəsəbəsi
+Şıxov Sədərək
+Şəddadilər məhəlləsi
+Əhmədli
+Əliabad
+Əlibel məhəlləsi
+Ərəş Məhəlləsi

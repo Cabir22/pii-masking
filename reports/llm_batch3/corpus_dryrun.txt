@@ -1,0 +1,19 @@
+documents: 416,255
+DATE labels: 286,625 -> 289,241
+unlabelled standalone dates: 3,304 in 795 documents (0.2%) -> 274 in 215 (0.1%)
+DATE spans added: 3,030; DATE labels removed (inside a timestamp): 414; documents changed: 931
+left unlabelled, by reason: {'no anchor': 268, 'would fail a gate (same date in a timestamp, or drift)': 6}
+documents changed, by language: {'az': 250, 'en': 229, 'ru': 226, 'tr': 226}
+  e.g. --|----------------|--------|---------- 12.05.21   | Transfer       
+  e.g. й операции:  Trh       | Сумма | Статус 12.05.19  | 450 AZN| Успешно
+  e.g. --|------------|------------ 1200 AZN | 01.02.15   | Cash 450 AZN  |
+  e.g. ------| | İlk Bildiriş      | Tamam   | 15.01.22 | "Ekspert 2 günə g
+  e.g. > Sender: 12.05.21 BILL-JRO-7025 and O
+  e.g. ar -----------|-------------|---------- 15.04.16  | Beklemede   | 12
+  e.g. ----------------|--------| | CLM-2024 | 10.03.24 | Bəyimov   | Şirva
+  e.g. -----|----------------------|---------- 01.01.25    | 001 | Yağ dəyi
+  e.g. |----------------|--------|---------| | 10.05.22 | Sim Aktivasyonu |
+  e.g.  | Status ----------|-------|---------- 15.05.19  | 52.00 | Paid 15.
+  e.g. -- | | Fiber Optic Internet (50 Mbps) | 01.10.22 - 31.10.22 | 1 | 25
+  e.g. şının sənədləri hazırdır. Servis qeydi: 10.04.24. BMW, adr: Baki. Sə
+(report only -- pass --in-place or --out to write)

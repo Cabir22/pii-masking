@@ -1,0 +1,14 @@
+TEXNİKİ HADİSƏ HESABATI
+
+Hesabatı hazırlayan: Sifayə Ağasiyeva, Sistem Administratoru
+Tarix: 2Z.3.2004, Saat: 14:38
+
+Təsvir: Şübhəli giriş cəhdi aşkarlanıb. Mənbə IP ünvanı: 134.227.244.190 (IPv6: 5b97:c599:cf8e:f333:8df:f03b:3ebb:caa4), MAC ünvanı: 48:2A:E3:06:92:9C.
+
+Təsirlənən hesabın sahibi Zernigar Selimcanov, əlaqə nömrəsi +994-51-795-10-13, e-poçt careers.gulehmedov@optimal.az.
+
+İstifadə olunan giriş tokeni (5NCNsgH0KJOT2StvhVD-VJrgPpQWjfnwsSS3.hUEE_YgZ8C1d83kXEPMQ1uK__xBk8gnwIAPemG0PG03cdP_1719S8BYzp84cQkS2hd-mZ0fpSk-otTBVpDmOspOsFOIQe.0SJq--txY_RGZ7y4l5K4F95DHNFpVapmNyQIrB6XXy8) dərhal ləğv edilib. Şübhəli sorğu mənbəyi bu URL idi: https://docs.zirve.az/unsubscribe?otp=Yuet5C9m0DU9fsK1ExF3ZIFCBrSK-0b.
+
+SIM kartın ICCID nömrəsi: 89994616916639052639. Sürücülük vəsiqəsi (kimlik təsdiqi üçün istifadə olunub): CE985315.
+
+Tövsiyə: Bənəfşə Shamlalili ilə əlaqə saxlanılıb, parolun dəyişdirilməsi tələb olunub.

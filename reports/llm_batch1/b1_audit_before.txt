@@ -1,0 +1,102 @@
+documents: 6,000
+
+1. PLANNED VALUES PRESENT BUT UNLABELLED: 349 occurrence(s) in 245 document(s)
+   of which a value with no labelled occurrence at all (count): 120 in 112 document(s) {'STREET': 65, 'SURNAME': 22, 'GIVENNAME': 14, 'CITY': 13, 'ACCESS_TOKEN': 3, 'TELEPHONENUM': 2, 'DATE': 1}
+   by label: {'STREET': 117, 'SURNAME': 89, 'GIVENNAME': 68, 'CITY': 54, 'ACCESS_TOKEN': 13, 'EMAIL': 2, 'URL': 2, 'TELEPHONENUM': 2, 'DATE': 1, 'ICCID': 1}
+   by form : {'street': 110, 'inflected': 67, 'misspelled (not labellable)': 53, 'exact (not labellable)': 43, 'folded': 29, 'fragment (not labellable)': 17, 'mixed_script (not labellable)': 8, 'case': 6, 'softened': 4, 'street (not labellable)': 4, 'folded (not labellable)': 2, 'case (not labellable)': 2, 'spacing': 2, 'altered (not labellable)': 1, 'english_spelling': 1}
+   llm_az_000010  STREET  'Vaqif Məmmədov küç.' written 'Vaqif Məmmədov küçəsində' (street)
+      ...---------- Yaşayış ünvanı             | [[Vaqif Məmmədov küçəsində]], bina 197, AZ1012 Yaxınlıq ərazisi     ...
+   llm_az_000026  SURNAME  'Müfidağayev' written 'Müfidağayevlə' (inflected)
+      ... kəsintili) ... salam... mən Əzizməmməd [[Müfidağayevlə]] əlaqə saxlayıram... (səs) ... sənədləri...
+   llm_az_000037  SURNAME  'Şadkamov' written 'Şadkamovla' (inflected)
+      ...1-15 09:30] Yeni kontakt qeydi.  Abasət [[Şadkamovla]] söhbət etdik.  Müştəri bir az narahat o...
+   llm_az_000075  CITY  'Siyəzən' written 'Siyəzəndəki' (inflected)
+      ...onada istifadə etdiyimiz mövcud deyil.  [[Siyəzəndəki]] çatdırılma marşrutu tamamilə pozuldu. S...
+   llm_az_000191  CITY  'Mingəçevir' written 'Mingeçevir' (folded+unresolvable)
+      ...14:25:30 - Ping request timeout on node [[Mingeçevir]]-04. [LOG] 2016–10-16 09:10:15 — Latency...
+   llm_az_000245  SURNAME  'Мабудзада' written 'Мабудзаdanın' (misspelled)
+      ...dir | | Log | ✅ | Yaxşıdır |  Xüsusilə, [[Мабудзаdanın]] yazdığı konfiqurasiya hissəsində təhlük...
+   llm_az_000255  SURNAME  'Мутубаова' written 'Мутубаovaya' (misspelled)
+      ...larına  əsasən,  cavabdeh tərəf olaraq  [[Мутубаovaya]]  adı  qeyd olunub.  Müvəkkilin  tərəfin...
+   llm_az_000255  SURNAME  'Мутубаова' written 'Мутубаovaya' (misspelled)
+      ...yyət  çox  çətinləşib.  Məsələn,  əgər  [[Мутубаovaya]]  tərəfindən  tələb olunan  məbləğ  doğr...
+   planned values with no labelled occurrence, by label (share of that label's plans):
+   STREET 74/554 (13.4%), SURNAME 31/1059 (2.9%), CITY 15/531 (2.8%), DATE 14/650 (2.1%), ACCESS_TOKEN 4/254 (1.6%), GIVENNAME 18/1344 (1.3%), TIME 2/339 (0.6%), BUILDINGNUM 2/464 (0.4%)
+
+2. LABELS THAT DISAGREE WITH THE PLAN: 36  {'changed by noise after labelling (ok)': 34, 'not a form of any planned value': 2}
+   llm_az_000167  changed by noise after labelling (ok): GIVENNAME 'Ni-\nyam'  ..., müəyyən edilmiş maliyyə dövrü ərzində [[Ni- yam]] və DUrmalı tərəfindən həyata keçiriLən ...
+   llm_az_000191  changed by noise after labelling (ok): CITY 'M-\ningecevir'  ...i gelende bağlanti birdən-bire kesilir. [[M- ingecevir]] erazisindəki diger səbeke provayderleri...
+   llm_az_000899  changed by noise after labelling (ok): STREET 'ƏFLZTUNA LLAHQULIYEV PR.'  ...[[ƏFLZTUNA LLAHQULIYEV PR.]]-DE ÜNVAN QEYD EDILDI. SÜRÜCÜ VƏSIQESI: ...
+   llm_az_001021  changed by noise after labelling (ok): STREET 'Aşı Billa dögəsinrə'  ...İNƏ VƏ YÖNLƏNDİRİŞ  Xəstə: Basiq Ünvan: [[Aşı Billa dögəsinrə]]  Xəstə Basiq müəlkimin şicayətlərinƏ (ş...
+   llm_az_001105  changed by noise after labelling (ok): SURNAME '2eynalov'  ...lərində concurrency problemi mövcuddur. [[2eynalov]] adlı istifadəçinin profilindəki data in...
+   llm_az_001479  changed by noise after labelling (ok): STREET 'Minnət M-\nəmmədov pr.'  ...nin Isgandarzada soyadlı şəxs olduğu və [[Minnət M- əmmədov pr.]] ünvanında yaşadığı təsdiqləndi.  Müştər...
+   llm_az_001634  changed by noise after labelling (ok): SURNAME 'Şuxəliyevanın'  ...----  Kl-la danışdım, prblm var diyir. [[Şuxəliyevanın]] sorğusu gəldi. API key işləmir, sistemd...
+   llm_az_002147  changed by noise after labelling (ok): STREET '22-cı Məhələ 3 döngəsində'  ...lı təcili xəbərdarlıq! Avtomobil dərhal [[22-cı Məhələ 3 döngəsində]] yerləşən servis mərkəzinə təqdim edilmə...
+
+3. DECOY INTEGRITY: 4298 decoy span(s) checked, 1760 policy/contextual; problems: {'not a planted decoy string': 2}
+   llm_az_003675  not a planted decoy string: MAC_LIKE_HASH '60:d7:be:da-2d:d2:6c:6d:e9:4d:3a:15:77:b8:e3:7d'  ... 0-22 xətası və ...218 ilə bitən kartda [[60:d7:be:da-2d:d2:6c:6d:e9:4d:3a:15:77:b8:e3:7d]] MAC ünvanlı cihazda xəta qeydə alınıb. ...
+   llm_az_004261  not a planted decoy string: MAC_LIKE_HASH '78:49:07:ce:de:4e:41-2d:2a:b1:15:4d:d4:bb:3c:de'  ...azın MAC ünvanı isə aşağıdakı kimidir:  [[78:49:07:ce:de:4e:41-2d:2a:b1:15:4d:d4:bb:3c:de]]  ***  Sistem daxilindəki maliyyə əməliy...
+
+4. RATES (share of all documents)
+   hard_negative  requested 30.0%   in the text 24.6%   in the briefs 25.0%
+   adversarial    requested 20.0%   in the text 15.6%   in the briefs 15.6%
+   pii_free       requested 10.0%   in the text 7.5%
+   edge_case      requested 30.0%   in the text 43.9%
+   label share / target, furthest off: IPV6_ADDRESS 2.23, ICCID 1.99, MAC_ADDRESS 1.76, AZ_VOEN 1.57, AZ_DRIVER_LICENSE_NUMBER 1.56, AZ_PASSPORT_NUMBER 1.50
+
+5. D-9: {'mentions': 6403, 'suffixed (label includes the suffix)': 1352}
+   D-10: {'documents of 1-5 words': 1}
+   validate_example failures: {'language: only 2 az words': 19, 'language: only 3 az words': 5, 'language: only 1 az words': 6, 'language: only 0 az words': 3}
+
+6. REJECTS: 4,891
+     2315   47.3%  quality
+     1021   20.9%  leaked unlabeled PII
+      744   15.2%  judgment leak
+      503   10.3%  validation
+      205    4.2%  taxonomy label leaked into text
+       89    1.8%  no entities resolved
+       14    0.3%  api
+   name rejects: {'name rejects': 1815, 'planned value labelled in an inflected form': 1707}
+   top-10 sub-reasons:
+      594  quality | CITY
+            e.g. 20.10.2026 Üzr istəyirik,  Şamaxıda pasport  № Q86324445 səhvdir.
+            e.g. 2024-cü ildən etibarən, Göyçayda, Gülabı Kənd döngəsində yerləşən mulkiyyet üzərindəki hüquqların pozulması ilə bağlı “rəsmi xəbərdarlıq” göndərilir – bu xəbərd
+            e.g. 2019-cu il vehikl qeydi: * Şabranda * mərtəbə 17 * şəhər Saatlı layihəsi
+      556  judgment leak | ['…']
+            e.g. -----–-- Forwarded message ----—--- Kimdən: Eyvaz Tarix: 19.08.2022 Mövzu: Gümrük bəyannaməsi  Salam, mən çox narahatam, bu bəyannamədə nəsə səhvlik var, deyirl
+            e.g. SİSTEM ƏMƏLİYYAT REHBERİ: UMS-MƏLUMATLARIN İDARƏEDİLMƏSİ (VƏZİFƏLƏNDİRMƏ PROTOKOLU) Sənəd Nömrəsi: 2025/OPS-7721 Nəşr Tarixi: 10.01.2025 Status: Gizli / Daxili 
+            e.g. [2017-08-22 14:05:33] INFO: Sistem başladıldı. [2017-08-22 14:06:12] DEBUG: Sorğu yönləndirildi: https://www.araz-mebel.az/download?access_token=lEx5n9OYQ6Yyq0C
+      482  quality | adapter artifact in text
+            e.g. [2023-10-14 09:15:44] LOG: Personel faylı skan edilir... [2023-10-14 09:17:12] LOG: Məlumat uyğunsuzluğu tapıldı: VOEN sahəsi.  Hörmətli Lüdviq Aminov,  Sizinlə
+            e.g. 2026-ci ilin 12 oktyabr tarixdə Cabirənin muracetine esasen, 4440 9590 1013 5488 nomreli bank kartindan icazəsiz istifade edildiyi tesbit olunub. Subheli aktivl
+            e.g. Salam, detalları göndərirəm, baxarsan? * IP: 192.0.2.212 * Kart: 4885 8991 0089 3053 * Tel: +994-18-190-92-28 Müştəri;Ödəniş;Status Nəsə səhvdir, bax.  > 2025-1
+      473  quality | STREET
+            e.g. Mən artıq bu kredit müraciəti prosesindən tamamilə bezmişəm! Bir həftədir ki, sisteminizdə müraciətimi tamamlayıram, amma hər dəfə eyni texniki problem baş veri
+            e.g. Göndərildi: 10.04.2025  Bağdasarov Holdinq ilə müqavilə  və 12-ci Şüvəlan prospektində  ayniruziyev@kaspitrade.az  yazmalıyam? FİN kodu R77-S86  hardadır?
+            e.g. PASİENTİN SAĞLAMLIQ VƏ XİDMƏT İZLƏMƏ HESABATI Tarix: 14 Noyabr 2023  Bu hesabat, pasientin tibbi xidmətlərimizdən yararlanması zamanı göstərilən dəstəyi, klinik
+      440  quality | SURNAME
+            e.g. [2021-06-15 10:30:05] Log: Sərdabovun girişi. Maddə 12.1.5: ssh-rsa AAAAB3NzaC1yc2EVT5HqXZod6nrfk55hEKuiTtIBjjwgV9pLwVQX+ACMsQnYzLJTGWBxIAq4JZ9zy6UCGmR. 387579 
+            e.g. Göndərən: Fleet Management System Tarix: 15.03.2023 Mövzu: FW: Avtomobil qeydiyyatı və telematika statusu  Təmir və xidmət qeydiyyatı:  2023-cü ilin mart ayı üz
+            e.g. [2017-04-10 08:00:01] INFO: Sistem başlatma ardıcıllığı başladı. [2017-04-10  08:00:05] DEBUG: Avadanlıq yoxlanılır: CPU_CORE_0. [2017-04-10 08:00:08] DEBUG: Av
+      426  validation | language: only N az words
+            e.g. Finans nömrəsi: 3Z8WZ1E. > ‹redacted› 51D02C22F4628B6697D3A9568B460C0223A8053551FBCFF4BE9352D935A6DD47. 1.11.57.5176. System update.
+            e.g. # Shahrizadın konfig ayarlari mail_adr = leyaqetdostbeyov@azdata.az # settings tamamdır [2017-10-02 08:15:10] INFO: file read [2017-10-02 08:15:12] DEBUG: parsi
+            e.g. Kartimla odeme edemem. Sizi anlayiram, narahat olmayin. 5531 6969 3902  1350 karti ile odeme edecegim. Sua1iniz var?
+      308  quality | GIVENNAME
+            e.g. CRM Qeydi - 14.11.2023  Bu gün Qaraseyid ilə bir az zarafatcıl, amma çox səmimi bir söhbət etdim. Müştəri ilə münasibətlər yaxşıdır. Umurxanın göstərdiyi rəqəml
+            e.g. From: Müştəri Sent: 14 Noyabr 2016 To: Müştəri Xidmətləri Subject: Şikayət: Sənədlərin gecikməsi  Yenidən yazmaq məcburiyyətindəyəm, çünki artıq səbrim tükənib!
+            e.g. Müraciətçi Beyrutun doğum tarixi 21.09.1970 olan şəxs üçün sigorta (sic - sığorta) ödənişi tələb olunur. E-poçt: qizbeyim.fettahov@inbox.az. Processing claim de
+      177  judgment leak | ['…', '…']
+            e.g. Avtomatik transkripsiya başladı: [Səs küy]... Alo! Kim var orda? Mən artıq dözmürəm, bu nə vaxt bitəcək bu axsamlıq? Səhər saat 9-dan bəri zəng edirəm, heç kim 
+            e.g. Ümidxana xahiş edirik ki, 2017-ci il tarixli Qovlarda olan avtomobil qeydiyyatındakı səhvi nəzərə alsın. L5M8G-0GV79-TLN5F-JHJP2-61E6T nömrəli sənəddə başlama v
+            e.g. [2023-11-20 11:20:45] Sistem loqu: Servis qeydi yaradıldı. [2023-11-20 13:05:12] Şikayət: Yenə eyni problem! Avtomobilin qeydiyyat sənədlərində ciddi səhv var. 
+       89  no entities resolved | 
+            e.g. Müşt: Şəmmədzadə və Partnyorlar tərəfindən, əh, Dağyürd  pr.da. şəxsiyyət vəsiqəsinin nömrəsi AA607785260. Call  l0g.
+            e.g. [14.10.2024 18:45] inv_gen Ünv: 146-cı Binə küç.-dəki hesab üçün ödəniş edilsn.
+            e.g. [2016-11-05 16:42:08] Log: Connection established. [2016-11-05 16:42:10] Log: Mail received. Yenə gecikirsiz! Mən artıq Anar Şükürov küç.dəyəm, amma kurver hele
+       69  taxonomy label leaked into text | TIME
+            e.g. Sumqayıt Şəhər Polis İdarəsi Operativ Şəxsi Məlumat - TƏCİLİ  Tarix: 22.11.2017  Mövzu: 33-cü Buzovna pr. 115 ünvanında baş vermiş kiber-cinayət və maliyyə fırı
+            e.g. ## İnsident Postmortem: Kaspitrade Giriş Problemi (2018)  ---  **Xülasə**  Salam komanda! Yenə bir "maraqlı" gün keçirdik. 2018-ci ilin payız günlərindən birind
+            e.g. Müştəri məmnuniyyəti və xidmət keyfiyyəti barədə rəy sorğusu (2022-ci il)  Tarix: 12 dekabr 2022-ci il Mövzu: Korporativ sistemin tətbiqi və texniki dəstək pros
+
+json -> reports\llm_batch1\b1_audit_before.json

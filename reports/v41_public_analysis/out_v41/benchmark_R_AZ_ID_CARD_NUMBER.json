@@ -1,0 +1,650 @@
+{
+ "label": "AZ_ID_CARD_NUMBER",
+ "totals": {
+  "v4.1": {
+   "exact": 368,
+   "missed": 11,
+   "split": 4,
+   "wrong_label": 1
+  },
+  "v4": {
+   "exact": 381,
+   "missed": 2,
+   "split": 1
+  }
+ },
+ "by_frame": {
+  "info sexsi x": {
+   "n": 9,
+   "v4.1": 9,
+   "v4": 9
+  },
+  "sexsi sened x gorun": {
+   "n": 58,
+   "v4.1": 57,
+   "v4": 58
+  },
+  "vesiq nomre x-dir": {
+   "n": 22,
+   "v4.1": 22,
+   "v4": 22
+  },
+  "sened kimi x teqdi etmis": {
+   "n": 25,
+   "v4.1": 25,
+   "v4": 25
+  },
+  "vesiq sahes x qeyd olunu": {
+   "n": 40,
+   "v4.1": 40,
+   "v4": 40
+  },
+  "vesiq hisse x daxil etmis": {
+   "n": 27,
+   "v4.1": 27,
+   "v4": 27
+  },
+  "sexsi vesiq x kimi goste": {
+   "n": 66,
+   "v4.1": 66,
+   "v4": 66
+  },
+  "vesiq hisse x daxil etmse": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "nomre olara x yazil": {
+   "n": 54,
+   "v4.1": 43,
+   "v4": 51
+  },
+  "id nomre x kimi yazmi": {
+   "n": 24,
+   "v4.1": 21,
+   "v4": 24
+  },
+  "sexsi melum x olara qeyd": {
+   "n": 15,
+   "v4.1": 15,
+   "v4": 15
+  },
+  "\"sexs \" x\",": {
+   "n": 6,
+   "v4.1": 6,
+   "v4": 6
+  },
+  "nomre olara x yazlb": {
+   "n": 2,
+   "v4.1": 2,
+   "v4": 2
+  },
+  "sexsi | x |": {
+   "n": 12,
+   "v4.1": 12,
+   "v4": 12
+  },
+  "57; x;z90002596;az1994;000": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "zq701 x;bench.user1942@synthetic-mail4.invalid;https://support.example.com/help/article": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "vesiq sahes x qeyd olunb": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "at_be x;user@;999.12.4.1": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "x;https://secure.bakusteel.az/verify?secret=ctrlt1njmkkwzyyneck3oabyjwzv7yufhbbk": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "9657 4607; x;az1994;000": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "89994 x;az1994;000": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "sexsi vesqe x kimi goste": {
+   "n": 2,
+   "v4.1": 2,
+   "v4": 2
+  },
+  "x;20:08;5952 0111": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "vesiq sahes x qeyd olunn": {
+   "n": 5,
+   "v4.1": 5,
+   "v4": 5
+  },
+  "x;172.18.0.33;+994 60": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "x;17.02.2039;172.21.2.31;user@;999.12.4.1": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "2001: x;903075;12345": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "17 87; x;25:81;999": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "89994 x;az87krhgl5zelv2c5d0ivzb4wbdg;az1994;000": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "x;-----begin priva": {
+   "n": 1,
+   "v4.1": 0,
+   "v4": 1
+  },
+  "sk_be x;qadir;az1994;000": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "namik x;abc;-----begin publi": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  }
+ },
+ "items": [
+  {
+   "id": "bench_az_000112",
+   "value": "AA5019620",
+   "outcomes": {
+    "v4.1": "missed",
+    "v4": "exact"
+   },
+   "new_marked": "AA5019620",
+   "old_marked": "[AA5019620]",
+   "new_cut": "A",
+   "new_other": "-",
+   "shape": [
+    "aa9999999"
+   ],
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "yazılıb.",
+   "frame": "nömrəsi olaraq X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "form",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000149",
+   "value": "AA5846934",
+   "outcomes": {
+    "v4.1": "missed",
+    "v4": "missed"
+   },
+   "new_marked": "AA5846934",
+   "old_marked": "AA5846934",
+   "new_cut": "A",
+   "new_other": "-",
+   "shape": [
+    "aa9999999"
+   ],
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "yazılıb;",
+   "frame": "nömrəsi olaraq X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "report",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000263",
+   "value": "AA0422464",
+   "outcomes": {
+    "v4.1": "exact",
+    "v4": "split"
+   },
+   "new_marked": "[AA0422464]",
+   "old_marked": "[AA]0422464",
+   "new_cut": "-",
+   "new_other": "-",
+   "shape": [
+    "aa9999999"
+   ],
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "yazılıb;",
+   "frame": "nömrəsi olaraq X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000846",
+   "value": "AA9575382",
+   "outcomes": {
+    "v4.1": "missed",
+    "v4": "missed"
+   },
+   "new_marked": "AA9575382",
+   "old_marked": "AA9575382",
+   "new_cut": "A",
+   "new_other": "-",
+   "shape": [
+    "aa9999999"
+   ],
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "yazılıb;",
+   "frame": "nömrəsi olaraq X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001164",
+   "value": "AA0336851",
+   "outcomes": {
+    "v4.1": "split",
+    "v4": "exact"
+   },
+   "new_marked": "[AA03]368[51]",
+   "old_marked": "[AA0336851]",
+   "new_cut": "3",
+   "new_other": "-",
+   "shape": [
+    "aa9999999"
+   ],
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "yazılıb;",
+   "frame": "nömrəsi olaraq X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001565",
+   "value": "AA2919968",
+   "outcomes": {
+    "v4.1": "split",
+    "v4": "exact"
+   },
+   "new_marked": "[AA]2919968",
+   "old_marked": "[AA2919968]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    "aa9999999"
+   ],
+   "context": "prose",
+   "prev": "nömrəmi",
+   "next": "kimi",
+   "frame": "ID nömrəmi X kimi yazmışam",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "first_person_email",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001815",
+   "value": "AA2744643",
+   "outcomes": {
+    "v4.1": "missed",
+    "v4": "exact"
+   },
+   "new_marked": "AA2744643",
+   "old_marked": "[AA2744643]",
+   "new_cut": "A",
+   "new_other": "-",
+   "shape": [
+    "aa9999999"
+   ],
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "yazılıb.",
+   "frame": "nomresi olaraq X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001965",
+   "value": "AA0717645",
+   "outcomes": {
+    "v4.1": "split",
+    "v4": "exact"
+   },
+   "new_marked": "AA[0717645]",
+   "old_marked": "[AA0717645]",
+   "new_cut": "A",
+   "new_other": "-",
+   "shape": [
+    "aa9999999"
+   ],
+   "context": "prose",
+   "prev": "nömrəmi",
+   "next": "kimi",
+   "frame": "ID nömrəmi X kimi yazmışam",
+   "mac_in_doc": true,
+   "stamp_in_doc": false,
+   "doc_type": "first_person_chat",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003602",
+   "value": "AA9069389",
+   "outcomes": {
+    "v4.1": "missed",
+    "v4": "exact"
+   },
+   "new_marked": "AA9069389",
+   "old_marked": "[AA9069389]",
+   "new_cut": "A",
+   "new_other": "-",
+   "shape": [
+    "aa9999999"
+   ],
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "yazilib;",
+   "frame": "nömrəsi olaraq X yazilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003633",
+   "value": "ZX8000467",
+   "outcomes": {
+    "v4.1": "wrong_label",
+    "v4": "exact"
+   },
+   "new_marked": "ZX8000467",
+   "old_marked": "[ZX8000467]",
+   "new_cut": "Z",
+   "new_other": "AZ_DRIVER_LICENSE_NUMBER",
+   "shape": [
+    "aa9999999"
+   ],
+   "context": "CSV / table",
+   "prev": "vəsiqəsi;private_key;sürücülük_vəsiqəsi;api_key;private_key",
+   "next": ";-----BEGIN",
+   "frame": "X;-----BEGIN PRIVATE",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "csv",
+   "category": "structured_csv",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003684",
+   "value": "AA9775540",
+   "outcomes": {
+    "v4.1": "missed",
+    "v4": "exact"
+   },
+   "new_marked": "AA9775540",
+   "old_marked": "[AA9775540]",
+   "new_cut": "A",
+   "new_other": "-",
+   "shape": [
+    "aa9999999"
+   ],
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "yazilib.",
+   "frame": "nömrəsi olaraq X yazilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003936",
+   "value": "AA1122304",
+   "outcomes": {
+    "v4.1": "missed",
+    "v4": "exact"
+   },
+   "new_marked": "AA1122304",
+   "old_marked": "[AA1122304]",
+   "new_cut": "A",
+   "new_other": "-",
+   "shape": [
+    "aa9999999"
+   ],
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "yazılıb;",
+   "frame": "nömrəsi olaraq X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003977",
+   "value": "AA3720340",
+   "outcomes": {
+    "v4.1": "missed",
+    "v4": "exact"
+   },
+   "new_marked": "AA3720340",
+   "old_marked": "[AA3720340]",
+   "new_cut": "A",
+   "new_other": "-",
+   "shape": [
+    "aa9999999"
+   ],
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "yazılıb;",
+   "frame": "nömrəsi olaraq X yazılıb",
+   "mac_in_doc": true,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004178",
+   "value": "AA8826743",
+   "outcomes": {
+    "v4.1": "missed",
+    "v4": "exact"
+   },
+   "new_marked": "AA8826743",
+   "old_marked": "[AA8826743]",
+   "new_cut": "A",
+   "new_other": "-",
+   "shape": [
+    "aa9999999"
+   ],
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "yazılıb;",
+   "frame": "nömrəsi olaraq X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004377",
+   "value": "AA3410434",
+   "outcomes": {
+    "v4.1": "missed",
+    "v4": "exact"
+   },
+   "new_marked": "AA3410434",
+   "old_marked": "[AA3410434]",
+   "new_cut": "A",
+   "new_other": "-",
+   "shape": [
+    "aa9999999"
+   ],
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "yazılıb;",
+   "frame": "nömrəsi olaraq X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004632",
+   "value": "AA5953250",
+   "outcomes": {
+    "v4.1": "split",
+    "v4": "exact"
+   },
+   "new_marked": "AA[5953250]",
+   "old_marked": "[AA5953250]",
+   "new_cut": "A",
+   "new_other": "-",
+   "shape": [
+    "aa9999999"
+   ],
+   "context": "prose",
+   "prev": "sənədi",
+   "next": "görünür.",
+   "frame": "şəxsiyyət sənədi X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "bank_message",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004945",
+   "value": "AA7434142",
+   "outcomes": {
+    "v4.1": "missed",
+    "v4": "exact"
+   },
+   "new_marked": "AA7434142",
+   "old_marked": "[AA7434142]",
+   "new_cut": "A",
+   "new_other": "-",
+   "shape": [
+    "aa9999999"
+   ],
+   "context": "prose",
+   "prev": "nömrəmi",
+   "next": "kimi",
+   "frame": "ID nömrəmi X kimi yazmışam",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "first_person_chat",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  }
+ ],
+ "false_alarms": [
+  {
+   "model": "v4",
+   "id": "bench_az_000584",
+   "value": "AB482927",
+   "shape": "aa999999",
+   "gold_here": "AZ_DRIVER_LICENSE_NUMBER",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "qeyd"
+  },
+  {
+   "model": "v4",
+   "id": "bench_az_001377",
+   "value": "77",
+   "shape": "99",
+   "gold_here": "AZ_DRIVER_LICENSE_NUMBER",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "AA2945",
+   "next": "kimi"
+  },
+  {
+   "model": "v4",
+   "id": "bench_az_002488",
+   "value": "AB236170",
+   "shape": "aa999999",
+   "gold_here": "AZ_DRIVER_LICENSE_NUMBER",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "qeyd"
+  },
+  {
+   "model": "v4",
+   "id": "bench_az_003329",
+   "value": "AB034578",
+   "shape": "aa999999",
+   "gold_here": "AZ_DRIVER_LICENSE_NUMBER",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "qeyd"
+  },
+  {
+   "model": "v4",
+   "id": "bench_az_004715",
+   "value": "386",
+   "shape": "999",
+   "gold_here": "AZ_DRIVER_LICENSE_NUMBER",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "AA845",
+   "next": "qeyd"
+  }
+ ]
+}

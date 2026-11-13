@@ -1,0 +1,33 @@
+{
+ "meta": {
+  "name": "bc_masking-multilingual_3a0a6e5df228",
+  "model": "your-hf-org/masking-multilingual",
+  "revision": "3a0a6e5df228bdc89dd01312a728e10a78b3e3fb",
+  "code": "1e97694",
+  "date_utc": "2026-10-13 11:40 UTC"
+ },
+ "flags": [
+  "benchmark: ACCESS_TOKEN near 0 (recall 0.0, F1 0.0, 385 gold values)",
+  "benchmark micro F1 68.7, more than 10 points below Run B's 88.9",
+  "benchmark: ACCESS_TOKEN F1 0.0, more than 30 points below Run B's 98.7",
+  "benchmark: AGE F1 66.3, more than 30 points below Run B's 97.3",
+  "benchmark: API_KEY F1 49.7, more than 30 points below Run B's 98.0",
+  "benchmark: AZ_DRIVER_LICENSE_NUMBER F1 40.4, more than 30 points below Run B's 92.9",
+  "benchmark: DATE F1 57.5, more than 30 points below Run B's 88.1",
+  "benchmark: IPV6_ADDRESS F1 18.0, more than 30 points below Run B's 95.3"
+ ],
+ "info": {
+  "benchmark_f1_R": 0.687073042564372,
+  "ref_benchmark_f1_R": 0.8885563297946968,
+  "benchmark_f1_M": 0.7138136153337739,
+  "n_tags": 55,
+  "n_labels": 27,
+  "label_map_same": true,
+  "tokenizer": "vocabulary 250002, same ids as Run B on the test strings",
+  "predictions_checked": 28286,
+  "recall_before_window": 0.8314703353396389,
+  "recall_after_window": 0.8387096774193549,
+  "values_after_window": 93,
+  "window_documents": 400
+ }
+}

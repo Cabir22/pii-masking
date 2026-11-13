@@ -1,0 +1,7 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000302,"Müştəri: Salam, Qazax şəhərindəki ünvanla bağlı müraciət edirəm. Bina 183 üzrə mənzil problemi var.
+Agent: Salam, buyurun. Saat 17:03 vaxtında sistemə daxil oldum.
+Agent: Məlumatları yoxlayıram...
+Müştəri: Əvvəlcə bu siyahıya baxın:
+ID_001; Status: Aktiv; Region: Qazax; Bina: 183
+Agent: Anlaşıldı, müraciətiniz qeydə alındı.",az,"[{""start"":16,""end"":21,""label"":""CITY"",""text"":""Qazax""},{""start"":70,""end"":73,""label"":""BUILDINGNUM"",""text"":""183""},{""start"":128,""end"":133,""label"":""TIME"",""text"":""17:03""},{""start"":264,""end"":269,""label"":""CITY"",""text"":""Qazax""},{""start"":277,""end"":280,""label"":""BUILDINGNUM"",""text"":""183""}]",live_chat,short,formal and businesslike,[],0,0,llm,"{""index"":302,""lang"":""az"",""doc_type"":""live_chat"",""doc_type_hint"":""a live chat transcript between an agent and a customer"",""register"":""formal and businesslike"",""band"":""short"",""min_chars"":150,""max_chars"":400,""length_hint"":""a short paragraph"",""entities"":[{""label"":""BUILDINGNUM"",""value"":""183""},{""label"":""CITY"",""value"":""Qazax""},{""label"":""TIME"",""value"":""17:03""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a line that was clearly pasted from a spreadsheet""],""negative_only"":false,""seed"":1094915655,""edge_case"":null,""reference_year"":2020}",source

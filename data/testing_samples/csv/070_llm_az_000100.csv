@@ -1,0 +1,24 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000100,"AZƏRBAYCAN RESPUBLİKASI MƏHKƏMƏLƏRİ İDARƏSİNİN 
+MƏLUMAT VƏ SİYAHATLAR İDARƏSİ
+
+Sənəd №: 2026/BK-942-08
+Tarix: 14 noyabr 2026-cı il
+
+MƏLUMAT SƏPDFƏSİ VƏ TEXNİKİ GEYLƏRİN İNCALASI HAQQINDA
+
+Məhkəmənin elektron idarəetmə sistemində baş vermiş texniki xətanın araşdırılması məqsədilə, sistem loqlarından əldə edilmiş məlumatlar təhlil edilmişdir. 2026-cı ilin aprel ayında sistemin daxili müraciət modulunda təhlükəsizlik protokollarının yenilənməsi zamanı bəzi giriş məlumatlarının qeydə alındığı müəyyən edilmişdir.
+
+Araşdırma zamanı aşağıdakı sistem loq xətti müəyyən edilmişdir:
+
+[2026-04-12 14:22:01] INFO: Authorization header received: Bearer dE-XiN_5ceRhRfZpB6tDjes-c8fFqbwgNm6v.ino_Ciz2RZPprPBfwQipJs1vVv4FfrmWuc-kaawlK18qAsI50Ewex_lMS1aEypmUC7AJgyot8_wufgUKA3GQ6fngwud-ojE4P1zPDoPDmE0zWCj8-g3sB6wXVr6yTIzQqehJro761vRCLuvDl0-B87Jb2FF.P3Cta1ff8e2Y9m5_Ekb0BqTLElc9Nu6d67rZxV7ajXQ
+
+Həmin məlumatın sistemin daxili əlçatanlıq səviyyəsini təmin etmək üçün istifadə edildiyi, lakin  təhlükəsizlik auditinin bir hissəsi kimi saxlanıldığı bildirilmişdir.  Məhkəmənin İT departamenti tərəfindən aparılan araşdırmada aşağıdakı cavab mətni də sənədləşməyə əlavə edilmişdir:
+
+> Sistem administratorunun rəyi:
+> ""Göstərilən giriş tokeninin vaxtı bitmişdir, lakin loq fayllarında saxlanılması standart prosedura uyğundur. Gələcək auditlər zamanı bu növ məlumatların maskalanması tövsiyə olunur.""
+
+Məhkəmənin inzibati qərarına əsasən, bu sənəd ilkin araşdırma mərhələsi üçün hazırlanmışdır və daxili arxivə əsas sənəd kimi daxil edilməlidir. Məlumatların bütövlüyü və sistemin təhlükəsizliyi ilə bağlı əlavə tədbirlərin görülməsi zəruridir.
+
+İmza:
+Məhkəmə Sənədlərinin İdarə Edilməsi üzrə Baş Mütəxəssis",az,"[{""start"":646,""end"":882,""label"":""ACCESS_TOKEN"",""text"":""dE-XiN_5ceRhRfZpB6tDjes-c8fFqbwgNm6v.ino_Ciz2RZPprPBfwQipJs1vVv4FfrmWuc-kaawlK18qAsI50Ewex_lMS1aEypmUC7AJgyot8_wufgUKA3GQ6fngwud-ojE4P1zPDoPDmE0zWCj8-g3sB6wXVr6yTIzQqehJro761vRCLuvDl0-B87Jb2FF.P3Cta1ff8e2Y9m5_Ekb0BqTLElc9Nu6d67rZxV7ajXQ""}]",court_filing,long,bureaucratic and officious,[],0,0,llm,"{""index"":100,""lang"":""az"",""doc_type"":""court_filing"",""doc_type_hint"":""an excerpt from a court filing or case record"",""register"":""bureaucratic and officious"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""ACCESS_TOKEN"",""value"":""dE-XiN_5ceRhRfZpB6tDjes-c8fFqbwgNm6v.ino_Ciz2RZPprPBfwQipJs1vVv4FfrmWuc-kaawlK18qAsI50Ewex_lMS1aEypmUC7AJgyot8_wufgUKA3GQ6fngwud-ojE4P1zPDoPDmE0zWCj8-g3sB6wXVr6yTIzQqehJro761vRCLuvDl0-B87Jb2FF.P3Cta1ff8e2Y9m5_Ekb0BqTLElc9Nu6d67rZxV7ajXQ""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a quoted reply section with '>' markers"",""use inconsistent spacing and a stray double space""],""negative_only"":false,""seed"":1158736557,""edge_case"":{""id"":""ATK-01"",""status"":""positive_valid"",""description"":""JWT-shaped 3-segment token in an Authorization header, inside a log line."",""scenario"":""""},""reference_year"":2026}",source

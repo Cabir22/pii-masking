@@ -1,0 +1,70 @@
+{
+ "ckpt1": {
+  "B1": {
+   "status": "fail",
+   "result": "68.7 vs 68.7 (needs 70.7); M 71.4"
+  },
+  "B2": {
+   "status": "pass",
+   "result": "no label drops"
+  },
+  "C1": {
+   "status": "fail",
+   "result": "token_vs_key exact_recall [ACCESS_TOKEN] 25.0; token_vs_key confusion_rate [ACCESS_TOKEN→API_KEY] 75.0; contrast_token_key exact_recall [ACCESS_TOKEN] 25.0; contrast_token_key confusion_rate [ACCESS_TOKEN→API_KEY] 62.5"
+  },
+  "C2": {
+   "status": "fail",
+   "result": "ipv6_vs_mac confusion_rate [IPV6_ADDRESS→MAC_ADDRESS] 16.7; contrast_ipv6_mac exact_recall [IPV6_ADDRESS] 53.8; contrast_ipv6_mac confusion_rate [IPV6_ADDRESS→MAC_ADDRESS] 15.4"
+  },
+  "C3": {
+   "status": "fail",
+   "result": "licence_vs_id confusion_rate [AZ_DRIVER_LICENSE_NUMBER→AZ_ID_CARD_NUMBER] 100.0; contrast_licence_id confusion_rate [AZ_DRIVER_LICENSE_NUMBER→AZ_ID_CARD_NUMBER] 58.3"
+  },
+  "C4": {
+   "status": "fail",
+   "result": "11 of 11 families above 15% (decoy_cvv 100.0%, decoy_time 100.0%, decoy_age 100.0%, decoy_date 100.0%, decoy_zip 100.0%, decoy_fin 55.6%, decoy_voen_passport_id 33.3%, decoy_ipv4 41.7%, decoy_ipv6_mac 50.0%, decoy_card_iccid_iban 33.3%, decoy_names_as_org 100.0%); overall 73.4%; decoy_cvv: 12345 2/2; random 5-digit 5/5"
+  },
+  "C12": {
+   "status": "report",
+   "result": "2 of 52 families meet every absolute target (track R)"
+  },
+  "C13": {
+   "status": "pass",
+   "result": "none"
+  }
+ },
+ "runb": {
+  "B1": {
+   "status": "pass",
+   "result": "88.9 vs 68.7 (needs 70.7); M 92.0"
+  },
+  "B2": {
+   "status": "fail",
+   "result": "3 labels: AZ_FIN 94.7 → 68.1, CARD_SECURITY_CODE 93.9 → 70.6, ZIPCODE 80.5 → 79.5"
+  },
+  "C1": {
+   "status": "pass",
+   "result": "5 conditions met"
+  },
+  "C2": {
+   "status": "pass",
+   "result": "5 conditions met"
+  },
+  "C3": {
+   "status": "fail",
+   "result": "licence_vs_id confusion_rate [AZ_DRIVER_LICENSE_NUMBER→AZ_ID_CARD_NUMBER] 16.7; licence_vs_id confusion_rate [AZ_ID_CARD_NUMBER→AZ_DRIVER_LICENSE_NUMBER] 8.3"
+  },
+  "C4": {
+   "status": "fail",
+   "result": "7 of 11 families above 15% (decoy_cvv 100.0%, decoy_time 41.7%, decoy_age 41.7%, decoy_date 100.0%, decoy_zip 66.7%, decoy_card_iccid_iban 33.3%, decoy_names_as_org 16.7%); overall 35.5%"
+  },
+  "C12": {
+   "status": "report",
+   "result": "19 of 52 families meet every absolute target (track R)"
+  },
+  "C13": {
+   "status": "fail",
+   "result": "pem char_leakage_rate 20.5 → 37.4 (8 docs worse); single_entity exact_f1 64.0 → 46.2 (7 docs worse); watched: contrast_token_key, fmt_csv_noheader, foreign_names, names_list_lines, villages"
+  }
+ }
+}

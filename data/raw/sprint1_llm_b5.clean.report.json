@@ -1,0 +1,176 @@
+{
+ "batch": "data\\raw\\sprint1_llm_b5.jsonl",
+ "batch_sha256": "bbe2c33a427712bfcd4da06ab0207118ce411cb44d0fcb2f2f192f6b6790a3d2",
+ "clean": "data\\raw\\sprint1_llm_b5.clean.jsonl",
+ "clean_sha256": "bd9da35212bd5041e1332ea53e4fc1d26dd5e4e9072b546663524fc0a411dc6f",
+ "records": 21290,
+ "kept": 21265,
+ "dropped": 25,
+ "dropped_by_reason": {
+  "decoy_integrity:not a planted decoy string": 12,
+  "unplanned_pii": 12,
+  "validate_corpus:not_nfc": 1
+ },
+ "dropped_documents": [
+  {
+   "id": "llm_az_002481",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_004846",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005589",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_006485",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_006977",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_007125",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_008107",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_008660",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_010092",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_010838",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_011429",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_011910",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_014135",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_015164",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_015607",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_015700",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_016063",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_019184",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_019790",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_021136",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_022711",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_022721",
+   "reasons": [
+    "validate_corpus:not_nfc"
+   ]
+  },
+  {
+   "id": "llm_az_023911",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_024295",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_024590",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  }
+ ],
+ "unplanned_pii_in_kept": {
+  "documents": 0,
+  "share": 0.0,
+  "pii_free_documents": 0,
+  "by_label": {},
+  "examples": []
+ },
+ "dropped_unplanned_pii": true,
+ "validate_corpus_exit": 0,
+ "leakage_guard_exit": 0
+}

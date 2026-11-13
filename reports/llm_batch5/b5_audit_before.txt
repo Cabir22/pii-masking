@@ -1,0 +1,93 @@
+documents: 21,290
+
+1. PLANNED VALUES PRESENT BUT UNLABELLED: 0 occurrence(s) in 0 document(s)
+   of which a value with no labelled occurrence at all (count): 0 in 0 document(s) {}
+   by label: {}
+   by form : {}
+   planned values with no labelled occurrence, by label (share of that label's plans):
+   STREET 19/2456 (0.8%), DATE 42/8332 (0.5%), BUILDINGNUM 6/1730 (0.4%), GIVENNAME 19/5988 (0.3%), SURNAME 13/5120 (0.2%), AGE 3/1609 (0.2%), AZ_VOEN 1/614 (0.2%), TIME 2/1300 (0.1%)
+
+2. LABELS THAT DISAGREE WITH THE PLAN: 132  {'changed by noise after labelling (ok)': 120, 'not a form of any planned value': 5, 'standalone date, D-17 (ok)': 7}
+   llm_az_000502  changed by noise after labelling (ok): SURNAME 'MYOROVDUR'  ... BIR CAVAB ALA BILMIRIK. ŞIRKTIN RHBƏRI [[MYOROVDUR]] VƏ O, ƏMƏLIYYATLARI DAVAM ETDIRƏ BILMIR...
+   llm_az_000830  not a form of any planned value: GIVENNAME 'A1agüldən'  ...miz görüş çox səmimi və səmərəli keçdi. [[A1agüldən]] yeni layihə ilə bağlı bir neçə maraqlı ...
+   llm_az_000852  changed by noise after labelling (ok): DATE '04.10.B4'  ...  Sənəddə qeyd olunanlar: Doğum tarixi: [[04.10.B4]] Şəxsiyyət vəsiqəsi №: X72418784 Əlaqə n...
+   llm_az_000940  changed by noise after labelling (ok): DATE '22.4.l950'  ...rçivəsində hesab sahibinin doğum tarixi [[22.4.l950]] olaraq qeyd edilmişdir. Əgər bu  məluma...
+   llm_az_001123  changed by noise after labelling (ok): CARD_SECURITY_CODE 'G495'  ...m dəfələrlə xəta verir. Kartın CVV kodu [[G495]] yazıram, yenə də uğursuz olur. Bu necə ...
+
+3. DECOY INTEGRITY: 22184 decoy span(s) checked, 8945 policy/contextual; problems: {'not a planted decoy string': 12}
+   llm_az_002481  not a planted decoy string: PARTIAL_PHONE '+994  ** *** ** 82'  ... ERR_OJTSEH saat 17:94 radələrində: *** [[+994  ** *** ** 82]]...
+   llm_az_005589  not a planted decoy string: LOYALTY_CARD_LUHN_BAD '6430\t6421\t4061\t7366'  ...api_lYrQj75p7503XVlKTi9QiadbOuF3aaCIaxf [[6430	6421	4061	7366]]...
+   llm_az_007125  not a planted decoy string: MAC_LIKE_HASH '37:82:bf:97-2d-32:ab:f7:6f:27:8f:ba:f5:10:81:24'  ...NFO] Avadanlıq MAC ünvanı aşkar edildi: [[37:82:bf:97-2d-32:ab:f7:6f:27:8f:ba:f5:10:81:24]] [2020-11-02 08:00:20] [INFO] Sistem yük...
+   llm_az_010092  not a planted decoy string: LOYALTY_CARD_LUHN_BAD '6819  2054 2188 0799'  ...----- Sistem İdentifikasiyası           [[6819  2054 2188 0799]] Protokol Versiyası              sk_live...
+   llm_az_010838  not a planted decoy string: MASKED_CARD '**** **** ****   8053'  ...art məlumatları yoxlanıldıqda, ödənişin [[**** **** ****   8053]] ilə bitən kart vasitəsilə icra olunduğu...
+
+4. RATES (share of all documents)
+   hard_negative  requested 30.0%   in the text 28.4%   in the briefs 29.8%
+   adversarial    requested 20.0%   in the text 19.4%   in the briefs 19.5%
+   pii_free       requested 10.0%   in the text 9.6%
+   edge_case      requested 30.0%   in the text 29.9%
+   any decoy in the text (_hard_negatives > 0, the batch-1 README's measure): 35.2%
+   label share / target, furthest off: IPV6_ADDRESS 2.93, DATE 2.69, MAC_ADDRESS 2.19, AZ_DRIVER_LICENSE_NUMBER 2.14, AZ_ID_CARD_NUMBER 1.63, ACCESS_TOKEN 1.46
+
+5. D-9: {'mentions': 25868, 'suffixed (label includes the suffix)': 12610}
+   D-10: {'documents of 1-5 words': 7}
+   validate_example failures: none
+
+7. INDEPENDENT SWEEP, PII THE MODEL INVENTED (informational): 0 document(s) (0.0%), 0 of them declared PII-free; {}
+
+8. STANDALONE DATES LEFT UNLABELLED (D-17; timestamps excluded): 0 in 0 document(s) (0.0%); {}. scripts/relabel_standalone_dates.py labels them
+
+6. REJECTS: 3,456
+     1755   50.8%  quality
+      628   18.2%  leaked unlabeled PII
+      474   13.7%  validation
+      279    8.1%  judgment leak
+      192    5.6%  api
+       98    2.8%  taxonomy label leaked into text
+       27    0.8%  no entities resolved
+        2    0.1%  near-duplicate
+        1    0.0%  missing values
+   name rejects: {}
+   top-10 sub-reasons:
+      995  quality | unlabelled date (D-N)
+            e.g. Göndərən: İnzibati departament Tarix: 15 may 2023 Mövzu: Re: Ünvanın dəqiqləşdirilməsi  Zəhmət olmasa, yeni sənədləri 66-cı Binə küçəsi ünvanına göndərin. Həmçi
+            e.g. Sığorta Hadisəsinin Texniki Hesabatı (2021-ci il)  Müraciət edilən əmlakın yerləşdiyi ünvan: 17 nömrəli bina. Hadisə yerində aparılan ilkin müayinə nəticəsində 
+            e.g. Azərbaycan İnvestisiya Bankı Rəqəmsal Xidmətlər Departamentinin Məlumatlandırma Bölməsi  Referans №: 2026/MT-99281 Tarix: 14 may 2026-cı il  Hörmətli müştəri,  
+      365  validation | language: only N az words
+            e.g. [2022-08-12 11:05] Gömrük bəyanatı emalı: * Sənəd: ****3384 * E-poçt: okturk.serverov@box.az * Kod: 13.20.98.5782 * Partiya: •••• 1012
+            e.g. # Ayarlar konfiqurasiyası # Müşkinazdan gələn məlumatlar: user_data {     doğum tarixi: 06.06.57     ünvan: bina 128     kod: ****1234 } # S1stem statusu [2022-
+            e.g. [2024-03-15 11:40] LVL   MOD    MSG [2024-03-15 11:41] INF   sys    başladı [2024-03-15 11:45] ERR   auth   Ramizədə xəta var [2024-03-15 11:46] WRN   db     ba
+      245  quality | invented PII (CITY)
+            e.g. Tərtib tarixi: 2019-11-27  Salam, avtomobilin qeydiyyat və servis vəziyyəti ilə bağlı bütün qeydləri bura əlavə edirəm. Bayaqdan axtarırdım bu sənədləri, sonda 
+            e.g. XEZER LOG TEXNİKA MAĞAZASI RƏSMİ ÖDƏNİŞ QƏBZİ 2015-ci il, may ayı  Müştəri: Bəybala Mağaza  Ünvanı: Qüdrət Həsənov döngəsində, Bakı şəhəri.  -------------------
+            e.g. POLİS MƏLUMATNAMƏSİ  Araşdırma maddəsi: Şəxsi məlumatların qorunması və hadisənin təfərrüatları.  Mövzu haqqında qısa məlumat: Mahisara Nailova haqqında daxil o
+      232  judgment leak | ['…']
+            e.g. MƏHKƏMƏ VƏSİQƏSİ - İDDİA MATERİALLARININ ƏLAVƏSİ İstinaf dərəcəli müraciət № 2026-AZ-7742 Tarix: 2026-cı il  Aşağıda təqdim olunan məlumatlar, iddiaçı tərəfində
+            e.g. ---------- Yönləndirilən mesaj --------- Göndərən: Proqram Təminatı Komandası Tarix: 14 dekabr 2022 Mövzu: Re: Pull Request #402 - Refaktorlaşdırma  > Bu hissəd
+            e.g. Mövzu: Sistemdəki qeyri-müəyyənlik haqqında  Müştəri şikayəti: Salam, mən çox narahatam və nə edəcəyimi bilmirəm! Sistemdə hər şey çox qarışıq görünür və mən də
+      164  quality | invented PII (STREET)
+            e.g. Sənəd tarixi: 2025-02-24  Müştəri məlumatları: Müştəri: Şəxsi hesab sahibi Doğum tarixi: 25.09.74 Ünvan: Nizami küç., bina 114  Hesablaşma: Xidmət: Elektrik ene
+            e.g. ## TEXNİKİ XİDMƏT REQLAMI (2026)  Yenə eyni problem. Bu sənədlərin hər dəfə yenilənməsi niyə bu qədər çətin olur? Hər kəs köhnə qaydaları istifadə edir və nətic
+            e.g. İclasın qeydləri  Bu sənəd 14.03.2017 tarixində tərtib edilib.  Məkan: Nizami küçəsi, bina 212/5. Başlanğıc vaxt: 12:03 PM. Əlaqə nömrəsi: +994-51-641-64-63.  G
+       84  leaked unlabeled PII | EMAIL:support@hal-x.ai
+            e.g. Mövlamovanın Murovdağ tuneli döngəsinə olan sifarişində ****1234 və *** xəta baş verdiyini üzr istəyərək bildiririk.  06.11.2024  Texniki dəstək komandası suppo
+            e.g. --- Gonderildi: support@hal-x.ai Tarix: 14 may 2021  Movzu: Yeni muraciet: Odenis xetasi barede ---  Musteri Xidmeti Agenti: Salam! Men sizinle   elaqede olan m
+            e.g. Sənəd tarixi: 7 fevral 2017  Kimdən: Dəstək Komandası <support@hal-x.ai> Kimə: ulvibey.aganezerov@icloud.com Tarix: 7 fevral 2017, saat 10:45 Mövzu: Re: Giriş p
+       83  api | LMServerError: [wahoo-N.N-preview] litellm.ServiceUnavailableError: Se
+            e.g. 
+            e.g. 
+            e.g. 
+       78  quality | planned value never labeled (SURNAME, misspelled)
+            e.g. Rəsmi Bildiris: 2021-ci il üzre sistem qeydlərinin rəsmiləşdirilməsi barədə.  2021-ci ilin ilkin rübü üzre dövlət xidmetlerinin rəqəmsallaşdırılması proqramı çə
+            e.g. Həkim, xahiş edirəm, mənə kömək edin! Hər şey çox qarışıqdır və mən həqiqətən nə baş verdiyini anlamıram. Bu səhər başlayan hadisələr məni tamamilə sarsıtdı, sa
+            e.g. Tarix: 27 oktyabr 2016  Xəta Hesabatı: Ödəniş Modulunda Nasazlıq  Problem Təsviri: Sistem daxilində ödəniş prosesi zamanı ciddi xəta aşkar edilib. Allahqulilərd
+       58  validation | turkish_lexis: buyuk
+            e.g. TEXNIKI NASAZLIQ HESABATI - LOGISTIKA MODULU Referans: OF962-DEWDD-1O5U5-JRIMU-SXFME Tarix: May 2018  XETA İCMALI Sistemin logistika idareetme modulunda operati
+            e.g. ---------- Forwarded message --------- Göndərən: q.efzelov@azertelekom.az Tarix: 9 mart 2018 21:21 Mövzu: Bank xidmeti haqqinda sikayet  Bu sənəd 9 mart 2018 ta
+            e.g. Pull request üzrə rəylər:  Kodun strukturunda bəzi təkmilləşdirmələrə ehtiyac var. Xüsusilə autentifikasiya mərhələsində istifadə olunan endpointin doğruluğunu 
+       57  quality | planned value never labeled (GIVENNAME, misspelled)
+            e.g. 2022-ci il üzrə işçi performans hesabatı  Güntəkinin cari fəaliyyəti və sistem giriş icazələri aşağıdakı kimi rəsmiləşdirilmişdir:  { "işçi_adı": "Güntək", "şəx
+            e.g. Tərtib tarixi: 29.08.2016  Salam! Ümid edirəm hər şey yaxşıdır.  Mən İncinisə, sistemdə bir problem tapdım və bunu sizinlə bölüşmək istədim.  Xətanın detalları:
+            e.g. Göndərildi: Logistika şöbəsi Orijinal mesaj:  Tarix: 18.08.2021 Çatdırılma sənədi: sifariş №86203470 dərhal göndərilməlidir. Шираслаndan gələn sorğuya əsasən, y
+
+json -> reports\llm_batch5\b5_audit_before.json

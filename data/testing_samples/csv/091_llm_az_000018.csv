@@ -1,0 +1,11 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000018,"Muqavilenin terəfləri arasında resmi bildirislərin gondərilmesi ucun asagıda-
+ki əlaqe vasiteləri təyin edilmisdir:
+
+Elaqe nömresi: +994-50-833-47-75
+
+ID_Sayi | Region | Status | Tarix
+10293 | BAKI | Aktiv | 14.05.2018
+
+Terefler bu nomrə vasitesilə edilen butun resmi çagirışları qebul edilmiş h-
+esab edirler.",az,"[{""start"":132,""end"":149,""label"":""TELEPHONENUM"",""text"":""+994-50-833-47-75""}]",contract_clause,short,technical and precise,"[""line_wrap"",""strip_diacritics""]",0,0,llm,"{""index"":18,""lang"":""az"",""doc_type"":""contract_clause"",""doc_type_hint"":""an excerpt from a contract naming the parties"",""register"":""technical and precise"",""band"":""short"",""min_chars"":150,""max_chars"":400,""length_hint"":""a short paragraph"",""entities"":[{""label"":""TELEPHONENUM"",""value"":""+994-50-833-47-75""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a line that was clearly pasted from a spreadsheet""],""negative_only"":false,""seed"":2028168523,""edge_case"":{""id"":""TEL-01"",""status"":""positive_valid"",""description"":""International form with spaces."",""scenario"":""""},""reference_year"":2018}",source

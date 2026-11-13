@@ -1,0 +1,31 @@
+{
+ "stats": {
+  "documents": 5133,
+  "date_labels_before": 605,
+  "unlabelled_dates_before": 3554,
+  "docs_with_unlabelled_before": 2661,
+  "unlabelled_dates_after": 0,
+  "docs_with_unlabelled_after": 0,
+  "date_labels_after": 4159,
+  "docs_changed": 2661,
+  "spans_added": 3554
+ },
+ "left_by_reason": {},
+ "changed_by_language": {
+  "az": 2661
+ },
+ "examples": [
+  "Tarix: 14 May 2016-cı il  Mövzu: Texni",
+  "CRM Qeydi | 15.05.2016  Bu gün Naxışbəyim ",
+  "[Ses yazisi transkripsiyası - 15.08.2022]  \"Salam, men texni",
+  "ŞƏXSİ İŞ FAYLI № 0092-X Sənəd tarixi: 12.10.2015  ÜMUMİ MƏLUMAT Vəzi",
+  "rması Sənəd nömrəsi: 2026/8842-X Tarix: 14.03.2026  Müraciət edən şəxs",
+  "Tarix: 24 oktyabr 2015-ci il Rəsmi Bildiri",
+  " Məbləğ | Status | Hesab_Növü 9928374 | 15.05.2026 | 1240.50 AZN | Şüb",
+  "usu\tSon_Yenilənmə 3YTAUJJ\tOrdubad\tAktiv\t12.05.2026  Bundan əlavə, əvvə",
+  "Sessiya İdarəetməsi Problemləri  Tarix: 14 May 2026 Prioritet: Kritik  ",
+  "YA PROSESİ HAKKINDA RƏSMİ SƏNƏD  Tarix: 12 may 2024-cü il  Hörmətli əmə",
+  "d message --------- From: Billing Date: 12.10.2017 Subject: Hesab  ID;",
+  "0perasiya təlimatı (Tarix: 12.05.2026): Sistemin l0q fayl"
+ ]
+}

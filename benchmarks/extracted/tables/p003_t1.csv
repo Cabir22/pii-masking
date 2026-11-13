@@ -1,0 +1,9 @@
+Metric,Dəyər,Şərh
+TP,7761,Tam label və span uyğunluğu
+FP,4482,Artıq və ya yanlış maskalama (False Positive)
+FN,2677,Qaçırılmış və ya exact uyğun olmayan gold (False Negative)
+Weighted F1,67.9%,Support-a görə çəkili
+Perfect documents,1536 / 5000,30.7%
+Documents with FP,2649 / 5000,53.0%
+Documents with FN,2054 / 5000,41.1%
+Negative-only with FP,282 / 627,45.0%

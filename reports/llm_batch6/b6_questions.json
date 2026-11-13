@@ -1,0 +1,405 @@
+{
+ "name_share": {
+  "old (kept az)": {
+   "docs": 90065,
+   "labels": 345639,
+   "names": 88300,
+   "share": 0.2555,
+   "names_per_doc": 0.98
+  },
+  "llm b1": {
+   "docs": 5057,
+   "labels": 17148,
+   "names": 3549,
+   "share": 0.207,
+   "names_per_doc": 0.7
+  },
+  "llm b2": {
+   "docs": 5684,
+   "labels": 21601,
+   "names": 4810,
+   "share": 0.2227,
+   "names_per_doc": 0.85
+  },
+  "llm b3": {
+   "docs": 5862,
+   "labels": 23213,
+   "names": 5195,
+   "share": 0.2238,
+   "names_per_doc": 0.89
+  },
+  "llm b4": {
+   "docs": 5893,
+   "labels": 21205,
+   "names": 5111,
+   "share": 0.241,
+   "names_per_doc": 0.87
+  },
+  "llm b5": {
+   "docs": 20954,
+   "labels": 77856,
+   "names": 17703,
+   "share": 0.2274,
+   "names_per_doc": 0.84
+  },
+  "llm b6": {
+   "docs": 23977,
+   "labels": 124855,
+   "names": 61714,
+   "share": 0.4943,
+   "names_per_doc": 2.57
+  },
+  "targeted 25k": {
+   "docs": 25000,
+   "labels": 51513,
+   "names": 14707,
+   "share": 0.2855,
+   "names_per_doc": 0.59
+  },
+  "benchmark": {
+   "docs": 9780,
+   "labels": 20602,
+   "names": 1579,
+   "share": 0.0766,
+   "names_per_doc": 0.16
+  },
+  "v2 mix (old + b1-b5 + targeted)": {
+   "docs": 158515,
+   "labels": 558175,
+   "names": 139375,
+   "share": 0.2497,
+   "names_per_doc": 0.88
+  },
+  "v3 mix (+ b6)": {
+   "docs": 182492,
+   "labels": 683030,
+   "names": 201089,
+   "share": 0.2944,
+   "names_per_doc": 1.1
+  }
+ },
+ "label_shares_v2_v3_bench": {
+  "GIVENNAME": [
+   0.1381,
+   0.1661,
+   0.0377
+  ],
+  "DATE": [
+   0.1514,
+   0.1413,
+   0.0375
+  ],
+  "SURNAME": [
+   0.1116,
+   0.1283,
+   0.039
+  ],
+  "EMAIL": [
+   0.09,
+   0.0843,
+   0.0363
+  ],
+  "TELEPHONENUM": [
+   0.0765,
+   0.0713,
+   0.0379
+  ],
+  "CITY": [
+   0.0597,
+   0.057,
+   0.0357
+  ],
+  "STREET": [
+   0.0394,
+   0.037,
+   0.0365
+  ],
+  "ZIPCODE": [
+   0.0297,
+   0.0276,
+   0.0366
+  ],
+  "BUILDINGNUM": [
+   0.0254,
+   0.0241,
+   0.0359
+  ],
+  "TIME": [
+   0.0241,
+   0.0224,
+   0.0388
+  ],
+  "AGE": [
+   0.0239,
+   0.0223,
+   0.0391
+  ],
+  "API_KEY": [
+   0.0226,
+   0.0219,
+   0.0362
+  ],
+  "AZ_ID_CARD_NUMBER": [
+   0.0209,
+   0.0199,
+   0.0371
+  ],
+  "URL": [
+   0.0189,
+   0.0177,
+   0.0354
+  ]
+ },
+ "b6_names_per_doc": {
+  "mean": 2.57,
+  "max": 73,
+  "ge20": 147,
+  "ge40": 2,
+  "by_genre": {
+   "official_notice": [
+    2874,
+    3.08
+   ],
+   "news_article": [
+    3094,
+    2.1
+   ],
+   "government_form": [
+    2964,
+    2.52
+   ],
+   "legal_notice": [
+    2993,
+    2.25
+   ],
+   "court_announcement": [
+    2804,
+    3.21
+   ],
+   "procurement_announcement": [
+    3149,
+    3.01
+   ],
+   "court_filing": [
+    2925,
+    2.44
+   ],
+   "press_release": [
+    3174,
+    2.07
+   ]
+  }
+ },
+ "repeats": {
+  "b6, all labels": {
+   "docs": 21624,
+   "ge5": 96,
+   "ge10": 8,
+   "ge20": 0,
+   "worst": [
+    [
+     19,
+     "llm_az_018806",
+     "TIME"
+    ],
+    [
+     17,
+     "llm_az_009347",
+     "IPV4_ADDRESS"
+    ],
+    [
+     14,
+     "llm_az_018123",
+     "BUILDINGNUM"
+    ],
+    [
+     12,
+     "llm_az_026221",
+     "IPV6_ADDRESS"
+    ],
+    [
+     12,
+     "llm_az_013821",
+     "GIVENNAME"
+    ],
+    [
+     11,
+     "llm_az_009614",
+     "SURNAME"
+    ],
+    [
+     10,
+     "llm_az_004219",
+     "GIVENNAME"
+    ],
+    [
+     10,
+     "llm_az_000181",
+     "SURNAME"
+    ]
+   ]
+  },
+  "b6, names left out": {
+   "docs": 20938,
+   "ge5": 68,
+   "ge10": 4,
+   "ge20": 0,
+   "worst": [
+    [
+     19,
+     "llm_az_018806",
+     "TIME"
+    ],
+    [
+     17,
+     "llm_az_009347",
+     "IPV4_ADDRESS"
+    ],
+    [
+     14,
+     "llm_az_018123",
+     "BUILDINGNUM"
+    ],
+    [
+     12,
+     "llm_az_026221",
+     "IPV6_ADDRESS"
+    ]
+   ]
+  },
+  "b1-b5 clean, names left out": {
+   "docs": 38813,
+   "ge5": 386,
+   "ge10": 73,
+   "ge20": 30,
+   "worst": [
+    [
+     76,
+     "llm_az_019394",
+     "TIME"
+    ],
+    [
+     75,
+     "llm_az_003351",
+     "TIME"
+    ],
+    [
+     58,
+     "llm_az_004445",
+     "TIME"
+    ],
+    [
+     57,
+     "llm_az_023692",
+     "TIME"
+    ],
+    [
+     52,
+     "llm_az_003894",
+     "TIME"
+    ],
+    [
+     43,
+     "llm_az_002174",
+     "TIME"
+    ],
+    [
+     42,
+     "llm_az_005736",
+     "AZ_FIN"
+    ],
+    [
+     42,
+     "llm_az_000389",
+     "IPV4_ADDRESS"
+    ],
+    [
+     41,
+     "llm_az_017645",
+     "CITY"
+    ],
+    [
+     34,
+     "llm_az_002945",
+     "DATE"
+    ],
+    [
+     33,
+     "llm_az_015794",
+     "TIME"
+    ],
+    [
+     33,
+     "llm_az_006347",
+     "TIME"
+    ],
+    [
+     32,
+     "llm_az_013067",
+     "IPV6_ADDRESS"
+    ],
+    [
+     31,
+     "llm_az_023965",
+     "ICCID"
+    ],
+    [
+     31,
+     "llm_az_014687",
+     "TIME"
+    ]
+   ]
+  },
+  "benchmark, names left out": {
+   "docs": 8429,
+   "ge5": 0,
+   "ge10": 0,
+   "ge20": 0,
+   "worst": []
+  }
+ },
+ "d42c": {
+  "phones": {
+   "run 1 (before D-40b/D-42c)": {
+    "all": 471,
+    "+994 (55) 123-45-67": 0
+   },
+   "runs 2-3 (D-42c code)": {
+    "all": 5548,
+    "+994 (55) 123-45-67": 712
+   }
+  },
+  "zips": {
+   "run 1 (before D-40b/D-42c)": {
+    "all": 171,
+    "bare 4 digits": 0
+   },
+   "runs 2-3 (D-42c code)": {
+    "all": 2140,
+    "bare 4 digits": 516
+   }
+  },
+  "new_kinds": {
+   "run 1 (before D-40b/D-42c)": {
+    "email_dotless_domain": 0,
+    "api_key_short": 0,
+    "ipv6_non_hex": 0,
+    "ipv6_two_compressions": 0,
+    "jwt_two_segments": 0,
+    "cvv_sequential_5": 0
+   },
+   "runs 2-3 (D-42c code)": {
+    "email_dotless_domain": 130,
+    "api_key_short": 154,
+    "ipv6_non_hex": 128,
+    "ipv6_two_compressions": 141,
+    "jwt_two_segments": 131,
+    "cvv_sequential_5": 116
+   }
+  },
+  "bad_shape": {},
+  "retired_kinds": {
+   "cvv_separator": 135
+  }
+ }
+}

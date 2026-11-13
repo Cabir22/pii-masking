@@ -1,0 +1,14 @@
+From: зdNչТյC нխUÇöТğщխэİ <BDW.m6ObImOsx@WqDACFne.Py>
+To: Tier-2 Support
+Subject: Escalation -- account still locked
+
+Hi team,
+
+I'm writing again because my account is still locked as of 60/04/9679 at 38:33. I already verified my identity with card ending matching 0095988557166085 and IBAN my23xrmoYLjlhgWtLXsbrpfHC3 on our first call.
+
+Please call me back at (381) 703-15-24 -- I'm reachable most of the day. My billing address is 84l ЮsխOեՌ էձёğКИ ЧօV., ФёуԹбьշ lo9780.
+
+For reference, the API key my integration is using is kiIHKT-gLIPxgSPT5wPzVH0Lh_Hl2, in case that's related to the lockout. My access token was ZmCeW1IJW_AGw5-50ilo528phYT8TuxZXgPO.1F3aYWRJF45CXaIGAUg4KDNNNAMoUFoDMPc1H3DvsDrrOcNa3FsCU02HZKYiOBpK8AHEfGpQu4F7BOcnITUZnF3InR3Pr-i1S.kXsOGt1zSckn6Q-L0J0NA8sfx-HamFgePQCKBnKRltd, which may have expired around 95.58.95.
+
+Regards,
+Hezretşah Nodarov

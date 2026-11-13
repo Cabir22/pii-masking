@@ -1,0 +1,424 @@
+{
+  "generated": "2026-10-01 11:37 UTC",
+  "seed": 20261001,
+  "plan": "SLM test plan",
+  "source": {
+    "dir": "data/processed/merged_relabeled_swept",
+    "sha256": {
+      "train.docs.jsonl": "b4c737c162f8374a3eaf098fb614c68839ff7f3210bd2846e33d67e348dfc014",
+      "val.docs.jsonl": "a4e65ecbcb6e38b0335e115a5459876cdb8a92dbdb3ec357094666b24a8a4379"
+    }
+  },
+  "per_language": {
+    "train": 16000,
+    "val": 1000
+  },
+  "splits": {
+    "train": {
+      "pool": 332888,
+      "dropped": 362,
+      "dropped_reasons": {
+        "grounded to another occurrence": 362
+      },
+      "ids_hash": "b5ca8d0c799db298c828ab67ce409fea309889789d52a7616f172eef5a1c3bb8",
+      "counts": {
+        "docs": {
+          "en": 16000,
+          "tr": 16000,
+          "az": 16000,
+          "ru": 16000
+        },
+        "no_pii_docs": {
+          "az": 3761,
+          "en": 3777,
+          "tr": 3800,
+          "ru": 3799
+        },
+        "mentions": {
+          "az": {
+            "ACCESS_TOKEN": 781,
+            "AGE": 1560,
+            "API_KEY": 1293,
+            "AZ_DRIVER_LICENSE_NUMBER": 629,
+            "AZ_FIN": 1149,
+            "AZ_ID_CARD_NUMBER": 836,
+            "AZ_PASSPORT_NUMBER": 711,
+            "AZ_VOEN": 596,
+            "BUILDINGNUM": 1800,
+            "CARD_SECURITY_CODE": 568,
+            "CITY": 3878,
+            "DATE": 2365,
+            "EMAIL": 6159,
+            "GIVENNAME": 8940,
+            "IBAN": 760,
+            "ICCID": 401,
+            "IPV4_ADDRESS": 935,
+            "IPV6_ADDRESS": 388,
+            "MAC_ADDRESS": 528,
+            "PAYMENT_CARD_NUMBER": 940,
+            "PRIVATE_KEY": 501,
+            "STREET": 2541,
+            "SURNAME": 7412,
+            "TELEPHONENUM": 5008,
+            "TIME": 1454,
+            "URL": 1241,
+            "ZIPCODE": 1917
+          },
+          "en": {
+            "ACCESS_TOKEN": 734,
+            "AGE": 1471,
+            "API_KEY": 1315,
+            "AZ_DRIVER_LICENSE_NUMBER": 603,
+            "AZ_FIN": 1113,
+            "AZ_ID_CARD_NUMBER": 856,
+            "AZ_PASSPORT_NUMBER": 710,
+            "AZ_VOEN": 610,
+            "BUILDINGNUM": 1781,
+            "CARD_SECURITY_CODE": 566,
+            "CITY": 3616,
+            "DATE": 2224,
+            "EMAIL": 6064,
+            "GIVENNAME": 8723,
+            "IBAN": 760,
+            "ICCID": 404,
+            "IPV4_ADDRESS": 1024,
+            "IPV6_ADDRESS": 383,
+            "MAC_ADDRESS": 489,
+            "PAYMENT_CARD_NUMBER": 946,
+            "PRIVATE_KEY": 503,
+            "STREET": 2387,
+            "SURNAME": 7177,
+            "TELEPHONENUM": 4848,
+            "TIME": 1382,
+            "URL": 1247,
+            "ZIPCODE": 1813
+          },
+          "ru": {
+            "ACCESS_TOKEN": 736,
+            "AGE": 1481,
+            "API_KEY": 1293,
+            "AZ_DRIVER_LICENSE_NUMBER": 600,
+            "AZ_FIN": 1039,
+            "AZ_ID_CARD_NUMBER": 834,
+            "AZ_PASSPORT_NUMBER": 697,
+            "AZ_VOEN": 602,
+            "BUILDINGNUM": 1808,
+            "CARD_SECURITY_CODE": 559,
+            "CITY": 3747,
+            "DATE": 2284,
+            "EMAIL": 6087,
+            "GIVENNAME": 8732,
+            "IBAN": 736,
+            "ICCID": 409,
+            "IPV4_ADDRESS": 963,
+            "IPV6_ADDRESS": 362,
+            "MAC_ADDRESS": 493,
+            "PAYMENT_CARD_NUMBER": 970,
+            "PRIVATE_KEY": 512,
+            "STREET": 2456,
+            "SURNAME": 6974,
+            "TELEPHONENUM": 4854,
+            "TIME": 1356,
+            "URL": 1222,
+            "ZIPCODE": 1791
+          },
+          "tr": {
+            "ACCESS_TOKEN": 732,
+            "AGE": 1553,
+            "API_KEY": 1336,
+            "AZ_DRIVER_LICENSE_NUMBER": 599,
+            "AZ_FIN": 1130,
+            "AZ_ID_CARD_NUMBER": 838,
+            "AZ_PASSPORT_NUMBER": 700,
+            "AZ_VOEN": 579,
+            "BUILDINGNUM": 1874,
+            "CARD_SECURITY_CODE": 577,
+            "CITY": 3723,
+            "DATE": 2179,
+            "EMAIL": 6084,
+            "GIVENNAME": 8876,
+            "IBAN": 763,
+            "ICCID": 417,
+            "IPV4_ADDRESS": 1017,
+            "IPV6_ADDRESS": 391,
+            "MAC_ADDRESS": 519,
+            "PAYMENT_CARD_NUMBER": 964,
+            "PRIVATE_KEY": 493,
+            "STREET": 2506,
+            "SURNAME": 7214,
+            "TELEPHONENUM": 4933,
+            "TIME": 1447,
+            "URL": 1235,
+            "ZIPCODE": 1828
+          }
+        },
+        "values_rendered_on_one_line": 1259
+      },
+      "files": {
+        "docs": {
+          "path": "export/docs/train.docs.jsonl",
+          "rows": 64000,
+          "sha256": "9d877ccbacbd119cf1d87a925a2d42a828ff8c830d79ebd5894ba012f2e6170c"
+        },
+        "xlmr": {
+          "path": "export/xlmr/train.jsonl",
+          "rows": 88586,
+          "sha256": "175bb3caeab52d7ee2614e118c8be55ddb2071ffa6f15acd369359a1efa50219"
+        },
+        "qwen3": {
+          "path": "export/qwen3/train.jsonl",
+          "rows": 64305,
+          "sha256": "041f1d1765fa9ec9f54d8efcd0bf755fde484cb8aa500b8bb51d96be2634d0f8"
+        },
+        "chat": {
+          "path": "export/chat/train.jsonl",
+          "rows": 64000,
+          "sha256": "923f57e6ee9d705c4576dce3520342f376377faa1922254b24654c3948da6d7d"
+        },
+        "opf": {
+          "path": "export/opf/train.jsonl",
+          "rows": 64000,
+          "sha256": "001ae7060987ec7ca4c26ae4f8eeeb7ec68b8364022703903079db8a5a25b16e"
+        }
+      },
+      "verify": {
+        "docs": {
+          "same_ids": true,
+          "round_trip_or_content_failures": 0
+        },
+        "xlmr": {
+          "same_ids": true,
+          "round_trip_or_content_failures": 0
+        },
+        "qwen3": {
+          "same_ids": true,
+          "round_trip_or_content_failures": 0
+        },
+        "chat": {
+          "same_ids": true,
+          "round_trip_or_content_failures": 0
+        },
+        "opf": {
+          "same_ids": true,
+          "round_trip_or_content_failures": 0
+        }
+      }
+    },
+    "val": {
+      "pool": 41727,
+      "dropped": 57,
+      "dropped_reasons": {
+        "grounded to another occurrence": 57
+      },
+      "ids_hash": "16b716f07ec30e513653f009bd9a818b1a9fc9550decf2cded3d5b2d5ec5575e",
+      "counts": {
+        "docs": {
+          "en": 1000,
+          "ru": 1000,
+          "az": 1000,
+          "tr": 1000
+        },
+        "no_pii_docs": {
+          "ru": 237,
+          "tr": 238,
+          "en": 236,
+          "az": 235
+        },
+        "mentions": {
+          "az": {
+            "ACCESS_TOKEN": 53,
+            "AGE": 92,
+            "API_KEY": 84,
+            "AZ_DRIVER_LICENSE_NUMBER": 51,
+            "AZ_FIN": 76,
+            "AZ_ID_CARD_NUMBER": 59,
+            "AZ_PASSPORT_NUMBER": 42,
+            "AZ_VOEN": 41,
+            "BUILDINGNUM": 118,
+            "CARD_SECURITY_CODE": 38,
+            "CITY": 180,
+            "DATE": 124,
+            "EMAIL": 347,
+            "GIVENNAME": 707,
+            "IBAN": 52,
+            "ICCID": 22,
+            "IPV4_ADDRESS": 83,
+            "IPV6_ADDRESS": 24,
+            "MAC_ADDRESS": 30,
+            "PAYMENT_CARD_NUMBER": 50,
+            "PRIVATE_KEY": 31,
+            "STREET": 160,
+            "SURNAME": 467,
+            "TELEPHONENUM": 308,
+            "TIME": 81,
+            "URL": 70,
+            "ZIPCODE": 101
+          },
+          "en": {
+            "ACCESS_TOKEN": 52,
+            "AGE": 99,
+            "API_KEY": 76,
+            "AZ_DRIVER_LICENSE_NUMBER": 41,
+            "AZ_FIN": 68,
+            "AZ_ID_CARD_NUMBER": 44,
+            "AZ_PASSPORT_NUMBER": 37,
+            "AZ_VOEN": 42,
+            "BUILDINGNUM": 102,
+            "CARD_SECURITY_CODE": 35,
+            "CITY": 191,
+            "DATE": 134,
+            "EMAIL": 372,
+            "GIVENNAME": 449,
+            "IBAN": 56,
+            "ICCID": 20,
+            "IPV4_ADDRESS": 57,
+            "IPV6_ADDRESS": 21,
+            "MAC_ADDRESS": 31,
+            "PAYMENT_CARD_NUMBER": 46,
+            "PRIVATE_KEY": 35,
+            "STREET": 159,
+            "SURNAME": 406,
+            "TELEPHONENUM": 289,
+            "TIME": 62,
+            "URL": 76,
+            "ZIPCODE": 115
+          },
+          "ru": {
+            "ACCESS_TOKEN": 47,
+            "AGE": 81,
+            "API_KEY": 82,
+            "AZ_DRIVER_LICENSE_NUMBER": 36,
+            "AZ_FIN": 77,
+            "AZ_ID_CARD_NUMBER": 54,
+            "AZ_PASSPORT_NUMBER": 47,
+            "AZ_VOEN": 39,
+            "BUILDINGNUM": 110,
+            "CARD_SECURITY_CODE": 36,
+            "CITY": 224,
+            "DATE": 114,
+            "EMAIL": 397,
+            "GIVENNAME": 501,
+            "IBAN": 44,
+            "ICCID": 23,
+            "IPV4_ADDRESS": 62,
+            "IPV6_ADDRESS": 27,
+            "MAC_ADDRESS": 31,
+            "PAYMENT_CARD_NUMBER": 51,
+            "PRIVATE_KEY": 29,
+            "STREET": 176,
+            "SURNAME": 427,
+            "TELEPHONENUM": 297,
+            "TIME": 89,
+            "URL": 79,
+            "ZIPCODE": 119
+          },
+          "tr": {
+            "ACCESS_TOKEN": 48,
+            "AGE": 114,
+            "API_KEY": 69,
+            "AZ_DRIVER_LICENSE_NUMBER": 32,
+            "AZ_FIN": 74,
+            "AZ_ID_CARD_NUMBER": 49,
+            "AZ_PASSPORT_NUMBER": 46,
+            "AZ_VOEN": 33,
+            "BUILDINGNUM": 104,
+            "CARD_SECURITY_CODE": 31,
+            "CITY": 233,
+            "DATE": 150,
+            "EMAIL": 381,
+            "GIVENNAME": 513,
+            "IBAN": 49,
+            "ICCID": 25,
+            "IPV4_ADDRESS": 62,
+            "IPV6_ADDRESS": 25,
+            "MAC_ADDRESS": 30,
+            "PAYMENT_CARD_NUMBER": 55,
+            "PRIVATE_KEY": 32,
+            "STREET": 157,
+            "SURNAME": 460,
+            "TELEPHONENUM": 335,
+            "TIME": 81,
+            "URL": 81,
+            "ZIPCODE": 102
+          }
+        },
+        "values_rendered_on_one_line": 62
+      },
+      "files": {
+        "docs": {
+          "path": "export/docs/val.docs.jsonl",
+          "rows": 4000,
+          "sha256": "427ea975b1894017f9fd944fab78ca51cd89627c2d349dca45eb6c544a069b74"
+        },
+        "xlmr": {
+          "path": "export/xlmr/val.jsonl",
+          "rows": 5545,
+          "sha256": "ae7bc45ec490f52938426a0d90f1adbe76672fd64a7b64c058b6de9e557a5154"
+        },
+        "qwen3": {
+          "path": "export/qwen3/val.jsonl",
+          "rows": 4014,
+          "sha256": "60b3414fe9b1d273e96a3a6d17c223227ed32037c8c68e5574aabab3e34be63b"
+        },
+        "chat": {
+          "path": "export/chat/val.jsonl",
+          "rows": 4000,
+          "sha256": "8eb7b08042530433a2c34e5ceed30ff3dcd70905a2f29f750a28fe2d16a59ada"
+        },
+        "opf": {
+          "path": "export/opf/val.jsonl",
+          "rows": 4000,
+          "sha256": "3e2993190c6e86531de50bc2fa767e4bf177ae3ee708f0910644217dcfcadfda"
+        }
+      },
+      "verify": {
+        "docs": {
+          "same_ids": true,
+          "round_trip_or_content_failures": 0
+        },
+        "xlmr": {
+          "same_ids": true,
+          "round_trip_or_content_failures": 0
+        },
+        "qwen3": {
+          "same_ids": true,
+          "round_trip_or_content_failures": 0
+        },
+        "chat": {
+          "same_ids": true,
+          "round_trip_or_content_failures": 0
+        },
+        "opf": {
+          "same_ids": true,
+          "round_trip_or_content_failures": 0
+        }
+      }
+    }
+  },
+  "edges": {
+    "xlmr": {
+      "entities": 217144,
+      "edge_inside_token": 1,
+      "edge_inside_token_share": 4.605238919795159e-06,
+      "docs_over_one_window": 13173,
+      "docs": 64000
+    },
+    "qwen3": {
+      "entities": 217144,
+      "edge_inside_token": 2063,
+      "edge_inside_token_share": 0.009500607891537413,
+      "docs_over_one_window": 283,
+      "docs": 64000
+    }
+  },
+  "ids_hash_all": "5728662a72bfca2030d26291bfb110b6d9d6f6520c45f49dc0560fe739760fae",
+  "tools": {
+    "python": "3.13.14",
+    "transformers": "4.57.6",
+    "tokenizers": "0.22.2",
+    "tokenizer_revisions": {
+      "xlm-roberta-large": "c23d21b0620b635a76227c604d44e43a9f0ee389",
+      "Qwen/Qwen3-1.7B": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e"
+    }
+  }
+}

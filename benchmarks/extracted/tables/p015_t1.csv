@@ -1,0 +1,4 @@
+Kəsim,Docs,TP,FP,FN,Precision,Recall,F1
+orthographic_noise,2010,2901,1686,1110,63.2%,72.3%,67.5%
+typo_noise,1134,1643,970,590,62.9%,73.6%,67.8%
+clean,2381,3969,2269,1274,63.6%,75.7%,69.1%

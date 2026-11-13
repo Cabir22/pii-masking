@@ -1,0 +1,615 @@
+{
+ "v3": {
+  "documents": 25000,
+  "labels": {
+   "IPV4_ADDRESS": {
+    "real": 892,
+    "real_docs": 500,
+    "real_forms": {
+     "public": 464,
+     "private": 252,
+     "documentation range": 108,
+     "carrier-grade NAT": 68
+    },
+    "real_family": {
+     "structured": 720,
+     "punct": 128,
+     "prose": 28,
+     "decoy_pair": 16
+    },
+    "real_context": {
+     "prose": 160,
+     "container:csv_header": 156,
+     "container:pipe_table": 155,
+     "container:csv_snake": 106,
+     "container:log": 90,
+     "container:json": 59,
+     "container:csv_noheader": 54,
+     "container:dialogue": 51,
+     "container:key_value": 32,
+     "container:config": 17,
+     "table / csv-like line": 7,
+     "label: value line": 5
+    },
+    "real_after": {
+     "space": 269,
+     "line break": 205,
+     ",": 147,
+     "]": 129,
+     "\"": 62,
+     ";": 57,
+     ".": 19,
+     "»": 3,
+     ")": 1
+    },
+    "lookalike": 132,
+    "lookalike_docs": 131,
+    "lookalike_kinds": {
+     "ipv4_octet_over_255": 132
+    },
+    "lookalike_family": {
+     "punct": 59,
+     "structured": 46,
+     "decoy_pair": 16,
+     "pii_free": 11
+    },
+    "lookalike_context": {
+     "prose": 81,
+     "container:csv_header": 9,
+     "container:pipe_table": 7,
+     "container:csv_noheader": 6,
+     "container:csv_snake": 5,
+     "container:config": 5,
+     "container:dialogue": 5,
+     "container:json": 3,
+     "container:key_value": 3,
+     "container:log": 3,
+     "label: value line": 3,
+     "table / csv-like line": 2
+    },
+    "both_in_doc": 49
+   },
+   "IPV6_ADDRESS": {
+    "real": 1450,
+    "real_docs": 1047,
+    "real_forms": {
+     ":: in the middle / lower": 433,
+     "full 8 groups (leading zeros) / lower": 235,
+     "full 8 groups / lower": 151,
+     ":: in the middle / upper": 102,
+     ":: at end / lower": 85,
+     ":: at start / lower": 79,
+     "IPv4-embedded ::ffff: / lower": 77,
+     "<prefix>::1 / lower": 48,
+     "full 8 groups (leading zeros) / upper": 40,
+     "full 8 groups / upper": 39,
+     ":: in the middle / mixed": 39,
+     "full 8 groups (leading zeros) / mixed": 22,
+     "<prefix>::1 / upper": 18,
+     "full 8 groups / mixed": 17,
+     ":: at start / upper": 13,
+     ":: at end / upper": 13,
+     "IPv4-embedded ::ffff: / upper": 12,
+     "<prefix>::1 / mixed": 9,
+     ":: at end / mixed": 8,
+     "IPv4-embedded ::ffff: / mixed": 6,
+     ":: at start / mixed": 2,
+     "<prefix>::1 / no letters": 1,
+     ":: at start / no letters": 1
+    },
+    "real_family": {
+     "structured": 732,
+     "contrast": 585,
+     "decoy_pair": 109,
+     "prose": 24
+    },
+    "real_context": {
+     "prose": 677,
+     "container:pipe_table": 168,
+     "container:csv_snake": 141,
+     "container:csv_header": 138,
+     "container:log": 67,
+     "container:csv_noheader": 65,
+     "container:json": 56,
+     "container:dialogue": 44,
+     "container:key_value": 35,
+     "label: value line": 26,
+     "container:config": 18,
+     "table / csv-like line": 15
+    },
+    "real_after": {
+     "space": 766,
+     ",": 239,
+     "line break": 197,
+     ".": 111,
+     ";": 79,
+     "\"": 56,
+     ")": 1,
+     "]": 1
+    },
+    "lookalike": 397,
+    "lookalike_docs": 374,
+    "lookalike_kinds": {
+     "ipv6_triple_colon": 133,
+     "ipv6_non_hex": 132,
+     "ipv6_two_compressions": 132
+    },
+    "lookalike_family": {
+     "pii_free": 238,
+     "decoy_pair": 109,
+     "structured": 50
+    },
+    "lookalike_context": {
+     "prose": 281,
+     "label: value line": 58,
+     "container:pipe_table": 12,
+     "container:csv_snake": 9,
+     "container:dialogue": 9,
+     "table / csv-like line": 8,
+     "container:log": 5,
+     "container:config": 4,
+     "container:key_value": 4,
+     "container:csv_noheader": 4,
+     "container:csv_header": 3
+    },
+    "both_in_doc": 142
+   },
+   "MAC_ADDRESS": {
+    "real": 1433,
+    "real_docs": 999,
+    "real_forms": {
+     "colon / upper": 376,
+     "colon / lower": 352,
+     "dash / lower": 153,
+     "dash / upper": 141,
+     "dotted aabb.ccdd.eeff / upper": 127,
+     "dotted aabb.ccdd.eeff / lower": 123,
+     "colon / mixed": 97,
+     "dotted aabb.ccdd.eeff / mixed": 35,
+     "dash / mixed": 29
+    },
+    "real_family": {
+     "structured": 764,
+     "contrast": 585,
+     "decoy_pair": 54,
+     "prose": 30
+    },
+    "real_context": {
+     "prose": 645,
+     "container:csv_header": 175,
+     "container:csv_snake": 158,
+     "container:pipe_table": 157,
+     "container:log": 79,
+     "container:csv_noheader": 68,
+     "container:dialogue": 47,
+     "container:json": 38,
+     "container:key_value": 28,
+     "container:config": 14,
+     "table / csv-like line": 13,
+     "label: value line": 11
+    },
+    "real_after": {
+     "space": 674,
+     ",": 400,
+     "line break": 208,
+     ";": 77,
+     "\"": 38,
+     ".": 32,
+     ")": 3,
+     "]": 1
+    },
+    "lookalike": 133,
+    "lookalike_docs": 133,
+    "lookalike_kinds": {
+     "mac_3_to_5_groups": 133
+    },
+    "lookalike_family": {
+     "decoy_pair": 54,
+     "structured": 44,
+     "pii_free": 35
+    },
+    "lookalike_context": {
+     "prose": 81,
+     "container:csv_snake": 10,
+     "container:pipe_table": 8,
+     "label: value line": 7,
+     "container:key_value": 7,
+     "container:dialogue": 6,
+     "container:csv_header": 5,
+     "container:csv_noheader": 4,
+     "container:log": 2,
+     "container:config": 2,
+     "table / csv-like line": 1
+    },
+    "both_in_doc": 83
+   },
+   "EMAIL": {
+    "real": 1582,
+    "real_docs": 985,
+    "real_forms": {
+     "local part: dot": 737,
+     "local part: digit": 251,
+     "local part: dot+digit": 225,
+     "local part: underscore": 219,
+     "local part: letters only": 126,
+     "local part: hyphen": 24
+    },
+    "real_family": {
+     "structured": 1129,
+     "form": 250,
+     "punct": 115,
+     "clerical": 59,
+     "prose": 29
+    },
+    "real_context": {
+     "container:csv_noheader": 600,
+     "label: value line": 250,
+     "container:csv_header": 134,
+     "prose": 134,
+     "container:csv_snake": 127,
+     "container:pipe_table": 100,
+     "table / csv-like line": 69,
+     "container:json": 47,
+     "container:log": 45,
+     "container:dialogue": 28,
+     "container:key_value": 26,
+     "container:config": 22
+    },
+    "real_after": {
+     ",": 537,
+     "line break": 393,
+     ";": 232,
+     "space": 216,
+     "!": 115,
+     "\"": 48,
+     "end of text": 22,
+     ".": 13,
+     "»": 3,
+     "]": 2,
+     ")": 1
+    },
+    "lookalike": 876,
+    "lookalike_docs": 797,
+    "lookalike_kinds": {
+     "email_double_at": 219,
+     "email_no_at": 219,
+     "email_dotless_domain": 219,
+     "email_localhost": 219
+    },
+    "lookalike_family": {
+     "structured": 338,
+     "form": 219,
+     "pii_free": 211,
+     "punct": 69,
+     "clerical": 39
+    },
+    "lookalike_context": {
+     "label: value line": 268,
+     "prose": 222,
+     "container:csv_noheader": 186,
+     "table / csv-like line": 48,
+     "container:csv_header": 40,
+     "container:csv_snake": 29,
+     "container:pipe_table": 26,
+     "container:json": 13,
+     "container:dialogue": 13,
+     "container:log": 12,
+     "container:key_value": 10,
+     "container:config": 9
+    },
+    "both_in_doc": 236
+   }
+  }
+ },
+ "v4": {
+  "documents": 25000,
+  "labels": {
+   "IPV4_ADDRESS": {
+    "real": 918,
+    "real_docs": 592,
+    "real_forms": {
+     "public": 474,
+     "private": 234,
+     "documentation range": 134,
+     "carrier-grade NAT": 76
+    },
+    "real_family": {
+     "structured": 597,
+     "decoy_pair": 108,
+     "cross_anchor": 90,
+     "punct": 89,
+     "prose": 34
+    },
+    "real_context": {
+     "prose": 307,
+     "container:csv_snake": 139,
+     "container:pipe_table": 131,
+     "container:csv_header": 96,
+     "container:log": 65,
+     "container:json": 42,
+     "container:csv_noheader": 42,
+     "container:dialogue": 39,
+     "container:key_value": 31,
+     "container:config": 12,
+     "label: value line": 10,
+     "table / csv-like line": 4
+    },
+    "real_after": {
+     "space": 400,
+     "line break": 181,
+     ",": 125,
+     "]": 90,
+     ";": 56,
+     "\"": 47,
+     ".": 15,
+     ")": 3,
+     "»": 1
+    },
+    "lookalike": 412,
+    "lookalike_docs": 401,
+    "lookalike_kinds": {
+     "ipv4_short_over_255": 103,
+     "ipv4_three_octets": 103,
+     "ipv4_placeholder": 103,
+     "ipv4_octet_over_255": 103
+    },
+    "lookalike_family": {
+     "pii_free": 129,
+     "decoy_pair": 108,
+     "cross_anchor": 90,
+     "structured": 45,
+     "punct": 40
+    },
+    "lookalike_context": {
+     "prose": 331,
+     "label: value line": 29,
+     "container:csv_snake": 11,
+     "container:dialogue": 9,
+     "table / csv-like line": 7,
+     "container:pipe_table": 4,
+     "container:key_value": 4,
+     "container:log": 4,
+     "container:json": 4,
+     "container:config": 3,
+     "container:csv_header": 3,
+     "container:csv_noheader": 3
+    },
+    "both_in_doc": 227
+   },
+   "IPV6_ADDRESS": {
+    "real": 975,
+    "real_docs": 687,
+    "real_forms": {
+     ":: in the middle / lower": 299,
+     "full 8 groups (leading zeros) / lower": 175,
+     "full 8 groups / lower": 100,
+     ":: at end / lower": 57,
+     ":: in the middle / upper": 55,
+     ":: at start / lower": 52,
+     "IPv4-embedded ::ffff: / lower": 45,
+     "<prefix>::1 / lower": 38,
+     ":: in the middle / mixed": 29,
+     "full 8 groups (leading zeros) / upper": 20,
+     "full 8 groups / upper": 18,
+     "full 8 groups (leading zeros) / mixed": 17,
+     ":: at end / upper": 13,
+     "<prefix>::1 / upper": 13,
+     "IPv4-embedded ::ffff: / upper": 11,
+     ":: at start / upper": 9,
+     ":: at start / mixed": 7,
+     "IPv4-embedded ::ffff: / mixed": 6,
+     "full 8 groups / mixed": 6,
+     ":: at end / mixed": 2,
+     "<prefix>::1 / no letters": 1,
+     "<prefix>::1 / mixed": 1,
+     ":: at start / no letters": 1
+    },
+    "real_family": {
+     "structured": 543,
+     "contrast": 358,
+     "decoy_pair": 49,
+     "prose": 25
+    },
+    "real_context": {
+     "prose": 410,
+     "container:csv_snake": 111,
+     "container:csv_header": 102,
+     "container:pipe_table": 90,
+     "container:log": 64,
+     "container:json": 47,
+     "container:csv_noheader": 42,
+     "container:dialogue": 41,
+     "container:key_value": 31,
+     "container:config": 15,
+     "label: value line": 13,
+     "table / csv-like line": 9
+    },
+    "real_after": {
+     "space": 458,
+     ",": 158,
+     "line break": 146,
+     ".": 79,
+     ";": 79,
+     "\"": 49,
+     ")": 3,
+     "]": 2,
+     "»": 1
+    },
+    "lookalike": 311,
+    "lookalike_docs": 292,
+    "lookalike_kinds": {
+     "ipv6_triple_colon": 104,
+     "ipv6_two_compressions": 104,
+     "ipv6_non_hex": 103
+    },
+    "lookalike_family": {
+     "pii_free": 235,
+     "decoy_pair": 49,
+     "structured": 27
+    },
+    "lookalike_context": {
+     "prose": 226,
+     "label: value line": 49,
+     "table / csv-like line": 9,
+     "container:pipe_table": 6,
+     "container:csv_header": 6,
+     "container:csv_noheader": 3,
+     "container:csv_snake": 3,
+     "container:json": 3,
+     "container:key_value": 2,
+     "container:dialogue": 2,
+     "container:log": 2
+    },
+    "both_in_doc": 72
+   },
+   "MAC_ADDRESS": {
+    "real": 1109,
+    "real_docs": 781,
+    "real_forms": {
+     "colon / upper": 276,
+     "colon / lower": 234,
+     "dash / upper": 147,
+     "dash / lower": 124,
+     "dotted aabb.ccdd.eeff / lower": 96,
+     "dotted aabb.ccdd.eeff / upper": 90,
+     "colon / mixed": 74,
+     "dash / mixed": 44,
+     "dotted aabb.ccdd.eeff / mixed": 24
+    },
+    "real_family": {
+     "structured": 606,
+     "contrast": 358,
+     "cross_anchor": 80,
+     "decoy_pair": 42,
+     "prose": 23
+    },
+    "real_context": {
+     "prose": 488,
+     "container:pipe_table": 142,
+     "container:csv_header": 97,
+     "container:csv_snake": 94,
+     "container:log": 89,
+     "container:csv_noheader": 52,
+     "container:dialogue": 43,
+     "container:json": 42,
+     "container:key_value": 40,
+     "table / csv-like line": 9,
+     "container:config": 7,
+     "label: value line": 6
+    },
+    "real_after": {
+     "space": 588,
+     ",": 241,
+     "line break": 154,
+     ";": 54,
+     "\"": 43,
+     ".": 26,
+     "]": 1,
+     ")": 1,
+     "»": 1
+    },
+    "lookalike": 206,
+    "lookalike_docs": 201,
+    "lookalike_kinds": {
+     "mac_fragment_dashed": 103,
+     "mac_3_to_5_groups": 103
+    },
+    "lookalike_family": {
+     "cross_anchor": 80,
+     "pii_free": 54,
+     "decoy_pair": 42,
+     "structured": 30
+    },
+    "lookalike_context": {
+     "prose": 162,
+     "label: value line": 9,
+     "container:pipe_table": 8,
+     "container:csv_header": 5,
+     "container:csv_noheader": 5,
+     "table / csv-like line": 5,
+     "container:log": 4,
+     "container:dialogue": 3,
+     "container:json": 2,
+     "container:csv_snake": 2,
+     "container:key_value": 1
+    },
+    "both_in_doc": 148
+   },
+   "EMAIL": {
+    "real": 1370,
+    "real_docs": 844,
+    "real_forms": {
+     "local part: dot": 669,
+     "local part: digit": 223,
+     "local part: underscore": 178,
+     "local part: dot+digit": 173,
+     "local part: letters only": 107,
+     "local part: hyphen": 20
+    },
+    "real_family": {
+     "structured": 999,
+     "form": 198,
+     "punct": 95,
+     "clerical": 56,
+     "prose": 22
+    },
+    "real_context": {
+     "container:csv_noheader": 583,
+     "label: value line": 198,
+     "container:pipe_table": 128,
+     "prose": 110,
+     "container:csv_header": 74,
+     "container:csv_snake": 71,
+     "table / csv-like line": 63,
+     "container:log": 43,
+     "container:dialogue": 34,
+     "container:json": 30,
+     "container:key_value": 22,
+     "container:config": 14
+    },
+    "real_after": {
+     ",": 429,
+     "line break": 298,
+     ";": 247,
+     "space": 230,
+     "!": 95,
+     "\"": 33,
+     ".": 17,
+     "end of text": 16,
+     ")": 4,
+     "»": 1
+    },
+    "lookalike": 740,
+    "lookalike_docs": 675,
+    "lookalike_kinds": {
+     "email_dotless_domain": 185,
+     "email_double_at": 185,
+     "email_no_at": 185,
+     "email_localhost": 185
+    },
+    "lookalike_family": {
+     "structured": 302,
+     "form": 192,
+     "pii_free": 164,
+     "punct": 57,
+     "clerical": 25
+    },
+    "lookalike_context": {
+     "label: value line": 234,
+     "container:csv_noheader": 182,
+     "prose": 173,
+     "container:pipe_table": 37,
+     "table / csv-like line": 31,
+     "container:log": 20,
+     "container:csv_snake": 19,
+     "container:csv_header": 16,
+     "container:dialogue": 13,
+     "container:json": 8,
+     "container:key_value": 4,
+     "container:config": 3
+    },
+    "both_in_doc": 218
+   }
+  }
+ }
+}

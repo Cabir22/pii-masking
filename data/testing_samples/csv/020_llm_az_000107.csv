@@ -1,0 +1,9 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000107,"Göndərilən: müştəri xidmətləri@bank.az
+Tarix: 14 noyabr 2016-cı il
+Mövzu: Şikayət barədə
+
+Hörmətli xidmət nümayəndəsi, üzr istəyirəm ki, sizi narahat edirəm, lakin hesabımda olan 63CNGC8 nömrəli əməliyyatla bağlı çox narahatam. Bu prosesdə səhvlik olub və mən çox üzgünəm.
+
+> Əvvəlki cavab:
+> Problemin həlli üçün zəhmət olmasa əlavə məlumat təqdim edin.",az,"[{""start"":179,""end"":186,""label"":""AZ_FIN"",""text"":""63CNGC8""}]",complaint_letter,short,apologetic,[],0,0,llm,"{""index"":107,""lang"":""az"",""doc_type"":""complaint_letter"",""doc_type_hint"":""an angry or frustrated complaint letter"",""register"":""apologetic"",""band"":""short"",""min_chars"":150,""max_chars"":400,""length_hint"":""a short paragraph"",""entities"":[{""label"":""AZ_FIN"",""value"":""63CNGC8""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a quoted reply section with '>' markers"",""include a forwarded-message header block""],""negative_only"":false,""seed"":44119593,""edge_case"":null,""reference_year"":2016}",source

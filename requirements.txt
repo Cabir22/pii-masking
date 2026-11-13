@@ -1,0 +1,38 @@
+transformers>=4.44
+datasets>=2.20
+tokenizers>=0.19,<0.23  # 0.23.x returns only the first overflow window: long documents lose text in predict.py
+sentencepiece>=0.2
+torch>=2.3
+accelerate>=0.30
+seqeval>=1.2.2
+optimum[onnxruntime]>=1.20
+onnxruntime>=1.18
+fastapi>=0.111
+uvicorn[standard]>=0.30
+pydantic>=2.7
+pyyaml>=6.0
+scikit-learn>=1.5
+requests>=2.31
+dspy>=2.5
+# Stream-integrity guard for the translation harness (script drift, repetition
+# loops, template leakage). Not on PyPI -- installed from source and pinned to a
+# SHA rather than a branch: single-maintainer research repo, and the guard sits
+# in the path of every translated document. numpy-only, no GPU, no network.
+simurg @ git+https://github.com/doofzoff/SIMURG@82c97ab375b5aac28354f9f5a1f742ba4933d279
+# Russian morphology, used only to decline the common noun in a street
+# value ("переулок" -> "переулка") so a preposition reads correctly.
+# Deliberately NOT used on transliterated Azerbaijani names: it has no
+# entry for them and guesses from the ending, reading "Гуйчу" as a verb.
+pymorphy3
+pymorphy3-dicts-ru
+# scripts/pii_guard -- document PII sanitisation service (DOCX/PPTX ->
+# detect -> mask -> external LLM). PDF is a different contributor's
+# workstream, not this package -- pdfplumber/pytesseract were added here for
+# it and removed on 2026-09-14 along with scripts/pii_guard/extract/pdf.py.
+#   python-docx  MIT. Reads paragraphs, tables, headers/footers separately
+#                (python-docx's `document.paragraphs` alone misses both).
+#   python-pptx  MIT. Slide body text boxes and speaker notes are separate
+#                extraction paths (STEP 9) -- kept as separate segments here
+#                so a caller can choose whether notes are sent at all.
+python-docx>=1.1
+python-pptx>=1.0

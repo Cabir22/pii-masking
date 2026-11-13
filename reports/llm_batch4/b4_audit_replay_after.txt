@@ -1,0 +1,47 @@
+REPLAY with today's code: 6,000 stored -> 5,960 accepted, 40 rejected (20 of them noised)
+      12  quality: planned value never labeled (SURNAME, misspelled)
+       8  validation: corrupt_text: foreign-script character '…'
+       3  quality: planned value never labeled (GIVENNAME, misspelled
+       2  quality: planned value never labeled (CITY, misspelled)
+       2  quality: invented PII (STREET)
+       1  leaked unlabeled PII: EMAIL:dəstək@hal-x.ai
+       1  leaked unlabeled PII: EMAIL:mühəndis@sistem.az
+       1  leaked unlabeled PII: EMAIL:müraciət@nümunə.az
+       1  quality: unlabelled date (D-N)
+       1  leaked unlabeled PII: EMAIL:texniki_dəstək@sistem.az
+       1  no entities resolved: 
+       1  leaked unlabeled PII: EMAIL:texniki.dəstək@sistem.az
+       1  quality: planned value never labeled (DATE, embedded)
+       1  leaked unlabeled PII: EMAIL:info@logistika-xidməti.az
+       1  leaked unlabeled PII: EMAIL:texniki.dəstək@azsoft.az
+
+documents: 5,960
+
+1. PLANNED VALUES PRESENT BUT UNLABELLED: 0 occurrence(s) in 0 document(s)
+   of which a value with no labelled occurrence at all (count): 0 in 0 document(s) {}
+   by label: {}
+   by form : {}
+   planned values with no labelled occurrence, by label (share of that label's plans):
+   DATE 11/2338 (0.5%), TIME 1/377 (0.3%), AGE 1/446 (0.2%), GIVENNAME 2/1709 (0.1%), SURNAME 1/1428 (0.1%), ACCESS_TOKEN 0/255 (0.0%), API_KEY 0/392 (0.0%), AZ_DRIVER_LICENSE_NUMBER 0/193 (0.0%)
+
+2. LABELS THAT DISAGREE WITH THE PLAN: 0  {}
+
+3. DECOY INTEGRITY: 6698 decoy span(s) checked, 2606 policy/contextual; problems: none
+
+4. RATES (share of all documents)
+   hard_negative  requested 30.0%   in the text 28.0%   in the briefs 29.8%
+   adversarial    requested 20.0%   in the text 20.3%   in the briefs 20.4%
+   pii_free       requested 10.0%   in the text 10.4%
+   edge_case      requested 30.0%   in the text 30.5%
+   any decoy in the text (_hard_negatives > 0, the batch-1 README's measure): 35.0%
+   label share / target, furthest off: DATE 2.85, ICCID 1.68, IPV6_ADDRESS 1.43, TIME 1.30, MAC_ADDRESS 1.23, EMAIL 0.82
+
+5. D-9: {'mentions': 7351, 'suffixed (label includes the suffix)': 2651}
+   D-10: {'documents of 1-5 words': 3}
+   validate_example failures: none
+
+7. INDEPENDENT SWEEP, PII THE MODEL INVENTED (informational): 0 document(s) (0.0%), 0 of them declared PII-free; {}
+
+8. STANDALONE DATES LEFT UNLABELLED (D-17; timestamps excluded): 0 in 0 document(s) (0.0%); {}. scripts/relabel_standalone_dates.py labels them
+
+json -> reports\llm_batch4\b4_audit_replay_after.json

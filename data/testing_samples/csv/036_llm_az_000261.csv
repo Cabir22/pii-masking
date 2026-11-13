@@ -1,0 +1,30 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000261,"Hörmətli Süheyliyevan,
+
+Sizinlə yenidən əlaqə saxlayırıq! Ümid edirik ki, gününüz hər zamankı kimi rəngarəng və pozitiv keçir. Bizim bankda işlər həmişə sürətlə gedir, amma sizin kimi sadiq müştərilərimizlə münasibətlərimizi qorumaq bizim üçün hər şeydən daha vacibdir.
+
+Sizin müraciətiniz və hesab məlumatlarınızla bağlı son yenilikləri nəzərə almaq üçün kiçik bir yoxlama apardıq. Aşağıda sizin üçün təsdiqlənmiş məlumatların xülasəsini təqdim edirik. Zəhmət olmasa, bu məlumatların doğruluğunu bir anlıq nəzərdən keçirin:
+
+------------------------------------------------------------
+MÜŞTƏRİ PROFİLİ VƏ ƏLAQƏ MƏLUMATLARI
+------------------------------------------------------------
+Məlumat Növü              | Detallar
+-------------------------|-----------------------------------
+Soyadı                   | Süheyliyeva
+Yaşayış ünvanı           | Oleq Miroşniçenko küç.
+Əlaqə nömrəsi            | +994-77-699-20-20
+Status                   | Aktiv
+------------------------------------------------------------
+
+Gördüyünüz kimi, hər şey qaydasındadır! Lakin, təhlükəsizlik qaydalarına əsasən, bir məqamı xatırlatmaq istəyirik. Sizin əsas kredit kartınızın son dörd rəqəmi ****8821 olaraq sistemimizdə qeyd edilib. Bu, sizin məlumatlarınızın tam təhlükəsizliyini təmin etmək üçün tətbiq etdiyimiz kiçik bir ""qoruma qalxanıdır"".
+
+Əgər ünvanınızda və ya əlaqə nömrənizdə hər hansı bir dəyişiklik olubsa, bizə bildirməyi unutmayın. Çünki biz istəmirik ki, sizin üçün hazırladığımız sürpriz endirim kodları və ya xüsusi təkliflər yanlış ünvanlara gedib ""yolunu azsın"". 
+
+Hər hansı bir sualınız yaranarsa, biz həmişə buradayıq. Şirin bir çay və ya qəhvə içərkən, bizə bir zəng etmək və ya mobil tətbiq vasitəsilə yazmaq kifayətdir.
+
+Hözn və xoşbəxtlik arzulayırıq!
+
+Hörmətlə,
+Sizin Bankınızın Müştəri Xidmətləri Komandası
+
+Tarix: 14 noyabr 2015-ci il",az,"[{""start"":811,""end"":822,""label"":""SURNAME"",""text"":""Süheyliyeva""},{""start"":850,""end"":872,""label"":""STREET"",""text"":""Oleq Miroşniçenko küç.""},{""start"":900,""end"":917,""label"":""TELEPHONENUM"",""text"":""+994-77-699-20-20""}]",bank_correspondence,long,friendly with light humour,[],0,0,llm,"{""index"":261,""lang"":""az"",""doc_type"":""bank_correspondence"",""doc_type_hint"":""a letter or secure message from a bank"",""register"":""friendly with light humour"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""SURNAME"",""value"":""Süheyliyeva""},{""label"":""STREET"",""value"":""Oleq Miroşniçenko küç.""},{""label"":""TELEPHONENUM"",""value"":""+994-77-699-20-20""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""use a table-like layout with aligned columns"",""include a partially redacted value elsewhere in the text (e.g. ****1234)""],""negative_only"":false,""seed"":1595749987,""edge_case"":null,""reference_year"":2015}",source

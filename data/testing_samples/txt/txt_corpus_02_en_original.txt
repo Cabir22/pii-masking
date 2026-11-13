@@ -1,0 +1,7 @@
+[2025-04-12 09:15:33] [INFO] Customer request processing is starting. We understand your concern and are trying to resolve the problem quickly.
+[2025-04-12 09:15:38] [DATA] Address information: Nizami street, building 105.
+[2025-04-12 09:15:42] [ERROR] Session was disconnected due to an inaccurate (no, inaccurate) connection of the system.
+[2025-04-12 09:15:45] [RECOVERY] Use the following link to restore the session: https://api.turanholding.az/confirm?uid=126930&token=LYe307VTiDhg_0bC0cOLJlK187kPoiGQT_1jFCJ9A
+[2025-04-12 09:15:50] [CHAT_HISTORY]
+> "Why are you still not answering? This is very important for me!"
+[2025-04-12 09:16:02] [INFO] Customer support: We apologize for the delay, our technical team is currently monitoring the process.

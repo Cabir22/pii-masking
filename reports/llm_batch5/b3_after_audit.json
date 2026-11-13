@@ -1,0 +1,537 @@
+{
+ "batch": "data\\raw\\sprint1_llm_b3.clean.jsonl",
+ "documents": 5965,
+ "unlabelled_planned": {
+  "values": 0,
+  "documents": 0,
+  "values_with_no_label_anywhere": 0,
+  "documents_with_no_label_anywhere": 0,
+  "no_label_anywhere_by_label": {},
+  "by_label": {},
+  "by_kind": {},
+  "examples": []
+ },
+ "planned": {
+  "ACCESS_TOKEN": {
+   "planned": 265,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AGE": {
+   "planned": 449,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "API_KEY": {
+   "planned": 420,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_DRIVER_LICENSE_NUMBER": {
+   "planned": 200,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_FIN": {
+   "planned": 333,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_ID_CARD_NUMBER": {
+   "planned": 294,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_PASSPORT_NUMBER": {
+   "planned": 246,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_VOEN": {
+   "planned": 197,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "BUILDINGNUM": {
+   "planned": 504,
+   "not_labelled_anywhere": 1,
+   "share": 0.002
+  },
+  "CARD_SECURITY_CODE": {
+   "planned": 245,
+   "not_labelled_anywhere": 1,
+   "share": 0.0041
+  },
+  "CITY": {
+   "planned": 884,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "DATE": {
+   "planned": 655,
+   "not_labelled_anywhere": 5,
+   "share": 0.0076
+  },
+  "EMAIL": {
+   "planned": 1704,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "GIVENNAME": {
+   "planned": 1714,
+   "not_labelled_anywhere": 1,
+   "share": 0.0006
+  },
+  "IBAN": {
+   "planned": 233,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "ICCID": {
+   "planned": 143,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "IPV4_ADDRESS": {
+   "planned": 254,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "IPV6_ADDRESS": {
+   "planned": 143,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "MAC_ADDRESS": {
+   "planned": 175,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "PAYMENT_CARD_NUMBER": {
+   "planned": 311,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "PRIVATE_KEY": {
+   "planned": 194,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "STREET": {
+   "planned": 732,
+   "not_labelled_anywhere": 3,
+   "share": 0.0041
+  },
+  "SURNAME": {
+   "planned": 1421,
+   "not_labelled_anywhere": 3,
+   "share": 0.0021
+  },
+  "TELEPHONENUM": {
+   "planned": 1456,
+   "not_labelled_anywhere": 1,
+   "share": 0.0007
+  },
+  "TIME": {
+   "planned": 343,
+   "not_labelled_anywhere": 1,
+   "share": 0.0029
+  },
+  "URL": {
+   "planned": 408,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "ZIPCODE": {
+   "planned": 529,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  }
+ },
+ "label_disagreement": {
+  "count": 3754,
+  "by_reason": {
+   "standalone date, D-17 (ok)": 3721,
+   "changed by noise after labelling (ok)": 33
+  },
+  "examples": [
+   {
+    "id": "llm_az_000000",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "14.11.2018",
+    "context": "ÇATDIRILMA MANİFESTİ Tarix: [[14.11.2018]] Sifariş №: 77210  Bu yükün gəlməsi ilə "
+   },
+   {
+    "id": "llm_az_000002",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "10.11.2025",
+    "context": "Tarix: [[10.11.2025]]. Xəstə çox narahatdır və hər şeyi qarış"
+   },
+   {
+    "id": "llm_az_000003",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "05.09.2018",
+    "context": "_№|Status|Tarix|Məbləğ AZ-882|Gözləmədə|[[05.09.2018]]|940.00 Vəziyyət kritikdir, xətanı təcil"
+   },
+   {
+    "id": "llm_az_000004",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "14 oktyabr 2022",
+    "context": "ALICI: Müştəri Xidmətləri Şöbəsi TARİX: [[14 oktyabr 2022]] MÖVZU: Avtomatlaşdırılmış təsdiqləmə xə"
+   },
+   {
+    "id": "llm_az_000005",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "12.03.2025",
+    "context": "(Səs yazısı transkripti - [[12.03.2025]])  Müştəri Xidməti: Salam, Alo Enerji də"
+   },
+   {
+    "id": "llm_az_000006",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "22 avqust 2017",
+    "context": "ÖDƏNİŞ QƏBZİ “DÜZƏLİŞ” Tarix: [[22 avqust 2017]] – 10:45  Müştəri: Xanverdiyev Əlaqə nöm"
+   },
+   {
+    "id": "llm_az_000007",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "12 Noyabr 2020",
+    "context": "Hesab-faktura №: 2020-BK-9921 Tarix: [[12 Noyabr 2020]]  [2020-11-12 08:14:22] INFO: Generating"
+   },
+   {
+    "id": "llm_az_000009",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "22.08.2018",
+    "context": " problemi tez həll edə bilərik.  Tarix: [[22.08.2018]]"
+   },
+   {
+    "id": "llm_az_000010",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "15.08.2016",
+    "context": "Tibbi yönləndirmə məktubu Tarix: [[15.08.2016]]  Xəstə: Xınaçiçək Şəxsiyyət vəsiqəsinin"
+   },
+   {
+    "id": "llm_az_000018",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "14.11.2021",
+    "context": "KLİNİK ANALİZ HESABATI Tarix: [[14.11.2021]]  PASİENT MƏLUMATLARI Ad: Muğbil Ünvan: "
+   },
+   {
+    "id": "llm_az_000021",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "12.05.2018",
+    "context": "[14:22, [[12.05.2018]]] Müştəri: Salam,  sifarişim hələ də gəl"
+   },
+   {
+    "id": "llm_az_000022",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "15.03.2024",
+    "context": "əldən: 4530.24 | Status: Aktiv | Tarix: [[15.03.2024]]  --- Agent Qeydləri:  İstifadəçinin xid"
+   },
+   {
+    "id": "llm_az_000025",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "18 noyabr 2023",
+    "context": " Edilməsi və Nəzarəti üzrə Şura  Tarix: [[18 noyabr 2023]]-cü il Sənəd №: l05542  TƏCİLİ ŞİKAYƏT V"
+   },
+   {
+    "id": "llm_az_000026",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "14.05.2020",
+    "context": "Xidmət Müraciəti (Draft) Tarix: [[14.05.2020]] Status: Xətalı məlumatların bərpası üçü"
+   },
+   {
+    "id": "llm_az_000028",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "12 noyabr 2020",
+    "context": " Xidmət provayderinin rəhbərliyi Tarix: [[12 noyabr 2020]] Mövzu: Şikayət (İkinci xatırlatma)  ---"
+   },
+   {
+    "id": "llm_az_000030",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "14 Avqust 2024",
+    "context": "Tarix: [[14 Avqust 2024]]  Mövzu: Hüquqi bildirişə cavab və texni"
+   },
+   {
+    "id": "llm_az_000032",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "15 oktyabr 2021",
+    "context": "ərən: hacisemeddadasov@yandex.ru Tarix: [[15 oktyabr 2021]]-ci il, 11:45 Mövzu: FW: İcarə müqaviləs"
+   },
+   {
+    "id": "llm_az_000034",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "15 may 2025",
+    "context": "YANNAMƏSİ Sənəd №: 2025-AZ-99281 Tarix: [[15 may 2025]]  Aşağıdakı məlumatlar 2025-ci ilin may "
+   },
+   {
+    "id": "llm_az_000035",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "12.05.2016",
+    "context": "ırın. Təşəkkür edirəm.  Agent Qeydləri ([[12.05.2016]]): Təəssüf edirik ki, istifadəçinin müra"
+   },
+   {
+    "id": "llm_az_000036",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "12.05.2023",
+    "context": "əlumatların düzgünlüyü haqqında  Tarix: [[12.05.2023]]  Yenə eyni problem!  Mən artıq bunu bil"
+   }
+  ]
+ },
+ "decoys": {
+  "counts": {
+   "checked": 6331,
+   "exempt (policy/contextual)": 2539
+  },
+  "examples": []
+ },
+ "rates": {
+  "requested": {
+   "hard_negative": 0.3,
+   "adversarial": 0.2,
+   "pii_free": 0.1,
+   "edge_case": 0.3
+  },
+  "measured": {
+   "hard_negative_spec": 0.2959,
+   "hard_negative_text": 0.283,
+   "adversarial_spec": 0.1978,
+   "adversarial_text": 0.1961,
+   "any_decoy_text (README metric)": 0.3512,
+   "pii_free": 0.1016,
+   "edge_case": 0.3132,
+   "with_decoy_spans": 0.3584
+  }
+ },
+ "label_shares": {
+  "API_KEY": {
+   "mentions": 469,
+   "share": 0.0199,
+   "target": 0.025,
+   "ratio": 0.79
+  },
+  "ACCESS_TOKEN": {
+   "mentions": 302,
+   "share": 0.0128,
+   "target": 0.015,
+   "ratio": 0.85
+  },
+  "PRIVATE_KEY": {
+   "mentions": 204,
+   "share": 0.0086,
+   "target": 0.01,
+   "ratio": 0.86
+  },
+  "PAYMENT_CARD_NUMBER": {
+   "mentions": 396,
+   "share": 0.0168,
+   "target": 0.018,
+   "ratio": 0.93
+  },
+  "IBAN": {
+   "mentions": 304,
+   "share": 0.0129,
+   "target": 0.014,
+   "ratio": 0.92
+  },
+  "CARD_SECURITY_CODE": {
+   "mentions": 280,
+   "share": 0.0119,
+   "target": 0.012,
+   "ratio": 0.99
+  },
+  "IPV4_ADDRESS": {
+   "mentions": 380,
+   "share": 0.0161,
+   "target": 0.018,
+   "ratio": 0.89
+  },
+  "IPV6_ADDRESS": {
+   "mentions": 189,
+   "share": 0.008,
+   "target": 0.006,
+   "ratio": 1.33
+  },
+  "MAC_ADDRESS": {
+   "mentions": 203,
+   "share": 0.0086,
+   "target": 0.008,
+   "ratio": 1.07
+  },
+  "URL": {
+   "mentions": 439,
+   "share": 0.0186,
+   "target": 0.025,
+   "ratio": 0.74
+  },
+  "ICCID": {
+   "mentions": 187,
+   "share": 0.0079,
+   "target": 0.006,
+   "ratio": 1.32
+  },
+  "GIVENNAME": {
+   "mentions": 2941,
+   "share": 0.1245,
+   "target": 0.15,
+   "ratio": 0.83
+  },
+  "SURNAME": {
+   "mentions": 2349,
+   "share": 0.0994,
+   "target": 0.12,
+   "ratio": 0.83
+  },
+  "EMAIL": {
+   "mentions": 2126,
+   "share": 0.09,
+   "target": 0.12,
+   "ratio": 0.75
+  },
+  "TELEPHONENUM": {
+   "mentions": 1775,
+   "share": 0.0751,
+   "target": 0.1,
+   "ratio": 0.75
+  },
+  "DATE": {
+   "mentions": 4577,
+   "share": 0.1937,
+   "target": 0.045,
+   "ratio": 4.3
+  },
+  "TIME": {
+   "mentions": 658,
+   "share": 0.0278,
+   "target": 0.025,
+   "ratio": 1.11
+  },
+  "AGE": {
+   "mentions": 567,
+   "share": 0.024,
+   "target": 0.03,
+   "ratio": 0.8
+  },
+  "CITY": {
+   "mentions": 1391,
+   "share": 0.0589,
+   "target": 0.065,
+   "ratio": 0.91
+  },
+  "STREET": {
+   "mentions": 967,
+   "share": 0.0409,
+   "target": 0.05,
+   "ratio": 0.82
+  },
+  "BUILDINGNUM": {
+   "mentions": 666,
+   "share": 0.0282,
+   "target": 0.035,
+   "ratio": 0.81
+  },
+  "ZIPCODE": {
+   "mentions": 690,
+   "share": 0.0292,
+   "target": 0.035,
+   "ratio": 0.83
+  },
+  "AZ_FIN": {
+   "mentions": 406,
+   "share": 0.0172,
+   "target": 0.02,
+   "ratio": 0.86
+  },
+  "AZ_ID_CARD_NUMBER": {
+   "mentions": 379,
+   "share": 0.016,
+   "target": 0.015,
+   "ratio": 1.07
+  },
+  "AZ_PASSPORT_NUMBER": {
+   "mentions": 288,
+   "share": 0.0122,
+   "target": 0.012,
+   "ratio": 1.02
+  },
+  "AZ_VOEN": {
+   "mentions": 248,
+   "share": 0.0105,
+   "target": 0.01,
+   "ratio": 1.05
+  },
+  "AZ_DRIVER_LICENSE_NUMBER": {
+   "mentions": 246,
+   "share": 0.0104,
+   "target": 0.01,
+   "ratio": 1.04
+  }
+ },
+ "d9": {
+  "counts": {
+   "mentions": 7648,
+   "suffixed (label includes the suffix)": 2874
+  },
+  "examples": []
+ },
+ "d10": {
+  "documents of 1-5 words": 6
+ },
+ "validate_example_failures": {},
+ "unplanned_pii": {
+  "documents": 0,
+  "share": 0.0,
+  "pii_free_documents": 0,
+  "by_label": {},
+  "examples": []
+ },
+ "standalone_dates": {
+  "documents": 4,
+  "share": 0.0007,
+  "dates": 4,
+  "by_reason": {
+   "no anchor": 4
+  },
+  "examples": [
+   {
+    "id": "llm_az_000152",
+    "text": "2015–04-10",
+    "context": "[[[2015–04-10]]] Operator: Salam, xidmət mərkəzi. Müştə"
+   },
+   {
+    "id": "llm_az_002424",
+    "text": "2017-08–12",
+    "context": "poçt: g.eynelxanov@araz-mebel.az      – [[2017-08–12]]    WARN  \t    saat 00:60 göstəricisində"
+   },
+   {
+    "id": "llm_az_002567",
+    "text": "2026–11-12",
+    "context": " və ya dəyişir.  ID_7741 | INCOMPLETE | [[2026–11-12]] | USER_09 | STATUS_FAIL  Database synch"
+   },
+   {
+    "id": "llm_az_005651",
+    "text": "2018-11-4",
+    "context": "--------------------------------------- [[2018-11-4]]     17:20            Xəta: Şəbəkə əlaqə"
+   }
+  ]
+ }
+}

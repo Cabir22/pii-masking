@@ -1,0 +1,14 @@
+{
+ "stats": {
+  "documents": 23977,
+  "date_labels_before": 11983,
+  "unlabelled_dates_before": 0,
+  "docs_with_unlabelled_before": 0,
+  "unlabelled_dates_after": 0,
+  "docs_with_unlabelled_after": 0,
+  "date_labels_after": 11983
+ },
+ "left_by_reason": {},
+ "changed_by_language": {},
+ "examples": []
+}

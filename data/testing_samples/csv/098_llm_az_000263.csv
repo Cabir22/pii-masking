@@ -1,0 +1,8 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000263,"2017-cu ilin iyul ayının 12-si.
+
+İclasın qeydləri:
+Maliyyə departamenti ilə görüş keçirildi. Ödənişlərin həyata keçirilməsi üçün aşağıdakı IBAN nömrəsi təsdiqləndi: TR893550542960807063369987.
+
+Görülməli işlər:
+- Müvafiq hesabı sistemə daxil etmək.",az,"[{""start"":165,""end"":191,""label"":""IBAN"",""text"":""TR893550542960807063369987""}]",meeting_notes,short,matter-of-fact administrative,[],0,0,llm,"{""index"":263,""lang"":""az"",""doc_type"":""meeting_notes"",""doc_type_hint"":""notes taken during a meeting, with action items"",""register"":""matter-of-fact administrative"",""band"":""short"",""min_chars"":150,""max_chars"":400,""length_hint"":""a short paragraph"",""entities"":[{""label"":""IBAN"",""value"":""TR893550542960807063369987""}],""hard_negatives"":[],""adversarials"":[],""noise"":[],""negative_only"":false,""seed"":793565790,""edge_case"":{""id"":""IBN-01"",""status"":""positive_valid"",""description"":""Grouped Azerbaijan IBAN, MOD 97-10 valid, synthetic bank code."",""scenario"":""""},""reference_year"":2017}",source

@@ -1,0 +1,10 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000199,"Müştəri ilə keçirilən son görüşün xülasəsi.
+
+Müştəri Sumqayıtdan gəlib və regiondakı təmsilçiliklə bağlı maraqlanır. Şəxsi məlumatlar yeniləndi. Doğum tarixi: 15 sentyabr 1957. 
+
+Status: Follow-up required next week.
+
+Sənədlərin skan olunması zamanı yaranan texniki xəta: Müştəri müraciətində 0/O qarışığı müşahidə olundu. 
+
+Yeni sifarişin hazırlanması üçün Sumqayıt filialı ilə əlaqə saxlanılmalıdır.",az,"[{""start"":53,""end"":64,""label"":""CITY"",""text"":""Sumqayıtdan""},{""start"":159,""end"":175,""label"":""DATE"",""text"":""15 sentyabr 1957""},{""start"":358,""end"":366,""label"":""CITY"",""text"":""Sumqayıt""}]",crm_note,medium,matter-of-fact administrative,[],0,0,llm,"{""index"":199,""lang"":""az"",""doc_type"":""crm_note"",""doc_type_hint"":""a terse internal CRM note written by a sales rep"",""register"":""matter-of-fact administrative"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""DATE"",""value"":""15 sentyabr 1957""},{""label"":""CITY"",""value"":""Sumqayıt""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include an OCR-style artifact (a 0/O or 1/l confusion) in non-sensitive text"",""mix in one short sentence or log line in English""],""negative_only"":false,""seed"":1190725988,""edge_case"":null,""reference_year"":2026}",source

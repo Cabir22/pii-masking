@@ -1,0 +1,13 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000041,"Salam komanda,
+
+Keçən həftə baş vermiş texniki nasazlıqla bağlı kiçik bir araşdırma hazırladım. Bu hadisənin kökləri əslində 8 iyul 2023, şənbə tarixinə qədமானம் dayanır, lakin sistemimizdəki gecikmə ancaq dünən hiss olundu.
+
+Hadisənin xülasəsi:
+Sistemin əsas bazasında gözlənilməz bir yüklənmə baş verdi. Bu, istifadəçilərin bəzi məlumatları yenidən göndərməyə çalışması ilə əlaqəli idi. Problemi həll etmək üçün texniki dəstək komandası dərhal müdaxilə etdi.
+
+> ""Sistemdəki xətanı görmək üçün ilk addımı atdıq və logları yoxladıq. Problem sadəcə bir konfiqurasiya xətası idi.""
+
+İndi isə bu məsələ ilə bağlı əlavə sualları olanlar semaye8164@outlook.com ünvanına yaza bilərlər. Gəlin bu növ xətaların qarşısını almaq üçün gələcək planlarımızı birlikdə müzakirə edək – hər kəsin fikri bizim üçün çox önəmlidir.
+
+Teşəkkürlər!",az,"[{""start"":125,""end"":143,""label"":""DATE"",""text"":""8 iyul 2023, şənbə""},{""start"":632,""end"":654,""label"":""EMAIL"",""text"":""semaye8164@outlook.com""}]",incident_postmortem,medium,warm and conversational,[],0,0,llm,"{""index"":41,""lang"":""az"",""doc_type"":""incident_postmortem"",""doc_type_hint"":""an incident postmortem write-up"",""register"":""warm and conversational"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""DATE"",""value"":""8 iyul 2023, şənbə""},{""label"":""EMAIL"",""value"":""semaye8164@outlook.com""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a copy-paste artifact such as smart quotes or an en-dash"",""include a quoted reply section with '>' markers""],""negative_only"":false,""seed"":1688962331,""edge_case"":null,""reference_year"":2023}",source

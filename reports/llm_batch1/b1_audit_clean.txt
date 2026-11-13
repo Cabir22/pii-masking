@@ -1,0 +1,40 @@
+documents: 5,718
+
+1. PLANNED VALUES PRESENT BUT UNLABELLED: 0 occurrence(s) in 0 document(s)
+   of which a value with no labelled occurrence at all (count): 0 in 0 document(s) {}
+   by label: {}
+   by form : {}
+   planned values with no labelled occurrence, by label (share of that label's plans):
+   STREET 9/427 (2.1%), DATE 10/603 (1.7%), SURNAME 5/936 (0.5%), BUILDINGNUM 2/429 (0.5%), CITY 2/446 (0.4%), ACCESS_TOKEN 1/237 (0.4%), GIVENNAME 4/1194 (0.3%), TIME 1/314 (0.3%)
+
+2. LABELS THAT DISAGREE WITH THE PLAN: 24  {'changed by noise after labelling (ok)': 23, 'not a form of any planned value': 1}
+   llm_az_000167  changed by noise after labelling (ok): GIVENNAME 'Ni-\nyam'  ..., müəyyən edilmiş maliyyə dövrü ərzində [[Ni- yam]] və DUrmalı tərəfindən həyata keçiriLən ...
+   llm_az_000899  changed by noise after labelling (ok): STREET 'ƏFLZTUNA LLAHQULIYEV PR.'  ...[[ƏFLZTUNA LLAHQULIYEV PR.]]-DE ÜNVAN QEYD EDILDI. SÜRÜCÜ VƏSIQESI: ...
+   llm_az_001021  changed by noise after labelling (ok): STREET 'Aşı Billa dögəsinrə'  ...İNƏ VƏ YÖNLƏNDİRİŞ  Xəstə: Basiq Ünvan: [[Aşı Billa dögəsinrə]]  Xəstə Basiq müəlkimin şicayətlərinƏ (ş...
+   llm_az_001105  changed by noise after labelling (ok): SURNAME '2eynalov'  ...lərində concurrency problemi mövcuddur. [[2eynalov]] adlı istifadəçinin profilindəki data in...
+   llm_az_001479  changed by noise after labelling (ok): STREET 'Minnət M-\nəmmədov pr.'  ...nin Isgandarzada soyadlı şəxs olduğu və [[Minnət M- əmmədov pr.]] ünvanında yaşadığı təsdiqləndi.  Müştər...
+   llm_az_001634  changed by noise after labelling (ok): SURNAME 'Şuxəliyevanın'  ...----  Kl-la danışdım, prblm var diyir. [[Şuxəliyevanın]] sorğusu gəldi. API key işləmir, sistemd...
+
+3. DECOY INTEGRITY: 3948 decoy span(s) checked, 1589 policy/contextual; problems: none
+
+4. RATES (share of all documents)
+   hard_negative  requested 30.0%   in the text 17.6%   in the briefs 18.3%
+   adversarial    requested 20.0%   in the text 15.2%   in the briefs 15.3%
+   pii_free       requested 10.0%   in the text 7.3%
+   edge_case      requested 30.0%   in the text 45.8%
+   any decoy in the text (_hard_negatives > 0, the batch-1 README's measure): 23.8%
+   label share / target, furthest off: IPV6_ADDRESS 2.34, ICCID 2.08, MAC_ADDRESS 1.77, AZ_VOEN 1.62, AZ_DRIVER_LICENSE_NUMBER 1.62, AZ_PASSPORT_NUMBER 1.59
+
+5. D-9: {'mentions': 5602, 'suffixed (label includes the suffix)': 1196}
+   D-10: {'documents of 1-5 words': 1}
+   validate_example failures: none
+
+7. INDEPENDENT SWEEP, PII THE MODEL INVENTED (informational): 517 document(s) (9.0%), 14 of them declared PII-free; {'CITY': 478, 'STREET': 230, 'GIVENNAME': 122, 'BUILDINGNUM': 20}
+   llm_az_000009  GIVENNAME 'Ahilə Meydanelizadə'  ...mrəsi: +994 ** *** ** 67  --- Hörmətlə, [[Ahilə Meydanelizadə]] Baş Maliyyə Məsləhətçisi E-poçt: ahile_...
+   llm_az_000066  CITY 'Bakı'  ...diqlənmişdir.  Soyad: Sheydayeva Ünvan: [[Bakı]] şəhəri, Nizami küçəsi, bina	103. Əlaqə ...
+   llm_az_000066  STREET 'Nizami küçəsi'  ...  Soyad: Sheydayeva Ünvan: Bakı şəhəri, [[Nizami küçəsi]], bina	103. Əlaqə nömrəsi: +994187717289...
+   llm_az_000071  CITY 'Bakı'  ....1985 Ünvan: 94-cü Qala küç. 180C bina, [[Bakı]] ş. ------------------------------------...
+   llm_az_000107  CITY 'Sumqayıt'  ... EDƏN: "Regional Təchizat" ASC MARŞRUT: [[Sumqayıt]] - Bakı (Bakı Şəhəri, Binəqədi rayonu)  ...
+   llm_az_000107  CITY 'Bakı'  ...ional Təchizat" ASC MARŞRUT: Sumqayıt - [[Bakı]] (Bakı Şəhəri, Binəqədi rayonu)  YÜKÜN T...
+
+json -> reports\llm_batch1\b1_audit_clean.json

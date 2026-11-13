@@ -1,0 +1,12 @@
+Edge case,Müşahidə,Risk
+ACCESS_TOKEN,API_KEY kimi çıxır və ya miss olur,Recall 0%
+Invalid CVV,"42, 1234, 12345 və 68i maskalanır",Çox yüksək FP
+Invalid time/age,"25:81, 99:99, -5, 999 tutulur",Over-masking
+IPv6,MAC labelinə keçir və ya tam miss olur,Recall 10.5%
+Driver/ID,İkitərəfli taxonomy confusion,Yanlış label və audit problemi
+Payment card,Miss və narrower span,Kartın hissəsi açıq qala bilər
+Names,Spurious GIVENNAME və case/noise miss-ləri,Over/under masking
+Ordinary URL,Credential-sız linklər hard-negative-də trigger vermir,Siyasət düzgün ayrılır
+Credential URL,F1 96.7%,"Güclü, amma regression test lazımdır"
+CSV,Ən zəif format,Field delimiter və qısa kontekst riski
+Negative-only,627 sənəddən 282-də FP,45.0% sənəd over-mask olunur

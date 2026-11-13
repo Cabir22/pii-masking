@@ -1,0 +1,22 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000060,"""AZERKOM"" Telekommunikasiya Xidmətləri MMC
+Müştəri Xidmətləri Şöbəsi
+Tarix: 14.11.2021
+
+Hörmətli müştəri,
+
+Sizinlə əlaqə saxladığımız üçün təşəkkür edirik. Öncəliklə, son ödəniş dövründə abunəlik hesabınızda yaranmış texniki xəta və buna görə də hesablanmış yanlış məbləğ üçün sizdən üzr istəyirik. Sistemimizdə baş vermiş qeyri-adi bir ləngimə nəticəsində faktiki istifadə qədər olmayan, daha yüksək bir tarif dərəcəsi tətbiq olunmuşdur.  Bu xətanın  aradan qaldırılması üçün texniki komandamız artıq bütün tədbirləri görmüşdür.
+
+Məlumat üçün bildirmək istərdik ki,  müvafiq düzəlişlər aparıldıqdan sonra yeni balansınızda göstərilən rəqəmlər tamamilə doğru olacaqdır.  Söhrabov ailəsinin  hesabına aid olan bu texniki nasazlıq  bizim nəzarətimizdən kənar səbəblərdən qaynaqlanmışdır və  təkrarlanmaması üçün xüsusi təhlükəsizlik tədbirləri işə salınmışdır.  Yaşanan bu xoşagəlməz hal üçün bir daha dərin üzr istəyirəm.
+
+Hesabatın detalları:
+
+Xidmət növü:  Fiber-Optik İnternet
+Abunəçi:  Söhrabov  (Müştəri hesabı)
+Hesabat dövrü:  Oktyabr - Noyabr 2021
+Düzəliş edilmiş məbləğ:  42.50 AZN
+
+Əgər  hər hansı sualınız yaranarsa və ya  ödəniş qəbulu ilə bağlı  çətinlik çəksəniz, zəhmət olmasa  bizimlə 24/7 rejimində əlaqə saxlayın.  Sizin  məmnuniyyətiniz bizim üçün hər şeydən üstündür.
+
+Hörmətlə,
+""AZERKOM"" Müştəri Dəstək Komandası",az,"[{""start"":671,""end"":679,""label"":""SURNAME"",""text"":""Söhrabov""},{""start"":989,""end"":997,""label"":""SURNAME"",""text"":""Söhrabov""}]",utility_bill,long,apologetic,[],0,0,llm,"{""index"":60,""lang"":""az"",""doc_type"":""utility_bill"",""doc_type_hint"":""a utility or telecom bill"",""register"":""apologetic"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""SURNAME"",""value"":""Söhrabov""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""use inconsistent spacing and a stray double space""],""negative_only"":false,""seed"":1797725951,""edge_case"":{""id"":""SUR-02"",""status"":""positive_valid"",""description"":""Feminine form is the complete value, not a suffix to strip."",""scenario"":""""},""reference_year"":2021}",source

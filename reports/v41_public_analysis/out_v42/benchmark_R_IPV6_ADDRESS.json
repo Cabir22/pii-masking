@@ -1,0 +1,4519 @@
+{
+ "label": "IPV6_ADDRESS",
+ "totals": {
+  "v4.2": {
+   "exact": 286,
+   "missed": 129,
+   "split": 31
+  },
+  "v4.1": {
+   "exact": 439,
+   "split": 7
+  }
+ },
+ "by_frame": {
+  "logda ipv6 x qeyd olunu": {
+   "n": 71,
+   "v4.2": 8,
+   "v4.1": 69
+  },
+  "sebek tarix x gorun": {
+   "n": 59,
+   "v4.2": 40,
+   "v4.1": 58
+  },
+  "ipv6 unvan x kimi goste": {
+   "n": 59,
+   "v4.2": 49,
+   "v4.1": 58
+  },
+  "ipv6 unvan x-dir": {
+   "n": 38,
+   "v4.2": 35,
+   "v4.1": 37
+  },
+  "serve ipv6- x yazil": {
+   "n": 72,
+   "v4.2": 16,
+   "v4.1": 71
+  },
+  "texni murac x unvni elave": {
+   "n": 3,
+   "v4.2": 3,
+   "v4.1": 3
+  },
+  "ipv6 | x |": {
+   "n": 15,
+   "v4.2": 15,
+   "v4.1": 15
+  },
+  "logda x ipv6 unvan": {
+   "n": 36,
+   "v4.2": 35,
+   "v4.1": 36
+  },
+  "ipv6 melum x olara qeyd": {
+   "n": 17,
+   "v4.2": 17,
+   "v4.1": 17
+  },
+  "texni murac x unvan elave": {
+   "n": 36,
+   "v4.2": 35,
+   "v4.1": 36
+  },
+  "info ipv6= x": {
+   "n": 6,
+   "v4.2": 6,
+   "v4.1": 6
+  },
+  "logda ipv6 x qeyd olunb": {
+   "n": 3,
+   "v4.2": 0,
+   "v4.1": 3
+  },
+  "\"ipv6 \" x\",": {
+   "n": 11,
+   "v4.2": 11,
+   "v4.1": 11
+  },
+  "logda x ipv6 unvni": {
+   "n": 3,
+   "v4.2": 3,
+   "v4.1": 3
+  },
+  "logda ipv6 x qeyd olunn": {
+   "n": 3,
+   "v4.2": 1,
+   "v4.1": 3
+  },
+  "x;13:31;z4hnwp2;az1994;000": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 0
+  },
+  "x;kobarova;z90002217;https://support.example.com/news/archive/10730;p123": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "ipv6 unvan x kimi gostr": {
+   "n": 1,
+   "v4.2": 0,
+   "v4.1": 1
+  },
+  "ipv6 unvni x kimi goste": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x;-----begin priva": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "d2:be x;be:d2:0a:53:99:74;https://support.example.com/news/archive/10070;p123": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "i̇man kuces x;25:81;999": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x;851;zx8000635;903075;12345": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "ipv6 unvni x-dir": {
+   "n": 1,
+   "v4.2": 0,
+   "v4.1": 1
+  },
+  "xelilov kuces x;az1994;000": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "c6:37 x;z90001343;user@;999.12.4.1": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "z9000 x;e6:c5:60:40:96:3c;user@;999.12.4.1": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x;172.19.10.249;+994 60": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "namik x;zx8001834;abc;-----begin publi": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  }
+ },
+ "items": [
+  {
+   "id": "bench_az_000021",
+   "value": "fd00::b03c:a2f8",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::b03c:a2f8",
+   "old_marked": "[fd00::b03c:a2f8]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000022",
+   "value": "2001:db8::13b2",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::13b2",
+   "old_marked": "[2001:db8::13b2]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000028",
+   "value": "2001:db8::31de",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::31de",
+   "old_marked": "[2001:db8::31de]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür.",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000069",
+   "value": "fd00::5a22:13e0",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::5a22:13e0",
+   "old_marked": "[fd00::5a22:13e0]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "form",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000085",
+   "value": "2001:db8::ebb9",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::ebb9",
+   "old_marked": "[2001:db8::ebb9]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür.",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000146",
+   "value": "fd00::f1e3:d002",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::f1e3:d002",
+   "old_marked": "[fd00::f1e3:d002]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000229",
+   "value": "2001:db8::a392",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[2001]:db8::a392",
+   "old_marked": "[2001:db8::a392]",
+   "new_cut": ":",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür.",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000247",
+   "value": "fd00::5793:d50c",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[f]d00::5793:d50c",
+   "old_marked": "[fd00::5793:d50c]",
+   "new_cut": "d",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000278",
+   "value": "fd00::c669:ad0f",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[f]d00::c669:ad0f",
+   "old_marked": "[fd00::c669:ad0f]",
+   "new_cut": "d",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000388",
+   "value": "fd00::d4ca:62c0",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::d4ca:62c0",
+   "old_marked": "[fd00::d4ca:62c0]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000444",
+   "value": "fd00::ce5b:1f0b",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::ce5b:1f0b",
+   "old_marked": "[fd00::ce5b:1f0b]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000466",
+   "value": "fd00::e8cc:4421",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[fd00::e8cc:44]21",
+   "old_marked": "[fd00::e8cc:4421]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "kimi",
+   "frame": "IPv6 ünvanı X kimi göstərilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000497",
+   "value": "2001:db8::b02f",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::b02f",
+   "old_marked": "[2001:db8::b02f]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000549",
+   "value": "2001:db8::8489",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "split"
+   },
+   "new_marked": "2001:db8::8489",
+   "old_marked": "[2001]:db8::8489",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000587",
+   "value": "2001:db8::cc63",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::cc63",
+   "old_marked": "[2001:db8::cc63]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000611",
+   "value": "2001:db8:1932:f4a4::945d",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[2001:db8:1932:f4a4::9]45d",
+   "old_marked": "[2001:db8:1932:f4a4::945d]",
+   "new_cut": "4",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000638",
+   "value": "2001:db8::e6c0",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "split"
+   },
+   "new_marked": "2001:db8::e6c0",
+   "old_marked": "[2001]:[db8]::[e6c0]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "-dir.",
+   "frame": "IPv6 ünvanı X-dir",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "first_person_chat",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000666",
+   "value": "2001:db8::ee7c",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::ee7c",
+   "old_marked": "[2001:db8::ee7c]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000669",
+   "value": "2001:db8::8565",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[2001:db]8::[85]65",
+   "old_marked": "[2001:db8::8565]",
+   "new_cut": "8 6",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür.",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000686",
+   "value": "fd00::7311:3e8",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[f]d00::7311:3e8",
+   "old_marked": "[fd00::7311:3e8]",
+   "new_cut": "d",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000700",
+   "value": "2001:db8:4282:1b3d::9a9",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8:4282:1b3d::9a9",
+   "old_marked": "[2001:db8:4282:1b3d::9a9]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000712",
+   "value": "fd00::1cc4:9f7a",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::1cc4:9f7a",
+   "old_marked": "[fd00::1cc4:9f7a]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000757",
+   "value": "2001:db8::1f2a",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::1f2a",
+   "old_marked": "[2001:db8::1f2a]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000802",
+   "value": "fd00::37b0:d5",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::37b0:d5",
+   "old_marked": "[fd00::37b0:d5]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "crm",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000969",
+   "value": "fd00::8f59:9459",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::8f59:9459",
+   "old_marked": "[fd00::8f59:9459]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "form",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000983",
+   "value": "fd00::6f35:ab8d",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[f]d00::6f35:ab8d",
+   "old_marked": "[fd00::6f35:ab8d]",
+   "new_cut": "d",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001027",
+   "value": "fd00::39b4:a9c",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::39b4:a9c",
+   "old_marked": "[fd00::39b4:a9c]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001069",
+   "value": "2001:db8::4257",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::4257",
+   "old_marked": "[2001:db8::4257]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001072",
+   "value": "fd00::6f2b:2284",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::6f2b:2284",
+   "old_marked": "[fd00::6f2b:2284]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": true,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001098",
+   "value": "2001:db8:6122:c2a4::f2e",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8:6122:c2a4::f2e",
+   "old_marked": "[2001:db8:6122:c2a4::f2e]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001164",
+   "value": "2001:db8::bed8",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::bed8",
+   "old_marked": "[2001:db8::bed8]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001175",
+   "value": "2001:db8::980b",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::980b",
+   "old_marked": "[2001:db8::980b]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001200",
+   "value": "fd00::1572:d1f7",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::1572:d1f7",
+   "old_marked": "[fd00::1572:d1f7]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunnub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001277",
+   "value": "2001:db8::8c26",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::8c26",
+   "old_marked": "[2001:db8::8c26]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001312",
+   "value": "2001:db8:96c:96d::96c",
+   "outcomes": {
+    "v4.2": "exact",
+    "v4.1": "split"
+   },
+   "new_marked": "[2001:db8:96c:96d::96c]",
+   "old_marked": "[2001:db8:96c:96d]:[:96c]",
+   "new_cut": "-",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "CSV / table",
+   "prev": "ipv6;saat;fin_kodu;iban;telefon",
+   "next": ";13:31;Z4HNWP2;AZ1994;000",
+   "frame": "X;13:31;Z4HNWP2;AZ1994;000",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "csv",
+   "category": "structured_csv",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001317",
+   "value": "2001:db8::bfd",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::bfd",
+   "old_marked": "[2001:db8::bfd]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001319",
+   "value": "fd00::e498:a687",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::e498:a687",
+   "old_marked": "[fd00::e498:a687]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001352",
+   "value": "2001:db8::11d",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::11d",
+   "old_marked": "[2001:db8::11d]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001375",
+   "value": "fd00::39c6:70b5",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::39c6:70b5",
+   "old_marked": "[fd00::39c6:70b5]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "insurance",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001423",
+   "value": "2001:db8::fc51",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::fc51",
+   "old_marked": "[2001:db8::fc51]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "kimi",
+   "frame": "IPv6 ünvanı X kimi göstərilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001453",
+   "value": "2001:db8::3509",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::3509",
+   "old_marked": "[2001:db8::3509]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "form",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001454",
+   "value": "2001:db8::6d64",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::6d64",
+   "old_marked": "[2001:db8::6d64]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001561",
+   "value": "2001:db8::5649",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::5649",
+   "old_marked": "[2001:db8::5649]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür.",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "legal",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001600",
+   "value": "fd00::70c:e557",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::70c:e557",
+   "old_marked": "[fd00::70c:e557]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "legal",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001601",
+   "value": "2001:db8::926d",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::926d",
+   "old_marked": "[2001:db8::926d]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "insurance",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001602",
+   "value": "2001:db8::a679",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::a679",
+   "old_marked": "[2001:db8::a679]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür.",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001720",
+   "value": "2001:db8::7887",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "split"
+   },
+   "new_marked": "2001:db8::7887",
+   "old_marked": "[2001:db8:]:7887",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001784",
+   "value": "fd00::c1fe:18a3",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[fd00::c1fe:18a]3",
+   "old_marked": "[fd00::c1fe:18a3]",
+   "new_cut": "3",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001814",
+   "value": "2001:db8::1071",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "split"
+   },
+   "new_marked": "2001[:]db8::1071",
+   "old_marked": "[2001]:[db]8::1071",
+   "new_cut": "2 d",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "kimi",
+   "frame": "IPv6 ünvanı X kimi göstərilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "insurance",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001828",
+   "value": "2001:db8::416b",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[2001]:db8::416b",
+   "old_marked": "[2001:db8::416b]",
+   "new_cut": ":",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "-dir.",
+   "frame": "IPv6 ünvanı X-dir",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "first_person_form",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001844",
+   "value": "2001:db8::ed23",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::ed23",
+   "old_marked": "[2001:db8::ed23]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001874",
+   "value": "fd00::316b:d410",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::316b:d410",
+   "old_marked": "[fd00::316b:d410]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001960",
+   "value": "fd00::de87:3e37",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[f]d[00:]:[de87:3e37]",
+   "old_marked": "[fd00::de87:3e37]",
+   "new_cut": "d :",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "technical_note",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002009",
+   "value": "fd00::b100:98aa",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::b100:98aa",
+   "old_marked": "[fd00::b100:98aa]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002024",
+   "value": "fd00::94dd:1d5",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::94dd:1d5",
+   "old_marked": "[fd00::94dd:1d5]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002043",
+   "value": "2001:db8::eb2",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::eb2",
+   "old_marked": "[2001:db8::eb2]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "Ipv6",
+   "next": "qeyd",
+   "frame": "Logda Ipv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002056",
+   "value": "2001:db8::fde7",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::fde7",
+   "old_marked": "[2001:db8::fde7]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "kimi",
+   "frame": "IPv6 ünvanı X kimi göstərilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002086",
+   "value": "2001:db8::48b0",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::48b0",
+   "old_marked": "[2001:db8::48b0]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": true,
+   "stamp_in_doc": false,
+   "doc_type": "insurance",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002124",
+   "value": "fd00::194f:12ea",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[fd00:]:194f[:12e]a",
+   "old_marked": "[fd00::194f:12ea]",
+   "new_cut": ": a",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "report",
+   "category": "corrected_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002172",
+   "value": "2001:db8:3151:c56b::444e",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[2001:db8:3]151[:c56b::444e]",
+   "old_marked": "[2001:db8:3151:c56b::444e]",
+   "new_cut": "1",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002209",
+   "value": "2001:db8::9823",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::9823",
+   "old_marked": "[2001:db8::9823]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002218",
+   "value": "fd00::bbb8:314e",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::bbb8:314e",
+   "old_marked": "[fd00::bbb8:314e]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002245",
+   "value": "2001:db8::fc10",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::fc10",
+   "old_marked": "[2001:db8::fc10]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "form",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002260",
+   "value": "2001:db8::4344",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::4344",
+   "old_marked": "[2001:db8::4344]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002263",
+   "value": "2001:db8::cf4",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::cf4",
+   "old_marked": "[2001:db8::cf4]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "kimi",
+   "frame": "IPv6 ünvanı X kimi gostrılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "insurance",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002303",
+   "value": "2001:db8::5eb7",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::5eb7",
+   "old_marked": "[2001:db8::5eb7]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002359",
+   "value": "fd00::60ec:677b",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::60ec:677b",
+   "old_marked": "[fd00::60ec:677b]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPV6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPV6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002374",
+   "value": "2001:db8::3a1",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::3a1",
+   "old_marked": "[2001:db8::3a1]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür.",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "insurance",
+   "category": "corrected_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002380",
+   "value": "2001:db8:73b2:2836::f51b",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8:73b2:2836::f51b",
+   "old_marked": "[2001:db8:73b2:2836::f51b]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "bank_message",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002399",
+   "value": "2001:db8::61b8",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::61b8",
+   "old_marked": "[2001:db8::61b8]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "muracietə",
+   "next": "ünvanını",
+   "frame": "Texniki muracietə X ünvanını əlavə",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "first_person_form",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002419",
+   "value": "2001:db8::c323",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::c323",
+   "old_marked": "[2001:db8::c323]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür.",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002424",
+   "value": "fd00::b970:edd",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::b970:edd",
+   "old_marked": "[fd00::b970:edd]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPV6",
+   "next": "qeyd",
+   "frame": "Logda IPV6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002462",
+   "value": "2001:db8::6fbb",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::6fbb",
+   "old_marked": "[2001:db8::6fbb]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür.",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002476",
+   "value": "2001:db8::384e",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::384e",
+   "old_marked": "[2001:db8::384e]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür.",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "technical_note",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002488",
+   "value": "2001:db8::c297",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::c297",
+   "old_marked": "[2001:db8::c297]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002516",
+   "value": "fd00::3598:4ffc",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::3598:4ffc",
+   "old_marked": "[fd00::3598:4ffc]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazilib.",
+   "frame": "Server IPv6-si X yazilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "corrected_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002525",
+   "value": "2001:db8::5d7b",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::5d7b",
+   "old_marked": "[2001:db8::5d7b]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002588",
+   "value": "2001:db8::8741",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[2001]:db8::8741",
+   "old_marked": "[2001:db8::8741]",
+   "new_cut": ":",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür.",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002670",
+   "value": "2001:db8::49cf",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::49cf",
+   "old_marked": "[2001:db8::49cf]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "kimi",
+   "frame": "IPv6 ünvanı X kimi gosterilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002713",
+   "value": "fd00::37cf:4509",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::37cf:4509",
+   "old_marked": "[fd00::37cf:4509]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002716",
+   "value": "fd00::8959:2b62",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[f]d00::8959:2b62",
+   "old_marked": "[fd00::8959:2b62]",
+   "new_cut": "d",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002717",
+   "value": "fd00::7a02:6492",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::7a02:6492",
+   "old_marked": "[fd00::7a02:6492]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazilib.",
+   "frame": "Server IPv6-si X yazilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002762",
+   "value": "fd00::2558:cf05",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::2558:cf05",
+   "old_marked": "[fd00::2558:cf05]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002780",
+   "value": "2001:db8:cdfd:66f7::7c71",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8:cdfd:66f7::7c71",
+   "old_marked": "[2001:db8:cdfd:66f7::7c71]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002783",
+   "value": "fd00::9088:271f",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::9088:271f",
+   "old_marked": "[fd00::9088:271f]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002799",
+   "value": "2001:db8::2289",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::2289",
+   "old_marked": "[2001:db8::2289]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür.",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002830",
+   "value": "fd00::4576:dc3b",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[f]d00::4576:dc3b",
+   "old_marked": "[fd00::4576:dc3b]",
+   "new_cut": "d",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002852",
+   "value": "2001:db8::64b5",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::64b5",
+   "old_marked": "[2001:db8::64b5]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "technical_note",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002858",
+   "value": "fd00::f178:ab1f",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::f178:ab1f",
+   "old_marked": "[fd00::f178:ab1f]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002874",
+   "value": "2001:db8::86b1",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::86b1",
+   "old_marked": "[2001:db8::86b1]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002914",
+   "value": "2001:db8::cb47",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::cb47",
+   "old_marked": "[2001:db8::cb47]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "kimi",
+   "frame": "IPv6 ünvanı X kimi göstərilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002920",
+   "value": "2001:db8::4e55",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::4e55",
+   "old_marked": "[2001:db8::4e55]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002953",
+   "value": "fd00::721a:a8e3",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[f]d00::721a:a8e3",
+   "old_marked": "[fd00::721a:a8e3]",
+   "new_cut": "d",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "insurance",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002954",
+   "value": "fd00::a5df:2865",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::a5df:2865",
+   "old_marked": "[fd00::a5df:2865]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002980",
+   "value": "2001:db8::e0b5",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::e0b5",
+   "old_marked": "[2001:db8::e0b5]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": true,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003035",
+   "value": "fd00::eac:7d21",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::eac:7d21",
+   "old_marked": "[fd00::eac:7d21]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazilib.",
+   "frame": "Server IPv6-si X yazilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003064",
+   "value": "2001:db8::944b",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::944b",
+   "old_marked": "[2001:db8::944b]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "insurance",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003135",
+   "value": "fd00::6e77:8e68",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::6e77:8e68",
+   "old_marked": "[fd00::6e77:8e68]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003148",
+   "value": "2001:db8:8c5:7912::7eea",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[2001:db8:8c5:79]12[::7eea]",
+   "old_marked": "[2001:db8:8c5:7912::7eea]",
+   "new_cut": "1",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazilib.",
+   "frame": "Server IPv6-si X yazilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003165",
+   "value": "2001:db8::6f30",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::6f30",
+   "old_marked": "[2001:db8::6f30]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003272",
+   "value": "2001:db8::3a8d",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[2001:db8:]:[3a8]d",
+   "old_marked": "[2001:db8::3a8d]",
+   "new_cut": ": d",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "unvnı",
+   "next": "-dir.",
+   "frame": "IPv6 unvnı X-dir",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "first_person_email",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003285",
+   "value": "2001:db8::3517",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::3517",
+   "old_marked": "[2001:db8::3517]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003293",
+   "value": "2001:db8::be07",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[2001:db]8::be[07]",
+   "old_marked": "[2001:db8::be07]",
+   "new_cut": "8",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "kimi",
+   "frame": "IPv6 ünvanı X kimi gosterilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "form",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003310",
+   "value": "fd00::c057:c750",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::c057:c750",
+   "old_marked": "[fd00::c057:c750]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "legal",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003363",
+   "value": "2001:db8::1e97",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::1e97",
+   "old_marked": "[2001:db8::1e97]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003378",
+   "value": "2001:db8::5f72",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::5f72",
+   "old_marked": "[2001:db8::5f72]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003383",
+   "value": "2001:db8::a085",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::a085",
+   "old_marked": "[2001:db8::a085]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür.",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003445",
+   "value": "2001:db8::b2ab",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[2001]:db8::b2ab",
+   "old_marked": "[2001:db8::b2ab]",
+   "new_cut": ":",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "-dir.",
+   "frame": "IPv6 ünvanı X-dir",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "first_person_email",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003455",
+   "value": "fd00::a947:7cdc",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[f]d00::a947:7cdc",
+   "old_marked": "[fd00::a947:7cdc]",
+   "new_cut": "d",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "kimi",
+   "frame": "IPv6 ünvanı X kimi göstərilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003541",
+   "value": "2001:db8::875a",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::875a",
+   "old_marked": "[2001:db8::875a]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür.",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003556",
+   "value": "fd00::505a:2174",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[f]d[00:]:[505]a[:2]174",
+   "old_marked": "[fd00::505a:2174]",
+   "new_cut": "d : a 1",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "form",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003582",
+   "value": "fd00::1cf4:4953",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::1cf4:4953",
+   "old_marked": "[fd00::1cf4:4953]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003583",
+   "value": "2001:db8::e462",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::e462",
+   "old_marked": "[2001:db8::e462]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003623",
+   "value": "2001:db8:112b:f4af::427f",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8:112b:f4af::427f",
+   "old_marked": "[2001:db8:112b:f4af::427f]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "insurance",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003631",
+   "value": "fd00::f2e2:f061",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::f2e2:f061",
+   "old_marked": "[fd00::f2e2:f061]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "insurance",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003702",
+   "value": "2001:db8::8b0d",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::8b0d",
+   "old_marked": "[2001:db8::8b0d]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003846",
+   "value": "fd00::8110:4c52",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[f]d00::8110:4c52",
+   "old_marked": "[fd00::8110:4c52]",
+   "new_cut": "d",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003847",
+   "value": "2001:db8::3098",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::3098",
+   "old_marked": "[2001:db8::3098]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003853",
+   "value": "fd00::6c92:6b9d",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::6c92:6b9d",
+   "old_marked": "[fd00::6c92:6b9d]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazilb.",
+   "frame": "Server IPv6-si X yazilb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003875",
+   "value": "fd00::b5d3:1e69",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::b5d3:1e69",
+   "old_marked": "[fd00::b5d3:1e69]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003885",
+   "value": "2001:db8::5038",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::5038",
+   "old_marked": "[2001:db8::5038]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": true,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003896",
+   "value": "fd00::f810:dc8a",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::f810:dc8a",
+   "old_marked": "[fd00::f810:dc8a]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003965",
+   "value": "2001:db8::b60a",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::b60a",
+   "old_marked": "[2001:db8::b60a]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "gorunr.",
+   "frame": "Şəbəkə tarixçəsində X gorunr",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003970",
+   "value": "2001:db8::5ac9",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::5ac9",
+   "old_marked": "[2001:db8::5ac9]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003990",
+   "value": "2001:db8::50db",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::50db",
+   "old_marked": "[2001:db8::50db]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "Logdan",
+   "next": "IPv6",
+   "frame": "Logdan X IPv6 ünvanını",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "first_person_chat",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004028",
+   "value": "2001:db8::70de",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::70de",
+   "old_marked": "[2001:db8::70de]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "kimi",
+   "frame": "IPv6 ünvanı X kimi göstərilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004051",
+   "value": "fd00::2131:46c4",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::2131:46c4",
+   "old_marked": "[fd00::2131:46c4]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004081",
+   "value": "2001:db8:bf56:447e::e010",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8:bf56:447e::e010",
+   "old_marked": "[2001:db8:bf56:447e::e010]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004085",
+   "value": "2001:db8::eed4",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::eed4",
+   "old_marked": "[2001:db8::eed4]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004136",
+   "value": "2001:db8::f142",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::f142",
+   "old_marked": "[2001:db8::f142]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004188",
+   "value": "fd00::71be:2e65",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::71be:2e65",
+   "old_marked": "[fd00::71be:2e65]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004285",
+   "value": "2001:db8::e486",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[2001]:db8[:]:e486",
+   "old_marked": "[2001:db8::e486]",
+   "new_cut": ": :",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür.",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004287",
+   "value": "fd00::ec97:140f",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::ec97:140f",
+   "old_marked": "[fd00::ec97:140f]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004309",
+   "value": "2001:db8::284c",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[2001:db]8[::]284c",
+   "old_marked": "[2001:db8::284c]",
+   "new_cut": "8 2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "gorunr.",
+   "frame": "Şəbəkə tarixçəsində X gorunr",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004310",
+   "value": "fd00::e953:ff53",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::e953:ff53",
+   "old_marked": "[fd00::e953:ff53]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "support_ticket",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004311",
+   "value": "2001:db8::4d9a",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::4d9a",
+   "old_marked": "[2001:db8::4d9a]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür.",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "insurance",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004319",
+   "value": "2001:db8::d28b",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::d28b",
+   "old_marked": "[2001:db8::d28b]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "legal",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004332",
+   "value": "2001:db8::feb3",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::feb3",
+   "old_marked": "[2001:db8::feb3]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004339",
+   "value": "2001:db8::f9ac",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::f9ac",
+   "old_marked": "[2001:db8::f9ac]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "bank_message",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004341",
+   "value": "2001:db8:5001:c090::ae9",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8:5001:c090::ae9",
+   "old_marked": "[2001:db8:5001:c090::ae9]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "bank_message",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004353",
+   "value": "2001:db8::17dd",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::17dd",
+   "old_marked": "[2001:db8::17dd]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazilib.",
+   "frame": "Server IPv6-si X yazilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004454",
+   "value": "2001:db8::f6d2",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::f6d2",
+   "old_marked": "[2001:db8::f6d2]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": true,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004492",
+   "value": "2001:db8:6de4:a8a6::789d",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[2001]:db8:6de4:a8a6::789d",
+   "old_marked": "[2001:db8:6de4:a8a6::789d]",
+   "new_cut": ":",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "insurance",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004504",
+   "value": "fd00::3fe2:d3c6",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[f]d00::3fe2:d3c6",
+   "old_marked": "[fd00::3fe2:d3c6]",
+   "new_cut": "d",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004556",
+   "value": "2001:db8::d4b",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "split"
+   },
+   "new_marked": "2001:db8::d4b",
+   "old_marked": "[2001]:db8::d4b",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür.",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004570",
+   "value": "fd00::14ea:1496",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::14ea:1496",
+   "old_marked": "[fd00::14ea:1496]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPV6",
+   "next": "qeyd",
+   "frame": "Logda IPV6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004675",
+   "value": "fd00::54cd:6eaa",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::54cd:6eaa",
+   "old_marked": "[fd00::54cd:6eaa]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004680",
+   "value": "2001:db8::6f92",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::6f92",
+   "old_marked": "[2001:db8::6f92]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004707",
+   "value": "2001:db8::3b2a",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::3b2a",
+   "old_marked": "[2001:db8::3b2a]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004735",
+   "value": "fd00::7e7c:3556",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "fd00::7e7c:3556",
+   "old_marked": "[fd00::7e7c:3556]",
+   "new_cut": "f",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "insurance",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004746",
+   "value": "2001:db8:2a16:b79b::9841",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8:2a16:b79b::9841",
+   "old_marked": "[2001:db8:2a16:b79b::9841]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004770",
+   "value": "2001:db8::ce6a",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[2001:]db8[:]:[ce6]a",
+   "old_marked": "[2001:db8::ce6a]",
+   "new_cut": "d : a",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "kimi",
+   "frame": "IPv6 ünvanı X kimi göstərilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004771",
+   "value": "2001:db8::6428",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::6428",
+   "old_marked": "[2001:db8::6428]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004802",
+   "value": "2001:db8::c0aa",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::c0aa",
+   "old_marked": "[2001:db8::c0aa]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004810",
+   "value": "fd00::8a6d:99ac",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[f]d00::8a6d:[99ac]",
+   "old_marked": "[fd00::8a6d:99ac]",
+   "new_cut": "d",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix fd/fc"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004835",
+   "value": "2001:db8::5712",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::5712",
+   "old_marked": "[2001:db8::5712]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004855",
+   "value": "2001:db8::a488",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::a488",
+   "old_marked": "[2001:db8::a488]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6-si",
+   "next": "yazılıb.",
+   "frame": "Server IPv6-si X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004872",
+   "value": "2001:db8:9c51:360c::b793",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8:9c51:360c::b793",
+   "old_marked": "[2001:db8:9c51:360c::b793]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunnub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004950",
+   "value": "2001:db8::36e",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::36e",
+   "old_marked": "[2001:db8::36e]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "form",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004966",
+   "value": "2001:db8::d28d",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "split"
+   },
+   "new_marked": "2001:db8::d28d",
+   "old_marked": "2001[:db]8[::d]28d",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004969",
+   "value": "2001:db8::e79f",
+   "outcomes": {
+    "v4.2": "missed",
+    "v4.1": "exact"
+   },
+   "new_marked": "2001:db8::e79f",
+   "old_marked": "[2001:db8::e79f]",
+   "new_cut": "2",
+   "new_other": "-",
+   "shape": [
+    ":: middle",
+    "lower",
+    "prefix 2001:db8"
+   ],
+   "context": "prose",
+   "prev": "IPv6",
+   "next": "qeyd",
+   "frame": "Logda IPv6 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  }
+ ],
+ "false_alarms": [
+  {
+   "model": "v4.2",
+   "id": "bench_az_000411",
+   "value": "AA:BB:CC:DD",
+   "shape": "aa:aa:aa:aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_000411",
+   "value": ":BB:CC:DD",
+   "shape": ":aa:aa:aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "AA",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_001451",
+   "value": "AA:BB:CC:DD",
+   "shape": "aa:aa:aa:aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_002817",
+   "value": ":",
+   "shape": ":",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "AA",
+   "next": "BB:CC:DD"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_002817",
+   "value": ":",
+   "shape": ":",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "AA:BB:CC",
+   "next": "DD"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_002906",
+   "value": ":BB:CC:DD",
+   "shape": ":aa:aa:aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "AA",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_003158",
+   "value": "AA:BB:CC:DD",
+   "shape": "aa:aa:aa:aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_004300",
+   "value": ":",
+   "shape": ":",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "AA",
+   "next": "BB:CC:DD"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_004300",
+   "value": ":",
+   "shape": ":",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "AA:BB",
+   "next": "CC:DD"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_004300",
+   "value": ":",
+   "shape": ":",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "AA:BB:CC",
+   "next": "DD"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_004352",
+   "value": ":",
+   "shape": ":",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "AA",
+   "next": "BB:CC:DD"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_004352",
+   "value": ":",
+   "shape": ":",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "AA:BB",
+   "next": "CC:DD"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_004352",
+   "value": ":",
+   "shape": ":",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "AA:BB:CC",
+   "next": "DD"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_004654",
+   "value": "AA:BB:CC:DD",
+   "shape": "aa:aa:aa:aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib."
+  }
+ ]
+}

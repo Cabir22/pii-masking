@@ -1,0 +1,3012 @@
+{
+ "source": {
+  "pdf": "benchmarks/masking_multilingual_benchmark_5000_detailed_report.pdf",
+  "pages": 355,
+  "pdf_metadata": {
+   "format": "PDF 1.4",
+   "title": "Masking Multilingual 5000 Benchmark Detailed Report",
+   "author": "Benchmark analysis",
+   "subject": "(unspecified)",
+   "keywords": "",
+   "creator": "(unspecified)",
+   "producer": "ReportLab PDF Library - (opensource)",
+   "creationDate": "D:20260923163239+04'00'",
+   "modDate": "D:20260923163239+04'00'",
+   "trapped": "",
+   "encryption": null
+  },
+  "model": "your-hf-org/masking-multilingual (checkpoint 1)",
+  "extraction_tool": "PyMuPDF find_tables + clipped get_text",
+  "note": "Numbers below are the report's own. Recomputations and disagreements live in sanity_checks.json."
+ },
+ "glossary": [
+  {
+   "term": "Tam miss",
+   "english": "full miss: gold entity with no overlapping prediction"
+  },
+  {
+   "term": "Span/boundary",
+   "english": "right label, span off (narrower/wider than gold)"
+  },
+  {
+   "term": "Yanlış label",
+   "english": "wrong label on (roughly) the right span"
+  },
+  {
+   "term": "Label + span",
+   "english": "wrong label and wrong span together"
+  },
+  {
+   "term": "Spurious mask",
+   "english": "prediction where no entity is expected"
+  },
+  {
+   "term": "Hard-negative trigger",
+   "english": "model masked a planted look-alike that must not be masked"
+  },
+  {
+   "term": "HARD-NEGATIVE (maskalanmamalıdır)",
+   "english": "hard negative (must not be masked)"
+  },
+  {
+   "term": "Heç nə tapılmayıb",
+   "english": "nothing was found (no prediction)"
+  },
+  {
+   "term": "Bu mövqedə entity gözlənilmir",
+   "english": "no entity is expected at this position"
+  },
+  {
+   "term": "Səhv növü",
+   "english": "error type"
+  },
+  {
+   "term": "Gold / hard-negative gözləntisi",
+   "english": "gold / hard-negative expectation"
+  },
+  {
+   "term": "Model cavabı",
+   "english": "model response"
+  },
+  {
+   "term": "Tam mətn",
+   "english": "full text"
+  },
+  {
+   "term": "Qərar xülasəsi",
+   "english": "decision summary"
+  },
+  {
+   "term": "Metodologiya və etibarlılıq",
+   "english": "methodology and reliability"
+  },
+  {
+   "term": "Kəsim",
+   "english": "slice / cut"
+  },
+  {
+   "term": "Say",
+   "english": "count"
+  },
+  {
+   "term": "Pay",
+   "english": "share"
+  },
+  {
+   "term": "Dəyər",
+   "english": "value"
+  },
+  {
+   "term": "Şərh",
+   "english": "comment"
+  },
+  {
+   "term": "İstiqamət",
+   "english": "direction (FP/FN)"
+  },
+  {
+   "term": "Növ",
+   "english": "type"
+  },
+  {
+   "term": "Narrower / Wider / Shifted",
+   "english": "predicted span shorter / longer / displaced vs gold"
+  },
+  {
+   "term": "Əsas FP səbəbi",
+   "english": "main FP cause"
+  },
+  {
+   "term": "Əsas FN səbəbi",
+   "english": "main FN cause"
+  },
+  {
+   "term": "Prioritet",
+   "english": "priority"
+  },
+  {
+   "term": "Diaqnoz",
+   "english": "diagnosis"
+  },
+  {
+   "term": "Mövqe",
+   "english": "position in text"
+  },
+  {
+   "term": "Təklif edilən gate",
+   "english": "proposed release gate"
+  },
+  {
+   "term": "Cari",
+   "english": "current"
+  },
+  {
+   "term": "Yekun qərar",
+   "english": "final decision"
+  },
+  {
+   "term": "bütün səhv sənədlər",
+   "english": "all erroneous documents (appendix running header)"
+  },
+  {
+   "term": "Əlavə A",
+   "english": "Appendix A"
+  }
+ ],
+ "global": {
+  "pdf_page": 1,
+  "model": "masking-multilingual",
+  "documents": 5000,
+  "gold": 10438,
+  "predictions": 12243,
+  "matching": "Exact label + start + end",
+  "kpis_page1_chart": [
+   {
+    "item": "5000 sənəd üzrə geniş diaqnostik benchmark hesabatı",
+    "value_pct": 68.4
+   },
+   {
+    "item": "Micro F1",
+    "value_pct": 63.4
+   },
+   {
+    "item": "Precision",
+    "value_pct": 74.4
+   },
+   {
+    "item": "Recall",
+    "value_pct": 67.6
+   }
+  ],
+  "kpis": {
+   "Micro F1": 68.4,
+   "Precision": 63.4,
+   "Recall": 74.4,
+   "Macro F1": 67.6
+  },
+  "page3_metrics": [
+   {
+    "metric": "TP",
+    "value": 7761,
+    "comment": "Tam label və span uyğunluğu",
+    "pdf_page": 3
+   },
+   {
+    "metric": "FP",
+    "value": 4482,
+    "comment": "Artıq və ya yanlış maskalama (False Positive)",
+    "pdf_page": 3
+   },
+   {
+    "metric": "FN",
+    "value": 2677,
+    "comment": "Qaçırılmış və ya exact uyğun olmayan gold (False Negative)",
+    "pdf_page": 3
+   },
+   {
+    "metric": "Weighted F1",
+    "value": 67.9,
+    "comment": "Support-a görə çəkili",
+    "pdf_page": 3
+   },
+   {
+    "metric": "Perfect documents",
+    "value": "1536 / 5000",
+    "comment": 30.7,
+    "pdf_page": 3
+   },
+   {
+    "metric": "Documents with FP",
+    "value": "2649 / 5000",
+    "comment": 53.0,
+    "pdf_page": 3
+   },
+   {
+    "metric": "Documents with FN",
+    "value": "2054 / 5000",
+    "comment": 41.1,
+    "pdf_page": 3
+   },
+   {
+    "metric": "Negative-only with FP",
+    "value": "282 / 627",
+    "comment": 45.0,
+    "pdf_page": 3
+   }
+  ]
+ },
+ "decision_summary": [
+  {
+   "area": "Ümumi keyfiyyət",
+   "rating": "Orta",
+   "short_conclusion": "Micro F1 68.4%; production üçün yetərli deyil",
+   "pdf_page": 1
+  },
+  {
+   "area": "Recall",
+   "rating": "Nisbətən güclü",
+   "short_conclusion": "74.4%; precision 63.4%",
+   "pdf_page": 1
+  },
+  {
+   "area": "Over-masking",
+   "rating": "Yüksək risk",
+   "short_conclusion": "5000 sənədin 2649-də ən azı bir FP var",
+   "pdf_page": 1
+  },
+  {
+   "area": "Tam düzgün sənəd",
+   "rating": "Aşağı",
+   "short_conclusion": "1536 / 5000 (30.7%)",
+   "pdf_page": 1
+  },
+  {
+   "area": "URL",
+   "rating": "Güclü",
+   "short_conclusion": "Credential-bearing URL siyasəti ilə F1 96.7%",
+   "pdf_page": 1
+  }
+ ],
+ "methodology": [
+  {
+   "check": "Benchmark əhatəsi",
+   "result": "5000 / 5000 prediction; frozen qiymətləndirmə korpusu tam əhatə olunub",
+   "pdf_page": 2
+  },
+  {
+   "check": "Prediction-dataset hash",
+   "result": "Mismatch: 0",
+   "pdf_page": 2
+  },
+  {
+   "check": "Matching",
+   "result": "Label, start və end tam eyni olmalıdır",
+   "pdf_page": 2
+  },
+  {
+   "check": "Model və cihaz",
+   "result": "masking-multilingual; Apple MPS; batch size 1",
+   "pdf_page": 2
+  },
+  {
+   "check": "Müddət",
+   "result": "851.21 saniyə; 5.87 sənəd/saniyə",
+   "pdf_page": 2
+  },
+  {
+   "check": "Data strukturu",
+   "result": "5000 unikal ID/text; offset, overlap və label auditində problem yoxdur",
+   "pdf_page": 2
+  },
+  {
+   "check": "Token limiti",
+   "result": "Qiymətləndirmə korpusunda 512-ni keçən nümunə yoxdur",
+   "pdf_page": 2
+  },
+  {
+   "check": "Error registry",
+   "result": "benchmark_analysis_5000/error_cases.csv",
+   "pdf_page": 2
+  }
+ ],
+ "error_architecture": [
+  {
+   "direction": "FP",
+   "type": "hard_negative_trigger",
+   "count": 1784,
+   "share_pct": 39.8,
+   "pdf_page": 3
+  },
+  {
+   "direction": "FP",
+   "type": "spurious",
+   "count": 1362,
+   "share_pct": 30.4,
+   "pdf_page": 3
+  },
+  {
+   "direction": "FP",
+   "type": "wrong_label",
+   "count": 620,
+   "share_pct": 13.8,
+   "pdf_page": 3
+  },
+  {
+   "direction": "FP",
+   "type": "boundary_error",
+   "count": 571,
+   "share_pct": 12.7,
+   "pdf_page": 3
+  },
+  {
+   "direction": "FP",
+   "type": "wrong_label_and_boundary",
+   "count": 145,
+   "share_pct": 3.2,
+   "pdf_page": 3
+  },
+  {
+   "direction": "FN",
+   "type": "missed",
+   "count": 1585,
+   "share_pct": 59.2,
+   "pdf_page": 3
+  },
+  {
+   "direction": "FN",
+   "type": "wrong_label",
+   "count": 620,
+   "share_pct": 23.2,
+   "pdf_page": 3
+  },
+  {
+   "direction": "FN",
+   "type": "boundary_error",
+   "count": 413,
+   "share_pct": 15.4,
+   "pdf_page": 3
+  },
+  {
+   "direction": "FN",
+   "type": "wrong_label_and_boundary",
+   "count": 59,
+   "share_pct": 2.2,
+   "pdf_page": 3
+  }
+ ],
+ "per_label": [
+  {
+   "label": "ACCESS_TOKEN",
+   "TP": 0,
+   "FP": 0,
+   "FN": 385,
+   "Support": 385,
+   "precision_pct": 0.0,
+   "recall_pct": 0.0,
+   "f1_pct": 0.0,
+   "pdf_page": 4
+  },
+  {
+   "label": "IPV6_ADDRESS",
+   "TP": 47,
+   "FP": 42,
+   "FN": 399,
+   "Support": 446,
+   "precision_pct": 52.8,
+   "recall_pct": 10.5,
+   "f1_pct": 17.6,
+   "pdf_page": 4
+  },
+  {
+   "label": "CARD_SECURITY_CODE",
+   "TP": 212,
+   "FP": 872,
+   "FN": 17,
+   "Support": 229,
+   "precision_pct": 19.6,
+   "recall_pct": 92.6,
+   "f1_pct": 32.3,
+   "pdf_page": 4
+  },
+  {
+   "label": "AZ_DRIVER_LICENSE_NUMBER",
+   "TP": 162,
+   "FP": 227,
+   "FN": 242,
+   "Support": 404,
+   "precision_pct": 41.6,
+   "recall_pct": 40.1,
+   "f1_pct": 40.9,
+   "pdf_page": 4
+  },
+  {
+   "label": "MAC_ADDRESS",
+   "TP": 224,
+   "FP": 322,
+   "FN": 150,
+   "Support": 374,
+   "precision_pct": 41.0,
+   "recall_pct": 59.9,
+   "f1_pct": 48.7,
+   "pdf_page": 4
+  },
+  {
+   "label": "PAYMENT_CARD_NUMBER",
+   "TP": 174,
+   "FP": 147,
+   "FN": 216,
+   "Support": 390,
+   "precision_pct": 54.2,
+   "recall_pct": 44.6,
+   "f1_pct": 48.9,
+   "pdf_page": 4
+  },
+  {
+   "label": "API_KEY",
+   "TP": 233,
+   "FP": 333,
+   "FN": 138,
+   "Support": 371,
+   "precision_pct": 41.2,
+   "recall_pct": 62.8,
+   "f1_pct": 49.7,
+   "pdf_page": 4
+  },
+  {
+   "label": "DATE",
+   "TP": 188,
+   "FP": 79,
+   "FN": 206,
+   "Support": 394,
+   "precision_pct": 70.4,
+   "recall_pct": 47.7,
+   "f1_pct": 56.9,
+   "pdf_page": 4
+  },
+  {
+   "label": "AZ_ID_CARD_NUMBER",
+   "TP": 305,
+   "FP": 247,
+   "FN": 79,
+   "Support": 384,
+   "precision_pct": 55.3,
+   "recall_pct": 79.4,
+   "f1_pct": 65.2,
+   "pdf_page": 4
+  },
+  {
+   "label": "ZIPCODE",
+   "TP": 309,
+   "FP": 253,
+   "FN": 76,
+   "Support": 385,
+   "precision_pct": 55.0,
+   "recall_pct": 80.3,
+   "f1_pct": 65.3,
+   "pdf_page": 4
+  },
+  {
+   "label": "BUILDINGNUM",
+   "TP": 352,
+   "FP": 345,
+   "FN": 27,
+   "Support": 379,
+   "precision_pct": 50.5,
+   "recall_pct": 92.9,
+   "f1_pct": 65.4,
+   "pdf_page": 4
+  },
+  {
+   "label": "AGE",
+   "TP": 335,
+   "FP": 277,
+   "FN": 61,
+   "Support": 396,
+   "precision_pct": 54.7,
+   "recall_pct": 84.6,
+   "f1_pct": 66.5,
+   "pdf_page": 4
+  },
+  {
+   "label": "TIME",
+   "TP": 365,
+   "FP": 289,
+   "FN": 48,
+   "Support": 413,
+   "precision_pct": 55.8,
+   "recall_pct": 88.4,
+   "f1_pct": 68.4,
+   "pdf_page": 4
+  },
+  {
+   "label": "IBAN",
+   "TP": 254,
+   "FP": 53,
+   "FN": 172,
+   "Support": 426,
+   "precision_pct": 82.7,
+   "recall_pct": 59.6,
+   "f1_pct": 69.3,
+   "pdf_page": 4
+  },
+  {
+   "label": "AZ_FIN",
+   "TP": 374,
+   "FP": 252,
+   "FN": 21,
+   "Support": 395,
+   "precision_pct": 59.7,
+   "recall_pct": 94.7,
+   "f1_pct": 73.3,
+   "pdf_page": 4
+  },
+  {
+   "label": "GIVENNAME",
+   "TP": 397,
+   "FP": 257,
+   "FN": 7,
+   "Support": 404,
+   "precision_pct": 60.7,
+   "recall_pct": 98.3,
+   "f1_pct": 75.0,
+   "pdf_page": 4
+  },
+  {
+   "label": "IPV4_ADDRESS",
+   "TP": 330,
+   "FP": 99,
+   "FN": 94,
+   "Support": 424,
+   "precision_pct": 76.9,
+   "recall_pct": 77.8,
+   "f1_pct": 77.4,
+   "pdf_page": 4
+  },
+  {
+   "label": "CITY",
+   "TP": 292,
+   "FP": 56,
+   "FN": 93,
+   "Support": 385,
+   "precision_pct": 83.9,
+   "recall_pct": 75.8,
+   "f1_pct": 79.7,
+   "pdf_page": 4
+  },
+  {
+   "label": "AZ_VOEN",
+   "TP": 298,
+   "FP": 75,
+   "FN": 55,
+   "Support": 353,
+   "precision_pct": 79.9,
+   "recall_pct": 84.4,
+   "f1_pct": 82.1,
+   "pdf_page": 4
+  },
+  {
+   "label": "AZ_PASSPORT_NUMBER",
+   "TP": 339,
+   "FP": 52,
+   "FN": 27,
+   "Support": 366,
+   "precision_pct": 86.7,
+   "recall_pct": 92.6,
+   "f1_pct": 89.6,
+   "pdf_page": 4
+  },
+  {
+   "label": "PRIVATE_KEY",
+   "TP": 399,
+   "FP": 53,
+   "FN": 29,
+   "Support": 428,
+   "precision_pct": 88.3,
+   "recall_pct": 93.2,
+   "f1_pct": 90.7,
+   "pdf_page": 4
+  },
+  {
+   "label": "TELEPHONENUM",
+   "TP": 364,
+   "FP": 40,
+   "FN": 34,
+   "Support": 398,
+   "precision_pct": 90.1,
+   "recall_pct": 91.5,
+   "f1_pct": 90.8,
+   "pdf_page": 4
+  },
+  {
+   "label": "EMAIL",
+   "TP": 350,
+   "FP": 1,
+   "FN": 53,
+   "Support": 403,
+   "precision_pct": 99.7,
+   "recall_pct": 86.8,
+   "f1_pct": 92.8,
+   "pdf_page": 4
+  },
+  {
+   "label": "SURNAME",
+   "TP": 382,
+   "FP": 47,
+   "FN": 5,
+   "Support": 387,
+   "precision_pct": 89.0,
+   "recall_pct": 98.7,
+   "f1_pct": 93.6,
+   "pdf_page": 4
+  },
+  {
+   "label": "STREET",
+   "TP": 348,
+   "FP": 33,
+   "FN": 11,
+   "Support": 359,
+   "precision_pct": 91.3,
+   "recall_pct": 96.9,
+   "f1_pct": 94.1,
+   "pdf_page": 4
+  },
+  {
+   "label": "ICCID",
+   "TP": 375,
+   "FP": 15,
+   "FN": 24,
+   "Support": 399,
+   "precision_pct": 96.2,
+   "recall_pct": 94.0,
+   "f1_pct": 95.1,
+   "pdf_page": 4
+  },
+  {
+   "label": "URL",
+   "TP": 353,
+   "FP": 16,
+   "FN": 8,
+   "Support": 361,
+   "precision_pct": 95.7,
+   "recall_pct": 97.8,
+   "f1_pct": 96.7,
+   "pdf_page": 4
+  }
+ ],
+ "weakest_12_f1_chart": [
+  {
+   "item": "ACCESS_TOKEN",
+   "value_pct": 0.0,
+   "pdf_page": 5
+  },
+  {
+   "item": "IPV6_ADDRESS",
+   "value_pct": 17.6,
+   "pdf_page": 5
+  },
+  {
+   "item": "CARD_SECURITY_CODE",
+   "value_pct": 32.3,
+   "pdf_page": 5
+  },
+  {
+   "item": "AZ_DRIVER_LICENSE_NUMBER",
+   "value_pct": 40.9,
+   "pdf_page": 5
+  },
+  {
+   "item": "MAC_ADDRESS",
+   "value_pct": 48.7,
+   "pdf_page": 5
+  },
+  {
+   "item": "PAYMENT_CARD_NUMBER",
+   "value_pct": 48.9,
+   "pdf_page": 5
+  },
+  {
+   "item": "API_KEY",
+   "value_pct": 49.7,
+   "pdf_page": 5
+  },
+  {
+   "item": "DATE",
+   "value_pct": 56.9,
+   "pdf_page": 5
+  },
+  {
+   "item": "AZ_ID_CARD_NUMBER",
+   "value_pct": 65.2,
+   "pdf_page": 5
+  },
+  {
+   "item": "ZIPCODE",
+   "value_pct": 65.3,
+   "pdf_page": 5
+  },
+  {
+   "item": "BUILDINGNUM",
+   "value_pct": 65.4,
+   "pdf_page": 5
+  },
+  {
+   "item": "AGE",
+   "value_pct": 66.5,
+   "pdf_page": 5
+  }
+ ],
+ "strongest_10_f1_chart": [
+  {
+   "item": "URL",
+   "value_pct": 96.7,
+   "pdf_page": 5
+  },
+  {
+   "item": "ICCID",
+   "value_pct": 95.1,
+   "pdf_page": 5
+  },
+  {
+   "item": "STREET",
+   "value_pct": 94.1,
+   "pdf_page": 5
+  },
+  {
+   "item": "SURNAME",
+   "value_pct": 93.6,
+   "pdf_page": 5
+  },
+  {
+   "item": "EMAIL",
+   "value_pct": 92.8,
+   "pdf_page": 5
+  },
+  {
+   "item": "TELEPHONENUM",
+   "value_pct": 90.8,
+   "pdf_page": 5
+  },
+  {
+   "item": "PRIVATE_KEY",
+   "value_pct": 90.7,
+   "pdf_page": 5
+  },
+  {
+   "item": "AZ_PASSPORT_NUMBER",
+   "value_pct": 89.6,
+   "pdf_page": 5
+  },
+  {
+   "item": "AZ_VOEN",
+   "value_pct": 82.1,
+   "pdf_page": 5
+  },
+  {
+   "item": "CITY",
+   "value_pct": 79.7,
+   "pdf_page": 5
+  }
+ ],
+ "priority_diagnosis": [
+  {
+   "priority": "P0",
+   "label": "ACCESS_TOKEN",
+   "diagnosis": "TP 0; əsasən API_KEY kimi çıxır",
+   "pdf_page": 5
+  },
+  {
+   "priority": "P0",
+   "label": "IPV6_ADDRESS",
+   "diagnosis": "Recall 10.5%; MAC_ADDRESS confusion-u dominantdır",
+   "pdf_page": 5
+  },
+  {
+   "priority": "P0",
+   "label": "CARD_SECURITY_CODE",
+   "diagnosis": "Recall yüksək, precision 19.6%; 872 FP",
+   "pdf_page": 5
+  },
+  {
+   "priority": "P1",
+   "label": "DRIVER_LICENSE",
+   "diagnosis": "ID_CARD ilə ikitərəfli confusion; F1 41.1%",
+   "pdf_page": 5
+  },
+  {
+   "priority": "P1",
+   "label": "PAYMENT_CARD_NUMBER",
+   "diagnosis": "Recall 43.1%; miss və hissəvi span",
+   "pdf_page": 5
+  },
+  {
+   "priority": "P1",
+   "label": "API_KEY / MAC",
+   "diagnosis": "Taxonomy və hard-negative səbəbli precision itkisi",
+   "pdf_page": 5
+  },
+  {
+   "priority": "P1",
+   "label": "DATE / GIVENNAME",
+   "diagnosis": "Miss və spurious nəticələr; F1 54-56%",
+   "pdf_page": 5
+  },
+  {
+   "priority": "Monitor",
+   "label": "URL / ICCID / EMAIL / TEL",
+   "diagnosis": "Bütünündə F1 90%-dən yüksəkdir; regression qorunmalıdır",
+   "pdf_page": 5
+  }
+ ],
+ "confusion_pairs": [
+  {
+   "gold": "ACCESS_TOKEN",
+   "predicted": "API_KEY",
+   "count": 254,
+   "scoring_effect": "1 FP + 1 FN",
+   "pdf_page": 6
+  },
+  {
+   "gold": "AZ_DRIVER_LICENSE_NUMBER",
+   "predicted": "AZ_ID_CARD_NUMBER",
+   "count": 224,
+   "scoring_effect": "1 FP + 1 FN",
+   "pdf_page": 6
+  },
+  {
+   "gold": "IPV6_ADDRESS",
+   "predicted": "MAC_ADDRESS",
+   "count": 180,
+   "scoring_effect": "1 FP + 1 FN",
+   "pdf_page": 6
+  },
+  {
+   "gold": "AZ_ID_CARD_NUMBER",
+   "predicted": "AZ_DRIVER_LICENSE_NUMBER",
+   "count": 56,
+   "scoring_effect": "1 FP + 1 FN",
+   "pdf_page": 6
+  },
+  {
+   "gold": "IBAN",
+   "predicted": "API_KEY",
+   "count": 19,
+   "scoring_effect": "1 FP + 1 FN",
+   "pdf_page": 6
+  },
+  {
+   "gold": "CITY",
+   "predicted": "SURNAME",
+   "count": 10,
+   "scoring_effect": "1 FP + 1 FN",
+   "pdf_page": 6
+  },
+  {
+   "gold": "CITY",
+   "predicted": "GIVENNAME",
+   "count": 6,
+   "scoring_effect": "1 FP + 1 FN",
+   "pdf_page": 6
+  },
+  {
+   "gold": "SURNAME",
+   "predicted": "GIVENNAME",
+   "count": 4,
+   "scoring_effect": "1 FP + 1 FN",
+   "pdf_page": 6
+  },
+  {
+   "gold": "IBAN",
+   "predicted": "AZ_FIN",
+   "count": 4,
+   "scoring_effect": "1 FP + 1 FN",
+   "pdf_page": 6
+  },
+  {
+   "gold": "CARD_SECURITY_CODE",
+   "predicted": "AGE",
+   "count": 3,
+   "scoring_effect": "1 FP + 1 FN",
+   "pdf_page": 6
+  },
+  {
+   "gold": "AZ_ID_CARD_NUMBER",
+   "predicted": "AZ_FIN",
+   "count": 3,
+   "scoring_effect": "1 FP + 1 FN",
+   "pdf_page": 6
+  },
+  {
+   "gold": "PAYMENT_CARD_NUMBER",
+   "predicted": "ICCID",
+   "count": 1,
+   "scoring_effect": "1 FP + 1 FN",
+   "pdf_page": 6
+  },
+  {
+   "gold": "AZ_VOEN",
+   "predicted": "TELEPHONENUM",
+   "count": 1,
+   "scoring_effect": "1 FP + 1 FN",
+   "pdf_page": 6
+  }
+ ],
+ "main_confusions": [
+  {
+   "pair": "ACCESS_TOKEN -> API_KEY",
+   "count": 254,
+   "comment": "Model iki credential taxonomy-sini ayırmır",
+   "pdf_page": 6
+  },
+  {
+   "pair": "DRIVER_LICENSE -> ID_CARD",
+   "count": 224,
+   "comment": "Format və kontekst sərhədləri zəifdir",
+   "pdf_page": 6
+  },
+  {
+   "pair": "IPV6 -> MAC",
+   "count": 180,
+   "comment": "Hex və kolon pattern-i MAC labelinə çəkilir",
+   "pdf_page": 6
+  },
+  {
+   "pair": "ID_CARD -> DRIVER_LICENSE",
+   "count": 56,
+   "comment": "İkitərəfli sənəd nömrəsi confusion-u",
+   "pdf_page": 6
+  },
+  {
+   "pair": "IBAN -> API_KEY",
+   "count": 19,
+   "comment": "Uzun alfanumerik dəyər taxonomy qarışıqlığı",
+   "pdf_page": 6
+  }
+ ],
+ "example_tables": {
+  "wrong_label_examples": "tables/p006_t3.csv (page 6)",
+  "hard_negative_trigger_examples": "tables/p009_t1.csv (page 9)",
+  "spurious_examples": "tables/p009_t2.csv (page 9)",
+  "full_miss_examples": "tables/p010_t1.csv (page 10)",
+  "boundary_examples": "tables/p011_t2.csv (page 11)"
+ },
+ "hard_negative_by_target_label": [
+  {
+   "label": "CARD_SECURITY_CODE",
+   "cases": 548,
+   "triggered": 478,
+   "rate_pct": 87.2,
+   "pdf_page": 7
+  },
+  {
+   "label": "TIME",
+   "cases": 380,
+   "triggered": 213,
+   "rate_pct": 56.1,
+   "pdf_page": 7
+  },
+  {
+   "label": "AGE",
+   "cases": 397,
+   "triggered": 221,
+   "rate_pct": 55.7,
+   "pdf_page": 7
+  },
+  {
+   "label": "AZ_FIN",
+   "cases": 399,
+   "triggered": 151,
+   "rate_pct": 37.8,
+   "pdf_page": 7
+  },
+  {
+   "label": "ZIPCODE",
+   "cases": 306,
+   "triggered": 110,
+   "rate_pct": 35.9,
+   "pdf_page": 7
+  },
+  {
+   "label": "AZ_DRIVER_LICENSE_NUMBER",
+   "cases": 316,
+   "triggered": 82,
+   "rate_pct": 25.9,
+   "pdf_page": 7
+  },
+  {
+   "label": "PAYMENT_CARD_NUMBER",
+   "cases": 304,
+   "triggered": 58,
+   "rate_pct": 19.1,
+   "pdf_page": 7
+  },
+  {
+   "label": "IPV4_ADDRESS",
+   "cases": 371,
+   "triggered": 63,
+   "rate_pct": 17.0,
+   "pdf_page": 7
+  },
+  {
+   "label": "MAC_ADDRESS",
+   "cases": 309,
+   "triggered": 50,
+   "rate_pct": 16.2,
+   "pdf_page": 7
+  },
+  {
+   "label": "CITY",
+   "cases": 314,
+   "triggered": 45,
+   "rate_pct": 14.3,
+   "pdf_page": 7
+  },
+  {
+   "label": "AZ_VOEN",
+   "cases": 289,
+   "triggered": 39,
+   "rate_pct": 13.5,
+   "pdf_page": 7
+  },
+  {
+   "label": "DATE",
+   "cases": 301,
+   "triggered": 38,
+   "rate_pct": 12.6,
+   "pdf_page": 7
+  },
+  {
+   "label": "SURNAME",
+   "cases": 305,
+   "triggered": 36,
+   "rate_pct": 11.8,
+   "pdf_page": 7
+  },
+  {
+   "label": "AZ_PASSPORT_NUMBER",
+   "cases": 382,
+   "triggered": 40,
+   "rate_pct": 10.5,
+   "pdf_page": 7
+  },
+  {
+   "label": "STREET",
+   "cases": 303,
+   "triggered": 17,
+   "rate_pct": 5.6,
+   "pdf_page": 7
+  },
+  {
+   "label": "AZ_ID_CARD_NUMBER",
+   "cases": 335,
+   "triggered": 7,
+   "rate_pct": 2.1,
+   "pdf_page": 7
+  },
+  {
+   "label": "BUILDINGNUM",
+   "cases": 314,
+   "triggered": 1,
+   "rate_pct": 0.3,
+   "pdf_page": 7
+  },
+  {
+   "label": "IBAN",
+   "cases": 427,
+   "triggered": 1,
+   "rate_pct": 0.2,
+   "pdf_page": 7
+  },
+  {
+   "label": "ACCESS_TOKEN",
+   "cases": 305,
+   "triggered": 0,
+   "rate_pct": 0.0,
+   "pdf_page": 7
+  },
+  {
+   "label": "API_KEY",
+   "cases": 393,
+   "triggered": 0,
+   "rate_pct": 0.0,
+   "pdf_page": 7
+  },
+  {
+   "label": "EMAIL",
+   "cases": 391,
+   "triggered": 0,
+   "rate_pct": 0.0,
+   "pdf_page": 7
+  },
+  {
+   "label": "GIVENNAME",
+   "cases": 294,
+   "triggered": 0,
+   "rate_pct": 0.0,
+   "pdf_page": 7
+  },
+  {
+   "label": "ICCID",
+   "cases": 289,
+   "triggered": 0,
+   "rate_pct": 0.0,
+   "pdf_page": 7
+  },
+  {
+   "label": "IPV6_ADDRESS",
+   "cases": 291,
+   "triggered": 0,
+   "rate_pct": 0.0,
+   "pdf_page": 7
+  },
+  {
+   "label": "PRIVATE_KEY",
+   "cases": 370,
+   "triggered": 0,
+   "rate_pct": 0.0,
+   "pdf_page": 7
+  },
+  {
+   "label": "TELEPHONENUM",
+   "cases": 381,
+   "triggered": 0,
+   "rate_pct": 0.0,
+   "pdf_page": 7
+  },
+  {
+   "label": "URL",
+   "cases": 370,
+   "triggered": 0,
+   "rate_pct": 0.0,
+   "pdf_page": 7
+  }
+ ],
+ "hard_negative_by_value": {
+  "pdf_page": 8,
+  "note": "The page lists 35 rows, all AZ_FIN at 100% trigger: a top-by-rate cut, not the full value table.",
+  "rows": [
+   {
+    "label": "AZ_FIN",
+    "value": "A12B34",
+    "cases": 28,
+    "triggered": 28,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 27600,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 93133,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 945038,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 1331660,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 139783,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 1422685,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 1550802,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 157672,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 181612,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 2093651,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 271066,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 298867,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 3531070,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 368299,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 3993167,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 413100,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 4755741,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 4860823,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 4955108,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 515377,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 5463458,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 559296,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 571129,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 6022681,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 612517,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 6638604,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 696462,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 7120421,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 7148732,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 7284095,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 7404379,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 7637305,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 779775,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   },
+   {
+    "label": "AZ_FIN",
+    "value": 8100039,
+    "cases": 1,
+    "triggered": 1,
+    "rate_pct": 100.0,
+    "pdf_page": 8
+   }
+  ]
+ },
+ "fp_taxonomy_chart": [
+  {
+   "item": "hard_negative_trigger",
+   "value_pct": 39.8,
+   "pdf_page": 9
+  },
+  {
+   "item": "spurious",
+   "value_pct": 30.4,
+   "pdf_page": 9
+  },
+  {
+   "item": "wrong_label",
+   "value_pct": 13.8,
+   "pdf_page": 9
+  },
+  {
+   "item": "boundary_error",
+   "value_pct": 12.7,
+   "pdf_page": 9
+  },
+  {
+   "item": "wrong_label_and_boundary",
+   "value_pct": 3.2,
+   "pdf_page": 9
+  }
+ ],
+ "fn_taxonomy_chart": [
+  {
+   "item": "missed",
+   "value_pct": 59.2,
+   "pdf_page": 10
+  },
+  {
+   "item": "wrong_label",
+   "value_pct": 23.2,
+   "pdf_page": 10
+  },
+  {
+   "item": "boundary_error",
+   "value_pct": 15.4,
+   "pdf_page": 10
+  },
+  {
+   "item": "wrong_label_and_boundary",
+   "value_pct": 2.2,
+   "pdf_page": 10
+  }
+ ],
+ "full_miss_normalized_chart": [
+  {
+   "item": "IPV6_ADDRESS",
+   "value_pct": 100.0,
+   "pdf_page": 10
+  },
+  {
+   "item": "DATE",
+   "value_pct": 78.0,
+   "pdf_page": 10
+  },
+  {
+   "item": "PAYMENT_CARD_NUMBER",
+   "value_pct": 72.4,
+   "pdf_page": 10
+  },
+  {
+   "item": "ACCESS_TOKEN",
+   "value_pct": 56.5,
+   "pdf_page": 10
+  },
+  {
+   "item": "IBAN",
+   "value_pct": 54.1,
+   "pdf_page": 10
+  },
+  {
+   "item": "MAC_ADDRESS",
+   "value_pct": 48.4,
+   "pdf_page": 10
+  },
+  {
+   "item": "API_KEY",
+   "value_pct": 39.0,
+   "pdf_page": 10
+  },
+  {
+   "item": "CITY",
+   "value_pct": 28.0,
+   "pdf_page": 10
+  },
+  {
+   "item": "IPV4_ADDRESS",
+   "value_pct": 28.0,
+   "pdf_page": 10
+  },
+  {
+   "item": "AGE",
+   "value_pct": 24.8,
+   "pdf_page": 10
+  },
+  {
+   "item": "EMAIL",
+   "value_pct": 21.1,
+   "pdf_page": 10
+  },
+  {
+   "item": "ZIPCODE",
+   "value_pct": 20.7,
+   "pdf_page": 10
+  }
+ ],
+ "boundary_types": [
+  {
+   "type": "Narrower",
+   "count": 496,
+   "share_pct": 86.9,
+   "pdf_page": 11
+  },
+  {
+   "type": "Wider",
+   "count": 75,
+   "share_pct": 13.1,
+   "pdf_page": 11
+  },
+  {
+   "type": "Shifted",
+   "count": 0,
+   "share_pct": 0.0,
+   "pdf_page": 11
+  }
+ ],
+ "by_source": [
+  {
+   "slice": "legacy_v2",
+   "docs": 4489,
+   "TP": 6544,
+   "FP": 3806,
+   "FN": 2361,
+   "precision_pct": 63.2,
+   "recall_pct": 73.5,
+   "f1_pct": 68.0,
+   "pdf_page": 12
+  },
+  {
+   "slice": "structured_v3",
+   "docs": 511,
+   "TP": 1217,
+   "FP": 676,
+   "FN": 316,
+   "precision_pct": 64.3,
+   "recall_pct": 79.4,
+   "f1_pct": 71.0,
+   "pdf_page": 12
+  }
+ ],
+ "by_category": [
+  {
+   "slice": "hard_negative",
+   "docs": 1553,
+   "TP": 879,
+   "FP": 1422,
+   "FN": 387,
+   "precision_pct": 38.2,
+   "recall_pct": 69.4,
+   "f1_pct": 49.3,
+   "pdf_page": 12
+  },
+  {
+   "slice": "corrected_hard_negative",
+   "docs": 64,
+   "TP": 106,
+   "FP": 79,
+   "FN": 35,
+   "precision_pct": 57.3,
+   "recall_pct": 75.2,
+   "f1_pct": 65.0,
+   "pdf_page": 12
+  },
+  {
+   "slice": "structured_csv",
+   "docs": 100,
+   "TP": 208,
+   "FP": 125,
+   "FN": 92,
+   "precision_pct": 62.5,
+   "recall_pct": 69.3,
+   "f1_pct": 65.7,
+   "pdf_page": 12
+  },
+  {
+   "slice": "mixed",
+   "docs": 803,
+   "TP": 1639,
+   "FP": 1097,
+   "FN": 528,
+   "precision_pct": 59.9,
+   "recall_pct": 75.6,
+   "f1_pct": 66.9,
+   "pdf_page": 12
+  },
+  {
+   "slice": "structured_technical_log",
+   "docs": 93,
+   "TP": 219,
+   "FP": 135,
+   "FN": 60,
+   "precision_pct": 61.9,
+   "recall_pct": 78.5,
+   "f1_pct": 69.2,
+   "pdf_page": 12
+  },
+  {
+   "slice": "natural_variant_hard_negative",
+   "docs": 534,
+   "TP": 736,
+   "FP": 345,
+   "FN": 303,
+   "precision_pct": 68.1,
+   "recall_pct": 70.8,
+   "f1_pct": 69.4,
+   "pdf_page": 12
+  },
+  {
+   "slice": "structured_dialogue",
+   "docs": 103,
+   "TP": 253,
+   "FP": 147,
+   "FN": 56,
+   "precision_pct": 63.2,
+   "recall_pct": 81.9,
+   "f1_pct": 71.4,
+   "pdf_page": 12
+  },
+  {
+   "slice": "anchor_variant_hard_negative",
+   "docs": 414,
+   "TP": 574,
+   "FP": 246,
+   "FN": 211,
+   "precision_pct": 70.0,
+   "recall_pct": 73.1,
+   "f1_pct": 71.5,
+   "pdf_page": 12
+  },
+  {
+   "slice": "structured_json_config",
+   "docs": 103,
+   "TP": 259,
+   "FP": 134,
+   "FN": 50,
+   "precision_pct": 65.9,
+   "recall_pct": 83.8,
+   "f1_pct": 73.8,
+   "pdf_page": 12
+  },
+  {
+   "slice": "structured_pipe_table",
+   "docs": 112,
+   "TP": 278,
+   "FP": 135,
+   "FN": 58,
+   "precision_pct": 67.3,
+   "recall_pct": 82.7,
+   "f1_pct": 74.2,
+   "pdf_page": 12
+  },
+  {
+   "slice": "anchor_variant_positive",
+   "docs": 361,
+   "TP": 765,
+   "FP": 188,
+   "FN": 319,
+   "precision_pct": 80.3,
+   "recall_pct": 70.6,
+   "f1_pct": 75.1,
+   "pdf_page": 12
+  },
+  {
+   "slice": "natural_variant_positive",
+   "docs": 518,
+   "TP": 1150,
+   "FP": 244,
+   "FN": 402,
+   "precision_pct": 82.5,
+   "recall_pct": 74.1,
+   "f1_pct": 78.1,
+   "pdf_page": 12
+  },
+  {
+   "slice": "positive_control",
+   "docs": 242,
+   "TP": 695,
+   "FP": 185,
+   "FN": 176,
+   "precision_pct": 79.0,
+   "recall_pct": 79.8,
+   "f1_pct": 79.4,
+   "pdf_page": 12
+  }
+ ],
+ "by_document_type": [
+  {
+   "slice": "report",
+   "docs": 353,
+   "TP": 507,
+   "FP": 333,
+   "FN": 196,
+   "precision_pct": 60.4,
+   "recall_pct": 72.1,
+   "f1_pct": 65.7,
+   "pdf_page": 13
+  },
+  {
+   "slice": "csv",
+   "docs": 100,
+   "TP": 208,
+   "FP": 125,
+   "FN": 92,
+   "precision_pct": 62.5,
+   "recall_pct": 69.3,
+   "f1_pct": 65.7,
+   "pdf_page": 13
+  },
+  {
+   "slice": "form",
+   "docs": 354,
+   "TP": 519,
+   "FP": 287,
+   "FN": 217,
+   "precision_pct": 64.4,
+   "recall_pct": 70.5,
+   "f1_pct": 67.3,
+   "pdf_page": 13
+  },
+  {
+   "slice": "crm",
+   "docs": 355,
+   "TP": 508,
+   "FP": 301,
+   "FN": 191,
+   "precision_pct": 62.8,
+   "recall_pct": 72.7,
+   "f1_pct": 67.4,
+   "pdf_page": 13
+  },
+  {
+   "slice": "legal",
+   "docs": 359,
+   "TP": 486,
+   "FP": 261,
+   "FN": 208,
+   "precision_pct": 65.1,
+   "recall_pct": 70.0,
+   "f1_pct": 67.5,
+   "pdf_page": 13
+  },
+  {
+   "slice": "first_person_form",
+   "docs": 467,
+   "TP": 677,
+   "FP": 414,
+   "FN": 238,
+   "precision_pct": 62.1,
+   "recall_pct": 74.0,
+   "f1_pct": 67.5,
+   "pdf_page": 13
+  },
+  {
+   "slice": "first_person_email",
+   "docs": 452,
+   "TP": 670,
+   "FP": 407,
+   "FN": 234,
+   "precision_pct": 62.2,
+   "recall_pct": 74.1,
+   "f1_pct": 67.6,
+   "pdf_page": 13
+  },
+  {
+   "slice": "support_ticket",
+   "docs": 354,
+   "TP": 543,
+   "FP": 317,
+   "FN": 196,
+   "precision_pct": 63.1,
+   "recall_pct": 73.5,
+   "f1_pct": 67.9,
+   "pdf_page": 13
+  },
+  {
+   "slice": "first_person_chat",
+   "docs": 413,
+   "TP": 624,
+   "FP": 385,
+   "FN": 203,
+   "precision_pct": 61.8,
+   "recall_pct": 75.5,
+   "f1_pct": 68.0,
+   "pdf_page": 13
+  },
+  {
+   "slice": "technical_note",
+   "docs": 382,
+   "TP": 531,
+   "FP": 284,
+   "FN": 197,
+   "precision_pct": 65.2,
+   "recall_pct": 72.9,
+   "f1_pct": 68.8,
+   "pdf_page": 13
+  },
+  {
+   "slice": "technical_log",
+   "docs": 93,
+   "TP": 219,
+   "FP": 135,
+   "FN": 60,
+   "precision_pct": 61.9,
+   "recall_pct": 78.5,
+   "f1_pct": 69.2,
+   "pdf_page": 13
+  },
+  {
+   "slice": "insurance",
+   "docs": 316,
+   "TP": 474,
+   "FP": 276,
+   "FN": 146,
+   "precision_pct": 63.2,
+   "recall_pct": 76.5,
+   "f1_pct": 69.2,
+   "pdf_page": 13
+  },
+  {
+   "slice": "bank_message",
+   "docs": 348,
+   "TP": 499,
+   "FP": 281,
+   "FN": 161,
+   "precision_pct": 64.0,
+   "recall_pct": 75.6,
+   "f1_pct": 69.3,
+   "pdf_page": 13
+  },
+  {
+   "slice": "email",
+   "docs": 336,
+   "TP": 506,
+   "FP": 260,
+   "FN": 174,
+   "precision_pct": 66.1,
+   "recall_pct": 74.4,
+   "f1_pct": 70.0,
+   "pdf_page": 13
+  },
+  {
+   "slice": "dialogue",
+   "docs": 103,
+   "TP": 253,
+   "FP": 147,
+   "FN": 56,
+   "precision_pct": 63.2,
+   "recall_pct": 81.9,
+   "f1_pct": 71.4,
+   "pdf_page": 13
+  },
+  {
+   "slice": "json_config",
+   "docs": 103,
+   "TP": 259,
+   "FP": 134,
+   "FN": 50,
+   "precision_pct": 65.9,
+   "recall_pct": 83.8,
+   "f1_pct": 73.8,
+   "pdf_page": 13
+  },
+  {
+   "slice": "pipe_table",
+   "docs": 112,
+   "TP": 278,
+   "FP": 135,
+   "FN": 58,
+   "precision_pct": 67.3,
+   "recall_pct": 82.7,
+   "f1_pct": 74.2,
+   "pdf_page": 13
+  }
+ ],
+ "weak_labels_within_format": [
+  {
+   "format": "bank_message",
+   "weakest_labels_support_ge_5": "ACCESS_TOKEN: 0.0% (n=23); IPV6_ADDRESS: 18.2% (n=24); MAC_ADDRESS: 34.8% (n=21); AZ_DRIVER_LICENSE_NUMBER: 38.3% (n=26); CARD_SECURITY_CODE: 40.4% (n=18)",
+   "pdf_page": 14
+  },
+  {
+   "format": "crm",
+   "weakest_labels_support_ge_5": "ACCESS_TOKEN: 0.0% (n=28); IPV6_ADDRESS: 0.0% (n=28); AZ_DRIVER_LICENSE_NUMBER: 21.6% (n=24); CARD_SECURITY_CODE: 26.1% (n=9); MAC_ADDRESS: 31.9% (n=29)",
+   "pdf_page": 14
+  },
+  {
+   "format": "csv",
+   "weakest_labels_support_ge_5": "ACCESS_TOKEN: 0.0% (n=10); AZ_ID_CARD_NUMBER: 0.0% (n=15); EMAIL: 0.0% (n=6); IBAN: 0.0% (n=10); IPV6_ADDRESS: 0.0% (n=11)",
+   "pdf_page": 14
+  },
+  {
+   "format": "dialogue",
+   "weakest_labels_support_ge_5": "ACCESS_TOKEN: 0.0% (n=13); AZ_ID_CARD_NUMBER: 0.0% (n=15); EMAIL: 0.0% (n=12); CARD_SECURITY_CODE: 42.9% (n=12); API_KEY: 48.0% (n=6)",
+   "pdf_page": 14
+  },
+  {
+   "format": "email",
+   "weakest_labels_support_ge_5": "ACCESS_TOKEN: 0.0% (n=22); IPV6_ADDRESS: 17.6% (n=27); AZ_DRIVER_LICENSE_NUMBER: 32.7% (n=28); CARD_SECURITY_CODE: 35.3% (n=15); MAC_ADDRESS: 37.0% (n=25)",
+   "pdf_page": 14
+  },
+  {
+   "format": "first_person_chat",
+   "weakest_labels_support_ge_5": "ACCESS_TOKEN: 0.0% (n=38); IPV6_ADDRESS: 21.1% (n=45); CARD_SECURITY_CODE: 30.6% (n=15); PAYMENT_CARD_NUMBER: 38.1% (n=26); AZ_DRIVER_LICENSE_NUMBER: 40.0% (n=27)",
+   "pdf_page": 14
+  },
+  {
+   "format": "first_person_email",
+   "weakest_labels_support_ge_5": "ACCESS_TOKEN: 0.0% (n=35); IPV6_ADDRESS: 14.3% (n=36); CARD_SECURITY_CODE: 23.8% (n=13); AZ_DRIVER_LICENSE_NUMBER: 35.6% (n=37); PAYMENT_CARD_NUMBER: 36.4% (n=36)",
+   "pdf_page": 14
+  },
+  {
+   "format": "first_person_form",
+   "weakest_labels_support_ge_5": "ACCESS_TOKEN: 0.0% (n=38); IPV6_ADDRESS: 19.5% (n=36); CARD_SECURITY_CODE: 26.2% (n=16); DATE: 40.0% (n=36); AZ_DRIVER_LICENSE_NUMBER: 41.4% (n=31)",
+   "pdf_page": 14
+  },
+  {
+   "format": "form",
+   "weakest_labels_support_ge_5": "ACCESS_TOKEN: 0.0% (n=28); IPV6_ADDRESS: 0.0% (n=39); CARD_SECURITY_CODE: 22.2% (n=9); PAYMENT_CARD_NUMBER: 35.3% (n=25); AZ_DRIVER_LICENSE_NUMBER: 36.7% (n=27)",
+   "pdf_page": 14
+  },
+  {
+   "format": "insurance",
+   "weakest_labels_support_ge_5": "ACCESS_TOKEN: 0.0% (n=21); CARD_SECURITY_CODE: 20.8% (n=8); IPV6_ADDRESS: 28.6% (n=29); AZ_DRIVER_LICENSE_NUMBER: 30.4% (n=26); PAYMENT_CARD_NUMBER: 34.3% (n=20)",
+   "pdf_page": 14
+  },
+  {
+   "format": "json_config",
+   "weakest_labels_support_ge_5": "ACCESS_TOKEN: 0.0% (n=8); AZ_ID_CARD_NUMBER: 0.0% (n=6); EMAIL: 0.0% (n=10); IPV6_ADDRESS: 0.0% (n=11); URL: 47.1% (n=14)",
+   "pdf_page": 14
+  },
+  {
+   "format": "legal",
+   "weakest_labels_support_ge_5": "ACCESS_TOKEN: 0.0% (n=26); IPV6_ADDRESS: 18.6% (n=38); AZ_DRIVER_LICENSE_NUMBER: 31.4% (n=36); PAYMENT_CARD_NUMBER: 34.8% (n=25); DATE: 37.8% (n=22)",
+   "pdf_page": 14
+  },
+  {
+   "format": "pipe_table",
+   "weakest_labels_support_ge_5": "ACCESS_TOKEN: 0.0% (n=11); AZ_ID_CARD_NUMBER: 0.0% (n=12); EMAIL: 0.0% (n=14); IPV6_ADDRESS: 21.1% (n=15); CARD_SECURITY_CODE: 36.0% (n=9)",
+   "pdf_page": 14
+  },
+  {
+   "format": "report",
+   "weakest_labels_support_ge_5": "ACCESS_TOKEN: 0.0% (n=28); IPV6_ADDRESS: 12.5% (n=27); AZ_DRIVER_LICENSE_NUMBER: 21.7% (n=27); PAYMENT_CARD_NUMBER: 22.7% (n=21); CARD_SECURITY_CODE: 30.6% (n=15)",
+   "pdf_page": 14
+  },
+  {
+   "format": "support_ticket",
+   "weakest_labels_support_ge_5": "ACCESS_TOKEN: 0.0% (n=28); IPV6_ADDRESS: 20.0% (n=30); CARD_SECURITY_CODE: 29.2% (n=14); AZ_DRIVER_LICENSE_NUMBER: 34.8% (n=27); DATE: 35.0% (n=26)",
+   "pdf_page": 14
+  },
+  {
+   "format": "technical_log",
+   "weakest_labels_support_ge_5": "ACCESS_TOKEN: 0.0% (n=8); AZ_ID_CARD_NUMBER: 0.0% (n=9); EMAIL: 0.0% (n=10); IPV6_ADDRESS: 28.6% (n=6); CARD_SECURITY_CODE: 29.5% (n=11)",
+   "pdf_page": 14
+  },
+  {
+   "format": "technical_note",
+   "weakest_labels_support_ge_5": "ACCESS_TOKEN: 0.0% (n=20); IPV6_ADDRESS: 13.8% (n=27); API_KEY: 32.8% (n=32); AZ_DRIVER_LICENSE_NUMBER: 40.0% (n=32); PAYMENT_CARD_NUMBER: 40.8% (n=30)",
+   "pdf_page": 14
+  }
+ ],
+ "by_noise": [
+  {
+   "slice": "orthographic_noise",
+   "docs": 2010,
+   "TP": 2901,
+   "FP": 1686,
+   "FN": 1110,
+   "precision_pct": 63.2,
+   "recall_pct": 72.3,
+   "f1_pct": 67.5,
+   "pdf_page": 15
+  },
+  {
+   "slice": "typo_noise",
+   "docs": 1134,
+   "TP": 1643,
+   "FP": 970,
+   "FN": 590,
+   "precision_pct": 62.9,
+   "recall_pct": 73.6,
+   "f1_pct": 67.8,
+   "pdf_page": 15
+  },
+  {
+   "slice": "clean",
+   "docs": 2381,
+   "TP": 3969,
+   "FP": 2269,
+   "FN": 1274,
+   "precision_pct": 63.6,
+   "recall_pct": 75.7,
+   "f1_pct": 69.1,
+   "pdf_page": 15
+  }
+ ],
+ "by_register": [
+  {
+   "slice": "casual",
+   "docs": 921,
+   "TP": 1281,
+   "FP": 768,
+   "FN": 478,
+   "precision_pct": 62.5,
+   "recall_pct": 72.8,
+   "f1_pct": 67.3,
+   "pdf_page": 15
+  },
+  {
+   "slice": "formal",
+   "docs": 902,
+   "TP": 1321,
+   "FP": 795,
+   "FN": 476,
+   "precision_pct": 62.4,
+   "recall_pct": 73.5,
+   "f1_pct": 67.5,
+   "pdf_page": 15
+  },
+  {
+   "slice": "neutral",
+   "docs": 852,
+   "TP": 1238,
+   "FP": 722,
+   "FN": 433,
+   "precision_pct": 63.2,
+   "recall_pct": 74.1,
+   "f1_pct": 68.2,
+   "pdf_page": 15
+  },
+  {
+   "slice": "bureaucratic",
+   "docs": 903,
+   "TP": 1328,
+   "FP": 747,
+   "FN": 477,
+   "precision_pct": 64.0,
+   "recall_pct": 73.6,
+   "f1_pct": 68.5,
+   "pdf_page": 15
+  },
+  {
+   "slice": "technical",
+   "docs": 1422,
+   "TP": 2593,
+   "FP": 1450,
+   "FN": 813,
+   "precision_pct": 64.1,
+   "recall_pct": 76.1,
+   "f1_pct": 69.6,
+   "pdf_page": 15
+  }
+ ],
+ "by_first_person": [
+  {
+   "slice": "true",
+   "docs": 1332,
+   "TP": 1971,
+   "FP": 1206,
+   "FN": 675,
+   "precision_pct": 62.0,
+   "recall_pct": 74.5,
+   "f1_pct": 67.7,
+   "pdf_page": 15
+  },
+  {
+   "slice": "false",
+   "docs": 3668,
+   "TP": 5790,
+   "FP": 3276,
+   "FN": 2002,
+   "precision_pct": 63.9,
+   "recall_pct": 74.3,
+   "f1_pct": 68.7,
+   "pdf_page": 15
+  }
+ ],
+ "by_length": [
+  {
+   "slice": "long_1000+",
+   "docs": 1723,
+   "TP": 3064,
+   "FP": 1781,
+   "FN": 1162,
+   "precision_pct": 63.2,
+   "recall_pct": 72.5,
+   "f1_pct": 67.6,
+   "pdf_page": 16
+  },
+  {
+   "slice": "medium_500-999",
+   "docs": 2686,
+   "TP": 3403,
+   "FP": 1972,
+   "FN": 1179,
+   "precision_pct": 63.3,
+   "recall_pct": 74.3,
+   "f1_pct": 68.4,
+   "pdf_page": 16
+  },
+  {
+   "slice": "short_<500",
+   "docs": 591,
+   "TP": 1294,
+   "FP": 729,
+   "FN": 336,
+   "precision_pct": 64.0,
+   "recall_pct": 79.4,
+   "f1_pct": 70.8,
+   "pdf_page": 16
+  }
+ ],
+ "by_entity_density": [
+  {
+   "slice": "zero",
+   "docs": 627,
+   "TP": 0,
+   "FP": 431,
+   "FN": 0,
+   "precision_pct": 0.0,
+   "recall_pct": 0.0,
+   "f1_pct": 0.0,
+   "pdf_page": 16
+  },
+  {
+   "slice": "single",
+   "docs": 988,
+   "TP": 654,
+   "FP": 753,
+   "FN": 334,
+   "precision_pct": 46.5,
+   "recall_pct": 66.2,
+   "f1_pct": 54.6,
+   "pdf_page": 16
+  },
+  {
+   "slice": "two",
+   "docs": 1386,
+   "TP": 2008,
+   "FP": 1254,
+   "FN": 764,
+   "precision_pct": 61.6,
+   "recall_pct": 72.4,
+   "f1_pct": 66.6,
+   "pdf_page": 16
+  },
+  {
+   "slice": "three_plus",
+   "docs": 1999,
+   "TP": 5099,
+   "FP": 2044,
+   "FN": 1579,
+   "precision_pct": 71.4,
+   "recall_pct": 76.4,
+   "f1_pct": 73.8,
+   "pdf_page": 16
+  }
+ ],
+ "by_position": [
+  {
+   "position": "end_66-100%",
+   "TP": 2056,
+   "FN": 673,
+   "recall_pct": 75.3,
+   "pdf_page": 16
+  },
+  {
+   "position": "middle_33-66%",
+   "TP": 3353,
+   "FN": 1205,
+   "recall_pct": 73.6,
+   "pdf_page": 16
+  },
+  {
+   "position": "start_0-33%",
+   "TP": 2352,
+   "FN": 799,
+   "recall_pct": 74.6,
+   "pdf_page": 16
+  }
+ ],
+ "threshold_simulation": [
+  {
+   "threshold": 0.0,
+   "TP": 7761,
+   "FP": 4482,
+   "FN": 2677,
+   "precision_pct": 63.4,
+   "recall_pct": 74.4,
+   "f1_pct": 68.4,
+   "pdf_page": 17
+  },
+  {
+   "threshold": 0.5,
+   "TP": 7761,
+   "FP": 4380,
+   "FN": 2677,
+   "precision_pct": 63.9,
+   "recall_pct": 74.4,
+   "f1_pct": 68.7,
+   "pdf_page": 17
+  },
+  {
+   "threshold": 0.7,
+   "TP": 7692,
+   "FP": 3471,
+   "FN": 2746,
+   "precision_pct": 68.9,
+   "recall_pct": 73.7,
+   "f1_pct": 71.2,
+   "pdf_page": 17
+  },
+  {
+   "threshold": 0.8,
+   "TP": 7600,
+   "FP": 3059,
+   "FN": 2838,
+   "precision_pct": 71.3,
+   "recall_pct": 72.8,
+   "f1_pct": 72.0,
+   "pdf_page": 17
+  },
+  {
+   "threshold": 0.9,
+   "TP": 7431,
+   "FP": 2568,
+   "FN": 3007,
+   "precision_pct": 74.3,
+   "recall_pct": 71.2,
+   "f1_pct": 72.7,
+   "pdf_page": 17
+  },
+  {
+   "threshold": 0.95,
+   "TP": 7248,
+   "FP": 2218,
+   "FN": 3190,
+   "precision_pct": 76.6,
+   "recall_pct": 69.4,
+   "f1_pct": 72.8,
+   "pdf_page": 17
+  },
+  {
+   "threshold": 0.98,
+   "TP": 6959,
+   "FP": 1846,
+   "FN": 3479,
+   "precision_pct": 79.0,
+   "recall_pct": 66.7,
+   "f1_pct": 72.3,
+   "pdf_page": 17
+  },
+  {
+   "threshold": 0.99,
+   "TP": 6729,
+   "FP": 1581,
+   "FN": 3709,
+   "precision_pct": 81.0,
+   "recall_pct": 64.5,
+   "f1_pct": 71.8,
+   "pdf_page": 17
+  }
+ ],
+ "confidence_bins": [
+  {
+   "score_bin": "<0.50",
+   "TP": 0,
+   "FP": 102,
+   "bin_precision_pct": 0.0,
+   "pdf_page": 17
+  },
+  {
+   "score_bin": "0.50-0.80",
+   "TP": 161,
+   "FP": 1321,
+   "bin_precision_pct": 10.9,
+   "pdf_page": 17
+  },
+  {
+   "score_bin": "0.80-0.90",
+   "TP": 169,
+   "FP": 491,
+   "bin_precision_pct": 25.6,
+   "pdf_page": 17
+  },
+  {
+   "score_bin": "0.90-0.95",
+   "TP": 183,
+   "FP": 350,
+   "bin_precision_pct": 34.3,
+   "pdf_page": 17
+  },
+  {
+   "score_bin": "0.95-0.99",
+   "TP": 519,
+   "FP": 637,
+   "bin_precision_pct": 44.9,
+   "pdf_page": 17
+  },
+  {
+   "score_bin": "0.99-1.00",
+   "TP": 6729,
+   "FP": 1581,
+   "bin_precision_pct": 81.0,
+   "pdf_page": 17
+  }
+ ],
+ "label_error_causes": [
+  {
+   "label": "ACCESS_TOKEN",
+   "main_fp_cause": "- (0)",
+   "main_fn_cause": "wrong_label (229)",
+   "pdf_page": 18
+  },
+  {
+   "label": "AGE",
+   "main_fp_cause": "hard_negative_trigger (268)",
+   "main_fn_cause": "missed (61)",
+   "pdf_page": 18
+  },
+  {
+   "label": "API_KEY",
+   "main_fp_cause": "wrong_label (236)",
+   "main_fn_cause": "missed (96)",
+   "pdf_page": 18
+  },
+  {
+   "label": "AZ_DRIVER_LICENSE_NUMBER",
+   "main_fp_cause": "hard_negative_trigger (82)",
+   "main_fn_cause": "wrong_label (210)",
+   "pdf_page": 18
+  },
+  {
+   "label": "AZ_FIN",
+   "main_fp_cause": "hard_negative_trigger (158)",
+   "main_fn_cause": "boundary_error (16)",
+   "pdf_page": 18
+  },
+  {
+   "label": "AZ_ID_CARD_NUMBER",
+   "main_fp_cause": "wrong_label (210)",
+   "main_fn_cause": "wrong_label (55)",
+   "pdf_page": 18
+  },
+  {
+   "label": "AZ_PASSPORT_NUMBER",
+   "main_fp_cause": "hard_negative_trigger (40)",
+   "main_fn_cause": "missed (16)",
+   "pdf_page": 18
+  },
+  {
+   "label": "AZ_VOEN",
+   "main_fp_cause": "hard_negative_trigger (43)",
+   "main_fn_cause": "missed (40)",
+   "pdf_page": 18
+  },
+  {
+   "label": "BUILDINGNUM",
+   "main_fp_cause": "spurious (333)",
+   "main_fn_cause": "missed (16)",
+   "pdf_page": 18
+  },
+  {
+   "label": "CARD_SECURITY_CODE",
+   "main_fp_cause": "hard_negative_trigger (548)",
+   "main_fn_cause": "missed (12)",
+   "pdf_page": 18
+  },
+  {
+   "label": "CITY",
+   "main_fp_cause": "hard_negative_trigger (45)",
+   "main_fn_cause": "missed (69)",
+   "pdf_page": 18
+  },
+  {
+   "label": "DATE",
+   "main_fp_cause": "hard_negative_trigger (39)",
+   "main_fn_cause": "missed (192)",
+   "pdf_page": 18
+  },
+  {
+   "label": "EMAIL",
+   "main_fp_cause": "boundary_error (1)",
+   "main_fn_cause": "missed (52)",
+   "pdf_page": 18
+  },
+  {
+   "label": "GIVENNAME",
+   "main_fp_cause": "spurious (246)",
+   "main_fn_cause": "missed (6)",
+   "pdf_page": 18
+  },
+  {
+   "label": "IBAN",
+   "main_fp_cause": "boundary_error (51)",
+   "main_fn_cause": "missed (133)",
+   "pdf_page": 18
+  },
+  {
+   "label": "ICCID",
+   "main_fp_cause": "boundary_error (11)",
+   "main_fn_cause": "missed (15)",
+   "pdf_page": 18
+  },
+  {
+   "label": "IPV4_ADDRESS",
+   "main_fp_cause": "hard_negative_trigger (64)",
+   "main_fn_cause": "missed (69)",
+   "pdf_page": 18
+  },
+  {
+   "label": "IPV6_ADDRESS",
+   "main_fp_cause": "boundary_error (42)",
+   "main_fn_cause": "missed (246)",
+   "pdf_page": 18
+  },
+  {
+   "label": "MAC_ADDRESS",
+   "main_fp_cause": "wrong_label (101)",
+   "main_fn_cause": "missed (119)",
+   "pdf_page": 18
+  },
+  {
+   "label": "PAYMENT_CARD_NUMBER",
+   "main_fp_cause": "hard_negative_trigger (59)",
+   "main_fn_cause": "missed (178)",
+   "pdf_page": 18
+  },
+  {
+   "label": "PRIVATE_KEY",
+   "main_fp_cause": "boundary_error (53)",
+   "main_fn_cause": "boundary_error (29)",
+   "pdf_page": 18
+  },
+  {
+   "label": "STREET",
+   "main_fp_cause": "hard_negative_trigger (17)",
+   "main_fn_cause": "boundary_error (6)",
+   "pdf_page": 18
+  },
+  {
+   "label": "SURNAME",
+   "main_fp_cause": "hard_negative_trigger (36)",
+   "main_fn_cause": "wrong_label (3)",
+   "pdf_page": 18
+  },
+  {
+   "label": "TELEPHONENUM",
+   "main_fp_cause": "boundary_error (39)",
+   "main_fn_cause": "boundary_error (31)",
+   "pdf_page": 18
+  },
+  {
+   "label": "TIME",
+   "main_fp_cause": "hard_negative_trigger (216)",
+   "main_fn_cause": "missed (36)",
+   "pdf_page": 18
+  },
+  {
+   "label": "URL",
+   "main_fp_cause": "boundary_error (16)",
+   "main_fn_cause": "boundary_error (8)",
+   "pdf_page": 18
+  },
+  {
+   "label": "ZIPCODE",
+   "main_fp_cause": "spurious (116)",
+   "main_fn_cause": "missed (51)",
+   "pdf_page": 18
+  }
+ ],
+ "edge_case_map": [
+  {
+   "edge_case": "ACCESS_TOKEN",
+   "observation": "API_KEY kimi çıxır və ya miss olur",
+   "risk": "Recall 0%",
+   "pdf_page": 19
+  },
+  {
+   "edge_case": "Invalid CVV",
+   "observation": "42, 1234, 12345 və 68i maskalanır",
+   "risk": "Çox yüksək FP",
+   "pdf_page": 19
+  },
+  {
+   "edge_case": "Invalid time/age",
+   "observation": "25:81, 99:99, -5, 999 tutulur",
+   "risk": "Over-masking",
+   "pdf_page": 19
+  },
+  {
+   "edge_case": "IPv6",
+   "observation": "MAC labelinə keçir və ya tam miss olur",
+   "risk": "Recall 10.5%",
+   "pdf_page": 19
+  },
+  {
+   "edge_case": "Driver/ID",
+   "observation": "İkitərəfli taxonomy confusion",
+   "risk": "Yanlış label və audit problemi",
+   "pdf_page": 19
+  },
+  {
+   "edge_case": "Payment card",
+   "observation": "Miss və narrower span",
+   "risk": "Kartın hissəsi açıq qala bilər",
+   "pdf_page": 19
+  },
+  {
+   "edge_case": "Names",
+   "observation": "Spurious GIVENNAME və case/noise miss-ləri",
+   "risk": "Over/under masking",
+   "pdf_page": 19
+  },
+  {
+   "edge_case": "Ordinary URL",
+   "observation": "Credential-sız linklər hard-negative-də trigger vermir",
+   "risk": "Siyasət düzgün ayrılır",
+   "pdf_page": 19
+  },
+  {
+   "edge_case": "Credential URL",
+   "observation": "F1 96.7%",
+   "risk": "Güclü, amma regression test lazımdır",
+   "pdf_page": 19
+  },
+  {
+   "edge_case": "CSV",
+   "observation": "Ən zəif format",
+   "risk": "Field delimiter və qısa kontekst riski",
+   "pdf_page": 19
+  },
+  {
+   "edge_case": "Negative-only",
+   "observation": "627 sənəddən 282-də FP",
+   "risk": "45.0% sənəd over-mask olunur",
+   "pdf_page": 19
+  }
+ ],
+ "recommended_fixes": [
+  {
+   "priority": "P0",
+   "change": "ACCESS_TOKEN/API_KEY üçün kontrastiv train cütləri və dəqiq taxonomy",
+   "expected_impact": "385 FN və 254 confusion halını hədəfləyir",
+   "pdf_page": 20
+  },
+  {
+   "priority": "P0",
+   "change": "CVV üçün 3-4 rəqəm validatoru; konteks + kart yaxınlığı",
+   "expected_impact": "872 FP-nin böyük hissəsini azaldır",
+   "pdf_page": 20
+  },
+  {
+   "priority": "P0",
+   "change": "IPv6/MAC format validatorları və kontrastiv nümunələr",
+   "expected_impact": "399 IPv6 FN və 180 confusion-u hədəfləyir",
+   "pdf_page": 20
+  },
+  {
+   "priority": "P0",
+   "change": "Driver license/ID card format + anchor balansı",
+   "expected_impact": "280 ikitərəfli confusion-u azaldır",
+   "pdf_page": 20
+  },
+  {
+   "priority": "P1",
+   "change": "Kart üçün Luhn və tam-span post-processing",
+   "expected_impact": "Miss, hard-negative və boundary riskini azaldır",
+   "pdf_page": 20
+  },
+  {
+   "priority": "P1",
+   "change": "FIN, TIME, AGE, ZIP, DATE, IP üçün deterministic validator",
+   "expected_impact": "Hard-negative trigger-ləri azaldır",
+   "pdf_page": 20
+  },
+  {
+   "priority": "P1",
+   "change": "Boundary augmentasiyası: tire, boşluq, punctuation, delimiter",
+   "expected_impact": "571 boundary FP-ni hədəfləyir",
+   "pdf_page": 20
+  },
+  {
+   "priority": "P1",
+   "change": "CSV və qısa/single-entity kontekstlərini artır",
+   "expected_impact": "Ən zəif format və density gap-i bağlayır",
+   "pdf_page": 20
+  },
+  {
+   "priority": "P2",
+   "change": "Orthographic noise entity daxilinə kontrollu tətbiq",
+   "expected_impact": "Noise recall itkisini azaldır",
+   "pdf_page": 20
+  },
+  {
+   "priority": "P2",
+   "change": "Label-specific confidence və validator pipeline",
+   "expected_impact": "Global threshold-dan daha az recall itkisi",
+   "pdf_page": 20
+  },
+  {
+   "priority": "P2",
+   "change": "Eyni frozen 5000 benchmark + ayrıca human-gold real set",
+   "expected_impact": "Etibarlı release müqayisəsi",
+   "pdf_page": 20
+  }
+ ],
+ "release_gate": [
+  {
+   "metric": "Micro F1",
+   "current": 68.4,
+   "proposed_gate": ">= 85%",
+   "pdf_page": 21
+  },
+  {
+   "metric": "Macro F1",
+   "current": 67.6,
+   "proposed_gate": ">= 80%",
+   "pdf_page": 21
+  },
+  {
+   "metric": "Precision",
+   "current": 63.4,
+   "proposed_gate": ">= 90%",
+   "pdf_page": 21
+  },
+  {
+   "metric": "Recall",
+   "current": 74.4,
+   "proposed_gate": ">= 90%",
+   "pdf_page": 21
+  },
+  {
+   "metric": "Hard-negative trigger",
+   "current": 17.6,
+   "proposed_gate": "< 5%",
+   "pdf_page": 21
+  },
+  {
+   "metric": "Negative-only FP docs",
+   "current": 45.0,
+   "proposed_gate": "< 10%",
+   "pdf_page": 21
+  },
+  {
+   "metric": "Perfect documents",
+   "current": 30.7,
+   "proposed_gate": ">= 80%",
+   "pdf_page": 21
+  },
+  {
+   "metric": "Critical labels",
+   "current": "ACCESS_TOKEN 0.0%; IPv6 17.6%; CVV 32.3%",
+   "proposed_gate": "Hər label F1 >= 75%",
+   "pdf_page": 21
+  },
+  {
+   "metric": "Strong labels",
+   "current": "URL/ICCID/EMAIL/TEL >= 90%",
+   "proposed_gate": "Regression olmamalıdır",
+   "pdf_page": 21
+  }
+ ],
+ "artifacts_listed": [
+  {
+   "file": "benchmark_analysis_5000/analysis.json",
+   "content": "Bütün agregat və kəsim metrikləri",
+   "pdf_page": 21
+  },
+  {
+   "file": "benchmark_analysis_5000/error_cases.csv",
+   "content": "7159 FP/FN error sətri və kontekst",
+   "pdf_page": 21
+  },
+  {
+   "file": "benchmark_analysis_5000/all_error_documents.csv",
+   "content": "3464 səhv sənəd; gold/hard-negative, model cavabı və tam mətn",
+   "pdf_page": 21
+  },
+  {
+   "file": "metrics_by_label.csv",
+   "content": "Əsas per-label metriklər",
+   "pdf_page": 21
+  },
+  {
+   "file": "predictions.jsonl",
+   "content": "5000 sənədin raw prediction-ları",
+   "pdf_page": 21
+  }
+ ],
+ "per_language": {
+  "note": "No per-language breakdown exists: every document ID in the report is bench_az_*, so this is an Azerbaijani-only benchmark (checked across all 3464 appendix documents)."
+ },
+ "narrative_by_page": {
+  "1": [
+   "PII Masking Modeli",
+   "5000 sənəd üzrə geniş diaqnostik benchmark hesabatı",
+   "68.4%",
+   "Micro F1",
+   "63.4%",
+   "Precision",
+   "74.4%",
+   "Recall",
+   "67.6%",
+   "Macro F1",
+   "Model 7761 entity-ni tam düzgün tapıb, 4482 artıq maskalama (False Positive, FP) və 2677 qaçırma (False Negative, FN) yaradıb. URL F1 96.7%-dir. Əsas qalan risklər ACCESS_TOKEN, IPv6, CVV hard-negative-ləri, sənəd nömrəsi confusion-u və aşağı precision-dır.",
+   "Qərar xülasəsi"
+  ],
+  "2": [
+   "1. Metodologiya və etibarlılıq",
+   "Metriklərin şərhi",
+   "Entity-level exact match sərt ölçüdür: label doğru olsa belə span bir simvol əskik və ya artıqdırsa həm FP, həm FN yaranır. TN entity extraction üçün yaxşı müəyyən olunmadığından hesablanmır. Macro bütün label-ləri bərabər, weighted isə support-a görə çəkili qiymətləndirir."
+  ],
+  "3": [
+   "2. Ümumi nəticə və sənəd səviyyəsi",
+   "68.4%",
+   "Micro F1",
+   "63.4%",
+   "Precision",
+   "74.4%",
+   "Recall",
+   "67.6%",
+   "Macro F1",
+   "Error arxitekturası",
+   "FP-lərin 39.8%-i hard-negative trigger, FN-lərin 59.2%-i isə tam miss-dir."
+  ],
+  "4": [
+   "3. 27 label üzrə tam nəticələr"
+  ],
+  "5": [
+   "4. Güclü və zəif label-lər",
+   "Ən zəif 12 label - F1",
+   "ACCESS_TOKEN 0.0%",
+   "IPV6_ADDRESS 17.6%",
+   "CARD_SECURITY_CODE 32.3%",
+   "AZ_DRIVER_LICENSE_NUMBER 40.9%",
+   "MAC_ADDRESS 48.7%",
+   "PAYMENT_CARD_NUMBER 48.9%",
+   "API_KEY 49.7%",
+   "DATE 56.9%",
+   "AZ_ID_CARD_NUMBER 65.2%",
+   "ZIPCODE 65.3%",
+   "BUILDINGNUM 65.4%",
+   "AGE 66.5%",
+   "Ən güclü 10 label - F1",
+   "URL 96.7%",
+   "ICCID 95.1%",
+   "STREET 94.1%",
+   "SURNAME 93.6%",
+   "EMAIL 92.8%",
+   "TELEPHONENUM 90.8%",
+   "PRIVATE_KEY 90.7%",
+   "AZ_PASSPORT_NUMBER 89.6%",
+   "AZ_VOEN 82.1%",
+   "CITY 79.7%",
+   "Prioritet diaqnoz"
+  ],
+  "6": [
+   "5. Label confusion xəritəsi",
+   "Əsas confusion-lar",
+   "Wrong-label nümunələri"
+  ],
+  "7": [
+   "6. Hard-negative stress testi"
+  ],
+  "8": [
+   "7. Hard-negative dəyər səviyyəsi",
+   "Şərh",
+   "Kontekstə baxmayaraq CVV ola bilməyən uzun, qısa və hərfli dəyərlər tez-tez maskalanır. Ayırıcı ilə yazılan, cəmi üç rəqəmli CVV-lər isə typo-noise positive kimi qiymətləndirilir. Invalid vaxt, yaş, FIN, ZIP və sənəd nömrələri də səthi pattern səbəbilə yüksək trigger verir. Adi credential-sız URL hard-negative-lərində URL trigger müşahidə edilməyib."
+  ],
+  "9": [
+   "8. False positive analizi",
+   "FP taxonomy payı",
+   "hard_negative_trigger 39.8%",
+   "spurious 30.4%",
+   "wrong_label 13.8%",
+   "boundary_error 12.7%",
+   "wrong_label_and_boundary 3.2%",
+   "Hard-negative trigger nümunələri",
+   "Spurious nümunələr"
+  ],
+  "10": [
+   "9. False negative analizi",
+   "FN taxonomy payı",
+   "missed 59.2%",
+   "wrong_label 23.2%",
+   "boundary_error 15.4%",
+   "wrong_label_and_boundary 2.2%",
+   "Tam miss sayı - maksimuma normallaşdırılıb",
+   "IPV6_ADDRESS 100.0%",
+   "DATE 78.0%",
+   "PAYMENT_CARD_NUMBER 72.4%",
+   "ACCESS_TOKEN 56.5%",
+   "IBAN 54.1%",
+   "MAC_ADDRESS 48.4%",
+   "API_KEY 39.0%",
+   "CITY 28.0%",
+   "IPV4_ADDRESS 28.0%",
+   "AGE 24.8%",
+   "EMAIL 21.1%",
+   "ZIPCODE 20.7%",
+   "Reprezentativ tam miss nümunələri"
+  ],
+  "11": [
+   "10. Boundary və span davranışı",
+   "Boundary FP-lərin böyük hissəsi narrower span-dır: model entity-nin prefiksini, son qrupunu, punctuation və ya delimiter hissəsini kəsir. Exact masking üçün bu təhlükəlidir, çünki PII-nin bir hissəsi açıq qala bilər.",
+   "Boundary nümunələri"
+  ],
+  "12": [
+   "11. Source və benchmark kateqoriyası",
+   "Source",
+   "Kateqoriyalar",
+   "Hard-negative kateqoriyası precision 37.6% ilə əsas over-masking mənbəyidir; positive-control F1 77.3%-dir."
+  ],
+  "13": [
+   "12. Mətn formatları üzrə davranış",
+   "Bütün document type-lar",
+   "CSV ən zəif formatdır (F1 55.5%); JSON/config ən güclü structured formatdır (F1 71.3%)."
+  ],
+  "14": [
+   "13. Format daxilində zəif label-lər",
+   "Structured format qeydi",
+   "CSV, pipe, dialogue, JSON və technical log nümunələrində ACCESS_TOKEN bütün formatlarda 0 F1 qalır. Bir sıra structured label-lərdə support kiçik olduğundan 0 F1 nəticələri tam-dataset run ilə təsdiqlənməlidir."
+  ],
+  "15": [
+   "14. Noise, register və danışıq forması",
+   "Noise",
+   "Register",
+   "First-person",
+   "First-person mətnlərdə F1 65.5%, digər mətnlərdə 66.2%-dir. Orthographic noise recall-u clean dataya nisbətən təxminən 5.6 bənd azaldır."
+  ],
+  "16": [
+   "15. Uzunluq, sıxlıq və entity mövqeyi",
+   "Mətn uzunluğu",
+   "Entity density",
+   "Mətn daxilində mövqe",
+   "Entity mövqeyi üzrə nəticələr yuxarıdakı cədvəldə verilib. Single-entity sənədlər F1 54.6%, üç və daha çox entity olan sənədlər isə 73.8% göstərir; kontekst sıxlığı modelə kömək edir."
+  ],
+  "17": [
+   "16. Confidence və threshold simulyasiyası",
+   "Confidence bin-ləri",
+   "TP score ortalaması 0.986, FP score ortalaması 0.856-dir. Global threshold 0.90 micro F1-i 72.7%-ə qaldırır, lakin recall 71.2%-ə enir. 0.99 threshold-da belə 1581 FP var; threshold validator və retrain-i əvəz etmir."
+  ],
+  "18": [
+   "17. Label üzrə error səbəbləri"
+  ],
+  "19": [
+   "18. Edge-case xəritəsi"
+  ],
+  "20": [
+   "19. Tövsiyə edilən düzəliş planı"
+  ],
+  "21": [
+   "20. Release gate və yekun qərar",
+   "Yekun qərar: model credential URL, ICCID, email, telefon, passport və private key kimi label-lərdə güclüdür. Bununla yanaşı yüksək over-masking, ACCESS_TOKEN-in tam uğursuzluğu, IPv6/MAC və sənəd nömrəsi confusion-ları production istifadəsini riskli edir. Validator qatı, məqsədli retrain və frozen 5000 benchmark + human-gold təsdiqi olmadan release tövsiyə edilmir.",
+   "Əlavə artefaktlar"
+  ]
+ },
+ "narrative_vs_table": [
+  {
+   "pdf_page": 5,
+   "claim_verbatim": "DRIVER_LICENSE ... F1 41.1%",
+   "claim_value": 41.1,
+   "table_location": "per_label AZ_DRIVER_LICENSE_NUMBER f1 (p4)",
+   "table_value": 40.9,
+   "agree": false
+  },
+  {
+   "pdf_page": 5,
+   "claim_verbatim": "PAYMENT_CARD_NUMBER Recall 43.1%",
+   "claim_value": 43.1,
+   "table_location": "per_label PAYMENT_CARD_NUMBER recall (p4)",
+   "table_value": 44.6,
+   "agree": false
+  },
+  {
+   "pdf_page": 5,
+   "claim_verbatim": "DATE / GIVENNAME ... F1 54-56%",
+   "claim_value": "54-56",
+   "table_location": "per_label GIVENNAME f1 (p4)",
+   "table_value": 75.0,
+   "agree": false
+  },
+  {
+   "pdf_page": 12,
+   "claim_verbatim": "Hard-negative kateqoriyası precision 37.6%",
+   "claim_value": 37.6,
+   "table_location": "by_category hard_negative precision (p12)",
+   "table_value": 38.2,
+   "agree": false
+  },
+  {
+   "pdf_page": 12,
+   "claim_verbatim": "positive-control F1 77.3%",
+   "claim_value": 77.3,
+   "table_location": "by_category positive_control f1 (p12)",
+   "table_value": 79.4,
+   "agree": false
+  },
+  {
+   "pdf_page": 13,
+   "claim_verbatim": "CSV ən zəif formatdır (F1 55.5%)",
+   "claim_value": 55.5,
+   "table_location": "by_document_type csv f1 (p13)",
+   "table_value": 65.7,
+   "agree": false
+  },
+  {
+   "pdf_page": 13,
+   "claim_verbatim": "JSON/config ... (F1 71.3%)",
+   "claim_value": 71.3,
+   "table_location": "by_document_type json_config f1 (p13)",
+   "table_value": 73.8,
+   "agree": false
+  },
+  {
+   "pdf_page": 15,
+   "claim_verbatim": "First-person mətnlərdə F1 65.5%",
+   "claim_value": 65.5,
+   "table_location": "by_first_person true f1 (p15)",
+   "table_value": 67.7,
+   "agree": false
+  },
+  {
+   "pdf_page": 15,
+   "claim_verbatim": "digər mətnlərdə 66.2%",
+   "claim_value": 66.2,
+   "table_location": "by_first_person false f1 (p15)",
+   "table_value": 68.7,
+   "agree": false
+  },
+  {
+   "pdf_page": 15,
+   "claim_verbatim": "Orthographic noise recall-u clean dataya nisbətən təxminən 5.6 bənd azaldır",
+   "claim_value": 5.6,
+   "table_location": "by_noise clean recall - orthographic_noise recall (p15)",
+   "table_value": 3.4,
+   "agree": false
+  },
+  {
+   "pdf_page": 17,
+   "claim_verbatim": "Global threshold 0.90 micro F1-i 72.7%-ə qaldırır, lakin recall 71.2%-ə enir",
+   "claim_value": 72.7,
+   "table_location": "threshold_simulation 0.9 f1 (p17)",
+   "table_value": 72.7,
+   "agree": true
+  }
+ ]
+}

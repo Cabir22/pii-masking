@@ -1,0 +1,13 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000197,"Hörmətli müştərimiz,
+
+Sizinlə əlaqə saxlayaraq, bank hesabınızla bağlı son yenilikləri paylaşmaq istərdik. Bildiyiniz kimi, xidmət keyfiyyətimizi artırmaq üçün ünvan məlumatlarımızı mütəmadi olaraq yeniləyirik.
+
+Sistemimizdə qeyd olunan yaşayış yerinizə dair kiçik bir dəqiqləşdirmə ehtiyacı yarandı. Hazırda qeydlərimizdə Şabran şəhəri qeyd olunub, lakin ünvan hissəsində bir az qarışıqlıq var. Ambu küçəsi üzrə olan daimi ünvanınızı təsdiqləməyiniz çox vacibdir. Bağışlayın, əvvəlki mesajda yanlışlıq etdim — yəni, ünvanınızın tam dəqiqliyi üçün müraciət edirik.
+
+[System Log: Update pending for customer residence verification]
+
+Zəhmət olmasa, məlumatların doğruluğunu şəxsi kabinetiniz vasitəsilə yoxlayın. Əgər hər şey qaydasındadırsa, əlavə bir tədbirə ehtiyac qalmayacaq. Sualınız olarsa, bizə hər zaman müraciət edə bilərsiniz.
+
+Hörmətlə,
+Sizin Bankınız",az,"[{""start"":323,""end"":329,""label"":""CITY"",""text"":""Şabran""},{""start"":396,""end"":407,""label"":""STREET"",""text"":""Ambu küçəsi""}]",bank_correspondence,medium,warm and conversational,[],0,0,llm,"{""index"":197,""lang"":""az"",""doc_type"":""bank_correspondence"",""doc_type_hint"":""a letter or secure message from a bank"",""register"":""warm and conversational"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""CITY"",""value"":""Şabran""},{""label"":""STREET"",""value"":""Ambu küçəsi""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""mix in one short sentence or log line in English"",""include a few realistic typos and a self-correction""],""negative_only"":false,""seed"":607010161,""edge_case"":null,""reference_year"":2021}",source

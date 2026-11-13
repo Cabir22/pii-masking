@@ -1,0 +1,10 @@
+İstiqamət,Növ,Say,Pay
+FP,hard_negative_trigger,1784,39.8%
+FP,spurious,1362,30.4%
+FP,wrong_label,620,13.8%
+FP,boundary_error,571,12.7%
+FP,wrong_label_and_boundary,145,3.2%
+FN,missed,1585,59.2%
+FN,wrong_label,620,23.2%
+FN,boundary_error,413,15.4%
+FN,wrong_label_and_boundary,59,2.2%

@@ -1,0 +1,9 @@
+# Leakage-guard 8-gram stoplist (P3-5, check 2 and check 3).
+# One 8-gram per line; it is normalised like the guard's text (lower-case,
+# word runs only), so punctuation here doesn't matter. Lines starting with
+# '#' are comments. The guard prints this list on every run.
+#
+# Only PURE BOILERPLATE belongs here: generic phrasing that any Azerbaijani
+# text of this kind would contain, and that is shown to occur in a corpus
+# written before the benchmark existed. Never add an 8-gram just because it
+# makes a new corpus pass. Every addition needs a reason in the PR.

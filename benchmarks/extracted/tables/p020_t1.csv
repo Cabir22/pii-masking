@@ -1,0 +1,12 @@
+Prioritet,Dəyişiklik,Gözlənilən təsir
+P0,ACCESS_TOKEN/API_KEY üçün kontrastiv train cütləri və dəqiq taxonomy,385 FN və 254 confusion halını hədəfləyir
+P0,CVV üçün 3-4 rəqəm validatoru; konteks + kart yaxınlığı,872 FP-nin böyük hissəsini azaldır
+P0,IPv6/MAC format validatorları və kontrastiv nümunələr,399 IPv6 FN və 180 confusion-u hədəfləyir
+P0,Driver license/ID card format + anchor balansı,280 ikitərəfli confusion-u azaldır
+P1,Kart üçün Luhn və tam-span post-processing,"Miss, hard-negative və boundary riskini azaldır"
+P1,"FIN, TIME, AGE, ZIP, DATE, IP üçün deterministic validator",Hard-negative trigger-ləri azaldır
+P1,"Boundary augmentasiyası: tire, boşluq, punctuation, delimiter",571 boundary FP-ni hədəfləyir
+P1,CSV və qısa/single-entity kontekstlərini artır,Ən zəif format və density gap-i bağlayır
+P2,Orthographic noise entity daxilinə kontrollu tətbiq,Noise recall itkisini azaldır
+P2,Label-specific confidence və validator pipeline,Global threshold-dan daha az recall itkisi
+P2,Eyni frozen 5000 benchmark + ayrıca human-gold real set,Etibarlı release müqayisəsi

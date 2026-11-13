@@ -1,0 +1,1122 @@
+{
+  "mode": "RAW MODEL ONLY",
+  "results": [
+    {
+      "id": "suffix-01",
+      "lang": "az",
+      "category": "suffix_attached",
+      "text": "Mənim adım Əli Məmmədovdur",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "Əli",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "Məmmədovdur",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "suffix-02",
+      "lang": "az",
+      "category": "suffix_attached",
+      "text": "Mənim adım Aygün Hüseynovadır",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "Aygün",
+          "outcome": "pass",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "Hüseynovadır",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "GIVENNAME",
+          "text": "Aygün"
+        }
+      ]
+    },
+    {
+      "id": "suffix-03",
+      "lang": "az",
+      "category": "suffix_attached",
+      "text": "Adım Vüqar Əliyevdir",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "Vüqar",
+          "outcome": "pass",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "Əliyevdir",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "GIVENNAME",
+          "text": "Vüqar"
+        }
+      ]
+    },
+    {
+      "id": "suffix-04",
+      "lang": "az",
+      "category": "suffix_attached",
+      "text": "Mən Əliyevəm",
+      "expected": [
+        {
+          "label": "SURNAME",
+          "value": "Əliyevəm",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "suffix-05",
+      "lang": "az",
+      "category": "suffix_attached",
+      "text": "Sən Məmmədovsan",
+      "expected": [
+        {
+          "label": "SURNAME",
+          "value": "Məmmədovsan",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "suffix-06",
+      "lang": "az",
+      "category": "suffix_attached",
+      "text": "Onlar Quliyevlərdir",
+      "expected": [
+        {
+          "label": "SURNAME",
+          "value": "Quliyevlərdir",
+          "outcome": "partial",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "SURNAME",
+          "text": "Quliyev"
+        }
+      ]
+    },
+    {
+      "id": "suffix-07",
+      "lang": "az",
+      "category": "suffix_attached",
+      "text": "Bu sənəd Nəbiyevindir",
+      "expected": [
+        {
+          "label": "SURNAME",
+          "value": "Nəbiyevindir",
+          "outcome": "mislabeled",
+          "got_label": "GIVENNAME"
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "GIVENNAME",
+          "text": "Nə"
+        }
+      ]
+    },
+    {
+      "id": "suffix-08",
+      "lang": "az",
+      "category": "suffix_attached",
+      "text": "Ofis Rəhimovdadır",
+      "expected": [
+        {
+          "label": "SURNAME",
+          "value": "Rəhimovdadır",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "suffix-09",
+      "lang": "az",
+      "category": "suffix_attached",
+      "text": "Telefon Kərimovundur",
+      "expected": [
+        {
+          "label": "SURNAME",
+          "value": "Kərimovundur",
+          "outcome": "mislabeled",
+          "got_label": "GIVENNAME"
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "GIVENNAME",
+          "text": "Kərimovundur"
+        }
+      ]
+    },
+    {
+      "id": "suffix-10",
+      "lang": "tr",
+      "category": "suffix_attached",
+      "text": "Benim adım Ahmet Yılmazdır",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "Ahmet",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "Yılmazdır",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "suffix-11",
+      "lang": "az",
+      "category": "suffix_attached",
+      "text": "Mənim adım Əli-Xan Məmmədov-Zadədir",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "Əli-Xan",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "Məmmədov-Zadədir",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "suffix-12",
+      "lang": "az",
+      "category": "suffix_attached",
+      "text": "Dostlar mənə Sasha deyir, əsl adım Aleksandrdır",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "Sasha",
+          "outcome": "pass",
+          "got_label": null
+        },
+        {
+          "label": "GIVENNAME",
+          "value": "Aleksandrdır",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "GIVENNAME",
+          "text": "Sasha"
+        }
+      ]
+    },
+    {
+      "id": "suffix-13",
+      "lang": "az",
+      "category": "suffix_attached",
+      "text": "Mənim adım Əli Əlidir",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "Əli",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "Əlidir",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "diacritic-01",
+      "lang": "az",
+      "category": "missing_diacritics",
+      "text": "Soyadım Eliyevdir, unutmayın",
+      "expected": [
+        {
+          "label": "SURNAME",
+          "value": "Eliyevdir",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "diacritic-02",
+      "lang": "az",
+      "category": "missing_diacritics",
+      "text": "Imza: Kamran Rzayev",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "Kamran",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "Rzayev",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "caps-01",
+      "lang": "az",
+      "category": "all_caps",
+      "text": "MƏNIM ADIM ƏLİ MƏMMƏDOVDUR",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "ƏLİ",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "MƏMMƏDOVDUR",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "caps-02",
+      "lang": "az",
+      "category": "all_caps",
+      "text": "MƏNIM ADIM RUSLAN MƏMMƏDOVDUR",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "RUSLAN",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "MƏMMƏDOVDUR",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "order-01",
+      "lang": "az",
+      "category": "surname_first",
+      "text": "Məmmədov Əli, doğum tarixi 12.05.1990",
+      "expected": [
+        {
+          "label": "SURNAME",
+          "value": "Məmmədov",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "GIVENNAME",
+          "value": "Əli",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "DATE",
+          "value": "12.05.1990",
+          "outcome": "pass",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "DATE",
+          "text": "12.05.1990"
+        }
+      ]
+    },
+    {
+      "id": "plural-01",
+      "lang": "az",
+      "category": "plural_collective",
+      "text": "Məmmədovların evi böyükdür",
+      "expected": [
+        {
+          "label": "SURNAME",
+          "value": "Məmmədovların",
+          "outcome": "partial",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "SURNAME",
+          "text": "Məmmədov"
+        }
+      ]
+    },
+    {
+      "id": "plural-02",
+      "lang": "az",
+      "category": "plural_collective",
+      "text": "Əliyevlərə salam söylə",
+      "expected": [
+        {
+          "label": "SURNAME",
+          "value": "Əliyevlərə",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "plural-03",
+      "lang": "az",
+      "category": "plural_collective",
+      "text": "Hüseynovlarla görüşdük",
+      "expected": [
+        {
+          "label": "SURNAME",
+          "value": "Hüseynovlarla",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "signature-01",
+      "lang": "az",
+      "category": "low_context_signature",
+      "text": "Hörmətlə,\nElnur Bağırov",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "Elnur",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "Bağırov",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "signature-02",
+      "lang": "az",
+      "category": "low_context_signature",
+      "text": "Sayğılarımla,\nRəşad Əliyev",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "Rəşad",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "Əliyev",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "signature-03",
+      "lang": "az",
+      "category": "low_context_signature",
+      "text": "Best regards,\nOrxan Nəbiyev",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "Orxan",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "Nəbiyev",
+          "outcome": "partial",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "SURNAME",
+          "text": "bi"
+        }
+      ]
+    },
+    {
+      "id": "signature-04",
+      "lang": "az",
+      "category": "low_context_signature",
+      "text": "\nLeyla Həsənova",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "Leyla",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "Həsənova",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "signature-05",
+      "lang": "az",
+      "category": "low_context_signature",
+      "text": "Kimdən: HR üzrə mütəxəssis Фирдуст Hadiyev",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "Фирдуст",
+          "outcome": "pass",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "Hadiyev",
+          "outcome": "pass",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "GIVENNAME",
+          "text": "Фирдуст"
+        },
+        {
+          "label": "SURNAME",
+          "text": "Hadiyev"
+        }
+      ]
+    },
+    {
+      "id": "street-01",
+      "lang": "az",
+      "category": "surname_derived_street",
+      "text": "Nərimanov prospektindəyəm",
+      "expected": [
+        {
+          "label": "STREET",
+          "value": "Nərimanov",
+          "outcome": "partial",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "STREET",
+          "text": "ov"
+        }
+      ]
+    },
+    {
+      "id": "squished-01",
+      "lang": "az",
+      "category": "no_separator",
+      "text": "Telefon:0501234567Email:eli@mail.az",
+      "expected": [
+        {
+          "label": "TELEPHONENUM",
+          "value": "0501234567",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "EMAIL",
+          "value": "eli@mail.az",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "squished-02",
+      "lang": "az",
+      "category": "no_separator",
+      "text": "ƏliyevRəşad1990Bakı",
+      "expected": [
+        {
+          "label": "SURNAME",
+          "value": "Əliyev",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "GIVENNAME",
+          "value": "Rəşad",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "CITY",
+          "value": "Bakı",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "squished-03",
+      "lang": "az",
+      "category": "no_separator",
+      "text": "Ad:VüqarSoyad:Məmmədov",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "Vüqar",
+          "outcome": "pass",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "Məmmədov",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "GIVENNAME",
+          "text": "Vüqar"
+        }
+      ]
+    },
+    {
+      "id": "spelled-01",
+      "lang": "az",
+      "category": "non_digit_form",
+      "text": "Doğum tarixim 1990-dır",
+      "expected": [
+        {
+          "label": "DATE",
+          "value": "1990",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "spelled-02",
+      "lang": "az",
+      "category": "non_digit_form",
+      "text": "Yaşım iyirmi beşdir",
+      "expected": [
+        {
+          "label": "AGE",
+          "value": "iyirmi beş",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "spelled-03",
+      "lang": "az",
+      "category": "non_digit_form",
+      "text": "Bina nömrəsi on yeddidir",
+      "expected": [
+        {
+          "label": "BUILDINGNUM",
+          "value": "on yeddi",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "spelled-04",
+      "lang": "ru",
+      "category": "non_digit_form",
+      "text": "Договор подписан 14 mart 2016 года",
+      "expected": [
+        {
+          "label": "DATE",
+          "value": "14 mart 2016",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "spaced-01",
+      "lang": "az",
+      "category": "non_digit_form",
+      "text": "0 7 0   9 2 2   8 1 - 5 8",
+      "expected": [
+        {
+          "label": "TELEPHONENUM",
+          "value": "0 7 0   9 2 2   8 1 - 5 8",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "mislabel-01",
+      "lang": "az",
+      "category": "shape_collision",
+      "text": "VÖEN-im 123",
+      "expected": [
+        {
+          "label": "AZ_VOEN",
+          "value": "123",
+          "outcome": "mislabeled",
+          "got_label": "CARD_SECURITY_CODE"
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "CARD_SECURITY_CODE",
+          "text": "123"
+        }
+      ]
+    },
+    {
+      "id": "mislabel-02",
+      "lang": "az",
+      "category": "shape_collision",
+      "text": "FİN kodum 45",
+      "expected": [
+        {
+          "label": "AZ_FIN",
+          "value": "45",
+          "outcome": "mislabeled",
+          "got_label": "CARD_SECURITY_CODE"
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "CARD_SECURITY_CODE",
+          "text": "45"
+        }
+      ]
+    },
+    {
+      "id": "mislabel-03",
+      "lang": "az",
+      "category": "shape_collision",
+      "text": "Nömrəm 102-182-56-12",
+      "expected": [
+        {
+          "label": "TELEPHONENUM",
+          "value": "102-182-56-12",
+          "outcome": "mislabeled",
+          "got_label": "IPV4_ADDRESS"
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "IPV4_ADDRESS",
+          "text": "102-182-56-12"
+        }
+      ]
+    },
+    {
+      "id": "boundary-01",
+      "lang": "az",
+      "category": "span_boundary",
+      "text": "Mən Mingəçevir'de yaşayıram",
+      "expected": [
+        {
+          "label": "CITY",
+          "value": "Mingəçevir",
+          "outcome": "pass",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "CITY",
+          "text": "Mingəçevir"
+        }
+      ]
+    },
+    {
+      "id": "boundary-02",
+      "lang": "az",
+      "category": "span_boundary",
+      "text": "Şəhər: A stara",
+      "expected": [
+        {
+          "label": "CITY",
+          "value": "A stara",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "boundary-03",
+      "lang": "az",
+      "category": "span_boundary",
+      "text": "Şəhər: Ağ\nstafa",
+      "expected": [
+        {
+          "label": "CITY",
+          "value": "Ağ\nstafa",
+          "outcome": "pass",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "CITY",
+          "text": "Ağ\nstafa"
+        }
+      ]
+    },
+    {
+      "id": "ru-decl-01",
+      "lang": "ru",
+      "category": "ru_case_declension",
+      "text": "Я познакомился с Акбаром Айдыновым",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "Акбаром",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "Айдыновым",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "ru-decl-02",
+      "lang": "ru",
+      "category": "ru_case_declension",
+      "text": "Я познакомился с Акбар Айдынов",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "Акбар",
+          "outcome": "pass",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "Айдынов",
+          "outcome": "pass",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "GIVENNAME",
+          "text": "Акбар"
+        },
+        {
+          "label": "SURNAME",
+          "text": "Айдынов"
+        }
+      ]
+    },
+    {
+      "id": "ru-decl-03",
+      "lang": "ru",
+      "category": "ru_case_declension",
+      "text": "Акбар Айдынов",
+      "expected": [
+        {
+          "label": "GIVENNAME",
+          "value": "Акбар",
+          "outcome": "partial",
+          "got_label": null
+        },
+        {
+          "label": "SURNAME",
+          "value": "Айдынов",
+          "outcome": "pass",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "GIVENNAME",
+          "text": "Ак"
+        },
+        {
+          "label": "SURNAME",
+          "text": "Айдынов"
+        }
+      ]
+    },
+    {
+      "id": "ru-decl-04",
+      "lang": "ru",
+      "category": "ru_case_declension",
+      "text": "Документы переданы Айдынову Акбару",
+      "expected": [
+        {
+          "label": "SURNAME",
+          "value": "Айдынову",
+          "outcome": "missed",
+          "got_label": null
+        },
+        {
+          "label": "GIVENNAME",
+          "value": "Акбару",
+          "outcome": "missed",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "ru-decl-05",
+      "lang": "ru",
+      "category": "ru_case_declension",
+      "text": "Заявление от Айдынова Акбара",
+      "expected": [
+        {
+          "label": "SURNAME",
+          "value": "Айдынова",
+          "outcome": "pass",
+          "got_label": null
+        },
+        {
+          "label": "GIVENNAME",
+          "value": "Акбара",
+          "outcome": "pass",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "SURNAME",
+          "text": "Айдынова"
+        },
+        {
+          "label": "GIVENNAME",
+          "text": "Акбара"
+        }
+      ]
+    },
+    {
+      "id": "fp-01",
+      "lang": "az",
+      "category": "false_positive_probe",
+      "text": "Görüş saat 14:00-da başlayır",
+      "expected": [
+        {
+          "label": "TIME",
+          "value": "14:00",
+          "outcome": "pass",
+          "got_label": null
+        }
+      ],
+      "over_masked": [],
+      "detected": [
+        {
+          "label": "TIME",
+          "text": "14:00"
+        }
+      ]
+    },
+    {
+      "id": "fp-02",
+      "lang": "az",
+      "category": "false_positive_probe",
+      "text": "Sifariş nömrəsi ORD-2024-889120 təsdiqləndi",
+      "expected": [],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "fp-03",
+      "lang": "az",
+      "category": "false_positive_probe",
+      "text": "Faktura INV-77301 ödənilib",
+      "expected": [],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "fp-04",
+      "lang": "en",
+      "category": "false_positive_probe",
+      "text": "Build 4.19.2 passed with checksum 9f2ac41",
+      "expected": [],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "fp-05",
+      "lang": "en",
+      "category": "false_positive_probe",
+      "text": "Tracking number 1Z999AA10123456784 is in transit",
+      "expected": [],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "fp-06",
+      "lang": "az",
+      "category": "false_positive_probe",
+      "text": "Ümid var ki, layihə vaxtında bitəcək",
+      "expected": [],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "fp-07",
+      "lang": "az",
+      "category": "false_positive_probe",
+      "text": "Tamam, sabah görüşərik",
+      "expected": [],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "fp-08",
+      "lang": "ru",
+      "category": "false_positive_probe",
+      "text": "Код ошибки E-4041 повторяется в логах",
+      "expected": [],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "fp-09",
+      "lang": "en",
+      "category": "false_positive_probe",
+      "text": "Container id 8f14e45fceea167a5a36dedd4bea2543 restarted",
+      "expected": [],
+      "over_masked": [],
+      "detected": []
+    },
+    {
+      "id": "fp-10",
+      "lang": "tr",
+      "category": "false_positive_probe",
+      "text": "Sipariş 10045 kargoya verildi",
+      "expected": [],
+      "over_masked": [],
+      "detected": []
+    }
+  ],
+  "outcomes": {
+    "missed": 48,
+    "pass": 15,
+    "partial": 5,
+    "mislabeled": 5
+  },
+  "false_positives": 0
+}

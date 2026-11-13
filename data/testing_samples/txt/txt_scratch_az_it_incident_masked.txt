@@ -1,0 +1,14 @@
+TEXNİKİ HADİSƏ HESABATI
+
+Hesabatı hazırlayan: İŞVՑֆf ԶմpТwrթвծ, Sistem Administratoru
+Tarix: 6b.5.7193, Saat: 90:73
+
+Təsvir: Şübhəli giriş cəhdi aşkarlanıb. Mənbə IP ünvanı: 253.198.230.221 (IPv6: E0bB:2FFC:098c:bdaE:3DB:50D5:7aFe:6279), MAC ünvanı: b2:8d:E8:Cf:0d:2B.
+
+Təsirlənən hesabın sahibi Zernigar Selimcanov, əlaqə nömrəsi +781-85-269-12-69, e-poçt gqB7Z5K.LRCRPvgBBn@cXdEjDD.RA.
+
+İstifadə olunan giriş tokeni (VoaLu6IHI0aRPYUbxV1-4Z44NH4zsM4JEtp4.fc4P_CrSa3WjsnqpmIfj1TT__n0wIXt4VCYMhCR3PSOsGp_dXmlKGa06VpIux0vJhQ-RX4TBjD-pkFYlU2uThW7tLRg1o.omXT--z5h_b0nbbwBXZRBsLBn04PqCeEXbat5XPIklU) dərhal ləğv edilib. Şübhəli sorğu mənbəyi bu URL idi: https://cgC5.siAmD.ci/nvFGhSFRuP1?Zio=fDcEcr1OZORMuTEGXr9eSJmxQiOq-nV.
+
+SIM kartın ICCID nömrəsi: 55979309030901414163. Sürücülük vəsiqəsi (kimlik təsdiqi üçün istifadə olunub): C7I0aadz.
+
+Tövsiyə: ՌՋնֆxĞŞ ՋգՖևhьЛՏОզ ilə əlaqə saxlanılıb, parolun dəyişdirilməsi tələb olunub.

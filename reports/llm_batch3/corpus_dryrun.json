@@ -1,0 +1,38 @@
+{
+ "stats": {
+  "documents": 416255,
+  "date_labels_before": 286625,
+  "unlabelled_dates_before": 3304,
+  "docs_with_unlabelled_before": 795,
+  "unlabelled_dates_after": 274,
+  "docs_with_unlabelled_after": 215,
+  "date_labels_after": 289241,
+  "docs_changed": 931,
+  "spans_added": 3030,
+  "timestamp_date_labels_removed": 414
+ },
+ "left_by_reason": {
+  "no anchor": 268,
+  "would fail a gate (same date in a timestamp, or drift)": 6
+ },
+ "changed_by_language": {
+  "ru": 226,
+  "az": 250,
+  "en": 229,
+  "tr": 226
+ },
+ "examples": [
+  "--|----------------|--------|---------- 12.05.21   | Transfer       ",
+  "й операции:  Trh       | Сумма | Статус 12.05.19  | 450 AZN| Успешно",
+  "--|------------|------------ 1200 AZN | 01.02.15   | Cash 450 AZN  |",
+  "------| | İlk Bildiriş      | Tamam   | 15.01.22 | \"Ekspert 2 günə g",
+  "> Sender: 12.05.21 BILL-JRO-7025 and O",
+  "ar -----------|-------------|---------- 15.04.16  | Beklemede   | 12",
+  "----------------|--------| | CLM-2024 | 10.03.24 | Bəyimov   | Şirva",
+  "-----|----------------------|---------- 01.01.25    | 001 | Yağ dəyi",
+  "|----------------|--------|---------| | 10.05.22 | Sim Aktivasyonu |",
+  " | Status ----------|-------|---------- 15.05.19  | 52.00 | Paid 15.",
+  "-- | | Fiber Optic Internet (50 Mbps) | 01.10.22 - 31.10.22 | 1 | 25",
+  "şının sənədləri hazırdır. Servis qeydi: 10.04.24. BMW, adr: Baki. Sə"
+ ]
+}

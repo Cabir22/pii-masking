@@ -1,0 +1,200 @@
+{"id": "F-001", "spans": [{"start": 28, "end": 41, "label": "TELEPHONENUM", "value": "+994553186427"}]}
+{"id": "F-002", "spans": [{"start": 13, "end": 26, "label": "TELEPHONENUM", "value": "+994553186427"}]}
+{"id": "F-003", "spans": [{"start": 57, "end": 70, "label": "TELEPHONENUM", "value": "+994553186427"}]}
+{"id": "F-004", "spans": [{"start": 100, "end": 113, "label": "TELEPHONENUM", "value": "+994553186427"}]}
+{"id": "F-005", "spans": [{"start": 13, "end": 26, "label": "TELEPHONENUM", "value": "+994553186427"}]}
+{"id": "F-006", "spans": [{"start": 10, "end": 37, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}]}
+{"id": "F-007", "spans": [{"start": 30, "end": 57, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}]}
+{"id": "F-008", "spans": [{"start": 48, "end": 75, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}]}
+{"id": "F-009", "spans": [{"start": 32, "end": 59, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}, {"start": 79, "end": 98, "label": "EMAIL", "value": "s.qasimova@inbox.az"}]}
+{"id": "F-010", "spans": [{"start": 13, "end": 40, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}]}
+{"id": "F-011", "spans": [{"start": 13, "end": 19, "label": "GIVENNAME", "value": "Səbinə"}, {"start": 20, "end": 28, "label": "SURNAME", "value": "Qasımova"}, {"start": 29, "end": 36, "label": "AZ_FIN", "value": "5RT8VQ2"}]}
+{"id": "F-012", "spans": [{"start": 0, "end": 6, "label": "GIVENNAME", "value": "Səbinə"}, {"start": 7, "end": 15, "label": "SURNAME", "value": "Qasımova"}, {"start": 16, "end": 23, "label": "AZ_FIN", "value": "5RT8VQ2"}]}
+{"id": "F-013", "spans": [{"start": 13, "end": 19, "label": "GIVENNAME", "value": "Səbinə"}, {"start": 20, "end": 28, "label": "SURNAME", "value": "Qasımova"}, {"start": 29, "end": 36, "label": "AZ_FIN", "value": "5RT8VQ2"}]}
+{"id": "F-014", "spans": [{"start": 13, "end": 19, "label": "GIVENNAME", "value": "Səbinə"}, {"start": 20, "end": 28, "label": "SURNAME", "value": "Qasımova"}, {"start": 29, "end": 36, "label": "AZ_FIN", "value": "5RT8VQ2"}]}
+{"id": "F-015", "spans": [{"start": 27, "end": 33, "label": "GIVENNAME", "value": "Səbinə"}, {"start": 36, "end": 44, "label": "SURNAME", "value": "Qasımova"}, {"start": 47, "end": 54, "label": "AZ_FIN", "value": "5RT8VQ2"}]}
+{"id": "F-016", "spans": [{"start": 12, "end": 31, "label": "EMAIL", "value": "s.qasimova@inbox.az"}]}
+{"id": "F-017", "spans": [{"start": 35, "end": 54, "label": "EMAIL", "value": "s.qasimova@inbox.az"}]}
+{"id": "F-018", "spans": [{"start": 19, "end": 38, "label": "EMAIL", "value": "s.qasimova@inbox.az"}]}
+{"id": "F-019", "spans": []}
+{"id": "F-020", "spans": [{"start": 14, "end": 33, "label": "EMAIL", "value": "s.qasimova@inbox.az"}]}
+{"id": "F-021", "spans": [{"start": 7, "end": 35, "label": "IBAN", "value": "AZ29JHZF31948757491186252760"}]}
+{"id": "F-022", "spans": [{"start": 8, "end": 36, "label": "IBAN", "value": "AZ29JHZF31948757491186252760"}]}
+{"id": "F-023", "spans": [{"start": 38, "end": 66, "label": "IBAN", "value": "AZ29JHZF31948757491186252760"}]}
+{"id": "F-024", "spans": [{"start": 45, "end": 73, "label": "IBAN", "value": "AZ29JHZF31948757491186252760"}]}
+{"id": "F-025", "spans": [{"start": 55, "end": 83, "label": "IBAN", "value": "AZ29JHZF31948757491186252760"}]}
+{"id": "F-026", "spans": [{"start": 6, "end": 19, "label": "IPV4_ADDRESS", "value": "185.47.112.36"}]}
+{"id": "F-027", "spans": [{"start": 0, "end": 13, "label": "IPV4_ADDRESS", "value": "185.47.112.36"}]}
+{"id": "F-028", "spans": [{"start": 0, "end": 12, "label": "IPV4_ADDRESS", "value": "91.198.36.14"}, {"start": 99, "end": 112, "label": "IPV4_ADDRESS", "value": "185.47.112.36"}]}
+{"id": "F-029", "spans": [{"start": 37, "end": 50, "label": "IPV4_ADDRESS", "value": "185.47.112.36"}]}
+{"id": "F-030", "spans": []}
+{"id": "F-031", "spans": [{"start": 11, "end": 35, "label": "EMAIL", "value": "orxan.mustafayev@poct.az"}]}
+{"id": "F-032", "spans": [{"start": 42, "end": 66, "label": "EMAIL", "value": "orxan.mustafayev@poct.az"}]}
+{"id": "F-033", "spans": [{"start": 52, "end": 76, "label": "EMAIL", "value": "orxan.mustafayev@poct.az"}]}
+{"id": "F-034", "spans": [{"start": 45, "end": 69, "label": "EMAIL", "value": "orxan.mustafayev@poct.az"}]}
+{"id": "F-035", "spans": [{"start": 40, "end": 64, "label": "EMAIL", "value": "orxan.mustafayev@poct.az"}]}
+{"id": "F-036", "spans": [{"start": 19, "end": 28, "label": "AZ_ID_CARD_NUMBER", "value": "AA7364519"}]}
+{"id": "F-037", "spans": [{"start": 41, "end": 50, "label": "AZ_ID_CARD_NUMBER", "value": "AA7364519"}]}
+{"id": "F-038", "spans": [{"start": 31, "end": 40, "label": "AZ_ID_CARD_NUMBER", "value": "AA7364519"}]}
+{"id": "F-039", "spans": [{"start": 50, "end": 59, "label": "AZ_ID_CARD_NUMBER", "value": "AA7364519"}]}
+{"id": "F-040", "spans": [{"start": 22, "end": 31, "label": "AZ_ID_CARD_NUMBER", "value": "AA7364519"}, {"start": 58, "end": 67, "label": "AZ_ID_CARD_NUMBER", "value": "AA7364519"}]}
+{"id": "F-041", "spans": [{"start": 16, "end": 25, "label": "AZ_PASSPORT_NUMBER", "value": "C47195362"}]}
+{"id": "F-042", "spans": [{"start": 29, "end": 38, "label": "AZ_PASSPORT_NUMBER", "value": "C47195362"}]}
+{"id": "F-043", "spans": [{"start": 91, "end": 100, "label": "AZ_PASSPORT_NUMBER", "value": "C47195362"}]}
+{"id": "F-044", "spans": [{"start": 17, "end": 26, "label": "AZ_PASSPORT_NUMBER", "value": "C47195362"}]}
+{"id": "F-045", "spans": [{"start": 66, "end": 75, "label": "AZ_PASSPORT_NUMBER", "value": "C47195362"}]}
+{"id": "F-046", "spans": [{"start": 21, "end": 39, "label": "IPV6_ADDRESS", "value": "2001:db8:4f2a::17c"}]}
+{"id": "F-047", "spans": [{"start": 36, "end": 54, "label": "IPV6_ADDRESS", "value": "2001:db8:4f2a::17c"}]}
+{"id": "F-048", "spans": [{"start": 33, "end": 51, "label": "IPV6_ADDRESS", "value": "2001:db8:4f2a::17c"}]}
+{"id": "F-049", "spans": [{"start": 19, "end": 36, "label": "MAC_ADDRESS", "value": "3C:52:A1:7F:0E:94"}]}
+{"id": "F-050", "spans": [{"start": 13, "end": 30, "label": "MAC_ADDRESS", "value": "3C-52-A1-7F-0E-94"}]}
+{"id": "F-051", "spans": [{"start": 15, "end": 32, "label": "TELEPHONENUM", "value": "+994 70 528 31 46"}]}
+{"id": "F-052", "spans": [{"start": 15, "end": 32, "label": "TELEPHONENUM", "value": "+994.70.528.31.46"}]}
+{"id": "F-053", "spans": [{"start": 15, "end": 32, "label": "TELEPHONENUM", "value": "+994-70-528-31-46"}]}
+{"id": "F-054", "spans": [{"start": 15, "end": 36, "label": "TELEPHONENUM", "value": "+994  70  528  31  46"}]}
+{"id": "F-055", "spans": [{"start": 15, "end": 34, "label": "TELEPHONENUM", "value": "+994 (70) 528-31-46"}]}
+{"id": "F-056", "spans": [{"start": 14, "end": 33, "label": "PAYMENT_CARD_NUMBER", "value": "4518 1909 3786 5794"}]}
+{"id": "F-057", "spans": [{"start": 14, "end": 33, "label": "PAYMENT_CARD_NUMBER", "value": "4518 1909\n3786 5794"}]}
+{"id": "F-058", "spans": [{"start": 14, "end": 33, "label": "PAYMENT_CARD_NUMBER", "value": "4518\n1909 3786 5794"}]}
+{"id": "F-059", "spans": [{"start": 14, "end": 34, "label": "PAYMENT_CARD_NUMBER", "value": "4518 1909\r\n3786 5794"}]}
+{"id": "F-060", "spans": [{"start": 14, "end": 34, "label": "PAYMENT_CARD_NUMBER", "value": "4518 19\n09 3786 5794"}]}
+{"id": "F-061", "spans": [{"start": 6, "end": 40, "label": "IBAN", "value": "AZ29 JHZF 3194 8757 4911 8625 2760"}]}
+{"id": "F-062", "spans": [{"start": 6, "end": 40, "label": "IBAN", "value": "AZ29\tJHZF\t3194\t8757\t4911\t8625\t2760"}]}
+{"id": "F-063", "spans": [{"start": 6, "end": 40, "label": "IBAN", "value": "AZ29 JHZF 3194 8757 4911 8625 2760"}]}
+{"id": "F-064", "spans": [{"start": 6, "end": 40, "label": "IBAN", "value": "AZ29 JHZF 3194 8757 4911 8625 2760"}]}
+{"id": "F-065", "spans": []}
+{"id": "F-066", "spans": [{"start": 9, "end": 22, "label": "TELEPHONENUM", "value": "+994513946208"}]}
+{"id": "F-067", "spans": [{"start": 8, "end": 21, "label": "TELEPHONENUM", "value": "+994513946208"}]}
+{"id": "F-068", "spans": [{"start": 7, "end": 20, "label": "TELEPHONENUM", "value": "+994513946208"}]}
+{"id": "F-069", "spans": [{"start": 4, "end": 17, "label": "TELEPHONENUM", "value": "+994513946208"}]}
+{"id": "F-070", "spans": [{"start": 4, "end": 17, "label": "TELEPHONENUM", "value": "+994513946208"}]}
+{"id": "F-071", "spans": [{"start": 9, "end": 16, "label": "AZ_FIN", "value": "7KD3M2X"}]}
+{"id": "F-072", "spans": [{"start": 14, "end": 21, "label": "AZ_FIN", "value": "7KD3M2X"}]}
+{"id": "F-073", "spans": [{"start": 10, "end": 17, "label": "AZ_FIN", "value": "7KD3M2X"}]}
+{"id": "F-074", "spans": [{"start": 10, "end": 17, "label": "AZ_FIN", "value": "7KD3M2X"}]}
+{"id": "F-075", "spans": [{"start": 4, "end": 11, "label": "AZ_FIN", "value": "7KD3M2X"}, {"start": 17, "end": 27, "label": "AZ_VOEN", "value": "1702938461"}]}
+{"id": "F-076", "spans": [{"start": 7, "end": 24, "label": "TELEPHONENUM", "value": "+994 50 739 21 64"}]}
+{"id": "F-077", "spans": [{"start": 7, "end": 24, "label": "TELEPHONENUM", "value": "+994 50​739 21 64"}]}
+{"id": "F-078", "spans": [{"start": 10, "end": 18, "label": "AZ_FIN", "value": "7KD​3M2X"}]}
+{"id": "F-079", "spans": [{"start": 8, "end": 36, "label": "EMAIL", "value": "rauf​.aliyev@kamranservis.az"}]}
+{"id": "F-080", "spans": [{"start": 6, "end": 35, "label": "IBAN", "value": "⁠AZ29JHZF31948757491186252760"}]}
+{"id": "F-081", "spans": [{"start": 15, "end": 34, "label": "EMAIL", "value": "s.qasimova@inbox.az"}]}
+{"id": "F-082", "spans": [{"start": 15, "end": 35, "label": "EMAIL", "value": "s.qa­simova@inbox.az"}]}
+{"id": "F-083", "spans": [{"start": 15, "end": 36, "label": "EMAIL", "value": "‎s.qasimova@inbox.az‎"}]}
+{"id": "F-084", "spans": [{"start": 15, "end": 35, "label": "EMAIL", "value": "s.qasimova‏@inbox.az"}]}
+{"id": "F-085", "spans": [{"start": 15, "end": 35, "label": "EMAIL", "value": "﻿s.qasimova@inbox.az"}]}
+{"id": "F-086", "spans": [{"start": 15, "end": 19, "label": "GIVENNAME", "value": "Rauf"}, {"start": 20, "end": 26, "label": "SURNAME", "value": "Əliyev"}]}
+{"id": "F-087", "spans": [{"start": 15, "end": 19, "label": "GIVENNAME", "value": "Rauf"}, {"start": 20, "end": 26, "label": "SURNAME", "value": "Əliуev"}]}
+{"id": "F-088", "spans": [{"start": 15, "end": 19, "label": "GIVENNAME", "value": "Rаuf"}, {"start": 20, "end": 26, "label": "SURNAME", "value": "Əliyev"}]}
+{"id": "F-089", "spans": [{"start": 15, "end": 20, "label": "GIVENNAME", "value": "Οrxan"}, {"start": 21, "end": 31, "label": "SURNAME", "value": "Mustafayev"}]}
+{"id": "F-090", "spans": [{"start": 8, "end": 32, "label": "EMAIL", "value": "orxan.mustafayev@pоct.az"}]}
+{"id": "F-091", "spans": [{"start": 13, "end": 30, "label": "TELEPHONENUM", "value": "+994 55 318 64 27"}]}
+{"id": "F-092", "spans": [{"start": 13, "end": 30, "label": "TELEPHONENUM", "value": "＋９９４ ５５ ３１８ ６４ ２７"}]}
+{"id": "F-093", "spans": [{"start": 13, "end": 30, "label": "TELEPHONENUM", "value": "+٩٩٤ ٥٥ ٣١٨ ٦٤ ٢٧"}]}
+{"id": "F-094", "spans": [{"start": 13, "end": 30, "label": "TELEPHONENUM", "value": "+994 55 318 64 ２７"}]}
+{"id": "F-095", "spans": []}
+{"id": "F-096", "spans": [{"start": 6, "end": 11, "label": "GIVENNAME", "value": "Nigar"}, {"start": 12, "end": 23, "label": "SURNAME", "value": "Hüseynovaya"}]}
+{"id": "F-097", "spans": [{"start": 6, "end": 11, "label": "GIVENNAME", "value": "Nigar"}, {"start": 12, "end": 24, "label": "SURNAME", "value": "Hüseynovaya"}]}
+{"id": "F-098", "spans": [{"start": 8, "end": 15, "label": "CITY", "value": "Şəkidə"}]}
+{"id": "F-099", "spans": [{"start": 13, "end": 31, "label": "TELEPHONENUM", "value": "+994 55 31́8 64 27"}]}
+{"id": "F-100", "spans": [{"start": 10, "end": 18, "label": "AZ_FIN", "value": "7KD3M2X́"}]}
+{"id": "F-101", "spans": [{"start": 5, "end": 26, "label": "EMAIL", "value": "leyla.rzayeva@poct.az"}]}
+{"id": "F-102", "spans": [{"start": 5, "end": 29, "label": "EMAIL", "value": "leyla.rzayeva[at]poct.az"}]}
+{"id": "F-103", "spans": [{"start": 5, "end": 29, "label": "EMAIL", "value": "leyla.rzayeva(at)poct.az"}]}
+{"id": "F-104", "spans": [{"start": 5, "end": 29, "label": "EMAIL", "value": "leyla.rzayeva at poct.az"}]}
+{"id": "F-105", "spans": [{"start": 5, "end": 37, "label": "EMAIL", "value": "leyla.rzayeva [at] poct [dot] az"}]}
+{"id": "F-106", "spans": [{"start": 7, "end": 34, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}]}
+{"id": "F-107", "spans": [{"start": 7, "end": 42, "label": "EMAIL", "value": "rauf[dot]aliyev@kamranservis[dot]az"}]}
+{"id": "F-108", "spans": [{"start": 7, "end": 42, "label": "EMAIL", "value": "rauf(dot)aliyev@kamranservis(dot)az"}]}
+{"id": "F-109", "spans": [{"start": 7, "end": 42, "label": "EMAIL", "value": "rauf dot aliyev@kamranservis dot az"}]}
+{"id": "F-110", "spans": []}
+{"id": "F-111", "spans": [{"start": 8, "end": 25, "label": "TELEPHONENUM", "value": "+994 50 739 21 64"}]}
+{"id": "F-112", "spans": [{"start": 8, "end": 88, "label": "TELEPHONENUM", "value": "üstəgəl doqquz yüz doxsan dörd əlli yeddi yüz otuz doqquz iyirmi bir altmış dörd"}]}
+{"id": "F-113", "spans": [{"start": 8, "end": 92, "label": "TELEPHONENUM", "value": "üstəgəl doqquz yüz doxsan dörd, əlli, yeddi yüz otuz doqquz, iyirmi bir, altmış dörd"}]}
+{"id": "F-114", "spans": [{"start": 8, "end": 88, "label": "TELEPHONENUM", "value": "üstəgəl doqquz yüz doxsan dörd\nəlli\nyeddi yüz otuz doqquz\niyirmi bir altmış dörd"}]}
+{"id": "F-115", "spans": [{"start": 8, "end": 35, "label": "TELEPHONENUM", "value": "+994 əlli 739 iyirmi bir 64"}]}
+{"id": "F-116", "spans": [{"start": 5, "end": 12, "label": "AZ_FIN", "value": "5RT8VQ2"}]}
+{"id": "F-117", "spans": [{"start": 5, "end": 18, "label": "AZ_FIN", "value": "5 R T 8 V Q 2"}]}
+{"id": "F-118", "spans": [{"start": 5, "end": 18, "label": "AZ_FIN", "value": "5-R-T-8-V-Q-2"}]}
+{"id": "F-119", "spans": [{"start": 5, "end": 18, "label": "AZ_FIN", "value": "5.R.T.8.V.Q.2"}]}
+{"id": "F-120", "spans": [{"start": 5, "end": 13, "label": "AZ_FIN", "value": "5RT\n8VQ2"}]}
+{"id": "F-121", "spans": [{"start": 9, "end": 26, "label": "TELEPHONENUM", "value": "+994 77 604 18 52"}]}
+{"id": "F-122", "spans": [{"start": 9, "end": 26, "label": "TELEPHONENUM", "value": "+994 77 604 18 52"}]}
+{"id": "F-123", "spans": [{"start": 9, "end": 26, "label": "TELEPHONENUM", "value": "+994.77.604\n18 52"}]}
+{"id": "F-124", "spans": [{"start": 8, "end": 33, "label": "EMAIL", "value": "leyla​.rzayeva[at]poct.az"}]}
+{"id": "F-125", "spans": [{"start": 5, "end": 18, "label": "AZ_FIN", "value": "5 R Т 8 V Q 2"}]}
+{"id": "F-126", "spans": [{"start": 17, "end": 27, "label": "AZ_VOEN", "value": "1702938461"}]}
+{"id": "F-127", "spans": [{"start": 17, "end": 27, "label": "AZ_VOEN", "value": "1702938461"}]}
+{"id": "F-128", "spans": [{"start": 1612, "end": 1622, "label": "AZ_VOEN", "value": "1702938461"}]}
+{"id": "F-129", "spans": [{"start": 3187, "end": 3197, "label": "AZ_VOEN", "value": "1702938461"}]}
+{"id": "F-130", "spans": [{"start": 1857, "end": 1867, "label": "AZ_VOEN", "value": "1702938461"}]}
+{"id": "F-131", "spans": [{"start": 342, "end": 370, "label": "IBAN", "value": "AZ29JHZF31948757491186252760"}]}
+{"id": "F-132", "spans": [{"start": 2576, "end": 2604, "label": "IBAN", "value": "AZ29JHZF31948757491186252760"}]}
+{"id": "F-133", "spans": [{"start": 1308, "end": 1336, "label": "IBAN", "value": "AZ29JHZF31948757491186252760"}]}
+{"id": "F-134", "spans": [{"start": 3912, "end": 3940, "label": "IBAN", "value": "AZ29JHZF31948757491186252760"}]}
+{"id": "F-135", "spans": [{"start": 9525, "end": 9553, "label": "IBAN", "value": "AZ29JHZF31948757491186252760"}]}
+{"id": "F-136", "spans": [{"start": 27, "end": 31, "label": "GIVENNAME", "value": "Rauf"}, {"start": 34, "end": 40, "label": "SURNAME", "value": "Əliyev"}, {"start": 43, "end": 50, "label": "AZ_FIN", "value": "7KD3M2X"}, {"start": 53, "end": 66, "label": "TELEPHONENUM", "value": "+994553186420"}]}
+{"id": "F-137", "spans": [{"start": 27, "end": 31, "label": "GIVENNAME", "value": "Rauf"}, {"start": 34, "end": 40, "label": "SURNAME", "value": "Əliyev"}, {"start": 43, "end": 50, "label": "AZ_FIN", "value": "7KD3M2X"}, {"start": 53, "end": 66, "label": "TELEPHONENUM", "value": "+994553186420"}, {"start": 67, "end": 73, "label": "GIVENNAME", "value": "Səbinə"}, {"start": 76, "end": 84, "label": "SURNAME", "value": "Qasımova"}, {"start": 87, "end": 94, "label": "AZ_FIN", "value": "5RT8VQ2"}, {"start": 97, "end": 110, "label": "TELEPHONENUM", "value": "+994553186427"}, {"start": 111, "end": 116, "label": "GIVENNAME", "value": "Orxan"}, {"start": 119, "end": 129, "label": "SURNAME", "value": "Mustafayev"}, {"start": 132, "end": 139, "label": "AZ_FIN", "value": "2HN6WK9"}, {"start": 142, "end": 155, "label": "TELEPHONENUM", "value": "+994553186434"}]}
+{"id": "F-138", "spans": [{"start": 27, "end": 31, "label": "GIVENNAME", "value": "Rauf"}, {"start": 34, "end": 40, "label": "SURNAME", "value": "Əliyev"}, {"start": 43, "end": 50, "label": "AZ_FIN", "value": "7KD3M2X"}, {"start": 53, "end": 66, "label": "TELEPHONENUM", "value": "+994553186420"}, {"start": 67, "end": 73, "label": "GIVENNAME", "value": "Səbinə"}, {"start": 76, "end": 84, "label": "SURNAME", "value": "Qasımova"}, {"start": 87, "end": 94, "label": "AZ_FIN", "value": "5RT8VQ2"}, {"start": 97, "end": 110, "label": "TELEPHONENUM", "value": "+994553186427"}, {"start": 111, "end": 116, "label": "GIVENNAME", "value": "Orxan"}, {"start": 119, "end": 129, "label": "SURNAME", "value": "Mustafayev"}, {"start": 132, "end": 139, "label": "AZ_FIN", "value": "2HN6WK9"}, {"start": 142, "end": 155, "label": "TELEPHONENUM", "value": "+994553186434"}, {"start": 156, "end": 161, "label": "GIVENNAME", "value": "Leyla"}, {"start": 164, "end": 171, "label": "SURNAME", "value": "Rzayeva"}, {"start": 174, "end": 181, "label": "AZ_FIN", "value": "9PL4ZT3"}, {"start": 184, "end": 197, "label": "TELEPHONENUM", "value": "+994553186441"}, {"start": 198, "end": 204, "label": "GIVENNAME", "value": "Kamran"}, {"start": 207, "end": 214, "label": "SURNAME", "value": "Həsənov"}, {"start": 217, "end": 224, "label": "AZ_FIN", "value": "4XC7RB8"}, {"start": 227, "end": 240, "label": "TELEPHONENUM", "value": "+994553186448"}, {"start": 241, "end": 246, "label": "GIVENNAME", "value": "Günel"}, {"start": 249, "end": 257, "label": "SURNAME", "value": "Abbasova"}, {"start": 260, "end": 267, "label": "AZ_FIN", "value": "6MV2QJ5"}, {"start": 270, "end": 283, "label": "TELEPHONENUM", "value": "+994553186455"}, {"start": 284, "end": 289, "label": "GIVENNAME", "value": "Elnur"}, {"start": 292, "end": 299, "label": "SURNAME", "value": "Quliyev"}, {"start": 302, "end": 309, "label": "AZ_FIN", "value": "3WZ9KD4"}, {"start": 312, "end": 325, "label": "TELEPHONENUM", "value": "+994553186462"}, {"start": 326, "end": 331, "label": "GIVENNAME", "value": "Aytən"}, {"start": 334, "end": 343, "label": "SURNAME", "value": "Məmmədova"}, {"start": 346, "end": 353, "label": "AZ_FIN", "value": "8TB5NH7"}, {"start": 356, "end": 369, "label": "TELEPHONENUM", "value": "+994553186469"}]}
+{"id": "F-139", "spans": []}
+{"id": "F-140", "spans": [{"start": 0, "end": 4, "label": "GIVENNAME", "value": "Rauf"}, {"start": 5, "end": 11, "label": "SURNAME", "value": "Əliyev"}, {"start": 11, "end": 24, "label": "TELEPHONENUM", "value": "+994553186427"}, {"start": 25, "end": 32, "label": "AZ_FIN", "value": "7KD3M2X"}, {"start": 32, "end": 42, "label": "AZ_VOEN", "value": "1702938461"}]}
+{"id": "F-141", "spans": [{"start": 8, "end": 35, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}]}
+{"id": "F-142", "spans": [{"start": 8, "end": 35, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}, {"start": 74, "end": 101, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}, {"start": 123, "end": 150, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}]}
+{"id": "F-143", "spans": [{"start": 7, "end": 24, "label": "TELEPHONENUM", "value": "+994 55 318 64 27"}, {"start": 36, "end": 49, "label": "TELEPHONENUM", "value": "+994553186427"}, {"start": 63, "end": 78, "label": "TELEPHONENUM", "value": "(055) 318-64-27"}]}
+{"id": "F-144", "spans": [{"start": 6, "end": 25, "label": "PAYMENT_CARD_NUMBER", "value": "4518 1909 3786 5794"}, {"start": 35, "end": 51, "label": "PAYMENT_CARD_NUMBER", "value": "4518190937865794"}]}
+{"id": "F-145", "spans": [{"start": 6, "end": 40, "label": "IBAN", "value": "AZ29 JHZF 3194 8757 4911 8625 2760"}, {"start": 56, "end": 84, "label": "IBAN", "value": "AZ29JHZF31948757491186252760"}]}
+{"id": "F-146", "spans": [{"start": 20, "end": 27, "label": "AZ_FIN", "value": "7KD3M2X"}, {"start": 33, "end": 37, "label": "GIVENNAME", "value": "Rauf"}, {"start": 38, "end": 47, "label": "SURNAME", "value": "Əliyevdir"}]}
+{"id": "F-147", "spans": [{"start": 23, "end": 30, "label": "AZ_FIN", "value": "7KD3M2X"}, {"start": 47, "end": 51, "label": "GIVENNAME", "value": "Rauf"}, {"start": 52, "end": 58, "label": "SURNAME", "value": "Əliyev"}]}
+{"id": "F-148", "spans": [{"start": 14, "end": 21, "label": "AZ_FIN", "value": "7KD3M2X"}, {"start": 33, "end": 37, "label": "GIVENNAME", "value": "Рауф"}, {"start": 38, "end": 43, "label": "SURNAME", "value": "Алиев"}]}
+{"id": "F-149", "spans": [{"start": 20, "end": 27, "label": "AZ_FIN", "value": "7KD3M2X"}, {"start": 33, "end": 37, "label": "GIVENNAME", "value": "Rauf"}, {"start": 38, "end": 47, "label": "SURNAME", "value": "Eliyevdir"}]}
+{"id": "F-150", "spans": [{"start": 17, "end": 24, "label": "AZ_FIN", "value": "7KD3M2X"}, {"start": 52, "end": 56, "label": "GIVENNAME", "value": "Rauf"}, {"start": 57, "end": 63, "label": "SURNAME", "value": "Əliyev"}]}
+{"id": "F-151", "spans": [{"start": 0, "end": 4, "label": "GIVENNAME", "value": "Rauf"}, {"start": 5, "end": 11, "label": "SURNAME", "value": "Əliyev"}, {"start": 16, "end": 33, "label": "TELEPHONENUM", "value": "+994 55 318 64 27"}]}
+{"id": "F-152", "spans": [{"start": 86, "end": 90, "label": "GIVENNAME", "value": "Rauf"}, {"start": 91, "end": 97, "label": "SURNAME", "value": "Əliyev"}, {"start": 119, "end": 136, "label": "TELEPHONENUM", "value": "+994 55 318 64 27"}, {"start": 145, "end": 172, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}]}
+{"id": "F-153", "spans": [{"start": 32, "end": 36, "label": "GIVENNAME", "value": "Rauf"}, {"start": 37, "end": 43, "label": "SURNAME", "value": "Əliyev"}, {"start": 52, "end": 69, "label": "TELEPHONENUM", "value": "+994 55 318 64 27"}, {"start": 78, "end": 105, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}]}
+{"id": "F-154", "spans": [{"start": 0, "end": 4, "label": "GIVENNAME", "value": "Rauf"}, {"start": 5, "end": 11, "label": "SURNAME", "value": "Əliyev"}, {"start": 14, "end": 31, "label": "TELEPHONENUM", "value": "+994 55 318 64 27"}, {"start": 34, "end": 61, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}]}
+{"id": "F-155", "spans": [{"start": 2, "end": 6, "label": "GIVENNAME", "value": "Rauf"}, {"start": 7, "end": 13, "label": "SURNAME", "value": "Əliyev"}, {"start": 22, "end": 39, "label": "TELEPHONENUM", "value": "+994-55-318-64-27"}, {"start": 50, "end": 77, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}]}
+{"id": "F-156", "spans": [{"start": 4, "end": 10, "label": "GIVENNAME", "value": "Səbinə"}, {"start": 18, "end": 26, "label": "SURNAME", "value": "Qasımova"}, {"start": 36, "end": 45, "label": "AZ_PASSPORT_NUMBER", "value": "C47195362"}]}
+{"id": "F-157", "spans": [{"start": 17, "end": 23, "label": "GIVENNAME", "value": "Səbinə"}, {"start": 41, "end": 49, "label": "SURNAME", "value": "Qasımova"}, {"start": 67, "end": 76, "label": "AZ_PASSPORT_NUMBER", "value": "C47195362"}]}
+{"id": "F-158", "spans": [{"start": 53, "end": 62, "label": "AZ_PASSPORT_NUMBER", "value": "C47195362"}]}
+{"id": "F-159", "spans": [{"start": 31, "end": 37, "label": "GIVENNAME", "value": "Səbinə"}, {"start": 42, "end": 50, "label": "SURNAME", "value": "Qasımova"}, {"start": 54, "end": 63, "label": "AZ_PASSPORT_NUMBER", "value": "C47195362"}]}
+{"id": "F-160", "spans": [{"start": 49, "end": 58, "label": "AZ_PASSPORT_NUMBER", "value": "C47195362"}]}
+{"id": "F-161", "spans": [{"start": 18, "end": 28, "label": "AZ_VOEN", "value": "1702938461"}]}
+{"id": "F-162", "spans": [{"start": 30, "end": 40, "label": "AZ_VOEN", "value": "1702938461"}]}
+{"id": "F-163", "spans": [{"start": 36, "end": 49, "label": "TELEPHONENUM", "value": "+994513946208"}]}
+{"id": "F-164", "spans": []}
+{"id": "F-165", "spans": [{"start": 36, "end": 55, "label": "PAYMENT_CARD_NUMBER", "value": "4518 1909 3786 5794"}]}
+{"id": "F-166", "spans": [{"start": 0, "end": 5, "label": "GIVENNAME", "value": "Leyla"}, {"start": 14, "end": 31, "label": "TELEPHONENUM", "value": "+994 77 604 18 52"}]}
+{"id": "F-167", "spans": [{"start": 8, "end": 13, "label": "GIVENNAME", "value": "Leyla"}, {"start": 22, "end": 39, "label": "TELEPHONENUM", "value": "+994 77 604 18 52"}, {"start": 53, "end": 59, "label": "GIVENNAME", "value": "Kamran"}]}
+{"id": "F-168", "spans": [{"start": 20, "end": 25, "label": "GIVENNAME", "value": "Leyla"}, {"start": 26, "end": 33, "label": "SURNAME", "value": "Rzayeva"}, {"start": 44, "end": 65, "label": "EMAIL", "value": "leyla.rzayeva@poct.az"}]}
+{"id": "F-169", "spans": [{"start": 0, "end": 6, "label": "GIVENNAME", "value": "Kamran"}, {"start": 17, "end": 34, "label": "TELEPHONENUM", "value": "+994 77 604 18 52"}, {"start": 40, "end": 46, "label": "GIVENNAME", "value": "Kamran"}]}
+{"id": "F-170", "spans": [{"start": 29, "end": 34, "label": "GIVENNAME", "value": "Leyla"}, {"start": 35, "end": 42, "label": "SURNAME", "value": "Rzayeva"}, {"start": 50, "end": 67, "label": "TELEPHONENUM", "value": "+994 77 604 18 52"}]}
+{"id": "F-171", "spans": [{"start": 6, "end": 10, "label": "GIVENNAME", "value": "Rauf"}, {"start": 11, "end": 17, "label": "SURNAME", "value": "Əliyev"}, {"start": 19, "end": 46, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}]}
+{"id": "F-172", "spans": [{"start": 4, "end": 23, "label": "EMAIL", "value": "s.qasimova@inbox.az"}, {"start": 28, "end": 52, "label": "EMAIL", "value": "orxan.mustafayev@poct.az"}, {"start": 54, "end": 75, "label": "EMAIL", "value": "leyla.rzayeva@poct.az"}]}
+{"id": "F-173", "spans": [{"start": 7, "end": 13, "label": "SURNAME", "value": "Əliyev"}, {"start": 15, "end": 19, "label": "GIVENNAME", "value": "Rauf"}, {"start": 22, "end": 49, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}]}
+{"id": "F-174", "spans": [{"start": 64, "end": 91, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}]}
+{"id": "F-175", "spans": [{"start": 26, "end": 94, "label": "URL", "value": "https://portal.kamran-servis.az/reset?token=Qk7vX2mN9pLr4TzA8sWy3HcB"}]}
+{"id": "F-176", "spans": [{"start": 52, "end": 79, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}]}
+{"id": "F-177", "spans": [{"start": 52, "end": 81, "label": "EMAIL", "value": "rauf.aliyev%40kamranservis.az"}]}
+{"id": "F-178", "spans": [{"start": 52, "end": 83, "label": "EMAIL", "value": "rauf.aliyev%40kamranservis%2Eaz"}]}
+{"id": "F-179", "spans": [{"start": 52, "end": 85, "label": "EMAIL", "value": "rauf%2Ealiyev%40kamranservis%2Eaz"}]}
+{"id": "F-180", "spans": [{"start": 48, "end": 63, "label": "TELEPHONENUM", "value": "%2B994553186427"}]}
+{"id": "F-181", "spans": [{"start": 11, "end": 30, "label": "EMAIL", "value": "s.qasimova@inbox.az"}]}
+{"id": "F-182", "spans": [{"start": 11, "end": 34, "label": "EMAIL", "value": "s.qasimova&#64;inbox.az"}]}
+{"id": "F-183", "spans": [{"start": 11, "end": 35, "label": "EMAIL", "value": "s.qasimova&#x40;inbox.az"}]}
+{"id": "F-184", "spans": [{"start": 11, "end": 37, "label": "EMAIL", "value": "s.qasimova&commat;inbox.az"}]}
+{"id": "F-185", "spans": [{"start": 11, "end": 39, "label": "EMAIL", "value": "&#115;.qasimova&#64;inbox.az"}]}
+{"id": "F-186", "spans": [{"start": 7, "end": 11, "label": "GIVENNAME", "value": "Rauf"}, {"start": 22, "end": 28, "label": "SURNAME", "value": "Əliyev"}]}
+{"id": "F-187", "spans": [{"start": 7, "end": 11, "label": "GIVENNAME", "value": "Rauf"}, {"start": 22, "end": 33, "label": "SURNAME", "value": "\\u018fliyev"}]}
+{"id": "F-188", "spans": [{"start": 10, "end": 42, "label": "EMAIL", "value": "rauf.aliyev\\u0040kamranservis.az"}]}
+{"id": "F-189", "spans": [{"start": 21, "end": 48, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}, {"start": 60, "end": 64, "label": "GIVENNAME", "value": "Rauf"}]}
+{"id": "F-190", "spans": [{"start": 58, "end": 85, "label": "EMAIL", "value": "rauf.aliyev@kamranservis.az"}]}
+{"id": "F-191", "spans": [{"start": 8, "end": 32, "label": "EMAIL", "value": "orxan.mustafayev@poct.az"}]}
+{"id": "F-192", "spans": [{"start": 26, "end": 50, "label": "EMAIL", "value": "orxan.mustafayev@poct.az"}]}
+{"id": "F-193", "spans": [{"start": 37, "end": 61, "label": "EMAIL", "value": "orxan.mustafayev@poct.az"}]}
+{"id": "F-194", "spans": []}
+{"id": "F-195", "spans": [{"start": 57, "end": 81, "label": "EMAIL", "value": "orxan.mustafayev@poct.az"}]}
+{"id": "F-196", "spans": [{"start": 9, "end": 26, "label": "TELEPHONENUM", "value": "+994 55 318 64 27"}]}
+{"id": "F-197", "spans": [{"start": 9, "end": 31, "label": "TELEPHONENUM", "value": "\\u002B994 55 318 64 27"}]}
+{"id": "F-198", "spans": [{"start": 9, "end": 36, "label": "TELEPHONENUM", "value": "%2B994%2055%20318%2064%2027"}]}
+{"id": "F-199", "spans": [{"start": 9, "end": 46, "label": "TELEPHONENUM", "value": "%252B994%252055%2520318%252064%252027"}]}
+{"id": "F-200", "spans": [{"start": 9, "end": 30, "label": "TELEPHONENUM", "value": "&#43;994 55 318 64 27"}]}

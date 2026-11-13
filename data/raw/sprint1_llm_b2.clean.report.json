@@ -1,0 +1,1380 @@
+{
+ "batch": "data\\raw\\sprint1_llm_b2.jsonl",
+ "batch_sha256": "db102eae040b205544e459216796773df408a5944be77601f62f4a027a5459c9",
+ "clean": "data\\raw\\sprint1_llm_b2.clean.jsonl",
+ "clean_sha256": "f9ff322c8ce322a521bf643832104bb1fad5484b0ad761fe147c75dcc26cdbb6",
+ "records": 6000,
+ "kept": 5775,
+ "dropped": 225,
+ "dropped_by_reason": {
+  "unplanned_pii": 166,
+  "validate_corpus:planned_value_unlabelled": 39,
+  "validate_corpus:unlabeled_pii_leak": 10,
+  "validate_corpus:validator_failure": 6,
+  "decoy_integrity:not a planted decoy string": 2,
+  "validate_corpus:no_entities": 1,
+  "validate_corpus:resolver_drift": 1
+ },
+ "dropped_documents": [
+  {
+   "id": "llm_az_000066",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000077",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000086",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000133",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_000188",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000193",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000278",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000303",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000313",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000334",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000335",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000340",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000345",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_000380",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000406",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000485",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000558",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000665",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000672",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000707",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000728",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000741",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000774",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000897",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000959",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_000962",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001000",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001046",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001054",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001076",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001127",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_001153",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_001156",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_001187",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001265",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001318",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001328",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001410",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001433",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001485",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_001529",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001615",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001634",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001650",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001668",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001691",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_001769",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_001804",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001818",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001836",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001860",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001873",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_001900",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_001945",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001978",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_001989",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002032",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002047",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002054",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002064",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_002066",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_002070",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_002075",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002092",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002103",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002109",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002114",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002141",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_002162",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_002186",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002255",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002267",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002291",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002295",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002314",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_002317",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002332",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002357",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002384",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002416",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002489",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002585",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002623",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_002690",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002709",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002745",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002763",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002771",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002777",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002799",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002831",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002849",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002964",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_002967",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002981",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003008",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003012",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_003086",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003088",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_003181",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003328",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003354",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003422",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003461",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_003476",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003538",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003587",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003607",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003617",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003653",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003655",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003659",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_003662",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003703",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003726",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_003736",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003774",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_003789",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_003790",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003793",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003798",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_003841",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003907",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003915",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003920",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003952",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003955",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003971",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003982",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003989",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_004095",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_004134",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_004213",
+   "reasons": [
+    "validate_corpus:no_entities"
+   ]
+  },
+  {
+   "id": "llm_az_004227",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004233",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004304",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_004358",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004381",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_004392",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004403",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004415",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004423",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_004431",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004447",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004527",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004528",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004617",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004653",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004696",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004709",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004742",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_004754",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_004761",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004764",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004765",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004799",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004805",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_004830",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004838",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004858",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004865",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004872",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_004874",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_004895",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_004897",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004924",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004938",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_004972",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004975",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_005003",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_005004",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005079",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005105",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005134",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_005204",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005216",
+   "reasons": [
+    "validate_corpus:resolver_drift"
+   ]
+  },
+  {
+   "id": "llm_az_005222",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005231",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_005235",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_005258",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005268",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_005286",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005292",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_005324",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_005349",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005358",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005404",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005476",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_005490",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_005505",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005541",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005547",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005558",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005577",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_005579",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005667",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005675",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_005699",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005722",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005755",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005783",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005799",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005962",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_005970",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005984",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_006004",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_006129",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_006143",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_006148",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_006187",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_006197",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_006220",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_006251",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_006277",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_006290",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_006322",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_006379",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_006447",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_006463",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_006522",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_006526",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_006540",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_006547",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_006580",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_006598",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  }
+ ],
+ "unplanned_pii_in_kept": {
+  "documents": 0,
+  "share": 0.0,
+  "pii_free_documents": 0,
+  "by_label": {},
+  "examples": []
+ },
+ "dropped_unplanned_pii": true,
+ "validate_corpus_exit": 0,
+ "leakage_guard_exit": 0
+}

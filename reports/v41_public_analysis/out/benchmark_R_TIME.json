@@ -1,0 +1,739 @@
+{
+ "label": "TIME",
+ "totals": {
+  "v4": {
+   "exact": 403,
+   "split": 5,
+   "missed": 5
+  },
+  "v3": {
+   "exact": 401,
+   "split": 3,
+   "missed": 9
+  }
+ },
+ "by_frame": {
+  "emeli vaxti x yazil": {
+   "n": 64,
+   "v4": 64,
+   "v3": 64
+  },
+  "vaxt hisse x yazmi": {
+   "n": 46,
+   "v4": 46,
+   "v3": 46
+  },
+  "gorus vaxti x qeyd olunu": {
+   "n": 62,
+   "v4": 62,
+   "v3": 61
+  },
+  "saat x kimi goste": {
+   "n": 53,
+   "v4": 53,
+   "v3": 53
+  },
+  "z79le x;ali musta": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "saat melum x olara qeyd": {
+   "n": 12,
+   "v4": 12,
+   "v3": 12
+  },
+  "saat x kimi gostr": {
+   "n": 3,
+   "v4": 3,
+   "v3": 3
+  },
+  "saat olara x secmi": {
+   "n": 20,
+   "v4": 20,
+   "v3": 20
+  },
+  "mene x vaxti zeng": {
+   "n": 28,
+   "v4": 28,
+   "v3": 28
+  },
+  "mrndn x;user@;999.12.4.1": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "gorus vaxti x kimi qeyd": {
+   "n": 24,
+   "v4": 24,
+   "v3": 24
+  },
+  "teqvi x gorun": {
+   "n": 57,
+   "v4": 48,
+   "v3": 46
+  },
+  "saat | x |": {
+   "n": 9,
+   "v4": 9,
+   "v3": 9
+  },
+  "info saat= x": {
+   "n": 10,
+   "v4": 10,
+   "v3": 10
+  },
+  "gorus vaxti x qeyd olunb": {
+   "n": 2,
+   "v4": 2,
+   "v3": 2
+  },
+  "\"saat \" x\",": {
+   "n": 10,
+   "v4": 10,
+   "v3": 10
+  },
+  "emeli vaxti x yazlb": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "priva key-- x;user@;999.12.4.1": {
+   "n": 2,
+   "v4": 2,
+   "v3": 2
+  },
+  "2001: x;z4hnwp2;az1994;000": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "569;q qeseb x;abc;-----begin publi": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "x;502/3;elesrefzade;+994966569019;12345": {
+   "n": 1,
+   "v4": 0,
+   "v3": 1
+  },
+  ".nurt x;https://login.azertelekom.az/session/resume?jwt=xfa5alzuzssg1jeltpxb47zdy2c8zuu": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "zx800 x;5952 0111": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "0836 1191; x;c35s42574;12345": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "89994 x;4621636046;12345": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "14 01; x;sk_bench_1403_bgkym1kbfwfbpvjdbepwlracfvws;az1994;000": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  }
+ },
+ "items": [
+  {
+   "id": "bench_az_000406",
+   "value": "11:09",
+   "outcomes": {
+    "v4": "split",
+    "v3": "exact"
+   },
+   "v4_marked": "11[:09]",
+   "v3_marked": "[11:09]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "99:99"
+   ],
+   "context": "prose",
+   "prev": "Təqvimdə",
+   "next": "görünür;",
+   "frame": "Təqvimdə X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "report",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000562",
+   "value": "05:26",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "split"
+   },
+   "v4_marked": "05:26",
+   "v3_marked": "05[:26]",
+   "v4_cut": "0",
+   "v4_other": "-",
+   "shape": [
+    "99:99"
+   ],
+   "context": "prose",
+   "prev": "Təqvimdə",
+   "next": "görünür.",
+   "frame": "Təqvimdə X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "email",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000716",
+   "value": "14:24",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "missed"
+   },
+   "v4_marked": "14:24",
+   "v3_marked": "14:24",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "99:99"
+   ],
+   "context": "prose",
+   "prev": "Təqvimdə",
+   "next": "gorunur;",
+   "frame": "Təqvimdə X gorunur",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "legal",
+   "category": "corrected_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001208",
+   "value": "08:38",
+   "outcomes": {
+    "v4": "exact",
+    "v3": "missed"
+   },
+   "v4_marked": "[08:38]",
+   "v3_marked": "08:38",
+   "v4_cut": "-",
+   "v4_other": "-",
+   "shape": [
+    "99:99"
+   ],
+   "context": "prose",
+   "prev": "Təqvimdə",
+   "next": "görünür;",
+   "frame": "Təqvimdə X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "technical_note",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001287",
+   "value": "01:54",
+   "outcomes": {
+    "v4": "exact",
+    "v3": "missed"
+   },
+   "v4_marked": "[01:54]",
+   "v3_marked": "01:54",
+   "v4_cut": "-",
+   "v4_other": "-",
+   "shape": [
+    "99:99"
+   ],
+   "context": "prose",
+   "prev": "Təqvimdə",
+   "next": "görünür.",
+   "frame": "Təqvimdə X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "support_ticket",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001363",
+   "value": "16:32",
+   "outcomes": {
+    "v4": "split",
+    "v3": "exact"
+   },
+   "v4_marked": "16[:32]",
+   "v3_marked": "[16:32]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "99:99"
+   ],
+   "context": "prose",
+   "prev": "Təqvimdə",
+   "next": "görünür;",
+   "frame": "Təqvimdə X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "bank_message",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001425",
+   "value": "11:12",
+   "outcomes": {
+    "v4": "split",
+    "v3": "split"
+   },
+   "v4_marked": "11[:12]",
+   "v3_marked": "11[:]12",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "99:99"
+   ],
+   "context": "prose",
+   "prev": "Təqvimdə",
+   "next": "görünür;",
+   "frame": "Təqvimdə X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "bank_message",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001587",
+   "value": "09:27",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "09:27",
+   "v3_marked": "[09:27]",
+   "v4_cut": "0",
+   "v4_other": "-",
+   "shape": [
+    "99:99"
+   ],
+   "context": "CSV / table",
+   "prev": "saat;bina_nömrəsi;soyad;fin_kodu;cvv",
+   "next": ";502/3;Ələşrəfzadə;+994966569019;12345",
+   "frame": "X;502/3;Ələşrəfzadə;+994966569019;12345",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "csv",
+   "category": "structured_csv",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001615",
+   "value": "14:24",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "missed"
+   },
+   "v4_marked": "14:24",
+   "v3_marked": "14:24",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "99:99"
+   ],
+   "context": "prose",
+   "prev": "Təqvimdə",
+   "next": "görünür;",
+   "frame": "Təqvimdə X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "email",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001694",
+   "value": "01:22",
+   "outcomes": {
+    "v4": "exact",
+    "v3": "missed"
+   },
+   "v4_marked": "[01:22]",
+   "v3_marked": "01:22",
+   "v4_cut": "-",
+   "v4_other": "-",
+   "shape": [
+    "99:99"
+   ],
+   "context": "prose",
+   "prev": "Təqvimdə",
+   "next": "görünür;",
+   "frame": "Təqvimdə X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "support_ticket",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002119",
+   "value": "14:39",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "missed"
+   },
+   "v4_marked": "14:39",
+   "v3_marked": "14:39",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "99:99"
+   ],
+   "context": "prose",
+   "prev": "Təqvimdə",
+   "next": "görünür;",
+   "frame": "Təqvimdə X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "legal",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002530",
+   "value": "12:20",
+   "outcomes": {
+    "v4": "split",
+    "v3": "exact"
+   },
+   "v4_marked": "12:[20]",
+   "v3_marked": "[12:20]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "99:99"
+   ],
+   "context": "prose",
+   "prev": "Təqvimdə",
+   "next": "görünür;",
+   "frame": "Təqvimdə X görünür",
+   "mac_in_doc": true,
+   "stamp_in_doc": true,
+   "doc_type": "legal",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002728",
+   "value": "18:44",
+   "outcomes": {
+    "v4": "exact",
+    "v3": "missed"
+   },
+   "v4_marked": "[18:44]",
+   "v3_marked": "18:44",
+   "v4_cut": "-",
+   "v4_other": "-",
+   "shape": [
+    "99:99"
+   ],
+   "context": "prose",
+   "prev": "Təqvimdə",
+   "next": "görünür;",
+   "frame": "Təqvimdə X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "report",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003180",
+   "value": "16:45",
+   "outcomes": {
+    "v4": "exact",
+    "v3": "split"
+   },
+   "v4_marked": "[16:45]",
+   "v3_marked": "[16:]45",
+   "v4_cut": "-",
+   "v4_other": "-",
+   "shape": [
+    "99:99"
+   ],
+   "context": "prose",
+   "prev": "vaxtı",
+   "next": "qeyd",
+   "frame": "Görüş vaxtı X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "bank_message",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003556",
+   "value": "00:12",
+   "outcomes": {
+    "v4": "exact",
+    "v3": "missed"
+   },
+   "v4_marked": "[00:12]",
+   "v3_marked": "00:12",
+   "v4_cut": "-",
+   "v4_other": "-",
+   "shape": [
+    "99:99"
+   ],
+   "context": "prose",
+   "prev": "Təqvimdə",
+   "next": "görünür;",
+   "frame": "Təqvimdə X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "form",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003845",
+   "value": "01:27",
+   "outcomes": {
+    "v4": "exact",
+    "v3": "missed"
+   },
+   "v4_marked": "[01:27]",
+   "v3_marked": "01:27",
+   "v4_cut": "-",
+   "v4_other": "-",
+   "shape": [
+    "99:99"
+   ],
+   "context": "prose",
+   "prev": "Təqvimdə",
+   "next": "görünür;",
+   "frame": "Təqvimdə X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "support_ticket",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004978",
+   "value": "01:08",
+   "outcomes": {
+    "v4": "split",
+    "v3": "exact"
+   },
+   "v4_marked": "01[:08]",
+   "v3_marked": "[01:08]",
+   "v4_cut": "0",
+   "v4_other": "-",
+   "shape": [
+    "99:99"
+   ],
+   "context": "prose",
+   "prev": "Təqvimdə",
+   "next": "görünür;",
+   "frame": "Təqvimdə X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "insurance",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  }
+ ],
+ "false_alarms": [
+  {
+   "model": "v4",
+   "id": "bench_az_000298",
+   "value": "12",
+   "shape": "99",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": ":34:56"
+  },
+  {
+   "model": "v4",
+   "id": "bench_az_000298",
+   "value": "34",
+   "shape": "99",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "Label: value",
+   "prev": "12:",
+   "next": ":56"
+  },
+  {
+   "model": "v4",
+   "id": "bench_az_000298",
+   "value": "56",
+   "shape": "99",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "12:34:",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4",
+   "id": "bench_az_000438",
+   "value": "12:34:56",
+   "shape": "99:99:99",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4",
+   "id": "bench_az_001790",
+   "value": "12",
+   "shape": "99",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "profilində",
+   "next": ":34:56"
+  },
+  {
+   "model": "v4",
+   "id": "bench_az_002305",
+   "value": "14:30",
+   "shape": "99:99",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "saat",
+   "next": "versiyası"
+  },
+  {
+   "model": "v4",
+   "id": "bench_az_002420",
+   "value": "12",
+   "shape": "99",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": ":34:56"
+  },
+  {
+   "model": "v4",
+   "id": "bench_az_002522",
+   "value": "14:30",
+   "shape": "99:99",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "saat",
+   "next": "versiyası"
+  },
+  {
+   "model": "v4",
+   "id": "bench_az_002577",
+   "value": "12:34:56",
+   "shape": "99:99:99",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4",
+   "id": "bench_az_003420",
+   "value": "12:34:56",
+   "shape": "99:99:99",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4",
+   "id": "bench_az_003751",
+   "value": ":",
+   "shape": ":",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "14",
+   "next": "30"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_004280",
+   "value": "12",
+   "shape": "99",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": ":34:56"
+  },
+  {
+   "model": "v4",
+   "id": "bench_az_004949",
+   "value": "12:34",
+   "shape": "99:99",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "qeydində",
+   "next": ":56"
+  },
+  {
+   "model": "v4",
+   "id": "bench_az_004949",
+   "value": "56",
+   "shape": "99",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "12:34:",
+   "next": "görünür;"
+  },
+  {
+   "model": "v4",
+   "id": "bench_az_004976",
+   "value": "12:34:56",
+   "shape": "99:99:99",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "qeydində",
+   "next": "görünür;"
+  }
+ ]
+}

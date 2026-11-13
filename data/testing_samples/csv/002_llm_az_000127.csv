@@ -1,0 +1,33 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000127,"İNCİDENT HAQQINDA RƏYRƏT VƏ POSTMORTEM (Təcili!)
+
+Tarix: 14.11.2019
+Status: Hələ də həll olunmayıb... (Nə etməli?)
+Hazırladıyan: Texniki dəstək komandası
+
+---
+
+Mən inanmıram ki, bu baş verib. Sistem birdən-birə çöktü və biz nə baş verdiyini tam başa düşə bilmirik. Loglar çox qarışıqdır və hər şey çox sürətlə dəyişir. Nəzərlərinizi bu cədvələ salın, amma mən hələ də əmin deyiləm ki, bu məlumatlar düzdür.
+
+| Parametr           | Mövcud Vəziyyət              | Qeydlər                        |
+|--------------------|------------------------------|--------------------------------|
+| Hadisə növü        | Server əlaqə kəsilməsi      | Çox qəribib, bilmirəm          |
+| Təsir dairəsi      | Bütün əsas modullar         | Hər şey dayanır!               |
+|  Məsul şəxs        | ferqiyye-danyarzade@xezerlog.az | Bu ünvanla əlaqə saxlamağa çalışırıq |
+| Şərait             | Kritik sızıntı ehtimalı      | Çox  qorxuludur                |
+
+Hər şey çox qarışıqdır.  Biz  vəziyyəti idarə etməyə çalışırıq, amma serverin içindəki xətalar bir-birini izləyir. Məsələn,  həmin e-poçt ünvanı (ferqiyye-danyarzade@xezerlog.az) sistem tərəfindən avtomatik göndərilən xəta mesajlarında görünür, amma biz bu ünvanın kimə aid olduğunu və niyə bu məqamda aktivləşdiyini bilmirik. 
+
+Sistem loglarında aşağıdakı ardıcıllıq görünür:
+03:14:22 - Error: Connection lost
+03:14:25 - Warning: Unauthorized access attempt detected
+03:14:30 - Fatal: Database integrity compromised
+
+Mən sənə deyirəm ki, bu sadəcə texniki xəta deyil. Nəsə düz deyil.  Məlumatlar itir, yoxsa sadəcə gizlədilir?  Hər kəs panikadadır.  Biz ferqiyye-danyarzade@xezerlog.az ünvanına yazdıq, amma cavab gəlmir.  Bu  nə deməkdir?  Əgər bu bir hücumdursa, biz çox gecikmişik.
+
+Növbəti addımlar (əgər tapıla bilsə):
+1. Logların tam bərpa edilməsi (çox çətindir)
+2.  Təhlükəsizlik protokollarının yenidən yoxlanılması
+3.  Məsul şəxslərlə (yenə də o ünvanla) təcili əlaqə
+
+Mən hələ də  baş verənlərin  məntiqini  anlaya bilmirəm.  Sistem  öz-özünə  bu  vəziyyətə  gəldi.  Hər şey  çox  qəribədir.",az,"[{""start"":777,""end"":808,""label"":""EMAIL"",""text"":""ferqiyye-danyarzade@xezerlog.az""},{""start"":1084,""end"":1115,""label"":""EMAIL"",""text"":""ferqiyye-danyarzade@xezerlog.az""},{""start"":1593,""end"":1624,""label"":""EMAIL"",""text"":""ferqiyye-danyarzade@xezerlog.az""}]",incident_postmortem,long,anxious and confused,[],0,0,llm,"{""index"":127,""lang"":""az"",""doc_type"":""incident_postmortem"",""doc_type_hint"":""an incident postmortem write-up"",""register"":""anxious and confused"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""EMAIL"",""value"":""ferqiyye-danyarzade@xezerlog.az""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""use inconsistent spacing and a stray double space"",""use a table-like layout with aligned columns""],""negative_only"":false,""seed"":1944409357,""edge_case"":{""id"":""EML-01"",""status"":""positive_valid"",""description"":""Corporate-style domain, dotted local part."",""scenario"":""""},""reference_year"":2019}",source

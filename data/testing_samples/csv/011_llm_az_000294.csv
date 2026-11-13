@@ -1,0 +1,30 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000294,"""Optimal Bank"" ASC
+Müştəri Xidmətləri Departamenti
+Tarix: 14 may 2026-cı il
+
+Hörmətli Farilə,
+
+Sizin ""Optimal Bank"" ilə olan münasibətlərinizə və bank xidmətlərimizdən istifadə etdiyiniz üçün təşəkkür edirik. Bu məktub, şəxsi hesabınızın təhlükəsizliyi və yeni aktivasiya prosesi ilə bağlı vacib məlumatları sizə çatdırmaq məqsədi daşıyır.
+
+Sistemimizdə aparılan rutin təhlükəsizlik yoxlamaları zamanı, sizin şəxsi profilinizlə əlaqədar bəzi texniki yeniləmələrin tələb olunduğu müəyyən edilmişdir. Bankın daxili təhlükəsizlik protokollarına əsasən, müştərilərimizin şəxsi məlumatlarının qorunması prioritetimizdir. Bu kontekstdə, sizin əlaqə məlumatlarınızın və profilinizə aid bəzi detalların yenidən təsdiqlənməsi zəruridir.
+
+Qeyd edək ki, şəxsi hesabınızla bağlı əsasiyyətlərdən biri olan kart nömrənizin son dörd rəqəmi ****8821 olaraq sistemimizdə qeyd olunub. Lakin, tam təhlükəsizlik təmin edilməsi üçün aşağıdakı addımları yerinə yetirməyiniz xahiş olunur.
+
+Xidmətlərimizin kəsintisiz davam etməsi üçün aşağıda göstərilən rəsmi aktivasiya linki vasitəsilə şəxsi kabinetinizə daxil olaraq təlimatları izləyin:
+https://link.optimal.az/activate?uid=104351&token=2NiV4SVK2wFG9nrG73aofhppeAd0Dm5ZJ
+
+Aktivasiya prosesi zamanı sizdən bəzi məlumatları dəqiqləşdirmək tələb oluna bilər. Xüsusilə, müəyyən edilmiş ünvan və rəqəmsal profil məlumatlarını aşağıdakı kimi təsdiqləməyiniz vacibdir:
+
+Poçt indeksi: AZ0403
+Bank hesabı (FIN): AQUCRDH
+Əlaqə e-poçt ünvanı: ali_muxalifov@bakutech.az
+
+Zəhmət olmasa, yuxarıdakı məlumatların doğruluğunu yoxlayın və hər hansı bir uyğunsuzluq aşkar etdikdə dərhal bankın rəsmi xidmət kanalları ilə əlaqə saxlayın. Unutmayın ki, bank əməkdaşlarımız sizdən heç vaxt tam şifrənizi və ya kartın arxasındakı CVV kodunu tələb etməyəcəkdir.
+
+Əgər bu müraciəti siz etməmisinizsə və ya hesabınıza girişlə bağlı şübhəli bir vəziyyət hiss edirsinizsə, lütfən, dərhal müştəri xidmətlərimizlə əlaqə saxlayın.
+
+Hörmətlə,
+
+""Optimal Bank"" ASC
+Müştəri Təhlükəsizliyi üzrə Komitə",az,"[{""start"":86,""end"":92,""label"":""GIVENNAME"",""text"":""Farilə""},{""start"":1118,""end"":1201,""label"":""URL"",""text"":""https://link.optimal.az/activate?uid=104351&token=2NiV4SVK2wFG9nrG73aofhppeAd0Dm5ZJ""},{""start"":1408,""end"":1414,""label"":""ZIPCODE"",""text"":""AZ0403""},{""start"":1434,""end"":1441,""label"":""AZ_FIN"",""text"":""AQUCRDH""},{""start"":1463,""end"":1488,""label"":""EMAIL"",""text"":""ali_muxalifov@bakutech.az""}]",bank_correspondence,long,formal and businesslike,[],0,0,llm,"{""index"":294,""lang"":""az"",""doc_type"":""bank_correspondence"",""doc_type_hint"":""a letter or secure message from a bank"",""register"":""formal and businesslike"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""GIVENNAME"",""value"":""Farilə""},{""label"":""ZIPCODE"",""value"":""AZ0403""},{""label"":""AZ_FIN"",""value"":""AQUCRDH""},{""label"":""EMAIL"",""value"":""ali_muxalifov@bakutech.az""},{""label"":""URL"",""value"":""https://link.optimal.az/activate?uid=104351&token=2NiV4SVK2wFG9nrG73aofhppeAd0Dm5ZJ""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a partially redacted value elsewhere in the text (e.g. ****1234)""],""negative_only"":false,""seed"":418451486,""edge_case"":null,""reference_year"":2026}",source

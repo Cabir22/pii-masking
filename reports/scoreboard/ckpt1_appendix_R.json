@@ -1,0 +1,270 @@
+{
+ "meta": {
+  "name": "ckpt1_appendix_R",
+  "model": "your-hf-org/masking-multilingual",
+  "revision_requested": null,
+  "revision_sha": "3a0a6e5df228bdc89dd01312a728e10a78b3e3fb",
+  "git": {
+   "sha": "0e92d3f1fba2344c2979f722feff078d03f88ed8",
+   "branch": "p3/scoreboard",
+   "dirty": true
+  },
+  "date_utc": "2026-09-30T19:06:58Z",
+  "device": "cpu",
+  "tracks": [
+   "R"
+  ],
+  "primary_track": "R",
+  "data_version": {
+   "appendix": "14f875483075d6e0"
+  },
+  "long_documents_strided_track_R": {},
+  "seconds": {
+   "appendix/R": 29772.9
+  },
+  "baseline": null,
+  "reproduction_check": {
+   "pred_reproduced": 4273,
+   "listed_pred": 4273,
+   "pred_reproduced_rate": 1.0,
+   "gold_still_missed": 2592,
+   "listed_gold": 2592,
+   "gold_still_missed_rate": 1.0,
+   "pass": true
+  }
+ },
+ "gates": [
+  {
+   "gate": "micro_f1",
+   "value": null,
+   "sprint1": [
+    ">=",
+    0.76
+   ],
+   "sprint1_pass": null,
+   "sprint2": [
+    ">=",
+    0.82
+   ],
+   "sprint2_pass": null,
+   "note": "shadow_dev not scored"
+  },
+  {
+   "gate": "weakest_label_f1",
+   "value": null,
+   "sprint1": [
+    ">=",
+    0.5
+   ],
+   "sprint1_pass": null,
+   "sprint2": [
+    ">=",
+    0.65
+   ],
+   "sprint2_pass": null,
+   "note": "shadow_dev not scored"
+  },
+  {
+   "gate": "ACCESS_TOKEN_f1",
+   "value": null,
+   "sprint1": [
+    ">=",
+    0.5
+   ],
+   "sprint1_pass": null,
+   "sprint2": [
+    ">=",
+    0.75
+   ],
+   "sprint2_pass": null,
+   "note": "shadow_dev not scored"
+  },
+  {
+   "gate": "IPV6_ADDRESS_f1",
+   "value": null,
+   "sprint1": [
+    ">=",
+    0.5
+   ],
+   "sprint1_pass": null,
+   "sprint2": [
+    ">=",
+    0.75
+   ],
+   "sprint2_pass": null,
+   "note": "shadow_dev not scored"
+  },
+  {
+   "gate": "AZ_DRIVER_LICENSE_NUMBER_f1",
+   "value": null,
+   "sprint1": [
+    ">=",
+    0.5
+   ],
+   "sprint1_pass": null,
+   "sprint2": [
+    ">=",
+    0.75
+   ],
+   "sprint2_pass": null,
+   "note": "shadow_dev not scored"
+  },
+  {
+   "gate": "hard_negative_trigger_rate",
+   "value": null,
+   "sprint1": [
+    "<",
+    0.12
+   ],
+   "sprint1_pass": null,
+   "sprint2": [
+    "<",
+    0.08
+   ],
+   "sprint2_pass": null,
+   "note": "shadow_dev not scored"
+  },
+  {
+   "gate": "pii_free_fp_rate",
+   "value": null,
+   "sprint1": [
+    "<",
+    0.3
+   ],
+   "sprint1_pass": null,
+   "sprint2": [
+    "<",
+    0.15
+   ],
+   "sprint2_pass": null,
+   "note": "shadow_dev not scored"
+  },
+  {
+   "gate": "recall_guard",
+   "value": null,
+   "sprint1": [
+    "",
+    "no label -1 pt"
+   ],
+   "sprint1_pass": null,
+   "sprint2": [
+    "",
+    "no label -1 pt"
+   ],
+   "sprint2_pass": null,
+   "note": "no --baseline given"
+  },
+  {
+   "gate": "en_tr_ru_regression",
+   "value": null,
+   "sprint1": [
+    "",
+    "<= 1 pt drop"
+   ],
+   "sprint1_pass": null,
+   "sprint2": [
+    "",
+    "<= 1 pt drop"
+   ],
+   "sprint2_pass": null,
+   "note": "no --baseline given"
+  },
+  {
+   "gate": "appendix_known_errors_fixed",
+   "value": "FN fixed 0/2592, FP removed 0/4273",
+   "sprint1": [
+    "",
+    "reported by class"
+   ],
+   "sprint1_pass": null,
+   "sprint2": [
+    "",
+    "reported by class"
+   ],
+   "sprint2_pass": null,
+   "note": null
+  },
+  {
+   "gate": "sealed_set",
+   "value": "untouched",
+   "sprint1": [
+    "",
+    "untouched"
+   ],
+   "sprint1_pass": true,
+   "sprint2": [
+    "",
+    "run once"
+   ],
+   "sprint2_pass": null,
+   "note": null
+  }
+ ],
+ "sets": {
+  "appendix": {
+   "info": {
+    "source": "benchmarks/extracted/records.json + errors.csv",
+    "data_sha256_16": "14f875483075d6e0",
+    "appendix_documents": 3464,
+    "documents_with_text": 3347,
+    "listed_in_all_documents": {
+     "pred": 4482,
+     "gold": 2677,
+     "hard_negative": 2688
+    },
+    "entries_without_error_class": 0,
+    "documents": 3347
+   },
+   "tracks": {
+    "R": {
+     "appendix_replay": {
+      "documents": 3347,
+      "listed_gold": 2592,
+      "listed_pred": 4273,
+      "listed_hard_negative": 2555,
+      "decoy_still_triggered": 2555,
+      "decoy_still_triggered_same_label": 1650,
+      "gold_still_missed": 2592,
+      "new_pred_unjudgeable": 4789,
+      "pred_reproduced": 4273,
+      "pred_reproduced_rate": 1.0,
+      "gold_still_missed_rate": 1.0,
+      "by_error_class": {
+       "boundary_error": {
+        "gold_still_missed": 380,
+        "pred_reproduced": 508
+       },
+       "hard_negative_other_label": {
+        "pred_reproduced": 703
+       },
+       "hard_negative_trigger": {
+        "pred_reproduced": 1713
+       },
+       "missed": {
+        "gold_still_missed": 1563
+       },
+       "other_label": {
+        "decoy_still_triggered": 905
+       },
+       "same_label": {
+        "decoy_still_triggered": 1650,
+        "decoy_still_triggered_same_label": 1650
+       },
+       "spurious": {
+        "pred_reproduced": 619
+       },
+       "wrong_label": {
+        "gold_still_missed": 592,
+        "pred_reproduced": 592
+       },
+       "wrong_label_and_boundary": {
+        "gold_still_missed": 57,
+        "pred_reproduced": 138
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

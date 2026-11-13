@@ -1,0 +1,10 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000295,"Hörmətli Nurzad Xəlilova,
+
+2015-ci ildən bəri hesabınızda olan öhdəliklərin yerinə yetirilməməsi ilə bağlı xəbərdarlıq edirik. Vəziyyət çox kritikdir!
+
+Sizdən təcili olaraq aşağıdakıları etməyinizi xahiş edirik:
+* Borcun tam ödənilməsi
+* Əlaqə nömrənizin yenilənməsi (yəqin ki, köhnə nömrəni yazmışam, yəni yenilənməsi)
+
+Xəlilova xanım, lütfən vaxt itirməyin.",az,"[{""start"":9,""end"":15,""label"":""GIVENNAME"",""text"":""Nurzad""},{""start"":16,""end"":24,""label"":""SURNAME"",""text"":""Xəlilova""},{""start"":321,""end"":329,""label"":""SURNAME"",""text"":""Xəlilova""}]",bank_correspondence,short,urgent and escalating,[],0,0,llm,"{""index"":295,""lang"":""az"",""doc_type"":""bank_correspondence"",""doc_type_hint"":""a letter or secure message from a bank"",""register"":""urgent and escalating"",""band"":""short"",""min_chars"":150,""max_chars"":400,""length_hint"":""a short paragraph"",""entities"":[{""label"":""SURNAME"",""value"":""Xəlilova""},{""label"":""GIVENNAME"",""value"":""Nurzad""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a bulleted list"",""include a few realistic typos and a self-correction""],""negative_only"":false,""seed"":342341434,""edge_case"":null,""reference_year"":2015}",source

@@ -1,0 +1,180 @@
+{
+ "label": "API_KEY",
+ "totals": {
+  "v4.2": {
+   "exact": 371
+  },
+  "v4.1": {
+   "exact": 371
+  }
+ },
+ "by_frame": {
+  "konfi api_k x yazil": {
+   "n": 46,
+   "v4.2": 46,
+   "v4.1": 46
+  },
+  "api key x gorun": {
+   "n": 54,
+   "v4.2": 54,
+   "v4.1": 54
+  },
+  "\"api_ \" x\",": {
+   "n": 13,
+   "v4.2": 13,
+   "v4.1": 13
+  },
+  "acari kimi x istif edire": {
+   "n": 36,
+   "v4.2": 36,
+   "v4.1": 36
+  },
+  "api acari x kimi goste": {
+   "n": 60,
+   "v4.2": 60,
+   "v4.1": 60
+  },
+  "servi ucun x acari qeyd": {
+   "n": 25,
+   "v4.2": 25,
+   "v4.1": 25
+  },
+  "i̇nte qeydi x istif olunu": {
+   "n": 60,
+   "v4.2": 60,
+   "v4.1": 60
+  },
+  "https x;07:13;user@;999.12.4.1": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "api_k | x |": {
+   "n": 9,
+   "v4.2": 9,
+   "v4.1": 9
+  },
+  "konfi x api key-n": {
+   "n": 28,
+   "v4.2": 28,
+   "v4.1": 28
+  },
+  "info api_k x": {
+   "n": 16,
+   "v4.2": 16,
+   "v4.1": 16
+  },
+  "api_k melum x olara qeyd": {
+   "n": 6,
+   "v4.2": 6,
+   "v4.1": 6
+  },
+  "x;genclik kuces": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "acari kimi x istif eddir": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x;89994275288689564661;zq700907;xsygfxv;12345": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "api ky x gorun": {
+   "n": 2,
+   "v4.2": 2,
+   "v4.1": 2
+  },
+  "x;sk_bench_2976_fdunryh5vhtki1sk63lsm4oji57w;89994245907638857507;25:81;999": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "sk_be x;89994245907638857507;25:81;999": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "priva key-- x;at_bench_2248_tsub1hfire2rjkg00ctiijbuxnglag;25:81;999": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "89994 x;a2:38:c7:ce:66:62;az1994;000": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x;lahic;nasihe;az1994;000": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "348;p x;az1994;000": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "api acri x kimi goste": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "01 67; x;user@;999.12.4.1": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x;zx8001956;qadir;az1994;000": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "konfi api_k x yazlb": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "qedim x;333817;12345": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "14 01;10 x;az1994;000": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  }
+ },
+ "items": [],
+ "false_alarms": [
+  {
+   "model": "v4.2",
+   "id": "bench_az_002153",
+   "value": "AZ74UIYY8X2HEZ5CY3M9NBG2D0K1",
+   "shape": "aa99aaaa9a9aaa9aa9a9aaa9a9a9",
+   "gold_here": "IBAN",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "Qələndərli;ZQ700831;",
+   "next": ";abc;-----BEGIN"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_003818",
+   "value": "AZ79MNLPNXLOGHD5JMMIWPL7RQTK",
+   "shape": "aa99aaaaaaaaaaa9aaaaaaa9aaaa",
+   "gold_here": "IBAN",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "9285;841/2;",
+   "next": ";abc;-----BEGIN"
+  }
+ ]
+}

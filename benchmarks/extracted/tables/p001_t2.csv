@@ -1,0 +1,6 @@
+Sahə,Qiymət,Qısa nəticə
+Ümumi keyfiyyət,Orta,Micro F1 68.4%; production üçün yetərli deyil
+Recall,Nisbətən güclü,74.4%; precision 63.4%
+Over-masking,Yüksək risk,5000 sənədin 2649-də ən azı bir FP var
+Tam düzgün sənəd,Aşağı,1536 / 5000 (30.7%)
+URL,Güclü,Credential-bearing URL siyasəti ilə F1 96.7%

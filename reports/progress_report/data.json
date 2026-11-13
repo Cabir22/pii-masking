@@ -1,0 +1,862 @@
+{
+ "order": [
+  "ckpt1",
+  "runb",
+  "v3",
+  "v4"
+ ],
+ "models": {
+  "ckpt1": {
+   "name": "Checkpoint 1",
+   "id": "your-hf-org/masking-multilingual @ 3a0a6e5",
+   "train_docs": "multilingual corpus",
+   "new_share": "–",
+   "llm_docs": "–"
+  },
+  "runb": {
+   "name": "Run B",
+   "id": "your-hf-org/masking-az-runb-v2-seed42-2ep @ 937f29d",
+   "train_docs": "127,439",
+   "new_share": "43%",
+   "llm_docs": "44,090"
+  },
+  "v3": {
+   "name": "v3",
+   "id": "your-hf-org/masking-az-runb-v3-seed42 @ 717b010",
+   "train_docs": "144,086",
+   "new_share": "50%",
+   "llm_docs": "64,891"
+  },
+  "v4": {
+   "name": "v4",
+   "id": "your-hf-org/masking-az-runb-v4-seed42 @ e4ca178",
+   "train_docs": "132,889",
+   "new_share": "52.5%",
+   "llm_docs": "62,250"
+  }
+ },
+ "bench": {
+  "ckpt1": {
+   "R": {
+    "tp": 7845,
+    "fp": 4227,
+    "fn": 2673,
+    "precision": 0.6498508946322068,
+    "recall": 0.7458642327438677,
+    "f1": 0.694555112881806,
+    "view": "excl_policy"
+   },
+   "labels": {
+    "ACCESS_TOKEN": {
+     "f1": 0.0,
+     "recall": 0.0,
+     "n": 385
+    },
+    "AGE": {
+     "f1": 0.6633663366336633,
+     "recall": 0.8459595959595959,
+     "n": 396
+    },
+    "API_KEY": {
+     "f1": 0.49733191035218777,
+     "recall": 0.628032345013477,
+     "n": 371
+    },
+    "AZ_DRIVER_LICENSE_NUMBER": {
+     "f1": 0.4035087719298246,
+     "recall": 0.39851485148514854,
+     "n": 404
+    },
+    "AZ_FIN": {
+     "f1": 0.8069039913700108,
+     "recall": 0.9468354430379747,
+     "n": 395
+    },
+    "AZ_ID_CARD_NUMBER": {
+     "f1": 0.6510138740661686,
+     "recall": 0.7942708333333334,
+     "n": 384
+    },
+    "AZ_PASSPORT_NUMBER": {
+     "f1": 0.8970976253298153,
+     "recall": 0.9289617486338798,
+     "n": 366
+    },
+    "AZ_VOEN": {
+     "f1": 0.8324022346368715,
+     "recall": 0.8441926345609065,
+     "n": 353
+    },
+    "BUILDINGNUM": {
+     "f1": 0.6518518518518518,
+     "recall": 0.9287598944591029,
+     "n": 379
+    },
+    "CARD_SECURITY_CODE": {
+     "f1": 0.43445692883895126,
+     "recall": 0.9385113268608414,
+     "n": 309
+    },
+    "CITY": {
+     "f1": 0.7967257844474762,
+     "recall": 0.7584415584415585,
+     "n": 385
+    },
+    "DATE": {
+     "f1": 0.5757575757575757,
+     "recall": 0.48223350253807107,
+     "n": 394
+    },
+    "EMAIL": {
+     "f1": 0.9283819628647214,
+     "recall": 0.8684863523573201,
+     "n": 403
+    },
+    "GIVENNAME": {
+     "f1": 0.751182592242195,
+     "recall": 0.9826732673267327,
+     "n": 404
+    },
+    "IBAN": {
+     "f1": 0.6893732970027249,
+     "recall": 0.5938967136150235,
+     "n": 426
+    },
+    "ICCID": {
+     "f1": 0.9480354879594424,
+     "recall": 0.9373433583959899,
+     "n": 399
+    },
+    "IPV4_ADDRESS": {
+     "f1": 0.7742690058479532,
+     "recall": 0.7806603773584906,
+     "n": 424
+    },
+    "IPV6_ADDRESS": {
+     "f1": 0.1797752808988764,
+     "recall": 0.10762331838565023,
+     "n": 446
+    },
+    "MAC_ADDRESS": {
+     "f1": 0.49019607843137253,
+     "recall": 0.6016042780748663,
+     "n": 374
+    },
+    "PAYMENT_CARD_NUMBER": {
+     "f1": 0.5057803468208093,
+     "recall": 0.44871794871794873,
+     "n": 390
+    },
+    "PRIVATE_KEY": {
+     "f1": 0.9068181818181819,
+     "recall": 0.9322429906542056,
+     "n": 428
+    },
+    "STREET": {
+     "f1": 0.9405405405405406,
+     "recall": 0.9693593314763231,
+     "n": 359
+    },
+    "SURNAME": {
+     "f1": 0.9362745098039217,
+     "recall": 0.9870801033591732,
+     "n": 387
+    },
+    "TELEPHONENUM": {
+     "f1": 0.9102244389027431,
+     "recall": 0.9170854271356784,
+     "n": 398
+    },
+    "TIME": {
+     "f1": 0.6854460093896715,
+     "recall": 0.8837772397094431,
+     "n": 413
+    },
+    "URL": {
+     "f1": 0.9671232876712329,
+     "recall": 0.9778393351800554,
+     "n": 361
+    },
+    "ZIPCODE": {
+     "f1": 0.6540084388185653,
+     "recall": 0.8051948051948052,
+     "n": 385
+    }
+   },
+   "M": {
+    "tp": 8100,
+    "fp": 3849,
+    "fn": 2418,
+    "precision": 0.6778809942254582,
+    "recall": 0.7701083856246435,
+    "f1": 0.7210575510749098,
+    "view": "excl_policy"
+   }
+  },
+  "runb": {
+   "R": {
+    "tp": 9500,
+    "fp": 1178,
+    "fn": 1018,
+    "precision": 0.8896797153024911,
+    "recall": 0.9032135386955695,
+    "f1": 0.8963955463294961,
+    "view": "excl_policy"
+   },
+   "labels": {
+    "ACCESS_TOKEN": {
+     "f1": 0.9871794871794872,
+     "recall": 1.0,
+     "n": 385
+    },
+    "AGE": {
+     "f1": 0.9734513274336283,
+     "recall": 0.9722222222222222,
+     "n": 396
+    },
+    "API_KEY": {
+     "f1": 0.9801849405548217,
+     "recall": 1.0,
+     "n": 371
+    },
+    "AZ_DRIVER_LICENSE_NUMBER": {
+     "f1": 0.928657799274486,
+     "recall": 0.9504950495049505,
+     "n": 404
+    },
+    "AZ_FIN": {
+     "f1": 0.7566807313642756,
+     "recall": 0.6810126582278481,
+     "n": 395
+    },
+    "AZ_ID_CARD_NUMBER": {
+     "f1": 0.8787878787878788,
+     "recall": 0.8307291666666666,
+     "n": 384
+    },
+    "AZ_PASSPORT_NUMBER": {
+     "f1": 0.9267015706806282,
+     "recall": 0.9672131147540983,
+     "n": 366
+    },
+    "AZ_VOEN": {
+     "f1": 0.8813056379821959,
+     "recall": 0.8413597733711048,
+     "n": 353
+    },
+    "BUILDINGNUM": {
+     "f1": 0.8944723618090453,
+     "recall": 0.9393139841688655,
+     "n": 379
+    },
+    "CARD_SECURITY_CODE": {
+     "f1": 0.5625806451612904,
+     "recall": 0.7055016181229773,
+     "n": 309
+    },
+    "CITY": {
+     "f1": 0.9296875,
+     "recall": 0.9272727272727272,
+     "n": 385
+    },
+    "DATE": {
+     "f1": 0.9500000000000001,
+     "recall": 0.9644670050761421,
+     "n": 394
+    },
+    "EMAIL": {
+     "f1": 0.9119420989143546,
+     "recall": 0.9379652605459057,
+     "n": 403
+    },
+    "GIVENNAME": {
+     "f1": 0.9950617283950617,
+     "recall": 0.9975247524752475,
+     "n": 404
+    },
+    "IBAN": {
+     "f1": 0.8953488372093024,
+     "recall": 0.903755868544601,
+     "n": 426
+    },
+    "ICCID": {
+     "f1": 0.9825436408977556,
+     "recall": 0.9874686716791979,
+     "n": 399
+    },
+    "IPV4_ADDRESS": {
+     "f1": 0.8795180722891566,
+     "recall": 0.8608490566037735,
+     "n": 424
+    },
+    "IPV6_ADDRESS": {
+     "f1": 0.9525959367945824,
+     "recall": 0.9461883408071748,
+     "n": 446
+    },
+    "MAC_ADDRESS": {
+     "f1": 0.6941015089163237,
+     "recall": 0.6764705882352942,
+     "n": 374
+    },
+    "PAYMENT_CARD_NUMBER": {
+     "f1": 0.6966618287373004,
+     "recall": 0.6153846153846154,
+     "n": 390
+    },
+    "PRIVATE_KEY": {
+     "f1": 0.8698481561822128,
+     "recall": 0.9369158878504673,
+     "n": 428
+    },
+    "STREET": {
+     "f1": 0.9820193637621024,
+     "recall": 0.9888579387186629,
+     "n": 359
+    },
+    "SURNAME": {
+     "f1": 0.9577114427860698,
+     "recall": 0.9948320413436692,
+     "n": 387
+    },
+    "TELEPHONENUM": {
+     "f1": 0.9686323713927227,
+     "recall": 0.9698492462311558,
+     "n": 398
+    },
+    "TIME": {
+     "f1": 0.9779951100244498,
+     "recall": 0.9685230024213075,
+     "n": 413
+    },
+    "URL": {
+     "f1": 0.9643835616438357,
+     "recall": 0.9750692520775623,
+     "n": 361
+    },
+    "ZIPCODE": {
+     "f1": 0.7669172932330828,
+     "recall": 0.7948051948051948,
+     "n": 385
+    }
+   },
+   "M": {
+    "tp": 9829,
+    "fp": 855,
+    "fn": 689,
+    "precision": 0.919973792587046,
+    "recall": 0.9344932496672371,
+    "f1": 0.9271766814451466,
+    "view": "excl_policy"
+   }
+  },
+  "v3": {
+   "R": {
+    "tp": 10178,
+    "fp": 849,
+    "fn": 340,
+    "precision": 0.9230071642332457,
+    "recall": 0.9676744628256323,
+    "f1": 0.9448131817126943,
+    "view": "excl_policy"
+   },
+   "labels": {
+    "ACCESS_TOKEN": {
+     "f1": 0.9974025974025974,
+     "recall": 0.9974025974025974,
+     "n": 385
+    },
+    "AGE": {
+     "f1": 0.9949494949494949,
+     "recall": 0.9949494949494949,
+     "n": 396
+    },
+    "API_KEY": {
+     "f1": 1.0,
+     "recall": 1.0,
+     "n": 371
+    },
+    "AZ_DRIVER_LICENSE_NUMBER": {
+     "f1": 0.9619047619047619,
+     "recall": 1.0,
+     "n": 404
+    },
+    "AZ_FIN": {
+     "f1": 0.976456009913259,
+     "recall": 0.9974683544303797,
+     "n": 395
+    },
+    "AZ_ID_CARD_NUMBER": {
+     "f1": 0.8962655601659751,
+     "recall": 0.84375,
+     "n": 384
+    },
+    "AZ_PASSPORT_NUMBER": {
+     "f1": 0.9945652173913043,
+     "recall": 1.0,
+     "n": 366
+    },
+    "AZ_VOEN": {
+     "f1": 0.9002932551319648,
+     "recall": 0.8696883852691218,
+     "n": 353
+    },
+    "BUILDINGNUM": {
+     "f1": 0.8931572629051621,
+     "recall": 0.9815303430079155,
+     "n": 379
+    },
+    "CARD_SECURITY_CODE": {
+     "f1": 0.7301980198019803,
+     "recall": 0.9546925566343042,
+     "n": 309
+    },
+    "CITY": {
+     "f1": 0.9117291414752114,
+     "recall": 0.9792207792207792,
+     "n": 385
+    },
+    "DATE": {
+     "f1": 0.9505428226779252,
+     "recall": 1.0,
+     "n": 394
+    },
+    "EMAIL": {
+     "f1": 0.995049504950495,
+     "recall": 0.9975186104218362,
+     "n": 403
+    },
+    "GIVENNAME": {
+     "f1": 0.9938347718865599,
+     "recall": 0.9975247524752475,
+     "n": 404
+    },
+    "IBAN": {
+     "f1": 0.9917936694021102,
+     "recall": 0.9929577464788732,
+     "n": 426
+    },
+    "ICCID": {
+     "f1": 0.9974999999999999,
+     "recall": 1.0,
+     "n": 399
+    },
+    "IPV4_ADDRESS": {
+     "f1": 0.927601809954751,
+     "recall": 0.9669811320754716,
+     "n": 424
+    },
+    "IPV6_ADDRESS": {
+     "f1": 0.9448123620309049,
+     "recall": 0.9596412556053812,
+     "n": 446
+    },
+    "MAC_ADDRESS": {
+     "f1": 0.9547872340425532,
+     "recall": 0.9598930481283422,
+     "n": 374
+    },
+    "PAYMENT_CARD_NUMBER": {
+     "f1": 0.7860139860139859,
+     "recall": 0.7205128205128205,
+     "n": 390
+    },
+    "PRIVATE_KEY": {
+     "f1": 0.9553264604810997,
+     "recall": 0.9742990654205608,
+     "n": 428
+    },
+    "STREET": {
+     "f1": 0.9711934156378601,
+     "recall": 0.9860724233983287,
+     "n": 359
+    },
+    "SURNAME": {
+     "f1": 0.9031505250875146,
+     "recall": 1.0,
+     "n": 387
+    },
+    "TELEPHONENUM": {
+     "f1": 0.9987452948557088,
+     "recall": 1.0,
+     "n": 398
+    },
+    "TIME": {
+     "f1": 0.980440097799511,
+     "recall": 0.9709443099273608,
+     "n": 413
+    },
+    "URL": {
+     "f1": 0.9986168741355463,
+     "recall": 1.0,
+     "n": 361
+    },
+    "ZIPCODE": {
+     "f1": 0.8987951807228917,
+     "recall": 0.9688311688311688,
+     "n": 385
+    }
+   },
+   "M": {
+    "tp": 10210,
+    "fp": 721,
+    "fn": 308,
+    "precision": 0.9340408013905407,
+    "recall": 0.9707168663243962,
+    "f1": 0.9520257354655229,
+    "view": "excl_policy"
+   }
+  },
+  "v4": {
+   "R": {
+    "tp": 10173,
+    "fp": 482,
+    "fn": 345,
+    "precision": 0.9547630220553731,
+    "recall": 0.9671990872789503,
+    "f1": 0.9609408208567515,
+    "view": "excl_policy"
+   },
+   "labels": {
+    "ACCESS_TOKEN": {
+     "f1": 0.9909208819714656,
+     "recall": 0.9922077922077922,
+     "n": 385
+    },
+    "AGE": {
+     "f1": 0.9962073324905184,
+     "recall": 0.9949494949494949,
+     "n": 396
+    },
+    "API_KEY": {
+     "f1": 0.9933065595716198,
+     "recall": 1.0,
+     "n": 371
+    },
+    "AZ_DRIVER_LICENSE_NUMBER": {
+     "f1": 0.9913043478260869,
+     "recall": 0.9876237623762376,
+     "n": 404
+    },
+    "AZ_FIN": {
+     "f1": 0.9611041405269762,
+     "recall": 0.9696202531645569,
+     "n": 395
+    },
+    "AZ_ID_CARD_NUMBER": {
+     "f1": 0.9883268482490272,
+     "recall": 0.9921875,
+     "n": 384
+    },
+    "AZ_PASSPORT_NUMBER": {
+     "f1": 1.0,
+     "recall": 1.0,
+     "n": 366
+    },
+    "AZ_VOEN": {
+     "f1": 0.9674681753889675,
+     "recall": 0.9688385269121813,
+     "n": 353
+    },
+    "BUILDINGNUM": {
+     "f1": 0.8899755501222494,
+     "recall": 0.9604221635883905,
+     "n": 379
+    },
+    "CARD_SECURITY_CODE": {
+     "f1": 0.9359756097560975,
+     "recall": 0.9935275080906149,
+     "n": 309
+    },
+    "CITY": {
+     "f1": 0.9636363636363636,
+     "recall": 0.9636363636363636,
+     "n": 385
+    },
+    "DATE": {
+     "f1": 0.9563106796116505,
+     "recall": 1.0,
+     "n": 394
+    },
+    "EMAIL": {
+     "f1": 0.9161603888213852,
+     "recall": 0.9354838709677419,
+     "n": 403
+    },
+    "GIVENNAME": {
+     "f1": 0.9975308641975309,
+     "recall": 1.0,
+     "n": 404
+    },
+    "IBAN": {
+     "f1": 1.0,
+     "recall": 1.0,
+     "n": 426
+    },
+    "ICCID": {
+     "f1": 0.9987484355444306,
+     "recall": 1.0,
+     "n": 399
+    },
+    "IPV4_ADDRESS": {
+     "f1": 0.9034653465346534,
+     "recall": 0.8608490566037735,
+     "n": 424
+    },
+    "IPV6_ADDRESS": {
+     "f1": 0.7654028436018957,
+     "recall": 0.7242152466367713,
+     "n": 446
+    },
+    "MAC_ADDRESS": {
+     "f1": 0.9448183041722745,
+     "recall": 0.9385026737967914,
+     "n": 374
+    },
+    "PAYMENT_CARD_NUMBER": {
+     "f1": 0.9935979513444302,
+     "recall": 0.9948717948717949,
+     "n": 390
+    },
+    "PRIVATE_KEY": {
+     "f1": 0.977116704805492,
+     "recall": 0.9976635514018691,
+     "n": 428
+    },
+    "STREET": {
+     "f1": 0.9944289693593314,
+     "recall": 0.9944289693593314,
+     "n": 359
+    },
+    "SURNAME": {
+     "f1": 0.9987063389391979,
+     "recall": 0.9974160206718347,
+     "n": 387
+    },
+    "TELEPHONENUM": {
+     "f1": 0.9924812030075189,
+     "recall": 0.9949748743718593,
+     "n": 398
+    },
+    "TIME": {
+     "f1": 0.9652694610778444,
+     "recall": 0.9757869249394673,
+     "n": 413
+    },
+    "URL": {
+     "f1": 0.9986168741355463,
+     "recall": 1.0,
+     "n": 361
+    },
+    "ZIPCODE": {
+     "f1": 0.8866749688667497,
+     "recall": 0.9246753246753247,
+     "n": 385
+    }
+   },
+   "M": {
+    "tp": 10199,
+    "fp": 368,
+    "fn": 319,
+    "precision": 0.9651746001703416,
+    "recall": 0.9696710401216961,
+    "f1": 0.9674175954470002,
+    "view": "excl_policy"
+   }
+  }
+ },
+ "rules": {
+  "ckpt1": {
+   "B1": {
+    "status": "fail",
+    "result": "68.7 vs 68.7 (needs 70.7); M 71.4"
+   },
+   "B2": {
+    "status": "pass",
+    "result": "no label drops"
+   },
+   "C1": {
+    "status": "fail",
+    "result": "token_vs_key exact_recall [ACCESS_TOKEN] 25.0; token_vs_key confusion_rate [ACCESS_TOKEN→API_KEY] 75.0; contrast_token_key exact_recall [ACCESS_TOKEN] 25.0; contrast_token_key confusion_rate [ACCESS_TOKEN→API_KEY] 62.5"
+   },
+   "C2": {
+    "status": "fail",
+    "result": "ipv6_vs_mac confusion_rate [IPV6_ADDRESS→MAC_ADDRESS] 16.7; contrast_ipv6_mac exact_recall [IPV6_ADDRESS] 53.8; contrast_ipv6_mac confusion_rate [IPV6_ADDRESS→MAC_ADDRESS] 15.4"
+   },
+   "C3": {
+    "status": "fail",
+    "result": "licence_vs_id confusion_rate [AZ_DRIVER_LICENSE_NUMBER→AZ_ID_CARD_NUMBER] 100.0; contrast_licence_id confusion_rate [AZ_DRIVER_LICENSE_NUMBER→AZ_ID_CARD_NUMBER] 58.3"
+   },
+   "C4": {
+    "status": "fail",
+    "result": "11 of 11 families above 15% (decoy_cvv 100.0%, decoy_time 100.0%, decoy_age 100.0%, decoy_date 100.0%, decoy_zip 100.0%, decoy_fin 55.6%, decoy_voen_passport_id 33.3%, decoy_ipv4 41.7%, decoy_ipv6_mac 50.0%, decoy_card_iccid_iban 33.3%, decoy_names_as_org 100.0%); overall 73.4%; decoy_cvv: 12345 2/2; random 5-digit 5/5"
+   },
+   "C12": {
+    "status": "report",
+    "result": "2 of 52 families meet every absolute target (track R)"
+   },
+   "C13": {
+    "status": "pass",
+    "result": "none"
+   }
+  },
+  "runb": {
+   "B1": {
+    "status": "pass",
+    "result": "88.9 vs 68.7 (needs 70.7); M 92.0"
+   },
+   "B2": {
+    "status": "fail",
+    "result": "3 labels: AZ_FIN 94.7 → 68.1, CARD_SECURITY_CODE 93.9 → 70.6, ZIPCODE 80.5 → 79.5"
+   },
+   "C1": {
+    "status": "pass",
+    "result": "5 conditions met"
+   },
+   "C2": {
+    "status": "pass",
+    "result": "5 conditions met"
+   },
+   "C3": {
+    "status": "fail",
+    "result": "licence_vs_id confusion_rate [AZ_DRIVER_LICENSE_NUMBER→AZ_ID_CARD_NUMBER] 16.7; licence_vs_id confusion_rate [AZ_ID_CARD_NUMBER→AZ_DRIVER_LICENSE_NUMBER] 8.3"
+   },
+   "C4": {
+    "status": "fail",
+    "result": "7 of 11 families above 15% (decoy_cvv 100.0%, decoy_time 41.7%, decoy_age 41.7%, decoy_date 100.0%, decoy_zip 66.7%, decoy_card_iccid_iban 33.3%, decoy_names_as_org 16.7%); overall 35.5%"
+   },
+   "C12": {
+    "status": "report",
+    "result": "19 of 52 families meet every absolute target (track R)"
+   },
+   "C13": {
+    "status": "fail",
+    "result": "pem char_leakage_rate 20.5 → 37.4 (8 docs worse); single_entity exact_f1 64.0 → 46.2 (7 docs worse); watched: contrast_token_key, fmt_csv_noheader, foreign_names, names_list_lines, villages"
+   }
+  },
+  "v3": {
+   "A1": {
+    "status": "pass",
+    "result": "89.3 (checkpoint 1 67.1) [saved report 2026-10-15 (not restored)]"
+   },
+   "A2": {
+    "status": "pass",
+    "result": "71.1 (CARD_SECURITY_CODE)"
+   },
+   "A3": {
+    "status": "pass",
+    "result": "ACCESS_TOKEN 80.2, IPV6_ADDRESS 77.9, AZ_DRIVER_LICENSE_NUMBER 94.7"
+   },
+   "A4": {
+    "status": "fail",
+    "result": "9.3% (with the D-42/D-51e items: 9.9%)"
+   },
+   "A5": {
+    "status": "fail",
+    "result": "35.8% (with the D-42/D-51e items: 40.6%; their documents out of the count: 36.5%)"
+   },
+   "A6": {
+    "status": "fail",
+    "result": "2 labels: PAYMENT_CARD_NUMBER 90.1 → 76.5, TIME 75.7 → 73.5; M: 2 labels"
+   },
+   "B1": {
+    "status": "pass",
+    "result": "94.5 vs 69.2 (needs 71.2); with the D-51e items 93.5 vs 68.7; M 94.2"
+   },
+   "B2": {
+    "status": "pass",
+    "result": "no label drops"
+   },
+   "C1": {
+    "status": "pass",
+    "result": "5 conditions met"
+   },
+   "C2": {
+    "status": "pass",
+    "result": "5 conditions met"
+   },
+   "C3": {
+    "status": "fail",
+    "result": "licence_vs_id confusion_rate [AZ_ID_CARD_NUMBER→AZ_DRIVER_LICENSE_NUMBER] 8.3"
+   },
+   "C4": {
+    "status": "fail",
+    "result": "3 of 11 families above 15% (decoy_time 25.0%, decoy_date 33.3%, decoy_fin 44.4%); overall 9.2%; decoy_cvv: 12345 0/2; random 5-digit 0/5"
+   },
+   "C12": {
+    "status": "report",
+    "result": "35 of 52 families meet every absolute target (track R)"
+   },
+   "C13": {
+    "status": "pass",
+    "result": "none; watched: names_list_lines"
+   },
+   "E3": {
+    "status": "pass",
+    "result": "(1) 86.0% found ok; (2) CITY 21 vs 12 of 27, GIVENNAME 79 vs 18 of 93, SURNAME 61 vs 14 of 67, TELEPHONENUM 10 vs 9 of 10 ok; (3) precision 91.6% ok"
+   }
+  },
+  "v4": {
+   "A1": {
+    "status": "not scored",
+    "result": "shadow-dev not scored"
+   },
+   "A2": {
+    "status": "not scored",
+    "result": "shadow-dev not scored"
+   },
+   "A3": {
+    "status": "not scored",
+    "result": "shadow-dev not scored"
+   },
+   "A4": {
+    "status": "not scored",
+    "result": "shadow-dev not scored"
+   },
+   "A5": {
+    "status": "not scored",
+    "result": "shadow-dev not scored"
+   },
+   "A6": {
+    "status": "not scored",
+    "result": "shadow-dev not scored"
+   },
+   "B1": {
+    "status": "pass",
+    "result": "96.1 vs 69.5 (needs 71.5); with the policy items 95.1 vs 68.7; M 95.7"
+   },
+   "B2": {
+    "status": "pass",
+    "result": "no label drops"
+   },
+   "C1": {
+    "status": "pass",
+    "result": "5 conditions met"
+   },
+   "C2": {
+    "status": "pass",
+    "result": "5 conditions met"
+   },
+   "C3": {
+    "status": "fail",
+    "result": "licence_vs_id confusion_rate [AZ_DRIVER_LICENSE_NUMBER→AZ_ID_CARD_NUMBER] 25.0"
+   },
+   "C4": {
+    "status": "fail",
+    "result": "5 of 11 families above 15% (decoy_cvv 42.9%, decoy_time 50.0%, decoy_date 58.3%, decoy_zip 25.0%, decoy_fin 20.0%); overall 18.1%; decoy_cvv: 12345 1/2; random 5-digit 2/5"
+   },
+   "C12": {
+    "status": "report",
+    "result": "34 of 52 families meet every absolute target (track R)"
+   },
+   "C13": {
+    "status": "pass",
+    "result": "none; watched: names_list_lines"
+   },
+   "E3": {
+    "status": "not scored",
+    "result": "real text not scored"
+   }
+  }
+ }
+}

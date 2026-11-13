@@ -1,0 +1,9 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000245,"Müştəri ilə danışdım,  Əlikişibəyova xanım bir az narazı idi amma həll etdik.  Binəqədi tərəfdə yaşayır, çatdırılma gecikəndə problem çıxarır.  68 yaşı var, ona köhnə sistemlərlə işləmək çətin gəlir, ona görə də hər şeyi ətraflı izah etmək lazım oldu.
+
+Ödəniş məsələsi: Kart nömrəsini dəqiqlədik 9792 0650 3121 9807,  bu kartdan istifadə edəcək.  E-mail göndərilməlidir bütün sənədlər afyatqorxmazov@nurtekstil.az ünvanına.  Gələn həftə yenidən zəng edib təsdiq alacam.
+
+--
+Selyan Məmmədov
+Satış Meneceri
+Nur Tekstil ASC",az,"[{""start"":23,""end"":36,""label"":""SURNAME"",""text"":""Əlikişibəyova""},{""start"":79,""end"":87,""label"":""CITY"",""text"":""Binəqədi""},{""start"":144,""end"":146,""label"":""AGE"",""text"":""68""},{""start"":296,""end"":315,""label"":""PAYMENT_CARD_NUMBER"",""text"":""9792 0650 3121 9807""},{""start"":385,""end"":413,""label"":""EMAIL"",""text"":""afyatqorxmazov@nurtekstil.az""}]",crm_note,medium,casual with typos and abbreviations,[],0,0,llm,"{""index"":245,""lang"":""az"",""doc_type"":""crm_note"",""doc_type_hint"":""a terse internal CRM note written by a sales rep"",""register"":""casual with typos and abbreviations"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""AGE"",""value"":""68""},{""label"":""SURNAME"",""value"":""Əlikişibəyova""},{""label"":""CITY"",""value"":""Binəqədi""},{""label"":""PAYMENT_CARD_NUMBER"",""value"":""9792 0650 3121 9807""},{""label"":""EMAIL"",""value"":""afyatqorxmazov@nurtekstil.az""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""use inconsistent spacing and a stray double space"",""include an email signature block at the end""],""negative_only"":false,""seed"":286813210,""edge_case"":null,""reference_year"":2018}",source

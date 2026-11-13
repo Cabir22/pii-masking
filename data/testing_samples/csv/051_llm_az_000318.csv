@@ -1,0 +1,29 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000318,"# Köhnə Sənədlər və Giriş Məlumatları (Arxiv)
+
+Son yenilənmə: 14 Oktyabr 2016-cı il
+
+Bu səhifə 2016-cı ilin əvvəllərində sistemin keçid dövründə yaradılmışdır. Xahiş olunur, bu məlumatları yalnız daxili testlərdə istifadə edin və heç kimə göndərməyin. Sistem hələ tam oturmadığı üçün bəzi səhvlər ola bilər.
+
+## Köhnə API İnteqrasiyaları
+
+Sistemin köhnə modulu üçün lazım olan giriş açarı aşağıdadır. Əgər yeni mühitdə işləyirsinizsə, bu açar işləməyə bilər – buna görə də əvvəlcə ləvazimatlar bölməsinə baxın.
+
+Əsas açar (kopya etmək üçün): dop_v1_aea525d95c177d504ebb528ee040e32b57056d5352b3f0b3d33d6ba2aef53c11
+
+Qeyd: Əgər bu açarla bağlantı qurmaqda çətinlik çəksəniz, ""smart quotes"" – yəni əvəzlənmiş dırnaq işarələri istifadə etmədiyinizdən əmin olun, çünki bəzi terminal proqramları bunu dəstəkləmir.
+
+## İşçi Profil Məlumatları (Test üçün)
+
+Bəzi köhnə istifadəçi profilləri və onların statusları sistemin yaddaşda necə saxlandığını yoxlamaq üçün qeyd olunub. Bu məlumatlar real deyil, sadəcə struktur göstərmək üçündür:
+
+*   Məsul şəxs: Əbdülməcidlinin təyin etdiyi siyahı üzrə.
+*   İdarəedici statusu: Əbdülməcidlinin sənədləri rəsmiləşdirilməlidir.
+*   İstifadəçi nömrəsi: 10293
+*   Yaş həddi: 46 yaşlı şəxslər üçün xüsusi giriş icazəsi (test rejimində).
+
+// Səhifənin sonuna doğru bəzi qeydlər:
+Sistemi yeniləyərkən API açarını dəyişməyi unutmayın! Əks halda bütün köhnə loglar xəta verəcək. Əbdülməcidli tərəfindən təsdiqlənən siyahını yoxlayın. 46 yaşında olan istifadəçilərin profilindəki boşluqları doldurmaq lazımdır.
+
+---
+// Sonu (Draft)",az,"[{""start"":542,""end"":613,""label"":""API_KEY"",""text"":""dop_v1_aea525d95c177d504ebb528ee040e32b57056d5352b3f0b3d33d6ba2aef53c11""},{""start"":1045,""end"":1060,""label"":""SURNAME"",""text"":""Əbdülməcidlinin""},{""start"":1111,""end"":1126,""label"":""SURNAME"",""text"":""Əbdülməcidlinin""},{""start"":1204,""end"":1206,""label"":""AGE"",""text"":""46""},{""start"":1403,""end"":1415,""label"":""SURNAME"",""text"":""Əbdülməcidli""},{""start"":1458,""end"":1460,""label"":""AGE"",""text"":""46""}]",internal_wiki,long,casual with typos and abbreviations,[],0,0,llm,"{""index"":318,""lang"":""az"",""doc_type"":""internal_wiki"",""doc_type_hint"":""an internal wiki or knowledge-base page"",""register"":""casual with typos and abbreviations"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""SURNAME"",""value"":""Əbdülməcidli""},{""label"":""AGE"",""value"":""46""},{""label"":""API_KEY"",""value"":""dop_v1_aea525d95c177d504ebb528ee040e32b57056d5352b3f0b3d33d6ba2aef53c11""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a copy-paste artifact such as smart quotes or an en-dash""],""negative_only"":false,""seed"":927486277,""edge_case"":null,""reference_year"":2016}",source

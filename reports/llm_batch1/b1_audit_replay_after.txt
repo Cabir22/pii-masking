@@ -1,0 +1,53 @@
+REPLAY with today's code: 6,000 stored -> 5,901 accepted, 99 rejected (25 of them noised)
+      33  validation: language: only N az words
+      23  quality: planned value never labeled (SURNAME, misspelled)
+      11  quality: planned value never labeled (GIVENNAME, misspelled
+      10  quality: planned value never labeled (CITY, misspelled)
+       6  quality: planned value never labeled (SURNAME, mixed_script
+       3  no entities resolved: 
+       3  quality: planned value never labeled (STREET, street+unreso
+       2  quality: planned value never labeled (URL, fragment)
+       2  quality: planned value never labeled (ACCESS_TOKEN, fragmen
+       1  quality: planned value never labeled (CITY, folded+unresolv
+       1  quality: planned value never labeled (EMAIL, fragment)
+       1  quality: planned value never labeled (CITY, exact+unresolva
+       1  quality: planned value never labeled (ACCESS_TOKEN, altered
+       1  quality: planned value never labeled (ICCID, fragment)
+       1  quality: planned value never labeled (STREET, misspelled)
+
+documents: 5,901
+
+1. PLANNED VALUES PRESENT BUT UNLABELLED: 0 occurrence(s) in 0 document(s)
+   of which a value with no labelled occurrence at all (count): 0 in 0 document(s) {}
+   by label: {}
+   by form : {}
+   planned values with no labelled occurrence, by label (share of that label's plans):
+   DATE 13/640 (2.0%), STREET 7/540 (1.3%), SURNAME 8/1020 (0.8%), BUILDINGNUM 2/458 (0.4%), ACCESS_TOKEN 1/248 (0.4%), CITY 2/507 (0.4%), GIVENNAME 3/1307 (0.2%), TELEPHONENUM 1/1229 (0.1%)
+
+2. LABELS THAT DISAGREE WITH THE PLAN: 0  {}
+
+3. DECOY INTEGRITY: 4093 decoy span(s) checked, 1669 policy/contextual; problems: {'not a planted decoy string': 2}
+   llm_az_003675  not a planted decoy string: MAC_LIKE_HASH '60:d7:be:da-2d:d2:6c:6d:e9:4d:3a:15:77:b8:e3:7d'  ... 0-22 xətası və ...218 ilə bitən kartda [[60:d7:be:da-2d:d2:6c:6d:e9:4d:3a:15:77:b8:e3:7d]] MAC ünvanlı cihazda xəta qeydə alınıb. ...
+   llm_az_004261  not a planted decoy string: MAC_LIKE_HASH '78:49:07:ce:de:4e:41-2d:2a:b1:15:4d:d4:bb:3c:de'  ...azın MAC ünvanı isə aşağıdakı kimidir:  [[78:49:07:ce:de:4e:41-2d:2a:b1:15:4d:d4:bb:3c:de]]  ***  Sistem daxilindəki maliyyə əməliy...
+
+4. RATES (share of all documents)
+   hard_negative  requested 30.0%   in the text 17.9%   in the briefs 18.7%
+   adversarial    requested 20.0%   in the text 15.2%   in the briefs 15.2%
+   pii_free       requested 10.0%   in the text 7.1%
+   edge_case      requested 30.0%   in the text 44.5%
+   any decoy in the text (_hard_negatives > 0, the batch-1 README's measure): 24.1%
+   label share / target, furthest off: IPV6_ADDRESS 2.20, ICCID 1.97, MAC_ADDRESS 1.78, AZ_VOEN 1.58, AZ_DRIVER_LICENSE_NUMBER 1.57, AZ_PASSPORT_NUMBER 1.50
+
+5. D-9: {'mentions': 6466, 'suffixed (label includes the suffix)': 1535}
+   D-10: {'documents of 1-5 words': 1}
+   validate_example failures: none
+
+7. INDEPENDENT SWEEP, PII THE MODEL INVENTED (informational): 539 document(s) (9.1%), 14 of them declared PII-free; {'CITY': 504, 'STREET': 238, 'GIVENNAME': 126, 'BUILDINGNUM': 23}
+   llm_az_000009  GIVENNAME 'Ahilə Meydanelizadə'  ...mrəsi: +994 ** *** ** 67  --- Hörmətlə, [[Ahilə Meydanelizadə]] Baş Maliyyə Məsləhətçisi E-poçt: ahile_...
+   llm_az_000010  CITY 'Bakı'  ...xınlığında Şəhər                      | [[Bakı]], Azərbaycan  Texniki və maliyyə sisteml...
+   llm_az_000037  GIVENNAME 'Rauf Məmmədov'  ...15 10:45] Söhbət yekunlaşdı.  Hörmətlə, [[Rauf Məmmədov]] Satış Təmsilçisi...
+   llm_az_000066  CITY 'Bakı'  ...diqlənmişdir.  Soyad: Sheydayeva Ünvan: [[Bakı]] şəhəri, Nizami küçəsi, bina	103. Əlaqə ...
+   llm_az_000066  STREET 'Nizami küçəsi'  ...  Soyad: Sheydayeva Ünvan: Bakı şəhəri, [[Nizami küçəsi]], bina	103. Əlaqə nömrəsi: +994187717289...
+   llm_az_000071  CITY 'Bakı'  ....1985 Ünvan: 94-cü Qala küç. 180C bina, [[Bakı]] ş. ------------------------------------...
+
+json -> reports\llm_batch1\b1_audit_replay_after.json

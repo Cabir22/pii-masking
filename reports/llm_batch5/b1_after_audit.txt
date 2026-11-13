@@ -1,0 +1,35 @@
+documents: 5,115
+
+1. PLANNED VALUES PRESENT BUT UNLABELLED: 0 occurrence(s) in 0 document(s)
+   of which a value with no labelled occurrence at all (count): 0 in 0 document(s) {}
+   by label: {}
+   by form : {}
+   planned values with no labelled occurrence, by label (share of that label's plans):
+   STREET 9/361 (2.5%), ACCESS_TOKEN 1/212 (0.5%), TIME 1/284 (0.4%), GIVENNAME 3/1043 (0.3%), CITY 1/414 (0.2%), DATE 1/521 (0.2%), SURNAME 1/812 (0.1%), TELEPHONENUM 1/994 (0.1%)
+
+2. LABELS THAT DISAGREE WITH THE PLAN: 3557  {'standalone date, D-17 (ok)': 3539, 'changed by noise after labelling (ok)': 18}
+   llm_az_000004  standalone date, D-17 (ok): DATE '14 May 2016'  ...Tarix: [[14 May 2016]]-cı il  Mövzu: Texniki təhlükəsizlik üzr...
+   llm_az_000019  standalone date, D-17 (ok): DATE '15.05.2016'  ...CRM Qeydi | [[15.05.2016]]  Bu gün Naxışbəyim Bulagkhanova ilə bir...
+   llm_az_000024  standalone date, D-17 (ok): DATE '15.08.2022'  ...[Ses yazisi transkripsiyası - [[15.08.2022]]]  "Salam, men texniki destek komandasin...
+   llm_az_000025  standalone date, D-17 (ok): DATE '12.10.2015'  ...ŞƏXSİ İŞ FAYLI № 0092-X Sənəd tarixi: [[12.10.2015]]  ÜMUMİ MƏLUMAT Vəzifə: Logistika üzrə b...
+   llm_az_000025  standalone date, D-17 (ok): DATE '14.02.2011'  ...ogistika departamenti İşə qəbul tariXi: [[14.02.2011]] İş statusu: Daimi (Aktiv) İş yerindəki ...
+
+3. DECOY INTEGRITY: 3635 decoy span(s) checked, 1478 policy/contextual; problems: none
+
+4. RATES (share of all documents)
+   hard_negative  requested 30.0%   in the text 17.9%   in the briefs 18.6%
+   adversarial    requested 20.0%   in the text 15.8%   in the briefs 15.9%
+   pii_free       requested 10.0%   in the text 7.8%
+   edge_case      requested 30.0%   in the text 45.6%
+   any decoy in the text (_hard_negatives > 0, the batch-1 README's measure): 24.3%
+   label share / target, furthest off: DATE 5.32, IPV6_ADDRESS 1.87, ICCID 1.82, BUILDINGNUM 0.46, MAC_ADDRESS 1.45, STREET 0.59
+
+5. D-9: {'mentions': 4898, 'suffixed (label includes the suffix)': 1042}
+   D-10: {'documents of 1-5 words': 1}
+   validate_example failures: none
+
+7. INDEPENDENT SWEEP, PII THE MODEL INVENTED (informational): 0 document(s) (0.0%), 0 of them declared PII-free; {}
+
+8. STANDALONE DATES LEFT UNLABELLED (D-17; timestamps excluded): 0 in 0 document(s) (0.0%); {}. scripts/relabel_standalone_dates.py labels them
+
+json -> reports\llm_batch5\b1_after_audit.json

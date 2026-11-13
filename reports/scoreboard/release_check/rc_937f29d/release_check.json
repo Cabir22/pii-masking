@@ -1,0 +1,312 @@
+{
+ "meta": {
+  "name": "rc_937f29d",
+  "model": "your-hf-org/masking-az-runb-v2-seed42-2ep",
+  "revision": "937f29d008f9f99d498e7686aa5e5dddf11ace14",
+  "date_utc": "2026-10-13 10:00 UTC",
+  "code": "0259ef8",
+  "shadow_source": "scored 2026-10-13 with the D-42 list"
+ },
+ "verdict": {
+  "verdict": "not released",
+  "passed": [
+   "A1",
+   "A3",
+   "B1",
+   "C1",
+   "C2"
+  ],
+  "failed": [
+   "A2",
+   "A4",
+   "A5",
+   "A6",
+   "B2",
+   "C3",
+   "C4",
+   "C13",
+   "E3"
+  ],
+  "missing": [],
+  "blocking_total": 14
+ },
+ "rules": [
+  {
+   "id": "A1",
+   "rule": "Micro F1 ≥ 82",
+   "blocking": true,
+   "status": "pass",
+   "result": "82.9 (checkpoint 1 66.9) [scored 2026-10-13 with the D-42 list]"
+  },
+  {
+   "id": "A2",
+   "rule": "Weakest label F1 ≥ 65",
+   "blocking": true,
+   "status": "fail",
+   "result": "36.6 (IBAN)"
+  },
+  {
+   "id": "A3",
+   "rule": "Token, IPv6, licence F1 ≥ 75 each",
+   "blocking": true,
+   "status": "pass",
+   "result": "ACCESS_TOKEN 78.8, IPV6_ADDRESS 79.3, AZ_DRIVER_LICENSE_NUMBER 87.5"
+  },
+  {
+   "id": "A4",
+   "rule": "Look-alike trigger rate < 8%",
+   "blocking": true,
+   "status": "fail",
+   "result": "16.3% (with the D-42 items: 16.4%)"
+  },
+  {
+   "id": "A5",
+   "rule": "PII-free documents masked < 15%",
+   "blocking": true,
+   "status": "fail",
+   "result": "47.3% (with the D-42 items: 49.5%; their documents out of the count: 47.5%)"
+  },
+  {
+   "id": "A6",
+   "rule": "Recall guard (no label −1 pt)",
+   "blocking": true,
+   "status": "fail",
+   "result": "6 labels: IBAN 52.4 → 32.8, AZ_FIN 94.7 → 83.0, PAYMENT_CARD_NUMBER 90.1 → 78.9, AZ_VOEN 91.5 → 88.1, BUILDINGNUM 85.9 → 83.3, AZ_PASSPORT_NUMBER 95.1 → 93.4; M: 6 labels"
+  },
+  {
+   "id": "A7",
+   "rule": "EN / TR / RU regression",
+   "blocking": false,
+   "status": "n/a",
+   "result": "not applied: Azerbaijani-only model (D-23a)"
+  },
+  {
+   "id": "A8",
+   "rule": "Benchmark errors fixed (appendix)",
+   "blocking": false,
+   "status": "report",
+   "result": "not run by this script"
+  },
+  {
+   "id": "A9",
+   "rule": "Sealed set, once, on the final candidate",
+   "blocking": false,
+   "status": "n/a",
+   "result": "untouched (final candidate only, P3-11)"
+  },
+  {
+   "id": "B1",
+   "rule": "Benchmark F1 ≥ checkpoint 1 + 2",
+   "blocking": true,
+   "status": "pass",
+   "result": "88.9 vs 68.7 (needs 70.7); M 92.0"
+  },
+  {
+   "id": "B2",
+   "rule": "Benchmark recall guard (−1 pt)",
+   "blocking": true,
+   "status": "fail",
+   "result": "3 labels: AZ_FIN 94.7 → 68.1, CARD_SECURITY_CODE 93.9 → 70.6, ZIPCODE 80.5 → 79.5"
+  },
+  {
+   "id": "C1",
+   "rule": "Access token vs API key",
+   "blocking": true,
+   "status": "pass",
+   "result": "5 conditions met"
+  },
+  {
+   "id": "C2",
+   "rule": "IPv6 vs MAC",
+   "blocking": true,
+   "status": "pass",
+   "result": "5 conditions met"
+  },
+  {
+   "id": "C3",
+   "rule": "Licence vs ID card",
+   "blocking": true,
+   "status": "fail",
+   "result": "licence_vs_id confusion_rate [AZ_DRIVER_LICENSE_NUMBER→AZ_ID_CARD_NUMBER] 16.7; licence_vs_id confusion_rate [AZ_ID_CARD_NUMBER→AZ_DRIVER_LICENSE_NUMBER] 8.3"
+  },
+  {
+   "id": "C4",
+   "rule": "Look-alikes: < 15% each, < 10% overall",
+   "blocking": true,
+   "status": "fail",
+   "result": "7 of 11 families above 15% (decoy_cvv 100.0%, decoy_time 41.7%, decoy_age 41.7%, decoy_date 100.0%, decoy_zip 66.7%, decoy_card_iccid_iban 33.3%, decoy_names_as_org 16.7%); overall 35.5%"
+  },
+  {
+   "id": "C5",
+   "rule": "building_vs_room, sentence_initial_nouns, nonpii_ids",
+   "blocking": false,
+   "status": "report",
+   "result": "2 of 3 families meet their target"
+  },
+  {
+   "id": "C6",
+   "rule": "prose_card, prose_date, prose_iban…",
+   "blocking": false,
+   "status": "report",
+   "result": "1 of 5 families meet their target"
+  },
+  {
+   "id": "C7",
+   "rule": "fmt_csv, fmt_csv_noheader, fmt_json…",
+   "blocking": false,
+   "status": "report",
+   "result": "2 of 7 families meet their target"
+  },
+  {
+   "id": "C8",
+   "rule": "pem, spaced_phone, spaced_card_iban",
+   "blocking": false,
+   "status": "report",
+   "result": "2 of 3 families meet their target"
+  },
+  {
+   "id": "C9",
+   "rule": "suffixed_entities",
+   "blocking": false,
+   "status": "report",
+   "result": "0 of 1 families meet their target"
+  },
+  {
+   "id": "C10",
+   "rule": "bare_name, name_homographs",
+   "blocking": false,
+   "status": "report",
+   "result": "1 of 2 families meet their target"
+  },
+  {
+   "id": "C11",
+   "rule": "name_transliteration_variants",
+   "blocking": false,
+   "status": "report",
+   "result": "1 of 1 families meet their target"
+  },
+  {
+   "id": "C12",
+   "rule": "All probe families with targets (report)",
+   "blocking": false,
+   "status": "report",
+   "result": "19 of 52 families meet every absolute target (track R)"
+  },
+  {
+   "id": "C13",
+   "rule": "No family >10 pt and >3 docs worse",
+   "blocking": true,
+   "status": "fail",
+   "result": "pem char_leakage_rate 20.5 → 37.4 (8 docs worse); single_entity exact_f1 64.0 → 46.2 (7 docs worse); watched: contrast_token_key, fmt_csv_noheader, foreign_names, names_list_lines, villages"
+  },
+  {
+   "id": "D1",
+   "rule": "runb_test vs checkpoint 1 (report)",
+   "blocking": false,
+   "status": "report",
+   "result": "R 96.5 / M 99.0 (checkpoint 1 85.5 / 88.1); PII-free FP 1.8%"
+  },
+  {
+   "id": "D2",
+   "rule": "Template overfitting: gap ≤ 15 points",
+   "blocking": false,
+   "status": "flag",
+   "result": "vs real text 23.2 points; vs benchmark 7.6 points"
+  },
+  {
+   "id": "D3",
+   "rule": "Old vs new documents (report)",
+   "blocking": false,
+   "status": "report",
+   "result": "old 96.5 / new 96.6"
+  },
+  {
+   "id": "E1",
+   "rule": "Real text per label (report)",
+   "blocking": false,
+   "status": "report",
+   "result": "144 of 228 found (checkpoint 1 68); labels finding fewer: none"
+  },
+  {
+   "id": "E2",
+   "rule": "Real-text recall guard (report)",
+   "blocking": false,
+   "status": "report",
+   "result": "see E1"
+  },
+  {
+   "id": "E3",
+   "rule": "Real text: 80% found, labels, precision",
+   "blocking": true,
+   "status": "fail",
+   "result": "(1) 63.2% found FAIL; (2) CITY 22 vs 12 of 27, GIVENNAME 26 vs 18 of 93, SURNAME 60 vs 14 of 67, TELEPHONENUM 10 vs 9 of 10 ok; (3) precision 87.3% ok"
+  }
+ ],
+ "key_numbers": {
+  "shadow_f1_R": 0.828981942192654,
+  "bench_f1_R": 0.8885563297946968,
+  "c13_blocks": [
+   {
+    "family": "pem",
+    "condition": "char_leakage_rate",
+    "base": 0.20543002484325093,
+    "new": 0.3735951733112504,
+    "points_worse": 16.8,
+    "documents_worse": 8
+   },
+   {
+    "family": "single_entity",
+    "condition": "exact_f1",
+    "base": 0.64,
+    "new": 0.4615384615384615,
+    "points_worse": 17.8,
+    "documents_worse": 7
+   }
+  ],
+  "c13_watched": [
+   {
+    "family": "contrast_token_key",
+    "condition": "decoy_trigger_rate",
+    "base": 0.0,
+    "new": 0.125,
+    "points_worse": 12.5,
+    "documents_worse": 1
+   },
+   {
+    "family": "fmt_csv_noheader",
+    "condition": "exact_recall [AZ_ID_CARD_NUMBER]",
+    "base": 0.75,
+    "new": 0.5833333333333334,
+    "points_worse": 16.7,
+    "documents_worse": 2
+   },
+   {
+    "family": "foreign_names",
+    "condition": "decoy_trigger_rate_any",
+    "base": 0.0,
+    "new": 0.2,
+    "points_worse": 20.0,
+    "documents_worse": 2
+   },
+   {
+    "family": "names_list_lines",
+    "condition": "control_fp_rate",
+    "base": 0.0,
+    "new": 0.5,
+    "points_worse": 50.0,
+    "documents_worse": 2
+   },
+   {
+    "family": "villages",
+    "condition": "control_fp_rate",
+    "base": 0.1111111111111111,
+    "new": 0.3333333333333333,
+    "points_worse": 22.2,
+    "documents_worse": 3
+   }
+  ],
+  "c4_overall": 0.3548387096774194,
+  "real_f1_R": 0.7328244274809159,
+  "runb_f1_R": 0.964993239412047
+ }
+}

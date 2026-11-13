@@ -1,0 +1,43 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000037,"AZƏRBAYCAN RESPUBLİKASI GİRMƏ-ÇIXMA NÖQTƏLƏRİ VƏ GİRMƏ-ÇIXMA TƏRTMİBİ
+DÖVLƏT GİRMƏ-ÇIXMA XİDMƏTİ (DGX)
+GİRMƏ-ÇIXMA BİLDİRİŞİ (GİB-2015/04-A)
+
+Tarix: 14 noyabr 2015-ci il
+Sənəd nömrəsi: 2015-GX-009281
+Gömrük rejimi: Müvəqqəti idxal
+
+---
+
+I. YÜK VƏ NƏTALƏT MƏLUMATLARI
+
+Yükün növü: Sənaye avadanlıqları və dəyişdirilə bilən hissələr
+Yükün çəkisi (brutto): 4250 kq
+Yükün çəkisi (netto): 3980 kq
+Yükün təsviri: Sənaye maqnit sistemləri və avtomatlaşdırılmış idarəetmə panelləri
+Çəkilən konteynerin nömrəsi: MSKU-882741-0
+
+II. DAŞIYICI VƏ SÜRÜCÜ MƏLUMATLARI
+
+Daşıyıcı şirkət: ""Trans-Logistics Azerbaijan"" MMC
+Nəqliyyat vasitəsinin növü: Yük avtomobili (TIR)
+Dövlət qeydiyyat nişanı: 99-AX-452
+Sürücünün tam adı: Elnur Məmmədov
+Sürücünün şəxsiyyətinin təsdiqi: Sürücülük vəsiqəsi nömrəsi WP221704
+
+III. GÖMRÜK ÖDƏNİŞLƏRİ VƏ BİLDİRİŞ
+
+Gömrük dəyəri (USD): 45,200.00
+Gömrük rüsumu: 1,356.00
+ƏDV (18%): 8,136.00
+Cəmi ödəniləcək məbləğ: 54,692.00
+
+IV. TƏSİQD VƏ İMZA
+
+Bu bəyanat gömrük rəsmiləri tərəfindən yoxlanılmış və yükün sənədləşdirilmiş qaydada keçirilməsinə icazə verilmişdir. Yuxarıda göstərilən məlumatların doğruluğu sürücü və daşıyıcı tərəfindən təsdiq olunur. Məlumatların süni şəkildə dəyişdirilməsi və ya yanlış təqdim edilməsi qanunvericiliyin tələblərinə uyğun olaraq inzibati və cinayət məsuliyyətinə səbəb ola bilər.
+
+Yoxlayan gömrük inspektoru: (imza)
+Daşıyıcı nümayəndəsi: (imza)
+
+---
+Sənəd rəqəmsal sistem vasitəsilə qeydə alınmışdır. 2015-ci ilin noyabr ayı üzrə hesabatlılıq dövrünə daxildir.",az,"[{""start"":782,""end"":790,""label"":""AZ_DRIVER_LICENSE_NUMBER"",""text"":""WP221704""}]",customs_declaration,long,formal and businesslike,[],0,0,llm,"{""index"":37,""lang"":""az"",""doc_type"":""customs_declaration"",""doc_type_hint"":""a customs or import declaration"",""register"":""formal and businesslike"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""AZ_DRIVER_LICENSE_NUMBER"",""value"":""WP221704""}],""hard_negatives"":[],""adversarials"":[],""noise"":[],""negative_only"":false,""seed"":856716405,""edge_case"":{""id"":""DRV-01"",""status"":""positive_valid"",""description"":""2-letter + 6-digit form."",""scenario"":""""},""reference_year"":2015}",source

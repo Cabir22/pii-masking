@@ -1,0 +1,4 @@
+SELECT DISTINCT ?c ?az WHERE {
+  ?st wdt:P31 wd:Q3624078 ; wdt:P36 ?c .
+  ?c rdfs:label ?az . FILTER(LANG(?az) = "az")
+}

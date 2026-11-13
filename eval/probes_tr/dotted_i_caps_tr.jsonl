@@ -1,0 +1,12 @@
+{"id": "dotted_i_caps_tr_001", "text": "ADI: İLKNUR", "lang": "tr", "family": "dotted_i_caps_tr", "pair": 0, "role": "givenname", "entities": [{"start": 5, "end": 11, "label": "GIVENNAME"}]}
+{"id": "dotted_i_caps_tr_002", "text": "ADI: IŞIL", "lang": "tr", "family": "dotted_i_caps_tr", "pair": 1, "role": "givenname", "entities": [{"start": 5, "end": 9, "label": "GIVENNAME"}]}
+{"id": "dotted_i_caps_tr_003", "text": "ADI: İSMAİL", "lang": "tr", "family": "dotted_i_caps_tr", "pair": 2, "role": "givenname", "entities": [{"start": 5, "end": 11, "label": "GIVENNAME"}]}
+{"id": "dotted_i_caps_tr_004", "text": "ADI: ÇİĞDEM", "lang": "tr", "family": "dotted_i_caps_tr", "pair": 3, "role": "givenname", "entities": [{"start": 5, "end": 11, "label": "GIVENNAME"}]}
+{"id": "dotted_i_caps_tr_005", "text": "ADI: İnci", "lang": "tr", "family": "dotted_i_caps_tr", "pair": 4, "role": "givenname", "entities": [{"start": 5, "end": 9, "label": "GIVENNAME"}]}
+{"id": "dotted_i_caps_tr_006", "text": "SOYADI: Işık", "lang": "tr", "family": "dotted_i_caps_tr", "pair": 5, "role": "surname", "entities": [{"start": 8, "end": 12, "label": "SURNAME"}]}
+{"id": "dotted_i_caps_tr_007", "text": "SOYADI: YILDIRIM", "lang": "tr", "family": "dotted_i_caps_tr", "pair": 6, "role": "surname", "entities": [{"start": 8, "end": 16, "label": "SURNAME"}]}
+{"id": "dotted_i_caps_tr_008", "text": "SOYADI: ŞİMŞEK", "lang": "tr", "family": "dotted_i_caps_tr", "pair": 7, "role": "surname", "entities": [{"start": 8, "end": 14, "label": "SURNAME"}]}
+{"id": "dotted_i_caps_tr_009", "text": "DOĞUM YERİ: İZMİR", "lang": "tr", "family": "dotted_i_caps_tr", "pair": 8, "role": "city", "entities": [{"start": 12, "end": 17, "label": "CITY"}]}
+{"id": "dotted_i_caps_tr_010", "text": "DOĞUM YERİ: IĞDIR", "lang": "tr", "family": "dotted_i_caps_tr", "pair": 9, "role": "city", "entities": [{"start": 12, "end": 17, "label": "CITY"}]}
+{"id": "dotted_i_caps_tr_011", "text": "DOĞUM YERİ: ŞIRNAK", "lang": "tr", "family": "dotted_i_caps_tr", "pair": 10, "role": "city", "entities": [{"start": 12, "end": 18, "label": "CITY"}]}
+{"id": "dotted_i_caps_tr_012", "text": "DOĞUM YERİ: İsmayıllı", "lang": "tr", "family": "dotted_i_caps_tr", "pair": 11, "role": "city", "entities": [{"start": 12, "end": 21, "label": "CITY"}]}

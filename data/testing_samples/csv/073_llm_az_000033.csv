@@ -1,0 +1,59 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000033,"Sistemin İdarə Edilməsi və Təhlükəsizlik Protokolları: Texniki Texniki Dəstək və Operativ Nəzarət Bələdçisi
+
+Tarix: 14 noyabr 2022-ci il
+Versiya: 2.4.1-beta
+Status: Daxili istifadə üçün (Həssas)
+
+Salam, komanda! Bu sənəd bizim gündəlik iş prosesimizi asanlaşdırmaq və ""nə etməli olduğumuzu xatırlatmaq"" üçün hazırlanıb. Əgər bu sənədi oxuyursunuzsa, deməli ya yeni işə başlamısınız, ya da sistemlərin yenilənməsi zamanı bir az yorulmusunuz. Narahat olmayın, çayınızı alın və davam edək!
+
+---
+
+## 1. Giriş və Əsas Prinsiplər
+
+Bizim əsas məqsədimiz sistemin dayanıqlığını təmin etmək və istifadəçi məlumatlarının təhlükəsizliyini qorumaqdır. Unutmayın ki, hər bir koda və hər bir məlumat sətrinə qarşı məsuliyyətlisiniz. Əgər sistemdə hər hansı bir qeyri-adi davranış müşahidə etsəniz, dərhal rəhbərliyə məlumat verin.
+
+## 2. İstifadəçi Kimlik Doğrulaması və Sənəd Yoxlanışı
+
+Sistemin ən kritik hissələrindən biri şəxsiyyətin təsdiqlənməsi mərhələsidir. İstifadəçilər tərəfindən təqdim olunan sənədlərin rəqəmsal şəkildə emalı zamanı aşağıdakı qaydalara əməl edilməlidir:
+
+### 2.1. Şəxsiyyət Vəsiqəsi və Sürücülük Vəsiqəsi
+
+Sistemə daxil olan istifadəçilərin şəxsiyyət sənədlərini yoxlayarkən, aşağıdakı formatlara diqqət yetirin. Məsələn, bir istifadəçi şəkildə daxil etdikdə:
+
+- Şəxsiyyət vəsiqəsinin nömrəsi: AA6537947
+- Sürücülük vəsiqəsinin nömrəsi: QB592962
+
+Əgər OCR (Optik Xarakter Tanıma) sistemi rəqəmləri oxuyarkən səhv edərsə (məsələn, ""0"" rəqəmini ""O"" hərfi kimi və ya ""1"" rəqəmini ""l"" hərfi kimi görərsə), mütləq əl ilə düzəliş edilməlidir. Bu, sistemin doğruluğu üçün həyati əhəmiyyət kəsb edir.
+
+### 2.2. Əlaqə Məlumatları
+
+İstifadəçilərlə əlaqə qurmaq üçün tələb olunan nömrələrin formatı dəyişməz qalmalıdır. Məsələn:
+Telefon nömrəsi: +994-77-889-89-31
+
+## 3. Konflikt İdarəetməsi və Şikayətlərin Həlli
+
+Bəzən işlər planlaşdırıldığı kimi getmir. İstifadəçilər və ya müştərilər narazılıq bildirdikdə, aşağıdakı addımları izləyin:
+
+1. Sakit olun (hətta sistem çökəndə belə!).
+2. Problemi dəqiq qeyd edin.
+3. Müvafiq mütəxəssislə əlaqə saxlayın.
+
+Məsələn, əgər müştəri şikayətində adları qeyd edibsə, onları qeydiyyata keçərkən diqqətli olun. Məsələn, Gülbalayev ailəsinin nümayəndəsi və ya Kosazadə tərəfindən yönləndirilən sorğu kimi hallarda, adları və soyadları sənədlərdəki kimi saxlayın. Əgər sistemdə Gülbalayevlərin və ya Kosazadələrin məlumatları ilə bağlı texniki xəta çıxsa, dərhal bazanı yoxlayın.
+
+## 4. Texniki Monitorinq və Log Analizi
+
+Sistemin log fayllarını incələyərkən hər bir sətir vacibdir. Loglarda hər hansı bir anomaliya görsəniz, aşağıdakı formatda qeyd aparın:
+
+> LOG_ERROR: 01/l-type mismatch in user_session_0982
+
+Diqqətli olun, burada ""0"" və ""l"" arasındakı qarışıqlıq çox vaxt sistemin yanlış identifikasiya etməsinə səbəb olur.
+
+## 5. Yekun Tapşırıqlar
+
+Günün sonunda aşağıdakıları yerinə yetirdiyinizdən əmin olun:
+- Bütün aktiv sessiyaların statusunu yoxlayın.
+- Təşəkkür məktublarını göndərin (hə, bu da vacibdir!).
+- Gələcək növbə üçün hazırlıqlı olun.
+
+Bu bələdçi sizin rəhbərinizdir, amma beyniniz hər zaman ən yaxşı bələdçidir. İşlərinizdə uğurlar!",az,"[{""start"":1310,""end"":1319,""label"":""AZ_ID_CARD_NUMBER"",""text"":""AA6537947""},{""start"":1353,""end"":1361,""label"":""AZ_DRIVER_LICENSE_NUMBER"",""text"":""QB592962""},{""start"":1751,""end"":1768,""label"":""TELEPHONENUM"",""text"":""+994-77-889-89-31""},{""start"":2165,""end"":2175,""label"":""SURNAME"",""text"":""Gülbalayev""},{""start"":2204,""end"":2212,""label"":""SURNAME"",""text"":""Kosazadə""},{""start"":2321,""end"":2336,""label"":""SURNAME"",""text"":""Gülbalayevlərin""},{""start"":2343,""end"":2356,""label"":""SURNAME"",""text"":""Kosazadələrin""}]",runbook,very_long,friendly with light humour,[],0,0,llm,"{""index"":33,""lang"":""az"",""doc_type"":""runbook"",""doc_type_hint"":""an internal runbook or operations guide"",""register"":""friendly with light humour"",""band"":""very_long"",""min_chars"":2600,""max_chars"":4200,""length_hint"":""a long multi-section document"",""entities"":[{""label"":""AZ_DRIVER_LICENSE_NUMBER"",""value"":""QB592962""},{""label"":""TELEPHONENUM"",""value"":""+994-77-889-89-31""},{""label"":""AZ_ID_CARD_NUMBER"",""value"":""AA6537947""},{""label"":""SURNAME"",""value"":""Gülbalayev""},{""label"":""SURNAME"",""value"":""Kosazadə""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include an OCR-style artifact (a 0/O or 1/l confusion) in non-sensitive text""],""negative_only"":false,""seed"":1892351448,""edge_case"":null,""reference_year"":2022}",source

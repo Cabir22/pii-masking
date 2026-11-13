@@ -1,0 +1,56 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000009,"GÖYRÜCÜ VƏ XARİCİ TİCARƏT OPERASİYALARI ÜZRƏ CUSTOMS DECLARATION (GÖMRÜ BİLDİRİŞİ)
+Sənəd №: 2018/AX-99421
+Tarix: 14 noyabr 2018-ci il
+
+---
+
+MÜLKIYYƏTDARIN VƏ GÖMRÜN ÜZRƏ ÜZRƏ MÜLAHİZƏSİ
+
+Hörmətli Gömrük İdarəsi rəhbərliyi və müvafiq inspektorlar,
+
+Bu sənədlə mən, aşağıda imza edən şəxs, 2018-ci ilin payız mövsümündə həyata keçirilən mal gətirilməsi əməliyyatları ilə bağlı yaranmış bəzi texniki yanlışlıqlar və sənədləşmə gecikmələri ilə bağlı dərin təşvişimi və üzr istədiyimi bildirmək istəyirəm. Sənədlərin təqdim edilməsi zamanı baş vermiş texniki xətalar və ünvan məlumatlarının daxil edilməsindəki diqqətsizlik səbəbindən yaranmış hər hansı bir çətinliyə görə üzr istəyirəm. Bizim məqsədimiz tamamilə şəffaf və qanunauyğun bir ticarət prosesini təmin etməkdir.
+
+Gömrük bəyanatının əsas hissəsi və malın gətirildiyi əsas ünvan barədə məlumat:
+
+Malın saxlanılacağı və ya gətirildiyi əsas koordinat: Səfa İmanov döngəsi prospekti ərazisində yerləşən anbar kompleksi.
+
+---
+
+MALIN XÜSUSİYYƏTLƏRİ VƏ YÜKÜN TƏSVİRİ
+
+Gecikmənin səbəblərindən biri də yükün təsviri hissəsindəki kiçik qeydlərin tam düzgün əks olunmamasıdır. Biz bu səhvi dərhal düzəltmək üçün bütün əlavə sənədləri yenidən hazırladıq. Xahiş edirik, bu bəyanatın əvvəlki yanlış təqdim olunan sənədləri əvəz etdiyini nəzərə alasınız.
+
+1. Malın növü: Sənaye avadanlıqları və ehtiyat hissələri.
+2. Çəki (brutto): 450.5 kq.
+3. Paketin sayı: 12 qutu.
+4. Yükün təhlükəsizlik statusu: Standart nəqliyyat qaydalarına uyğun.
+
+Gömrük rəsmilərinin işini çətinləşdirdiyimiz üçün bir daha üzr istəyirik. Bizim komandamız daxili nəzarət sistemini yenidən nəzərdən keçirir ki, gələcəkdə belə texniki boşluqlar bir daha təkrarlanmasın.
+
+---
+
+ÜNVAN VƏ DAXİLİ LOGİSTİKA MƏLUMATLARI
+
+İmport əməliyyatları zamanı ünvanın dəqiqliklə qeyd edilməsi məsələsində göstərdiyimiz diqqətsizlik üçün üzr istəyirik. Aşağıdakı ünvan bəyanatın əsas hissəsi kimi qəbul edilməlidir:
+
+Gələn yükün təyinat yeri: Səfa İmanov döngəsi prospekti üzrə yerləşən logistika mərkəzi.
+
+Bu ünvan üzrə bütün sənədləşmə işləri və gələn avadanlıqların qəbulu həmin ərazidə həyata keçiriləcəkdir. Əgər ünvanın yazılış qaydasında və ya təsvirində hər hansı bir qeyri-dəqiqlik hiss olunarsa, zəhmət olmasa bizə bildirin ki, dərhal düzəliş edək. Bizim bütün resurslarımız bu prosesin qanunla müəyyən edilmiş qaydalara tam uyğun şəkildə tamamlanması üçün cəlb olunub.
+
+---
+
+YEKUN VƏ RƏSMİ TƏŞEBBÜS
+
+Yuxarıda qeyd olunan bütün şəraitləri nəzərə alaraq, hörmətli gömrük rəsmilərindən bu bəyanatın qəbul edilməsini və təkrarlanan xətaların hesabına gələrək prosesin davam etdirilməsini xahiş edirik. Bizim ticarət fəaliyyətimiz Azərbaycan Respublikasının gömrük qanunvericiliyinə tam tabedir və hər bir addımımızı bu çərçivədə atmağa sadiqik.
+
+Gecikməyə və sənədlərdəki qeyri-dəqiqliklərə görə bir daha dərin təəssüfümüzü və üzrümüzü bildiririk. Sizin anlayışınız bizim üçün çox dəyərlidir.
+
+Müvafiq sənədlərin əlavə olunması:
+- Ticarət müqaviləsinin surəti.
+- Yük qaiməsi.
+- Sənədlərin təsdiqi.
+
+İmza:
+(Məsul şəxs)
+Tarix: 14.11.2018",az,"[{""start"":905,""end"":924,""label"":""STREET"",""text"":""Səfa İmanov döngəsi""},{""start"":1939,""end"":1958,""label"":""STREET"",""text"":""Səfa İmanov döngəsi""}]",customs_declaration,very_long,apologetic,[],0,0,llm,"{""index"":9,""lang"":""az"",""doc_type"":""customs_declaration"",""doc_type_hint"":""a customs or import declaration"",""register"":""apologetic"",""band"":""very_long"",""min_chars"":2600,""max_chars"":4200,""length_hint"":""a long multi-section document"",""entities"":[{""label"":""STREET"",""value"":""Səfa İmanov döngəsi""}],""hard_negatives"":[],""adversarials"":[],""noise"":[],""negative_only"":false,""seed"":1232285036,""edge_case"":{""id"":""STR-02"",""status"":""positive_valid"",""description"":""Same as STR-01 but the given value's bundled suffix happens to be 'prospekti'/'pr.' -- embed exactly as given, do not add another street-type word of your own."",""scenario"":""""},""reference_year"":2018}",source

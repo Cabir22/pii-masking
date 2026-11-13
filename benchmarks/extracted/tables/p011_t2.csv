@@ -1,0 +1,15 @@
+ID,Label,Dəyər,Kontekst
+bench_az_002349,URL,az/verify?secret=QT8Te1XBNnTupC9dcr bGgZnfyt4CHicsjFSU,"iqəsi"": ""ZQ702936"", ""url"": ""https://secure.bakusteel.az/verify?secret=QT8Te 1XBNnTupC9dcrbGgZnfyt4CHicsjFSU"", ""vöen"": ""1527701850"", ""e_poçt"": ""user@"", ""ipv4"
+bench_az_003359,URL,az/verify?secret=arlwXr2DbZZfivYe8W14 nT3uZ9ITA0XMwtOy,"xMMx9BhyJuM8Bc83T"", ""url"": ""https://secure.bakusteel.az/verify?secret=arl wXr2DbZZfivYe8W14nT3uZ9ITA0XMwtOy"", ""saat"": ""16:16"", ""e_poçt"": ""user@"", ""ipv4"": ""9"
+bench_az_000635,URL,az/activate?secret=r-yxUcb975BzAHxkAr RlhsVjCKpcrw3JMBMD,seçmişəm. İstifadə etidyim link https://share.company.az/activate?secret=r- yxUcb975BzAHxkArRlhsVjCKpcrw3JMBMD-dir; surəti müqavilələr bölməsinin may arxivində murac
+bench_az_003464,URL,az/reset?session=rvYrJHZ0G2Rlv58Ozw ZK7Ic592YT6NIcY4qP,"""4668 4145 0435 2525"", ""url"": ""https://share.company.az/reset?session=rvY rJHZ0G2Rlv58OzwZK7Ic592YT6NIcY4qP"", ""e_poçt"": ""user@"", ""ipv4"": ""999.12.4.1"" }"
+bench_az_004096,URL,az/session/resume?jwt=lVujErOaHtFiIUz qMUs2pVtN7YlpJHaeTA7H,"{ ""url"": ""https://login.azertelekom.az/session/resume?jwt=lVujErOaHtFiIUzq MUs2pVtN7YlpJHaeTA7H"", ""ad"": ""Bəhmənyar"", ""e_poçt"": ""bench.user174@synt"
+bench_az_002395,URL,az/oauth/callback?access_token=38XyT GdqXHIEGeLX2LY9DKIBwis5gYcA0CJD,"rt"": ""Z90000097"", ""url"": ""https://account.nurtekstil.az/oauth/callback?access _token=38XyTGdqXHIEGeLX2LY9DKIBwis5gYcA0CJD"", ""bina_nömrəsi"": ""199/20"", ""saat"": ""25:81"", ""ya"
+bench_az_002731,URL,az/reset?jwt=r67SEF4HfA7Ho55g54jmsz 00Dueh2vHigqT8,abr 2026 yazılıb. Texniki qeyddə https://share.company.az/reset?jwt=r67SE F4HfA7Ho55g54jmsz00Dueh2vHigqT8 keçidi görünür; həmin məlumat təhlükəsizlik komandasın
+bench_az_000541,URL,az/invite?reset_token=iHVb9De1fxFcW8 4ve824zZ8ivF3mfiTOYouK,"{ ""url"": ""https://link.optimal.az/invite?reset_token=iHVb9De1fxFcW84ve824z Z8ivF3mfiTOYouK"", ""tarix"": ""13.01.2034"", ""url"": ""https://auth.zirv"
+bench_az_002426,TELEPHONENUM,598 22 98,"{ ""şəhər"": ""Lahıc"", ""telefon"": ""+994 60 598 22 98"", ""url"": ""https://auth.zirve.az/activate?token=9nksJ"
+bench_az_004602,TELEPHONENUM,795 24 95,"""ipv6"": ""2001:db8:9be:9bf::9be"", ""telefon"": ""+994 60 795 24 95"", ""cvv"": ""853"", ""fin_kodu"": ""12345"", ""cvv"": ""123"
+bench_az_003253,TELEPHONENUM,756 06 56,"FLCVGJ"", ""soyad"": ""Haşımzadə"", ""telefon"": ""+994 60 756 06 56"", ""e_poçt"": ""user@"", ""ipv4"": ""999.12.4.1"" }"
+bench_az_002093,TELEPHONENUM,966 26 66,[2031-04-12 10:00:00] INFO telefon=+994 60 966 26 66 [2031-04-12 10:01:00] INFO kart_nömrəsi=4284 6824 3302
+bench_az_001096,TELEPHONENUM,248 19 48,"7_cyLYvkBFPtMfdpkqqFDpVivW1sRU"", ""telefon"": ""+994 60 248 19 48"", ""fin_kodu"": ""12345"", ""cvv"": ""12345"" }"
+bench_az_003359,URL,https://secure.bakusteel,"_bench_0926_lAZaK6RuSVy68xMMx9BhyJuM8Bc83T"", ""url"": ""https://secur e.bakusteel.az/verify?secret=arlwXr2DbZZfivYe8W14nT3uZ9ITA0XMwtOy"""

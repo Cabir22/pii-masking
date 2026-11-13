@@ -1,0 +1,24 @@
+# sprint1_llm_b3 — LLM generation batch 3 (task P1-5)
+
+**Status (2026-10-05): audited, cleaned and date-relabelled (P2-5, batch 3; D-15c, D-17, D-18d), re-cleaned with the batch-4 checks (P2-5 batch 4). Train only on `sprint1_llm_b3.clean.jsonl` (5,970 documents).** Built with `python scripts/clean_llm_batch.py data/raw/sprint1_llm_b3.jsonl --drop-unplanned-pii` (6,000 -> 5,995: 3 decoys copied wrong, 2 planned dates written into log timestamps, which today's resolver no longer places), then `python scripts/relabel_standalone_dates.py --batch data/raw/sprint1_llm_b3.clean.jsonl --in-place` (DATE labels 859 -> 4,605; 3,746 standalone dates added; 4 left that have no anchor). validate_corpus PASS, leakage guard CLEAN. Drop reasons are in `sprint1_llm_b3.clean.report.json` (its `clean_sha256` is the file before the date relabel). The raw file below is kept unchanged.
+
+**D-33a (2026-10-10): 5,965 → 5,917 documents.** 45 dashed CVVs that were declared look-alikes (`cvv_separator`, `12-3`) are now labelled CARD_SECURITY_CODE; 48 documents with a `fin_with_i_or_o` look-alike are dropped (D-33c). Text is unchanged. `python scripts/relabel_dashed_cvv.py --batch data/raw/sprint1_llm_b3.clean.jsonl --in-place`; validate_corpus PASS, leakage guard CLEAN; counts in `reports/d30b/d33a_relabel_b3.json`.
+
+**D-35b (2026-10-12): 5,917 → 5,863 documents.** 54 documents with a `fin_6_chars` look-alike are dropped (D-34b: a foreign resident's PIN has 5-6 characters). Every kept line is byte-identical. `python scripts/relabel_dashed_cvv.py --batch data/raw/sprint1_llm_b3.clean.jsonl --in-place --drop-kind fin_6_chars`; SHA-256 of the new clean file `d2010bdfd116ed1d77b8a0f32e293b3d283e9c78d394ef2664deded733274b33`; validate_corpus PASS, leakage guard CLEAN; counts in `reports/d31b/d35b_drop_b3.json`.
+
+**D-36a (2026-10-12): 5,863 → 5,862 documents.** OpenSSH public-key lines (`ssh-rsa`, `ssh-ed25519`, ...) are no longer PRIVATE_KEY: 73 labels became declared look-alikes (`public_key_ssh`) and 16 lines the LLM wrapped in PEM PRIVATE KEY armour are labelled as the whole block; 1 document(s) with broken armour or a gate objection dropped; 8 documents now PII-free. Text is unchanged. `python scripts/relabel_ssh_public_keys.py --file data/raw/sprint1_llm_b3.clean.jsonl --in-place`; SHA-256 `4b71eaf8d150899762d139a61e815568d29085c3d7402407c4e8214f690171dc`; validate_corpus PASS, leakage guard CLEAN; counts in `reports/d36a/d36a_sprint1_llm_b3.clean.json`.
+
+**D-45b (2026-10-14): 5,862 → 5,859 documents.** 3 document(s) that label one value 20 times or more are dropped (the rule batch 6 was cleaned with; most: TIME 33×, TIME 23×, GIVENNAME 21×; 1 of them a name). Every kept line is byte-identical. `python scripts/drop_before_v3.py data/raw/sprint1_llm_b3.clean.jsonl --max-value-repeats 20 --in-place`; SHA-256 `7c3421f5e8bff195de35c1252cbd80d5abfcea0fd7d83a5f447170ec21ee2e3a`; validate_corpus PASS, leakage guard CLEAN; counts in `reports/d45b/d45b_drop_b3.json`.
+
+**D-47 (2026-10-14): 5,859 → 5,667 documents.** 192 dropped: 43 with an explained typo (D-47a), 136 with a bracketed self-correction in a formal doc type (D-47b), 15 with an unfilled template placeholder (D-47e); a document can match more than one rule. Every kept line is byte-identical and in order. `python scripts/drop_before_v3.py data/raw/sprint1_llm_b3.clean.jsonl --drop-explained-typos --drop-formal-self-corrections --drop-placeholders --in-place`; SHA-256 `d616d0be2bb950159583285bc1de2f027cb294da09a6f8c7010761f8cb5c0ab7`; validate_corpus PASS, leakage guard CLEAN; ids in `reports/d47/d47_drop_b3.json`.
+
+**Re-cleaned on 2026-10-05 with the batch-4 audit's checks**, from the raw file: 5,995 → 5,970. Removed: 13 with an invented email the old leak sweep missed (Azerbaijani letters or an underscore, `dəstək@hal-x.ai`), 4 with corrupt text (a foreign-script letter such as `な`, or the brief's `(noise)` copied into the text), 8 with a planned name misspelt inside the word and left unlabelled (`Əsəsbəyov` for `Əsədbəyov`). Every other line is byte-identical to the previous file. Dates relabelled with the same rule: DATE 856 → 4,582, 4 left without an anchor; validate_corpus PASS, leakage guard CLEAN.
+
+| | |
+|---|---|
+| Files | `sprint1_llm_b3.jsonl` (6,000 docs, SHA-256 `dfdaa15019e3af245bab9fe05ea13ca7bfdbd167a281d5156c3bd60cc36e1648`), `sprint1_llm_b3.rejects.jsonl` (831 rejects, SHA-256 `c6fd2af23aa04383ee68704ae1f51c2d529051720c0ae7ff7c6cfe68fc35077c`), both Git LFS |
+| Generated | 2026-10-04, 4.7 h, `wahoo-1.5-preview`, concurrency 32, seed 20261004 |
+
+## Generation report
+- 6,000 accepted of 6,831 attempts (12.2% rejected): quality 3.6%, validation 2.9%, leaked unlabelled PII 2.6%, judgment leak 1.5%, taxonomy label 1.3%.
+- Hard-negative docs 35.1%, adversarial 19.7%, zero-entity 10.2%, keyword share 0.1%; planned labels dropped ≤ 0.2%.

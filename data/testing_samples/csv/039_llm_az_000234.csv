@@ -1,0 +1,16 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000234,"# daxili API sənədləşməsi – ERROR LOGS & NOTES (2025)
+
+Yenə eyni problem! Bu API-nin strukturunu düzəltmək üçün nə qədər vaxt itiririk? Sənədləşmə tamamilə qarışıqdır və test məlumatları hər yerə dağılıb. Proqramçılar bu xaosla necə işləsin?
+
+Hər dəfə yeni bir endpoint əlavə edəndə sistem çökməyə başlayır. Aşağıdakı nümunələr göstərir ki, məlumatların ötürülməsi zamanı hələ də ciddi formatlaşdırma xətaları var:
+
+| Sahə Adı    | Nümunə Məlumat Hesabət (Input) | Status       |
+|-------------|-------------------------------|--------------|
+| İstifadəçi | Təhmas Abıyev                 | ERROR_400    |
+| Sürücülük № | XL146040                      | VALID_BUT_WEIRD |
+| Poçt indeksi| AZ4800                        | UNKNOWN_ZONE |
+
+Sistemin bu ""smart quotes” (“”) və ya yanlış simvollarla – məsələn, en-dash (–) ilə necə başa çıxdığını anlayıram. Təhmas Abıyev üçün göndərilən sorğularda isə mütləq şəkildə sənədləşməyə uyğunlaşdırılmış parametrlər istifadə edilməlidir. 
+
+Bu cür səhlənkarlığın davam etməsi qətiyyən qəbulolunmazdır. Ya bu xanaları düzgün formatlayın, ya da bütün inteqrasiyanı ləğv edin.",az,"[{""start"":558,""end"":564,""label"":""GIVENNAME"",""text"":""Təhmas""},{""start"":565,""end"":571,""label"":""SURNAME"",""text"":""Abıyev""},{""start"":621,""end"":629,""label"":""AZ_DRIVER_LICENSE_NUMBER"",""text"":""XL146040""},{""start"":687,""end"":693,""label"":""ZIPCODE"",""text"":""AZ4800""},{""start"":850,""end"":856,""label"":""GIVENNAME"",""text"":""Təhmas""},{""start"":857,""end"":863,""label"":""SURNAME"",""text"":""Abıyev""}]",api_documentation,medium,frustrated and complaining,[],0,0,llm,"{""index"":234,""lang"":""az"",""doc_type"":""api_documentation"",""doc_type_hint"":""internal API documentation with examples"",""register"":""frustrated and complaining"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""GIVENNAME"",""value"":""Təhmas""},{""label"":""SURNAME"",""value"":""Abıyev""},{""label"":""ZIPCODE"",""value"":""AZ4800""},{""label"":""AZ_DRIVER_LICENSE_NUMBER"",""value"":""XL146040""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a copy-paste artifact such as smart quotes or an en-dash"",""use a table-like layout with aligned columns""],""negative_only"":false,""seed"":516792023,""edge_case"":null,""reference_year"":2025}",source

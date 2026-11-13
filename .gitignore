@@ -1,0 +1,177 @@
+__pycache__/
+*.pyc
+.venv*/
+venv/
+.env
+
+# data
+# Datasets ARE tracked here by choice. They are large (LFS) and reproducible
+# from seed + generator, so this trades repo size for having the exact
+# training corpus pinned alongside the code.
+data/raw/*.bak
+# ValueFactory state and per-run resume checkpoints: local run history that
+# changes on every run, not a source artifact and not reproducible in any
+# useful sense.
+data/raw/.valuepool.json
+data/raw/*.state.json
+!data/raw/.gitkeep
+#
+# data/processed/ layout:
+#   az/                the Azerbaijani source split (prepare_splits.py output)
+#   en/ tr/ ru/        carrier-language translations of it, re-tokenized
+#   merged/            shuffled union of all four -- what model/train.py reads
+#   labels.json        language-independent, one canonical copy
+# Track the data files (.jsonl / .json) at any depth; keep transient per-run
+# artifacts out -- translation repair queues and tokenizer resume state.
+data/processed/**
+!data/processed/**/
+!data/processed/**/*.jsonl
+!data/processed/**/*.json
+!data/processed/**/.gitkeep
+data/processed/**/*repair_queue.jsonl
+# per-run QA artifacts from the translation harness: regenerable, and
+# they carry the rejected model output rather than corpus rows
+data/processed/**/*.diag.jsonl
+data/processed/**/*.rejects.jsonl
+# Derived re-splits of merged/ -- reproducible from the tracked corpus by
+# scripts/regroup_splits.py and scripts/sweep_span_defects.py. Each is
+# another ~800MB of LFS for bytes already tracked once under merged/.
+data/processed/merged_disjoint/
+data/processed/merged_swept/
+data/processed/merged_relabeled/
+# The sprint corpus (P1-3), data/processed/merged_relabeled_swept/, IS tracked
+# on main through Git LFS (~790 MB), so everyone trains and tests on the
+# byte-identical file (SHA-256s in its README). Only its document-level files
+# belong there: never commit tokenised windows next to them.
+data/processed/merged_relabeled_swept/*.jsonl
+!data/processed/merged_relabeled_swept/*.docs.jsonl
+!data/processed/merged_relabeled_swept/README.md
+# D-17's relabel of it (P2, 2026-10-04): the README is tracked; the JSONL
+# is rebuilt with scripts/relabel_standalone_dates.py (deterministic, SHA-256s
+# in the README) until the team decides to upload it.
+data/processed/merged_relabeled_swept_dated/*.jsonl
+!data/processed/merged_relabeled_swept_dated/*.docs.jsonl
+!data/processed/merged_relabeled_swept_dated/README.md
+# P2-16's drop list for the Azerbaijani documents (read by build_sprint_mix.py, P4-14).
+!data/processed/merged_relabeled_swept_dated/az_drop_list.jsonl
+# Sprint build folders (P1-6, P1-11, P1-12): tokenised mixes and new splits.
+data/processed/sprint*/*
+# D-22c: sprint1-v1's document files ARE tracked (Git LFS, ~215 MB), so Run A
+# trains on the verified bytes whatever the Python version (3.13 rebuilds differ).
+# Tokenised windows (train/val/test.jsonl) stay out: prepare_splits.py --tokenize-only.
+!data/processed/sprint1/*.docs.jsonl
+!data/processed/sprint1/DATA_CARD.md
+# Run B (D-23b, P4-14): only the data card is tracked; the data stays out of git.
+data/processed/runb*/*
+!data/processed/runb/DATA_CARD.md
+data/processed/**/*.state.json
+# merged/ is the shuffled az+en+tr+ru union model/train.py reads. Unlike
+# the per-language splits (az/ is irreproducible generator output), it is a
+# byte-exact deterministic function of those committed splits + a fixed seed
+# -- rebuild it with `scripts/merge_languages.py`, don't store ~1.4GB (and
+# growing) of redundant LFS history.
+data/processed/merged/*.jsonl
+data/processed/merged/*.json
+!data/processed/merged/.gitkeep
+
+# merged_rebalanced/ is the 60/40 name-substituted + retokenized corpus
+# (scripts/substitute_names.py + retokenize_merged.py). Tracked via Git LFS
+# so teammates get it on pull without re-running the pipeline.
+#
+# merged_original/ stays local-only: it is a byte-identical backup of merged/
+# (itself reproducible), kept as a rollback safety net during the pass.
+data/processed/merged_original/
+
+# Exception: the translate/tr Phase 5 calibration repair queue (28 records)
+# is tracked on purpose, for audit -- unlike a production run's repair
+# queue (transient, regenerated every run), this is a fixed, one-off
+# diagnostic artifact documenting the validator false-positive under
+# review.
+!data/calibration/tr/calibration_sample.tr.docs.repair_queue.jsonl
+# Exception: the translate/tr 60k production run's repair queues (2,144
+# records across the 6 positive/negative x train/val/test files) are
+# tracked on purpose too -- the team asked directly for the rejected data
+# to stay visible for audit, not just the accepted corpus. Still NOT a
+# general repair-queue tracking policy: this covers exactly this run's
+# volume60k_* artifacts, not every future repair_queue.jsonl anywhere in
+# the repo, which stays transient/regenerated-per-run and ignored by
+# the blanket rule above.
+!data/calibration/tr/volume60k_*.repair_queue.jsonl
+
+# scripts/redteam/: resume checkpoint for the adversarial probe -- local
+# run-history state, same convention as data/raw/*.state.json above.
+# findings.jsonl and run_ledger.jsonl (the actual results) ARE tracked.
+scripts/redteam/checkpoint.json
+
+# model artifacts
+model/checkpoints/
+model/*.onnx
+model/*.bin
+model/*.safetensors
+*.pt
+
+# misc
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+*.log
+
+# data/calibration/<lang>/ holds one-off audit artifacts (a fixed
+# diagnostic record, not a per-run product) and is tracked in full.
+# It was under data/processed/<lang>/ until 2026-09-07, where it sat
+# beside the corpus splits and needed two ignore-negations to survive
+# the blanket repair-queue rule.
+
+# local scratch: calibration dumps, hand-review extracts (regenerable, may hold corpus text)
+scratch/
+
+# demo/real_pipeline_demo.py's own output -- regenerable by re-running it,
+# never a source artifact (the script is tracked, its output isn't)
+demo/sample_original_corpus.*
+demo/sample_masked_corpus.*
+
+# transient audit/prune safety backups -- regenerable, never a source artifact
+data/**/*.preprune_bak.jsonl
+data/**/*.pre_recovery.jsonl
+data/**/*.pruned.jsonl
+data/**/*.jsonl.bak
+
+# Name-substitution source pools (fetched once, multi-MB, reproducible)
+data/name_sources/
+
+# Local per-run PII-masking evaluation output (masked .docx copies, JSON
+# reports/diagnostics): never a source artifact, regenerable by re-running
+# whatever evaluation produced it, on any branch -- see `mask/docx`'s own
+# .gitignore for the fuller reasoning (kept independent of any specific
+# tool here since the standalone docx-masking script that originally
+# wrote to this path was removed from `main` -- see the revert of
+# a209bb1 -- but the same local output directory is still produced by
+# ad hoc evaluation runs and still isn't something to track).
+reports/docx_masking/
+
+# scripts/eval_holdout_out/: resume checkpoint for the held-out dataset
+# evaluation -- local run-history state, same convention as
+# data/raw/*.state.json above. eval_results.jsonl (the actual per-record
+# predictions/scores) IS tracked.
+scripts/eval_holdout_out/checkpoint.json
+
+# scripts/redteam/: resume checkpoint for the adversarial probe -- local
+# run-history state, same convention as data/raw/*.state.json above.
+# findings.jsonl and run_ledger.jsonl (the actual results) ARE tracked.
+scripts/redteam/checkpoint.json
+
+# audit/ experiments: generated fixtures + per-run results (safe to delete)
+audit/_work/
+
+# Hugging Face downloads (scripts/hf/fetch_data.sh)
+/MANIFEST.tsv
+/.cache/huggingface/
+
+# Repository move: data lives on Hugging Face
+# (your-hf-org/pii-masking-data and the per-build datasets), never in git. This last rule wins
+# over the earlier "!data/..." lines, so no data/**/*.jsonl can be committed again.
+# Get data with: bash scripts/hf/fetch_data.sh
+data/**/*.jsonl
+
+# m1/m2 multilingual builds (rebuilt from Hugging Face by scripts/build_m*.py)
+data/processed/m[0-9]*/

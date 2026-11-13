@@ -1,0 +1,951 @@
+{
+ "token_vs_key": {
+  "source": "A7: token_vs_key recall >= 80%, confusion < 10%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "ACCESS_TOKEN"
+    ],
+    "op": ">=",
+    "value": 0.8
+   },
+   {
+    "metric": "confusion_rate",
+    "from": "ACCESS_TOKEN",
+    "to": [
+     "API_KEY"
+    ],
+    "op": "<",
+    "value": 0.1
+   }
+  ]
+ },
+ "ipv6_vs_mac": {
+  "source": "A7: ipv6_vs_mac recall >= 80%, IPv6->MAC < 5%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "IPV6_ADDRESS"
+    ],
+    "op": ">=",
+    "value": 0.8
+   },
+   {
+    "metric": "confusion_rate",
+    "from": "IPV6_ADDRESS",
+    "to": [
+     "MAC_ADDRESS"
+    ],
+    "op": "<",
+    "value": 0.05
+   }
+  ]
+ },
+ "licence_vs_id": {
+  "source": "A7: licence_vs_id confusion < 5%",
+  "conditions": [
+   {
+    "metric": "confusion_rate",
+    "from": "AZ_DRIVER_LICENSE_NUMBER",
+    "to": [
+     "AZ_ID_CARD_NUMBER"
+    ],
+    "op": "<",
+    "value": 0.05
+   },
+   {
+    "metric": "confusion_rate",
+    "from": "AZ_ID_CARD_NUMBER",
+    "to": [
+     "AZ_DRIVER_LICENSE_NUMBER"
+    ],
+    "op": "<",
+    "value": 0.05
+   }
+  ]
+ },
+ "decoy_cvv": {
+  "source": "A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15,
+    "exclude_kinds": [
+     "policy_d34c",
+     "policy_d39c"
+    ]
+   }
+  ],
+  "policy_d34c": "D-34c (2026-10-12): the dashed-CVV look-alikes decoy_cvv_010 and decoy_cvv_022 and the O-initial FIN look-alikes decoy_fin_004, decoy_fin_012 and decoy_fin_018 contradict the labelling convention (D-30b and D-33 treat dashed CVVs and O-initial FINs as real values), so a correct model would be penalised. They are marked kind 'policy_d34c', scored and reported apart (decoys.per_kind), and left out of C4 (D-29 F3)",
+  "policy_d39c": "D-39c (2026-10-12): the other three dashed-CVV look-alikes, decoy_cvv_006, decoy_cvv_018 and decoy_cvv_024, join decoy_cvv_010 and decoy_cvv_022: all 5 dashed (99-9) look-alikes follow the labelling convention (D-30b), and choosing items by the model's result would bias the test. Kind 'policy_d39c', scored and reported apart, left out of C4 (D-29 F3)"
+ },
+ "decoy_time": {
+  "source": "A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "decoy_age": {
+  "source": "A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "decoy_date": {
+  "source": "A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "decoy_zip": {
+  "source": "A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "decoy_fin": {
+  "source": "A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15,
+    "exclude_kinds": [
+     "policy_d34c",
+     "policy_fin_len"
+    ]
+   }
+  ],
+  "policy_d34c": "D-34c (2026-10-12): the dashed-CVV look-alikes decoy_cvv_010 and decoy_cvv_022 and the O-initial FIN look-alikes decoy_fin_004, decoy_fin_012 and decoy_fin_018 contradict the labelling convention (D-30b and D-33 treat dashed CVVs and O-initial FINs as real values), so a correct model would be penalised. They are marked kind 'policy_d34c', scored and reported apart (decoys.per_kind), and left out of C4 (D-29 F3)",
+  "policy_fin_len": "the team, 15 Oct 2026 (after the v3 release check, #84): FIN look-alikes of 5-7 letters/digits may be real identifiers (D-34a, D-34b), so they are kind 'policy_fin_len', scored and reported apart (D-29 F3). The 4 five-digit ones leave this target and C4; the 4 dashed ones stay"
+ },
+ "decoy_voen_passport_id": {
+  "source": "A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "decoy_ipv4": {
+  "source": "A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "decoy_ipv6_mac": {
+  "source": "A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "decoy_card_iccid_iban": {
+  "source": "A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15,
+    "exclude_kinds": [
+     "policy_d51d"
+    ]
+   }
+  ],
+  "policy_d51d": "D-51d (2026-10-15): cards and IBANs are masked whatever their checksum. The 4 card look-alikes whose only defect is the Luhn digit (2 of 13 digits, 2 of 16) are real values under that rule: kind 'policy_d51d', scored and reported apart, left out of this target and of C4 (D-29 F3). The IBAN fragments and short ICCIDs (wrong shape) stay"
+ },
+ "decoy_names_as_org": {
+  "source": "A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "building_vs_room": {
+  "source": "A7: spurious -70% vs checkpoint 1 (relative)",
+  "conditions": [
+   {
+    "metric": "control_fp_rate",
+    "op": "<=",
+    "relative": 0.3
+   }
+  ],
+  "sanity": [
+   {
+    "metric": "control_fp_rate",
+    "op": ">=",
+    "value": 0.1
+   }
+  ]
+ },
+ "sentence_initial_nouns": {
+  "source": "A7: spurious -70% vs checkpoint 1 (relative)",
+  "conditions": [
+   {
+    "metric": "control_fp_rate",
+    "op": "<=",
+    "relative": 0.3
+   }
+  ],
+  "sanity": [
+   {
+    "metric": "control_fp_rate",
+    "op": ">=",
+    "value": 0.1
+   }
+  ]
+ },
+ "nonpii_ids": {
+  "source": "A7: spurious -70% vs checkpoint 1 (relative)",
+  "conditions": [
+   {
+    "metric": "control_fp_rate",
+    "op": "<=",
+    "relative": 0.3
+   }
+  ],
+  "sanity": [
+   {
+    "metric": "control_fp_rate",
+    "op": ">=",
+    "value": 0.1
+   }
+  ]
+ },
+ "prose_card": {
+  "source": "A7: recall >= 80%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.8
+   }
+  ],
+  "policy_d51d": "D-51d (2026-10-15): cards are masked whatever their checksum, so the 12 card look-alikes whose only defect is the Luhn digit are kind 'policy_d51d', scored and reported apart (D-29 F3). This family's target is on the real values, so its pass mark is unchanged"
+ },
+ "prose_date": {
+  "source": "A7: recall >= 80%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.8
+   }
+  ]
+ },
+ "prose_iban": {
+  "source": "A7: recall >= 80%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.8
+   }
+  ]
+ },
+ "anchor_distance": {
+  "source": "A7: recall >= 80%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.8
+   }
+  ],
+  "policy_d51d": "D-51d (2026-10-15): cards are masked whatever their checksum, so the 2 card look-alikes whose only defect is the Luhn digit are kind 'policy_d51d', scored and reported apart (D-29 F3). This family's target is on the real values, so its pass mark is unchanged"
+ },
+ "inflected_anchor": {
+  "source": "A7: recall >= 80%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.8
+   }
+  ],
+  "policy_d51d": "D-51d (2026-10-15): cards are masked whatever their checksum, so the 1 card look-alike whose only defect is the Luhn digit is kind 'policy_d51d', scored and reported apart (D-29 F3). This family's target is on the real values, so its pass mark is unchanged",
+  "policy_fin_len": "the team, 15 Oct 2026 (after the v3 release check, #84): FIN look-alikes of 5-7 letters/digits may be real identifiers (D-34a, D-34b), so they are kind 'policy_fin_len', scored and reported apart (D-29 F3). This family's target is on the real values, so its pass mark is unchanged"
+ },
+ "fmt_csv": {
+  "source": "A7: one probe per format, recall >= 70%; EMAIL and ID card > 60%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.7
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "EMAIL"
+    ],
+    "op": ">",
+    "value": 0.6
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "AZ_ID_CARD_NUMBER"
+    ],
+    "op": ">",
+    "value": 0.6
+   }
+  ]
+ },
+ "fmt_csv_noheader": {
+  "source": "A7: one probe per format, recall >= 70%; EMAIL and ID card > 60%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.7
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "EMAIL"
+    ],
+    "op": ">",
+    "value": 0.6
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "AZ_ID_CARD_NUMBER"
+    ],
+    "op": ">",
+    "value": 0.6
+   }
+  ]
+ },
+ "fmt_json": {
+  "source": "A7: one probe per format, recall >= 70%; EMAIL and ID card > 60%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.7
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "EMAIL"
+    ],
+    "op": ">",
+    "value": 0.6
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "AZ_ID_CARD_NUMBER"
+    ],
+    "op": ">",
+    "value": 0.6
+   }
+  ]
+ },
+ "fmt_pipe": {
+  "source": "A7: one probe per format, recall >= 70%; EMAIL and ID card > 60%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.7
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "EMAIL"
+    ],
+    "op": ">",
+    "value": 0.6
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "AZ_ID_CARD_NUMBER"
+    ],
+    "op": ">",
+    "value": 0.6
+   }
+  ]
+ },
+ "fmt_log": {
+  "source": "A7: one probe per format, recall >= 70%; EMAIL and ID card > 60%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.7
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "EMAIL"
+    ],
+    "op": ">",
+    "value": 0.6
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "AZ_ID_CARD_NUMBER"
+    ],
+    "op": ">",
+    "value": 0.6
+   }
+  ]
+ },
+ "fmt_kv": {
+  "source": "A7: one probe per format, recall >= 70%; EMAIL and ID card > 60%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.7
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "EMAIL"
+    ],
+    "op": ">",
+    "value": 0.6
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "AZ_ID_CARD_NUMBER"
+    ],
+    "op": ">",
+    "value": 0.6
+   }
+  ]
+ },
+ "fmt_dialogue": {
+  "source": "A7: one probe per format, recall >= 70%; EMAIL and ID card > 60%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.7
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "EMAIL"
+    ],
+    "op": ">",
+    "value": 0.6
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "AZ_ID_CARD_NUMBER"
+    ],
+    "op": ">",
+    "value": 0.6
+   }
+  ]
+ },
+ "pem": {
+  "source": "A7: character leakage rate below checkpoint 1 (relative)",
+  "conditions": [
+   {
+    "metric": "char_leakage_rate",
+    "op": "<",
+    "relative": 1.0
+   }
+  ],
+  "sanity": [
+   {
+    "metric": "exact_recall",
+    "op": "<",
+    "value": 0.9
+   }
+  ]
+ },
+ "spaced_phone": {
+  "source": "A7: character leakage rate below checkpoint 1 (relative)",
+  "conditions": [
+   {
+    "metric": "char_leakage_rate",
+    "op": "<",
+    "relative": 1.0
+   }
+  ],
+  "sanity": [
+   {
+    "metric": "exact_recall",
+    "op": "<",
+    "value": 0.9
+   }
+  ]
+ },
+ "spaced_card_iban": {
+  "source": "A7: character leakage rate below checkpoint 1 (relative)",
+  "conditions": [
+   {
+    "metric": "char_leakage_rate",
+    "op": "<",
+    "relative": 1.0
+   }
+  ],
+  "sanity": [
+   {
+    "metric": "exact_recall",
+    "op": "<",
+    "value": 0.9
+   }
+  ],
+  "policy_d51d": "D-51d (2026-10-15): cards are masked whatever their checksum, so the 5 card look-alikes whose only defect is the Luhn digit are kind 'policy_d51d', scored and reported apart (D-29 F3). This family's target is on the real values, so its pass mark is unchanged"
+ },
+ "punct_touching": {
+  "source": "P3-3: punctuation-touching values; exact recall >= 90% (team choice; A7 sets no number)",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.9
+   }
+  ],
+  "policy_d36d": "D-36d (2026-10-12): the 6-character dummy FIN (punct_touching_022) is a policy item, kind 'policy_d36d': after D-34b, masking a 6-character code after FIN is the intended behaviour. It was already a policy D-2 dummy; this records the decision. Policy items are scored and reported apart (D-29 F3); this family's target is recall only, so its pass mark is unchanged",
+  "policy_fin_len": "the team, 15 Oct 2026 (after the v3 release check, #84): FIN look-alikes of 5-7 letters/digits may be real identifiers (D-34a, D-34b), so they are kind 'policy_fin_len', scored and reported apart (D-29 F3). This family's target is on the real values, so its pass mark is unchanged"
+ },
+ "casing_noise": {
+  "source": "A7: probe casing_noise (no number given); recall >= 80% (team choice)",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.8
+   }
+  ]
+ },
+ "single_entity": {
+  "source": "A7: single-entity documents at 54.6 F1 (precision 46.5%); exact F1 >= 80% (team choice)",
+  "conditions": [
+   {
+    "metric": "exact_f1",
+    "op": ">=",
+    "value": 0.8
+   }
+  ],
+  "policy_fin_len": "the team, 15 Oct 2026 (after the v3 release check, #84): FIN look-alikes of 5-7 letters/digits may be real identifiers (D-34a, D-34b), so they are kind 'policy_fin_len', scored and reported apart (D-29 F3). This family's target is on the real values, so its pass mark is unchanged"
+ },
+ "pii_free": {
+  "source": "A6: PII-free document FP rate, sprint-2 gate < 15%; documents carry planted look-alikes like the benchmark's",
+  "conditions": [
+   {
+    "metric": "pii_free_fp_rate",
+    "op": "<",
+    "value": 0.15,
+    "exclude_kinds": [
+     "policy_d39c",
+     "policy_fin_len"
+    ]
+   }
+  ],
+  "policy_d39c": "D-41c (2026-10-13): pii_free_005, pii_free_017 and pii_free_021 each hold a dashed CVV (99-9), a real value under the labelling convention (D-30b, D-39c). The look-alike is kind 'policy_d39c', and these 3 documents leave the PII-free count of this target",
+  "policy_fin_len": "the team, 15 Oct 2026 (after the v3 release check, #84): FIN look-alikes of 5-7 letters/digits may be real identifiers (D-34a, D-34b), so they are kind 'policy_fin_len', scored and reported apart (D-29 F3). pii_free's one 7-character look-alike: its document leaves the PII-free count, as D-41c"
+ },
+ "suffixed_entities": {
+  "source": "P3-3 (RC8): exact recall >= 85% on every case; overlap recall reported per case",
+  "conditions": [
+   {
+    "metric": "case_exact_recall_min",
+    "op": ">=",
+    "value": 0.85
+   }
+  ]
+ },
+ "bare_name": {
+  "source": "P3-3 (RC9): recall >= 90%, split spans 0; D-10 lowercase lone homographs must not be masked",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.9
+   },
+   {
+    "metric": "split_spans",
+    "op": "==",
+    "value": 0
+   },
+   {
+    "metric": "control_fp_rate",
+    "op": "<",
+    "value": 0.1
+   }
+  ]
+ },
+ "name_homographs": {
+  "source": "P3-3 (RC9): recall >= 90% on name uses, false positives < 10% on word uses",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "GIVENNAME"
+    ],
+    "op": ">=",
+    "value": 0.9
+   },
+   {
+    "metric": "control_fp_rate",
+    "op": "<",
+    "value": 0.1
+   }
+  ]
+ },
+ "name_transliteration_variants": {
+  "source": "P3-3: recall >= 90% across variants; no variant confused with a different label",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.9
+   },
+   {
+    "metric": "wrong_label",
+    "op": "==",
+    "value": 0
+   }
+  ]
+ },
+ "noisy_suffixes": {
+  "source": "P3-3 Run B probes (TASKS P3 #3): P2-4c noisy suffixes; as suffixed_entities (RC8) exact recall >= 85%, nouns with the same misspelt suffix masked < 10%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "GIVENNAME",
+     "SURNAME",
+     "CITY"
+    ],
+    "op": ">=",
+    "value": 0.85
+   },
+   {
+    "metric": "control_fp_rate",
+    "op": "<",
+    "value": 0.1
+   }
+  ]
+ },
+ "contrast_token_key": {
+  "source": "P3-3 Run B probes (TASKS P3 #3): P2-1/P2-4 token/key contrast pairs; A7 token_vs_key recall >= 80%, confusion < 10% (both ways); A7 decoy trigger < 15%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "ACCESS_TOKEN"
+    ],
+    "op": ">=",
+    "value": 0.8
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "API_KEY"
+    ],
+    "op": ">=",
+    "value": 0.8
+   },
+   {
+    "metric": "confusion_rate",
+    "from": "ACCESS_TOKEN",
+    "to": [
+     "API_KEY"
+    ],
+    "op": "<",
+    "value": 0.1
+   },
+   {
+    "metric": "confusion_rate",
+    "from": "API_KEY",
+    "to": [
+     "ACCESS_TOKEN"
+    ],
+    "op": "<",
+    "value": 0.1
+   },
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "contrast_ipv6_mac": {
+  "source": "P3-3 Run B probes (TASKS P3 #3): P2-1/P2-4 IPv6/MAC contrast pairs; A7 ipv6_vs_mac recall >= 80%, IPv6->MAC < 5% (both ways, MAC recall too); A7 decoy trigger < 15%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "IPV6_ADDRESS"
+    ],
+    "op": ">=",
+    "value": 0.8
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "MAC_ADDRESS"
+    ],
+    "op": ">=",
+    "value": 0.8
+   },
+   {
+    "metric": "confusion_rate",
+    "from": "IPV6_ADDRESS",
+    "to": [
+     "MAC_ADDRESS"
+    ],
+    "op": "<",
+    "value": 0.05
+   },
+   {
+    "metric": "confusion_rate",
+    "from": "MAC_ADDRESS",
+    "to": [
+     "IPV6_ADDRESS"
+    ],
+    "op": "<",
+    "value": 0.05
+   },
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "contrast_licence_id": {
+  "source": "P3-3 Run B probes (TASKS P3 #3): P2-1/P2-4 licence/ID same-prefix pairs; A7 licence_vs_id confusion < 5% each way, recall >= 80% each; A7 decoy trigger < 15%",
+  "conditions": [
+   {
+    "metric": "confusion_rate",
+    "from": "AZ_DRIVER_LICENSE_NUMBER",
+    "to": [
+     "AZ_ID_CARD_NUMBER"
+    ],
+    "op": "<",
+    "value": 0.05
+   },
+   {
+    "metric": "confusion_rate",
+    "from": "AZ_ID_CARD_NUMBER",
+    "to": [
+     "AZ_DRIVER_LICENSE_NUMBER"
+    ],
+    "op": "<",
+    "value": 0.05
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "AZ_DRIVER_LICENSE_NUMBER"
+    ],
+    "op": ">=",
+    "value": 0.8
+   },
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "AZ_ID_CARD_NUMBER"
+    ],
+    "op": ">=",
+    "value": 0.8
+   },
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "homograph_pairs": {
+  "source": "P3-3 Run B probes (TASKS P3 #3): P2-4d/P4-2 homograph pairs in one document; as name_homographs (RC9) recall >= 90%, word uses masked < 10%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "GIVENNAME"
+    ],
+    "op": ">=",
+    "value": 0.9
+   },
+   {
+    "metric": "control_fp_rate",
+    "op": "<",
+    "value": 0.1
+   }
+  ]
+ },
+ "date_vs_timestamp": {
+  "source": "P3-3 Run B probes (TASKS P3 #3): D-17 standalone dates vs timestamps; DATE recall >= 80% (A7 prose_date), timestamps hit as DATE < 15% (A7 decoy trigger)",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "DATE"
+    ],
+    "op": ">=",
+    "value": 0.8
+   },
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "villages": {
+  "source": "P3-3 Run B probes (TASKS P3 #3): D-23c villages and settlements; CITY exact recall >= 80% (target, no A7 row), ordinary-word and generic-place controls masked < 10%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "CITY"
+    ],
+    "op": ">=",
+    "value": 0.8
+   },
+   {
+    "metric": "control_fp_rate",
+    "op": "<",
+    "value": 0.1
+   }
+  ]
+ },
+ "foreign_names": {
+  "source": "P3-3 Run B probes (TASKS P3 #3): D-23d foreign names; GIVENNAME+SURNAME exact recall >= 80% (target, no A7 row), brand names masked as anything < 15% (A7 decoy trigger)",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "GIVENNAME",
+     "SURNAME"
+    ],
+    "op": ">=",
+    "value": 0.8
+   },
+   {
+    "metric": "decoy_trigger_rate_any",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "names_list_lines": {
+  "source": "D-38 step 1 name-shape probes (the team; constructions counted on the real-text set, synthetic texts): one-name-per-line lists, Surname Given Father oğlu/qızı; recall >= 90% on surnames and given names as for bare_name (the father's name, role=patronymic, is GIVENNAME and reported apart in the slices); non-person list lines masked < 10%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "GIVENNAME",
+     "SURNAME"
+    ],
+    "op": ">=",
+    "value": 0.9
+   },
+   {
+    "metric": "control_fp_rate",
+    "op": "<",
+    "value": 0.1
+   }
+  ]
+ },
+ "names_after_role": {
+  "source": "D-38 step 1 name-shape probes (the team; constructions counted on the real-text set, synthetic texts): a name right after a lowercase title, job or role word; recall >= 90%; organisation names after a role word masked < 10%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "GIVENNAME",
+     "SURNAME"
+    ],
+    "op": ">=",
+    "value": 0.9
+   },
+   {
+    "metric": "control_fp_rate",
+    "op": "<",
+    "value": 0.1
+   }
+  ]
+ },
+ "names_signature": {
+  "source": "D-38 step 1 name-shape probes (the team; constructions counted on the real-text set, synthetic texts): a name alone on its own line at the end of a letter; recall >= 90%; department names on the signature line masked < 10%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "GIVENNAME",
+     "SURNAME"
+    ],
+    "op": ">=",
+    "value": 0.9
+   },
+   {
+    "metric": "control_fp_rate",
+    "op": "<",
+    "value": 0.1
+   }
+  ]
+ },
+ "names_sentence_start": {
+  "source": "D-38 step 1 name-shape probes (the team; constructions counted on the real-text set, synthetic texts): a name at the start of a sentence; recall >= 90%; capitalised common nouns at the start of a sentence masked < 10%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "GIVENNAME",
+     "SURNAME"
+    ],
+    "op": ">=",
+    "value": 0.9
+   },
+   {
+    "metric": "control_fp_rate",
+    "op": "<",
+    "value": 0.1
+   }
+  ]
+ },
+  "line_end_ip_email": {"source": "D-56a (1): IPv4, IPv6 and email ending a line or sentence without a final period (v4 -> v4.1 note: v4.1 split such IPs, `[219].[83.211.173]`); exact recall >= 80% (team choice, as the other recall families)", "conditions": [{"metric": "exact_recall", "op": ">=", "value": 0.8}]},
+  "code_density": {"source": "D-77 (26 Oct): blocking from m2, on track M. Every technical label >= 9/10 at each density (0, 2, 6 unlabelled codes; 10 values per cell) and the family >= 95% overall", "conditions": [{"metric": "exact_recall", "op": ">=", "value": 0.95}, {"metric": "slice_exact_recall_min", "field": "cell", "op": ">=", "value": 0.9}]},
+  "card_expiry": {"source": "D-78 (27 Oct): reported for m2, blocking from m3, on track M. Card expiry (MM/YY, MM/YYYY; one DATE span) exact recall >= 90%, every form x layout cell >= 80% (12 of 15), and NN/NN reference numbers that cannot be a month masked < 10% (numbers)", "conditions": [{"metric": "exact_recall", "labels": ["DATE"], "op": ">=", "value": 0.9}, {"metric": "slice_exact_recall_min", "field": "cell", "op": ">=", "value": 0.8}, {"metric": "control_fp_rate", "op": "<", "value": 0.1}]},
+  "date_forms_az": {"source": "D-82 (27 Oct), the probe: reported for m2, on track M. A weekday next to a date stays outside DATE (D-54d) and a year-first date is one DATE from the year to the day. DATE exact recall >= 85% (as weekday_outside_date_tr), every cell (plain, weekday before/after, two year-first forms) >= 80%, a weekday on its own masked < 10% (numbers)", "conditions": [{"metric": "exact_recall", "labels": ["DATE"], "op": ">=", "value": 0.85}, {"metric": "slice_exact_recall_min", "field": "cell", "op": ">=", "value": 0.8}, {"metric": "control_fp_rate", "op": "<", "value": 0.1}]}
+}

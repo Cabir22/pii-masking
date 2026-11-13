@@ -1,0 +1,14 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000189,"VÖTENMƏ VƏ XƏBƏRDARLIQ MƏKTUBU
+
+Tarix: 14.11.2018
+
+Hörmətli müştəri,
+
+Bu məktub, əvvəlki müxtəlif bildirişlərinizə baxmayaraq, ödənilməmiş borclarınızla bağlı son xəbərdarlıq xarakteri daşıyır. Müqavilə şərtlərini pozduğunuz və ödəniş vaxtlarını dəfələrlə keçdiyiniz sənədlərlə təsdiqlənmişdir. Şirkətimiz tərəfindən həyata keçirilən son audit zamanı hesab nömrənizin son rəqəmləri ****8821 olaraq qeyd edilmişdir və bu hesab üzrə heç bir hərəkət müşahidə olunmamışdır.
+
+Əgər borcun tam məbləği 3 iş günü ərzində ödənilməsə, məsələ birbaşa məhkəməyə və icra idarəsinə yönləndiriləcəkdir. Hazırda qeydiyyatda olan rəsmi ünvanınız: Akif Yusifov küçəsi 188 bina, Bakı şəhəri olaraq göstərilir.
+
+Sizə bildirilir ki, əgər bu addımı atmısanız, biz –
+
+Məsələnin daha da ciddiləşməməsi üçün dərhal əlaqə saxlamağınız tövsiyə olunur. Unutmayın ki, məhkəmə xərcləri və vəkillik haqları da borcunuzun üzərinə əlavə ediləcəkdir — bu, sizin üçün əlavə maliyyə yükü yaradacaqdır.",az,"[{""start"":630,""end"":649,""label"":""STREET"",""text"":""Akif Yusifov küçəsi""},{""start"":650,""end"":653,""label"":""BUILDINGNUM"",""text"":""188""}]",legal_notice,medium,urgent and escalating,[],0,0,llm,"{""index"":189,""lang"":""az"",""doc_type"":""legal_notice"",""doc_type_hint"":""a formal legal notice or demand letter"",""register"":""urgent and escalating"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""STREET"",""value"":""Akif Yusifov küçəsi""},{""label"":""BUILDINGNUM"",""value"":""188""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a partially redacted value elsewhere in the text (e.g. ****1234)"",""leave one sentence unfinished, as people do when interrupted"",""include a copy-paste artifact such as smart quotes or an en-dash""],""negative_only"":false,""seed"":1156130988,""edge_case"":null,""reference_year"":2018}",source

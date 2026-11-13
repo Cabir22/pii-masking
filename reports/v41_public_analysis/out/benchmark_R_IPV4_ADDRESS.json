@@ -1,0 +1,2337 @@
+{
+ "label": "IPV4_ADDRESS",
+ "totals": {
+  "v4": {
+   "exact": 365,
+   "missed": 46,
+   "split": 13
+  },
+  "v3": {
+   "exact": 410,
+   "missed": 12,
+   "split": 2
+  }
+ },
+ "by_frame": {
+  "menbe ip x kimi goste": {
+   "n": 66,
+   "v4": 61,
+   "v3": 62
+  },
+  "serve unvan x yazil": {
+   "n": 59,
+   "v4": 54,
+   "v3": 58
+  },
+  "logda ipv4 x qeyd olunu": {
+   "n": 69,
+   "v4": 25,
+   "v3": 65
+  },
+  "ipv4 unvan x-dir": {
+   "n": 26,
+   "v4": 26,
+   "v3": 26
+  },
+  "x;11.08.2033;at_bench_1604_butfjarx4qc0fgrha6ixef8qliwlyn;25:81;999": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "unvan kimi x qeyd etmis": {
+   "n": 29,
+   "v4": 28,
+   "v3": 29
+  },
+  "texni murac x ip-si elave": {
+   "n": 23,
+   "v4": 23,
+   "v3": 20
+  },
+  "logda x ip unvan": {
+   "n": 16,
+   "v4": 16,
+   "v3": 16
+  },
+  "sebek tarix x gorun": {
+   "n": 64,
+   "v4": 63,
+   "v3": 63
+  },
+  "ipv4 | x |": {
+   "n": 16,
+   "v4": 16,
+   "v3": 16
+  },
+  "info ipv4= x": {
+   "n": 13,
+   "v4": 13,
+   "v3": 13
+  },
+  "ipv4 melum x olara qeyd": {
+   "n": 8,
+   "v4": 8,
+   "v3": 8
+  },
+  "logda x ip unvni": {
+   "n": 2,
+   "v4": 2,
+   "v3": 2
+  },
+  "serve unvni x yazlb": {
+   "n": 1,
+   "v4": 0,
+   "v3": 0
+  },
+  "\"ipv4 \" x\",": {
+   "n": 16,
+   "v4": 16,
+   "v3": 16
+  },
+  "x;89994332608139790817;otken;https://support.example.com/news/archive/10370;p123": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "aygul x;81;25:81;999": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "x;2367843398;zq701467;abc;-----begin publi": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "logda ipv4 x qeyd olunb": {
+   "n": 2,
+   "v4": 0,
+   "v3": 2
+  },
+  "menbe ip x kimi gostr": {
+   "n": 2,
+   "v4": 2,
+   "v3": 2
+  },
+  "priva key-- x;danaci;https://support.example.com/help/article/10820;p123": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "x;zq702262;+994 60": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "zx800 x;+994 60": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "zx800 x;user@;999.12.4.1": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "x;120;ebulhesen;abc;-----begin publi": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "serve unvan x yazlb": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "bike; x;at_bench_0153_is68bgfadosiukf6uybungl4d3v7wf;25:81;999": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  },
+  "2001: x;+994 60": {
+   "n": 1,
+   "v4": 1,
+   "v3": 1
+  }
+ },
+ "items": [
+  {
+   "id": "bench_az_000028",
+   "value": "23.37.224.90",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "23.37.224.90",
+   "v3_marked": "[23.37.224.90]",
+   "v4_cut": "2",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000084",
+   "value": "18.30.67.202",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "18.30.67.202",
+   "v3_marked": "[18.30.67.202]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000085",
+   "value": "99.63.17.79",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "99.63.17.79",
+   "v3_marked": "[99.63.17.79]",
+   "v4_cut": "9",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000219",
+   "value": "8.48.73.245",
+   "outcomes": {
+    "v4": "exact",
+    "v3": "missed"
+   },
+   "v4_marked": "[8.48.73.245]",
+   "v3_marked": "8.48.73.245",
+   "v4_cut": "-",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "1 one-digit octets"
+   ],
+   "context": "prose",
+   "prev": "IP",
+   "next": "kimi",
+   "frame": "Mənbə IP X kimi göstərilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000289",
+   "value": "1.76.78.96",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "1.76.78.96",
+   "v3_marked": "[1.76.78.96]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "1 one-digit octets"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "yazılıb;",
+   "frame": "Server ünvanı X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000329",
+   "value": "216.101.109.156",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "216.101.109.156",
+   "v3_marked": "[216.101.109.156]",
+   "v4_cut": "2",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "email",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000470",
+   "value": "192.172.139.74",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "192.172.139.74",
+   "v3_marked": "[192.172.139.74]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000489",
+   "value": "99.105.222.105",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "99.105.222.105",
+   "v3_marked": "[99.105.222.105]",
+   "v4_cut": "9",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "email",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000498",
+   "value": "60.92.199.62",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "60.92.199.62",
+   "v3_marked": "[60.92.199.62]",
+   "v4_cut": "6",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "form",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000510",
+   "value": "165.79.175.28",
+   "outcomes": {
+    "v4": "split",
+    "v3": "exact"
+   },
+   "v4_marked": "165.79.[175].28",
+   "v3_marked": "[165.79.175.28]",
+   "v4_cut": "1 .",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000531",
+   "value": "46.81.181.251",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "46.81.181.251",
+   "v3_marked": "[46.81.181.251]",
+   "v4_cut": "4",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "bank_message",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000586",
+   "value": "99.218.164.91",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "99.218.164.91",
+   "v3_marked": "[99.218.164.91]",
+   "v4_cut": "9",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000602",
+   "value": "253.6.123.87",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "missed"
+   },
+   "v4_marked": "253.6.123.87",
+   "v3_marked": "253.6.123.87",
+   "v4_cut": "2",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "1 one-digit octets"
+   ],
+   "context": "prose",
+   "prev": "unvnı",
+   "next": "yazlb;",
+   "frame": "Server unvnı X yazlb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "insurance",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000604",
+   "value": "229.4.227.247",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "229.4.227.247",
+   "v3_marked": "[229.4.227.247]",
+   "v4_cut": "2",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "1 one-digit octets"
+   ],
+   "context": "prose",
+   "prev": "IP",
+   "next": "kimi",
+   "frame": "Mənbə IP X kimi gosterilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000710",
+   "value": "192.76.34.5",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "192.76.34.5",
+   "v3_marked": "[192.76.34.5]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "1 one-digit octets"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": true,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000989",
+   "value": "99.239.104.232",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "99.239.104.232",
+   "v3_marked": "[99.239.104.232]",
+   "v4_cut": "9",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IP",
+   "next": "kimi",
+   "frame": "Mənbə IP X kimi göstərilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "email",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000991",
+   "value": "14.1.25.76",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "missed"
+   },
+   "v4_marked": "14.1.25.76",
+   "v3_marked": "14.1.25.76",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "1 one-digit octets"
+   ],
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür;",
+   "frame": "Şəbəkə tarixçəsində X görünür",
+   "mac_in_doc": true,
+   "stamp_in_doc": false,
+   "doc_type": "insurance",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001104",
+   "value": "97.193.47.65",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "97.193.47.65",
+   "v3_marked": "[97.193.47.65]",
+   "v4_cut": "9",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001137",
+   "value": "216.89.216.218",
+   "outcomes": {
+    "v4": "split",
+    "v3": "exact"
+   },
+   "v4_marked": "216.89[.]2[16].218",
+   "v3_marked": "[216.89.216.218]",
+   "v4_cut": "2 2 .",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001139",
+   "value": "135.190.89.232",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "135.190.89.232",
+   "v3_marked": "[135.190.89.232]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001264",
+   "value": "238.165.89.32",
+   "outcomes": {
+    "v4": "exact",
+    "v3": "missed"
+   },
+   "v4_marked": "[238.165.89.32]",
+   "v3_marked": "238.165.89.32",
+   "v4_cut": "-",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "müraciətə",
+   "next": "IP-sini",
+   "frame": "Texniki müraciətə X IP-sini əlavə",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "first_person_chat",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001268",
+   "value": "191.41.253.251",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "191.41.253.251",
+   "v3_marked": "[191.41.253.251]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "insurance",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001304",
+   "value": "152.25.66.30",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "152.25.66.30",
+   "v3_marked": "[152.25.66.30]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001313",
+   "value": "160.45.90.23",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "160.45.90.23",
+   "v3_marked": "[160.45.90.23]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001391",
+   "value": "154.77.123.94",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "154.77.123.94",
+   "v3_marked": "[154.77.123.94]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "insurance",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001399",
+   "value": "141.91.211.68",
+   "outcomes": {
+    "v4": "split",
+    "v3": "exact"
+   },
+   "v4_marked": "141.[91.211].[68]",
+   "v3_marked": "[141.91.211.68]",
+   "v4_cut": "1 .",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001520",
+   "value": "73.184.186.217",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "73.184.186.217",
+   "v3_marked": "[73.184.186.217]",
+   "v4_cut": "7",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunb",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "technical_note",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001566",
+   "value": "111.130.138.126",
+   "outcomes": {
+    "v4": "split",
+    "v3": "exact"
+   },
+   "v4_marked": "111.130[.138].126",
+   "v3_marked": "[111.130.138.126]",
+   "v4_cut": "1 .",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001631",
+   "value": "42.19.87.229",
+   "outcomes": {
+    "v4": "split",
+    "v3": "exact"
+   },
+   "v4_marked": "42[.19.87.229]",
+   "v3_marked": "[42.19.87.229]",
+   "v4_cut": "4",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "yazılıb;",
+   "frame": "Server ünvanı X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001949",
+   "value": "226.95.66.246",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "226.95.66.246",
+   "v3_marked": "[226.95.66.246]",
+   "v4_cut": "2",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002012",
+   "value": "34.20.135.233",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "34.20.135.233",
+   "v3_marked": "[34.20.135.233]",
+   "v4_cut": "3",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002069",
+   "value": "226.49.85.45",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "226.49.85.45",
+   "v3_marked": "[226.49.85.45]",
+   "v4_cut": "2",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002216",
+   "value": "221.93.99.75",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "221.93.99.75",
+   "v3_marked": "[221.93.99.75]",
+   "v4_cut": "2",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002226",
+   "value": "40.62.237.72",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "40.62.237.72",
+   "v3_marked": "[40.62.237.72]",
+   "v4_cut": "4",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002281",
+   "value": "131.15.66.23",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "131.15.66.23",
+   "v3_marked": "[131.15.66.23]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "anchor_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002419",
+   "value": "39.73.179.236",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "39.73.179.236",
+   "v3_marked": "[39.73.179.236]",
+   "v4_cut": "3",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002628",
+   "value": "9.231.60.220",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "9.231.60.220",
+   "v3_marked": "[9.231.60.220]",
+   "v4_cut": "9",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "1 one-digit octets"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": true,
+   "stamp_in_doc": true,
+   "doc_type": "technical_note",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002720",
+   "value": "126.58.115.45",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "126.58.115.45",
+   "v3_marked": "[126.58.115.45]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002884",
+   "value": "251.15.53.187",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "missed"
+   },
+   "v4_marked": "251.15.53.187",
+   "v3_marked": "251.15.53.187",
+   "v4_cut": "2",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "yazılıb;",
+   "frame": "Server ünvanı X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002925",
+   "value": "108.90.234.45",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "108.90.234.45",
+   "v3_marked": "[108.90.234.45]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002983",
+   "value": "232.232.14.142",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "missed"
+   },
+   "v4_marked": "232.232.14.142",
+   "v3_marked": "232.232.14.142",
+   "v4_cut": "2",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IP",
+   "next": "kimi",
+   "frame": "Mənbə IP X kimi göstərilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002991",
+   "value": "233.187.128.163",
+   "outcomes": {
+    "v4": "split",
+    "v3": "exact"
+   },
+   "v4_marked": "233.[187.128.]163",
+   "v3_marked": "[233.187.128.163]",
+   "v4_cut": "2 1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "yazılıb;",
+   "frame": "Server ünvanı X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003036",
+   "value": "239.228.36.81",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "missed"
+   },
+   "v4_marked": "239.228.36.81",
+   "v3_marked": "239.228.36.81",
+   "v4_cut": "2",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003089",
+   "value": "230.63.236.198",
+   "outcomes": {
+    "v4": "split",
+    "v3": "exact"
+   },
+   "v4_marked": "230.[63.236].[19]8",
+   "v3_marked": "[230.63.236.198]",
+   "v4_cut": "2 . 8",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003099",
+   "value": "238.5.151.246",
+   "outcomes": {
+    "v4": "exact",
+    "v3": "missed"
+   },
+   "v4_marked": "[238.5.151.246]",
+   "v3_marked": "238.5.151.246",
+   "v4_cut": "-",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "1 one-digit octets"
+   ],
+   "context": "prose",
+   "prev": "müraciətə",
+   "next": "IP-sini",
+   "frame": "Texniki müraciətə X IP-sini əlavə",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "first_person_form",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003162",
+   "value": "33.61.146.13",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "split"
+   },
+   "v4_marked": "33.61.146.13",
+   "v3_marked": "33.[61.146].13",
+   "v4_cut": "3",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003169",
+   "value": "46.111.212.245",
+   "outcomes": {
+    "v4": "split",
+    "v3": "exact"
+   },
+   "v4_marked": "46.[111.212.2]45",
+   "v3_marked": "[46.111.212.245]",
+   "v4_cut": "4 4",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "report",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003422",
+   "value": "114.104.25.240",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "114.104.25.240",
+   "v3_marked": "[114.104.25.240]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003501",
+   "value": "184.237.49.153",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "184.237.49.153",
+   "v3_marked": "[184.237.49.153]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003511",
+   "value": "241.218.100.238",
+   "outcomes": {
+    "v4": "exact",
+    "v3": "missed"
+   },
+   "v4_marked": "[241.218.100.238]",
+   "v3_marked": "241.218.100.238",
+   "v4_cut": "-",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "müraciətə",
+   "next": "IP-sini",
+   "frame": "Texniki müraciətə X IP-sini əlavə",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "first_person_email",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003524",
+   "value": "245.214.103.62",
+   "outcomes": {
+    "v4": "split",
+    "v3": "exact"
+   },
+   "v4_marked": "245[.214.103.62]",
+   "v3_marked": "[245.214.103.62]",
+   "v4_cut": "2",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "ünvanı",
+   "next": "yazılıb;",
+   "frame": "Server ünvanı X yazılıb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003754",
+   "value": "237.142.86.154",
+   "outcomes": {
+    "v4": "exact",
+    "v3": "missed"
+   },
+   "v4_marked": "[237.142.86.154]",
+   "v3_marked": "237.142.86.154",
+   "v4_cut": "-",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IP",
+   "next": "kimi",
+   "frame": "Mənbə IP X kimi göstərilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003933",
+   "value": "198.186.38.57",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "198.186.38.57",
+   "v3_marked": "[198.186.38.57]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "legal",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003984",
+   "value": "183.219.248.57",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "183.219.248.57",
+   "v3_marked": "[183.219.248.57]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "form",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004113",
+   "value": "232.108.56.45",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "missed"
+   },
+   "v4_marked": "232.108.56.45",
+   "v3_marked": "232.108.56.45",
+   "v4_cut": "2",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004142",
+   "value": "235.93.71.225",
+   "outcomes": {
+    "v4": "split",
+    "v3": "exact"
+   },
+   "v4_marked": "235.[93.71.225]",
+   "v3_marked": "[235.93.71.225]",
+   "v4_cut": "2",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004152",
+   "value": "251.129.204.91",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "251.129.204.91",
+   "v3_marked": "[251.129.204.91]",
+   "v4_cut": "2",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "kimi",
+   "next": "qeyd",
+   "frame": "ünvanı kimi X qeyd etmişəm",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "first_person_form",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004178",
+   "value": "244.87.235.104",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "split"
+   },
+   "v4_marked": "244.87.235.104",
+   "v3_marked": "244[.87.235.104]",
+   "v4_cut": "2",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "natural_variant_positive",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004190",
+   "value": "70.215.81.108",
+   "outcomes": {
+    "v4": "split",
+    "v3": "exact"
+   },
+   "v4_marked": "70[.215.81.108]",
+   "v3_marked": "[70.215.81.108]",
+   "v4_cut": "7",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunb",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "crm",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004486",
+   "value": "227.54.236.80",
+   "outcomes": {
+    "v4": "split",
+    "v3": "exact"
+   },
+   "v4_marked": "[227.54.236].[80]",
+   "v3_marked": "[227.54.236.80]",
+   "v4_cut": ".",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IP",
+   "next": "kimi",
+   "frame": "Mənbə IP X kimi gosterilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "bank_message",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004862",
+   "value": "184.131.128.20",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "184.131.128.20",
+   "v3_marked": "[184.131.128.20]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "support_ticket",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004893",
+   "value": "153.196.147.242",
+   "outcomes": {
+    "v4": "split",
+    "v3": "exact"
+   },
+   "v4_marked": "[153].196[.147].[24]2",
+   "v3_marked": "[153.196.147.242]",
+   "v4_cut": ". . 2",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "report",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004894",
+   "value": "161.227.52.161",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "exact"
+   },
+   "v4_marked": "161.227.52.161",
+   "v3_marked": "[161.227.52.161]",
+   "v4_cut": "1",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IPv4",
+   "next": "qeyd",
+   "frame": "Logda IPv4 X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "crm",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004906",
+   "value": "232.227.193.211",
+   "outcomes": {
+    "v4": "missed",
+    "v3": "missed"
+   },
+   "v4_marked": "232.227.193.211",
+   "v3_marked": "232.227.193.211",
+   "v4_cut": "2",
+   "v4_other": "-",
+   "shape": [
+    "4 parts",
+    "no one-digit octet"
+   ],
+   "context": "prose",
+   "prev": "IP",
+   "next": "kimi",
+   "frame": "Mənbə IP X kimi göstərilib",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "email",
+   "category": "anchor_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  }
+ ],
+ "false_alarms": [
+  {
+   "model": "v3",
+   "id": "bench_az_000005",
+   "value": "1.2.3.4",
+   "shape": "9.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "IP",
+   "next": "görünür;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_000019",
+   "value": "256.1.1.1",
+   "shape": "999.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_000157",
+   "value": "1.2.3.4",
+   "shape": "9.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "yazilib;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_000238",
+   "value": "256.1.1.1",
+   "shape": "999.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_000374",
+   "value": ".1.1.1",
+   "shape": ".9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "256",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_000384",
+   "value": "10.0.0",
+   "shape": "99.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "IP",
+   "next": "görünür;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_000433",
+   "value": "1.2.3.4",
+   "shape": "9.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "yazılıb;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_000478",
+   "value": ".1.1.1",
+   "shape": ".9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "256",
+   "next": "gosterlib;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_000682",
+   "value": "1.2.3.4",
+   "shape": "9.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "yazılıb;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_000702",
+   "value": "2.3.",
+   "shape": "9.9.",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "1.",
+   "next": "4"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_000717",
+   "value": "256.1.1.1",
+   "shape": "999.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "IP",
+   "next": "görünür;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_001087",
+   "value": ".2.3.4",
+   "shape": ".9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "1",
+   "next": "görünür;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_001333",
+   "value": "256.1.1.1",
+   "shape": "999.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "yazılıb;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_001463",
+   "value": ".",
+   "shape": ".",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "256",
+   "next": "1.1.1"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_001463",
+   "value": ".",
+   "shape": ".",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "256.1.1",
+   "next": "1"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_001513",
+   "value": "1.2.3.4",
+   "shape": "9.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "yazılıb;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_001578",
+   "value": ".0.0",
+   "shape": ".9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "10",
+   "next": "yazılıb;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_001693",
+   "value": ".",
+   "shape": ".",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "256",
+   "next": "1.1.1"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_001844",
+   "value": "256.1.1.1",
+   "shape": "999.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "IP",
+   "next": "görünür;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_001883",
+   "value": "1.2.3.4",
+   "shape": "9.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "IP",
+   "next": "görünür;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_001934",
+   "value": "256",
+   "shape": "999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "IP",
+   "next": ".1.1.1"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_001934",
+   "value": "1",
+   "shape": "9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "256.1.1.",
+   "next": "görünür;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_001938",
+   "value": "256.1.1.1",
+   "shape": "999.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "IP",
+   "next": "görünür;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_001974",
+   "value": ".1.1.1",
+   "shape": ".9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "256",
+   "next": "yazılıb;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_002052",
+   "value": "256.1.1.1",
+   "shape": "999.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "IP",
+   "next": "gorunr;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_002099",
+   "value": "256.1.1.1",
+   "shape": "999.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "yazılıb;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_002315",
+   "value": "256.1.1.1",
+   "shape": "999.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "IP",
+   "next": "görünür;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_002557",
+   "value": "10.0.0",
+   "shape": "99.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "IP",
+   "next": "görünür;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_002738",
+   "value": "256.1.1.1",
+   "shape": "999.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_002792",
+   "value": ".2.3.4",
+   "shape": ".9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "1",
+   "next": "görünür;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_002942",
+   "value": "1.2.3.4",
+   "shape": "9.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "IP",
+   "next": "görünür;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_002980",
+   "value": "1.2.3.4",
+   "shape": "9.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "yazilib;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_002999",
+   "value": ".1.1.1",
+   "shape": ".9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "256",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_003008",
+   "value": ".1.1.1",
+   "shape": ".9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "256",
+   "next": "görünür;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_003271",
+   "value": "256.1.1.1",
+   "shape": "999.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_003375",
+   "value": ".0.",
+   "shape": ".9.",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "10",
+   "next": "0"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_003517",
+   "value": "256.1.1.1",
+   "shape": "999.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_003591",
+   "value": "1.2.3.4",
+   "shape": "9.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "IP",
+   "next": "görünür;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_003623",
+   "value": "1.2.3.4",
+   "shape": "9.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "yazılıb;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_003670",
+   "value": "256.1.1.1",
+   "shape": "999.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "IP",
+   "next": "görünür;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_003693",
+   "value": "1.2.3.4",
+   "shape": "9.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "yazılıb;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_004023",
+   "value": "1.2.3.4",
+   "shape": "9.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "IP",
+   "next": "gorunr;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_004281",
+   "value": ".1.1.1",
+   "shape": ".9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "256",
+   "next": "gorunr;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_004305",
+   "value": "256.1.1.1",
+   "shape": "999.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "yazılıb;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_004664",
+   "value": "256.1.1.1",
+   "shape": "999.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_004705",
+   "value": "256.1.1.1",
+   "shape": "999.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_004746",
+   "value": "256.1.1.1",
+   "shape": "999.9.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "IP",
+   "next": "görünür;"
+  },
+  {
+   "model": "v3",
+   "id": "bench_az_004776",
+   "value": "10.0.0",
+   "shape": "99.9.9",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_ambiguous",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "yazılıb;"
+  }
+ ]
+}

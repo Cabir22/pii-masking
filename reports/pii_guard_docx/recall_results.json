@@ -1,0 +1,161 @@
+{
+  "per_sample": {
+    "sample_01_hr_onboarding_en.docx": {
+      "GIVENNAME": {
+        "found": 5,
+        "total": 5,
+        "missed": []
+      },
+      "SURNAME": {
+        "found": 3,
+        "total": 3,
+        "missed": []
+      }
+    },
+    "sample_02_insurance_claim_az.docx": {
+      "GIVENNAME": {
+        "found": 1,
+        "total": 1,
+        "missed": []
+      },
+      "SURNAME": {
+        "found": 1,
+        "total": 1,
+        "missed": []
+      }
+    },
+    "sample_03_it_incident_en.docx": {
+      "GIVENNAME": {
+        "found": 2,
+        "total": 2,
+        "missed": []
+      },
+      "SURNAME": {
+        "found": 1,
+        "total": 1,
+        "missed": []
+      }
+    },
+    "sample_04_rental_agreement_tr.docx": {
+      "GIVENNAME": {
+        "found": 2,
+        "total": 2,
+        "missed": []
+      },
+      "SURNAME": {
+        "found": 2,
+        "total": 2,
+        "missed": []
+      }
+    },
+    "sample_05_bank_letter_ru.docx": {
+      "GIVENNAME": {
+        "found": 1,
+        "total": 1,
+        "missed": []
+      },
+      "SURNAME": {
+        "found": 1,
+        "total": 1,
+        "missed": []
+      }
+    },
+    "sample_06_medical_referral_en.docx": {
+      "GIVENNAME": {
+        "found": 2,
+        "total": 2,
+        "missed": []
+      },
+      "SURNAME": {
+        "found": 2,
+        "total": 2,
+        "missed": []
+      }
+    },
+    "sample_07_university_transcript_az.docx": {
+      "GIVENNAME": {
+        "found": 2,
+        "total": 2,
+        "missed": []
+      },
+      "SURNAME": {
+        "found": 2,
+        "total": 2,
+        "missed": []
+      }
+    },
+    "sample_08_utility_bill_tr.docx": {
+      "GIVENNAME": {
+        "found": 1,
+        "total": 1,
+        "missed": []
+      },
+      "SURNAME": {
+        "found": 1,
+        "total": 1,
+        "missed": []
+      }
+    },
+    "sample_09_loan_application_ru.docx": {
+      "GIVENNAME": {
+        "found": 2,
+        "total": 2,
+        "missed": []
+      },
+      "SURNAME": {
+        "found": 2,
+        "total": 2,
+        "missed": []
+      }
+    },
+    "sample_10_travel_itinerary_en.docx": {
+      "GIVENNAME": {
+        "found": 1,
+        "total": 1,
+        "missed": []
+      },
+      "SURNAME": {
+        "found": 1,
+        "total": 1,
+        "missed": []
+      }
+    },
+    "sample_11_employment_reference_az.docx": {
+      "GIVENNAME": {
+        "found": 2,
+        "total": 2,
+        "missed": []
+      },
+      "SURNAME": {
+        "found": 2,
+        "total": 2,
+        "missed": []
+      }
+    }
+  },
+  "totals": {
+    "az": {
+      "GIVENNAME": [
+        5,
+        5
+      ],
+      "SURNAME": [
+        5,
+        5
+      ]
+    },
+    "non_az": {
+      "GIVENNAME": [
+        16,
+        16
+      ],
+      "SURNAME": [
+        13,
+        13
+      ]
+    }
+  },
+  "missed": [],
+  "combined_found": 39,
+  "combined_total": 39
+}

@@ -1,0 +1,236 @@
+wrote 28000 documents to D:\pii_rebuild\v41_28k.jsonl in 206.6s
+documents          : 28000
+frames             : frames_az (c1-v1); 62 C1 {v:CASE} frames, filled by the suffix renderer
+families           : clerical 2.2%, contrast 7.1%, cross_anchor 3.1%, decoy_pair 23.0%, edges 1.6%, form 6.8%, homograph 3.8%, inflected 8.5%, key_placeholder 0.7%, locative 1.5%, minimal 3.8%, namelist 3.1%, net_context 1.2%, pem_long 1.3%, pii_free 6.0%, place_verbs 0.9%, postal 1.8%, prose 2.0%, punct 1.3%, short_keys 0.9%, slot_invalid 1.3%, structured 15.2%, time_seconds 1.8%, village 1.1%
+decoy pair groups  : building 5.1%, cvv 1.8%, noun 2.3%, other 3.7%, policy_names 5.1%, sentence_initial 5.1%
+structured formats : config 335, csv_header 479, csv_noheader 478, csv_snake 478, dialogue 478, json 478, key_value 574, log 478, pipe_table 478
+reserved-TLD emails: 861
+decoy kinds        : 90 present
+
+labels (mentions):
+   ACCESS_TOKEN                  886   AGE                           598   API_KEY                      1058
+   AZ_DRIVER_LICENSE_NUMBER     4583   AZ_FIN                       1082   AZ_ID_CARD_NUMBER            5711
+   AZ_PASSPORT_NUMBER           1019   AZ_VOEN                      1304   BUILDINGNUM                  1857
+   CARD_SECURITY_CODE           1556   CITY                         3627   DATE                         1709
+   EMAIL                        1523   GIVENNAME                    8569   IBAN                         1097
+   ICCID                         787   IPV4_ADDRESS                 1155   IPV6_ADDRESS                 1678
+   MAC_ADDRESS                  1557   PAYMENT_CARD_NUMBER          1355   PRIVATE_KEY                  1090
+   STREET                       1640   SURNAME                      6678   TELEPHONENUM                 2476
+   TIME                         1863   URL                           358   ZIPCODE                      2072
+
+top-20 frames (share of documents):
+    1.36%  FMT.outro.1
+    1.35%  FMT.outro.4
+    1.27%  FMT.outro.0
+    1.25%  FMT.outro.3
+    1.23%  FMT.outro.5
+    1.21%  FMT.outro.2
+    1.02%  FMT.intro.table.6
+    1.00%  N.chat.24
+    1.00%  N.technical.17
+    0.99%  P.bridge.3
+    0.99%  N.bureaucratic.18
+    0.98%  N.technical.15
+    0.97%  N.note.5
+    0.97%  N.bureaucratic.2
+    0.97%  P.building.3
+    0.96%  N.polite.12
+    0.96%  N.bureaucratic.0
+    0.95%  N.chat.7
+    0.95%  P.bridge.5
+    0.95%  N.chat.18
+
+P2-4b extras:
+   casing noise by label : CITY 1533, GIVENNAME 737, STREET 355, SURNAME 907
+   casing noise by kind  : fold 458, lower 721, lower_fold 1079, mixed 560, mixed_fold 714
+   name variants by kind : cyrillic 271, english 598
+   PEM layout/after      : block/newline 217, block/quote 186, block/semicolon 215, block/space 190, flat/newline 36, flat/quote 37, flat/semicolon 48, flat/space 33, logline/field 104
+   PEM widths / chars    : {76: 201, 64: 865} / 118-1707
+
+P2-4c suffixed mentions by case (7488; labels: CITY 1845, GIVENNAME 1785, STREET 511, SURNAME 3347):
+   gen           490   6.5%   dat           492   6.6%   acc           453   6.0%   loc           490   6.5%
+   abl           454   6.1%   ins           453   6.0%   rel           437   5.8%   cop           453   6.0%
+   pl            438   5.8%   pl_gen        437   5.8%   pl_dat        438   5.8%   pl_loc        437   5.8%
+   pl_abl        438   5.8%   gil            91   1.2%   gil_gen        45   0.6%   gil_dat        60   0.8%
+   gil_loc        60   0.8%   gil_abl        45   0.6%   pred1         106   1.4%   pred_formal    45   0.6%
+   loc_pred1      76   1.0%   loc_pred2      38   0.5%   loc_pred1pl    38   0.5%   loc_cop       136   1.8%
+   q              68   0.9%   loc_q          83   1.1%   past           53   0.7%   loc_past       53   0.7%
+   loc_past1      45   0.6%   gen_ki        113   1.5%   term_dek       75   1.0%   term_can       76   1.0%
+   poss1          76   1.0%   poss1pl        76   1.0%   cond           60   0.8%   loc_cond       60   0.8%
+
+D-51h / D-51d / D-51i / D-27 (v4 targeted data):
+   private_keys               1090
+   long_private               363
+   ed25519_private            702
+   ed25519_public             110
+   ssh_ed25519_public         31
+   id_cards                   5711
+   id_dyi_myi                 329
+   id_aa_ab                   2034
+   id_other_prefix            3348
+   cvv_csv_docs               198
+   cvv_csv_with_id            142
+   cvv_csv_values             473
+   id_and_licence_docs        718
+   checksum_only              0
+   year_suffix_inside         0
+   year_suffix_outside        39
+   cross_anchor               {'iban_fragment': 79, 'ipv4': 79, 'mac_fragment': 70, 'name_org': 245, 'room_code': 79, 'short_number': 262, 'zip_code': 61}
+   cross_short_labels         {'AZ_VOEN/prose': 49, 'AZ_FIN/kv': 16, 'AZ_ID_CARD_NUMBER/prose': 25, 'ACCESS_TOKEN/prose': 31, 'API_KEY/prose': 29, 'AZ_ID_CARD_NUMBER/csv': 12, 'AZ_VOEN/csv': 19, 'AZ_FIN/prose': 30, 'AZ_ID_CARD_NUMBER/kv': 15, 'AZ_VOEN/kv': 24, 'AZ_FIN/csv': 12}
+   cross_name_kinds           {'SURNAME/policy_surname_in_company': 78, 'CITY/policy_city_as_project': 86, 'STREET/policy_street_as_topic': 25, 'SURNAME/code_in_name_slot': 36, 'SURNAME/policy_foreign_brand': 20}
+   locative_values            {'PAYMENT_CARD_NUMBER': 185, 'AZ_VOEN': 127, 'AZ_ID_CARD_NUMBER': 80, 'IBAN': 83, 'AZ_PASSPORT_NUMBER': 62}
+   locative_look_alikes       137
+   slot_invalid               {'ZIPCODE/prose': 85, 'TIME/kv': 59, 'AGE/prose': 14, 'AZ_FIN/kv': 10, 'ZIPCODE/kv': 66, 'DATE/kv': 13, 'PAYMENT_CARD_NUMBER/kv': 8, 'TIME/prose': 54, 'AGE/kv': 11, 'AZ_FIN/prose': 15, 'DATE/prose': 12, 'PAYMENT_CARD_NUMBER/prose': 17}
+   place_verbs                {'abl': 87, 'acc': 87, 'cop': 87, 'surname': 132, 'ins': 87}
+   place_verbs_ins_separate   31
+   namelist_controls          {'namelist_control': 370, 'line_start_control': 473, 'signature_title_only': 23, 'role_word_control': 58}
+   short_key_docs             250
+   time_seconds               {'prose': 150, 'range': 150, 'field': 125, 'chat': 75}
+   time_with_seconds          687
+   time_line_stamps           1246
+   zip_bare_no_word           311
+   key_placeholders           299
+   new_kinds                  {'iban_fragment_short': 256, 'voen_short_number': 111, 'namelist_control': 370, 'card_wrong_length': 730, 'fin_short_number': 247, 'ipv4_three_octets': 55, 'door_code': 111, 'zip_two_digits': 111, 'mac_fragment_dashed': 110, 'ipv4_short_over_255': 56, 'ipv4_placeholder': 56, 'room_code': 110, 'api_key_short_number': 110, 'id_card_short_number': 110, 'signature_title_only': 23, 'code_in_name_slot': 182, 'role_word_control': 58, 'token_short_number': 110}
+   line_start                 {'name': 253, 'heading': 219, 'role': 254}
+
+rejected while building (each one rebuilt):
+      151  decoy_pair/building: validation: language: only 1 az words
+      150  form/form: validation: language: only 2 az words
+      121  minimal/minimal: exact_duplicate_text
+       69  structured/pipe_table: quality: only N carrier word
+       65  decoy_pair/building: validation: language: only 0 az words
+       53  form/form: validation: language: only 1 az words
+       51  contrast/ipv6_mac: validation: language: only 3 az words
+       51  structured/csv_noheader: quality: only N carrier word
+       46  structured/csv_snake: quality: only N carrier word
+       39  contrast/ipv6_mac: validation: language: only 2 az words
+       34  decoy_pair/building: validation: language: only 2 az words
+       34  form/form: validation: language: only 3 az words
+       33  structured/csv_snake: quality: PII character density N.N% exceeds the N% cap for band 'medi
+       29  structured/csv_header: quality: PII character density N.N% exceeds the N% cap for band 'medi
+       29  structured/csv_header: quality: only N carrier word
+       27  contrast/token_key: quality: only N carrier word
+       19  contrast/token_key: quality: PII character density N.N% exceeds the N% cap for band 'medi
+       18  structured/pipe_table: quality: PII character density N.N% exceeds the N% cap for band 'medi
+       16  form/form: validation: language: only 0 az words
+       15  homograph/homograph: exact_duplicate_text
+       14  inflected/inflected: validation: language: only 1 az words
+       14  edges/edges: validation: language: only 0 az words
+       13  inflected/inflected: quality: only N carrier word
+       12  contrast/token_key: validation: language: only 3 az words
+       12  inflected/inflected: validation: language: only 2 az words
+       12  structured/csv_noheader: validation: language: only 3 az words
+       12  punct/punct: validation: language: only 1 az words
+       11  key_placeholder/key_placeholder: quality: PII character density N.N% exceeds the N% cap for band 'medi
+       11  edges/edges: validation: language: only 1 az words
+       11  inflected/inflected: validation: language: only 0 az words
+       10  structured/json: validation: language: only 3 az words
+        9  decoy_pair/other: quality: PII character density N.N% exceeds the N% cap for band 'medi
+        9  locative/locative: validation: language: only 1 az words
+        8  key_placeholder/key_placeholder: validation: language: only 2 az words
+        8  structured/json: quality: only N carrier word
+        8  structured/csv_snake: validation: language: only 3 az words
+        8  edges/edges: quality: only N carrier word
+        7  contrast/token_key: validation: language: only 1 az words
+        7  structured/log: quality: PII character density N.N% exceeds the N% cap for band 'medi
+        6  decoy_pair/noun: validation: language: only 2 az words
+        6  short_keys/short_keys: validation: language: only 2 az words
+        6  punct/punct: validation: language: only 0 az words
+        6  structured/json: quality: PII character density N.N% exceeds the N% cap for band 'medi
+        5  structured/dialogue: quality: PII character density N.N% exceeds the N% cap for band 'medi
+        5  key_placeholder/key_placeholder: validation: language: only 1 az words
+        5  contrast/token_key: validation: language: only 2 az words
+        4  structured/json: validation: language: only 2 az words
+        4  structured/key_value: quality: only N carrier word
+        4  decoy_pair/policy_names: validation: language: only 2 az words
+        4  locative/locative: validation: language: only 0 az words
+        4  structured/log: quality: only N carrier word
+        4  decoy_pair/other: validation: language: only 2 az words
+        3  prose/prose: validation: language: only 2 az words
+        3  structured/pipe_table: validation: language: only 3 az words
+        3  cross_anchor/cross_anchor: validation: language: only 2 az words
+        3  structured/csv_snake: validation: language: only 2 az words
+        3  postal/postal: validation: language: only 1 az words
+        3  structured/key_value: validation: language: only 3 az words
+        3  decoy_pair/other: quality: only N carrier word
+        3  structured/config: quality: only N carrier word
+        3  structured/csv_noheader: quality: PII character density N.N% exceeds the N% cap for band 'medi
+        3  cross_anchor/cross_anchor: quality: only N carrier word
+        3  contrast/token_key: quality: PII character density N.N% exceeds the N% cap for band 'shor
+        3  contrast/key_pair: validation: language: only 3 az words
+        3  edges/edges: validation: language: only 2 az words
+        3  short_keys/short_keys: validation: language: only 3 az words
+        3  prose/prose: validation: language: only 3 az words
+        3  key_placeholder/key_placeholder: validation: language: only 3 az words
+        2  structured/config: validation: language: only 1 az words
+        2  structured/pipe_table: validation: language: only 2 az words
+        2  net_context/net_context: validation: language: only 2 az words
+        2  structured/csv_header: validation: language: only 3 az words
+        2  contrast/key_pair: validation: language: only 2 az words
+        2  pii_free/pii_free: validation: language: only 1 az words
+        2  structured/key_value: validation: language: only 2 az words
+        2  inflected/inflected: validation: language: only 3 az words
+        2  decoy_pair/noun: validation: language: only 0 az words
+        2  key_placeholder/key_placeholder: exact_duplicate_text
+        2  namelist/namelist: quality: planned value never labeled
+        2  decoy_pair/other: validation: language: only 3 az words
+        2  structured/key_value: quality: PII character density N.N% exceeds the N% cap for band 'medi
+        2  pii_free/pii_free: exact_duplicate_text
+        1  slot_invalid/slot_invalid: validation: language: only 2 az words
+        1  structured/csv_noheader: quality: PII character density N.N% exceeds the N% cap for band 'shor
+        1  punct/punct: quality: only N carrier word
+        1  postal/postal: validation: language: only 2 az words
+        1  locative/locative: validation: language: only 2 az words
+        1  place_verbs/place_verbs: validation: language: only 2 az words
+        1  structured/json: validation: language: only 1 az words
+        1  structured/csv_header: validation: language: only 2 az words
+        1  structured/dialogue: quality: only N carrier word
+        1  structured/config: validation: language: only 3 az words
+        1  structured/log: quality: planned value never labeled
+        1  namelist/namelist: validation: turkish_lexis: nasil
+        1  prose/prose: quality: only N carrier word
+        1  village/village: validation: language: only 1 az words
+        1  prose/prose: quality: PII character density N.N% exceeds the N% cap for band 'medi
+
+P2-4 checks:
+   PASS  all 27 labels present                                27/27
+   PASS  every decoy kind present                             81/81
+   PASS  decoy documents >= 25%                               62.6%
+   PASS  PII-free ~10%                                        8.7%
+   PASS  single-entity >= 25%                                 50.1%
+   PASS  structured >= 15%                                    15.2%
+   PASS  max frame share <= 3%                                1.36% (FMT.outro.1)
+   PASS  name decoys, sentence-initial >= 5%                  5.1%
+   PASS  name decoys, company/project/topic >= 5%             5.1%
+   PASS  building decoys, otaq/mərtəbə by bina >= 5%          5.1%
+   PASS  prose: anchor 2-6 words away >= 1/3                  53.6% of 558 anchored
+   PASS  token/key with the same body >= 15%                  32.6% of 390
+   PASS  ID card and licence in every format                  config:122/127 csv_header:743/514 csv_noheader:931/380 csv_snake:623/488 dialogue:172/159 json:357/375 key_value:199/200 log:555/507 pipe_table:610/618
+   PASS  casing-noise entities <= 8%                          6.00% of 58888
+   PASS  names in another spelling/script ~10%, all valid     9.3% of 9299, 0 invalid (5948 homograph-list names left out)
+   PASS  PEM: 64/76 columns, multi- and one-line, +/- newline 1066 keys, widths [64, 76]
+   PASS  values in brackets or quotes                         135 wrapped; 47.6% of entities touch punctuation or a line break
+   PASS  URLs with the token in a multi-parameter query       173/358
+   PASS  space-grouped phones, cards and IBANs                telephonenum:1669/2476 payment:970/1355 iban:443/1097
+   PASS  suffixed name/city/street mentions 35-40%            36.5% (7488 of 20514)
+   PASS  every C1 case >= 5% of the suffixed ones             lowest 437/7488
+   PASS  every tier-2 form group present (>= 1%)              9/9
+   PASS  suffixed spans resolve from the stem                 7488/7488
+   PASS  apostrophe / folded forms ~10% of suffixed           9.4% (apostrophe 177, folded 527)
+   PASS  noisy suffixes ~5% of suffixed, labelled whole       4.5% (334)
+   PASS  minimal-context documents ~5%                        3.8%
+   PASS  homograph pairs ~5%, both sides in each              3.8%, 1064/1064 with both sides, 56 names
+   PASS  homograph_noun decoys never labelled                 0 labelled
+   PASS  D-10: lone capitalised name labelled, lone lowercase word not 313 lone names, 99 lone words
+   PASS  D-39b: every name construction present, patronymics labelled 3.1%, 1160 patronymic fathers, after_org:44 line_start:146 patronymic_list:291 patronymic_sentence:88 role_word:131 sentence_initial:88 signature:87
+   PASS  D-51h: every v4 construction present                 all present
+   PASS  D-51h: Ed25519 private keys >= 3 per Ed25519 public look-alike 702 private / 110 public (+31 ssh-ed25519 lines)
+   PASS  D-27: real-length private keys (>= 1,500 chars) >= 30% 363/1090
+   PASS  D-51h: ID-card prefixes varied, DYI/MYI rare         3348 other two-letter, 2034 AA/AB, 329 DYI/MYI of 5711
+   PASS  D-51h: CSV tables with a cvv column                  198 documents (142 with an ID column), 473 CVVs
+   PASS  D-51d: no checksum-only look-alike                   0 written
+   PASS  D-51i: no `-ci il` inside a DATE span                0 inside, 39 outside
+   PASS  D-52d: protected quotas (per 25k documents)          all met
+   PASS  D-52b item 2: real one-digit-octet IPv4 >= 2 per short look-alike 402 real / 112 short look-alikes
+   PASS  D-52b item 3: IPv4 real : look-alike >= 2 in prose   516 : 224
+   PASS  D-52c: sequential dummy times written, never labelled 66 look-alikes, 0 labelled

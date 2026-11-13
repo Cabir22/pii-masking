@@ -1,0 +1,13 @@
+6,000 records -> 5,779 kept, 221 dropped
+     162  unplanned_pii
+      39  validate_corpus:planned_value_unlabelled
+      10  validate_corpus:unlabeled_pii_leak
+       6  validate_corpus:validator_failure
+       2  decoy_integrity:not a planted decoy string
+       1  validate_corpus:no_entities
+       1  validate_corpus:resolver_drift
+validate_corpus on the clean file: exit 0 (RESULT: PASS -- corpus is fit to train on)
+leakage guard on the clean file  : exit 0
+kept documents with PII the model invented (not dropped unless --drop-unplanned-pii): 0 (0.0%) {}
+clean  -> data\raw\sprint1_llm_b2.clean.jsonl
+report -> data\raw\sprint1_llm_b2.clean.report.json

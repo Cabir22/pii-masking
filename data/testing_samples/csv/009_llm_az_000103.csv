@@ -1,0 +1,57 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000103,"Avtomobil Servis və Texniki Baxım Tarixçəsi
+
+Tarix: 14 oktyabr 2020-ci il
+
+Salam! Bu sənəd, avtomobil sahibinin və texniki xidmət göstərilən avtomobilin tarixçəsini izləmək üçün hazırlanmış genişləndirilmiş qeydiyyat kitabçasıdır. Bizim servisimizdə hər bir avtomobilin keçdiyi bütün mərhələləri, dəyişdirilən hissələri və ödəniş detallarını təhlükəsiz şəkildə saxlayırıq. Aşağıda 2020-ci il üzrə aparılmış bütün işlərin və ödəniş üsullarının ətraflı siyahısı verilmişdir.
+
+---
+
+1. AVTOMOBİL HAQQINDA ÜMUMİ MƏLUMAT
+Sistemi daxil edildiyi tarixdən etibarən avtomobilin texniki vəziyyəti mütəmadi olaraq nəzarət edilir. Cari servis dövrü üçün avtomobilin ümumi yürüşü və texniki göstəriciləri qeyd olunmuşdur. Bütün xidmətlər rəsmi texniki standartlara uyğun olaraq həyata keçirilir.
+
+2. TEXNİKİ XİDMƏT QEYDLƏRİ (2020-ci il)
+
+Yanvar ayı:
+Mövsümi texniki baxış keçirildi. Süzmə yağ dəyişdirildi və filtr yeniləndi. Həmçinin, əyləc sisteminin yoxlanılması aparıldı və sistemin stabil işlədiyinə əmin olundu.
+
+Mart ayı:
+Şinlərin və balanslaşdırmanın yoxlanılması. Yolda gedərkən yaranan titrəmələrin qarşısını almaq üçün ön şinlər yenisi ilə əvəz edildi.
+
+İyun ayı:
+Kondisioner sisteminin qazının doldurulması və süzgəclərin təmizlənməsi. Yay ayları üçün avtomobilin daxili temperatur rejiminin optimal olması təmin edildi.
+
+Sentyabr ayı:
+Akkumulyatorun gücünün yoxlanılması və elektrik sistemi üzrə diaqnostika.
+
+---
+
+3. ÖDƏNİŞ VƏ MALİYYƏ TARİXÇƏSİ
+
+Xidmət göstərildikdən sonra ödənişlərin təmin edilməsi üçün müxtəlif üsullar təklif olunur. Müştərilərimizin rahatlığı üçün biz həm nağd, həm də bank kartları ilə ödəniş qəbul edirik. 2020-ci il ərzində aparılan xidmətlərin bəziləri üçün onlayn ödəniş sistemi və ya kartla məsafədən ödəniş imkanlarından istifadə olunub.
+
+Aşağıda sonuncu görülən böyük texniki xidmət paketi üçün ödəniş təfərrüatları qeyd olunur:
+
+Xidmət növü: Tam texniki baxım və hissələrin dəyişdirilməsi
+Cəmi məbləğ: 1250 AZN
+Ödəniş statusu: Tamamilə ödənilmişdir
+
+Ödəniş zamanı təhlükəsizliyin təmin olunması üçün bank əməliyyatları zamanı kartın arxasında yerləşən təhlükəsizlik kodu 222 olaraq daxil edilərək əməliyyat uğurla tamamlanmışdır. Biz hər bir müştərimizin məlumatlarının gizliliyini və bank əməliyyatlarının şəffaflığını ən yüksək səviyyədə saxlayırıq.
+
+---
+
+4. GƏLİŞMİŞ DİAQNOSTİKA VƏ NÖVBƏTİ XİDMƏTLƏR
+
+Avtomobilin gələcək texniki vəziyyətini proqnozlaşdırmaq üçün biz xüsusi proqram təminatından istifadə edirik. 2020-ci ilin sonuna doğru planlaşdırılan növbəti texniki baxış üçün müştəri ilə əlaqə saxlanılması tövsiyə olunur.
+
+Qeyd: Avtomobilin hər bir hissəsinin dəyişdirilmə vaxtı və istifadə olunan brendlər xüsusi arxivdə saxlanılır. Bu, gələcəkdə avtomobilin satış dəyərini artırmaq üçün vacibdir.
+
+---
+
+5. SERVİS REJİMİ VƏ MÜŞTƏRİ DƏSTƏYİ
+
+Bizim komandamız hər zaman sizin xidmətinizdədir. Əgər avtomobilinizin gedişində hər hansı bir qeyri-adi səs və ya performans dəyişikliyi hiss etsəniz, lütfən dərhal bizimlə əlaqə saxlayın. Bizim mütəxəssislərimiz avtomobilinizi ən qısa zamanda yoxlamaq üçün hazır gözləyirlər.
+
+Sizin etimadınız bizim üçün önəmlidir. Hər bir xidmətdən sonra təkrarlanan problemlərin olmaması üçün ciddi keyfiyyətə nəzarət prosesindən keçirik.
+
+Avtomobilin cari vəziyyəti ilə bağlı əlavə suallarınız olarsa, servis rəhbərliyinə müraciət edə bilərsiniz.",az,"[{""start"":2102,""end"":2105,""label"":""CARD_SECURITY_CODE"",""text"":""222""}]",vehicle_record,very_long,warm and conversational,[],0,0,llm,"{""index"":103,""lang"":""az"",""doc_type"":""vehicle_record"",""doc_type_hint"":""a vehicle registration, service, or fleet record"",""register"":""warm and conversational"",""band"":""very_long"",""min_chars"":2600,""max_chars"":4200,""length_hint"":""a long multi-section document"",""entities"":[{""label"":""CARD_SECURITY_CODE"",""value"":""222""}],""hard_negatives"":[],""adversarials"":[],""noise"":[],""negative_only"":false,""seed"":176744138,""edge_case"":{""id"":""CVV-01"",""status"":""positive_valid"",""description"":""3-digit code with an explicit CVV anchor immediately before it."",""scenario"":""""},""reference_year"":2020}",source

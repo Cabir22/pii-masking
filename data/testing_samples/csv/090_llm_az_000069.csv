@@ -1,0 +1,33 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000069,"2020-11-14 14:22:05 - sistem log: qeydiyyat yenilendi.
+
+Maşın texniki vəziyyət vərəqi (qeydiyyat daxili sened)
+
+Avtomobilin ümumi mälumatı:
+Model: Toyota Prius 2015
+Rəng: Gümüşü
+Dövriyyədə olan sürücü: (sürücü məlumatları qorunur)
+
+Servis tarixçəsi və qeydlər:
+Sonuncu baxış: 12 oktyabr 2020-ci il.
+Motor yağı dəyişildi, filtr yenilendi. Amma yağ sızması ehtimalı var, bir də baxmaq lazımdır. 
+[14:25:10] - sistem log: status ""gözləmədə"" olaraq dəyişdirildi.
+
+Maşın sahibinin ünvan və poçt məlumatları:
+Ünvan: Bakı şəhəri, Nərimanov rayonu, Heydər Əliyev prospekti, bina 45. 
+Poçt indeksi: AZ1075
+(Qeyd: poçt kodu təsdiqləndi, sistemdə rəsmi olaraq qeyd edilib).
+
+Texniki nasazlıqlar və qeydlər:
+- Əyləc sistemində bir az səs gəlir, yəqin ki, padlar bitib.
+- Şinlərin vəziyyəti: 70% (yaxşıdır).
+- Akkumulyator: 2018-ci ildə alınıb, ömrü bitmək üzrədir, dəyişmək lazımdır.
+- Səliqəli servis keçirilməlidir.
+
+Əlavə qeydlər:
+Maşın çox sürətli sürülür, sürücü xəbərdarlıq edilsin. 
+Gözlənilən növbəti servis: 2021-ci ilin yanvar ayı.
+Ünvan təyini üçün istifadə olunan kod: 4545 (bu bina nömrəsi deyil, sadəcə daxili koddur). Amma əsas poçt kodu AZ1075 olaraq saxlanılır.
+
+Sənədin son yenilənmə tarixi: 15.11.2020
+Hazırladı: Texniki bölmə (agent 04)",az,"[{""start"":590,""end"":596,""label"":""ZIPCODE"",""text"":""AZ1075""},{""start"":1141,""end"":1147,""label"":""ZIPCODE"",""text"":""AZ1075""}]",vehicle_record,long,casual with typos and abbreviations,[],0,0,llm,"{""index"":69,""lang"":""az"",""doc_type"":""vehicle_record"",""doc_type_hint"":""a vehicle registration, service, or fleet record"",""register"":""casual with typos and abbreviations"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""ZIPCODE"",""value"":""AZ1075""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a timestamp-prefixed log line or two"",""drop some diacritics as if typed on the wrong keyboard layout""],""negative_only"":false,""seed"":1806824124,""edge_case"":{""id"":""ZIP-02"",""status"":""ambiguous_requires_anchor"",""description"":""Bare 4-digit domestic form, identical in shape to BUILDINGNUM -- requires a postal anchor ('poçt indeksi' / 'poçt kodu' / 'indeks') immediately nearby to resolve toward ZIPCODE rather than BUILDINGNUM."",""scenario"":""""},""reference_year"":2020}",source

@@ -1,0 +1,19 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000154,"Xəta hesabatı - Çox narahatam və nə etməli olduğumu bilmirəm!
+
+Tarix: 14 oktyabr 2023-cü il
+
+Mən bilmirəm bu sistemdə nə baş verir, amma hər şey çox qarışıqdır.  Sistemin daxilində məlumatları daxil edərkən sanki hər şey əks tərəfə gedir. Mən sadəcə işimi görmək istəyirdim, amma indi hər şey bir-birinə qarışıb.
+
+Xəta baş verən an:
+Dünən saat 11:28 vaxtı sistemdə məlumatları yadda saxlayarkən qəribə bir mesaj aldım. Əvvəlcə elə bildim ki, sadəcə internet zəifdir, amma problem davam etdi. Mən Yaşılgül Sultanlının məlumatlarını sistemə köçürürdüm ki, birdən-birə ekran dondu və məlumatlar tamamilə dəyişmiş kimi göründü.
+
+Xətanın təkrarlanma addımları (nə etdiyimi tam anlaya bilmirəm, amma bunları etdim):
+1. Müştəri profilini açdım.
+2. Müştərinin adını və soyadını yazdım. Məsələn, Yaşılgül Sultanlı sənədlərdə belədir, amma sistem onu qəribə şəkildə qəbul etdi.
+3. Şəhər hissəsini seçmək istədim. Ağdam şəhərini seçdim, lakin sistem avtomatik olaraq başqa bir yer göstərdi.
+4. Ən pis olan isə əlaqə nömrəsidir. (099) 615-12-31 nömrəsini yazdığım an sistem ""Error 404"" deyil, daha çox ""Data Mismatch"" kimi bir şey göstərdi və hər şey silindi.
+
+Mən çox həyəcanlıyam, çünki bu məlumatlar çox vacibdir.  Əgər bu məlumatlar itibsə, mən nə edəcəyəm?  Sistem niyə belə davranır?  Mən hər şeyi düzgün etdiyimə əminəm. Mən Yaşılgül üçün bu işi bitirməli idim, amma indi hər şey xaosdur.
+
+Zəhmət olmasa, kömək edin.  Sistemdəki bu qəribəlik nədir?  Məlumatlar niyə dəyişir?  Mən nə edə bilərəm ki, bu vəziyyət düzəlsin?  Hər şey çox qəribə görünür və mən dərhal birinin mənə cavab verməsini gözləyirəm.  Ağdam üzrə olan sənədlərin hamısı indi risk altındadır.",az,"[{""start"":344,""end"":349,""label"":""TIME"",""text"":""11:28""},{""start"":496,""end"":504,""label"":""GIVENNAME"",""text"":""Yaşılgül""},{""start"":787,""end"":795,""label"":""GIVENNAME"",""text"":""Yaşılgül""},{""start"":903,""end"":908,""label"":""CITY"",""text"":""Ağdam""},{""start"":1017,""end"":1032,""label"":""TELEPHONENUM"",""text"":""(099) 615-12-31""},{""start"":1320,""end"":1328,""label"":""GIVENNAME"",""text"":""Yaşılgül""},{""start"":1600,""end"":1605,""label"":""CITY"",""text"":""Ağdam""}]",bug_report,long,anxious and confused,[],0,0,llm,"{""index"":154,""lang"":""az"",""doc_type"":""bug_report"",""doc_type_hint"":""a bug report with reproduction steps"",""register"":""anxious and confused"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""TIME"",""value"":""11:28""},{""label"":""SURNAME"",""value"":""Sultanli""},{""label"":""TELEPHONENUM"",""value"":""(099) 615-12-31""},{""label"":""GIVENNAME"",""value"":""Yaşılgül""},{""label"":""CITY"",""value"":""Ağdam""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""use inconsistent spacing and a stray double space""],""negative_only"":false,""seed"":1153261647,""edge_case"":null,""reference_year"":2023}",source

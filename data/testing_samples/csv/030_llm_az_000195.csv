@@ -1,0 +1,18 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000195,"Mənzil İcarə Müqaviləsi (Xülasə)
+Tarix: 14.05.2024
+
+Salam! Bu sənəd, yeni evinizdə xoş xatirələr toplamağınız üçün kiçik bir rəsmiyyətdir. Aşağıdakı məlumatlar tərəflərin tanınması üçün nəzərdə tutulub:
+
+Tərəflərin məlumatları:
+------------------------------------------------------------
+Rol                 | Ad və Soyad       | Əlaqə vasitəsi
+--------------------|-------------------|--------------------
+İcarəçi             | Gülxan            | agrisahzade.m@yahoo.com
+İcarəyə verən       | Zainə             | -
+------------------------------------------------------------
+
+Mənzil haqqında qeydlər:
+Mənzil Mingəçevir şəhərində yerləşir. Mənzil həm çox işıqlıdır, həm də qonşularımız bir az çox danışmağı sevir, amma narahat olmayın, hamısı çox mehribandır! 
+
+Gülxan, ümid edirik ki, bu evdə özünüzü çox rahat hiss edəcəksiniz. Əgər hər hansı bir sualınız olarsa, mütləq bizimlə əlaqə saxlayın.",az,"[{""start"":430,""end"":436,""label"":""GIVENNAME"",""text"":""Gülxan""},{""start"":450,""end"":473,""label"":""EMAIL"",""text"":""agrisahzade.m@yahoo.com""},{""start"":496,""end"":501,""label"":""GIVENNAME"",""text"":""Zainə""},{""start"":612,""end"":622,""label"":""CITY"",""text"":""Mingəçevir""},{""start"":765,""end"":771,""label"":""GIVENNAME"",""text"":""Gülxan""}]",rental_agreement,medium,friendly with light humour,[],0,0,llm,"{""index"":195,""lang"":""az"",""doc_type"":""rental_agreement"",""doc_type_hint"":""a rental or lease agreement excerpt"",""register"":""friendly with light humour"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""EMAIL"",""value"":""agrisahzade.m@yahoo.com""},{""label"":""GIVENNAME"",""value"":""Zainə""},{""label"":""CITY"",""value"":""Mingəçevir""},{""label"":""GIVENNAME"",""value"":""Gülxan""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""use a table-like layout with aligned columns""],""negative_only"":false,""seed"":473801963,""edge_case"":null,""reference_year"":2024}",source

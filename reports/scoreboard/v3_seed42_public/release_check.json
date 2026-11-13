@@ -1,0 +1,270 @@
+{
+ "meta": {
+  "name": "v3_seed42_public",
+  "model": "your-hf-org/masking-az-runb-v3-seed42",
+  "revision": "c9d03581b8a3c8347e6f3ec933a74ff8ac906b98",
+  "date_utc": "2026-10-14 16:52 UTC",
+  "code": "75d7070",
+  "shadow_source": "not scored tonight (private)"
+ },
+ "verdict": {
+  "verdict": "not released",
+  "passed": [
+   "B1",
+   "C1",
+   "C2"
+  ],
+  "failed": [
+   "B2",
+   "C3",
+   "C4",
+   "C13"
+  ],
+  "missing": [
+   "A1",
+   "A2",
+   "A3",
+   "A4",
+   "A5",
+   "A6",
+   "E3"
+  ],
+  "blocking_total": 14
+ },
+ "rules": [
+  {
+   "id": "A1",
+   "rule": "Micro F1 ≥ 82",
+   "blocking": true,
+   "status": "not scored",
+   "result": "shadow-dev not scored"
+  },
+  {
+   "id": "A2",
+   "rule": "Weakest label F1 ≥ 65",
+   "blocking": true,
+   "status": "not scored",
+   "result": "shadow-dev not scored"
+  },
+  {
+   "id": "A3",
+   "rule": "Token, IPv6, licence F1 ≥ 75 each",
+   "blocking": true,
+   "status": "not scored",
+   "result": "shadow-dev not scored"
+  },
+  {
+   "id": "A4",
+   "rule": "Look-alike trigger rate < 8%",
+   "blocking": true,
+   "status": "not scored",
+   "result": "shadow-dev not scored"
+  },
+  {
+   "id": "A5",
+   "rule": "PII-free documents masked < 15%",
+   "blocking": true,
+   "status": "not scored",
+   "result": "shadow-dev not scored"
+  },
+  {
+   "id": "A6",
+   "rule": "Recall guard vs checkpoint 1",
+   "blocking": true,
+   "status": "not scored",
+   "result": "shadow-dev not scored"
+  },
+  {
+   "id": "A7",
+   "rule": "EN / TR / RU regression",
+   "blocking": false,
+   "status": "n/a",
+   "result": "not applied: Azerbaijani-only model (D-23a)"
+  },
+  {
+   "id": "A8",
+   "rule": "Benchmark errors fixed (appendix)",
+   "blocking": false,
+   "status": "report",
+   "result": "not run by this script"
+  },
+  {
+   "id": "A9",
+   "rule": "Sealed set, once, on the final candidate",
+   "blocking": false,
+   "status": "n/a",
+   "result": "untouched (final candidate only, P3-11)"
+  },
+  {
+   "id": "B1",
+   "rule": "Benchmark F1 ≥ checkpoint 1 + 2",
+   "blocking": true,
+   "status": "pass",
+   "result": "89.5 vs 68.7 (needs 70.7); M 94.2"
+  },
+  {
+   "id": "B2",
+   "rule": "Benchmark recall guard (−1 pt)",
+   "blocking": true,
+   "status": "fail",
+   "result": "2 labels: PRIVATE_KEY 93.2 → 62.9, AZ_VOEN 84.4 → 82.7"
+  },
+  {
+   "id": "C1",
+   "rule": "Access token vs API key",
+   "blocking": true,
+   "status": "pass",
+   "result": "5 conditions met"
+  },
+  {
+   "id": "C2",
+   "rule": "IPv6 vs MAC",
+   "blocking": true,
+   "status": "pass",
+   "result": "5 conditions met"
+  },
+  {
+   "id": "C3",
+   "rule": "Licence vs ID card",
+   "blocking": true,
+   "status": "fail",
+   "result": "licence_vs_id confusion_rate [AZ_ID_CARD_NUMBER→AZ_DRIVER_LICENSE_NUMBER] 8.3"
+  },
+  {
+   "id": "C4",
+   "rule": "Look-alikes: < 15% each, < 10% overall",
+   "blocking": true,
+   "status": "fail",
+   "result": "5 of 11 families above 15% (decoy_time 41.7%, decoy_age 41.7%, decoy_date 50.0%, decoy_fin 44.4%, decoy_card_iccid_iban 33.3%); overall 19.4%; decoy_cvv: 12345 0/2; random 5-digit 0/5"
+  },
+  {
+   "id": "C5",
+   "rule": "building_vs_room, sentence_initial_nouns, nonpii_ids",
+   "blocking": false,
+   "status": "report",
+   "result": "2 of 3 families meet their target"
+  },
+  {
+   "id": "C6",
+   "rule": "prose_card, prose_date, prose_iban…",
+   "blocking": false,
+   "status": "report",
+   "result": "4 of 5 families meet their target"
+  },
+  {
+   "id": "C7",
+   "rule": "fmt_csv, fmt_csv_noheader, fmt_json…",
+   "blocking": false,
+   "status": "report",
+   "result": "7 of 7 families meet their target"
+  },
+  {
+   "id": "C8",
+   "rule": "pem, spaced_phone, spaced_card_iban",
+   "blocking": false,
+   "status": "report",
+   "result": "2 of 3 families meet their target"
+  },
+  {
+   "id": "C9",
+   "rule": "suffixed_entities",
+   "blocking": false,
+   "status": "report",
+   "result": "0 of 1 families meet their target"
+  },
+  {
+   "id": "C10",
+   "rule": "bare_name, name_homographs",
+   "blocking": false,
+   "status": "report",
+   "result": "1 of 2 families meet their target"
+  },
+  {
+   "id": "C11",
+   "rule": "name_transliteration_variants",
+   "blocking": false,
+   "status": "report",
+   "result": "1 of 1 families meet their target"
+  },
+  {
+   "id": "C12",
+   "rule": "All probe families with targets (report)",
+   "blocking": false,
+   "status": "report",
+   "result": "32 of 52 families meet every absolute target (track R)"
+  },
+  {
+   "id": "C13",
+   "rule": "No family >10 pt and >3 docs worse",
+   "blocking": true,
+   "status": "fail",
+   "result": "pem char_leakage_rate 20.5 → 37.4 (8 docs worse); watched: names_list_lines"
+  },
+  {
+   "id": "D1",
+   "rule": "runb_test vs checkpoint 1 (report)",
+   "blocking": false,
+   "status": "not scored",
+   "result": "runb_test not scored yet (--quick)"
+  },
+  {
+   "id": "D2",
+   "rule": "Template overfitting: gap ≤ 15 points",
+   "blocking": false,
+   "status": "not scored",
+   "result": "needs runb_test"
+  },
+  {
+   "id": "D3",
+   "rule": "Old vs new documents (report)",
+   "blocking": false,
+   "status": "not scored",
+   "result": "runb_test not scored yet"
+  },
+  {
+   "id": "E1",
+   "rule": "Real text per label (report)",
+   "blocking": false,
+   "status": "not scored",
+   "result": "real text not scored"
+  },
+  {
+   "id": "E2",
+   "rule": "Real-text recall guard (report)",
+   "blocking": false,
+   "status": "not scored",
+   "result": ""
+  },
+  {
+   "id": "E3",
+   "rule": "Real text: 80% found, labels, precision",
+   "blocking": true,
+   "status": "not scored",
+   "result": "real text not scored"
+  }
+ ],
+ "key_numbers": {
+  "bench_f1_R": 0.8951465201465202,
+  "c13_blocks": [
+   {
+    "family": "pem",
+    "condition": "char_leakage_rate",
+    "base": 0.20543002484325093,
+    "new": 0.3735951733112504,
+    "points_worse": 16.8,
+    "documents_worse": 8
+   }
+  ],
+  "c13_watched": [
+   {
+    "family": "names_list_lines",
+    "condition": "control_fp_rate",
+    "base": 0.0,
+    "new": 0.5,
+    "points_worse": 50.0,
+    "documents_worse": 2
+   }
+  ],
+  "c4_overall": 0.1935483870967742
+ }
+}

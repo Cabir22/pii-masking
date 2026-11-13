@@ -1,0 +1,15 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000276,"İNSİDENT HAQQINDA POSTMORTEM HESABATI
+
+Tarix: 14.11.2017
+Status: Kritik / Təcili
+
+Məlumat bazasında baş vermiş gözlənilməz kəsilmənin səbəbi araşdırılmışdır. İlk analizlər göstərir ki, sistemə icazəsiz giriş cəhdləri aşkarlanmışdır. Azanov tərəfindən təqdim olunan loq fayllarına əsasən, daxili şəbəkənin bəzi hissələri zərər görmüşdür.
+
+Giriş məlumatlarının sızması ilə bağlı şübhələr Timurov tərəfindən irəli sürülüb. Hazırda ayman.qitanov@zirve.az ünvanına göndərilən avtomatlaşdırılmış bildirişlər nəticəsində təhlükəsizlik protokolları aktivləşdirilmişdir. Səhvlərin qarşısını almaq üçün dərhal yeni şifrələr təyin edilməlidir.
+
+Xətanın əsas səbəbi sistem yeniləməsi zamanı yaranan boşluqlardır. User tərəfindən edilən yanlış konfiqurasiya (yəni, səhv konfiqurasiya) bir çox məlumatın risk altında qalmasına səbəb olub. 09.05.1992 tarixli sənədlərlə əlaqəli olan bəzi istifadəçi profillərinin doğruluğu mütləq yoxlanılmalıdır. Vəziyyət hələ də tam stabilləşməyib, monitorinq davam etdirilir.
+
+Hörmətlə,
+Təhlükəsizlik Komandası
+ayman.qitanov@zirve.az",az,"[{""start"":233,""end"":239,""label"":""SURNAME"",""text"":""Azanov""},{""start"":386,""end"":393,""label"":""SURNAME"",""text"":""Timurov""},{""start"":428,""end"":450,""label"":""EMAIL"",""text"":""ayman.qitanov@zirve.az""},{""start"":825,""end"":835,""label"":""DATE"",""text"":""09.05.1992""},{""start"":1032,""end"":1054,""label"":""EMAIL"",""text"":""ayman.qitanov@zirve.az""}]",incident_postmortem,medium,urgent and escalating,"[""invisible""]",0,0,llm,"{""index"":276,""lang"":""az"",""doc_type"":""incident_postmortem"",""doc_type_hint"":""an incident postmortem write-up"",""register"":""urgent and escalating"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""SURNAME"",""value"":""Azanov""},{""label"":""EMAIL"",""value"":""ayman.qitanov@zirve.az""},{""label"":""SURNAME"",""value"":""Timurov""},{""label"":""DATE"",""value"":""09.05.1992""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a few realistic typos and a self-correction"",""include an email signature block at the end""],""negative_only"":false,""seed"":1263424253,""edge_case"":null,""reference_year"":2017}",source

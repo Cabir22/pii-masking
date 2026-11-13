@@ -1,0 +1,9 @@
+Agent: Alo. Texniki dəstək.
+Müştəri: Salam. Nömrəm +235763562032. Bağlantı xətası verir.
+Agent: Detal verin. Hansı xəta?
+Müştəri: API açarı işlemir. Kod budur: vgU_6gOrVVaTfIDmvlAvUe8FvXR3tiFBWcTDTQdL.
+Agent: Kodu təkrar deyin.
+Müştəri: vgU_6gOrVVaTfIDmvlAvUe8FvXR3tiFBWcTDTQdL.
+Agent: Gözləyin. Sistim yoxlayıram... yox, yoxlayıram.
+Müştəri: Tez olun. Vaxtım azdır.
+Agent: Xəta tapıldı. Kodun icazəsi bitib. Sistemin konfiqurasiyasını yeniləyin.

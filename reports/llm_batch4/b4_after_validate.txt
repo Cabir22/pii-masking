@@ -1,0 +1,53 @@
+==========================================================================
+CORPUS VALIDATION -- sprint1_llm_b4.clean.jsonl
+==========================================================================
+records            : 5,973
+entity mentions    : 21,516
+distinct ids       : 5,973
+labels present     : 27/27
+length             : min 42  p50 595  p95 3,230  max 15,185
+doc types          : 42
+sha256             : 3ae14a178d0cf9323b16a4e8ca609987...
+
+MUST-BE-ZERO CHECKS
+  malformed_json                        0   ok
+  duplicate_id                          0   ok
+  span_text_mismatch                    0   ok
+  span_out_of_range                     0   ok
+  empty_span                            0   ok
+  overlapping_spans                     0   ok
+  duplicate_span                        0   ok
+  unknown_label                         0   ok
+  removed_label                         0   ok
+  zero_width_in_span                    0   ok
+  not_nfc                               0   ok
+  no_entities                           0   ok
+  exact_duplicate_text                  0   ok
+  structural_number_span                0   ok
+  missing_anchor                        0   ok
+  repeat_mention_incomplete             0   ok
+  validator_failure                     0   ok
+  unlabeled_pii_leak                    0   ok
+  resolver_drift                        0   ok
+  planned_value_unlabelled              0   ok
+
+INFORMATIONAL
+  band_metadata_mismatch              429
+  cyrillic_present                    135
+  near_duplicate                        0
+  unlabelled_standalone_date            0
+
+LABEL DISTRIBUTION (actual / target)
+  DATE                         2,761 mentions    2,256 distinct  ratio 2.85
+  ICCID                          214 mentions      154 distinct  ratio 1.66
+  IPV6_ADDRESS                   183 mentions      130 distinct  ratio 1.42
+  TIME                           739 mentions      344 distinct  ratio 1.37
+  MAC_ADDRESS                    209 mentions      163 distinct  ratio 1.21
+  EMAIL                        2,102 mentions    1,671 distinct  ratio 0.81
+  TELEPHONENUM                 1,768 mentions    1,490 distinct  ratio 0.82
+  API_KEY                        461 mentions      393 distinct  ratio 0.86
+
+==========================================================================
+RESULT: PASS -- corpus is fit to train on
+==========================================================================
+json -> reports\llm_batch4\b4_after_validate.json

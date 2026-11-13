@@ -1,0 +1,35 @@
+documents: 5,973
+
+1. PLANNED VALUES PRESENT BUT UNLABELLED: 0 occurrence(s) in 0 document(s)
+   of which a value with no labelled occurrence at all (count): 0 in 0 document(s) {}
+   by label: {}
+   by form : {}
+   planned values with no labelled occurrence, by label (share of that label's plans):
+   DATE 13/2355 (0.5%), TIME 1/380 (0.3%), AGE 1/452 (0.2%), STREET 1/705 (0.1%), GIVENNAME 2/1717 (0.1%), SURNAME 1/1439 (0.1%), ACCESS_TOKEN 0/255 (0.0%), API_KEY 0/393 (0.0%)
+
+2. LABELS THAT DISAGREE WITH THE PLAN: 33  {'changed by noise after labelling (ok)': 32, 'standalone date, D-17 (ok)': 1}
+   llm_az_000269  changed by noise after labelling (ok): DATE '2 4noyabR 1992, çərşənbə axşamı'  ...umatları:  Ad: Hacərxatun Doğum tarixi: [[2 4noyabR 1992, çərşənbə axşamı]] ünvan:  Qazaxlar döngəsi, AZ5003 Telefo...
+   llm_az_001215  changed by noise after labelling (ok): TIME '12:l2'  ...xniki tə1imat Tarix: 16 mart 2017, saat [[12:l2]] ---------------------------------------...
+   llm_az_001520  changed by noise after labelling (ok): STREET 'Böyük Qaladdərəsi döngəsi'  ... Yaşı: 32 yaşı Şəhər: Hacıqabula Ünvan: [[Böyük Qaladdərəsi döngəsi]] 28 Əlaqə telefonu: +994 51 664 25 60 E-...
+   llm_az_002174  changed by noise after labelling (ok): STREET 'Tofiq İsmayılov   d-\nöngəsi'  ..., Teyhanə Pirnəzərova, Tovuz şəhərində, [[Tofiq İsmayılov   d- öngəsi]] boyunca yerləşən yaşayış   məkanında ya...
+   llm_az_002240  changed by noise after labelling (ok): DATE '28.0Z.2018'  ...Tarix: [[28.0Z.2018]]  Salam, Nahidov bəy,  Ümid edirəm ki, b...
+
+3. DECOY INTEGRITY: 6715 decoy span(s) checked, 2609 policy/contextual; problems: none
+
+4. RATES (share of all documents)
+   hard_negative  requested 30.0%   in the text 28.0%   in the briefs 29.8%
+   adversarial    requested 20.0%   in the text 20.3%   in the briefs 20.4%
+   pii_free       requested 10.0%   in the text 10.4%
+   edge_case      requested 30.0%   in the text 30.5%
+   any decoy in the text (_hard_negatives > 0, the batch-1 README's measure): 35.0%
+   label share / target, furthest off: DATE 2.85, ICCID 1.66, IPV6_ADDRESS 1.42, TIME 1.37, MAC_ADDRESS 1.21, EMAIL 0.81
+
+5. D-9: {'mentions': 7441, 'suffixed (label includes the suffix)': 2672}
+   D-10: {'documents of 1-5 words': 3}
+   validate_example failures: none
+
+7. INDEPENDENT SWEEP, PII THE MODEL INVENTED (informational): 0 document(s) (0.0%), 0 of them declared PII-free; {}
+
+8. STANDALONE DATES LEFT UNLABELLED (D-17; timestamps excluded): 0 in 0 document(s) (0.0%); {}. scripts/relabel_standalone_dates.py labels them
+
+json -> reports\llm_batch4\b4_after_audit.json

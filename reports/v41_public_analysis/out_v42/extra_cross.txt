@@ -1,0 +1,14 @@
+===== v4.1
+25 ('Formanın IP sahəsində X göstərilib', 'labelled IPV4_ADDRESS', '')
+31 ('Hesabatda serverin IP ünvanı X kimi əks olunub', 'labelled IPV4_ADDRESS', '')
+36 ('Jurnalda mənbə IP ünvanı olaraq X qeyd olunub', 'labelled IPV4_ADDRESS', '')
+24 ('Sorğu qeydində IP ünvanı X kimi yazılıb', 'labelled IPV4_ADDRESS', '')
+54 ('ZIP_RIGHT: indeks kimi/olaraq X (tail?)', 'labelled ZIPCODE', '')
+54 ('ZIP_RIGHT: indeks kimi/olaraq X (tail?)', 'look-alike zip_shape_as_code', ' +tail')
+===== v4.2
+96 ('Formanın IP sahəsində X göstərilib', 'labelled IPV4_ADDRESS', '')
+104 ('Hesabatda serverin IP ünvanı X kimi əks olunub', 'labelled IPV4_ADDRESS', '')
+104 ('Jurnalda mənbə IP ünvanı olaraq X qeyd olunub', 'labelled IPV4_ADDRESS', '')
+94 ('Sorğu qeydində IP ünvanı X kimi yazılıb', 'labelled IPV4_ADDRESS', '')
+47 ('ZIP_RIGHT: indeks kimi/olaraq X (tail?)', 'labelled ZIPCODE', '')
+47 ('ZIP_RIGHT: indeks kimi/olaraq X (tail?)', 'look-alike zip_shape_as_code', ' +tail')

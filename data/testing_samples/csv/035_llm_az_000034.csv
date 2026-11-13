@@ -1,0 +1,20 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000034,"İclas qeydləri
+Tarix: 14.11.2022
+
+Mövzu: Sistem inteqrasiyası və təhlükəsizlik protokolları
+
+İclasda aşağıdakı məsələlər müzakirə edildi:
+
+*   Yeni API girişinin aktivləşdirilməsi: gho_rC5Gj1Bf86o0C4w7bAdzGxpyfxobu7g1TPvY
+*   Texniki dəstək xətti ilə əlaqə: +994108287625
+*   Sistem xətalarının izlənilməsi
+
+Hacıverdi tərəfindən təklif olunan yeni modulun sınaq mərhələsinə keçilməsi qərara alındı.
+
+Məlumat bazası statusu:
+ID_0982 | Status: Aktiv | Vaxt: 14:22
+
+Tapşırıqlar:
+- Hacıverdi modulu gələn həftəyə qədər tamamlamalıdır.
+- Təhlükəsizlik açarları yenidən yoxlanılmalıdır.",az,"[{""start"":181,""end"":221,""label"":""API_KEY"",""text"":""gho_rC5Gj1Bf86o0C4w7bAdzGxpyfxobu7g1TPvY""},{""start"":258,""end"":271,""label"":""TELEPHONENUM"",""text"":""+994108287625""},{""start"":308,""end"":317,""label"":""GIVENNAME"",""text"":""Hacıverdi""},{""start"":478,""end"":487,""label"":""GIVENNAME"",""text"":""Hacıverdi""}]",meeting_notes,medium,terse and clipped,[],0,0,llm,"{""index"":34,""lang"":""az"",""doc_type"":""meeting_notes"",""doc_type_hint"":""notes taken during a meeting, with action items"",""register"":""terse and clipped"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""TELEPHONENUM"",""value"":""+994108287625""},{""label"":""API_KEY"",""value"":""gho_rC5Gj1Bf86o0C4w7bAdzGxpyfxobu7g1TPvY""},{""label"":""GIVENNAME"",""value"":""Hacıverdi""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a bulleted list"",""include a line that was clearly pasted from a spreadsheet""],""negative_only"":false,""seed"":2014812671,""edge_case"":null,""reference_year"":2022}",source

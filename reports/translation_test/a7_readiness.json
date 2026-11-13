@@ -1,0 +1,43 @@
+[
+ {
+  "set": "golden_en",
+  "documents": 217,
+  "entities": 1036,
+  "DATE": 53,
+  "TIME": 36,
+  "findings": {
+   "documents a cleaning rule would change": 4,
+   "DATE: ordinal day": 11,
+   "DATE: starts with `the`": 7,
+   "DATE: weekday inside": 2,
+   "R2 unlabel TIME": 9
+  }
+ },
+ {
+  "set": "lang_tr",
+  "documents": 1000,
+  "entities": 4028,
+  "DATE": 737,
+  "TIME": 66,
+  "findings": {
+   "documents a cleaning rule would change": 11,
+   "R2 unlabel TIME": 11,
+   "DATE: weekday inside": 15,
+   "R2 unlabel DATE": 1
+  }
+ },
+ {
+  "set": "lang_ru",
+  "documents": 1000,
+  "entities": 3997,
+  "DATE": 745,
+  "TIME": 75,
+  "findings": {
+   "documents a cleaning rule would change": 4,
+   "R2 unlabel TIME": 3,
+   "DATE: year word inside": 10,
+   "DATE: weekday inside": 17,
+   "R2 unlabel DATE": 1
+  }
+ }
+]

@@ -1,0 +1,14 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000293,"TƏLİBNAME
+
+Tarix: 14.11.2022
+
+Hörmətli müştəri,
+
+Məlum edirik ki, müqavilə öhdəliklərinizin pozulması ilə bağlı hüquqi prosedurlar başladılmışdır. Sizin tərəfinizdən ödənilməli olan borcun vaxtı keçmişdir.
+
+Məhkəmə prosesində şəxsin sosial statusu və 70 yaşı faktı nəzərə alınsa da, bu, borcun ödənilməməsinə hüquqi əsas vermir. Qanunvericiliyin tələbləri hər bir vətəndaş üçün eynidir.
+
+Borcun dərhal bağlanması üçün sizə 5 iş günü vaxt verilir. Əks tədbir görülmədiyi təqdirdə, məsələ məhkəməyə yönləndiriləcək və bütün məhkəmə xərcləri sizin üzərinizə qoyulacaqdır.
+
+Hüquqşünas tərəfindən",az,"[{""start"":251,""end"":253,""label"":""AGE"",""text"":""70""}]",legal_notice,medium,terse and clipped,[],0,0,llm,"{""index"":293,""lang"":""az"",""doc_type"":""legal_notice"",""doc_type_hint"":""a formal legal notice or demand letter"",""register"":""terse and clipped"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""AGE"",""value"":""70""}],""hard_negatives"":[],""adversarials"":[],""noise"":[],""negative_only"":false,""seed"":264220209,""edge_case"":{""id"":""AGE-01"",""status"":""positive_valid"",""description"":""Direct age anchor."",""scenario"":""""},""reference_year"":2022}",source

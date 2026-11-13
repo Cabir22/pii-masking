@@ -1,0 +1,9 @@
+Prioritet,Label,Diaqnoz
+P0,ACCESS_TOKEN,TP 0; əsasən API_KEY kimi çıxır
+P0,IPV6_ADDRESS,Recall 10.5%; MAC_ADDRESS confusion-u dominantdır
+P0,CARD_SECURITY_CODE,"Recall yüksək, precision 19.6%; 872 FP"
+P1,DRIVER_LICENSE,ID_CARD ilə ikitərəfli confusion; F1 41.1%
+P1,PAYMENT_CARD_NUMBER,Recall 43.1%; miss və hissəvi span
+P1,API_KEY / MAC,Taxonomy və hard-negative səbəbli precision itkisi
+P1,DATE / GIVENNAME,Miss və spurious nəticələr; F1 54-56%
+Monitor,URL / ICCID / EMAIL / TEL,Bütünündə F1 90%-dən yüksəkdir; regression qorunmalıdır

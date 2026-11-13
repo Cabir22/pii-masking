@@ -1,0 +1,21 @@
+FAIL scripts/test_100k_readiness.py :: KeyError: 'text'
+PASS scripts/test_date_builders.py :: PASSED 12422   FAILED 0
+PASS scripts/test_docx_test_samples.py :: PASSED 1739   FAILED 0
+PASS scripts/test_llm_augment.py :: PASSED 386   FAILED 0   SKIPPED 2
+PASS scripts/test_prepare_splits.py :: PASSED 53   FAILED 0
+PASS scripts/test_ru_locale.py :: PASSED 17629   FAILED 0
+PASS scripts/piigen/test_anchored_decoys.py :: PASSED 381   FAILED 0
+PASS scripts/piigen/test_decoy_gate.py :: PASSED 78   FAILED 0
+PASS scripts/piigen/test_leak_screen.py :: PASSED 41321   FAILED 0
+PASS scripts/piigen/test_llm_batch1_fixes.py :: PASSED 54   FAILED 0
+PASS scripts/piigen/test_llm_batch2_fixes.py :: PASSED 72   FAILED 0
+PASS scripts/piigen/test_planned_values.py :: PASSED 72   FAILED 0
+PASS scripts/piigen/test_standalone_dates.py :: PASSED 92   FAILED 0
+PASS scripts/piigen/test_value_formats.py :: PASSED 280   FAILED 0
+PASS scripts/piigen/targeted/test_builder.py :: PASSED 863   FAILED 0
+PASS scripts/piigen/targeted/test_short_homograph.py :: PASSED 129   FAILED 0
+PASS scripts/piigen/targeted/test_suffix.py :: PASSED 230   FAILED 0
+PASS eval/test_labelling_audit.py :: 11 passed, 0 failed
+PASS eval/test_leakage_guard.py :: 24 passed, 0 failed
+PASS eval/test_metrics.py :: 73 passed, 0 failed
+PASS model/test_predict.py :: PASSED 21   FAILED 0

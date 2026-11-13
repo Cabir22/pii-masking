@@ -1,0 +1,51 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000109,"""AZƏRBAYCAN TİBB MƏRKƏZİ VƏ ANALİZ LABORATORİYASI""
+Sənəd №: 2026/LAB-8842
+Tarix: 14.11.2026
+
+XƏSTƏ HAQQINDA MƏLUMAT:
+Ad: Ayıq Səyyab Valiyev
+Doğum tarixi: 20/07/1967
+VÖEN: 9678427114
+Ünvan: Qırmızı Bazar, İkram Umarov küçəsi
+Əlaqə telefonu: 010-130-22-16
+E-poçt: helpdesk.merkezov@azertelekom.az
+
+---
+
+LABORATORİYA ANALİZ NƏTİCƏLƏRİ VƏ QEYDLƏR
+
+[2026-11-14 09:12:04] INFO: Sistem giriş edildi. Xəstə profili yüklənir...
+[2026-11-14 09:12:07] ERROR: Verilənlər bazasında sinxronizasiya xətası. Analiz nəticələrinin bəziləri gecikdirilir.
+
+Hörmətli xəstə,
+
+İlk növbədə, laboratoriya nəticələrinin təqdim edilməsində baş vermiş texniki gecikməyə görə dərin üzr istəyirəm. 2026-cı ilin bu dövründə sistem yeniləmələri ilə bağlı yaranan gözlənilməz çətinliklər səbəbindən sizin analiz nəticələrinizin tam şəkildə emal olunması bir neçə gün gecikmişdir. Bu narahatlığa görə çox təəssüf edirik və anlayışınız üçün təşəkkür edirik.
+
+Aşağıda sizin üçün keçirilmiş laboratoriya müayinələrinin genişlənmiş hesabatı təqdim olunur:
+
+1. HEMATOLOJİ ARAŞDIRMA
+- Qırmızı qan hüceyrələri (Eritrositlər): Normal diapazonda.
+- Leykositlər: Bir qədər yüksək müşahidə olunur (İltihabi proses göstəricisi ola bilər).
+- Hemoglobin: 14.2 g/dL.
+
+2. BIOKİMYAVI ANALİZ
+- Şəkər (Qlükoza): 5.8 mmol/L.
+- Kolesterol: 210 mg/dL.
+
+3. TEXNİKİ VƏ MALİYYƏ QEYDLƏRİ (Sistem tərəfindən avtomatik yaradılmış)
+Laboratoriya xidmətlərinin ödənişi ilə bağlı aşağıdakı məlumatlar qeydə alınmışdır:
+Ödəniş vasitəsi: Kart № 4187 7347 7848 5889 ilə ödəniş tamamlanıb.
+
+[2026-11-14 10:45:22] WARN: Təhlükəsizlik protokolu: SIM kart identifikatoru (ICCID) sistemdə qeydə alındı: 89994695450090255907.
+
+Üzr istəyərək bir daha bildiririk ki, bu hesabatın tamlığını təmin etmək üçün biz bütün sistem resurslarımızı cəlb etmişik. Əgər hər hansı bir məlumatın dəqiqliyi ilə bağlı sualınız olarsa, lütfən tibbi mütəxəssislə əlaqə saxlayın.
+
+Sənədin əlavə texniki logları:
+[2026-11-14 11:00:01] LOG: Hesabat şifrələnmiş formatda arxivlənir.
+[2026-11-14 11:00:05] LOG: Çıxış tamamlandı.
+
+Həkim rəyi: Xəstənin ümumi vəziyyəti stabil görünür, lakin leykosit səviyyəsinin izlənilməsi tövsiyə olunur.
+
+---
+Tibb Mərkəzi İdarə Heyəti tərəfindən təsdiqlənmişdir.",az,"[{""start"":121,""end"":125,""label"":""GIVENNAME"",""text"":""Ayıq""},{""start"":126,""end"":132,""label"":""GIVENNAME"",""text"":""Səyyab""},{""start"":133,""end"":140,""label"":""SURNAME"",""text"":""Valiyev""},{""start"":155,""end"":165,""label"":""DATE"",""text"":""20/07/1967""},{""start"":172,""end"":182,""label"":""AZ_VOEN"",""text"":""9678427114""},{""start"":190,""end"":203,""label"":""CITY"",""text"":""Qırmızı Bazar""},{""start"":205,""end"":224,""label"":""STREET"",""text"":""İkram Umarov küçəsi""},{""start"":241,""end"":254,""label"":""TELEPHONENUM"",""text"":""010-130-22-16""},{""start"":263,""end"":295,""label"":""EMAIL"",""text"":""helpdesk.merkezov@azertelekom.az""},{""start"":1478,""end"":1497,""label"":""PAYMENT_CARD_NUMBER"",""text"":""4187 7347 7848 5889""},{""start"":1630,""end"":1650,""label"":""ICCID"",""text"":""89994695450090255907""}]",lab_report,extreme,apologetic,[],0,0,llm,"{""index"":109,""lang"":""az"",""doc_type"":""lab_report"",""doc_type_hint"":""a laboratory or diagnostic report with a patient header"",""register"":""apologetic"",""band"":""extreme"",""min_chars"":4200,""max_chars"":9000,""length_hint"":""a very long document or log dump"",""entities"":[{""label"":""AZ_VOEN"",""value"":""9678427114""},{""label"":""TELEPHONENUM"",""value"":""010-130-22-16""},{""label"":""STREET"",""value"":""İkram Umarov küçəsi""},{""label"":""DATE"",""value"":""20/07/1967""},{""label"":""PAYMENT_CARD_NUMBER"",""value"":""4187 7347 7848 5889""},{""label"":""GIVENNAME"",""value"":""Ayıq""},{""label"":""CITY"",""value"":""Qırmızı Bazar""},{""label"":""SURNAME"",""value"":""Valiyev""},{""label"":""ICCID"",""value"":""89994695450090255907""},{""label"":""EMAIL"",""value"":""helpdesk.merkezov@azertelekom.az""},{""label"":""GIVENNAME"",""value"":""Səyyab""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a timestamp-prefixed log line or two""],""negative_only"":false,""seed"":364821968,""edge_case"":null,""reference_year"":2026}",source

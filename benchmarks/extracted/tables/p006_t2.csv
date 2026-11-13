@@ -1,0 +1,6 @@
+Cüt,Say,Şərh
+ACCESS_TOKEN -> API_KEY,254,Model iki credential taxonomy-sini ayırmır
+DRIVER_LICENSE -> ID_CARD,224,Format və kontekst sərhədləri zəifdir
+IPV6 -> MAC,180,Hex və kolon pattern-i MAC labelinə çəkilir
+ID_CARD -> DRIVER_LICENSE,56,İkitərəfli sənəd nömrəsi confusion-u
+IBAN -> API_KEY,19,Uzun alfanumerik dəyər taxonomy qarışıqlığı

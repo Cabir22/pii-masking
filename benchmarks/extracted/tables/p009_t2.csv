@@ -1,0 +1,11 @@
+ID,Label,Dəyər,Kontekst
+bench_az_000081,ZIPCODE,AZ1994,"en"": ""2613178631"", ""tarix"": ""18.12.2049"", ""iban"": ""AZ1994"", ""telefon"": ""000"" }"
+bench_az_000259,ZIPCODE,AZ1994,| 814/15 | | sürücülük_vəsiqəsi | ZQ701515 | | iban | AZ1994 | | telefon | 000 |
+bench_az_001417,ICCID,9989993959753043,çürülüb. Sənədin digər hissəsində tracking kodu olaraq 9989993959753043 yazılıb; surəti ödəniş əməliyyatları bölməsinin mart a
+bench_az_002745,ZIPCODE,AZ1994,| 4721 8113 4418 7711 | | soyad | Həkimzadə | | iban | AZ1994 | | telefon | 000 |
+bench_az_004535,ZIPCODE,AZ1994,nömrəsi | 5603 8030 0432 3405 | | cvv | 507 | | iban | AZ1994 | | telefon | 000 |
+bench_az_000474,AZ_FIN,AZ21ABC,məsində qovluğa əlavə olunub. Köhnə hesab tarixçəsində AZ21ABC görünür; müraciət əlavəsi aprel dövrü üçün təhlükəsizl
+bench_az_003407,ZIPCODE,AZ1994,QIHP | | kart_nömrəsi | 5983 0283 2764 4028 | | iban | AZ1994 | | telefon | 000 |
+bench_az_002543,ZIPCODE,AZ1994,k_bench_0588_ZGCZO1cRZD72f7ZSh72TZYFVLHWO;Lahıc;Nasihə;AZ1994; 000
+bench_az_000077,CARD_SECURITY_CODE,89,ət əlavəsi sənədində arxivə köçürülüb. ICCID sahəsində 89 yazılıb.
+bench_az_004474,ZIPCODE,AZ1994,1ebzxcbxve olaraq qeyd edildi. Operator: iban məlumatı AZ1994 olaraq qeyd edildi. Müştəri: telefon məlumatı 000 olar

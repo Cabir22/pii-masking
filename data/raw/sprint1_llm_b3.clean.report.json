@@ -1,0 +1,239 @@
+{
+ "batch": "data\\raw\\sprint1_llm_b3.jsonl",
+ "batch_sha256": "dfdaa15019e3af245bab9fe05ea13ca7bfdbd167a281d5156c3bd60cc36e1648",
+ "clean": "data\\raw\\sprint1_llm_b3.clean.jsonl",
+ "clean_sha256": "c605b7030f8f2ec34db022a14a1ea387ac58fbbbea499e72d54b28962be83df0",
+ "records": 6000,
+ "kept": 5965,
+ "dropped": 35,
+ "dropped_by_reason": {
+  "validate_corpus:unlabeled_pii_leak": 13,
+  "validate_corpus:planned_value_unlabelled": 8,
+  "unplanned_pii": 5,
+  "validate_corpus:validator_failure": 4,
+  "decoy_integrity:not a planted decoy string": 3,
+  "validate_corpus:resolver_drift": 2
+ },
+ "dropped_documents": [
+  {
+   "id": "llm_az_000388",
+   "reasons": [
+    "validate_corpus:resolver_drift"
+   ]
+  },
+  {
+   "id": "llm_az_000477",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_000887",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_001074",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_001077",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_001518",
+   "reasons": [
+    "validate_corpus:resolver_drift"
+   ]
+  },
+  {
+   "id": "llm_az_001610",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_001633",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_001879",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_002330",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002565",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_002752",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_003192",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_003315",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_003644",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_003679",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_004260",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_004395",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_004479",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_004578",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_004717",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_004795",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_004868",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_005022",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_005579",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_005659",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_005750",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_006117",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_006176",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_006261",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_006402",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_006438",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_006480",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_006627",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_006628",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  }
+ ],
+ "unplanned_pii_in_kept": {
+  "documents": 0,
+  "share": 0.0,
+  "pii_free_documents": 0,
+  "by_label": {},
+  "examples": []
+ },
+ "dropped_unplanned_pii": true,
+ "validate_corpus_exit": 0,
+ "leakage_guard_exit": 0
+}

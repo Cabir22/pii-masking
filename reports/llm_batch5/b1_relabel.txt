@@ -1,0 +1,18 @@
+documents: 5,115
+DATE labels: 603 -> 4,142
+unlabelled standalone dates: 3,539 in 2,647 documents (51.7%) -> 0 in 0 (0.0%)
+DATE spans added: 3,539; DATE labels removed (inside a timestamp): 0; documents changed: 2,647
+left unlabelled, by reason: {}
+documents changed, by language: {'az': 2647}
+  e.g. Tarix: 14 May 2016-cı il  Mövzu: Texni
+  e.g. CRM Qeydi | 15.05.2016  Bu gün Naxışbəyim 
+  e.g. [Ses yazisi transkripsiyası - 15.08.2022]  "Salam, men texni
+  e.g. ŞƏXSİ İŞ FAYLI № 0092-X Sənəd tarixi: 12.10.2015  ÜMUMİ MƏLUMAT Vəzi
+  e.g. rması Sənəd nömrəsi: 2026/8842-X Tarix: 14.03.2026  Müraciət edən şəxs
+  e.g. Tarix: 24 oktyabr 2015-ci il Rəsmi Bildiri
+  e.g.  Məbləğ | Status | Hesab_Növü 9928374 | 15.05.2026 | 1240.50 AZN | Şüb
+  e.g. usu	Son_Yenilənmə 3YTAUJJ	Ordubad	Aktiv	12.05.2026  Bundan əlavə, əvvə
+  e.g. Sessiya İdarəetməsi Problemləri  Tarix: 14 May 2026 Prioritet: Kritik  
+  e.g. YA PROSESİ HAKKINDA RƏSMİ SƏNƏD  Tarix: 12 may 2024-cü il  Hörmətli əmə
+  e.g. d message --------- From: Billing Date: 12.10.2017 Subject: Hesab  ID;
+  e.g. 0perasiya təlimatı (Tarix: 12.05.2026): Sistemin l0q fayl

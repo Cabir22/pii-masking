@@ -1,0 +1,12 @@
+{"id": "time_ending_outside_tr_001", "text": "Toplantı saat 01:48'de başlıyor.", "lang": "tr", "family": "time_ending_outside_tr", "pair": 0, "role": "loc", "entities": [{"start": 14, "end": 19, "label": "TIME"}]}
+{"id": "time_ending_outside_tr_002", "text": "Kargo 10:20'de teslim edilecek.", "lang": "tr", "family": "time_ending_outside_tr", "pair": 1, "role": "loc", "entities": [{"start": 6, "end": 11, "label": "TIME"}]}
+{"id": "time_ending_outside_tr_003", "text": "Uçak 19:54'ten önce kalkmaz.", "lang": "tr", "family": "time_ending_outside_tr", "pair": 2, "role": "abl", "entities": [{"start": 5, "end": 10, "label": "TIME"}]}
+{"id": "time_ending_outside_tr_004", "text": "Nöbet 07:17'ye kadar sürüyor.", "lang": "tr", "family": "time_ending_outside_tr", "pair": 3, "role": "dat", "entities": [{"start": 6, "end": 11, "label": "TIME"}]}
+{"id": "time_ending_outside_tr_005", "text": "Sistem 09:43'te yeniden başlatıldı.", "lang": "tr", "family": "time_ending_outside_tr", "pair": 4, "role": "loc", "entities": [{"start": 7, "end": 12, "label": "TIME"}]}
+{"id": "time_ending_outside_tr_006", "text": "Randevunuz saat 09:08'de.", "lang": "tr", "family": "time_ending_outside_tr", "pair": 5, "role": "loc", "entities": [{"start": 16, "end": 21, "label": "TIME"}]}
+{"id": "time_ending_outside_tr_007", "text": "Toplantı saat 04:36'da başlıyor.", "lang": "tr", "family": "time_ending_outside_tr", "pair": 6, "role": "loc", "entities": [{"start": 14, "end": 19, "label": "TIME"}]}
+{"id": "time_ending_outside_tr_008", "text": "Kargo 11:58'de teslim edilecek.", "lang": "tr", "family": "time_ending_outside_tr", "pair": 7, "role": "loc", "entities": [{"start": 6, "end": 11, "label": "TIME"}]}
+{"id": "time_ending_outside_tr_009", "text": "Uçak 10:50'den önce kalkmaz.", "lang": "tr", "family": "time_ending_outside_tr", "pair": 8, "role": "abl", "entities": [{"start": 5, "end": 10, "label": "TIME"}]}
+{"id": "time_ending_outside_tr_010", "text": "Nöbet 18:10'a kadar sürüyor.", "lang": "tr", "family": "time_ending_outside_tr", "pair": 9, "role": "dat", "entities": [{"start": 6, "end": 11, "label": "TIME"}]}
+{"id": "time_ending_outside_tr_011", "text": "Sistem 03:21'de yeniden başlatıldı.", "lang": "tr", "family": "time_ending_outside_tr", "pair": 10, "role": "loc", "entities": [{"start": 7, "end": 12, "label": "TIME"}]}
+{"id": "time_ending_outside_tr_012", "text": "Randevunuz saat 05:23'te.", "lang": "tr", "family": "time_ending_outside_tr", "pair": 11, "role": "loc", "entities": [{"start": 16, "end": 21, "label": "TIME"}]}

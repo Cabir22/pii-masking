@@ -1,0 +1,62 @@
+==========================================================================
+CORPUS VALIDATION -- sprint1_llm_b1.jsonl
+==========================================================================
+records            : 6,000
+entity mentions    : 17,790
+distinct ids       : 6,000
+labels present     : 27/27
+length             : min 35  p50 592  p95 3,282  max 12,421
+doc types          : 42
+sha256             : 1203e6a5dbd78eb935ef3af0d7743c23...
+
+MUST-BE-ZERO CHECKS
+  malformed_json                        0   ok
+  duplicate_id                          0   ok
+  span_text_mismatch                    0   ok
+  span_out_of_range                     0   ok
+  empty_span                            0   ok
+  overlapping_spans                     0   ok
+  duplicate_span                        0   ok
+  unknown_label                         0   ok
+  removed_label                         0   ok
+  zero_width_in_span                    0   ok
+  not_nfc                               0   ok
+  no_entities                           0   ok
+  exact_duplicate_text                  0   ok
+  structural_number_span                0   ok
+  missing_anchor                        0   ok
+  repeat_mention_incomplete             0   ok
+  validator_failure                    33   FAIL
+      e.g. llm_az_000192 language: only 2 az words (need >=3)
+      e.g. llm_az_001073 language: only 3 az words (need >=4)
+      e.g. llm_az_001952 language: only 1 az words (need >=2)
+  unlabeled_pii_leak                    0   ok
+  resolver_drift                        7   FAIL
+      e.g. llm_az_000899 +0 -1 span(s)
+      e.g. llm_az_004039 +0 -1 span(s)
+      e.g. llm_az_004478 +0 -2 span(s)
+
+INFORMATIONAL
+  band_metadata_mismatch              394
+  cyrillic_present                    156
+  near_duplicate                        0
+
+LABEL DISTRIBUTION (actual / target)
+  IPV6_ADDRESS                   238 mentions      161 distinct  ratio 2.23
+  ICCID                          212 mentions      170 distinct  ratio 1.99
+  MAC_ADDRESS                    251 mentions      201 distinct  ratio 1.76
+  AZ_VOEN                        279 mentions      215 distinct  ratio 1.57
+  AZ_DRIVER_LICENSE_NUMBER       277 mentions      213 distinct  ratio 1.56
+  AZ_PASSPORT_NUMBER             320 mentions      233 distinct  ratio 1.50
+  AZ_ID_CARD_NUMBER              357 mentions      264 distinct  ratio 1.34
+  AZ_FIN                         459 mentions      310 distinct  ratio 1.29
+
+==========================================================================
+RESULT: FAIL -- 2 blocking check(s): validator_failure, resolver_drift
+==========================================================================
+json -> reports\b1_validate_before.json
+
+real	0m36.866s
+user	0m0.062s
+sys	0m0.077s
+validate exit 1

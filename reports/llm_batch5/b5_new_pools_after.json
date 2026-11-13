@@ -1,0 +1,267 @@
+{
+ "documents": 21265,
+ "ordinary_words_left_out": {
+  "settlements": {
+   "removed": 267,
+   "kept": 4049,
+   "e.g.": [
+    "abbas",
+    "abdal",
+    "adur",
+    "alam",
+    "alar",
+    "allar",
+    "almalı",
+    "alıc",
+    "alışar",
+    "aran",
+    "araz",
+    "arta",
+    "arzu",
+    "arçal",
+    "arış"
+   ]
+  },
+  "given": {
+   "removed": 285,
+   "kept": 1864,
+   "e.g.": [
+    "leyla",
+    "irem",
+    "amani",
+    "samet",
+    "oya",
+    "suzan",
+    "alper",
+    "omar",
+    "edik",
+    "zaur",
+    "koba",
+    "bill",
+    "savaş",
+    "bekir",
+    "kerem"
+   ]
+  },
+  "surnames": {
+   "removed": 164,
+   "kept": 2895,
+   "e.g.": [
+    "temel",
+    "amani",
+    "asadi",
+    "alper",
+    "omar",
+    "savaş",
+    "ersoy",
+    "ball",
+    "sultanov",
+    "sultan",
+    "hess",
+    "uğur",
+    "alizadeh",
+    "günay",
+    "mayr"
+   ]
+  }
+ },
+ "labelled_new_pool_spans": {
+  "GIVENNAME_foreign_pool": 1221,
+  "CITY_new_pool": 2117,
+  "SURNAME_foreign_pool": 981
+ },
+ "findings": {
+  "foreign_surname": {
+   "documents": 9,
+   "occurrences": 13,
+   "planned": 0,
+   "values": {
+    "Ford": 6,
+    "West": 3,
+    "Çelik": 2,
+    "FİNk": 1,
+    "Renault": 1
+   },
+   "examples": [
+    {
+     "id": "llm_az_000528",
+     "text": "Ford",
+     "planned": false,
+     "context": "- / Mercedes Sprinter\t  | S-01\t| Yanvar     | Yaxşı / Ford Transit        | S-02 | Mart\t      | Orta  (yox, əslind"
+    },
+    {
+     "id": "llm_az_000528",
+     "text": "Ford",
+     "planned": false,
+     "context": "məsi vaxtı gəlib çatır, bu əhəmiyyətli məsələdir. Ford Transit-in motorunda kiçik bir nasazlıq var, yəqin ki, "
+    },
+    {
+     "id": "llm_az_001952",
+     "text": "West",
+     "planned": false,
+     "context": "2025 11:45:30] ERROR: Connection timeout in South-West region. /  / 4. XƏTALARIN HƏLLİ / Odeniş prosesinde xeta yara"
+    },
+    {
+     "id": "llm_az_004671",
+     "text": "Çelik",
+     "planned": false,
+     "context": "xi: 08.01.2021 /  / Məhsul    Miqdar    Qiymət    Kod / Çelik     10 ton    500 USD   X12 / Alət      5 ədəd    200 US"
+    },
+    {
+     "id": "llm_az_011825",
+     "text": "FİNk",
+     "planned": false,
+     "context": "Forwarded: ​Call log / * 198253  ... əhm, FİNk odu C1LX37 / * 4015.65  və @salmdei  və 080002139160873"
+    },
+    {
+     "id": "llm_az_015421",
+     "text": "West",
+     "planned": false,
+     "context": "a yaranıb. Aşağıdakı sətir kopyalanıb: / 8821\tGuest\tWest\tNone /  / Məsələnin tez həll edilməsini tələb edirik."
+    },
+    {
+     "id": "llm_az_019123",
+     "text": "Renault",
+     "planned": false,
+     "context": " İl: 2018 / ID: VX-1006 | Nömrə: 99-AZ-006 | Model: Renault Trucks T | Şassi: VIN22334455667 | İl: 2023 / ID: VX-1"
+    },
+    {
+     "id": "llm_az_019123",
+     "text": "Ford",
+     "planned": false,
+     "context": " İl: 2021 / ID: VX-1008 | Nömrə: 99-AZ-008 | Model: Ford Cargo | Şassi: VIN88776655443 | İl: 2017 / ID: VX-1009 | "
+    },
+    {
+     "id": "llm_az_019123",
+     "text": "Ford",
+     "planned": false,
+     "context": " İl: 2022 / ID: VX-1013 | Nömrə: 99-AZ-013 | Model: Ford Transit | Şassi: VIN77788899900 | İl: 2019 / ID: VX-1014 "
+    },
+    {
+     "id": "llm_az_019123",
+     "text": "Ford",
+     "planned": false,
+     "context": " İl: 2021 / ID: VX-1023 | Nömrə: 99-AZ-023 | Model: Ford Transit | Şassi: VIN57575757575 | İl: 2020 / ID: VX-1024 "
+    },
+    {
+     "id": "llm_az_020455",
+     "text": "Çelik",
+     "planned": false,
+     "context": "Tarix: 05.05.2016 / Çelik Satış Mərkəzi / Faktura №: 88492 / Sifariş ID: 25047145334"
+    },
+    {
+     "id": "llm_az_020963",
+     "text": "West",
+     "planned": false,
+     "context": "r /  / STAFF/47727 /  / ID; 8829; Status; Active; Region; West; 2026 / Process completed."
+    }
+   ]
+  },
+  "settlement": {
+   "documents": 29,
+   "occurrences": 44,
+   "planned": 0,
+   "values": {
+    "Şimal": 15,
+    "Xəzər": 11,
+    "Hil": 4,
+    "Samsun": 3,
+    "Nəsimi": 2,
+    "Şanxay": 2,
+    "Gömür": 1,
+    "Ambu": 1,
+    "Sofiya": 1,
+    "Xətai": 1,
+    "Nərimanov": 1,
+    "Sinqapur": 1,
+    "Həzrə": 1
+   },
+   "examples": [
+    {
+     "id": "llm_az_000718",
+     "text": "Şimal",
+     "place": "Şimal",
+     "planned": false,
+     "context": " kimidir: / ID_KOD\tSTATUS\tREGION\tIL / 4492\tTAMAMLANDI\tŞimal\t2018 / [09:18] Müştəri: Bəli, mən də həmin dövr üçün sor"
+    },
+    {
+     "id": "llm_az_001315",
+     "text": "Nəsimi",
+     "place": "Nəsimi",
+     "planned": false,
+     "context": "sil İdarəetmə Sistemi (TİS) inteqrasiya qeydləri /  / Nəsimi Bilik Mərkəzi - Texniki İdarəetmə və Log Sənədi\t(2023"
+    },
+    {
+     "id": "llm_az_001363",
+     "text": "Şimal",
+     "place": "Şimal",
+     "planned": false,
+     "context": "atus | Məbləğ | Region | Şərh / Hazır | 65023 TRY | Şimal | Problemlər yoxdur /  / 04.11.2016"
+    },
+    {
+     "id": "llm_az_001544",
+     "text": "Gömürk",
+     "place": "Gömür",
+     "planned": false,
+     "context": "Bu sənəd 12.07.2023 tarixində tərtib edilib. Gömürk—yəni gömrük bəyannam- / əsindəki bəzi nasazlıqlara görə"
+    },
+    {
+     "id": "llm_az_003141",
+     "text": "Ambulator",
+     "place": "Ambu",
+     "planned": false,
+     "context": " /  / Pasientin parametrləri: / Cinsiyyət: Kişi / Status: Ambulator /  / Hematoloji Müayinə Nəticələri: / Tədqiqat növü: Qan"
+    },
+    {
+     "id": "llm_az_004198",
+     "text": "Sofiyarzadə",
+     "place": "Sofiya",
+     "planned": false,
+     "context": "7-10-05 14:30:12] WARNING: Invalid_access_attempt_Sofiyarzadə / [2017-10-05 14:32:45] CRITICAL: Identity_validat"
+    },
+    {
+     "id": "llm_az_004745",
+     "text": "Xəzər",
+     "place": "Xəzər",
+     "planned": false,
+     "context": "Xəzər Universiteti – Tələbə İdarəetmə Sistemi Arxiv Sənədi /  / "
+    },
+    {
+     "id": "llm_az_004963",
+     "text": "Xətaİ",
+     "place": "Xətai",
+     "planned": false,
+     "context": "ləri avtomatlaşdırılmış rejimdə olmalıdır. /  / ## 3. Xətaİ darəetməsi və Bərpa /  / Əgər bazada mləumattların itməsi "
+    },
+    {
+     "id": "llm_az_007549",
+     "text": "Şimali",
+     "place": "Şimal",
+     "planned": false,
+     "context": "  | Yüngül yük | Gözləmədə            | / | RT-04 | Şimali Terminal       | Blok yük   | Xəta                 | / "
+    },
+    {
+     "id": "llm_az_007727",
+     "text": "Xəzər",
+     "place": "Xəzər",
+     "planned": false,
+     "context": "en=c4128Oxm9djtHtUCoIaceJ8XgwXwpaZshFlHoZQjTrlJJ /  / Xəzər Loqistika / Texniki Şöbə"
+    },
+    {
+     "id": "llm_az_008438",
+     "text": "Xəzər",
+     "place": "Xəzər",
+     "planned": false,
+     "context": "unub. Problemin texniki tərəfi araşdırılmalıdır. /  / Xəzər Loq Dəstək Komandası"
+    },
+    {
+     "id": "llm_az_008638",
+     "text": "Hilux",
+     "place": "Hil",
+     "planned": false,
+     "context": "əsinin xüsusi göstəriciləri: / Marka: Toyota / Model: Hilux / Qeydiyyat tarixi: 23.4.2008 / Posta kodu: AZ1123 / Əlavə k"
+    }
+   ]
+  }
+ }
+}

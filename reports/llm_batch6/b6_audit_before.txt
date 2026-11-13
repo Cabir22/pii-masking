@@ -1,0 +1,92 @@
+documents: 24,000
+
+1. PLANNED VALUES PRESENT BUT UNLABELLED: 0 occurrence(s) in 0 document(s)
+   of which a value with no labelled occurrence at all (count): 0 in 0 document(s) {}
+   by label: {}
+   by form : {}
+   planned values with no labelled occurrence, by label (share of that label's plans):
+   STREET 25/2793 (0.9%), AZ_VOEN 4/698 (0.6%), DATE 64/11333 (0.6%), TIME 4/1494 (0.3%), AZ_ID_CARD_NUMBER 4/1694 (0.2%), SURNAME 46/22093 (0.2%), CITY 6/3541 (0.2%), GIVENNAME 57/33276 (0.2%)
+
+2. LABELS THAT DISAGREE WITH THE PLAN: 200  {'changed by noise after labelling (ok)': 188, 'not a form of any planned value': 4, 'standalone date, D-17 (ok)': 8}
+   llm_az_000448  changed by noise after labelling (ok): GIVENNAME 'Güla-\nhidə'  ... bu məsələnin həlli üçün melumat verdi. [[Güla- hidə]] ödəniş edilməlidir. O, 34 yaşında birid...
+   llm_az_000522  changed by noise after labelling (ok): SURNAME 'Nazi-\nlovaya'  ...və ya zərərçəkən kimi qeyd olunan Tirmə [[Nazi- lovaya]] şəxsi məlumatları və əlaqə vasitələri ü...
+   llm_az_000522  changed by noise after labelling (ok): CITY 'Şək-\ni'  ...3 olaraq qeyd edilmişdir. Bu məlumatlar [[Şək- i]] şəhərində və Abdullu pr. ərazisində yaş...
+   llm_az_000529  not a form of any planned value: CITY 'Gnəcədə'  ...[[Gnəcədə]] açılmış iş üzrə məhkəmənin 0rganizasiya...
+   llm_az_000553  changed by noise after labelling (ok): DATE 'O6.11.2024'  ...ilersiniz:  Telefon: +994-50-739-42-73  [[O6.11.2024]]...
+
+3. DECOY INTEGRITY: 23881 decoy span(s) checked, 9437 policy/contextual; problems: {'not a planted decoy string': 13}
+   llm_az_002264  not a planted decoy string: ORDER_ID 'S-O-451354'  ...u hər bir təklifi dərhal yoxlayacaqlar. [[S-O-451354]] kodlu sifariş çərçivəsində təqdim oluna...
+   llm_az_002338  not a planted decoy string: MAC_LIKE_HASH '76:1c:cf:f2:d3:84:85:c5:57:da:39:a2:69:95-7d:6b'  ...lərlə qarşılaşmışıq. Daxili sistemlərdə [[76:1c:cf:f2:d3:84:85:c5:57:da:39:a2:69:95-7d:6b]] kodu və ending in 7545 olan sənədlərin ...
+   llm_az_003608  not a planted decoy string: MAC_LIKE_HASH '23:a4:b2:59:0d:c8:2e:0b:5d:41:e3:c8:d1:e5-dd:28'  ... bu uzun kodlar belə ağlımı qarışdırır: [[23:a4:b2:59:0d:c8:2e:0b:5d:41:e3:c8:d1:e5-dd:28]]. Bir sənəddə doğum tarixi ***-***-1966 ...
+   llm_az_004292  not a planted decoy string: public_key_block '-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEqu6vhYNmG8n1SBhmeRmiHdMocC71\n8ccqYaMfcYGK2m9GlPxMXt8d/0pJXJIeFAB6rQ2gqKHa+oWGNnZ9Vq5t2w==\n-----END PUBLIC   KEY-----'  ...əlumatların ötürülməsi zamanı açıq açar [[-----BEGIN PUBLIC KEY----- MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEqu6vhYNmG8n1SBhmeRmiHdMocC71 8ccqYaMfcYGK2m9GlPxMXt8d/0pJXJIeFAB6rQ2gqKHa+oWGNnZ9Vq5t2w== -----END PUBLIC   KEY-----]] istifadəsi.  Operativ direktor bildirib...
+   llm_az_004336  not a planted decoy string: MASKED_CARD '6996  **** **** 5420'  ...is əməliyyatinda istifade olunan vasite [[6996  **** **** 5420]] nomreli kartdir.  Meselenin	2021-ci il ...
+
+4. RATES (share of all documents)
+   hard_negative  requested 30.0%   in the text 28.1%   in the briefs 29.5%
+   adversarial    requested 20.0%   in the text 19.3%   in the briefs 19.4%
+   pii_free       requested 10.0%   in the text 9.8%
+   edge_case      requested 30.0%   in the text 30.1%
+   any decoy in the text (_hard_negatives > 0, the batch-1 README's measure): 35.0%
+   label share / target, furthest off: DATE 2.13, IPV6_ADDRESS 1.99, GIVENNAME 1.93, SURNAME 1.68, MAC_ADDRESS 1.59, TELEPHONENUM 0.48
+
+5. D-9: {'mentions': 70712, 'suffixed (label includes the suffix)': 15971}
+   D-10: {'documents of 1-5 words': 3}
+   validate_example failures: none
+
+7. INDEPENDENT SWEEP, PII THE MODEL INVENTED (informational): 0 document(s) (0.0%), 0 of them declared PII-free; {}
+
+8. STANDALONE DATES LEFT UNLABELLED (D-17; timestamps excluded): 0 in 0 document(s) (0.0%); {}. scripts/relabel_standalone_dates.py labels them
+
+6. REJECTS: 3,230
+     2214   68.5%  quality
+      375   11.6%  validation
+      279    8.6%  leaked unlabeled PII
+      249    7.7%  judgment leak
+       56    1.7%  taxonomy label leaked into text
+       38    1.2%  no entities resolved
+       17    0.5%  api
+        2    0.1%  missing values
+   name rejects: {'name rejects': 1, 'planned value labelled in an inflected form': 1}
+   top-10 sub-reasons:
+     1234  quality | invented PII (CITY)
+            e.g. Bakı Şəhər İcra Hakimiyyəti İnzibati Xidmətlər İdarəsi  MƏLUMAT BİLDİRİŞİ  Bu bildiriş, şəhər ərazisindəki dövlət xidmətlərinin rəqəmsallaşdırılması və şəxsi mə
+            e.g. ## Bakı Şəhər Məhkəməsi - Rəsmi Məhkəmə Bildirişi və Çağırış  ---  ### İşin Rejimi və Təcililik Səviyyəsi  **İşin nömrəsi:** 2017/CIV-0912-AZ **Məhkəmənin Statu
+            e.g. Bakı Şəhər Məhkəməsi tərəfindən elan edilir.  2019-cu ilin sentyabr ayında açılmış mülki iş üzrə tərəflər arasında yaranmış mübahisənin həlli üçün məhkəmə  icla
+      418  quality | unlabelled date (D-N)
+            e.g. GÖNDƏRİLDİ: 12 iyun 2019-cu il 10:15 GÖNDƏRƏN: muntezir.furseddinov@icloud.com MÖVZU: hüquqi bildiriş  Hörmətli Eldarovalara,  Bu bildirişlə üzr istəyirik ki, ə
+            e.g. ---------- Yönləndirilmiş mesaj --------- Tarix: 15 sentyabr 2018 Mövzu: Rəsmi bildiriş  | Bölmə      | Detallar                      | |------------|----------
+            e.g. Göndərən: İdarə rəhbərliyi Tarix: 15 oktyabr 2022 Mövzu: Sənəd daxilolması  [09:45:12] Müraciət qəbul edildi. [09:45:15] Məlumat bazasına yazılır.  Rəsmi müraci
+      204  judgment leak | ['…']
+            e.g. [Sistem: Yeni sessiya başladıldı. Tarix: 2025]  Operator: Salam, elektron xidmət mərkəzinə xoş gəlmisiniz. Sizin üçün nə edə bilərik?  Müraciətçi: Slm, bir prob
+            e.g. Tarix: 09.12.2016  Bakı seher (typo) mehkemesi (typo) tərəfindən rəsmi bildiriş və çağırış.  Bu bildiriş, Bakı Şəhər Məhkəməsinin mülki işlər bölməsi tərəfindən
+            e.g. Arxiv Sistemində Texniki Nasazlıqlar Barədə Bildiriş  2015–2016-cı illər ərzində şəhər idarə heyəti arxiv sistemində bəzi texniki xətaların bas verdiyini bildir
+      184  validation | language: only N az words
+            e.g. oauth_M2oBB4vtiMKwxaXl4bXyYBgrJMahLe3B39PvK sessiya tokeni və apikey_M2oBB4vtiMKwxaXl4bXyYBgrJMahLe3B39PvK API açarı – ****39PvK tədarükü elan olunur.
+            e.g. Tarix: 07.10.2019 Parametr | Dəyər Ünvan | Bina 26 | “Aktiv” – [Sistem] Açar | eyJhbGciOiJQUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1MjEzODU2MiIsImlhdCI6MTc4MTk1OTIz
+            e.g. ASC oauth_Rt3NZls2gXafZW7dec1aGEXdaEfCZCT girişi və svc_Rt3NZls2gXafZW7dec1aGEXdaEfCZCT API açarı tədarükü üçün tender 30 noyabr 2024-cü il bitir.
+      132  quality | planned value never labeled (SURNAME, misspelled)
+            e.g. Maliyyə Nəzarəti və Təhlükəsizlik Standartlarının Yenilənməsi  2019-cu ildə yerli maliyyə sektorunda genişmiqyaslı struktur dəyişkilikləri və nəzarət mexanuzmlə
+            e.g. Sənəd tarixi: 12.11.2025 Ayatullazanın nəzarəti ilə STAFF/26045 qrupu tərəfindən yeni qaydalar təsdiqlənmişdir. Əlavə məlumat üçün 099 189 14 41 nömrəsi ilə əla
+            e.g. ## Alov Enerji Sirkəti Yeni Təhlukesizlik Pr0tokollari Haqqinda Melumat Verir  Alov Enerji sirketi reqemsal	infrastrukturun tehlükesizliyini artirmaq meqsedile 
+      123  quality | invented PII (STREET)
+            e.g. SATINALMA ELANI  "Azərbaycan Enerji Sistemləri" ASC 2016-cı ilin son rübü üçün tələb olunan ofis avadanlıqları və mebellərinin tədarük edilməsi  məqsədilə açıq 
+            e.g. Baki seher mehkemesi elan edir.  2017-ci ilin may ayında açılmış mülkiyyət hüququna dair iş üzrə məhkəmə baxışı teyin olunub. Məhkəmə bildirmək isteyir ki, müba
+            e.g. Təcili tender elanı! 2017-ci ildə  planlaşdırılan materialların tədarükü  üçü- n təkliflər dərhal təqdim olunmalıdır.  Gecikməyə  heç bir halda yol verilməs- in
+      118  validation | turkish_lexis: buyuk
+            e.g. Pircahan ərazisində yeni infrastruktur layihəsi haqqında rəsmi bəyanat  Bu sənəd 24/05/2016 tarixində tərtib edilmişdir və Pircahan şəhərində icra olunan yeni i
+            e.g. BAKI STEEL LOGISTIKA ŞİRKƏTİ STRATEJİ GENİŞLƏNMƏ VƏ YENİ LOGİSTİK MƏRKƏZİNİN AÇILIŞINI ELAN EDİR  Bakı Steel Logistika, Azərbaycanın logistika sektorunda lider 
+            e.g. **TƏCİLİ: REGİONDA İQTİSADİ SƏRGİSTƏNİŞMƏ VƏ GÖZLƏNİLMEZ ADDIMLAR: HƏR KƏS DİQQƏTLİ OLSUN!**  2022-ci ilin bu günlərində, yerli sənaye zonalarında və ticarət şə
+       94  quality | planned value never labeled (GIVENNAME, misspelled)
+            e.g. Rəqəmsal Təhlükəsizlik Standartlarının və Şəxsiyyətin Təsdiqlənməsi Protokollarının Yenilənməsi Haqqında  Bakı, 2024-cü il. Azərbaycan Respublikasının rəqəmsal 
+            e.g. RƏSMI HÜQUQI BILDIRIŞ  [2022-04-10 11:05] LOG_INFO: SYSTEM_CHECK_INITIATED... [2022-04-10 11:08] LOG_WARN: UNEXPECTED_PACKET_SIZE FROM fd00::1  HÖRMƏTLI BAŞXANI
+            e.g. Göndərən: Hüquq şöbəsi Tarix: 25 iyul 2026 Mövzu: Rəsmi bildiriş  Bu sənəd 25 iyul 2026 tarixində tərtib edilib.  Müzəyyəmin təqdim etdiyi məlumatların yoxlanıl
+       41  judgment leak | ['…', '…']
+            e.g. TƏCİLİ TƏCHİZAT VƏ TENDER ELANI: İNFRASRUKTURUN MODERNİZASİYA VƏ TEXNİKİ AVESDUARIN TƏCHİZATI  DİQQƏT: BU ELAN ÇOX YÜKSƏK Dərəcəli TƏCİLİYYƏT DAŞIYIR.  Azərbayc
+            e.g. Tarix: 27.06.2016  ## Yerli ərazidə maliyyə sızıntısı və şəffaf idarəetmə problemləri  Son vaxtlar bölgəmizdə baş verən bir sıra qeyri-adi maliyyə əməliyyatları
+            e.g. 2015-ci ilin may ayı  MƏHKƏMƏNİN TƏCİLİ VƏ MUHUM BİLDİRİŞİ  Məhkəmə tərəfindən açılmış hüquqi və maliyyə araşdırması işi üzrə bütün aidiyyatlı tərəflərin diqqət
+       38  no entities resolved | 
+            e.g. Müraciət nömrəsi E-751604  olaraq qeydə alındı. Çıxarışda göstərilib ki, yaş: 1282 olan şəxs üçün əlaqə nömrəsi+994556902865 olmalıdır. 2016-cı ildə təsdiqlənmi
+            e.g. AZƏRBAYCAN RESPUBLIKASI MÜLKİ İŞLƏR MƏHKƏMƏSİNƏ  İş № 2023/442-AZ 2023-cü il  MÜDDİAÇI: Mülkiyyət hüquqlarının qorunmasını tələb edən şəxs CAVABDEH: Ərazinin mü
+            e.g. Bakı Şəhər Məhkəməsi tərəfindən 2015-ci ildə elan edilir.  Mülkiyyət hüquqları ilə bağlı açılmış mülki iş üzrə məhkəmə iclası təyin olunmuşdur. Məsälənin - yox,
+
+json -> reports\llm_batch6\b6_audit_before.json

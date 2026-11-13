@@ -1,0 +1,94 @@
+documents: 6,000
+
+1. PLANNED VALUES PRESENT BUT UNLABELLED: 0 occurrence(s) in 0 document(s)
+   of which a value with no labelled occurrence at all (count): 0 in 0 document(s) {}
+   by label: {}
+   by form : {}
+   planned values with no labelled occurrence, by label (share of that label's plans):
+   DATE 5/659 (0.8%), SURNAME 9/1436 (0.6%), CARD_SECURITY_CODE 1/245 (0.4%), STREET 3/737 (0.4%), GIVENNAME 6/1731 (0.4%), TIME 1/347 (0.3%), BUILDINGNUM 1/509 (0.2%), CITY 1/894 (0.1%)
+
+2. LABELS THAT DISAGREE WITH THE PLAN: 58  {'changed by noise after labelling (ok)': 43, 'not a form of any planned value': 15}
+   llm_az_000346  changed by noise after labelling (ok): GIVENNAME 'Su-\nnayənin'  ...tarixli rəsmi qeydlərinə əsasən, tələbə [[Su- nayənin]] məlumatları yenilənmişdir. Şəxsiyyət və...
+   llm_az_000383  not a form of any planned value: BUILDINGNUM 'l14'  ...riş sistemi  Aşağıdakı prosedurlar bina [[l14]] üçün tətbiq olunmalıdır. Bu təlimat “Gi...
+   llm_az_000388  not a form of any planned value: DATE '1997-03-07'  ...od | tok_1cjUu5bglB1SYTjZaHr-n |  00429	[[1997-03-07]]	20:54	ERR_LOG  Bu xətanı görmürsünüz? Ç...
+   llm_az_000620  changed by noise after labelling (ok): SURNAME 'əVlicanova'  ...017 Mövzu :MüŞtəri məlumatı ----------  [[əVlicanova]] xanımla əlaqə saxlanıldı. Müştəri şərtl...
+   llm_az_000626  changed by noise after labelling (ok): GIVENNAME 'ərxaraya'  ... mesaj gəldi ve  hər  şey  duzeldildi.  [[ərxaraya]] cok  təşəkkür edirəm,  bu  xidmət  həqi...
+
+3. DECOY INTEGRITY: 6372 decoy span(s) checked, 2551 policy/contextual; problems: {'not a planted decoy string': 3}
+   llm_az_004479  not a planted decoy string: MAC_LIKE_HASH '8c:18:94:ca:68:13:00:f2:20:09:6b:07:cb:45:5a-2d'  ...i parametrləri: - Cihaz identifikatoru: [[8c:18:94:ca:68:13:00:f2:20:09:6b:07:cb:45:5a-2d]] - Referans kodu: 978-9-788-73591-5  [TI...
+   llm_az_004717  not a planted decoy string: MASKED_CARD '••••  8005'  ...ur.  Bununla yanaşı, kartın son hissəsi [[••••  8005]] olan əməliyyatların icrası zamanı da bə...
+   llm_az_006261  not a planted decoy string: MASKED_CARD '3984\t**** **** 3053'  ...er. Bu da problem yaradır.	Kart nömrəsi [[3984	**** **** 3053]] kimi, digər hissəsi isə 866922824730439...
+
+4. RATES (share of all documents)
+   hard_negative  requested 30.0%   in the text 28.3%   in the briefs 29.6%
+   adversarial    requested 20.0%   in the text 19.7%   in the briefs 19.8%
+   pii_free       requested 10.0%   in the text 10.2%
+   edge_case      requested 30.0%   in the text 31.2%
+   any decoy in the text (_hard_negatives > 0, the batch-1 README's measure): 35.1%
+   label share / target, furthest off: IPV6_ADDRESS 1.64, ICCID 1.55, TIME 1.34, MAC_ADDRESS 1.27, AZ_ID_CARD_NUMBER 1.27, AZ_VOEN 1.23
+
+5. D-9: {'mentions': 7742, 'suffixed (label includes the suffix)': 2899}
+   D-10: {'documents of 1-5 words': 6}
+   validate_example failures: none
+
+7. INDEPENDENT SWEEP, PII THE MODEL INVENTED (informational): 0 document(s) (0.0%), 0 of them declared PII-free; {}
+
+8. STANDALONE DATES LEFT UNLABELLED (D-17; timestamps excluded): 3747 in 3058 document(s) (51.0%); {'labellable': 3746, 'no anchor': 1}. scripts/relabel_standalone_dates.py labels them
+   llm_az_000000  '14.11.2018'  ...ÇATDIRILMA MANİFESTİ Tarix: [[14.11.2018]] Sifariş №: 77210  Bu yükün gəlməsi ilə ...
+   llm_az_000002  '10.11.2025'  ...Tarix: [[10.11.2025]]. Xəstə çox narahatdır və hər şeyi qarış...
+   llm_az_000003  '05.09.2018'  ..._№|Status|Tarix|Məbləğ AZ-882|Gözləmədə|[[05.09.2018]]|940.00 Vəziyyət kritikdir, xətanı təcil...
+   llm_az_000004  '14 oktyabr 2022'  ...ALICI: Müştəri Xidmətləri Şöbəsi TARİX: [[14 oktyabr 2022]] MÖVZU: Avtomatlaşdırılmış təsdiqləmə xə...
+   llm_az_000005  '12.03.2025'  ...(Səs yazısı transkripti - [[12.03.2025]])  Müştəri Xidməti: Salam, Alo Enerji də...
+
+6. REJECTS: 831
+      247   29.7%  quality
+      196   23.6%  validation
+      175   21.1%  leaked unlabeled PII
+      100   12.0%  judgment leak
+       90   10.8%  taxonomy label leaked into text
+       14    1.7%  api
+        9    1.1%  no entities resolved
+   name rejects: {}
+   top-10 sub-reasons:
+      176  validation | language: only N az words
+            e.g. Tarix: 14.03.21 Müştəri ünvanı 198/7, FİN kodu EPLRLWE. af:77:b4:5b:e0:97:45:73:00:0f:e8:7f:7c:c6:33:54, 978-4-152-88121-8.  İnsan Resursları Meneceri
+            e.g. Müştəri: Doğum tarixi 5 may 1959-ci il olan profil üçün token budur : eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNzIyODQzIiwiaWF0IjoxODA4MTAxNTA4LCJleHAiO
+            e.g. Kamranovanın kodunda yaşı 1411 və SIM kartın ICCID nömrəsi 890724 xətaları aşkar edildi. [2021-10-05] debug: timeout ID | cef88cf
+      113  quality | invented PII (CITY)
+            e.g. GÖMRÜK BƏYANNAMƏSİ (İMDALAT)  Bəyannamə nömrəsi: ****7732 Tarix: 22 Noyabr 2017  ---  İDXALÇI MƏLUMATLARI Ünvan: Nizami küçəsi, bina 188, Bakı. Təmsilçi: İdxal 
+            e.g. Bakı Şəhər Məhkəməsi Məhkəmə işi № 2019-CV-0452 Tarix: 15 noyabr 2019-cu il  MƏHKƏMƏ İŞİ ÜZRƏ RƏQƏMSAL SÜBUTLARIN TƏHLİLİ VƏ SİSTEM LOGLARININ TƏQDİMATI  Bu sən
+            e.g. Bakı Şəhər Klinik Tibb Mərkəzi Klinik Müayinə və Tibbi Protokol  Sənəd №: 2026-MED-4492 Tarix: 14 may 2026-cı il  XƏSTƏ HAQQINDA ÜMUMİ MƏLUMAT VƏ ANAMNEZ: Xəstə
+       85  judgment leak | ['…']
+            e.g. Pull Request Review - PR #882 (Refactor backend logic) Tarix: 14 May 2026  Salam, ümumi baxışım belədir ki, kodun bir hissəsi kifayət qədər yaxşıdır, amma bəzi 
+            e.g. Daxili API Sənədləşməsi – Sistem İnteqrasiyası (2019)  Bu sənəd yalnız daxili əməkdaşların istifadəsi üçün nəzərdə tutulub. Sistem daxilində bütün əməliyyatlar 
+            e.g. BİLET №: #AZ-99283-2026-ESCALATION Tarix: 14 Noyabr 2026 Status: ESKALASİYA - ÇOX YÜKSƏK PRIORİTET Mövzu: SİSTEMƏ GİRİŞ QADAĞASI VƏ TEXNİKİ NASAZLIQ HAQQINDA Şİ
+       61  taxonomy label leaked into text | TIME
+            e.g. # SİSTEM KONFİQURASİYA PARAMETRLƏRİ [2023] # Bu sənəd daxili şəbəkə infrastrukturu üçün təyin edilmiş texniki parametrləri əks etdirir.  [NETWORK_SETTINGS] Para
+            e.g. Səs yazısının avtomatik transkripsiyası Tarix: 12.05.2015 Müddət: 05:45  (Səs başlayır) Salam, zəhmət olmasa, bu mesajı bir anlıq dinləyin. Hər şey çox gözəl ge
+            e.g. Nəqliyyat vasitəsinin texniki xidmət qeydiyyatı (2015) Xidmət vaxtı:   TIME: 11:55 Vəziyyət:       Tamamlanmışdır
+       39  quality | invented PII (STREET)
+            e.g. Xəta Hesabatı: #88291 Tarix: 14.10.2021 Status: Açıq  Mövzu: Ünvan təyini modulu - Bina nömrəsinin yanlış emalı  Təsvir: Ünvan daxiletmə modulunda ciddi xəta aş
+            e.g. ## Sahə Xidmətlərinin İdarə Edilməsi: Daxili Əməliyyat Təlimatı (2025)  ### Giriş  Salam, komanda! Bu sənəd 2025-ci ilin yeni texniki standartlarına və xidmət p
+            e.g. Mini Mağza Tarix: 12.08.2017 14:30  Xoş gəldiniz! Sifarişiniz üçün çox sağ olun.  Məhsu1       Qiym (AZN) ------------------------- Çörk         0.50 Süd       
+       24  quality | planned value never labeled (SURNAME, misspelled)
+            e.g. # Dilbazananın girişi # Pasport nömrəsi W12758017 kimi qeyd olunub 2019-06-12    Dilbazanova    W12758017
+            e.g. Müqavilənin tərəfi Allahyarovv — yox, Allahyarov olmalıdır. > Razıyam.
+            e.g. Bugün Mətləbovlarla olduqca səmimi və xoş bir söhbət etdim. Ailə ümumiyyətlə çox mehriban və müsbət enerjili insanlardır. 2017–ci ilin yeni xidmət paketləri haq
+       20  leaked unlabeled PII | EMAIL:support@hal-x.ai
+            e.g. Musteri Profili ve Status: ------------------------------------------------------------ Parametr            | Mevcut Durum --------------------|----------------
+            e.g. Hörmətli müştəri,  Ümid edirik ki, hər şey yolundadır və işləriniz uğurla davam edir. Biz bu məktubu sizə bir az rəsmi xarakterli, lakin səmimi bir xəbərdarlıq 
+            e.g. Tarix: 12.11.2026 Ödəniş Qəbzi  Hörmətli Mirzağa İrzazadə, Sifarişiniz üçün ödəniş kartın ****0939 sonluğu ilə tamamlandı. Əməliyyat nömrəsi 9845 4861 9867 0939
+       19  leaked unlabeled PII | IPVN:N.N.N.N
+            e.g. # [CORE_SYSTEM_CONFIG_v2025_PROD] # Tarix: 2025-05-14 # Bu konfiqurasiya fayli sistemin stabil islenmesi ucun kritik melumatlar icmal edir. # Melumatlar teklikl
+            e.g. [SİSTEM LOGU - BAKI ORTA MƏKTƏB İDARƏETMƏ SİSTEMİ] [Sistem Versiyası: 4.12.0-build-2018] [Tarix: 2018-11-12] [Status: Aktiv]  ---  [2018-11-12 07:55:01] [INFO] 
+            e.g. # HAL-X SİSTEM KONFİQURASİYASI # Versiya: 2.4.1-build-2021 # Son yenilənmə tarixi: 12.10.2021 # Bu sənəd mərkəzi serverin bildiriş və əlaqə protokollarını tənzi
+       18  taxonomy label leaked into text | DATE
+            e.g. HADİSƏ HAQQINDA RƏPTOR – 2023-cü İL Sənəd nömrəsi: 8842/23 Status: TƏCİLİ / KRİTİK  I. HADİSƏNİN BAŞLANĞICI VƏ İLK MƏLUMATLAR 2023-cü ilin noyabr ayının 14-ü ta
+            e.g. From: Texnik To: Menecer Date: 20.05.2017 Subject: Sistem yeniləməsi və yeni əməkdaşın girişi  Salam,  Yeni sistemin inteqrasiyası ilə bağlı bütün işləri tamaml
+            e.g. # SYSTEM_CORE_CONFIG_2021_V1 # Bu konfiqurasiya fayli Mergen AI infrastrukturuna aid sistemin   parametrlərini ehtiva edir. # Zehmet olmasa, bu fayl üzərində sə
+       16  quality | invented PII (GIVENNAME)
+            e.g. From: Numan Hacixanov <numan.hacixanov@xezerlog.az> Sent: 14 Noyabr 2019 11:20 To: Logistika şöbəsi Subject: Fwd: Sənəd və kuryer məsələsi  Salam,  Yenə o sirli
+            e.g. BAKI ŞƏHƏR BAŞ POLİS İDARƏSİ HADİSƏ PROTOKOLU № 2015/0842-AZ  Tarix: 14 noyabr 2015-ci il Məsul zabit: Detektiv Leyla Məmmədova  ---  ## 1. HADİSƏNİN ÜMUMİ TƏSV
+            e.g. Xəta Hesabatı: Ödəniş və Qeydiyyat Modulunda Texniki Nasazlıq Tarix: 14 Noyabr 2022 Status: Prioritetli (Kritik)  Xəta üçün üzr istəyirəm, əvvəlki sınaq mərhələ
+
+json -> reports\llm_batch3\b3_audit_before.json

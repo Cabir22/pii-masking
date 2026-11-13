@@ -1,0 +1,10 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000072,"Təcili: İşçinin əlaqə məlumatları yenilənməlidir!
+
+Məlumat bazasından kopyalnmış sətir:
+ID_KOD | STATUS | TEL_№
+0942 | SƏLİHLİ | 077 222 20-96
+
+> Əməkdaşla əlaqə saxlanılması üçün dərhal nizamlamalar edilməlidir – bu məsələnin həlli gecikdirilməmməlidir.
+
+Şəxsi nömrə: 077 222 20-96",az,"[{""start"":129,""end"":142,""label"":""TELEPHONENUM"",""text"":""077 222 20-96""},{""start"":269,""end"":282,""label"":""TELEPHONENUM"",""text"":""077 222 20-96""}]",hr_record,short,urgent and escalating,"[""typos""]",0,0,llm,"{""index"":72,""lang"":""az"",""doc_type"":""hr_record"",""doc_type_hint"":""an HR record, offer letter, or performance note"",""register"":""urgent and escalating"",""band"":""short"",""min_chars"":150,""max_chars"":400,""length_hint"":""a short paragraph"",""entities"":[{""label"":""TELEPHONENUM"",""value"":""077 222 20-96""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a quoted reply section with '>' markers"",""include a line that was clearly pasted from a spreadsheet"",""include a copy-paste artifact such as smart quotes or an en-dash""],""negative_only"":false,""seed"":1354705301,""edge_case"":null,""reference_year"":2022}",source

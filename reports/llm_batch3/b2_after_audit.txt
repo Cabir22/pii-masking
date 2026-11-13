@@ -1,0 +1,37 @@
+documents: 5,802
+
+1. PLANNED VALUES PRESENT BUT UNLABELLED: 0 occurrence(s) in 0 document(s)
+   of which a value with no labelled occurrence at all (count): 0 in 0 document(s) {}
+   by label: {}
+   by form : {}
+   planned values with no labelled occurrence, by label (share of that label's plans):
+   DATE 4/684 (0.6%), STREET 4/706 (0.6%), SURNAME 4/1336 (0.3%), TIME 1/378 (0.3%), GIVENNAME 4/1633 (0.2%), AGE 1/444 (0.2%), TELEPHONENUM 1/1463 (0.1%), ACCESS_TOKEN 0/251 (0.0%)
+
+2. LABELS THAT DISAGREE WITH THE PLAN: 3660  {'standalone date, D-17 (ok)': 3640, 'changed by noise after labelling (ok)': 20}
+   llm_az_000001  standalone date, D-17 (ok): DATE '12 oktyabr 2018'  ...Tarix: [[12 oktyabr 2018]]  Agent: Salam, xoş gəldiniz! Mən Leyla,...
+   llm_az_000004  standalone date, D-17 (ok): DATE '14.05.2022'  ...[[14.05.2022]] 10:05:12 - Görüş başladı. 10:12:44 - Xə...
+   llm_az_000005  standalone date, D-17 (ok): DATE '22 noyabr 2015'  ...[Səs yazısının transkripsiyası] Tarix: [[22 noyabr 2015]]  "Salam, ümid edirəm hər şey yolundadır...
+   llm_az_000006  standalone date, D-17 (ok): DATE '22.04.2026'  ...Hesab-faktura Tarix: [[22.04.2026]]  Xidmət haqqının ödənilməsi barədə xəbə...
+   llm_az_000009  standalone date, D-17 (ok): DATE '12 Oktyabr 2024'  ...inda Hesabat (Tələb № 2024-089)  Tarix: [[12 Oktyabr 2024]]  Bu sənəd, sığorta təminatı çərçivəsind...
+
+3. DECOY INTEGRITY: 5952 decoy span(s) checked, 2373 policy/contextual; problems: none
+
+4. RATES (share of all documents)
+   hard_negative  requested 30.0%   in the text 27.5%   in the briefs 28.7%
+   adversarial    requested 20.0%   in the text 19.0%   in the briefs 19.0%
+   pii_free       requested 10.0%   in the text 10.0%
+   edge_case      requested 30.0%   in the text 31.0%
+   any decoy in the text (_hard_negatives > 0, the batch-1 README's measure): 33.9%
+   label share / target, furthest off: DATE 4.45, IPV6_ADDRESS 1.48, ICCID 1.38, BUILDINGNUM 0.69, EMAIL 0.74, MAC_ADDRESS 1.24
+
+5. D-9: {'mentions': 7126, 'suffixed (label includes the suffix)': 2644}
+   D-10: {'documents of 1-5 words': 2}
+   validate_example failures: none
+
+7. INDEPENDENT SWEEP, PII THE MODEL INVENTED (informational): 0 document(s) (0.0%), 0 of them declared PII-free; {}
+
+8. STANDALONE DATES LEFT UNLABELLED (D-17; timestamps excluded): 2 in 2 document(s) (0.0%); {'no anchor': 2}. scripts/relabel_standalone_dates.py labels them
+   llm_az_003674  '2026—05-15'  ...         | uznure.emreddinov@yandex.ru  [[2026—05-15]]	DÜZƏLİŞ_BİLDİRİŞİ	SİSTEM_YENİLƏNMƏSİ...
+   llm_az_005453  '2016-05–28'  ...ayıq. Sənədlərin hamısı sistemdə var.  [[[2016-05–28]]] - Geri dönüş alındı. Müştəri müqavilən...
+
+json -> reports\llm_batch3\b2_after_audit.json

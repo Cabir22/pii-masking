@@ -1,0 +1,8 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000242,"Kredit müraciəti qeydiyyatı (Tarix: 14.05.2016)
+
+Müraciət növü:  İpoteka kredisi
+Təsdiq kodu:   ASIA539R60MRD15G41YU
+Status:        Gözləmədə
+
+Müştəri şərtlər ilə tanış olmuşdur və əlavə sənədləri təqdim etməsi üçün...",az,"[{""start"":96,""end"":116,""label"":""API_KEY"",""text"":""ASIA539R60MRD15G41YU""}]",loan_application,short,formal and businesslike,[],0,0,llm,"{""index"":242,""lang"":""az"",""doc_type"":""loan_application"",""doc_type_hint"":""a credit or loan application record"",""register"":""formal and businesslike"",""band"":""short"",""min_chars"":150,""max_chars"":400,""length_hint"":""a short paragraph"",""entities"":[{""label"":""API_KEY"",""value"":""ASIA539R60MRD15G41YU""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""use a table-like layout with aligned columns"",""leave one sentence unfinished, as people do when interrupted""],""negative_only"":false,""seed"":176242312,""edge_case"":null,""reference_year"":2016}",source

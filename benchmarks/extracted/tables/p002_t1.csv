@@ -1,0 +1,9 @@
+Yoxlama,Nəticə
+Benchmark əhatəsi,5000 / 5000 prediction; frozen qiymətləndirmə korpusu tam əhatə olunub
+Prediction-dataset hash,Mismatch: 0
+Matching,"Label, start və end tam eyni olmalıdır"
+Model və cihaz,masking-multilingual; Apple MPS; batch size 1
+Müddət,851.21 saniyə; 5.87 sənəd/saniyə
+Data strukturu,"5000 unikal ID/text; offset, overlap və label auditində problem yoxdur"
+Token limiti,Qiymətləndirmə korpusunda 512-ni keçən nümunə yoxdur
+Error registry,benchmark_analysis_5000/error_cases.csv

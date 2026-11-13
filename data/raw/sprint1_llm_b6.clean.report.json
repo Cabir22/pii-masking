@@ -1,0 +1,167 @@
+{
+ "batch": "data\\raw\\sprint1_llm_b6.jsonl",
+ "batch_sha256": "28a438044fdc59f1ef5648e925ff905579cfd1e14ef6def0c43c4b22c98ce31a",
+ "clean": "data\\raw\\sprint1_llm_b6.clean.jsonl",
+ "clean_sha256": "7b3a8cb252b12c47302148cc973fc77aab4cb9a7fe916c1ca2780893c29c49f5",
+ "records": 24000,
+ "kept": 23977,
+ "dropped": 23,
+ "dropped_by_reason": {
+  "decoy_integrity:not a planted decoy string": 13,
+  "value_repeated_20x_or_more": 7,
+  "validate_corpus:not_nfc": 1,
+  "validate_corpus:resolver_drift": 1,
+  "leakage_guard:sentences": 1
+ },
+ "dropped_documents": [
+  {
+   "id": "llm_az_000599",
+   "reasons": [
+    "value_repeated_20x_or_more"
+   ]
+  },
+  {
+   "id": "llm_az_002264",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_002338",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_003608",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_003977",
+   "reasons": [
+    "validate_corpus:not_nfc"
+   ]
+  },
+  {
+   "id": "llm_az_004292",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_004336",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_006670",
+   "reasons": [
+    "value_repeated_20x_or_more"
+   ]
+  },
+  {
+   "id": "llm_az_010540",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_011929",
+   "reasons": [
+    "value_repeated_20x_or_more"
+   ]
+  },
+  {
+   "id": "llm_az_012265",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_012342",
+   "reasons": [
+    "validate_corpus:resolver_drift"
+   ]
+  },
+  {
+   "id": "llm_az_012736",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_016136",
+   "reasons": [
+    "leakage_guard:sentences"
+   ]
+  },
+  {
+   "id": "llm_az_016260",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_017258",
+   "reasons": [
+    "value_repeated_20x_or_more"
+   ]
+  },
+  {
+   "id": "llm_az_017575",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_021427",
+   "reasons": [
+    "value_repeated_20x_or_more"
+   ]
+  },
+  {
+   "id": "llm_az_022532",
+   "reasons": [
+    "value_repeated_20x_or_more"
+   ]
+  },
+  {
+   "id": "llm_az_023806",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_024695",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_025485",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_027196",
+   "reasons": [
+    "value_repeated_20x_or_more"
+   ]
+  }
+ ],
+ "unplanned_pii_in_kept": {
+  "documents": 0,
+  "share": 0.0,
+  "pii_free_documents": 0,
+  "by_label": {},
+  "examples": []
+ },
+ "dropped_unplanned_pii": true,
+ "max_value_repeats": 20,
+ "validate_corpus_exit": 0,
+ "leakage_guard_exit": 0
+}

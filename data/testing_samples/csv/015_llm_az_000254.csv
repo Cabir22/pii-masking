@@ -1,0 +1,8 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000254,"2021-11-141 4:22:05 - Xətai Klinnikası - Sistem xəbərdarlıığ: Şübhəli əməliyyat təsdiqlənmədi.
+2021-11-14 14:25:10 - Xətai Klinikası - Təcili: Xəstənin tibbi məlumatlarına giriş zamanı IP ünvanı 942e:853f:791c:a5fe:b99c:d79a:67e4:4121 ilə konflikt yarandı.
+
+Xəstənin ödəniş prosesində 4722145593766183 kart nömrəsi ilə bağlı cidi xəta baş verdi. Vəziyyət kritikdir, dərhal müdaxilə lazımdır.
+
+> Cavab:
+> Ödəniş sistemindək bu kəsilmə təcili həll edilməlidir, əks halda xəstəyə müalicə göstərilməsi mümkün olmayacaq.",az,"[{""start"":195,""end"":234,""label"":""IPV6_ADDRESS"",""text"":""942e:853f:791c:a5fe:b99c:d79a:67e4:4121""},{""start"":285,""end"":301,""label"":""PAYMENT_CARD_NUMBER"",""text"":""4722145593766183""}]",medical_note,short,urgent and escalating,"[""typos""]",0,0,llm,"{""index"":254,""lang"":""az"",""doc_type"":""medical_note"",""doc_type_hint"":""a clinical note or referral letter"",""register"":""urgent and escalating"",""band"":""short"",""min_chars"":150,""max_chars"":400,""length_hint"":""a short paragraph"",""entities"":[{""label"":""IPV6_ADDRESS"",""value"":""942e:853f:791c:a5fe:b99c:d79a:67e4:4121""},{""label"":""PAYMENT_CARD_NUMBER"",""value"":""4722145593766183""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a timestamp-prefixed log line or two"",""include a quoted reply section with '>' markers""],""negative_only"":false,""seed"":672295356,""edge_case"":null,""reference_year"":2021}",source

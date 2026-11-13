@@ -1,0 +1,2294 @@
+{
+ "en": {
+  "train": {
+   "docs": 142468,
+   "written": 140818,
+   "doc_loss_pct": 1.16,
+   "entity_loss_pct": 1.33,
+   "not_in_source": 0,
+   "entities_source": 521768,
+   "entities_translated": 514827,
+   "labels": {
+    "ACCESS_TOKEN": {
+     "source": 7468,
+     "kept": 6965,
+     "lost": 503,
+     "lost_pct": 6.74,
+     "translated": 6965,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "AGE": {
+     "source": 11605,
+     "kept": 11469,
+     "lost": 136,
+     "lost_pct": 1.17,
+     "translated": 11469,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "API_KEY": {
+     "source": 11027,
+     "kept": 10838,
+     "lost": 189,
+     "lost_pct": 1.71,
+     "translated": 10838,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "AZ_DRIVER_LICENSE_NUMBER": {
+     "source": 10965,
+     "kept": 10873,
+     "lost": 92,
+     "lost_pct": 0.84,
+     "translated": 10873,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_FIN": {
+     "source": 8911,
+     "kept": 8818,
+     "lost": 93,
+     "lost_pct": 1.04,
+     "translated": 8818,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_ID_CARD_NUMBER": {
+     "source": 13356,
+     "kept": 13231,
+     "lost": 125,
+     "lost_pct": 0.94,
+     "translated": 13231,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_PASSPORT_NUMBER": {
+     "source": 6099,
+     "kept": 6046,
+     "lost": 53,
+     "lost_pct": 0.87,
+     "translated": 6046,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_VOEN": {
+     "source": 5537,
+     "kept": 5469,
+     "lost": 68,
+     "lost_pct": 1.23,
+     "translated": 5469,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "BUILDINGNUM": {
+     "source": 12273,
+     "kept": 12078,
+     "lost": 195,
+     "lost_pct": 1.59,
+     "translated": 12078,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "CARD_SECURITY_CODE": {
+     "source": 6394,
+     "kept": 6185,
+     "lost": 209,
+     "lost_pct": 3.27,
+     "translated": 6185,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "CITY": {
+     "source": 28784,
+     "kept": 28385,
+     "lost": 399,
+     "lost_pct": 1.39,
+     "translated": 28385,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "DATE": {
+     "source": 68907,
+     "kept": 68022,
+     "lost": 885,
+     "lost_pct": 1.28,
+     "translated": 68022,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "EMAIL": {
+     "source": 41269,
+     "kept": 40805,
+     "lost": 464,
+     "lost_pct": 1.12,
+     "translated": 40805,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "GIVENNAME": {
+     "source": 91752,
+     "kept": 90468,
+     "lost": 1284,
+     "lost_pct": 1.4,
+     "translated": 90468,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IBAN": {
+     "source": 6523,
+     "kept": 6474,
+     "lost": 49,
+     "lost_pct": 0.75,
+     "translated": 6474,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "ICCID": {
+     "source": 3914,
+     "kept": 3883,
+     "lost": 31,
+     "lost_pct": 0.79,
+     "translated": 3883,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IPV4_ADDRESS": {
+     "source": 8433,
+     "kept": 8342,
+     "lost": 91,
+     "lost_pct": 1.08,
+     "translated": 8342,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IPV6_ADDRESS": {
+     "source": 6420,
+     "kept": 6400,
+     "lost": 20,
+     "lost_pct": 0.31,
+     "translated": 6400,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "MAC_ADDRESS": {
+     "source": 6443,
+     "kept": 6408,
+     "lost": 35,
+     "lost_pct": 0.54,
+     "translated": 6408,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "PAYMENT_CARD_NUMBER": {
+     "source": 8062,
+     "kept": 7987,
+     "lost": 75,
+     "lost_pct": 0.93,
+     "translated": 7987,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "PRIVATE_KEY": {
+     "source": 3313,
+     "kept": 3285,
+     "lost": 28,
+     "lost_pct": 0.85,
+     "translated": 3285,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "STREET": {
+     "source": 18851,
+     "kept": 18554,
+     "lost": 297,
+     "lost_pct": 1.58,
+     "translated": 18554,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "SURNAME": {
+     "source": 64145,
+     "kept": 63326,
+     "lost": 819,
+     "lost_pct": 1.28,
+     "translated": 63326,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TELEPHONENUM": {
+     "source": 35242,
+     "kept": 34840,
+     "lost": 402,
+     "lost_pct": 1.14,
+     "translated": 34840,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TIME": {
+     "source": 12975,
+     "kept": 12767,
+     "lost": 208,
+     "lost_pct": 1.6,
+     "translated": 12767,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "URL": {
+     "source": 8738,
+     "kept": 8659,
+     "lost": 79,
+     "lost_pct": 0.9,
+     "translated": 8659,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "ZIPCODE": {
+     "source": 14362,
+     "kept": 14250,
+     "lost": 112,
+     "lost_pct": 0.78,
+     "translated": 14250,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    }
+   }
+  },
+  "val": {
+   "docs": 17764,
+   "written": 17600,
+   "doc_loss_pct": 0.92,
+   "entity_loss_pct": 1.33,
+   "not_in_source": 0,
+   "entities_source": 65721,
+   "entities_translated": 64848,
+   "labels": {
+    "ACCESS_TOKEN": {
+     "source": 961,
+     "kept": 910,
+     "lost": 51,
+     "lost_pct": 5.31,
+     "translated": 910,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "AGE": {
+     "source": 1462,
+     "kept": 1438,
+     "lost": 24,
+     "lost_pct": 1.64,
+     "translated": 1438,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "API_KEY": {
+     "source": 1354,
+     "kept": 1331,
+     "lost": 23,
+     "lost_pct": 1.7,
+     "translated": 1331,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "AZ_DRIVER_LICENSE_NUMBER": {
+     "source": 1388,
+     "kept": 1374,
+     "lost": 14,
+     "lost_pct": 1.01,
+     "translated": 1374,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_FIN": {
+     "source": 1121,
+     "kept": 1111,
+     "lost": 10,
+     "lost_pct": 0.89,
+     "translated": 1111,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_ID_CARD_NUMBER": {
+     "source": 1677,
+     "kept": 1658,
+     "lost": 19,
+     "lost_pct": 1.13,
+     "translated": 1658,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_PASSPORT_NUMBER": {
+     "source": 758,
+     "kept": 747,
+     "lost": 11,
+     "lost_pct": 1.45,
+     "translated": 747,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_VOEN": {
+     "source": 680,
+     "kept": 677,
+     "lost": 3,
+     "lost_pct": 0.44,
+     "translated": 677,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "BUILDINGNUM": {
+     "source": 1567,
+     "kept": 1538,
+     "lost": 29,
+     "lost_pct": 1.85,
+     "translated": 1538,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "CARD_SECURITY_CODE": {
+     "source": 791,
+     "kept": 772,
+     "lost": 19,
+     "lost_pct": 2.4,
+     "translated": 772,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "CITY": {
+     "source": 3669,
+     "kept": 3626,
+     "lost": 43,
+     "lost_pct": 1.17,
+     "translated": 3626,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "DATE": {
+     "source": 8639,
+     "kept": 8547,
+     "lost": 92,
+     "lost_pct": 1.06,
+     "translated": 8547,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "EMAIL": {
+     "source": 5176,
+     "kept": 5086,
+     "lost": 90,
+     "lost_pct": 1.74,
+     "translated": 5086,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "GIVENNAME": {
+     "source": 11522,
+     "kept": 11371,
+     "lost": 151,
+     "lost_pct": 1.31,
+     "translated": 11371,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IBAN": {
+     "source": 804,
+     "kept": 797,
+     "lost": 7,
+     "lost_pct": 0.87,
+     "translated": 797,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "ICCID": {
+     "source": 486,
+     "kept": 479,
+     "lost": 7,
+     "lost_pct": 1.44,
+     "translated": 479,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IPV4_ADDRESS": {
+     "source": 1054,
+     "kept": 1043,
+     "lost": 11,
+     "lost_pct": 1.04,
+     "translated": 1043,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IPV6_ADDRESS": {
+     "source": 754,
+     "kept": 747,
+     "lost": 7,
+     "lost_pct": 0.93,
+     "translated": 747,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "MAC_ADDRESS": {
+     "source": 816,
+     "kept": 801,
+     "lost": 15,
+     "lost_pct": 1.84,
+     "translated": 801,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "PAYMENT_CARD_NUMBER": {
+     "source": 1005,
+     "kept": 985,
+     "lost": 20,
+     "lost_pct": 1.99,
+     "translated": 985,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "PRIVATE_KEY": {
+     "source": 383,
+     "kept": 381,
+     "lost": 2,
+     "lost_pct": 0.52,
+     "translated": 381,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "STREET": {
+     "source": 2356,
+     "kept": 2328,
+     "lost": 28,
+     "lost_pct": 1.19,
+     "translated": 2328,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "SURNAME": {
+     "source": 8108,
+     "kept": 8010,
+     "lost": 98,
+     "lost_pct": 1.21,
+     "translated": 8010,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TELEPHONENUM": {
+     "source": 4526,
+     "kept": 4479,
+     "lost": 47,
+     "lost_pct": 1.04,
+     "translated": 4479,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TIME": {
+     "source": 1711,
+     "kept": 1693,
+     "lost": 18,
+     "lost_pct": 1.05,
+     "translated": 1693,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "URL": {
+     "source": 1112,
+     "kept": 1102,
+     "lost": 10,
+     "lost_pct": 0.9,
+     "translated": 1102,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "ZIPCODE": {
+     "source": 1841,
+     "kept": 1817,
+     "lost": 24,
+     "lost_pct": 1.3,
+     "translated": 1817,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    }
+   }
+  },
+  "test": {
+   "docs": 17747,
+   "written": 17596,
+   "doc_loss_pct": 0.85,
+   "entity_loss_pct": 1.15,
+   "not_in_source": 0,
+   "entities_source": 66172,
+   "entities_translated": 65411,
+   "labels": {
+    "ACCESS_TOKEN": {
+     "source": 976,
+     "kept": 917,
+     "lost": 59,
+     "lost_pct": 6.05,
+     "translated": 917,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "AGE": {
+     "source": 1538,
+     "kept": 1520,
+     "lost": 18,
+     "lost_pct": 1.17,
+     "translated": 1520,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "API_KEY": {
+     "source": 1325,
+     "kept": 1297,
+     "lost": 28,
+     "lost_pct": 2.11,
+     "translated": 1297,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "AZ_DRIVER_LICENSE_NUMBER": {
+     "source": 1378,
+     "kept": 1359,
+     "lost": 19,
+     "lost_pct": 1.38,
+     "translated": 1359,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_FIN": {
+     "source": 1108,
+     "kept": 1093,
+     "lost": 15,
+     "lost_pct": 1.35,
+     "translated": 1093,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_ID_CARD_NUMBER": {
+     "source": 1655,
+     "kept": 1639,
+     "lost": 16,
+     "lost_pct": 0.97,
+     "translated": 1639,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_PASSPORT_NUMBER": {
+     "source": 678,
+     "kept": 675,
+     "lost": 3,
+     "lost_pct": 0.44,
+     "translated": 675,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_VOEN": {
+     "source": 661,
+     "kept": 655,
+     "lost": 6,
+     "lost_pct": 0.91,
+     "translated": 655,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "BUILDINGNUM": {
+     "source": 1518,
+     "kept": 1503,
+     "lost": 15,
+     "lost_pct": 0.99,
+     "translated": 1503,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "CARD_SECURITY_CODE": {
+     "source": 834,
+     "kept": 806,
+     "lost": 28,
+     "lost_pct": 3.36,
+     "translated": 806,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "CITY": {
+     "source": 3676,
+     "kept": 3637,
+     "lost": 39,
+     "lost_pct": 1.06,
+     "translated": 3637,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "DATE": {
+     "source": 8698,
+     "kept": 8632,
+     "lost": 66,
+     "lost_pct": 0.76,
+     "translated": 8632,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "EMAIL": {
+     "source": 5230,
+     "kept": 5166,
+     "lost": 64,
+     "lost_pct": 1.22,
+     "translated": 5166,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "GIVENNAME": {
+     "source": 11832,
+     "kept": 11689,
+     "lost": 143,
+     "lost_pct": 1.21,
+     "translated": 11689,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IBAN": {
+     "source": 786,
+     "kept": 778,
+     "lost": 8,
+     "lost_pct": 1.02,
+     "translated": 778,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "ICCID": {
+     "source": 528,
+     "kept": 520,
+     "lost": 8,
+     "lost_pct": 1.52,
+     "translated": 520,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "IPV4_ADDRESS": {
+     "source": 1153,
+     "kept": 1136,
+     "lost": 17,
+     "lost_pct": 1.47,
+     "translated": 1136,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "IPV6_ADDRESS": {
+     "source": 852,
+     "kept": 851,
+     "lost": 1,
+     "lost_pct": 0.12,
+     "translated": 851,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "MAC_ADDRESS": {
+     "source": 813,
+     "kept": 812,
+     "lost": 1,
+     "lost_pct": 0.12,
+     "translated": 812,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "PAYMENT_CARD_NUMBER": {
+     "source": 997,
+     "kept": 994,
+     "lost": 3,
+     "lost_pct": 0.3,
+     "translated": 994,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "PRIVATE_KEY": {
+     "source": 398,
+     "kept": 395,
+     "lost": 3,
+     "lost_pct": 0.75,
+     "translated": 395,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "STREET": {
+     "source": 2384,
+     "kept": 2356,
+     "lost": 28,
+     "lost_pct": 1.17,
+     "translated": 2356,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "SURNAME": {
+     "source": 8192,
+     "kept": 8105,
+     "lost": 87,
+     "lost_pct": 1.06,
+     "translated": 8105,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TELEPHONENUM": {
+     "source": 4494,
+     "kept": 4453,
+     "lost": 41,
+     "lost_pct": 0.91,
+     "translated": 4453,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TIME": {
+     "source": 1590,
+     "kept": 1575,
+     "lost": 15,
+     "lost_pct": 0.94,
+     "translated": 1575,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "URL": {
+     "source": 1080,
+     "kept": 1067,
+     "lost": 13,
+     "lost_pct": 1.2,
+     "translated": 1067,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "ZIPCODE": {
+     "source": 1798,
+     "kept": 1781,
+     "lost": 17,
+     "lost_pct": 0.95,
+     "translated": 1781,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    }
+   }
+  }
+ },
+ "tr": {
+  "train": {
+   "docs": 142468,
+   "written": 139494,
+   "doc_loss_pct": 2.09,
+   "entity_loss_pct": 2.48,
+   "not_in_source": 0,
+   "entities_source": 521768,
+   "entities_translated": 508823,
+   "labels": {
+    "ACCESS_TOKEN": {
+     "source": 7468,
+     "kept": 6910,
+     "lost": 558,
+     "lost_pct": 7.47,
+     "translated": 6910,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "AGE": {
+     "source": 11605,
+     "kept": 11354,
+     "lost": 251,
+     "lost_pct": 2.16,
+     "translated": 11354,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "API_KEY": {
+     "source": 11027,
+     "kept": 10723,
+     "lost": 304,
+     "lost_pct": 2.76,
+     "translated": 10723,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_DRIVER_LICENSE_NUMBER": {
+     "source": 10965,
+     "kept": 10659,
+     "lost": 306,
+     "lost_pct": 2.79,
+     "translated": 10659,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_FIN": {
+     "source": 8911,
+     "kept": 8745,
+     "lost": 166,
+     "lost_pct": 1.86,
+     "translated": 8745,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_ID_CARD_NUMBER": {
+     "source": 13356,
+     "kept": 13059,
+     "lost": 297,
+     "lost_pct": 2.22,
+     "translated": 13059,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_PASSPORT_NUMBER": {
+     "source": 6099,
+     "kept": 6007,
+     "lost": 92,
+     "lost_pct": 1.51,
+     "translated": 6007,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_VOEN": {
+     "source": 5537,
+     "kept": 5408,
+     "lost": 129,
+     "lost_pct": 2.33,
+     "translated": 5408,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "BUILDINGNUM": {
+     "source": 12273,
+     "kept": 11908,
+     "lost": 365,
+     "lost_pct": 2.97,
+     "translated": 11908,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "CARD_SECURITY_CODE": {
+     "source": 6394,
+     "kept": 6197,
+     "lost": 197,
+     "lost_pct": 3.08,
+     "translated": 6197,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "CITY": {
+     "source": 28784,
+     "kept": 27956,
+     "lost": 828,
+     "lost_pct": 2.88,
+     "translated": 27956,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "DATE": {
+     "source": 68907,
+     "kept": 67054,
+     "lost": 1853,
+     "lost_pct": 2.69,
+     "translated": 67054,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "EMAIL": {
+     "source": 41269,
+     "kept": 40325,
+     "lost": 944,
+     "lost_pct": 2.29,
+     "translated": 40325,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "GIVENNAME": {
+     "source": 91752,
+     "kept": 89468,
+     "lost": 2284,
+     "lost_pct": 2.49,
+     "translated": 89468,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IBAN": {
+     "source": 6523,
+     "kept": 6420,
+     "lost": 103,
+     "lost_pct": 1.58,
+     "translated": 6420,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "ICCID": {
+     "source": 3914,
+     "kept": 3835,
+     "lost": 79,
+     "lost_pct": 2.02,
+     "translated": 3835,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IPV4_ADDRESS": {
+     "source": 8433,
+     "kept": 8247,
+     "lost": 186,
+     "lost_pct": 2.21,
+     "translated": 8247,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IPV6_ADDRESS": {
+     "source": 6420,
+     "kept": 6350,
+     "lost": 70,
+     "lost_pct": 1.09,
+     "translated": 6350,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "MAC_ADDRESS": {
+     "source": 6443,
+     "kept": 6354,
+     "lost": 89,
+     "lost_pct": 1.38,
+     "translated": 6354,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "PAYMENT_CARD_NUMBER": {
+     "source": 8062,
+     "kept": 7909,
+     "lost": 153,
+     "lost_pct": 1.9,
+     "translated": 7909,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "PRIVATE_KEY": {
+     "source": 3313,
+     "kept": 3264,
+     "lost": 49,
+     "lost_pct": 1.48,
+     "translated": 3264,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "STREET": {
+     "source": 18851,
+     "kept": 18222,
+     "lost": 629,
+     "lost_pct": 3.34,
+     "translated": 18222,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "SURNAME": {
+     "source": 64145,
+     "kept": 62717,
+     "lost": 1428,
+     "lost_pct": 2.23,
+     "translated": 62717,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TELEPHONENUM": {
+     "source": 35242,
+     "kept": 34476,
+     "lost": 766,
+     "lost_pct": 2.17,
+     "translated": 34476,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TIME": {
+     "source": 12975,
+     "kept": 12630,
+     "lost": 345,
+     "lost_pct": 2.66,
+     "translated": 12630,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "URL": {
+     "source": 8738,
+     "kept": 8539,
+     "lost": 199,
+     "lost_pct": 2.28,
+     "translated": 8539,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "ZIPCODE": {
+     "source": 14362,
+     "kept": 14087,
+     "lost": 275,
+     "lost_pct": 1.91,
+     "translated": 14087,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    }
+   }
+  },
+  "val": {
+   "docs": 17764,
+   "written": 17401,
+   "doc_loss_pct": 2.04,
+   "entity_loss_pct": 2.68,
+   "not_in_source": 0,
+   "entities_source": 65721,
+   "entities_translated": 63958,
+   "labels": {
+    "ACCESS_TOKEN": {
+     "source": 961,
+     "kept": 887,
+     "lost": 74,
+     "lost_pct": 7.7,
+     "translated": 887,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "AGE": {
+     "source": 1462,
+     "kept": 1437,
+     "lost": 25,
+     "lost_pct": 1.71,
+     "translated": 1437,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "API_KEY": {
+     "source": 1354,
+     "kept": 1303,
+     "lost": 51,
+     "lost_pct": 3.77,
+     "translated": 1303,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "AZ_DRIVER_LICENSE_NUMBER": {
+     "source": 1388,
+     "kept": 1347,
+     "lost": 41,
+     "lost_pct": 2.95,
+     "translated": 1347,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_FIN": {
+     "source": 1121,
+     "kept": 1092,
+     "lost": 29,
+     "lost_pct": 2.59,
+     "translated": 1092,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_ID_CARD_NUMBER": {
+     "source": 1677,
+     "kept": 1626,
+     "lost": 51,
+     "lost_pct": 3.04,
+     "translated": 1626,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_PASSPORT_NUMBER": {
+     "source": 758,
+     "kept": 738,
+     "lost": 20,
+     "lost_pct": 2.64,
+     "translated": 738,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_VOEN": {
+     "source": 680,
+     "kept": 673,
+     "lost": 7,
+     "lost_pct": 1.03,
+     "translated": 673,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "BUILDINGNUM": {
+     "source": 1567,
+     "kept": 1534,
+     "lost": 33,
+     "lost_pct": 2.11,
+     "translated": 1534,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "CARD_SECURITY_CODE": {
+     "source": 791,
+     "kept": 765,
+     "lost": 26,
+     "lost_pct": 3.29,
+     "translated": 765,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "CITY": {
+     "source": 3669,
+     "kept": 3543,
+     "lost": 126,
+     "lost_pct": 3.43,
+     "translated": 3543,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "DATE": {
+     "source": 8639,
+     "kept": 8420,
+     "lost": 219,
+     "lost_pct": 2.54,
+     "translated": 8420,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "EMAIL": {
+     "source": 5176,
+     "kept": 5018,
+     "lost": 158,
+     "lost_pct": 3.05,
+     "translated": 5018,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "GIVENNAME": {
+     "source": 11522,
+     "kept": 11220,
+     "lost": 302,
+     "lost_pct": 2.62,
+     "translated": 11220,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IBAN": {
+     "source": 804,
+     "kept": 786,
+     "lost": 18,
+     "lost_pct": 2.24,
+     "translated": 786,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "ICCID": {
+     "source": 486,
+     "kept": 482,
+     "lost": 4,
+     "lost_pct": 0.82,
+     "translated": 482,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IPV4_ADDRESS": {
+     "source": 1054,
+     "kept": 1036,
+     "lost": 18,
+     "lost_pct": 1.71,
+     "translated": 1036,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IPV6_ADDRESS": {
+     "source": 754,
+     "kept": 742,
+     "lost": 12,
+     "lost_pct": 1.59,
+     "translated": 742,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "MAC_ADDRESS": {
+     "source": 816,
+     "kept": 799,
+     "lost": 17,
+     "lost_pct": 2.08,
+     "translated": 799,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "PAYMENT_CARD_NUMBER": {
+     "source": 1005,
+     "kept": 983,
+     "lost": 22,
+     "lost_pct": 2.19,
+     "translated": 983,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "PRIVATE_KEY": {
+     "source": 383,
+     "kept": 380,
+     "lost": 3,
+     "lost_pct": 0.78,
+     "translated": 380,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "STREET": {
+     "source": 2356,
+     "kept": 2296,
+     "lost": 60,
+     "lost_pct": 2.55,
+     "translated": 2296,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "SURNAME": {
+     "source": 8108,
+     "kept": 7878,
+     "lost": 230,
+     "lost_pct": 2.84,
+     "translated": 7878,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TELEPHONENUM": {
+     "source": 4526,
+     "kept": 4417,
+     "lost": 109,
+     "lost_pct": 2.41,
+     "translated": 4417,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TIME": {
+     "source": 1711,
+     "kept": 1671,
+     "lost": 40,
+     "lost_pct": 2.34,
+     "translated": 1671,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "URL": {
+     "source": 1112,
+     "kept": 1086,
+     "lost": 26,
+     "lost_pct": 2.34,
+     "translated": 1086,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "ZIPCODE": {
+     "source": 1841,
+     "kept": 1799,
+     "lost": 42,
+     "lost_pct": 2.28,
+     "translated": 1799,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    }
+   }
+  },
+  "test": {
+   "docs": 17747,
+   "written": 17451,
+   "doc_loss_pct": 1.67,
+   "entity_loss_pct": 2.36,
+   "not_in_source": 0,
+   "entities_source": 66172,
+   "entities_translated": 64612,
+   "labels": {
+    "ACCESS_TOKEN": {
+     "source": 976,
+     "kept": 894,
+     "lost": 82,
+     "lost_pct": 8.4,
+     "translated": 894,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "AGE": {
+     "source": 1538,
+     "kept": 1507,
+     "lost": 31,
+     "lost_pct": 2.02,
+     "translated": 1507,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "API_KEY": {
+     "source": 1325,
+     "kept": 1291,
+     "lost": 34,
+     "lost_pct": 2.57,
+     "translated": 1291,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_DRIVER_LICENSE_NUMBER": {
+     "source": 1378,
+     "kept": 1337,
+     "lost": 41,
+     "lost_pct": 2.98,
+     "translated": 1337,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "AZ_FIN": {
+     "source": 1108,
+     "kept": 1078,
+     "lost": 30,
+     "lost_pct": 2.71,
+     "translated": 1078,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_ID_CARD_NUMBER": {
+     "source": 1655,
+     "kept": 1615,
+     "lost": 40,
+     "lost_pct": 2.42,
+     "translated": 1615,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_PASSPORT_NUMBER": {
+     "source": 678,
+     "kept": 669,
+     "lost": 9,
+     "lost_pct": 1.33,
+     "translated": 669,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_VOEN": {
+     "source": 661,
+     "kept": 643,
+     "lost": 18,
+     "lost_pct": 2.72,
+     "translated": 643,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "BUILDINGNUM": {
+     "source": 1518,
+     "kept": 1501,
+     "lost": 17,
+     "lost_pct": 1.12,
+     "translated": 1501,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "CARD_SECURITY_CODE": {
+     "source": 834,
+     "kept": 804,
+     "lost": 30,
+     "lost_pct": 3.6,
+     "translated": 804,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "CITY": {
+     "source": 3676,
+     "kept": 3576,
+     "lost": 100,
+     "lost_pct": 2.72,
+     "translated": 3576,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "DATE": {
+     "source": 8698,
+     "kept": 8503,
+     "lost": 195,
+     "lost_pct": 2.24,
+     "translated": 8503,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "EMAIL": {
+     "source": 5230,
+     "kept": 5125,
+     "lost": 105,
+     "lost_pct": 2.01,
+     "translated": 5125,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "GIVENNAME": {
+     "source": 11832,
+     "kept": 11533,
+     "lost": 299,
+     "lost_pct": 2.53,
+     "translated": 11533,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IBAN": {
+     "source": 786,
+     "kept": 769,
+     "lost": 17,
+     "lost_pct": 2.16,
+     "translated": 769,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "ICCID": {
+     "source": 528,
+     "kept": 520,
+     "lost": 8,
+     "lost_pct": 1.52,
+     "translated": 520,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IPV4_ADDRESS": {
+     "source": 1153,
+     "kept": 1127,
+     "lost": 26,
+     "lost_pct": 2.25,
+     "translated": 1127,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IPV6_ADDRESS": {
+     "source": 852,
+     "kept": 846,
+     "lost": 6,
+     "lost_pct": 0.7,
+     "translated": 846,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "MAC_ADDRESS": {
+     "source": 813,
+     "kept": 808,
+     "lost": 5,
+     "lost_pct": 0.62,
+     "translated": 808,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "PAYMENT_CARD_NUMBER": {
+     "source": 997,
+     "kept": 990,
+     "lost": 7,
+     "lost_pct": 0.7,
+     "translated": 990,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "PRIVATE_KEY": {
+     "source": 398,
+     "kept": 392,
+     "lost": 6,
+     "lost_pct": 1.51,
+     "translated": 392,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "STREET": {
+     "source": 2384,
+     "kept": 2320,
+     "lost": 64,
+     "lost_pct": 2.68,
+     "translated": 2320,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "SURNAME": {
+     "source": 8192,
+     "kept": 7990,
+     "lost": 202,
+     "lost_pct": 2.47,
+     "translated": 7990,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TELEPHONENUM": {
+     "source": 4494,
+     "kept": 4396,
+     "lost": 98,
+     "lost_pct": 2.18,
+     "translated": 4396,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TIME": {
+     "source": 1590,
+     "kept": 1547,
+     "lost": 43,
+     "lost_pct": 2.7,
+     "translated": 1547,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "URL": {
+     "source": 1080,
+     "kept": 1057,
+     "lost": 23,
+     "lost_pct": 2.13,
+     "translated": 1057,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "ZIPCODE": {
+     "source": 1798,
+     "kept": 1774,
+     "lost": 24,
+     "lost_pct": 1.33,
+     "translated": 1774,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    }
+   }
+  }
+ },
+ "ru": {
+  "train": {
+   "docs": 142468,
+   "written": 137064,
+   "doc_loss_pct": 3.79,
+   "entity_loss_pct": 6.41,
+   "not_in_source": 0,
+   "entities_source": 521768,
+   "entities_translated": 488328,
+   "labels": {
+    "ACCESS_TOKEN": {
+     "source": 7468,
+     "kept": 7078,
+     "lost": 390,
+     "lost_pct": 5.22,
+     "translated": 7078,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AGE": {
+     "source": 11605,
+     "kept": 10828,
+     "lost": 777,
+     "lost_pct": 6.7,
+     "translated": 10828,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "API_KEY": {
+     "source": 11027,
+     "kept": 10455,
+     "lost": 572,
+     "lost_pct": 5.19,
+     "translated": 10455,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_DRIVER_LICENSE_NUMBER": {
+     "source": 10965,
+     "kept": 10505,
+     "lost": 460,
+     "lost_pct": 4.2,
+     "translated": 10505,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_FIN": {
+     "source": 8911,
+     "kept": 8374,
+     "lost": 537,
+     "lost_pct": 6.03,
+     "translated": 8374,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_ID_CARD_NUMBER": {
+     "source": 13356,
+     "kept": 12731,
+     "lost": 625,
+     "lost_pct": 4.68,
+     "translated": 12731,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_PASSPORT_NUMBER": {
+     "source": 6099,
+     "kept": 5800,
+     "lost": 299,
+     "lost_pct": 4.9,
+     "translated": 5800,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_VOEN": {
+     "source": 5537,
+     "kept": 5158,
+     "lost": 379,
+     "lost_pct": 6.84,
+     "translated": 5158,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "BUILDINGNUM": {
+     "source": 12273,
+     "kept": 11336,
+     "lost": 937,
+     "lost_pct": 7.63,
+     "translated": 11336,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "CARD_SECURITY_CODE": {
+     "source": 6394,
+     "kept": 5993,
+     "lost": 401,
+     "lost_pct": 6.27,
+     "translated": 5993,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "CITY": {
+     "source": 28784,
+     "kept": 26998,
+     "lost": 1786,
+     "lost_pct": 6.2,
+     "translated": 26998,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "DATE": {
+     "source": 68907,
+     "kept": 63844,
+     "lost": 5063,
+     "lost_pct": 7.35,
+     "translated": 63844,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "EMAIL": {
+     "source": 41269,
+     "kept": 38767,
+     "lost": 2502,
+     "lost_pct": 6.06,
+     "translated": 38767,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "GIVENNAME": {
+     "source": 91752,
+     "kept": 84916,
+     "lost": 6836,
+     "lost_pct": 7.45,
+     "translated": 84916,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IBAN": {
+     "source": 6523,
+     "kept": 6213,
+     "lost": 310,
+     "lost_pct": 4.75,
+     "translated": 6213,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "ICCID": {
+     "source": 3914,
+     "kept": 3742,
+     "lost": 172,
+     "lost_pct": 4.39,
+     "translated": 3742,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IPV4_ADDRESS": {
+     "source": 8433,
+     "kept": 7976,
+     "lost": 457,
+     "lost_pct": 5.42,
+     "translated": 7976,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IPV6_ADDRESS": {
+     "source": 6420,
+     "kept": 6210,
+     "lost": 210,
+     "lost_pct": 3.27,
+     "translated": 6210,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "MAC_ADDRESS": {
+     "source": 6443,
+     "kept": 6221,
+     "lost": 222,
+     "lost_pct": 3.45,
+     "translated": 6221,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "PAYMENT_CARD_NUMBER": {
+     "source": 8062,
+     "kept": 7693,
+     "lost": 369,
+     "lost_pct": 4.58,
+     "translated": 7693,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "PRIVATE_KEY": {
+     "source": 3313,
+     "kept": 3191,
+     "lost": 122,
+     "lost_pct": 3.68,
+     "translated": 3191,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "STREET": {
+     "source": 18851,
+     "kept": 17728,
+     "lost": 1123,
+     "lost_pct": 5.96,
+     "translated": 17728,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "SURNAME": {
+     "source": 64145,
+     "kept": 59573,
+     "lost": 4572,
+     "lost_pct": 7.13,
+     "translated": 59573,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TELEPHONENUM": {
+     "source": 35242,
+     "kept": 32926,
+     "lost": 2316,
+     "lost_pct": 6.57,
+     "translated": 32926,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TIME": {
+     "source": 12975,
+     "kept": 12310,
+     "lost": 665,
+     "lost_pct": 5.13,
+     "translated": 12310,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "URL": {
+     "source": 8738,
+     "kept": 8202,
+     "lost": 536,
+     "lost_pct": 6.13,
+     "translated": 8202,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "ZIPCODE": {
+     "source": 14362,
+     "kept": 13560,
+     "lost": 802,
+     "lost_pct": 5.58,
+     "translated": 13560,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    }
+   }
+  },
+  "val": {
+   "docs": 17764,
+   "written": 17125,
+   "doc_loss_pct": 3.6,
+   "entity_loss_pct": 6.08,
+   "not_in_source": 0,
+   "entities_source": 65721,
+   "entities_translated": 61726,
+   "labels": {
+    "ACCESS_TOKEN": {
+     "source": 961,
+     "kept": 909,
+     "lost": 52,
+     "lost_pct": 5.41,
+     "translated": 909,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AGE": {
+     "source": 1462,
+     "kept": 1363,
+     "lost": 99,
+     "lost_pct": 6.77,
+     "translated": 1363,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "API_KEY": {
+     "source": 1354,
+     "kept": 1264,
+     "lost": 90,
+     "lost_pct": 6.65,
+     "translated": 1264,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_DRIVER_LICENSE_NUMBER": {
+     "source": 1388,
+     "kept": 1336,
+     "lost": 52,
+     "lost_pct": 3.75,
+     "translated": 1336,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_FIN": {
+     "source": 1121,
+     "kept": 1064,
+     "lost": 57,
+     "lost_pct": 5.08,
+     "translated": 1064,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_ID_CARD_NUMBER": {
+     "source": 1677,
+     "kept": 1578,
+     "lost": 99,
+     "lost_pct": 5.9,
+     "translated": 1578,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_PASSPORT_NUMBER": {
+     "source": 758,
+     "kept": 705,
+     "lost": 53,
+     "lost_pct": 6.99,
+     "translated": 705,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_VOEN": {
+     "source": 680,
+     "kept": 629,
+     "lost": 51,
+     "lost_pct": 7.5,
+     "translated": 629,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "BUILDINGNUM": {
+     "source": 1567,
+     "kept": 1474,
+     "lost": 93,
+     "lost_pct": 5.93,
+     "translated": 1474,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "CARD_SECURITY_CODE": {
+     "source": 791,
+     "kept": 751,
+     "lost": 40,
+     "lost_pct": 5.06,
+     "translated": 751,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "CITY": {
+     "source": 3669,
+     "kept": 3436,
+     "lost": 233,
+     "lost_pct": 6.35,
+     "translated": 3436,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "DATE": {
+     "source": 8639,
+     "kept": 8063,
+     "lost": 576,
+     "lost_pct": 6.67,
+     "translated": 8063,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "EMAIL": {
+     "source": 5176,
+     "kept": 4860,
+     "lost": 316,
+     "lost_pct": 6.11,
+     "translated": 4860,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "GIVENNAME": {
+     "source": 11522,
+     "kept": 10808,
+     "lost": 714,
+     "lost_pct": 6.2,
+     "translated": 10808,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IBAN": {
+     "source": 804,
+     "kept": 762,
+     "lost": 42,
+     "lost_pct": 5.22,
+     "translated": 762,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "ICCID": {
+     "source": 486,
+     "kept": 464,
+     "lost": 22,
+     "lost_pct": 4.53,
+     "translated": 464,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IPV4_ADDRESS": {
+     "source": 1054,
+     "kept": 970,
+     "lost": 84,
+     "lost_pct": 7.97,
+     "translated": 970,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "IPV6_ADDRESS": {
+     "source": 754,
+     "kept": 734,
+     "lost": 20,
+     "lost_pct": 2.65,
+     "translated": 734,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "MAC_ADDRESS": {
+     "source": 816,
+     "kept": 786,
+     "lost": 30,
+     "lost_pct": 3.68,
+     "translated": 786,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "PAYMENT_CARD_NUMBER": {
+     "source": 1005,
+     "kept": 955,
+     "lost": 50,
+     "lost_pct": 4.98,
+     "translated": 955,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "PRIVATE_KEY": {
+     "source": 383,
+     "kept": 369,
+     "lost": 14,
+     "lost_pct": 3.66,
+     "translated": 369,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "STREET": {
+     "source": 2356,
+     "kept": 2227,
+     "lost": 129,
+     "lost_pct": 5.48,
+     "translated": 2227,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "SURNAME": {
+     "source": 8108,
+     "kept": 7590,
+     "lost": 518,
+     "lost_pct": 6.39,
+     "translated": 7590,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TELEPHONENUM": {
+     "source": 4526,
+     "kept": 4234,
+     "lost": 292,
+     "lost_pct": 6.45,
+     "translated": 4234,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TIME": {
+     "source": 1711,
+     "kept": 1629,
+     "lost": 82,
+     "lost_pct": 4.79,
+     "translated": 1629,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "URL": {
+     "source": 1112,
+     "kept": 1026,
+     "lost": 86,
+     "lost_pct": 7.73,
+     "translated": 1026,
+     "kept_to_translated_pct": 100.0,
+     "flag": true
+    },
+    "ZIPCODE": {
+     "source": 1841,
+     "kept": 1740,
+     "lost": 101,
+     "lost_pct": 5.49,
+     "translated": 1740,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    }
+   }
+  },
+  "test": {
+   "docs": 17747,
+   "written": 17102,
+   "doc_loss_pct": 3.63,
+   "entity_loss_pct": 6.02,
+   "not_in_source": 0,
+   "entities_source": 66172,
+   "entities_translated": 62191,
+   "labels": {
+    "ACCESS_TOKEN": {
+     "source": 976,
+     "kept": 918,
+     "lost": 58,
+     "lost_pct": 5.94,
+     "translated": 918,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AGE": {
+     "source": 1538,
+     "kept": 1447,
+     "lost": 91,
+     "lost_pct": 5.92,
+     "translated": 1447,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "API_KEY": {
+     "source": 1325,
+     "kept": 1258,
+     "lost": 67,
+     "lost_pct": 5.06,
+     "translated": 1258,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_DRIVER_LICENSE_NUMBER": {
+     "source": 1378,
+     "kept": 1316,
+     "lost": 62,
+     "lost_pct": 4.5,
+     "translated": 1316,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_FIN": {
+     "source": 1108,
+     "kept": 1046,
+     "lost": 62,
+     "lost_pct": 5.6,
+     "translated": 1046,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_ID_CARD_NUMBER": {
+     "source": 1655,
+     "kept": 1575,
+     "lost": 80,
+     "lost_pct": 4.83,
+     "translated": 1575,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_PASSPORT_NUMBER": {
+     "source": 678,
+     "kept": 652,
+     "lost": 26,
+     "lost_pct": 3.83,
+     "translated": 652,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "AZ_VOEN": {
+     "source": 661,
+     "kept": 619,
+     "lost": 42,
+     "lost_pct": 6.35,
+     "translated": 619,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "BUILDINGNUM": {
+     "source": 1518,
+     "kept": 1431,
+     "lost": 87,
+     "lost_pct": 5.73,
+     "translated": 1431,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "CARD_SECURITY_CODE": {
+     "source": 834,
+     "kept": 794,
+     "lost": 40,
+     "lost_pct": 4.8,
+     "translated": 794,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "CITY": {
+     "source": 3676,
+     "kept": 3499,
+     "lost": 177,
+     "lost_pct": 4.82,
+     "translated": 3499,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "DATE": {
+     "source": 8698,
+     "kept": 8156,
+     "lost": 542,
+     "lost_pct": 6.23,
+     "translated": 8156,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "EMAIL": {
+     "source": 5230,
+     "kept": 4897,
+     "lost": 333,
+     "lost_pct": 6.37,
+     "translated": 4897,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "GIVENNAME": {
+     "source": 11832,
+     "kept": 10982,
+     "lost": 850,
+     "lost_pct": 7.18,
+     "translated": 10982,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IBAN": {
+     "source": 786,
+     "kept": 754,
+     "lost": 32,
+     "lost_pct": 4.07,
+     "translated": 754,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "ICCID": {
+     "source": 528,
+     "kept": 517,
+     "lost": 11,
+     "lost_pct": 2.08,
+     "translated": 517,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IPV4_ADDRESS": {
+     "source": 1153,
+     "kept": 1093,
+     "lost": 60,
+     "lost_pct": 5.2,
+     "translated": 1093,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "IPV6_ADDRESS": {
+     "source": 852,
+     "kept": 803,
+     "lost": 49,
+     "lost_pct": 5.75,
+     "translated": 803,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "MAC_ADDRESS": {
+     "source": 813,
+     "kept": 789,
+     "lost": 24,
+     "lost_pct": 2.95,
+     "translated": 789,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "PAYMENT_CARD_NUMBER": {
+     "source": 997,
+     "kept": 947,
+     "lost": 50,
+     "lost_pct": 5.02,
+     "translated": 947,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "PRIVATE_KEY": {
+     "source": 398,
+     "kept": 373,
+     "lost": 25,
+     "lost_pct": 6.28,
+     "translated": 373,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "STREET": {
+     "source": 2384,
+     "kept": 2238,
+     "lost": 146,
+     "lost_pct": 6.12,
+     "translated": 2238,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "SURNAME": {
+     "source": 8192,
+     "kept": 7609,
+     "lost": 583,
+     "lost_pct": 7.12,
+     "translated": 7609,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TELEPHONENUM": {
+     "source": 4494,
+     "kept": 4238,
+     "lost": 256,
+     "lost_pct": 5.7,
+     "translated": 4238,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "TIME": {
+     "source": 1590,
+     "kept": 1522,
+     "lost": 68,
+     "lost_pct": 4.28,
+     "translated": 1522,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "URL": {
+     "source": 1080,
+     "kept": 1010,
+     "lost": 70,
+     "lost_pct": 6.48,
+     "translated": 1010,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    },
+    "ZIPCODE": {
+     "source": 1798,
+     "kept": 1708,
+     "lost": 90,
+     "lost_pct": 5.01,
+     "translated": 1708,
+     "kept_to_translated_pct": 100.0,
+     "flag": false
+    }
+   }
+  }
+ }
+}

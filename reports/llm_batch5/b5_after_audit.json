@@ -1,0 +1,515 @@
+{
+ "batch": "data\\raw\\sprint1_llm_b5.clean.jsonl",
+ "documents": 21265,
+ "unlabelled_planned": {
+  "values": 0,
+  "documents": 0,
+  "values_with_no_label_anywhere": 0,
+  "documents_with_no_label_anywhere": 0,
+  "no_label_anywhere_by_label": {},
+  "by_label": {},
+  "by_kind": {},
+  "examples": []
+ },
+ "planned": {
+  "ACCESS_TOKEN": {
+   "planned": 1514,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AGE": {
+   "planned": 1608,
+   "not_labelled_anywhere": 3,
+   "share": 0.0019
+  },
+  "API_KEY": {
+   "planned": 2073,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_DRIVER_LICENSE_NUMBER": {
+   "planned": 1295,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_FIN": {
+   "planned": 1127,
+   "not_labelled_anywhere": 1,
+   "share": 0.0009
+  },
+  "AZ_ID_CARD_NUMBER": {
+   "planned": 1508,
+   "not_labelled_anywhere": 1,
+   "share": 0.0007
+  },
+  "AZ_PASSPORT_NUMBER": {
+   "planned": 719,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_VOEN": {
+   "planned": 612,
+   "not_labelled_anywhere": 1,
+   "share": 0.0016
+  },
+  "BUILDINGNUM": {
+   "planned": 1718,
+   "not_labelled_anywhere": 6,
+   "share": 0.0035
+  },
+  "CARD_SECURITY_CODE": {
+   "planned": 741,
+   "not_labelled_anywhere": 1,
+   "share": 0.0013
+  },
+  "CITY": {
+   "planned": 2933,
+   "not_labelled_anywhere": 4,
+   "share": 0.0014
+  },
+  "DATE": {
+   "planned": 8320,
+   "not_labelled_anywhere": 42,
+   "share": 0.005
+  },
+  "EMAIL": {
+   "planned": 5907,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "GIVENNAME": {
+   "planned": 5980,
+   "not_labelled_anywhere": 19,
+   "share": 0.0032
+  },
+  "IBAN": {
+   "planned": 816,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "ICCID": {
+   "planned": 443,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "IPV4_ADDRESS": {
+   "planned": 998,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "IPV6_ADDRESS": {
+   "planned": 1080,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "MAC_ADDRESS": {
+   "planned": 1139,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "PAYMENT_CARD_NUMBER": {
+   "planned": 996,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "PRIVATE_KEY": {
+   "planned": 631,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "STREET": {
+   "planned": 2455,
+   "not_labelled_anywhere": 19,
+   "share": 0.0077
+  },
+  "SURNAME": {
+   "planned": 5117,
+   "not_labelled_anywhere": 13,
+   "share": 0.0025
+  },
+  "TELEPHONENUM": {
+   "planned": 5297,
+   "not_labelled_anywhere": 7,
+   "share": 0.0013
+  },
+  "TIME": {
+   "planned": 1299,
+   "not_labelled_anywhere": 2,
+   "share": 0.0015
+  },
+  "URL": {
+   "planned": 1444,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "ZIPCODE": {
+   "planned": 1775,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  }
+ },
+ "label_disagreement": {
+  "count": 132,
+  "by_reason": {
+   "changed by noise after labelling (ok)": 120,
+   "not a form of any planned value": 5,
+   "standalone date, D-17 (ok)": 7
+  },
+  "examples": [
+   {
+    "id": "llm_az_000502",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "MYOROVDUR",
+    "context": " BIR CAVAB ALA BILMIRIK. ŞIRKTIN RHBƏRI [[MYOROVDUR]] VƏ O, ƏMƏLIYYATLARI DAVAM ETDIRƏ BILMIR"
+   },
+   {
+    "id": "llm_az_000830",
+    "why": "not a form of any planned value",
+    "label": "GIVENNAME",
+    "text": "A1agüldən",
+    "context": "miz görüş çox səmimi və səmərəli keçdi. [[A1agüldən]] yeni layihə ilə bağlı bir neçə maraqlı "
+   },
+   {
+    "id": "llm_az_000852",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "04.10.B4",
+    "context": "  Sənəddə qeyd olunanlar: Doğum tarixi: [[04.10.B4]] Şəxsiyyət vəsiqəsi №: X72418784 Əlaqə n"
+   },
+   {
+    "id": "llm_az_000940",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "22.4.l950",
+    "context": "rçivəsində hesab sahibinin doğum tarixi [[22.4.l950]] olaraq qeyd edilmişdir. Əgər bu  məluma"
+   },
+   {
+    "id": "llm_az_001123",
+    "why": "changed by noise after labelling (ok)",
+    "label": "CARD_SECURITY_CODE",
+    "text": "G495",
+    "context": "m dəfələrlə xəta verir. Kartın CVV kodu [[G495]] yazıram, yenə də uğursuz olur. Bu necə "
+   },
+   {
+    "id": "llm_az_001193",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "0O4.O9.2019",
+    "context": "Tarix: [[0O4.O9.2019]] Müqav1ə tərəfi +994992533963 və AZ1136 "
+   },
+   {
+    "id": "llm_az_001753",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "29.03.209",
+    "context": "Tarix: [[29.03.209]]  Fwd: Kredit müraciəti Göndərən: Müştrə"
+   },
+   {
+    "id": "llm_az_001773",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "Qəurəman Nəsiov kçüəsində",
+    "context": "ad: Adıbəyovaya - Ad: Elmurədə - Ünvan: [[Qəurəman Nəsiov kçüəsində]] - Telefon: (050) 385-43-55  Dəstək mütə"
+   },
+   {
+    "id": "llm_az_001773",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "24 oktyabr 201,1 bazar erttəsi",
+    "context": "dlə bağlı xəta alırsınız?  Müştəri: Mən [[24 oktyabr 201,1 bazar erttəsi]] tarixli   sənədə müraciət edirəm. Bu sə"
+   },
+   {
+    "id": "llm_az_002036",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "Aafiaddinliylə",
+    "context": "ıram.  Agentkn Daxili Qeydləri: Müştrəi [[Aafiaddinliylə]] birbaşa əlaqə qurmaa mümkün olmadı, ona"
+   },
+   {
+    "id": "llm_az_002442",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "30.01.Z016",
+    "context": "Tarix: [[30.01.Z016]]  > Göndərən: Müştəri > Mövzu: Ödəniş pr"
+   },
+   {
+    "id": "llm_az_002449",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "Qasım bəy Hacıbababıyov prd.a",
+    "context": "ndə bəzi dəyişikliklər edilməlidir. Mən [[Qasım bəy Hacıbababıyov prd.a]] yaşayıram  və bu məsələnin həlli üçün s"
+   },
+   {
+    "id": "llm_az_002585",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "1.04.2022",
+    "context": "Tarix:\t[[1.04.2022]]  YUK DASINMASI VE CATDIRILMA SENEDI (MA"
+   },
+   {
+    "id": "llm_az_002585",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "Allhaveren Bagi dongesinde",
+    "context": "-------------- Cattdirilma Unvani     | [[Allhaveren Bagi dongesinde]], bina 1 Elaqeli Sexs           | Real S"
+   },
+   {
+    "id": "llm_az_002937",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "HHüseyn Sarabski döngəsinə",
+    "context": "z,  Yaşadığınız çətinliyi başa düşürük. [[HHüseyn Sarabski döngəsinə]] aid ünvan və  şəxsiyyət vəsiqəsinin FİN"
+   },
+   {
+    "id": "llm_az_002988",
+    "why": "changed by noise after labelling (ok)",
+    "label": "CITY",
+    "text": "Totu-\nqluda",
+    "context": "ış nəticələrində müəyyən olunmuşdur ki, [[Totu- qluda]] yerləşən sahədə işlərin gedişatı tamami"
+   },
+   {
+    "id": "llm_az_003016",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "09/10/196",
+    "context": " vacibdir:  * Kirayəçinin doğum tarixi: [[09/10/196]] 5* Müqavilənin yeni şərtləri * Ödəniş v"
+   },
+   {
+    "id": "llm_az_003038",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "19/10/2O18",
+    "context": "Bu sənəd\t[[19/10/2O18]] tarixində tərtib edilib.  Salam, Daşqın"
+   },
+   {
+    "id": "llm_az_003957",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "2810.2025",
+    "context": "Bu səbəd [[2810.2025]] tarixində tərtib edilib.  Təəssüf ki, s"
+   },
+   {
+    "id": "llm_az_003977",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "14.07.202",
+    "context": "IN HƏLLI ÜÇN TƏCILI ADDIM ATILMALIDIR.  [[14.07.202]]"
+   }
+  ]
+ },
+ "decoys": {
+  "counts": {
+   "checked": 22119,
+   "exempt (policy/contextual)": 8920
+  },
+  "examples": []
+ },
+ "rates": {
+  "requested": {
+   "hard_negative": 0.3,
+   "adversarial": 0.2,
+   "pii_free": 0.1,
+   "edge_case": 0.3
+  },
+  "measured": {
+   "hard_negative_spec": 0.2972,
+   "hard_negative_text": 0.2836,
+   "adversarial_spec": 0.1948,
+   "adversarial_text": 0.1941,
+   "any_decoy_text (README metric)": 0.3519,
+   "pii_free": 0.0961,
+   "edge_case": 0.2992,
+   "with_decoy_spans": 0.361
+  }
+ },
+ "label_shares": {
+  "API_KEY": {
+   "mentions": 2368,
+   "share": 0.03,
+   "target": 0.025,
+   "ratio": 1.2
+  },
+  "ACCESS_TOKEN": {
+   "mentions": 1735,
+   "share": 0.022,
+   "target": 0.015,
+   "ratio": 1.47
+  },
+  "PRIVATE_KEY": {
+   "mentions": 653,
+   "share": 0.0083,
+   "target": 0.01,
+   "ratio": 0.83
+  },
+  "PAYMENT_CARD_NUMBER": {
+   "mentions": 1256,
+   "share": 0.0159,
+   "target": 0.018,
+   "ratio": 0.88
+  },
+  "IBAN": {
+   "mentions": 955,
+   "share": 0.0121,
+   "target": 0.014,
+   "ratio": 0.86
+  },
+  "CARD_SECURITY_CODE": {
+   "mentions": 863,
+   "share": 0.0109,
+   "target": 0.012,
+   "ratio": 0.91
+  },
+  "IPV4_ADDRESS": {
+   "mentions": 1488,
+   "share": 0.0189,
+   "target": 0.018,
+   "ratio": 1.05
+  },
+  "IPV6_ADDRESS": {
+   "mentions": 1385,
+   "share": 0.0176,
+   "target": 0.006,
+   "ratio": 2.93
+  },
+  "MAC_ADDRESS": {
+   "mentions": 1386,
+   "share": 0.0176,
+   "target": 0.008,
+   "ratio": 2.2
+  },
+  "URL": {
+   "mentions": 1585,
+   "share": 0.0201,
+   "target": 0.025,
+   "ratio": 0.8
+  },
+  "ICCID": {
+   "mentions": 580,
+   "share": 0.0073,
+   "target": 0.006,
+   "ratio": 1.22
+  },
+  "GIVENNAME": {
+   "mentions": 9961,
+   "share": 0.1262,
+   "target": 0.15,
+   "ratio": 0.84
+  },
+  "SURNAME": {
+   "mentions": 7984,
+   "share": 0.1012,
+   "target": 0.12,
+   "ratio": 0.84
+  },
+  "EMAIL": {
+   "mentions": 7446,
+   "share": 0.0944,
+   "target": 0.12,
+   "ratio": 0.79
+  },
+  "TELEPHONENUM": {
+   "mentions": 6180,
+   "share": 0.0783,
+   "target": 0.1,
+   "ratio": 0.78
+  },
+  "DATE": {
+   "mentions": 9553,
+   "share": 0.1211,
+   "target": 0.045,
+   "ratio": 2.69
+  },
+  "TIME": {
+   "mentions": 2505,
+   "share": 0.0317,
+   "target": 0.025,
+   "ratio": 1.27
+  },
+  "AGE": {
+   "mentions": 1990,
+   "share": 0.0252,
+   "target": 0.03,
+   "ratio": 0.84
+  },
+  "CITY": {
+   "mentions": 4586,
+   "share": 0.0581,
+   "target": 0.065,
+   "ratio": 0.89
+  },
+  "STREET": {
+   "mentions": 3299,
+   "share": 0.0418,
+   "target": 0.05,
+   "ratio": 0.84
+  },
+  "BUILDINGNUM": {
+   "mentions": 2192,
+   "share": 0.0278,
+   "target": 0.035,
+   "ratio": 0.79
+  },
+  "ZIPCODE": {
+   "mentions": 2275,
+   "share": 0.0288,
+   "target": 0.035,
+   "ratio": 0.82
+  },
+  "AZ_FIN": {
+   "mentions": 1430,
+   "share": 0.0181,
+   "target": 0.02,
+   "ratio": 0.91
+  },
+  "AZ_ID_CARD_NUMBER": {
+   "mentions": 1932,
+   "share": 0.0245,
+   "target": 0.015,
+   "ratio": 1.63
+  },
+  "AZ_PASSPORT_NUMBER": {
+   "mentions": 885,
+   "share": 0.0112,
+   "target": 0.012,
+   "ratio": 0.93
+  },
+  "AZ_VOEN": {
+   "mentions": 752,
+   "share": 0.0095,
+   "target": 0.01,
+   "ratio": 0.95
+  },
+  "AZ_DRIVER_LICENSE_NUMBER": {
+   "mentions": 1693,
+   "share": 0.0215,
+   "target": 0.01,
+   "ratio": 2.15
+  }
+ },
+ "d9": {
+  "counts": {
+   "mentions": 25830,
+   "suffixed (label includes the suffix)": 12588
+  },
+  "examples": []
+ },
+ "d10": {
+  "documents of 1-5 words": 7
+ },
+ "validate_example_failures": {},
+ "unplanned_pii": {
+  "documents": 0,
+  "share": 0.0,
+  "pii_free_documents": 0,
+  "by_label": {},
+  "examples": []
+ },
+ "standalone_dates": {
+  "documents": 0,
+  "share": 0.0,
+  "dates": 0,
+  "by_reason": {},
+  "examples": []
+ }
+}

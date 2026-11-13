@@ -1,0 +1,17 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000228,"Azərbaycan Respublikası Vergi、Hüquq və Maliyyə Nazirliyi yanında Dövlət Vergi Xidmətinin müvafiq ərazi idarəsinə
+
+Tarix: 14.05.2020
+
+Müraciət Forması № 2020/08-42
+
+Mən, aşağıda imza edən şəxs, fərdi sahibkar statusunun qorunması və vergi öhdəliklərinin müvəkkillik qaydasında icrası ilə bağlı olan bütün məlumatların rəsmi reyestrlərə daxil edilməsini xahiş edirəm. Mövcud qanunvericiliyin tələblərinə əsasən, müəssisənin və fərdi sahibkarın qeydiyyat məlumatlarının dəqiqliyi və sistemlərdəki uyğunluğu mühüm əhəmiyyət kəsb edir.
+
+Həyata keçirilən audit və yoxlamalar nəticəsində müəyyən edilmiş qeydiyyat məlumatları aşağıdakı kimidir:
+
+VÖEN: 604432400672768
+
+Qeyd olunan məlumatların rəsmi dövlət bazalarında yenilənməsini və hər hansı texniki xəta mövcud edərsə, bunun dərhal aradan qaldırılmasını tələb edirəm. Mövzu ilə bağlı əlavə sənədlər və dəqiqləşdirici məktublar əlavə olunmuşdur.
+
+Müraciət edən:
+İmza: ___________",az,"[{""start"":645,""end"":660,""label"":""AZ_VOEN"",""text"":""604432400672768""}]",government_form,medium,polite but firm,"[""copy_paste""]",0,0,llm,"{""index"":228,""lang"":""az"",""doc_type"":""government_form"",""doc_type_hint"":""a completed government form or official request"",""register"":""polite but firm"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""AZ_VOEN"",""value"":""604432400672768""}],""hard_negatives"":[],""adversarials"":[],""noise"":[],""negative_only"":false,""seed"":1907563665,""edge_case"":{""id"":""VOE-01"",""status"":""positive_valid"",""description"":""10-digit form with an explicit VOEN anchor word nearby."",""scenario"":""""},""reference_year"":2020}",source

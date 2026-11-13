@@ -1,0 +1,4422 @@
+# CITY pool for the generator (P2-14, D-23c): Azerbaijani settlements and common foreign cities.
+# Built by scripts/piigen/locales/build_az_settlements.py; edit the script, not this file.
+# Sources: Wikidata (CC0), queried 2026-10-07 (queries and results in
+#   data/sources/wikidata_2026-10-07/), and the 97 cities of az_cities.txt.
+#   Never from the benchmark (A2.3).
+# Counts: {'capital': 1, 'city': 96, 'settlement': 3998, 'foreign': 319}; 645 source rows left out by the cleaning rules.
+# Columns: name <TAB> kind (capital | city | settlement | foreign) <TAB> draw weight.
+# Shares: capital 5%, city 45%, settlement 42%, foreign 8%.
+Bakı	capital	500000
+Astara	city	49836
+Ağcabədi	city	64415
+Ağdam	city	19863
+Ağdaş	city	60014
+Ağdərə	city	34165
+Ağstafa	city	48431
+Ağsu	city	53503
+Babək	city	35721
+Balakən	city	46629
+Bankə	city	9614
+Beyləqan	city	50173
+Biləsuvar	city	54351
+Binəqədi	city	65959
+Bərdə	city	63897
+Culfa	city	46025
+Cəbrayıl	city	20506
+Cəlilabad	city	67085
+Daşkəsən	city	43517
+Füzuli	city	29692
+Goranboy	city	37466
+Göygöl	city	50340
+Göytəpə	city	47972
+Göyçay	city	62431
+Gədəbəy	city	44091
+Gəncə	city	120702
+Hacıqabul	city	56913
+Hadrut	city	32190
+Heydərabad	city	25024
+Horadiz	city	38890
+Kürdəmir	city	51234
+Kəlbəcər	city	18086
+Kərkicahan	city	25954
+Laçın	city	26299
+Lerik	city	40341
+Liman	city	43400
+Lökbatan	city	60934
+Lənkəran	city	68815
+Masallı	city	56473
+Mincivan	city	15033
+Mingəçevir	city	84524
+Mərdəkan	city	59673
+Naftalan	city	41156
+Naxçıvan	city	78900
+Neftçala	city	53359
+Nehrəm	city	48969
+Ordubad	city	43044
+Oğuz	city	38584
+Pirallahı	city	48612
+Qax	city	47022
+Qazax	city	53286
+Qobustan	city	48431
+Qobustan Mərəzə	city	41288
+Qovlar	city	47972
+Quba	city	55634
+Qubadlı	city	9614
+Qusar	city	50669
+Quzanlı	city	9614
+Qırmızı Bazar	city	9614
+Qıvraq	city	36442
+Qəbələ	city	9614
+Saatlı	city	52016
+Sabirabad	city	58946
+Sahil	city	53431
+Salyan	city	63223
+Samux	city	9614
+Siyəzən	city	56218
+Sumqayıt	city	125056
+Tovuz	city	46728
+Turşsu	city	11431
+Tərtər	city	51707
+Ucar	city	50423
+Xankəndi	city	69527
+Xaçmaz	city	65152
+Xocalı	city	12367
+Xocavənd	city	35721
+Xudat	city	49320
+Xırdalan	city	102573
+Xızı	city	24273
+Yardımlı	city	38890
+Yaycı	city	35826
+Yevlax	city	73097
+Zaqatala	city	53141
+Zəngilan	city	9614
+Zərdab	city	43656
+İmişli	city	61873
+İsmayıllı	city	56090
+Şabran	city	55765
+Şahbuz	city	33321
+Şamaxı	city	64228
+Şirvan	city	79931
+Şuşa	city	22154
+Şəki	city	74021
+Şəmkir	city	65648
+Şərur	city	38429
+Ələt	city	44974
+Əsgəran	city	9614
+Abad	settlement	1446
+Abadkənd	settlement	1896
+Abasallı	settlement	970
+Abasbəyli	settlement	961
+Abasxanlı	settlement	970
+Abazallı	settlement	970
+Abaəli	settlement	382
+Abbas	settlement	816
+Abbasabad	settlement	851
+Abbasbəyli	settlement	970
+Abbaslı	settlement	970
+Abbasqulular	settlement	808
+Abdal	settlement	970
+Abdal Gülablı	settlement	970
+Abdalanlı	settlement	970
+Abdallar	settlement	970
+Abdallı	settlement	436
+Abdinli	settlement	970
+Abdulabad	settlement	2106
+Abdullauşağı	settlement	970
+Abdullu	settlement	970
+Abdınlı	settlement	380
+Abjit	settlement	970
+Abrıx	settlement	970
+Abulbəyli	settlement	2687
+Abışabad	settlement	970
+Acarlı	settlement	970
+Acıdərə	settlement	35
+Acılıqbinə	settlement	970
+Adiabla	settlement	970
+Adnalı	settlement	1594
+Adur	settlement	835
+Adıgözəlbəyli	settlement	970
+Afan	settlement	970
+Afkörpü	settlement	970
+Afurca	settlement	918
+Akuşəpeştə	settlement	970
+Alabaşlı	settlement	970
+Aladin	settlement	970
+Alakol	settlement	2181
+Alam	settlement	970
+Alaqaya	settlement	970
+Alaqurşaq	settlement	970
+Alar	settlement	2948
+Alaxançallı	settlement	870
+Alaçadırlı	settlement	970
+Alaşa	settlement	694
+Alaşar	settlement	690
+Albalan	settlement	849
+Alekseyevka	settlement	1344
+Allahmədətli	settlement	970
+Allahqulubağı	settlement	794
+Allahqulular	settlement	970
+Allahverənli	settlement	674
+Allahyarlı	settlement	970
+Allar	settlement	1427
+Allıkənd	settlement	970
+Almalı	settlement	1513
+Almalıq	settlement	281
+Almalıtala	settlement	620
+Almu	settlement	710
+Alolar	settlement	970
+Alovtəpə	settlement	970
+Alpan	settlement	2160
+Alpout	settlement	1223
+Alpı	settlement	970
+Alqataq	settlement	970
+Altıağac	settlement	1305
+Altınca	settlement	970
+Alunitdağ	settlement	912
+Alxanlı	settlement	2360
+Alxasava	settlement	970
+Alxaslı	settlement	970
+Alçabulaq	settlement	999
+Alçalı	settlement	970
+Alıbəyli	settlement	2023
+Alıc	settlement	682
+Alıcan	settlement	970
+Alıcqışlaq	settlement	970
+Alıkeyxalı	settlement	970
+Alıkənd	settlement	970
+Alıncalı	settlement	970
+Alıqulu	settlement	279
+Alırzalar	settlement	970
+Alışanlı	settlement	970
+Alışar	settlement	970
+Alışarlı	settlement	970
+Amankənd	settlement	2069
+Amanlı	settlement	437
+Amaras	settlement	970
+Ambu	settlement	981
+Amsar	settlement	970
+Amsar Palasa	settlement	970
+Amsarqışlaq	settlement	970
+Anabad	settlement	507
+Anaqut	settlement	970
+Anbuba	settlement	596
+Anburdərə	settlement	970
+Andurma	settlement	838
+Anzolu	settlement	693
+Anzov	settlement	1047
+Arabaçı	settlement	379
+Arabaçılar	settlement	970
+Aracamux	settlement	970
+Araksavan	settlement	206
+Arakül	settlement	581
+Aran	settlement	2972
+Aranlı	settlement	1992
+Aranzəmin	settlement	1269
+Aratlı-Curuğlu	settlement	970
+Arayatlı	settlement	970
+Araz	settlement	559
+Araz Dilağarda	settlement	970
+Araz Yağlıvənd	settlement	1623
+Araz Zərgər	settlement	970
+Arazbarı	settlement	1274
+Arbatan	settlement	970
+Arduşlu	settlement	970
+Armudapadar	settlement	970
+Armudlu	settlement	420
+Arpadüzü	settlement	970
+Arpagədik	settlement	970
+Arpaçay	settlement	837
+Arta	settlement	444
+Artupa	settlement	1558
+Aruş	settlement	970
+Arvana	settlement	795
+Arxacdərəsi	settlement	970
+Arzu	settlement	970
+Arçal	settlement	350
+Arğalı	settlement	970
+Arıqdam	settlement	970
+Arıqıran	settlement	970
+Arısu	settlement	970
+Arış	settlement	420
+Aslanbəyli	settlement	2251
+Aslanoba	settlement	970
+Astabad	settlement	970
+Astaf	settlement	710
+Astanlı	settlement	970
+Asxanakəran	settlement	1139
+Atabəy	settlement	970
+Atakişili	settlement	2628
+Ataqut	settlement	970
+Ataxal	settlement	601
+Atbulaq	settlement	970
+Atlıxan	settlement	899
+Atuc	settlement	970
+Avaran	settlement	1277
+Avaranqışlaq	settlement	772
+Avaxıl	settlement	723
+Avazlar	settlement	970
+Avaş	settlement	1128
+Avdal	settlement	417
+Avdur	settlement	560
+Avun	settlement	970
+Avur	settlement	970
+Avyarud	settlement	970
+Avşar	settlement	970
+Axaməd	settlement	970
+Axaxdərə	settlement	970
+Axmazkənd	settlement	970
+Axtaxana	settlement	517
+Axtaçı	settlement	739
+Axtaçı Muğan	settlement	970
+Axtaçı Qarabucaq	settlement	970
+Axtaçı Şirvan	settlement	905
+Axullu	settlement	970
+Axunahiran	settlement	970
+Axundlu	settlement	970
+Axura	settlement	970
+Axısxa	settlement	1341
+Ayaq Qərvənd	settlement	614
+Aydınbulaq	settlement	970
+Aydınkənd	settlement	249
+Aydınqışlaq	settlement	970
+Aygünlü	settlement	970
+Ayrınc	settlement	813
+Ayıbasar	settlement	970
+Ayıtala	settlement	639
+Aza	settlement	970
+Azad	settlement	775
+Azad Qaraqoyunlu	settlement	970
+Azadkənd	settlement	757
+Azaflı	settlement	1390
+Azaru	settlement	970
+Aznabyurt	settlement	970
+Azıx	settlement	983
+Ağ oyuq	settlement	970
+Ağ Şəhər	settlement	7798
+Ağabağı	settlement	733
+Ağabəyli	settlement	827
+Ağabəyyalı	settlement	970
+Ağacanlı	settlement	970
+Ağacqala	settlement	633
+Ağakişibəyli	settlement	970
+Ağakişilər	settlement	970
+Ağalarbəyli	settlement	1036
+Ağalaruşağı	settlement	371
+Ağalı	settlement	970
+Ağalıkənd	settlement	2259
+Ağalıq	settlement	1725
+Ağamalı	settlement	970
+Ağamalılar	settlement	812
+Ağamalıoğlu	settlement	1837
+Ağaməmmədli	settlement	1135
+Ağanus	settlement	970
+Ağarx	settlement	970
+Ağarəhimli	settlement	970
+Ağarəhimoba	settlement	970
+Ağasibəyli	settlement	970
+Ağaverdioba	settlement	970
+Ağayrı	settlement	1712
+Ağaşirinoba	settlement	970
+Ağbaş	settlement	970
+Ağbaşlar	settlement	748
+Ağbaşlı	settlement	970
+Ağbil	settlement	970
+Ağbiz	settlement	970
+Ağbulaq	settlement	1102
+Ağbənd	settlement	721
+Ağcakənd	settlement	639
+Ağcaqovaq	settlement	349
+Ağcayazı	settlement	970
+Ağcüyür	settlement	682
+Ağdaban	settlement	970
+Ağdamkənd	settlement	970
+Ağgöl	settlement	970
+Ağgədik	settlement	99
+Ağkilsə	settlement	970
+Ağköynək	settlement	2099
+Ağkənd	settlement	716
+Ağoğlan	settlement	970
+Ağqaya	settlement	970
+Ağqıraqlı	settlement	970
+Ağqışlaq	settlement	505
+Ağrı	settlement	617
+Ağtala	settlement	970
+Ağtəpə	settlement	970
+Ağusəmən	settlement	970
+Ağyataq	settlement	970
+Ağyazı	settlement	944
+Ağyazı Buduq	settlement	970
+Ağzıbir	settlement	1479
+Ağçay	settlement	676
+Aşağı Amburdərə	settlement	810
+Aşağı Apu	settlement	970
+Aşağı Aralıq	settlement	970
+Aşağı Astanlı	settlement	1040
+Aşağı Atuc	settlement	970
+Aşağı Avşar	settlement	970
+Aşağı Aybasanlı	settlement	970
+Aşağı Ayrım	settlement	970
+Aşağı Ağasıbəyli	settlement	748
+Aşağı Ağcakənd	settlement	928
+Aşağı Ağcayazı	settlement	780
+Aşağı Ballıqaya	settlement	970
+Aşağı Bilnə	settlement	633
+Aşağı Bucaq	settlement	1705
+Aşağı Buzqov	settlement	1116
+Aşağı Cibikli	settlement	970
+Aşağı Cicimli	settlement	970
+Aşağı Cürəli	settlement	1829
+Aşağı Daşar	settlement	970
+Aşağı Daşağıl	settlement	843
+Aşağı Daşkəsən	settlement	684
+Aşağı Fərəcan	settlement	312
+Aşağı Göycəli	settlement	1642
+Aşağı Göynük	settlement	970
+Aşağı Güzdək	settlement	3103
+Aşağı Güzlək	settlement	970
+Aşağı Gəyəli	settlement	970
+Aşağı Küngüt	settlement	970
+Aşağı Kürdmahmudlu	settlement	1204
+Aşağı Kürkəndi	settlement	970
+Aşağı Kəldək	settlement	342
+Aşağı Kəsəmən	settlement	970
+Aşağı Layısqı	settlement	970
+Aşağı Ləgər	settlement	1448
+Aşağı Ləki	settlement	970
+Aşağı Malax	settlement	608
+Aşağı Maralyan	settlement	970
+Aşağı Mollu	settlement	970
+Aşağı Mülkülü	settlement	1696
+Aşağı Mərcanlı	settlement	970
+Aşağı Nemətabad	settlement	970
+Aşağı Noxudlu	settlement	1445
+Aşağı Nüvədi	settlement	1978
+Aşağı Oratağ	settlement	1264
+Aşağı Qapanlı	settlement	970
+Aşağı Qaramanlı	settlement	970
+Aşağı Qaraməryəm	settlement	970
+Aşağı Qarasaqqal	settlement	970
+Aşağı Qaraçanlı	settlement	970
+Aşağı Qarxun	settlement	1253
+Aşağı Qobuüstü	settlement	970
+Aşağı Qolqəti	settlement	970
+Aşağı Quşçu	settlement	3367
+Aşağı Quşçular	settlement	970
+Aşağı Qılıncbağ	settlement	970
+Aşağı Qışlaq	settlement	1055
+Aşağı Qəsil	settlement	621
+Aşağı Rəfədinli	settlement	970
+Aşağı Salahlı	settlement	1440
+Aşağı Salamabad	settlement	1060
+Aşağı Seyfəli	settlement	970
+Aşağı Seyidlər	settlement	954
+Aşağı Seyidəhmədli	settlement	970
+Aşağı Sirik	settlement	970
+Aşağı Surra	settlement	970
+Aşağı Tala	settlement	2882
+Aşağı Tüləkaran	settlement	824
+Aşağı Uzunoba	settlement	769
+Aşağı Veysəlli	settlement	970
+Aşağı Xac	settlement	970
+Aşağı Xocamusaxlı	settlement	970
+Aşağı Xuc	settlement	970
+Aşağı Yaycı	settlement	970
+Aşağı Yemişcan	settlement	396
+Aşağı Yeməzli	settlement	970
+Aşağı Zeyid	settlement	970
+Aşağı Zeynəddin	settlement	1198
+Aşağı Zurnabad	settlement	970
+Aşağı Zərnav	settlement	970
+Aşağı Çardaxlar	settlement	1127
+Aşağı Çaykənd	settlement	970
+Aşağı Çaylı	settlement	970
+Aşağı Çəmənli	settlement	1179
+Aşağı Öysüzlü	settlement	2845
+Aşağı İmamqulukənd	settlement	778
+Aşağı Şabalıd	settlement	970
+Aşağı Şurtan	settlement	970
+Aşağı Əbdürrəhmanlı	settlement	970
+Aşağı Əndəmic	settlement	1014
+Aşağı Əskipara	settlement	1266
+Aşağı Əylis	settlement	1237
+Aşağıkənd	settlement	970
+Aşağıoba	settlement	970
+Aşkar	settlement	970
+Aşralar	settlement	350
+Aşurlu	settlement	970
+Aşıq Məlikli	settlement	970
+Aşıqalılar	settlement	970
+Aşıqbayramlı	settlement	965
+Aşıqlı	settlement	1581
+Aşırallar	settlement	550
+Babadin	settlement	970
+Babagil	settlement	593
+Babakücə	settlement	678
+Babalı	settlement	970
+Babaratma	settlement	970
+Babaser	settlement	1305
+Babaxanlı	settlement	970
+Babaylı	settlement	970
+Babaşlar	settlement	970
+Babı	settlement	1237
+Babəki	settlement	970
+Bad	settlement	970
+Badamağac	settlement	970
+Badamdar	settlement	970
+Badamlı	settlement	1221
+Badara	settlement	970
+Badaşqan	settlement	670
+Bahar	settlement	970
+Baharabad	settlement	970
+Baharlı	settlement	970
+Bakıxanov	settlement	7798
+Bala Bəhmənli	settlement	970
+Bala Cəfərli	settlement	970
+Bala Göyüşlü	settlement	970
+Bala Həşimxanlı	settlement	970
+Bala Kolatan	settlement	970
+Bala Kəhrizli	settlement	1214
+Bala Kəngərli	settlement	970
+Bala Qacar	settlement	970
+Bala Qusar	settlement	1326
+Bala Surra	settlement	970
+Bala Təklə	settlement	970
+Bala Şahağac	settlement	970
+Bala Şamlıq	settlement	663
+Bala Şürük	settlement	1340
+Balaca Həmyə	settlement	1117
+Balahəsənli	settlement	970
+Balakürd	settlement	1510
+Balakənd	settlement	970
+Balaqusarqışlaq	settlement	970
+Balasoltanlı	settlement	970
+Balaxanı	settlement	4144
+Baldırğanlı	settlement	970
+Balik	settlement	741
+Ballabur	settlement	970
+Ballar	settlement	970
+Ballıca	settlement	970
+Ballıcalı	settlement	970
+Ballıqaya	settlement	456
+Baltalı	settlement	1579
+Balvar	settlement	970
+Balyand	settlement	970
+Balçılı	settlement	1159
+Balıqçı	settlement	970
+Balıqçılar	settlement	1728
+Bambaşı	settlement	1723
+Baqqal	settlement	970
+Baqqallı	settlement	770
+Barabatın	settlement	970
+Baraxum	settlement	970
+Barlı	settlement	970
+Barlıbağ	settlement	970
+Barmaqbinə	settlement	970
+Bartaz	settlement	970
+Barxudarlı	settlement	970
+Barzavu	settlement	880
+Basqal	settlement	1342
+Baxışlı	settlement	970
+Bayan	settlement	1593
+Bayandur	settlement	970
+Bayandurlu	settlement	970
+Bayat	settlement	970
+Baydarlı	settlement	669
+Bayoba	settlement	970
+Bayrambinə	settlement	970
+Bayramkoxa	settlement	970
+Bayramlar	settlement	970
+Bayramlı	settlement	1856
+Bayıl	settlement	970
+Bazar	settlement	895
+Bazarkənd	settlement	970
+Bağanıs Ayrım	settlement	888
+Bağban	settlement	970
+Bağbanlar	settlement	2203
+Bağbanlı	settlement	970
+Bağlıpəyə	settlement	970
+Bağman	settlement	970
+Bağtala	settlement	105
+Bağçakürd	settlement	1416
+Bağçaəli	settlement	970
+Bağırbəyli	settlement	510
+Bağırlı	settlement	1589
+Bağıroba	settlement	1124
+Bağırsaq	settlement	970
+Bağırtuqay	settlement	970
+Bağəli	settlement	231
+Baş Daşağıl	settlement	1252
+Baş Dizə	settlement	809
+Baş Göynük	settlement	4016
+Baş Günəypəyə	settlement	970
+Baş Küngüt	settlement	1395
+Baş Kəldək	settlement	970
+Baş Layısqı	settlement	2650
+Baş Qaraçanlı	settlement	970
+Baş Qərvənd	settlement	970
+Baş Zəyzid	settlement	970
+Baş Şabalıd	settlement	1029
+Baş Ələt	settlement	970
+Başarat	settlement	970
+Başbaşı	settlement	970
+Başkənd	settlement	710
+Başlıbel	settlement	970
+Başqışlaq	settlement	970
+Bedağar	settlement	970
+Behrud	settlement	795
+Berdadzor	settlement	970
+Beretbinə	settlement	465
+Bertaq	settlement	970
+Beyi	settlement	970
+Beyli	settlement	649
+Beşdam	settlement	970
+Beşdəli	settlement	970
+Beşdəllər	settlement	970
+Beşinci Zobucuq	settlement	970
+Beştalı	settlement	970
+Bibiheybət	settlement	970
+Bibiyanı	settlement	1016
+Bico	settlement	970
+Bideyiz	settlement	1237
+Bilabənd	settlement	965
+Bilağan	settlement	970
+Bilbilək	settlement	970
+Bildirçinli	settlement	970
+Bilgəh	settlement	970
+Bili	settlement	970
+Bilici Qorğan	settlement	970
+Bilistan	settlement	310
+Billava	settlement	970
+Bilnə	settlement	685
+Biləcəri	settlement	970
+Biləsər	settlement	1514
+Biləv	settlement	1231
+Biləv mineral bulağı	settlement	970
+Biləvər	settlement	915
+Binabəy	settlement	970
+Binə	settlement	7798
+Binə Xocavar	settlement	970
+Binədərəsi	settlement	970
+Binələr	settlement	970
+Bio	settlement	970
+Birinci Alıbəyli	settlement	970
+Birinci Aral	settlement	970
+Birinci Ağalı	settlement	970
+Birinci Aşıqlı	settlement	970
+Birinci Baharlı	settlement	970
+Birinci Biləcik	settlement	970
+Birinci Dördyol	settlement	970
+Birinci Dərəşam	settlement	970
+Birinci Mahmudlu	settlement	1019
+Birinci Meyniman	settlement	970
+Birinci Milli	settlement	970
+Birinci Muğanlı	settlement	970
+Birinci Nügədi	settlement	3074
+Birinci Paşalı	settlement	970
+Birinci Qaradəmirçi	settlement	970
+Birinci Qaralı	settlement	970
+Birinci Qazaxlar	settlement	970
+Birinci Quzanlı	settlement	970
+Birinci Səmidxanlı	settlement	970
+Birinci Tiyaqani	settlement	970
+Birinci Tığik	settlement	970
+Birinci Udullu	settlement	1595
+Birinci Varlı	settlement	970
+Birinci Yeddioymaq	settlement	970
+Birinci Yeniyol	settlement	820
+Birinci Yüzbaşılı	settlement	970
+Birinci Zobucuq	settlement	1389
+Birinci Çaylı	settlement	970
+Birinci Çağan	settlement	970
+Birinci İpək	settlement	970
+Birinci Şahsevən	settlement	970
+Birinci Şıxlı	settlement	2038
+Birinci Əlicanlı	settlement	1179
+Birinci Ərəbcəbirli	settlement	970
+Bist	settlement	970
+Bizlan	settlement	764
+Biçaqarbinə	settlement	970
+Biçənək	settlement	970
+Bobla	settlement	772
+Bobogil	settlement	970
+Boladı	settlement	3108
+Bolludərə	settlement	970
+Bolsulu	settlement	970
+Boluslu	settlement	1322
+Boradigah	settlement	3590
+Boranıkənd	settlement	970
+Borbor	settlement	970
+Borsunlu	settlement	2019
+Bostankeş	settlement	349
+Bostançı	settlement	970
+Boyaqlı	settlement	970
+Boyat	settlement	970
+Boykəndil	settlement	524
+Boykəndli	settlement	970
+Boynakər	settlement	970
+Boyxanlı	settlement	970
+Boyəhməd	settlement	970
+Boyəhmədli	settlement	314
+Bozalqanlı	settlement	2260
+Bozavand	settlement	970
+Bozavənd	settlement	970
+Bozayran	settlement	1482
+Bozbinə	settlement	970
+Bozdağan	settlement	970
+Bozgüney	settlement	970
+Bozlu	settlement	970
+Bozpapaqlar	settlement	970
+Boşçalı	settlement	970
+Boşçalılar	settlement	1388
+Bradi	settlement	734
+Bucaq	settlement	1322
+Budaqdərə	settlement	970
+Buduq	settlement	970
+Bulaqlı	settlement	970
+Bulaqotağı	settlement	970
+Bulduq	settlement	970
+Bulqan	settlement	970
+Bulutan	settlement	970
+Bum	settlement	970
+Bunud	settlement	970
+Buravar	settlement	970
+Burovdal	settlement	498
+Burqunqovaq	settlement	970
+Bursut	settlement	970
+Buruc	settlement	970
+Burunlu	settlement	870
+Buruq	settlement	671
+Burzubənd	settlement	970
+Buyduz	settlement	970
+Buynuz	settlement	852
+Buzluq	settlement	657
+Buzovna	settlement	6190
+Börü	settlement	434
+Böyük Alatəmir	settlement	934
+Böyük Bəhmənli	settlement	2717
+Böyük Dəhnə	settlement	1763
+Böyük Dəkkə	settlement	970
+Böyük Dəmyə	settlement	970
+Böyük Gilətağ	settlement	970
+Böyük Göyüşlü	settlement	970
+Böyük Həmyə	settlement	1666
+Böyük Kolatan	settlement	1971
+Böyük Kəhrizli	settlement	892
+Böyük Kəngərli	settlement	970
+Böyük Kəsik	settlement	1318
+Böyük Muruq	settlement	828
+Böyük Mərcanlı	settlement	970
+Böyük Oriyat	settlement	970
+Böyük Pirəlli	settlement	970
+Böyük Qaladərəsi	settlement	279
+Böyük Qaramurad	settlement	1456
+Böyük Qışlaq	settlement	1426
+Böyük Qəcər	settlement	970
+Böyük Söyüdlü	settlement	970
+Böyük Tağlar	settlement	1310
+Böyük Xocavar	settlement	970
+Böyük Xoşdarlı	settlement	494
+Böyük Xınıslı	settlement	970
+Böyük Xırdakar	settlement	970
+Böyük Şamlıq	settlement	537
+Böyük Əmili	settlement	1208
+Böyükbəyli	settlement	970
+Böyükdüz	settlement	1316
+Böyükkənd	settlement	970
+Böyükşor	settlement	970
+Böyürbinə	settlement	970
+Bülbülə	settlement	5391
+Bülövlük	settlement	970
+Bülüdül	settlement	913
+Bülüldüz	settlement	970
+Bünyadlı	settlement	970
+Bürcəli	settlement	1600
+Bürsülüm	settlement	720
+Bürvənd	settlement	499
+Bürzünbül	settlement	1141
+Bürünlu	settlement	970
+Büzeyir	settlement	715
+Bılıx	settlement	970
+Bırkandul	settlement	971
+Bıçaqçı	settlement	1398
+Bığır	settlement	970
+Bəbəli	settlement	970
+Bəciravan	settlement	1703
+Bəcirəvan	settlement	1612
+Bədirli	settlement	970
+Bədirqala	settlement	965
+Bədişqala	settlement	1141
+Bədəlan	settlement	970
+Bədəlli	settlement	970
+Bəhliyan	settlement	304
+Bəhlul	settlement	970
+Bəhmədli	settlement	2280
+Bəhrambağ	settlement	970
+Bəhrambəy	settlement	970
+Bəhruz Kəngərli	settlement	970
+Bəhrəmtəpə	settlement	2230
+Bəklə	settlement	595
+Bəlbay	settlement	970
+Bəliton	settlement	1155
+Bənövşələr	settlement	970
+Bənəcik	settlement	970
+Bənəniyar	settlement	970
+Bərcan	settlement	978
+Bərgüşad	settlement	2705
+Bərqov	settlement	982
+Bəxtiyarlı	settlement	970
+Bəyazatlı	settlement	970
+Bəybabalar	settlement	970
+Bəydili	settlement	2647
+Bəydövül	settlement	970
+Bəydəmirli	settlement	970
+Bəyimli	settlement	1005
+Bəyimsarov	settlement	970
+Bəylik	settlement	445
+Bəylər	settlement	970
+Bəyqışlaq	settlement	970
+Bəyəhmədyurd	settlement	970
+Bəzirxana	settlement	970
+Bəşirbəyli	settlement	970
+Bəşirli	settlement	766
+Bəşirlər	settlement	970
+Cabanı	settlement	758
+Cahangirbəyli	settlement	970
+Calut	settlement	970
+Camaldın	settlement	1278
+Camanşəir	settlement	578
+Canalı	settlement	970
+Canaxır	settlement	970
+Canbar	settlement	970
+Canhəsən	settlement	970
+Canyataq	settlement	684
+Caqar	settlement	712
+Caqarqışlaq	settlement	883
+Car	settlement	2374
+Cardam	settlement	970
+Carlı	settlement	1252
+Cavad	settlement	3432
+Cavadlar	settlement	970
+Cavadxan	settlement	970
+Cavadxanlı	settlement	1155
+Cavidabad	settlement	970
+Cağacuq	settlement	970
+Cağazur	settlement	970
+Cek	settlement	632
+Ceyildağ	settlement	970
+Ceyranbatan	settlement	2694
+Ceyrankeçməz	settlement	970
+Ceyranlı	settlement	970
+Ceyrançöl	settlement	130
+Cibir	settlement	1152
+Cicibinə	settlement	970
+Cicimli	settlement	970
+Cil	settlement	1665
+Cillik	settlement	970
+Cilov-Neft Daşları bələdiyyəsi	settlement	970
+Cilovdarlı	settlement	1267
+Cilovxanlı	settlement	511
+Cilən	settlement	970
+Cimcimax	settlement	970
+Cimi	settlement	1201
+Cincartala	settlement	970
+Cindar	settlement	970
+Cinli	settlement	970
+Cinli Zeynallı	settlement	737
+Cirdək	settlement	589
+Cirimbel	settlement	818
+Cocuq Mərcanlı	settlement	1318
+Comərd	settlement	970
+Conukənd	settlement	970
+Corat	settlement	3961
+Corlu	settlement	1581
+Cumakənd	settlement	970
+Cumalar	settlement	841
+Cunud	settlement	1106
+Cuvarlı	settlement	970
+Cuğurlu	settlement	970
+Cücanlı	settlement	970
+Cücük	settlement	970
+Cülyan	settlement	1239
+Cümşüdlü	settlement	970
+Cütcü	settlement	838
+Cütçü	settlement	970
+Cüvə	settlement	793
+Cılfır	settlement	970
+Cırdaxan	settlement	744
+Cırqurd	settlement	970
+Cığatay	settlement	970
+Cığatelli	settlement	970
+Cəfərabad	settlement	1535
+Cəfərli	settlement	2066
+Cəfəroğlu	settlement	970
+Cəfərxan	settlement	970
+Cəfərxanlı	settlement	970
+Cəhri	settlement	3574
+Cəlayir	settlement	1308
+Cəlilkənd	settlement	970
+Cəlilli	settlement	1484
+Cəmcəmli	settlement	970
+Cəmilli	settlement	970
+Cəmillər	settlement	970
+Cəmiyyət	settlement	637
+Cəndəhar	settlement	259
+Cəngan	settlement	970
+Cəngəmiran	settlement	1227
+Cəngənəvud	settlement	615
+Cənubi	settlement	970
+Cəvahirli	settlement	970
+Cəyirli	settlement	1577
+Cəyli	settlement	970
+Dadaşbəyli	settlement	970
+Dadaşlar	settlement	970
+Dadva	settlement	970
+Dalaqo	settlement	970
+Dalqılınclı	settlement	970
+Dalğalı	settlement	970
+Dambulaq	settlement	970
+Damcılı	settlement	970
+Damlamaca	settlement	970
+Damğalı	settlement	970
+Danayeri	settlement	970
+Danaçı	settlement	2875
+Dandıq	settlement	970
+Danyeri	settlement	1929
+Danzik	settlement	970
+Dardoqqaz	settlement	970
+Dardərə	settlement	434
+Darkənd	settlement	799
+Darquba	settlement	1288
+Darvazbinə	settlement	970
+Daryurd	settlement	970
+Darğalar	settlement	970
+Darılıq	settlement	970
+Daster	settlement	664
+Davidonu	settlement	934
+Davradibi	settlement	706
+Davudlu	settlement	604
+Davudoba	settlement	970
+Daxar	settlement	78
+Daylaqlı	settlement	970
+Dayıkazımlı	settlement	970
+Dayıkənd	settlement	970
+Dağ Bağırlı	settlement	1262
+Dağ Bilici	settlement	970
+Dağ Cəyir	settlement	970
+Dağ Közbulaq	settlement	970
+Dağ Kəsəmən	settlement	2997
+Dağ Maşanlı	settlement	970
+Dağ Quşçu	settlement	970
+Dağ Qışlaq	settlement	970
+Dağ Tumas	settlement	970
+Dağ Üzü	settlement	918
+Dağbulaq	settlement	970
+Dağdağan	settlement	509
+Dağdöşü	settlement	970
+Dağlı	settlement	970
+Dağlı məhəlləsi	settlement	970
+Dağyurd	settlement	687
+Dağüstü	settlement	970
+Daş Salahlı	settlement	970
+Daş Veysəlli	settlement	970
+Daşaltı	settlement	833
+Daşbaşı	settlement	970
+Daşbulaq	settlement	755
+Daşca	settlement	1004
+Daşdalıqcar	settlement	1305
+Daşduz	settlement	970
+Daşdəmirbəyli	settlement	970
+Daşkənd	settlement	1149
+Daşlı	settlement	970
+Daşlı Çalğan	settlement	970
+Daşlıyataq	settlement	970
+Daştatük	settlement	1033
+Daşxartan	settlement	970
+Daşüz	settlement	970
+Deman	settlement	970
+Deqadi	settlement	937
+Deşdahat	settlement	970
+Dico	settlement	444
+Didivar	settlement	970
+Digah	settlement	1926
+Digahoba	settlement	970
+Digov	settlement	148
+Digovdərə	settlement	308
+Dikdaş	settlement	970
+Dilağarda	settlement	970
+Dilman	settlement	970
+Diləli Müskanlı	settlement	970
+Diqo	settlement	970
+Diri	settlement	970
+Divanalılar	settlement	970
+Divanlı	settlement	970
+Divanlılar	settlement	970
+Divağac	settlement	387
+Divəzər	settlement	970
+Diyadin	settlement	970
+Diyallı	settlement	1566
+Dizaxlı	settlement	766
+Dizə	settlement	642
+Dolanlar	settlement	676
+Dolu	settlement	646
+Dondar Quşçu	settlement	2137
+Dondarlı	settlement	408
+Dostallı	settlement	970
+Dovşanlı	settlement	970
+Dozular	settlement	970
+Doşulu	settlement	970
+Durqan	settlement	732
+Duvaryan	settlement	200
+Duzdağ	settlement	970
+Dönük Qırıqlı	settlement	2141
+Dördlər	settlement	970
+Dördçinar	settlement	970
+Dördüncü Zobucuq	settlement	970
+Dövlətalıbəyli	settlement	970
+Dövlətyarlı	settlement	1351
+Dövranlı	settlement	970
+Dübəndi	settlement	970
+Düdükçü	settlement	970
+Düdəngə	settlement	970
+Dükanlar	settlement	970
+Dünyamalılar	settlement	970
+Dürriyə	settlement	921
+Düylün	settlement	978
+Düylündizə	settlement	970
+Düyərli	settlement	934
+Düz Bilici	settlement	970
+Düz Cırdaxan	settlement	1903
+Düz Qırıqlı	settlement	2769
+Düzqışlaq	settlement	944
+Düzrəsullu	settlement	877
+Düztahir	settlement	1375
+Düztahiroba	settlement	970
+Düzyurd	settlement	1477
+Düzənlik	settlement	970
+Dırnıs	settlement	1356
+Dıryan	settlement	960
+Dızdipok	settlement	624
+Dədə Qorqud	settlement	970
+Dədəgünəş	settlement	970
+Dədəli	settlement	1296
+Dəhnə	settlement	716
+Dəhnəxəlil	settlement	1248
+Dəhrəz	settlement	99
+Dəjəl	settlement	970
+Dəkkəoba	settlement	1204
+Dəli-qaya	settlement	445
+Dəlilər	settlement	970
+Dəliməmmədli	settlement	970
+Dəliquşçu	settlement	1231
+Dəlləkli	settlement	1104
+Dəlləkoba	settlement	970
+Dəlləkər	settlement	970
+Dəllər	settlement	970
+Dəllər Cırdaxan	settlement	2173
+Dəllər Cəyir	settlement	970
+Dəllər Daşbulaq	settlement	970
+Dəlmətala	settlement	970
+Dələli	settlement	970
+Dəmbəlov	settlement	970
+Dəmirli	settlement	970
+Dəmirçi	settlement	2603
+Dəmirçidam	settlement	970
+Dəmirçilər	settlement	970
+Dər	settlement	970
+Dərk	settlement	970
+Dərvişli	settlement	1340
+Dərvişlər	settlement	970
+Dəryavar	settlement	604
+Dərə Gilətağ	settlement	970
+Dərə Zarat	settlement	970
+Dərəcənnət	settlement	970
+Dərəkənd	settlement	970
+Dərəli	settlement	970
+Dərələyəz	settlement	970
+Dərəqışlaq	settlement	970
+Dəstor	settlement	970
+Dəstə	settlement	970
+Dəstəfur	settlement	784
+Dəstəgül	settlement	970
+Dəvrallı	settlement	482
+Dəvədaşı	settlement	970
+Dəvəçi	settlement	1704
+Dəyhan	settlement	970
+Dəyirmandağ	settlement	2021
+Dəyirmanlar	settlement	725
+Dəyirmanlı	settlement	970
+Dəyirmanyanı	settlement	970
+Dəymədağlı	settlement	942
+Dəymədərə	settlement	809
+Dəyəqarabulaq	settlement	970
+Edilli	settlement	970
+Edişə	settlement	945
+Eger-Yurd	settlement	970
+Elabad	settlement	254
+Elvazlu	settlement	970
+Eminli	settlement	970
+Enişdibi	settlement	387
+Ergi	settlement	970
+Erkeç	settlement	517
+Erməni Bazar	settlement	970
+Evoğlu	settlement	970
+Eymur	settlement	1077
+Eynallı	settlement	970
+Eynibulaq	settlement	970
+Eyvazalılar	settlement	970
+Eyvazlı	settlement	970
+Eyvazlılar	settlement	390
+Eyvazxanbəyli	settlement	970
+Eçara	settlement	970
+Faldarlı	settlement	1466
+Fatmayı	settlement	1936
+Fazıl	settlement	970
+Filfili	settlement	966
+Fingə	settlement	970
+Firiq	settlement	970
+Firuzabad	settlement	970
+Fuğanlı	settlement	970
+Fındıqlı	settlement	847
+Fındıqlıqışlaq	settlement	970
+Fındığan	settlement	970
+Fıstıqlı	settlement	564
+Fərcan	settlement	970
+Fərraş	settlement	970
+Fərrux	settlement	296
+Fərxani	settlement	970
+Fərzalı	settlement	825
+Fərzili	settlement	970
+Fərzəlioba	settlement	970
+Fərəcan	settlement	970
+Fərəcullalı	settlement	970
+Fərəhli	settlement	970
+Fətalılar	settlement	970
+Fətullaqışlaq	settlement	970
+Fətəlikənd	settlement	970
+Fətəlipəyə	settlement	970
+Fəxralı	settlement	1815
+Gal	settlement	970
+Garvankə	settlement	843
+Garıs Əyribənd	settlement	970
+Gavahın	settlement	981
+Gazarahox	settlement	970
+Gecəgözlü	settlement	970
+Gendərə	settlement	680
+Genişkənd	settlement	970
+Genlik	settlement	970
+Gican	settlement	793
+Gicanoba	settlement	970
+Gidəyli	settlement	970
+Gilah	settlement	970
+Gilançay	settlement	618
+Gilar	settlement	970
+Gilgilçay	settlement	1166
+Giləkəran	settlement	970
+Giləparqo	settlement	970
+Giləzi	settlement	2128
+Giləşə	settlement	970
+Girdə	settlement	970
+Girdəni	settlement	2388
+Girik	settlement	1206
+Gomuşçu	settlement	970
+Goran	settlement	517
+Goranlı	settlement	841
+Gorazıllı	settlement	970
+Govşatlı	settlement	970
+Gurbulaq	settlement	674
+Gursulu	settlement	970
+Göbəktala	settlement	1302
+Gödoşbinə	settlement	970
+Gödəkdərə	settlement	970
+Gödəkli	settlement	970
+Gödəklər	settlement	970
+Gödəkqobu	settlement	1288
+Göhərli	settlement	1027
+Gölyeri	settlement	786
+Gömür	settlement	807
+Görədil	settlement	1038
+Göyarx	settlement	970
+Göybulaq	settlement	970
+Göycəli	settlement	970
+Göydəlləkli	settlement	970
+Göydərə	settlement	970
+Göylər	settlement	970
+Göylər Dağ	settlement	2803
+Göyməmmədli	settlement	970
+Göynük	settlement	970
+Göynüyən	settlement	678
+Göyrücük	settlement	970
+Göytala	settlement	970
+Göyyal	settlement	970
+Göyçəkənd	settlement	913
+Göyük	settlement	970
+Göyşaban	settlement	1922
+Göyəbaxan	settlement	334
+Göyəlli	settlement	970
+Göyəm	settlement	2248
+Göyəmli	settlement	970
+Göyəmtala	settlement	970
+Göyərabas	settlement	970
+Göyərcik	settlement	970
+Göyərçin Veysəlli	settlement	970
+Gözbarax	settlement	1496
+Gözlübulaq	settlement	970
+Güdəcühür	settlement	970
+Güdəyli	settlement	609
+Gügəvar	settlement	851
+Gül Baharlı	settlement	970
+Gülablı	settlement	970
+Gülalan	settlement	970
+Gülbəndə	settlement	970
+Güldar	settlement	970
+Gülgəzli	settlement	970
+Güllücə	settlement	970
+Güllük	settlement	1695
+Güllütəpə	settlement	970
+Gülməmmədli	settlement	576
+Güloğlular	settlement	970
+Gültəpə	settlement	814
+Gülyatan	settlement	970
+Gülyataq	settlement	970
+Gülövşə	settlement	1649
+Gülüstan	settlement	349
+Gülüzənbinə	settlement	970
+Gülşənabad	settlement	970
+Güləbatlı	settlement	970
+Güləbird	settlement	970
+Güləh	settlement	970
+Güləzi	settlement	970
+Gümür Dəhnə	settlement	451
+Gümüşlü	settlement	970
+Gündüzqala	settlement	1089
+Güney Qışlaq	settlement	970
+Güneykənd	settlement	633
+Güneyli	settlement	970
+Güneyməhəllə	settlement	970
+Güneypəyə	settlement	970
+Güneyqışlaq	settlement	970
+Güneyxırman	settlement	296
+Güneyçartar	settlement	1296
+Günnüt	settlement	970
+Günqışlaq	settlement	970
+Günəhir	settlement	1014
+Günəş	settlement	970
+Günəşli	settlement	2741
+Günəşqaya	settlement	970
+Gürcülü	settlement	970
+Gürcüva	settlement	883
+Gürdəsər	settlement	1021
+Gürgan	settlement	1206
+Gürzallar	settlement	391
+Güvəkənd	settlement	970
+Güvəndik	settlement	788
+Güyüm	settlement	459
+Güzdək	settlement	1615
+Güznüt	settlement	1437
+Gılahoba	settlement	783
+Gədik	settlement	970
+Gədikqışlaq	settlement	970
+Gədəzeyxur	settlement	1645
+Gəgiran	settlement	1530
+Gəgəli	settlement	970
+Gəlinqaya	settlement	237
+Gəlmə	settlement	1614
+Gələbədin	settlement	970
+Gənclər	settlement	970
+Gəncəli	settlement	970
+Gəndov	settlement	1671
+Gəndəbil	settlement	978
+Gənzə	settlement	1352
+Gəraybəyli	settlement	978
+Gərgər	settlement	970
+Gərmətük	settlement	2599
+Gərməşöylü	settlement	970
+Gərsava	settlement	970
+Gərəkli	settlement	970
+Gərənə	settlement	970
+Gərəy	settlement	970
+Gəyəçöl	settlement	970
+Hacallı	settlement	1338
+Hacalıkənd	settlement	970
+Hacağalar	settlement	970
+Hacman	settlement	970
+Hacı Hüseynli	settlement	1486
+Hacı Qəhrəmanlı	settlement	1672
+Hacı Zeynalabdin	settlement	5173
+Hacı İsaqlı	settlement	970
+Hacıabdurəhimoba	settlement	970
+Hacıalmuradlı	settlement	1224
+Hacıalılar	settlement	970
+Hacıalılı	settlement	1408
+Hacıağabəyli	settlement	970
+Hacıbabalı	settlement	970
+Hacıbadəlli	settlement	970
+Hacıbəbir	settlement	970
+Hacıbəyli	settlement	970
+Hacıcavadlı	settlement	970
+Hacıhəsənli	settlement	857
+Hacıhətəmli	settlement	1716
+Hacıisaoba	settlement	970
+Hacıiskəndərli	settlement	970
+Hacıismayıllı	settlement	789
+Hacıkənd	settlement	1260
+Hacılar	settlement	819
+Hacılı	settlement	649
+Hacımahmudlu	settlement	970
+Hacımustafalı	settlement	970
+Hacıməlik	settlement	970
+Hacıməmmədli	settlement	970
+Hacıməmmədoba	settlement	970
+Hacıniyyət	settlement	970
+Hacıqaraqaşlı	settlement	970
+Hacıqasımlı	settlement	970
+Hacıqayıb	settlement	970
+Hacıqazma	settlement	970
+Hacıqurbanoba	settlement	970
+Hacıqədirli	settlement	970
+Hacıqərvənd	settlement	970
+Hacırüstəmli	settlement	1187
+Hacısamlı	settlement	970
+Hacıselli	settlement	1288
+Hacısəmədli	settlement	970
+Hacıturalı	settlement	970
+Hacıtəpə	settlement	970
+Hacıuşağı	settlement	970
+Hacıvar	settlement	970
+Hacıxanlı	settlement	970
+Hacışəkər	settlement	970
+Hacıəhmədli	settlement	970
+Hacıəhmədoba	settlement	970
+Hacıəlibəy	settlement	970
+Hacıələkbərli	settlement	970
+Hadiqaib	settlement	970
+Hadılı	settlement	970
+Haftaruon	settlement	970
+Haftoni	settlement	1807
+Haftonu	settlement	970
+Hal	settlement	970
+Halabın	settlement	970
+Hallavar	settlement	970
+Hamamlı	settlement	970
+Hamarat	settlement	1043
+Hamarkənd	settlement	937
+Hamarmeşə	settlement	905
+Hamarqışlaq	settlement	970
+Hamoşam	settlement	1459
+Hapitli	settlement	970
+Haput	settlement	784
+Hapıtlı	settlement	472
+Haqnəzər	settlement	970
+Haqverdilər	settlement	970
+Haran	settlement	322
+Harov	settlement	970
+Hasanlı	settlement	970
+Hasıllı	settlement	970
+Hat	settlement	970
+Havalı	settlement	970
+Havarlı	settlement	2022
+Havuş	settlement	970
+Havzova	settlement	1651
+Hayad	settlement	970
+Hazırəhmədli	settlement	1133
+Haçaqaya	settlement	970
+Haçatala	settlement	574
+Heriknaz	settlement	615
+Hetovlar	settlement	970
+Heybət	settlement	970
+Heydərli	settlement	970
+Heyvalı	settlement	886
+Heşan	settlement	846
+Hil	settlement	2471
+Hiloba	settlement	748
+Hilədərə	settlement	288
+Hindarx	settlement	4547
+Hinqar	settlement	970
+Hirkan	settlement	1472
+Hivəri	settlement	559
+Hişkədərə	settlement	970
+Honuba	settlement	969
+Honuba Şıxlar	settlement	746
+Hopurlu	settlement	970
+Horavar	settlement	999
+Horavenc	settlement	970
+Horonu	settlement	794
+Horovlu	settlement	859
+Hoveri	settlement	970
+Hovil	settlement	562
+Hovuslu	settlement	970
+Hoçaz	settlement	970
+Hunanlar	settlement	1528
+Hökməli	settlement	4576
+Hövsan	settlement	7798
+Höytala	settlement	970
+Hübi	settlement	268
+Hücü	settlement	970
+Hülövlü	settlement	1363
+Hüngütlü	settlement	970
+Hünərli	settlement	970
+Hürüuşağı	settlement	1046
+Hüseynabad	settlement	256
+Hüseynallar	settlement	970
+Hüseynbəyli	settlement	970
+Hüseynhacılı	settlement	970
+Hüseynqulular	settlement	306
+Hüseynuşağı	settlement	970
+Hüseynxanlı	settlement	718
+Hüsülü	settlement	371
+Hüsənli	settlement	970
+Hüşün	settlement	970
+Hıramo	settlement	433
+Həbibkənd	settlement	970
+Həftəsov	settlement	294
+Həkəri	settlement	970
+Həkərli	settlement	970
+Həmyəli	settlement	1142
+Həmzəli	settlement	970
+Həmzəlli	settlement	1370
+Həmənli	settlement	492
+Hənifə	settlement	970
+Hərtiz	settlement	970
+Həsin	settlement	970
+Həsən mahalı	settlement	970
+Həsənabad	settlement	2794
+Həsənbinə	settlement	970
+Həsənli	settlement	716
+Həsənlər	settlement	970
+Həsənqala	settlement	1208
+Həsənqaya	settlement	970
+Həsənqaydı	settlement	970
+Həsənqulular	settlement	970
+Həsənriz	settlement	1365
+Həsənsu	settlement	970
+Həsənxanlı	settlement	970
+Həsənçobanlı	settlement	970
+Hətəmlər	settlement	417
+Həzi Aslanov	settlement	970
+Həziabad	settlement	970
+Həzrə	settlement	700
+Həzrəoba	settlement	970
+Həşimxanlı	settlement	970
+Iilmilli	settlement	1430
+Jidi	settlement	970
+Jindi	settlement	581
+Jiy	settlement	515
+Kabalaka	settlement	970
+Kafarlı	settlement	970
+Kaha	settlement	970
+Kakalos	settlement	694
+Kalafalıq	settlement	970
+Kalatalıq	settlement	970
+Kalağaylı	settlement	970
+Kalbaoruc Dizə	settlement	970
+Kalva	settlement	970
+Kamallı	settlement	970
+Kamandar	settlement	263
+Kamlakan	settlement	970
+Kamo	settlement	970
+Karrar	settlement	970
+Karxulu	settlement	970
+Katex	settlement	970
+Katos	settlement	970
+Kavdadıq	settlement	970
+Kavdar	settlement	970
+Kaxat-Xəl	settlement	970
+Kazımabad	settlement	970
+Kazımlı	settlement	666
+Kebeloba	settlement	970
+Kekonu	settlement	465
+Kelami	settlement	970
+Keymərəz	settlement	970
+Keyvəndi	settlement	754
+Keçikli	settlement	970
+Keçili	settlement	970
+Keçiliqaya	settlement	970
+Keçmədin	settlement	515
+Keçəl Məmmədli	settlement	970
+Keçələkəran	settlement	970
+Keşdiməz	settlement	970
+Keşdək	settlement	970
+Keşlə	settlement	970
+Keşqutan	settlement	194
+Keştazlı	settlement	970
+Keşxurt	settlement	110
+Kijəbə	settlement	2316
+Kilisəkənd	settlement	970
+Kilsə	settlement	970
+Kilsəbuqov	settlement	970
+Kilvar	settlement	970
+Kincivo	settlement	496
+Kirdəh	settlement	970
+Kirk	settlement	654
+Kirovkənd	settlement	970
+Kirən	settlement	911
+Kirəvud	settlement	668
+Kiçik Alatəmir	settlement	203
+Kiçik Baraxum	settlement	970
+Kiçik Dəhnə	settlement	970
+Kiçik Dəmyə	settlement	970
+Kiçik Kovlar	settlement	970
+Kiçik Pirəlli	settlement	962
+Kiçik Qaladərəsi	settlement	249
+Kiçik Qarabəy	settlement	644
+Kiçik Qaramurad	settlement	1042
+Kiçik Əmili	settlement	970
+Kiçikli	settlement	970
+Kiçikoba	settlement	970
+Kiş	settlement	1225
+Klınbi	settlement	970
+Knaravan	settlement	970
+Kolanlı	settlement	970
+Kolanı	settlement	1459
+Kolatan	settlement	1204
+Kolatağ	settlement	970
+Kolayır	settlement	970
+Kollu	settlement	367
+Kolluqışlaq	settlement	970
+Kolqışlaq	settlement	970
+Kolxəlfəli	settlement	970
+Komanlı	settlement	970
+Kommuna	settlement	815
+Koraoba	settlement	970
+Korarx	settlement	970
+Korcabulaq	settlement	970
+Korgöz	settlement	1655
+Kornədi	settlement	533
+Kortala	settlement	970
+Kosacan	settlement	1269
+Kosakül	settlement	970
+Kosalar	settlement	970
+Kosalı	settlement	970
+Kotal	settlement	970
+Kotam	settlement	706
+Kotanarx	settlement	970
+Kotanbağ	settlement	970
+Kotavan	settlement	970
+Kovlar	settlement	970
+Kovşad	settlement	970
+Koxanəbi	settlement	540
+Krasnı Xutar	settlement	970
+Kubin	settlement	970
+Kufoba	settlement	709
+Kukheti	settlement	970
+Kunar	settlement	970
+Kuropatkino	settlement	191
+Kuzun	settlement	1152
+Kuzunqışlaq	settlement	1131
+Kyünçal	settlement	970
+Köbər Zəyzid	settlement	970
+Köhnə Alvadı	settlement	970
+Köhnə Gəgir	settlement	577
+Köhnə Orand	settlement	366
+Köhnə Quşçu	settlement	970
+Köhnə Tağlar	settlement	970
+Köhnə Xaçmaz	settlement	970
+Köhnə Xudat	settlement	1466
+Köhnə Xudat qazmalar	settlement	898
+Köhnə Zuvand	settlement	970
+Köhnə Çorman	settlement	970
+Köhnədaxar	settlement	345
+Köhnəkənd	settlement	970
+Köhnəqala	settlement	1432
+Köhnəqışlaq	settlement	970
+Köhünlü	settlement	970
+Köndələn	settlement	1013
+Könüllü	settlement	970
+Körpükənd	settlement	1309
+Körpüqıran	settlement	970
+Köryədi	settlement	1286
+Kötüklü	settlement	970
+Kövdadıq	settlement	970
+Kövlüc	settlement	970
+Kövüzbulaq	settlement	970
+Kövər	settlement	1716
+Köyük	settlement	970
+Köçdərə	settlement	379
+Köçvəlili	settlement	970
+Köçəkli	settlement	970
+Köçərli	settlement	970
+Köçəsgər	settlement	2591
+Köşkü	settlement	970
+Küdürlü	settlement	970
+Kükü	settlement	1358
+Kükəl	settlement	970
+Küllülü	settlement	970
+Kültəpə	settlement	1479
+Külüllü	settlement	499
+Külüs	settlement	970
+Küman	settlement	481
+Küng	settlement	970
+Künxırt	settlement	970
+Künövşə	settlement	970
+Küp-çalqışlaq	settlement	970
+Küpçal	settlement	779
+Kür	settlement	3080
+Kür Qaraqaşlı	settlement	970
+Kürd	settlement	1208
+Kürd Eldarbəyli	settlement	963
+Kürd Mahruzlu	settlement	970
+Kürd-Dam	settlement	970
+Kürdborakı	settlement	970
+Kürdhacı	settlement	830
+Kürdili	settlement	970
+Kürdlər	settlement	970
+Kürdmahmudlu	settlement	1166
+Kürdmaşı	settlement	1909
+Kürdçü	settlement	970
+Kürdüvan	settlement	567
+Kürdşaban	settlement	970
+Kürdəbaz	settlement	970
+Kürdəmiş	settlement	970
+Kürdəxanı	settlement	2812
+Kürkün	settlement	970
+Kürkənd	settlement	970
+Kürkəndi	settlement	970
+Kürqarabucaq	settlement	970
+Kürsəngi	settlement	970
+Kürçülü	settlement	970
+Kürəkçay	settlement	970
+Kürəkçi	settlement	1500
+Küsnət	settlement	970
+Küsnət qazma	settlement	970
+Küsəkəran	settlement	933
+Küvənil	settlement	1211
+Küçeyi	settlement	970
+Küçəkənd	settlement	970
+Kıavşan	settlement	970
+Kırna	settlement	970
+Kəbirli	settlement	1627
+Kəbərkənd	settlement	970
+Kəcavənd	settlement	272
+Kəhrizli	settlement	961
+Kəhrizoba	settlement	970
+Kəlbahüseynli	settlement	970
+Kəlbəhüseynli	settlement	970
+Kəlbənd	settlement	994
+Kəlfərəc	settlement	327
+Kəlvəz	settlement	574
+Kələbağ	settlement	970
+Kələbədin	settlement	1240
+Kələk	settlement	988
+Kələki	settlement	774
+Kələman	settlement	970
+Kələnnov	settlement	970
+Kələntər	settlement	574
+Kələntərli	settlement	970
+Kələntəroba	settlement	970
+Kələxan	settlement	1070
+Kələxana	settlement	664
+Kələzağ	settlement	970
+Kələzeyvə	settlement	548
+Kəmərli	settlement	1959
+Kəmərqaya	settlement	637
+Kənarmeşə	settlement	1311
+Kənarçay	settlement	659
+Kəndaxan	settlement	970
+Kəndoba	settlement	970
+Kəndxurd	settlement	530
+Kəndyeri	settlement	970
+Kəngərli	settlement	1103
+Kənzə	settlement	60
+Kənəə	settlement	181
+Kəpənəkçi	settlement	1083
+Kərgəlan	settlement	1911
+Kərimbəyli	settlement	970
+Kərimli	settlement	2055
+Kərki	settlement	7798
+Kərkənc	settlement	942
+Kərməçataq	settlement	970
+Kərəmli	settlement	599
+Kərəviz	settlement	970
+Kəsəmən	settlement	970
+Kətəlparaq	settlement	970
+Lahıc	settlement	2900
+Lallar	settlement	839
+Laləzar	settlement	970
+Laman	settlement	756
+Langi	settlement	650
+Laqodexbinə	settlement	970
+Laza	settlement	622
+Lazılar	settlement	603
+Laçın massivi	settlement	970
+Laçınkənd	settlement	970
+Laçınlar	settlement	970
+Lev	settlement	970
+Leyti	settlement	970
+Leşkər	settlement	970
+Livədirqə	settlement	1176
+Lizbirt	settlement	970
+Liəzi	settlement	970
+Lobir	settlement	970
+Loda	settlement	499
+Lolabağırlı	settlement	970
+Lomin	settlement	817
+Lüksemburq	settlement	1073
+Lüləkəran	settlement	838
+Lüləsaz	settlement	970
+Lürən	settlement	970
+Lüvəsər	settlement	1168
+Ləcədi	settlement	970
+Ləcət	settlement	1103
+Ləgərqışlaq	settlement	807
+Ləj	settlement	1393
+Lək	settlement	2134
+Ləki	settlement	970
+Ləkin	settlement	970
+Ləkit	settlement	1355
+Ləkit Kötüklü	settlement	544
+Ləkit Malax	settlement	393
+Ləkçılpaq	settlement	970
+Ləkər	settlement	501
+Ləkətağ	settlement	747
+Lələağacı	settlement	848
+Lələdulan	settlement	524
+Lələhiran	settlement	374
+Lələkəpeştə	settlement	970
+Lələli	settlement	759
+Lələpaşa	settlement	751
+Ləmbəran	settlement	970
+Lənbəran	settlement	2451
+Ləngan	settlement	799
+Ləngəbiz	settlement	970
+Ləpəheyranlı	settlement	970
+Ləpəxeyranlı	settlement	970
+Lərmərud	settlement	1113
+Ləzir	settlement	970
+Ləzran	settlement	651
+Maarif	settlement	970
+Mafruzlu	settlement	970
+Mahamalar	settlement	970
+Mahmudavar	settlement	970
+Mahmudkənd	settlement	970
+Mahmudlu	settlement	2026
+Mahmudoba	settlement	1025
+Mahmudoba nekropolu	settlement	970
+Mahruzlu	settlement	970
+Mahrızlı	settlement	1395
+Malatkeşin	settlement	970
+Malay	settlement	970
+Malbinəsi	settlement	1624
+Mallı Şıxlı	settlement	970
+Malxələf	settlement	970
+Malıbəy	settlement	970
+Malıbəyli	settlement	970
+Mamaylı	settlement	970
+Mamqabinə	settlement	970
+Mamrux	settlement	1617
+Mamulğan	settlement	970
+Mamusta	settlement	2314
+Mamırlı	settlement	970
+Manafoba	settlement	970
+Mandı	settlement	970
+Mandılı	settlement	970
+Maqov	settlement	2292
+Maqsudkənd	settlement	970
+Maqsudlu	settlement	970
+Maraldam	settlement	970
+Maralyansarov	settlement	970
+Marsan	settlement	971
+Marso	settlement	970
+Marzılı	settlement	970
+Marzəsə	settlement	739
+Marışlı	settlement	970
+Masazır	settlement	4803
+Masqarabinə	settlement	970
+Mastail	settlement	1055
+Mavas	settlement	970
+Maxta	settlement	970
+Mayak	settlement	970
+Mayıs	settlement	970
+Mazutlu	settlement	970
+Mazımqarışan	settlement	970
+Mazımçay	settlement	970
+Mazımüstü	settlement	970
+Maçaxı	settlement	407
+Maşadqanlı	settlement	970
+Maşanlı	settlement	970
+Maşlıq	settlement	970
+Maştağa	settlement	7290
+Maşxan	settlement	1750
+Maşıoba	settlement	970
+Mehdiabad	settlement	2837
+Mehdibəyli	settlement	970
+Mehdili	settlement	970
+Mehdixanlı	settlement	970
+Mehmana	settlement	970
+Mehrablı	settlement	970
+Mehrili	settlement	970
+Mehrəliqışlaq	settlement	970
+Meqrelalay	settlement	970
+Merdinli	settlement	970
+Meyniman	settlement	970
+Meysəri	settlement	970
+Meytablı	settlement	970
+Meyvəli	settlement	525
+Meçitoba	settlement	970
+Meşəbaş	settlement	682
+Meşəkənarı	settlement	970
+Meşəli	settlement	130
+Meşəşambul	settlement	970
+Mican	settlement	1909
+Mikayıllı	settlement	970
+Miki	settlement	1066
+Mikolan	settlement	730
+Mil	settlement	970
+Milabad	settlement	970
+Milanlı	settlement	970
+Milax	settlement	970
+Minaxür	settlement	543
+Minbaşı	settlement	970
+Minbaşılı	settlement	970
+Mingə	settlement	540
+Minkənd	settlement	352
+Minəxorlu	settlement	970
+Mircəlal	settlement	970
+Mirik	settlement	970
+Mirikənd	settlement	970
+Mirili	settlement	1077
+Mirimli	settlement	1208
+Mirlər	settlement	970
+Mirtəhməzli	settlement	970
+Mirzalıbəyli	settlement	970
+Mirzə Həsənli	settlement	970
+Mirzə Məmmədkənd	settlement	970
+Mirzəbəyli	settlement	746
+Mirzəcamallı	settlement	970
+Mirzəcəfərli	settlement	970
+Mirzəhaqverdili	settlement	820
+Mirzəhüseynli	settlement	970
+Mirzəkəndin	settlement	970
+Mirzəli	settlement	956
+Mirzələr	settlement	970
+Mirzəməmmədqışlaq	settlement	970
+Mirzənağılı	settlement	817
+Mirzəqasım	settlement	970
+Mirzəqurbanlı	settlement	970
+Mirzəqışlaq	settlement	970
+Mirzəxan	settlement	970
+Mirək	settlement	970
+Mirəsəbli	settlement	970
+Mirəşəlli	settlement	970
+Miskinli	settlement	654
+Mistan	settlement	723
+Mixaylovka	settlement	411
+Miyanku	settlement	970
+Mişkəmi	settlement	970
+Mişleş	settlement	970
+Mişni	settlement	1356
+Molalan	settlement	1122
+Molday	settlement	970
+Molla Ayrım	settlement	571
+Molla Həsənli	settlement	970
+Mollabayramlı	settlement	970
+Mollabürhan	settlement	970
+Mollabürhanlı	settlement	970
+Mollacəfərli	settlement	970
+Mollacəlilli	settlement	970
+Mollagüllər	settlement	970
+Mollahacılı	settlement	970
+Mollahəsənli	settlement	791
+Mollaisalar	settlement	970
+Mollaisaqlı	settlement	1131
+Mollakamallı	settlement	970
+Mollakənd	settlement	1910
+Mollalar	settlement	489
+Mollalı	settlement	970
+Mollaməhərrəmli	settlement	970
+Mollaməmmədli	settlement	970
+Mollaoba	settlement	970
+Mollavaizli	settlement	970
+Mollavəli	settlement	970
+Mollaçıbinə	settlement	970
+Mollaşıxalı	settlement	970
+Moloja	settlement	795
+Monidigah	settlement	1199
+Moranlı	settlement	970
+Mormor	settlement	771
+Morul	settlement	970
+Moruqoba	settlement	970
+Moruxlu	settlement	970
+Mosul	settlement	1913
+Motalayataq	settlement	1161
+Motudərə	settlement	970
+Moziata	settlement	970
+Mozkənd	settlement	970
+Mozqaraçanlı	settlement	970
+Moğonojoba	settlement	880
+Mucuq	settlement	1230
+Mucuqoba	settlement	634
+Mulux	settlement	191
+Mumlu	settlement	970
+Muncuqlu	settlement	430
+Muradalılı	settlement	986
+Muradbəyli	settlement	970
+Muradlı	settlement	970
+Muradxan	settlement	1841
+Muradxanlı	settlement	1855
+Murovdağ	settlement	970
+Murtuzalılar	settlement	970
+Murya	settlement	1138
+Murğuzalılı	settlement	862
+Murğuztala	settlement	970
+Musa	settlement	99
+Musabəyli	settlement	863
+Musaküçə	settlement	2276
+Musalı	settlement	970
+Musavar	settlement	215
+Musayal	settlement	970
+Mustafa	settlement	970
+Mustafaağalı	settlement	970
+Mustafabəyli	settlement	970
+Mustafalı	settlement	970
+Muxas	settlement	970
+Muxax	settlement	2984
+Muxtar	settlement	970
+Muxtariyyat	settlement	1884
+Muzdurlar	settlement	1341
+Muçu	settlement	970
+Muğan	settlement	2674
+Muğan Gəncəli	settlement	970
+Muğancıq Mehrab	settlement	970
+Muğancıq Müslüm	settlement	970
+Muğanlı	settlement	1732
+Muşavaq	settlement	658
+Möhüc	settlement	1271
+Mücü	settlement	528
+Mücühəftəran	settlement	557
+Mücəkbinə	settlement	970
+Müdri	settlement	517
+Müdrəsə	settlement	437
+Mülküdərə	settlement	970
+Mülkülü	settlement	1142
+Müqtədir	settlement	1598
+Mürsəl	settlement	1313
+Mürsəliqışlaq	settlement	970
+Mürsəlli	settlement	1030
+Mürsəqulu	settlement	970
+Mürtülü	settlement	970
+Mürşüdoba	settlement	970
+Müskürlü	settlement	970
+Müsüslü	settlement	1345
+Müzəffəroba	settlement	970
+Müşfiq	settlement	970
+Müşfiqabad	settlement	970
+Müşkapat	settlement	1287
+Müşkülqazma	settlement	970
+Müşkür	settlement	970
+Müşkəmir	settlement	209
+Mırtı	settlement	970
+Mıxlıqovaq	settlement	2354
+Mığıdərə	settlement	970
+Mədrəsə	settlement	1636
+Mədətkənd	settlement	970
+Mədətli	settlement	858
+Məhləabad	settlement	290
+Məhrablı	settlement	970
+Məhəmmədli	settlement	841
+Məhərrəmli	settlement	970
+Məlcək	settlement	970
+Məlhəm	settlement	1280
+Məlikballı	settlement	1502
+Məlikcanlı	settlement	970
+Məliki	settlement	970
+Məlikkənd	settlement	970
+Məlikli	settlement	1457
+Məliklər	settlement	970
+Məlikpəyə	settlement	970
+Məlikqasımlı	settlement	970
+Məlikumudlu	settlement	1255
+Məlikzadə	settlement	970
+Məlikçobanlı	settlement	1585
+Məlikəhmədli	settlement	970
+Məmişlər	settlement	970
+Məmməd Əmin Rəsulzadə	settlement	7798
+Məmmədabad	settlement	970
+Məmmədağalı	settlement	970
+Məmmədbağırlı	settlement	529
+Məmmədbəyli	settlement	970
+Məmmədcanlı	settlement	752
+Məmmədcəfərli	settlement	970
+Məmməddərə	settlement	970
+Məmmədli	settlement	3084
+Məmmədoba	settlement	970
+Məmmədqasımlı	settlement	1555
+Məmmədrzaküçə	settlement	970
+Məmmədrzalı	settlement	970
+Məmmədsabir	settlement	970
+Məmmədsəfi	settlement	970
+Məmməduşağı	settlement	970
+Məmmədxanlı	settlement	970
+Məmər	settlement	970
+Mənçəroba	settlement	970
+Mənəşli	settlement	545
+Mərcimək	settlement	970
+Mərdanlı	settlement	970
+Mərzili	settlement	970
+Mərzəndiyə	settlement	970
+Mərəlik	settlement	970
+Məsimlər	settlement	251
+Məstalıbəyli	settlement	970
+Məsçitməhəllə	settlement	1128
+Məzməzək	settlement	970
+Məzrə	settlement	411
+Məzrəli	settlement	2009
+Məzəm	settlement	970
+Məçkə-xacə	settlement	970
+Məşrif	settlement	970
+Məşəd	settlement	970
+Məşədi Hüseynli	settlement	377
+Məşədi Həsən	settlement	970
+Məşədihüseynli	settlement	970
+Məşədiibişli	settlement	970
+Məşədiismayıllı	settlement	970
+Məşədilər	settlement	1194
+Məşədiqaralar	settlement	868
+Məşədiqulular	settlement	380
+Məşədivəli	settlement	970
+Məşədivəlilər	settlement	882
+Nabran	settlement	864
+Nabur	settlement	2466
+Nadil	settlement	970
+Nadirkənd	settlement	1375
+Nadirxanlı	settlement	970
+Naharlı	settlement	970
+Naibli	settlement	970
+Namazgah	settlement	407
+Namekyash	settlement	970
+Namxoş	settlement	533
+Nanıc	settlement	298
+Narbağı	settlement	770
+Nardaran	settlement	970
+Narlıq	settlement	970
+Narınclar	settlement	110
+Narışlar	settlement	970
+Navahi	settlement	970
+Navahı	settlement	2050
+Naxçıvanlı	settlement	507
+Naxışnərgiz	settlement	970
+Nazırlı	settlement	970
+Nağaraxana	settlement	970
+Nağdalı	settlement	970
+Nağılar	settlement	970
+Nağıoba	settlement	970
+Neft Daşları	settlement	1560
+Nehrəxəlil	settlement	970
+Nemətabad	settlement	1584
+Nic	settlement	2643
+Niftalılar	settlement	970
+Nifçi	settlement	970
+Ninalov	settlement	970
+Ninqican	settlement	970
+Nisli	settlement	595
+Nisəqələ	settlement	1047
+Niyazoba	settlement	970
+Niyazqullar	settlement	970
+Nizami	settlement	970
+Noda	settlement	1216
+Nohurdüzü	settlement	970
+Nohurlar	settlement	970
+Nohurqışlaq	settlement	1923
+Nosovyədi	settlement	261
+Novlu	settlement	970
+Novoivanovka	settlement	970
+Novonikolayevka	settlement	559
+Novoqolovka	settlement	970
+Novosaratovka	settlement	970
+Novruzallı	settlement	970
+Novruzlu	settlement	970
+Novxanı	settlement	2331
+Noyabud	settlement	970
+Nubar	settlement	970
+Nurallar	settlement	970
+Nuran	settlement	970
+Nuravad	settlement	1369
+Nurməhəmmədli	settlement	970
+Nursu	settlement	970
+Nurulu	settlement	978
+Nurəddin	settlement	970
+Nurəlikənd	settlement	970
+Növcü	settlement	970
+Növdün	settlement	970
+Nücü	settlement	1019
+Nürgüt	settlement	970
+Nüsnüs	settlement	970
+Nüsomurya	settlement	523
+Nüsüs	settlement	970
+Nütəh	settlement	970
+Nüvədi	settlement	683
+Nüydü	settlement	970
+Nüzgar	settlement	970
+Nıso	settlement	331
+Nəbilər	settlement	970
+Nəcafalı	settlement	970
+Nəcəfalı	settlement	970
+Nəcəfkənd	settlement	644
+Nəcəfkəndoba	settlement	970
+Nəcəflər	settlement	970
+Nəcəfqulubəyli	settlement	1192
+Nəcəfəlidizə	settlement	970
+Nəhəcir	settlement	970
+Nəmirli	settlement	970
+Nərimanabad	settlement	2435
+Nərimankənd	settlement	2076
+Nərimanlı	settlement	970
+Nərimanov	settlement	1286
+Nərminli	settlement	970
+Nərəcan	settlement	970
+Nəsibli	settlement	263
+Nəsimi	settlement	2150
+Nəsimikənd	settlement	651
+Nəsirbəyli	settlement	970
+Nəsirvaz	settlement	433
+Nəvai	settlement	970
+Nəzərabad	settlement	970
+Nəzəralılı	settlement	498
+Nəzəroba	settlement	970
+Ocaqlı	settlement	970
+Odundağ	settlement	970
+Odurakəran	settlement	958
+Ojakəran	settlement	1459
+Oktyabrkənd	settlement	970
+Oncallı	settlement	758
+Onverst	settlement	970
+Oraban	settlement	970
+Orand	settlement	1295
+Orconikidze	settlement	484
+Ordahal	settlement	535
+Orta Güneypəyə	settlement	970
+Orta Ləki	settlement	1827
+Orta Qaraçanlı	settlement	970
+Orta Qışlaq	settlement	970
+Orta Qərvənd	settlement	970
+Orta Qəsil	settlement	676
+Orta Salahlı	settlement	970
+Orta Xuc	settlement	970
+Orta Yeməzli	settlement	970
+Orta Zəyzid	settlement	2345
+Orta Çalğan	settlement	970
+Orta Şurtan	settlement	970
+Orta Əlinəzərli	settlement	970
+Ortaoba	settlement	970
+Ortaqışlaq	settlement	970
+Oruclu	settlement	1360
+Osaküçə	settlement	2295
+Osmanlı	settlement	970
+Osnağakücə	settlement	390
+Osnəkəran	settlement	974
+Ostayır	settlement	1400
+Osyedərə	settlement	464
+Otaqlı	settlement	970
+Otaxlar	settlement	970
+Otmanoba	settlement	957
+Otqışlaq	settlement	970
+Otuziki	settlement	1304
+Otuzikilər	settlement	970
+Otuzikinci	settlement	970
+Ovala	settlement	560
+Ovuclu	settlement	970
+Ovçubərə	settlement	1448
+Ovçulu	settlement	970
+Oxud	settlement	970
+Oğlanqala	settlement	970
+Oğrubulaq	settlement	970
+Oğuldərə	settlement	970
+Oğuzkənd	settlement	970
+Oğuzqışlaq	settlement	970
+Padar	settlement	827
+Padardərə	settlement	970
+Padarqışlaq	settlement	970
+Palçıqoba	settlement	970
+Pambıqkənd	settlement	970
+Pambəyi	settlement	970
+Papaqçılar	settlement	1053
+Papravənd	settlement	231
+Papı	settlement	970
+Parakənd	settlement	1182
+Parağa	settlement	970
+Parağaçay	settlement	349
+Parça Xələc	settlement	970
+Payız	settlement	970
+Paşabəyli	settlement	970
+Paşalar	settlement	970
+Paşan	settlement	970
+Paşaoba	settlement	970
+Pendi	settlement	667
+Pensər	settlement	2391
+Perekeşkül	settlement	1937
+Petrosaşen	settlement	970
+Peyk	settlement	970
+Peştəsər	settlement	747
+Peştətük	settlement	489
+Piral	settlement	1538
+Piran	settlement	970
+Piratman	settlement	970
+Pirbulaq	settlement	762
+Pirbəhli	settlement	970
+Pircahan	settlement	970
+Pircamal	settlement	571
+Pircanə	settlement	970
+Pirembel	settlement	823
+Pirhəsənli	settlement	970
+Pirili	settlement	1174
+Pirilər	settlement	970
+Pirkax	settlement	970
+Pirkəkə	settlement	1194
+Pirkənd	settlement	970
+Pirlər	settlement	702
+Pirqulu	settlement	970
+Pirquluoba	settlement	970
+Pirsaat	settlement	970
+Pirsaatçay	settlement	970
+Pirvahid	settlement	970
+Pirverdilər	settlement	999
+Pirveys	settlement	970
+Pirzadlı	settlement	970
+Pirzəkücə	settlement	695
+Pirşağı	settlement	2855
+Pirəbbə	settlement	970
+Pirəbülqasım	settlement	437
+Pirəbədil	settlement	675
+Pirəhmədli	settlement	970
+Pirəköcə	settlement	970
+Pirəmsən	settlement	970
+Pirəqanım	settlement	49
+Pirəsora	settlement	1672
+Pirəyir	settlement	838
+Pirəzə	settlement	1341
+Piyadalar	settlement	970
+Piyəkücə	settlement	352
+Piçənis	settlement	970
+Plankənd	settlement	970
+Poladlı	settlement	970
+Poladtuğay	settlement	970
+Porsava	settlement	503
+Porsova	settlement	1017
+Potu	settlement	970
+Potubəyli	settlement	970
+Poylu	settlement	1942
+Poçtbinə	settlement	970
+Privolnoye	settlement	2335
+Puta	settlement	970
+Puçuq	settlement	970
+Püstəqasım	settlement	970
+Püsyan	settlement	970
+Püştətala	settlement	970
+Pəlikəş	settlement	1389
+Pələkli	settlement	622
+Pənahlılar	settlement	970
+Pərdi	settlement	970
+Pərdiqıran	settlement	970
+Pərioğlu	settlement	970
+Pərioğlular	settlement	970
+Pərioğullar	settlement	1389
+Pərizamanlı	settlement	970
+Pərvanlı	settlement	1258
+Pərzivan	settlement	970
+Pəzməri	settlement	438
+Qabaqdibi	settlement	1293
+Qabaqtəpə	settlement	593
+Qabaqçöl	settlement	1103
+Qabarta	settlement	970
+Qabıllı	settlement	1146
+Qacar	settlement	420
+Qafarlı	settlement	970
+Qahab	settlement	970
+Qala	settlement	970
+Qalaaltı	settlement	467
+Qalaboynu	settlement	970
+Qalaboyun	settlement	645
+Qalacıq	settlement	1460
+Qaladərəsi	settlement	413
+Qalagah	settlement	1098
+Qalakənd	settlement	970
+Qalal	settlement	970
+Qalaqayın	settlement	3045
+Qalaybuğurt	settlement	970
+Qalayxudat	settlement	701
+Qalayçılar	settlement	970
+Qalaça	settlement	970
+Qalağan	settlement	970
+Qalaşıxı	settlement	970
+Qalıncaq	settlement	1546
+Qam-qam	settlement	970
+Qamışlı	settlement	970
+Qamışlıgöl	settlement	970
+Qamışovka	settlement	970
+Qamıştala	settlement	970
+Qandalar	settlement	799
+Qandax	settlement	1418
+Qanlıkənd	settlement	970
+Qanlıtəpə	settlement	970
+Qanqalaş	settlement	970
+Qapanlı	settlement	970
+Qapıçay	settlement	643
+Qapıçıməhəllə	settlement	853
+Qara Nuru	settlement	2759
+Qara-qala	settlement	970
+Qaraarx	settlement	970
+Qaraağac	settlement	2267
+Qarababa	settlement	970
+Qarabaldır	settlement	836
+Qarabaqqal	settlement	970
+Qarabağ	settlement	970
+Qarabağlar	settlement	2663
+Qarabağlı	settlement	730
+Qarabağlılar	settlement	635
+Qaraboyunlar	settlement	505
+Qarabucaq	settlement	1344
+Qarabulaq	settlement	547
+Qaraburc	settlement	970
+Qarabörk	settlement	2654
+Qarabəyli	settlement	970
+Qaracalar	settlement	970
+Qaracalarbinə	settlement	970
+Qaracallı	settlement	2043
+Qaracik	settlement	970
+Qaracik Zeyid	settlement	970
+Qaracuq	settlement	1879
+Qaracüzlü	settlement	970
+Qaracəlli	settlement	970
+Qaracəmirli	settlement	2701
+Qaradağ	settlement	970
+Qaradağ Buduq	settlement	970
+Qaradağlı	settlement	2045
+Qaradaş	settlement	655
+Qaradeyin	settlement	970
+Qaradeyn	settlement	970
+Qaradolaq	settlement	476
+Qaradonlu	settlement	1200
+Qaradırnaq	settlement	970
+Qaradəmirçi	settlement	970
+Qaradərə	settlement	970
+Qaragav	settlement	970
+Qaragöl	settlement	970
+Qaragöz	settlement	970
+Qaragüney	settlement	970
+Qaragüvəndikli	settlement	1250
+Qarahacılı	settlement	970
+Qarahəsənli	settlement	970
+Qaraimanlı	settlement	970
+Qarakazımlı	settlement	970
+Qarakeçdi	settlement	970
+Qarakişilər	settlement	970
+Qarakollu	settlement	1274
+Qarakolluq	settlement	516
+Qarakosa	settlement	970
+Qarakötük	settlement	457
+Qarakənd	settlement	1342
+Qaralar	settlement	2021
+Qaralı	settlement	970
+Qaralılar	settlement	970
+Qaramahmudlu	settlement	771
+Qaraman	settlement	970
+Qaramanlı	settlement	1647
+Qarameşə	settlement	364
+Qaramusalı	settlement	1173
+Qaraməmmədli	settlement	1468
+Qaraməryəm	settlement	2617
+Qarandi	settlement	126
+Qaranuy	settlement	970
+Qaraoğlan	settlement	1206
+Qarapapaq	settlement	970
+Qarapirimli	settlement	607
+Qaraqaya	settlement	901
+Qaraqaşlı	settlement	1256
+Qaraqocalı	settlement	970
+Qaraqoyunlu	settlement	1605
+Qaraqullar	settlement	832
+Qaraqurdlu	settlement	970
+Qarasaqqal	settlement	1534
+Qarasu	settlement	970
+Qarasuqumlaq	settlement	889
+Qarasuçu	settlement	682
+Qarasüleymanlı	settlement	1254
+Qaratala	settlement	801
+Qaratağlar	settlement	461
+Qaratoba	settlement	880
+Qaratorpaq	settlement	970
+Qaratuğay	settlement	970
+Qaratəpə	settlement	970
+Qaravuldaş	settlement	970
+Qaravultomba	settlement	970
+Qaravəlili	settlement	970
+Qaravəlilər	settlement	970
+Qaravəlli	settlement	1179
+Qaraxanbəyli	settlement	970
+Qaraxanlı	settlement	1989
+Qaraxançallı	settlement	970
+Qaraxıdır	settlement	970
+Qarayazı	settlement	794
+Qarayeri	settlement	2681
+Qarayev	settlement	1837
+Qarayusifli	settlement	970
+Qarazeynallı	settlement	970
+Qarazəmi	settlement	970
+Qarazəncir	settlement	1812
+Qaraçala	settlement	2313
+Qaraçanlı	settlement	970
+Qaraçay	settlement	970
+Qaraçaycek	settlement	970
+Qaraçaylı	settlement	970
+Qaraçinar	settlement	685
+Qaraçuxur	settlement	7798
+Qaraçı	settlement	970
+Qarağac	settlement	970
+Qarağacı	settlement	970
+Qarağan Saatlı	settlement	970
+Qarağan Sədi	settlement	970
+Qarağan Şıxlar	settlement	970
+Qarağatlı	settlement	329
+Qaraşlar	settlement	970
+Qardaşkənd	settlement	970
+Qardaşoba	settlement	970
+Qardili	settlement	970
+Qarovulüstü	settlement	970
+Qarqar	settlement	970
+Qarqay	settlement	970
+Qarqucaq	settlement	925
+Qarqulu	settlement	970
+Qars	settlement	970
+Qarxun	settlement	1592
+Qarğabazar	settlement	970
+Qarğalıq	settlement	1440
+Qarğılı	settlement	970
+Qarıkaha	settlement	970
+Qarıkənd	settlement	970
+Qarıqışlaq	settlement	970
+Qarıtəpə	settlement	456
+Qasabovka	settlement	970
+Qasapet	settlement	537
+Qasbinə	settlement	970
+Qass	settlement	970
+Qasım İsmayılov	settlement	1736
+Qasımalılar	settlement	970
+Qasımağalı	settlement	904
+Qasımbinəsi	settlement	970
+Qasımbəyli	settlement	705
+Qasımkənd	settlement	970
+Qasımlar	settlement	970
+Qasımlı	settlement	1657
+Qasımqışlaq	settlement	970
+Qasımuşağı obası	settlement	970
+Qaxbaş	settlement	970
+Qaxingiloy	settlement	1476
+Qaxmuğal	settlement	970
+Qaxtut	settlement	92
+Qaya	settlement	970
+Qaya-dalı	settlement	966
+Qayabaşı	settlement	513
+Qayadibi	settlement	518
+Qayakənd	settlement	748
+Qayalı	settlement	970
+Qaybalı	settlement	970
+Qaymaqlı	settlement	970
+Qaynaq	settlement	970
+Qaysa	settlement	970
+Qaysarlı	settlement	627
+Qayğı	settlement	970
+Qazanbatan	settlement	970
+Qazanbulaq	settlement	970
+Qazangül	settlement	970
+Qazanzəmi	settlement	970
+Qazançı	settlement	924
+Qazarkı-Qomər	settlement	970
+Qazaxbərəsi	settlement	970
+Qazaxbəyli	settlement	1197
+Qazaxlar	settlement	1057
+Qazaxlı	settlement	631
+Qazaxyolçular	settlement	646
+Qazbabalı	settlement	970
+Qazbölük	settlement	970
+Qazma	settlement	970
+Qazmalar	settlement	550
+Qazyan	settlement	2738
+Qazıdərə	settlement	970
+Qazıqulu	settlement	1017
+Qazıqumlaq	settlement	970
+Qazıqurdalı	settlement	970
+Qazıxanlı	settlement	970
+Qaçaq Kərəm	settlement	970
+Qaçaqkənd	settlement	970
+Qağacılı	settlement	970
+Qağartsi	settlement	970
+Qaşaltı Qaraqoyunlu	settlement	1007
+Qaşqaçay	settlement	1348
+Qeyri-yaşayış binası	settlement	970
+Qilqilov	settlement	595
+Qiyaməddinli	settlement	1404
+Qiyaslı	settlement	970
+Qobu	settlement	3119
+Qobu Dilağarda	settlement	970
+Qobuqıraq	settlement	970
+Qobuüstü	settlement	970
+Qocalı	settlement	970
+Qodman	settlement	970
+Qodəsə	settlement	970
+Qolqəti	settlement	970
+Qonaqkənd	settlement	970
+Qonaqlı	settlement	372
+Qorağan	settlement	1239
+Qorqan	settlement	970
+Qoruqbağı	settlement	1402
+Qoruqlar	settlement	481
+Qorxmazoba	settlement	851
+Qorçu	settlement	156
+Qorçulu	settlement	970
+Qorğan	settlement	970
+Qosməliyon	settlement	700
+Qoturlu	settlement	970
+Qovlarsarı	settlement	970
+Qovuşuq	settlement	970
+Qovşudlu	settlement	970
+Qoxmuq	settlement	970
+Qoydan	settlement	292
+Qoyunbinəsi	settlement	1810
+Qozağacı	settlement	697
+Qozdərə	settlement	387
+Qozlu	settlement	889
+Qozlubulaq	settlement	970
+Qozludərə	settlement	970
+Qozlukörpü	settlement	970
+Qozqaralı	settlement	970
+Qoztala	settlement	970
+Qoçaqqazma	settlement	970
+Qoçbəyli	settlement	970
+Qoçdərə	settlement	336
+Qoçulu	settlement	970
+Qoçəhmədli	settlement	970
+Qoşa	settlement	451
+Qoşabulaq	settlement	970
+Qoşadizə	settlement	970
+Qoşakənd	settlement	871
+Qoşaoba	settlement	1741
+Qoşaqovaq	settlement	970
+Qoşaqışlaq	settlement	970
+Qoşasu	settlement	970
+Qrız	settlement	970
+Qrızdəhnə	settlement	970
+Qubadlı Şıxlı	settlement	970
+Qubalı	settlement	970
+Qubalıbalaoğlan	settlement	970
+Qubaxəlilli	settlement	1690
+Qudula	settlement	970
+Qulbəndə	settlement	821
+Qullar	settlement	607
+Qulubəyli	settlement	1334
+Quləbənd	settlement	970
+Qum	settlement	1542
+Qumbaşı	settlement	1252
+Qumlaq	settlement	1066
+Qumlu	settlement	970
+Qumux	settlement	970
+Qundanlı	settlement	970
+Quraşdırma ev	settlement	970
+Qurbantəpə	settlement	970
+Qurbanzadə	settlement	877
+Qurbançı	settlement	970
+Qurbanəfəndi	settlement	1125
+Qurdbayram	settlement	970
+Qurdlar	settlement	970
+Qurdtəpə	settlement	970
+Qurudərə	settlement	1026
+Qurumba	settlement	1068
+Quruzma	settlement	1744
+Qusarçay	settlement	970
+Quturğan	settlement	960
+Quxur	settlement	251
+Quxuroba	settlement	1552
+Quycaq	settlement	970
+Quytul	settlement	191
+Quyudərə Xəştab	settlement	970
+Quyçu	settlement	970
+Quzay	settlement	970
+Quzeyxırman	settlement	325
+Quzeyçartar	settlement	793
+Quzeyçirkin	settlement	970
+Quzumkənd	settlement	970
+Quşlar	settlement	970
+Quşqara	settlement	970
+Quşçu	settlement	2416
+Quşçu Ayrım	settlement	1200
+Quşçu körpüsü	settlement	665
+Quşçular	settlement	1010
+Quşəncə	settlement	1752
+Qüsur	settlement	970
+Qılıcan	settlement	970
+Qılıncbəyli	settlement	1253
+Qılınclı	settlement	970
+Qılışlı	settlement	970
+Qımıl	settlement	970
+Qımıl-qazma	settlement	780
+Qımılqışlaq	settlement	970
+Qımır	settlement	181
+Qındırğa	settlement	357
+Qıpçaq	settlement	866
+Qıraq Kəsəmən	settlement	970
+Qıraq Müşlan	settlement	970
+Qıraqlı	settlement	970
+Qırlar	settlement	970
+Qırmızı Oktyabr	settlement	994
+Qırmızı Qəsəbə	settlement	970
+Qırmızı Samux	settlement	970
+Qırmızı Şəfəq	settlement	970
+Qırmızı-Saqqallar	settlement	970
+Qırmızıkənd	settlement	970
+Qırmızıqaya	settlement	970
+Qırx Çıraq	settlement	970
+Qırxbulaq	settlement	970
+Qırxıncı	settlement	970
+Qırılı	settlement	970
+Qırıqlı	settlement	732
+Qırıxlı	settlement	970
+Qıyıqlı	settlement	628
+Qıyıqçı	settlement	970
+Qızmeydan	settlement	1134
+Qızqayıtdı	settlement	970
+Qızıl Kəngərli	settlement	970
+Qızıl Qışlaq	settlement	973
+Qızılarx	settlement	970
+Qızılavar	settlement	970
+Qızılağac	settlement	2631
+Qızılburun	settlement	970
+Qızılca	settlement	1150
+Qızıldaş	settlement	970
+Qızılhacılı	settlement	3277
+Qızılkənd	settlement	2015
+Qızıloba	settlement	460
+Qızılqaya	settlement	1102
+Qızılqazma	settlement	970
+Qıçatan	settlement	424
+Qışlaq	settlement	496
+Qışlaqabbas	settlement	970
+Qəbizdərə	settlement	970
+Qəbələ Müskürlü	settlement	970
+Qəcərzeyid	settlement	970
+Qədili	settlement	970
+Qədim Şabran	settlement	970
+Qədimkücə	settlement	970
+Qədimkənd	settlement	970
+Qədirli	settlement	1376
+Qədmalıqışlaq	settlement	970
+Qəfərli	settlement	970
+Qəhrəmanbəyli	settlement	970
+Qəhrəmanlı	settlement	970
+Qəleybuğurd	settlement	970
+Qələbin	settlement	634
+Qələdüz	settlement	970
+Qələgah	settlement	557
+Qələsər	settlement	445
+Qəmərvan	settlement	1538
+Qənidərə	settlement	361
+Qərbənd	settlement	970
+Qərchə	settlement	970
+Qəribli	settlement	919
+Qəriblik	settlement	970
+Qəriblər	settlement	970
+Qərsələ	settlement	215
+Qərvənd	settlement	970
+Qərəh	settlement	970
+Qərər	settlement	970
+Qəvoy	settlement	575
+Qəzli	settlement	489
+Qəzvinoba	settlement	970
+Qəzyan	settlement	970
+Qəçrəş	settlement	970
+Qəşəd	settlement	970
+Rabənd	settlement	970
+Ramal	settlement	974
+Ramana	settlement	970
+Ramazanlı	settlement	970
+Raziyələr	settlement	970
+Reqloba	settlement	970
+Rinə	settlement	1061
+Roçəhməd	settlement	970
+Rudəkənar	settlement	1341
+Rumus	settlement	970
+Rus Borisi	settlement	970
+Rustov	settlement	3320
+Ruçuq	settlement	970
+Ruşan	settlement	1096
+Rvarud	settlement	999
+Rvo	settlement	1333
+Rzalar	settlement	970
+Rüdakənar	settlement	970
+Rük	settlement	970
+Rüstəmli	settlement	1024
+Rıvadila	settlement	970
+Rəcəbli	settlement	970
+Rəhimağalı	settlement	970
+Rəhimli	settlement	1288
+Rəhimoba	settlement	970
+Rəmə	settlement	970
+Rəncbər	settlement	970
+Rəncbərlər	settlement	970
+Rəngdar	settlement	970
+Rəstəcə	settlement	1148
+Rəsullu	settlement	1290
+Rəzdərə	settlement	970
+Rəzgov	settlement	619
+Rəzvan	settlement	121
+Rəzəvül	settlement	503
+Sabirkənd	settlement	970
+Sabirli	settlement	970
+Sabiroba	settlement	970
+Sabunçu	settlement	6180
+Sadatlı	settlement	970
+Sadavat	settlement	970
+Sadınlar	settlement	970
+Sadıqlı	settlement	226
+Safarşa	settlement	970
+Sahillər	settlement	970
+Sahiloba	settlement	970
+Saladınlı	settlement	408
+Salahlı	settlement	1768
+Salahlı Kəngərli	settlement	970
+Salahoba	settlement	563
+Salahsəmədlər	settlement	970
+Salaketin	settlement	970
+Salatınkənd	settlement	970
+Salban	settlement	970
+Saldaş	settlement	970
+Salmanbəyli	settlement	1679
+Salmanlı	settlement	970
+Saloğlu	settlement	970
+Saltaq	settlement	970
+Samanlıq	settlement	970
+Samur	settlement	1704
+Samurçay	settlement	970
+Samuxlu	settlement	970
+Sanqalan	settlement	970
+Saracıq	settlement	970
+Sarallı Xəştab	settlement	970
+Saray	settlement	3606
+Sarov	settlement	970
+Sarovlu	settlement	970
+Sarvan	settlement	970
+Sarvanlar	settlement	822
+Sarxanbəyli	settlement	970
+Sarxanlı	settlement	1156
+Sarı Hacılı	settlement	970
+Sarıbaba	settlement	970
+Sarıbaş	settlement	449
+Sarıbulaq	settlement	970
+Sarıca	settlement	970
+Sarıca-Minbərək abidələri	settlement	970
+Sarıcalar	settlement	970
+Sarıcallı	settlement	970
+Sarıcalı	settlement	1499
+Sarıcəfərli	settlement	970
+Sarıdaş	settlement	970
+Sarıhacılı	settlement	970
+Sarıhəsənli	settlement	970
+Sarıköynək	settlement	970
+Sarıl	settlement	970
+Sarımoğlu	settlement	970
+Sarıqamış	settlement	970
+Sarıqaya	settlement	907
+Sarıqışlaq	settlement	970
+Sarısu	settlement	970
+Sarıtala	settlement	722
+Sarıtorpaq məhəlləsi	settlement	970
+Sarıtəpə	settlement	970
+Sarıxanlı	settlement	2757
+Sarıyataq	settlement	970
+Sarıçoban	settlement	772
+Savalan	settlement	598
+Sayad	settlement	970
+Sayadlı	settlement	970
+Saybalı	settlement	970
+Sağolcan	settlement	970
+Seliqovan	settlement	970
+Seləkəran	settlement	1038
+Seləli	settlement	970
+Separadi	settlement	1964
+Seybətin	settlement	970
+Seydimli	settlement	970
+Seyid Yusifli	settlement	970
+Seyid Əhmədli	settlement	970
+Seyidan	settlement	970
+Seyidbazar	settlement	1202
+Seyidbəyli	settlement	970
+Seyidli	settlement	970
+Seyidlikəndyeri	settlement	970
+Seyidlər	settlement	970
+Seyidmahmudlu	settlement	970
+Seyidqışlaq	settlement	970
+Seyidsadıqlı	settlement	970
+Seyidəkəran	settlement	1117
+Seysulan	settlement	970
+Seytas	settlement	970
+Sibiroba	settlement	970
+Sibiyyət	settlement	970
+Siləyli	settlement	737
+Sincan	settlement	970
+Sincanboyad	settlement	970
+Sinovli	settlement	986
+Sipiyaəlfətik	settlement	970
+Sipiyəpart	settlement	866
+Sipyəreqon	settlement	517
+Sirab	settlement	970
+Sirik	settlement	789
+Sirt Çiçi	settlement	970
+Sirəbil	settlement	970
+Sis	settlement	970
+Sitalçay	settlement	970
+Sivəkəran	settlement	970
+Siyablı	settlement	637
+Siyakeş	settlement	970
+Siyaku	settlement	1248
+Siyaqut	settlement	970
+Siyavar	settlement	1228
+Siyov	settlement	1167
+Siyətük	settlement	1093
+Skobelyovka	settlement	970
+Slavyanka	settlement	2123
+Sobu	settlement	970
+Sofikənd	settlement	970
+Sofular	settlement	748
+Sofulu	settlement	970
+Solqard	settlement	970
+Solquca	settlement	970
+Soltan Nuxa	settlement	970
+Soltanabad	settlement	970
+Soltankənd	settlement	951
+Soltanlı	settlement	970
+Soltanmuradlı	settlement	1032
+Sonalar	settlement	970
+Sonasar	settlement	970
+Sor	settlement	970
+Sor Sor	settlement	1490
+Sors	settlement	945
+Sorsçay	settlement	606
+Soru	settlement	1227
+Sos	settlement	1112
+Sovla	settlement	970
+Soyulan	settlement	970
+Soyuqbulaq	settlement	1124
+Soyuqbulaqlar	settlement	970
+Soğanverdilər	settlement	970
+Spitakşen	settlement	970
+Stansiya Daşarx	settlement	970
+Suarası	settlement	970
+Sudur	settlement	831
+Suduroba	settlement	612
+Sulut	settlement	1038
+Sulutəpə	settlement	4731
+Suluçeşmə	settlement	970
+Suma	settlement	970
+Sumaylı	settlement	970
+Sumağallı	settlement	945
+Sumağava	settlement	970
+Sumağava Qazma	settlement	970
+Suncinka	settlement	970
+Suparibağ	settlement	1131
+Suqovuşan	settlement	357
+Suraxanı	settlement	4314
+Surra	settlement	970
+Sus	settlement	178
+Susanlıq	settlement	970
+Susay	settlement	970
+Susayqışlaq	settlement	970
+Sust	settlement	970
+Susuzluq	settlement	970
+Suvacal	settlement	903
+Suvagil	settlement	970
+Suxtakələ	settlement	970
+Suxtaqalaqışlaq	settlement	970
+Suçma	settlement	970
+Söhbətli	settlement	970
+Söhüb	settlement	970
+Söyüdlü	settlement	197
+Söyüdlər	settlement	970
+Sübh	settlement	970
+Süleymanlı	settlement	970
+Sülh	settlement	970
+Sündü	settlement	970
+Süskənd	settlement	507
+Sütəmurdov	settlement	2141
+Sıhəkəran	settlement	970
+Sım	settlement	841
+Sımada	settlement	970
+Sırt-Yengicə	settlement	970
+Sırxavənd	settlement	464
+Sırıq	settlement	866
+Sığaloni	settlement	700
+Sığdaş	settlement	970
+Sığnaq	settlement	970
+Sığıncaq	settlement	970
+Sığırlı	settlement	2939
+Səbir	settlement	970
+Səbətkeçməz	settlement	970
+Səbətlər	settlement	970
+Sədan	settlement	970
+Sədi	settlement	970
+Sədiyan	settlement	602
+Sədəfli	settlement	970
+Sədərək	settlement	3364
+Səfalı	settlement	970
+Səfikürd	settlement	970
+Səfixanlar	settlement	970
+Səfiyan	settlement	970
+Səfərli	settlement	746
+Səhləbad	settlement	970
+Səkəşam	settlement	970
+Səlimoba	settlement	970
+Səlivə	settlement	970
+Sələsüz	settlement	970
+Səməd Vurğun	settlement	970
+Səmədabad	settlement	1775
+Səmədli	settlement	970
+Səncərədi	settlement	1500
+Səngəçal	settlement	2113
+Səpnəkəran	settlement	1342
+Sərdahar	settlement	484
+Sərdarkənd	settlement	970
+Sərdarlı	settlement	970
+Sərhədəbad	settlement	970
+Sərinbulaq	settlement	336
+Sərkar	settlement	970
+Sərkarlı	settlement	970
+Sərkərlar	settlement	970
+Sərkərli	settlement	970
+Sərkərtəpə	settlement	970
+Sərsurə	settlement	481
+Sərxan	settlement	3308
+Sərxanlı	settlement	970
+Sərçuvar	settlement	970
+Sərək	settlement	1396
+Tahirli	settlement	797
+Talabinələr	settlement	970
+Talabı	settlement	970
+Talabıqışlaq	settlement	970
+Talalar	settlement	970
+Talıstan	settlement	1629
+Talış	settlement	566
+Talışlar	settlement	970
+Talışlı	settlement	970
+Talışnuru	settlement	970
+Tamaşa	settlement	970
+Tanqıt	settlement	449
+Tanrıqulular	settlement	1718
+Tap	settlement	970
+Tap Qaraqoyunlu	settlement	1714
+Tapan	settlement	603
+Tarovlu	settlement	970
+Tasmalı	settlement	1336
+Tatalılar	settlement	970
+Tatar	settlement	970
+Tatarlı	settlement	970
+Tatarməhlə	settlement	970
+Tatev mahalı	settlement	970
+Tatlar	settlement	441
+Tatlı	settlement	1544
+Tatoba	settlement	970
+Tatoni	settlement	352
+Tatyanoba	settlement	970
+Taxtabaşı	settlement	970
+Taxtalar	settlement	970
+Taxtanəkəran	settlement	970
+Taynaq	settlement	1033
+Tayıflı	settlement	970
+Tağaroba	settlement	970
+Tağaser	settlement	970
+Tağaverd	settlement	1265
+Tağlabiyan	settlement	626
+Tağlı	settlement	970
+Tağıbəyli	settlement	970
+Tağılar	settlement	970
+Tağılı	settlement	970
+Tel	settlement	970
+Telavar	settlement	1219
+Telişli	settlement	980
+Teymur Müskənli	settlement	585
+Teyvaz	settlement	970
+Tezxaraba	settlement	970
+Teşkan	settlement	970
+Tikanlı	settlement	970
+Tikanoba	settlement	970
+Tikəband	settlement	1133
+Tiləkənd	settlement	970
+Timirzayev	settlement	970
+Tinli	settlement	970
+Tircan	settlement	1293
+Tiri	settlement	970
+Tirkeşəvənd	settlement	970
+Tirkəşəvənd	settlement	970
+Tivi	settlement	970
+Todan	settlement	970
+Tofiqi	settlement	1273
+Tola	settlement	970
+Tomarxanlı	settlement	970
+Top	settlement	970
+Topalhəsənli	settlement	970
+Topbağ	settlement	970
+Toplar	settlement	970
+Topçu	settlement	1319
+Toradi	settlement	999
+Torpaqkörpü	settlement	548
+Totuqlu	settlement	970
+Toğana	settlement	970
+Tubikənd	settlement	164
+Tudar	settlement	970
+Tulus	settlement	970
+Tumaslı	settlement	970
+Tumbul	settlement	970
+Turabad	settlement	970
+Turabxan	settlement	970
+Turaclı	settlement	1098
+Turan	settlement	1582
+Turist	settlement	970
+Tuğ	settlement	923
+Tuğay	settlement	970
+Tövlədərə	settlement	970
+Tüklə	settlement	970
+Tükəvilə	settlement	1278
+Tükəzbanlı	settlement	970
+Tülallar	settlement	970
+Tülü	settlement	970
+Tüləgüvan	settlement	1326
+Tüləkəran	settlement	970
+Tülər	settlement	1162
+Tüntül	settlement	970
+Türk-Xoylu	settlement	970
+Türkan	settlement	970
+Türkelli	settlement	970
+Türkeş	settlement	970
+Türklər	settlement	970
+Türkmən	settlement	578
+Türkoba	settlement	970
+Türkədi	settlement	970
+Türkəkəran	settlement	1193
+Türkəncil	settlement	819
+Türkəçi	settlement	711
+Türyançay	settlement	970
+Tütəpeştə	settlement	1069
+Tüədo	settlement	843
+Tıxlı	settlement	970
+Təbrizli	settlement	463
+Təhlə	settlement	970
+Təhmər	settlement	970
+Təkdam	settlement	970
+Təklə	settlement	1022
+Təklə Mirzəbaba	settlement	970
+Təkyemişan	settlement	970
+Təkyə	settlement	970
+Təkəqaya	settlement	970
+Təkəqayası	settlement	970
+Təkəçaya	settlement	970
+Təndul	settlement	294
+Təngivan	settlement	970
+Təngəaltı	settlement	970
+Təngəbin	settlement	525
+Təngərüd	settlement	2003
+Tənənəm	settlement	970
+Təpəcənnət	settlement	970
+Təpəkənd	settlement	320
+Təpəməhlə	settlement	970
+Tərkeş	settlement	970
+Tərnəyüt	settlement	970
+Tərsyer	settlement	970
+Tərxanlı	settlement	970
+Təsi	settlement	970
+Təzə Alvadı	settlement	970
+Təzə Şilyan	settlement	970
+Təzəbinə	settlement	390
+Təzəkənd	settlement	2110
+Ucarlı	settlement	347
+Udulu	settlement	970
+Ukur	settlement	862
+Ukuroba	settlement	970
+Ulacalı	settlement	970
+Ulaşlı	settlement	970
+Ulaşlı Şıxlı	settlement	970
+Ulu Qarabəy	settlement	970
+Ulubaba	settlement	970
+Uludaş	settlement	970
+Uludüz	settlement	970
+Umbakı	settlement	970
+Umudallar	settlement	970
+Umudlu	settlement	766
+Unannovu	settlement	970
+Unus	settlement	970
+Upa	settlement	970
+Uqah	settlement	970
+Urakəran	settlement	1082
+Urmis	settlement	970
+Urva	settlement	1734
+Urvaoba	settlement	581
+Uryanoba	settlement	970
+Ustacəlilli	settlement	970
+Utuq	settlement	970
+Uzunbabalı	settlement	970
+Uzunboyad	settlement	970
+Uzunmeşə	settlement	970
+Uzunoba	settlement	970
+Uzunqazmalar	settlement	709
+Uzuntala	settlement	894
+Uzuntəpə	settlement	2843
+Uğurbəyli	settlement	970
+Uştal	settlement	732
+Uştalqışlaq	settlement	560
+Vahidli	settlement	1167
+Valasin	settlement	970
+Vamaziqon	settlement	970
+Vaqadi	settlement	970
+Vaqo	settlement	1394
+Varlı Həyat	settlement	970
+Varna	settlement	970
+Varsan	settlement	970
+Varvara	settlement	1410
+Varxan	settlement	970
+Vayxır	settlement	970
+Vağazin	settlement	970
+Vaşa	settlement	448
+Vejnəli	settlement	970
+Vel	settlement	897
+Velədi	settlement	970
+Veri	settlement	970
+Veri Əliabadı	settlement	970
+Veyisli	settlement	1375
+Veysəlli	settlement	970
+Vijaker	settlement	970
+Vilik	settlement	970
+Vilvan	settlement	2306
+Viləş	settlement	970
+Viləşə	settlement	970
+Viravul	settlement	2049
+Vistən	settlement	970
+Viyən	settlement	970
+Vizəzəmin	settlement	970
+Vladimirovka	settlement	367
+Vov	settlement	970
+Vovada	settlement	970
+Vurğun	settlement	970
+Vöhtala	settlement	970
+Vıləparqo	settlement	970
+Vıy	settlement	970
+Vəlibəyli	settlement	970
+Vəliqulubəyli	settlement	970
+Vəliuşaqlı	settlement	970
+Vəlixanlı	settlement	827
+Vəlvələ	settlement	970
+Vələmir	settlement	970
+Vələsli	settlement	970
+Vələver	settlement	970
+Vələçola	settlement	970
+Vəndam	settlement	3298
+Vəng	settlement	697
+Vəngli	settlement	970
+Vənlik	settlement	970
+Vənədi	settlement	970
+Vənədli	settlement	970
+Vənənd	settlement	970
+Vənəşikəş	settlement	970
+Vərdah	settlement	970
+Vərgədüz	settlement	1232
+Vərməziyar	settlement	970
+Vərov	settlement	827
+Vərəzət	settlement	1475
+Vətağa	settlement	970
+Vətəgə	settlement	970
+Vəznəş	settlement	970
+Xal-xal	settlement	970
+Xalatala	settlement	970
+Xaldan	settlement	2155
+Xallanlı	settlement	970
+Xallava	settlement	970
+Xallıcalı	settlement	970
+Xaltan	settlement	970
+Xalxal	settlement	970
+Xalxalqışlaq	settlement	970
+Xalı kənd	settlement	970
+Xanabad	settlement	1437
+Xanagah yolu	settlement	970
+Xanalion	settlement	970
+Xanallar	settlement	970
+Xanalı	settlement	970
+Xanalılar	settlement	970
+Xanağa	settlement	936
+Xanağabulaq	settlement	152
+Xanağalı	settlement	970
+Xanbağı	settlement	970
+Xanbulan	settlement	1259
+Xanbulaq	settlement	970
+Xandan	settlement	970
+Xankeçən	settlement	970
+Xanlar	settlement	970
+Xanlarkənd	settlement	1419
+Xanlıq	settlement	970
+Xanlıqlar	settlement	2120
+Xanlıqlı	settlement	496
+Xanlıqoba	settlement	970
+Xanlıqpəyə	settlement	970
+Xanməmməd-Bünaən	settlement	970
+Xanməmmədbinə	settlement	970
+Xanməmmədli	settlement	752
+Xanoba	settlement	970
+Xanqaraqoyunlu	settlement	970
+Xanqutala	settlement	970
+Xanqərvənd	settlement	2209
+Xanxanımlı	settlement	970
+Xanyeri	settlement	970
+Xanyurdu	settlement	970
+Xanılı	settlement	970
+Xanəgah	settlement	1292
+Xanərəb	settlement	970
+Xaqani	settlement	970
+Xarabagilan	settlement	970
+Xarabalıq	settlement	970
+Xarovşa	settlement	970
+Xarxan	settlement	413
+Xarxar	settlement	970
+Xarxatan	settlement	1502
+Xasabağ	settlement	970
+Xaspolad	settlement	668
+Xaspoladoba	settlement	970
+Xasıdərə	settlement	970
+Xatman	settlement	970
+Xatınbulaq	settlement	970
+Xatınbəyli	settlement	970
+Xatıncan	settlement	376
+Xatınlı	settlement	1958
+Xaçaparaq nekropolu	settlement	970
+Xaçkənd	settlement	970
+Xaçmazqışlaq	settlement	823
+Xaçmaç	settlement	496
+Xaçınabad	settlement	970
+Xaçındərbətli	settlement	970
+Xaçınyalı	settlement	970
+Xaşı	settlement	970
+Xilə	settlement	970
+Xilə Mirzəli	settlement	970
+Ximran	settlement	171
+Xincab	settlement	868
+Xobota	settlement	970
+Xocadoy	settlement	970
+Xocahan	settlement	970
+Xocəsən	settlement	970
+Xok	settlement	2442
+Xol Qarabucaq	settlement	970
+Xol Qaraqaşlı	settlement	970
+Xolmili	settlement	1686
+Xoltəzəkənd	settlement	970
+Xoləzəy Alxaslı	settlement	970
+Xoruzlu	settlement	970
+Xosrov	settlement	1475
+Xoylu	settlement	1600
+Xozavi	settlement	970
+Xoçik	settlement	970
+Xoşbulaq	settlement	1521
+Xoşkeşin	settlement	707
+Xoşçobanlı	settlement	1248
+Xraxoba	settlement	707
+Xubyarlı	settlement	1147
+Xucbala	settlement	970
+Xudafərin	settlement	970
+Xudaverdili	settlement	970
+Xudaverdilər	settlement	970
+Xudayarlı	settlement	970
+Xuluf	settlement	970
+Xuluq	settlement	670
+Xuluqoba	settlement	364
+Xumarlı	settlement	970
+Xumarta	settlement	970
+Xurama	settlement	970
+Xuray	settlement	907
+Xurs	settlement	434
+Xurşud	settlement	970
+Xürəl	settlement	1136
+Xıdırlı	settlement	970
+Xıl	settlement	2290
+Xıllı	settlement	2198
+Xılxına	settlement	1122
+Xınalı	settlement	1064
+Xınalıq	settlement	1589
+Xınaxlı	settlement	787
+Xıncab	settlement	970
+Xındırıstan	settlement	2812
+Xınnakirən	settlement	620
+Xınıslı	settlement	970
+Xırdaoymaq	settlement	970
+Xırdapay	settlement	970
+Xırmancıq	settlement	970
+Xırmandalı	settlement	3223
+Xırmanlar	settlement	970
+Xırt	settlement	970
+Xırxatala	settlement	970
+Xıçaso	settlement	970
+Xəilli	settlement	970
+Xəlfədam	settlement	970
+Xəlfəkücə	settlement	970
+Xəlfəli	settlement	1668
+Xəlfələr	settlement	970
+Xəlifəhoni	settlement	970
+Xəlifəkənd	settlement	200
+Xəlifələr	settlement	970
+Xəlilabad	settlement	970
+Xəlilli	settlement	624
+Xəliloba	settlement	970
+Xəlitli	settlement	970
+Xəlsə	settlement	970
+Xələc	settlement	970
+Xələfli	settlement	970
+Xələftala	settlement	379
+Xələfşə	settlement	970
+Xələnc	settlement	970
+Xəndək	settlement	970
+Xəsili	settlement	970
+Xəsədərli	settlement	557
+Xətai	settlement	970
+Xəzər	settlement	970
+Xəzərli	settlement	970
+Yal Pirəhmədli	settlement	970
+Yalama	settlement	970
+Yalavac	settlement	1871
+Yalavanc	settlement	970
+Yaldili	settlement	1265
+Yalman	settlement	970
+Yalobakənd	settlement	970
+Yalqışlaq	settlement	970
+Yanarxac	settlement	970
+Yanıq Ələz	settlement	970
+Yanıqlı	settlement	1609
+Yanıqpəyə	settlement	970
+Yanşaq	settlement	970
+Yanşaqbinə	settlement	970
+Yaqublu	settlement	844
+Yaquboba	settlement	970
+Yaradullu	settlement	715
+Yarməmmədbağı	settlement	1149
+Yarpaqlı	settlement	970
+Yarımca	settlement	970
+Yarəhmədli	settlement	970
+Yasab	settlement	1495
+Yasaboba	settlement	770
+Yasamal	settlement	970
+Yastıqobu	settlement	970
+Yataqoba	settlement	970
+Yaxa Dəllək	settlement	970
+Yayıcı	settlement	806
+Yağlıvənd	settlement	970
+Yağləvənd oymağı	settlement	970
+Yaşayış yeri	settlement	970
+Yaşma	settlement	970
+Yaşma bağları	settlement	970
+Yekdar	settlement	970
+Yekəxana	settlement	970
+Yellicə	settlement	970
+Yeləkəsən	settlement	970
+Yemişanlı	settlement	1112
+Yemişcan	settlement	486
+Yemişənli	settlement	970
+Yengicə	settlement	970
+Yengiyan	settlement	1231
+Yeni Abdinli	settlement	970
+Yeni Astraxanovka	settlement	970
+Yeni Daşkənd	settlement	1773
+Yeni Dizaxlı	settlement	970
+Yeni Göyçə	settlement	970
+Yeni Günəşli	settlement	7504
+Yeni Havuş	settlement	970
+Yeni Həyat	settlement	930
+Yeni Kərki	settlement	680
+Yeni Mil	settlement	970
+Yeni Novruzlu	settlement	970
+Yeni Qaradolaq	settlement	1733
+Yeni Qaralar	settlement	970
+Yeni Qızmeydan	settlement	970
+Yeni Qızılca	settlement	970
+Yeni Ramana	settlement	970
+Yeni Sudur	settlement	970
+Yeni Suraxanı	settlement	970
+Yeni Suvagil	settlement	2353
+Yeni Tahircal	settlement	970
+Yeni Uluxanlı	settlement	1910
+Yeni Veysli	settlement	1703
+Yeni Yaşma	settlement	970
+Yeni Yol	settlement	970
+Yeni Zod	settlement	818
+Yeni Zuvandlı	settlement	970
+Yeni yol	settlement	1182
+Yeni Çobankərə	settlement	970
+Yeni İlisu	settlement	970
+Yeni Şımıxlı	settlement	970
+Yeni Şərif	settlement	970
+Yeni Ələt	settlement	970
+Yeni Əyricə	settlement	1436
+Yeniabad	settlement	970
+Yeniarx	settlement	970
+Yenibağ	settlement	970
+Yenicə	settlement	970
+Yenigün	settlement	1540
+Yenikənd	settlement	705
+Yenilik	settlement	970
+Yeniqışlaq	settlement	890
+Yeniyol	settlement	970
+Yerfi	settlement	756
+Yergüc	settlement	970
+Yerği kek	settlement	302
+Yeyənkənd	settlement	970
+Yolayrıc	settlement	970
+Yolağac	settlement	970
+Yolocaq	settlement	1173
+Yolpaq	settlement	862
+Yolqullar	settlement	320
+Yolqulular	settlement	971
+Yolçubəyli	settlement	970
+Yolüstü	settlement	970
+Yoğunbulaq	settlement	798
+Yurdçu	settlement	1149
+Yusif Məmmədəliyev	settlement	970
+Yusifbəyli	settlement	970
+Yusifcanlı	settlement	970
+Yusifli	settlement	970
+Yusiflər	settlement	970
+Yuxarı Amburdərə	settlement	970
+Yuxarı Aralıq	settlement	970
+Yuxarı Aran	settlement	970
+Yuxarı Astanlı	settlement	970
+Yuxarı Axtaçı	settlement	970
+Yuxarı Aybasanlı	settlement	1141
+Yuxarı Ayrım	settlement	970
+Yuxarı Ağalı	settlement	965
+Yuxarı Ağasıbəyli	settlement	1178
+Yuxarı Ağcakənd	settlement	970
+Yuxarı Ağcayazı	settlement	970
+Yuxarı Ballıqaya	settlement	266
+Yuxarı Bilnə	settlement	970
+Yuxarı Bucaq	settlement	970
+Yuxarı Buzqov	settlement	970
+Yuxarı Bığır	settlement	970
+Yuxarı Cibikli	settlement	970
+Yuxarı Cülyan	settlement	477
+Yuxarı Cürəli	settlement	1274
+Yuxarı Daşarx	settlement	970
+Yuxarı Daşkəsən	settlement	1471
+Yuxarı Digah	settlement	939
+Yuxarı Fərəcan	settlement	970
+Yuxarı Güzlək	settlement	970
+Yuxarı Gəyəli	settlement	970
+Yuxarı Könüllü	settlement	970
+Yuxarı Kürdmahmudlu	settlement	970
+Yuxarı Kəbirli	settlement	970
+Yuxarı Leninabad	settlement	970
+Yuxarı Ləgər	settlement	805
+Yuxarı Ləki	settlement	2046
+Yuxarı Maralyan	settlement	970
+Yuxarı Mollu	settlement	970
+Yuxarı Mərcanlı	settlement	970
+Yuxarı Nemətabad	settlement	891
+Yuxarı Noxudlu	settlement	970
+Yuxarı Nüsüs	settlement	970
+Yuxarı Nüvədi	settlement	1592
+Yuxarı Oratağ	settlement	970
+Yuxarı Qapanlı	settlement	970
+Yuxarı Qaradağlı	settlement	970
+Yuxarı Qaralar	settlement	1194
+Yuxarı Qaramanlı	settlement	970
+Yuxarı Qarasaqqal	settlement	970
+Yuxarı Qarxun	settlement	1434
+Yuxarı Qiyaməddinli	settlement	1965
+Yuxarı Quşçular	settlement	970
+Yuxarı Qılıncbağ	settlement	970
+Yuxarı Qışlaq	settlement	970
+Yuxarı Qələnxur	settlement	804
+Yuxarı Qəsil	settlement	970
+Yuxarı Rəfədinli	settlement	970
+Yuxarı Salahlı	settlement	970
+Yuxarı Salamabad	settlement	970
+Yuxarı Sarıcalı	settlement	970
+Yuxarı Seyfəli	settlement	970
+Yuxarı Seyidlər	settlement	958
+Yuxarı Seyidəhmədli	settlement	970
+Yuxarı Tahircal	settlement	769
+Yuxarı Tala	settlement	2997
+Yuxarı Tüləkəran	settlement	970
+Yuxarı Uzunoba	settlement	970
+Yuxarı Veysəlli	settlement	970
+Yuxarı Xocamusaxlı	settlement	970
+Yuxarı Yaycı	settlement	970
+Yuxarı Yağləvənd	settlement	970
+Yuxarı Yemişcan	settlement	185
+Yuxarı Yeməzli	settlement	970
+Yuxarı Zeynəddin	settlement	970
+Yuxarı Zeyxur	settlement	1114
+Yuxarı Çardaxlar	settlement	1614
+Yuxarı Çaykənd	settlement	970
+Yuxarı Çaylı	settlement	970
+Yuxarı Çiyni	settlement	718
+Yuxarı Çəmənli	settlement	970
+Yuxarı Öysüzlü	settlement	2784
+Yuxarı Şilyan	settlement	970
+Yuxarı Şurtan	settlement	970
+Yuxarı Əbdürrəhmanlı	settlement	970
+Yuxarı Ələz	settlement	970
+Yuxarı Əndəmic	settlement	970
+Yuxarı Əngilan	settlement	970
+Yuxarı Əskipara	settlement	583
+Yuxarı Əylis	settlement	1504
+Yəhərçi Qazaxlar	settlement	963
+Zabrat	settlement	970
+Zabux	settlement	970
+Zalam	settlement	819
+Zallar	settlement	970
+Zalqaraağac	settlement	970
+Zamanlı	settlement	888
+Zamanpəyəsi	settlement	970
+Zar	settlement	251
+Zarat	settlement	1413
+Zaratxeybəri	settlement	970
+Zarağan	settlement	970
+Zardaxaç	settlement	390
+Zardoni	settlement	970
+Zarqava	settlement	970
+Zarıslı	settlement	970
+Zavadıq	settlement	970
+Zaviyə məhəlləsi	settlement	970
+Zazalı	settlement	970
+Zağaaltı	settlement	970
+Zağalar	settlement	970
+Zağalı	settlement	697
+Zağlı	settlement	970
+Zenonu	settlement	791
+Zerti	settlement	970
+Zevin	settlement	1268
+Zeyid	settlement	554
+Zeynəddin	settlement	1870
+Zeynəko	settlement	970
+Zeynələzir	settlement	970
+Zeyvə	settlement	1844
+Zilanlı	settlement	970
+Ziliban	settlement	970
+Zindanmuruq	settlement	926
+Zindanmuruqqışlaq	settlement	727
+Zinzahal	settlement	645
+Zirik	settlement	970
+Zirə	settlement	3909
+Zivel	settlement	970
+Zivlan	settlement	416
+Ziyadlı	settlement	970
+Ziyrik	settlement	970
+Zizik	settlement	970
+Zolkəran	settlement	604
+Zopun	settlement	1124
+Zor	settlement	970
+Zoğalbulaq	settlement	970
+Zoğallıq	settlement	728
+Zunud	settlement	1276
+Zurnabad	settlement	970
+Zurqes	settlement	970
+Zuxul	settlement	673
+Zuxuloba	settlement	384
+Zuğulba	settlement	970
+Zöhrabkənd	settlement	970
+Zöhramı	settlement	970
+Zövlə	settlement	1735
+Zövnə	settlement	970
+Züd-Ost Qoltuq	settlement	970
+Zülfüqarlı	settlement	920
+Zümürxan	settlement	1261
+Züngüləş	settlement	854
+Züvüc	settlement	970
+Zıxır	settlement	970
+Zığ	settlement	4007
+Zəfəran	settlement	970
+Zəhmətabad	settlement	2026
+Zəhmətkənd	settlement	970
+Zəlimxan	settlement	1242
+Zəngişalı	settlement	970
+Zəngələ	settlement	970
+Zəngənə	settlement	970
+Zərbəli	settlement	705
+Zərdabi	settlement	3700
+Zərdanaşen	settlement	970
+Zərdəbərə	settlement	970
+Zərgəran	settlement	281
+Zərgərli	settlement	788
+Zərikuməco	settlement	970
+Zərkar	settlement	970
+Zərnava	settlement	1030
+Zərnə	settlement	963
+Zərnəli	settlement	970
+Zərnətün	settlement	970
+Zərqava	settlement	1264
+Zərqulu	settlement	970
+Zərrab	settlement	593
+Zəylik	settlement	723
+Zəyəm	settlement	1374
+Zəyəm Cırdaxan	settlement	3029
+Çahar	settlement	1186
+Çalburun	settlement	970
+Çaldaş	settlement	1225
+Çallı	settlement	1660
+Çalxan	settlement	970
+Çalxanqala	settlement	1617
+Çanaqbulaq	settlement	854
+Çanaqçı	settlement	1058
+Çandahar	settlement	434
+Çapand	settlement	970
+Çapar	settlement	554
+Çaparlı	settlement	970
+Çapağan	settlement	970
+Çarabad	settlement	970
+Çaraq	settlement	970
+Çardaqlı	settlement	810
+Çarhan	settlement	1853
+Çartəpə	settlement	970
+Çarxana	settlement	970
+Çarxaçu	settlement	970
+Çarxı	settlement	970
+Çatax	settlement	614
+Çaxmaq-Bina	settlement	970
+Çaxmaqlı	settlement	970
+Çaxçaxlı	settlement	970
+Çaxırlı	settlement	1373
+Çay Qurbançı	settlement	970
+Çay Üzü	settlement	1078
+Çayarxı	settlement	970
+Çaykənd	settlement	1769
+Çaylaqqala	settlement	970
+Çaylı	settlement	3066
+Çayoba	settlement	1220
+Çayqaraqaşlı	settlement	970
+Çayqovuşan	settlement	413
+Çayqıraq	settlement	970
+Çayqışlaq	settlement	970
+Çayraqoyunlu	settlement	1440
+Çayrud	settlement	1471
+Çayrəsullu	settlement	970
+Çaytumas	settlement	970
+Çağadüz	settlement	970
+Çederovtala	settlement	970
+Çelov	settlement	970
+Çeşman	settlement	537
+Çeşməbasar	settlement	1088
+Çeşməli	settlement	786
+Çilov	settlement	970
+Çiləbürt	settlement	281
+Çiləgir	settlement	1062
+Çimən	settlement	970
+Çinar	settlement	970
+Çinarlar	settlement	970
+Çinarlı	settlement	2132
+Çinartala	settlement	970
+Çiraquz	settlement	970
+Çistı Klyuç	settlement	970
+Çiyni	settlement	970
+Çiçi	settlement	995
+Çiçəkli	settlement	1316
+Çobanabdallı	settlement	970
+Çobangərəhməz	settlement	970
+Çobankol	settlement	2263
+Çobankənd	settlement	970
+Çobansığnaq	settlement	933
+Çolaqlı	settlement	970
+Çolpı	settlement	1569
+Çomaxtur	settlement	2063
+Çopurlu	settlement	970
+Çorman	settlement	970
+Çormanlı	settlement	970
+Çorçorbinə	settlement	970
+Çovdar	settlement	401
+Çovurar	settlement	970
+Çubuqlu	settlement	747
+Çullu	settlement	970
+Çuxanlı	settlement	960
+Çuxur Qəbələ	settlement	1088
+Çuxurazəmi	settlement	970
+Çuxurməhlə	settlement	970
+Çuxuroba	settlement	970
+Çuxuryurd	settlement	1120
+Çöhramlı	settlement	970
+Çökəkoba	settlement	970
+Çökərə	settlement	185
+Çöl Ağaməmmədli	settlement	970
+Çöl Beşdəli	settlement	970
+Çöl Dəllək	settlement	666
+Çöl Qubalı	settlement	970
+Çöl Ərəb	settlement	970
+Çölgöylər	settlement	697
+Çölquşçu	settlement	970
+Çöpədərə	settlement	970
+Çörəkli	settlement	533
+Çüdüllü	settlement	682
+Çükəş	settlement	970
+Çünzəli	settlement	970
+Çünəxanlı	settlement	536
+Çüvaş	settlement	970
+Çıldıran	settlement	242
+Çılpaqlı	settlement	970
+Çılğır	settlement	970
+Çıraq	settlement	970
+Çıraqdərə	settlement	970
+Çıraqlı	settlement	553
+Çığırğan	settlement	970
+Çədəri	settlement	970
+Çələbilər	settlement	1005
+Çələbixan	settlement	970
+Çəmbərəkənd məhəlləsi	settlement	970
+Çəmbərəxaç	settlement	970
+Çəmənli	settlement	2616
+Çənlibel	settlement	970
+Çənnəb	settlement	809
+Çəpli	settlement	970
+Çərmədil	settlement	408
+Çərtəyəz	settlement	970
+Çərçiboğan	settlement	970
+Çərəcə	settlement	970
+Çərəktar	settlement	440
+Çərəkə	settlement	970
+Çərəkən	settlement	970
+Çərəli	settlement	970
+Çərəlilər	settlement	970
+Çətgün	settlement	426
+Öjək	settlement	970
+Ökü	settlement	970
+Öküzovtala	settlement	970
+Ölcələr	settlement	778
+Ömərağalı	settlement	970
+Öncəqala	settlement	970
+Ördüc	settlement	970
+Ördəkli	settlement	970
+Öryət	settlement	970
+Örənqala	settlement	970
+Öskən	settlement	634
+Öyləqulu	settlement	970
+Üdgün	settlement	970
+Ülgüc	settlement	970
+Üləşik	settlement	970
+Ümid	settlement	955
+Üngütlü	settlement	970
+Ünəş	settlement	970
+Ürgə	settlement	1487
+Ürkməzli	settlement	970
+Üstüpü	settlement	970
+Üzdənoba	settlement	864
+Üzümlü	settlement	970
+Üzümçü	settlement	970
+Üzümçülük	settlement	970
+Üzümçülər	settlement	970
+Üçbulaq	settlement	970
+Üçgün	settlement	970
+Üçgünqışlaq	settlement	970
+Üçoğlan	settlement	1763
+Üçtəpə	settlement	1756
+Üçtəpə kurqanları	settlement	970
+Üçüncü Ağalı	settlement	970
+Üçüncü Mahmudlu	settlement	970
+Üçüncü Milli	settlement	970
+Üçüncü Tala	settlement	1576
+Üçüncü Zobucuq	settlement	1422
+İbadulla	settlement	1322
+İbaxlı	settlement	801
+İbrahim Haput	settlement	970
+İbrahimhacılı	settlement	2211
+İbrahimkənd	settlement	970
+İcarə	settlement	970
+İdrisiqışlaq	settlement	970
+İdrisoba	settlement	970
+İkinci Alıbəyli	settlement	970
+İkinci Aral	settlement	970
+İkinci Ağalı	settlement	970
+İkinci Aşıqlı	settlement	970
+İkinci Baharlı	settlement	970
+İkinci Biləcik	settlement	970
+İkinci Cabanı	settlement	763
+İkinci Dördyol	settlement	970
+İkinci Hacallı	settlement	970
+İkinci Mahmudlu	settlement	1492
+İkinci Meyniman	settlement	970
+İkinci Milli	settlement	970
+İkinci Muğanlı	settlement	970
+İkinci Nazırlı	settlement	970
+İkinci Nügədi	settlement	3267
+İkinci Paşalı	settlement	970
+İkinci Qala	settlement	970
+İkinci Qaradəmirçi	settlement	970
+İkinci Qaralı	settlement	970
+İkinci Səmədxanlı	settlement	715
+İkinci Tığik	settlement	970
+İkinci Udullu	settlement	970
+İkinci Varlı	settlement	970
+İkinci Yeddioymaq	settlement	970
+İkinci Yeniyol	settlement	377
+İkinci Yüzbaşılı	settlement	970
+İkinci Zobucuq	settlement	1553
+İkinci Çaylı	settlement	970
+İkinci Çağan	settlement	486
+İkinci İpək	settlement	970
+İkinci Şahsevən	settlement	970
+İkinci Şıxlı	settlement	2082
+İkinci Əlicanlı	settlement	673
+İkinci Ərəbcəbirli	settlement	970
+İlanlı	settlement	970
+İlisu	settlement	1291
+İliç buxtası	settlement	970
+İlxıçı	settlement	970
+İlxıçı Həsən Əfəndi	settlement	970
+İlxıçılar	settlement	970
+İlyaslar	settlement	970
+İmambağı	settlement	970
+İmambinəsi	settlement	970
+İmamlı	settlement	970
+İmamqulubəyli	settlement	680
+İmamqulukənd	settlement	1845
+İmamqulular	settlement	970
+İmamverdili	settlement	970
+İmanlar	settlement	970
+İmanlı	settlement	970
+İmanqulubəyli	settlement	970
+İmarət Qərvənd	settlement	970
+İmirli	settlement	970
+İncilli	settlement	970
+İngiloy Kötüklü	settlement	953
+İnili	settlement	970
+İnstitut	settlement	1560
+İnçə	settlement	1284
+İnəkboğan	settlement	970
+İqriq	settlement	970
+İrmaşlı	settlement	2346
+İrçan	settlement	970
+İrəvanlı	settlement	546
+İsakənd	settlement	611
+İsalar	settlement	970
+İsalı	settlement	970
+İsaqbağı	settlement	1206
+İsaqlı	settlement	970
+İsaqlıgirmə	settlement	970
+İsgəndərbəyli	settlement	970
+İsgəndərli	settlement	970
+İsi	settlement	970
+İskəndərli	settlement	970
+İsmayılabad	settlement	970
+İsmayılbəyli	settlement	970
+İsmətli	settlement	2173
+İsnov	settlement	970
+İsnovqışlaq	settlement	970
+İspik	settlement	970
+İstibulaq	settlement	970
+İstisu	settlement	1922
+İstixana	settlement	912
+İtitala	settlement	970
+İvanovka	settlement	2004
+İzmara	settlement	970
+İçəri Müşlan	settlement	970
+İşıqlı	settlement	448
+Şabanlı	settlement	970
+Şada	settlement	970
+Şadılı	settlement	970
+Şahağac	settlement	2287
+Şahboyli	settlement	970
+Şahbulaq	settlement	970
+Şahbuzkənd	settlement	970
+Şahbəyli	settlement	838
+Şahdağ	settlement	970
+Şahhüseynli	settlement	1291
+Şahkərəm	settlement	298
+Şahlıq	settlement	970
+Şahmalılar	settlement	532
+Şahmansurlu	settlement	970
+Şahməmmədli	settlement	970
+Şahnəzərli	settlement	970
+Şahsevən	settlement	1607
+Şahsevən Təzəkənd	settlement	1208
+Şahsoltanlı	settlement	970
+Şahtaxtı	settlement	1939
+Şahverdili	settlement	1265
+Şahvəlli	settlement	970
+Şahvəllər	settlement	970
+Şahvələdli	settlement	544
+Şahyeri	settlement	970
+Şambul	settlement	970
+Şambulbinə	settlement	970
+Şamkənd	settlement	970
+Şamlı	settlement	970
+Şamlıq	settlement	672
+Şamxallar	settlement	970
+Şanxay	settlement	970
+Şaplar	settlement	970
+Şatariz	settlement	970
+Şatrovka	settlement	970
+Şatırlı	settlement	970
+Şatıroba	settlement	970
+Şayıflı	settlement	970
+Şağan	settlement	970
+Şağlaküçə	settlement	2170
+Şağlaser	settlement	3498
+Şağlazüzə	settlement	1257
+Şeidlər	settlement	970
+Şelli	settlement	970
+Şeyinli	settlement	970
+Şeylanlı	settlement	970
+Şilim	settlement	687
+Şilyan	settlement	970
+Şiləvar	settlement	1667
+Şiləvəngə	settlement	1142
+Şimal	settlement	970
+Şin	settlement	970
+Şingədulan	settlement	1086
+Şinəbənd	settlement	849
+Şirinbulaq	settlement	1026
+Şirinbəyli	settlement	2319
+Şirinsu	settlement	970
+Şirvanlı	settlement	970
+Şirvanmeşə	settlement	167
+Şirvanovka	settlement	1213
+Şivlik	settlement	970
+Şivlə	settlement	869
+Şiyəkəran	settlement	2413
+Şişpapaqlar	settlement	970
+Şiştəpə	settlement	970
+Şollar	settlement	970
+Şonaçola	settlement	819
+Şonqar	settlement	970
+Şorabad	settlement	970
+Şorbaçı	settlement	897
+Şordəhnə	settlement	1108
+Şorkənd	settlement	970
+Şorsu	settlement	1620
+Şorsulu	settlement	970
+Şorəlli	settlement	970
+Şotavar	settlement	1107
+Şotlanlı	settlement	1305
+Şovu	settlement	1427
+Şovut	settlement	557
+Şubanı	settlement	970
+Şuduq	settlement	970
+Şuraabad	settlement	970
+Şurakənd	settlement	970
+Şurnuxu	settlement	502
+Şurud	settlement	970
+Şuvaş	settlement	970
+Şuvi	settlement	1142
+Şuşikənd	settlement	801
+Şötüklü	settlement	970
+Şükürağalı	settlement	970
+Şükürbəyli	settlement	1164
+Şükürlü	settlement	970
+Şükürçü	settlement	312
+Şümrüd	settlement	942
+Şürük	settlement	1258
+Şüvəlan	settlement	970
+Şüşülü	settlement	970
+Şüşün	settlement	1231
+Şımıxlı	settlement	970
+Şınıx	settlement	970
+Şırlan	settlement	970
+Şıx Dursun	settlement	152
+Şıx Salahlı	settlement	970
+Şıxakəran	settlement	1880
+Şıxalıağalı	settlement	970
+Şıxarx	settlement	970
+Şıxbabalı	settlement	970
+Şıxbağı	settlement	694
+Şıxbəy	settlement	970
+Şıxhaput	settlement	970
+Şıxheybət	settlement	721
+Şıxhüseynli	settlement	736
+Şıxlar	settlement	785
+Şıxlı	settlement	970
+Şıxmahmud	settlement	970
+Şıxoba	settlement	970
+Şıxzahırlı	settlement	970
+Şıxzamanlı	settlement	970
+Şıxımlı	settlement	970
+Şıxımpeştə	settlement	970
+Şıxəmir	settlement	970
+Şıxəməhlə	settlement	970
+Şəbiyan	settlement	678
+Şəfibəyli	settlement	970
+Şəfili	settlement	970
+Şəftəhal	settlement	1007
+Şəfəq	settlement	3281
+Şəfəqli	settlement	1506
+Şəhadət	settlement	970
+Şəhriyar	settlement	1962
+Şəkili	settlement	970
+Şəkər	settlement	970
+Şəkərabad	settlement	970
+Şəkərbəy	settlement	970
+Şəkərcik	settlement	970
+Şəkərli	settlement	970
+Şəlvə	settlement	371
+Şələ	settlement	970
+Şəmmədli	settlement	970
+Şəmsabad	settlement	970
+Şəmətük	settlement	750
+Şənlik	settlement	1942
+Şərif	settlement	970
+Şərifan	settlement	970
+Şərifoba	settlement	970
+Şərikan	settlement	970
+Şərq	settlement	970
+Şərədil	settlement	970
+Şərəfli	settlement	970
+Şərəfxanlı	settlement	992
+Şərəfə	settlement	970
+Şəvqo	settlement	752
+Şəybəy	settlement	970
+Əbil	settlement	970
+Əbilcə	settlement	970
+Əbilyataq	settlement	970
+Əbrəqunus	settlement	970
+Əcəmi	settlement	678
+Əcəxur	settlement	978
+Əcəxuroba	settlement	518
+Əfəndilər	settlement	970
+Əfətli	settlement	970
+Əhmədabad	settlement	997
+Əhmədalılar	settlement	970
+Əhmədavar	settlement	970
+Əhmədağalı	settlement	970
+Əhmədbəyli	settlement	1431
+Əhmədli	settlement	3653
+Əhmədoba	settlement	970
+Əhən	settlement	835
+Əkbərməhəllə	settlement	970
+Əli Bayramlı	settlement	1079
+Əli-Bayramlı	settlement	1835
+Əliabad	settlement	3607
+Əliağalı	settlement	970
+Əlibəyli	settlement	1761
+Əlibəyqışlaq	settlement	970
+Əlicanlı	settlement	970
+Əliismayıllı	settlement	970
+Əlik	settlement	970
+Əlikənd	settlement	996
+Əliləmbəyli	settlement	970
+Əlimuradlı	settlement	970
+Əlimədədli	settlement	970
+Əlimədətli	settlement	970
+Əliməmmədoba	settlement	970
+Əlimərdanlı	settlement	1963
+Əlinağılar	settlement	970
+Əlincə	settlement	970
+Əlinəzərli	settlement	970
+Əliqasımlı	settlement	970
+Əliqullar	settlement	1635
+Əliquluuşağı	settlement	970
+Əlirzalı	settlement	1145
+Əlisoltanlı	settlement	970
+Əliuşağı	settlement	970
+Əlix	settlement	970
+Əliyanlı	settlement	970
+Əliyaqublu	settlement	970
+Əliyar	settlement	804
+Əliyetməzli	settlement	813
+Əlməkolu	settlement	70
+Əlvənd	settlement	1109
+Ələhi	settlement	414
+Ələkli	settlement	970
+Ələkçi	settlement	970
+Ələsgər	settlement	970
+Ələsgərli	settlement	996
+Ələskərli	settlement	970
+Ələtli	settlement	970
+Ələzəpin	settlement	970
+Əmbizlər	settlement	970
+Əmbərçay	settlement	804
+Əmillər	settlement	970
+Əmir	settlement	970
+Əmiralılar	settlement	347
+Əmirarx	settlement	970
+Əmiraslanlı	settlement	970
+Əmircan	settlement	6020
+Əmirmahmud	settlement	970
+Əmirtürbə	settlement	970
+Əmirvan	settlement	970
+Əmirvar	settlement	777
+Əmirvarlı	settlement	970
+Əmirxanlı	settlement	970
+Əmirzeyidli	settlement	970
+Əncəqov	settlement	970
+Əngilan	settlement	970
+Əngəvül	settlement	970
+Əngəxaran	settlement	1016
+Əniq	settlement	1609
+Əniqoba	settlement	947
+Ənnəkiqışlaq	settlement	970
+Ənvər Məmmədxanlı	settlement	556
+Ərdəbilə	settlement	481
+Ərdəşəvi	settlement	970
+Ərgünəş	settlement	970
+Ərikli	settlement	970
+Ərkivan	settlement	4613
+Ərminavan	settlement	970
+Ərməki	settlement	886
+Ərmənət	settlement	833
+Ərsilə	settlement	716
+Ərtəpə	settlement	785
+Ərus	settlement	1372
+Ərziküş	settlement	970
+Ərçiman	settlement	970
+Ərçivan	settlement	3136
+Ərşəli	settlement	970
+Ərəb	settlement	970
+Ərəb Qubalı	settlement	970
+Ərəbbəsrə	settlement	990
+Ərəbcəbirli bələdiyyəsi	settlement	970
+Ərəblər	settlement	970
+Ərəbmehdibəy	settlement	970
+Ərəbocağı	settlement	1076
+Ərəbqardaşbəyli	settlement	970
+Ərəbqədim	settlement	970
+Ərəbsarvan	settlement	970
+Ərəbuşağı	settlement	970
+Ərəbxana	settlement	970
+Ərəbyengicə	settlement	970
+Ərəbşahverdi	settlement	970
+Ərəbşalbaş	settlement	970
+Ərəbşəki	settlement	468
+Ərəfsə	settlement	970
+Ərəkit	settlement	1160
+Ərəzin	settlement	1484
+Əsgərabad	settlement	2171
+Əsgərbəyli	settlement	970
+Əsgərxanlı	settlement	970
+Əski İqriq	settlement	970
+Əskipara	settlement	970
+Əspərasti	settlement	630
+Əsrik	settlement	970
+Əsrik Cırdaxan	settlement	1589
+Əsədabad	settlement	1176
+Əsədli	settlement	1130
+Ətcələr	settlement	970
+Ətyeməzli	settlement	970
+Ətçələr	settlement	970
+Əvilə	settlement	849
+Əvçədulan	settlement	705
+Əvəcük	settlement	1024
+Əxşam	settlement	970
+Əyin	settlement	970
+Əyricə	settlement	970
+Əyridərə	settlement	970
+Əyritala	settlement	970
+Əyrivəng	settlement	970
+Əyrək	settlement	970
+Əyyubbəyli	settlement	366
+Əyyublu	settlement	3624
+Əzgili	settlement	970
+Əzgilli	settlement	970
+Əzimkənd	settlement	970
+Əzizabad	settlement	970
+Əzizli	settlement	970
+Əşlə	settlement	621
+Abuca	foreign	2145
+Afina	foreign	2145
+Akkra	foreign	2145
+Albukerke	foreign	2145
+Amman	foreign	2145
+Amsterdam	foreign	6434
+Andorra la Vella	foreign	2145
+Ankara	foreign	6434
+Antalya	foreign	6434
+Antananarivu	foreign	2145
+Apia	foreign	2145
+Astana	foreign	6434
+Asunson	foreign	2145
+Aşqabad	foreign	6434
+Balıkəsir	foreign	2145
+Bamako	foreign	2145
+Bandar Seri Begavan	foreign	2145
+Bangi	foreign	2145
+Banjul	foreign	2145
+Banqkok	foreign	2145
+Barnaul	foreign	2145
+Baster	foreign	2145
+Bağdad	foreign	2145
+Belmopan	foreign	2145
+Belqrad	foreign	2145
+Berlin	foreign	6434
+Bern	foreign	2145
+Beyrut	foreign	2145
+Bisau	foreign	2145
+Bişkek	foreign	2145
+Blumfonteyn	foreign	2145
+Boqota	foreign	2145
+Boston	foreign	2145
+Bratislava	foreign	2145
+Braziliya	foreign	2145
+Brazzavil	foreign	2145
+Bremen	foreign	2145
+Brictaun	foreign	2145
+Brüssel	foreign	6434
+Budapeşt	foreign	2145
+Buenos-Ayres	foreign	2145
+Bursa	foreign	6434
+Buxarest	foreign	2145
+Bəndər Abbas	foreign	2145
+Cakarta	foreign	2145
+Ceksonvill	foreign	2145
+Cibuti	foreign	2145
+Corctaun	foreign	2145
+Cuba	foreign	2145
+Cənubi Tarava	foreign	2145
+Dakar	foreign	2145
+Dallas	foreign	2145
+Denver	foreign	2145
+Detroyt	foreign	2145
+Dili	foreign	2145
+Diyarbəkir	foreign	2145
+Dnepr	foreign	2145
+Dodoma	foreign	2145
+Doha	foreign	6434
+Dortmund	foreign	2145
+Drezden	foreign	2145
+Dubay	foreign	6434
+Dublin	foreign	2145
+Duysburq	foreign	2145
+Düsseldorf	foreign	2145
+Düşənbə	foreign	2145
+Dəkkə	foreign	2145
+Dəməşq	foreign	2145
+Dənizli	foreign	2145
+El-Paso	foreign	2145
+Essen	foreign	2145
+Esvatini	foreign	2145
+Finiks	foreign	2145
+Fort Vort	foreign	2145
+Frankfurt-Mayn	foreign	2145
+Fresno	foreign	2145
+Fritaun	foreign	2145
+Funafuti	foreign	2145
+Genuya	foreign	2145
+Gitega	foreign	2145
+Hamburq	foreign	2145
+Hannover	foreign	2145
+Hanoy	foreign	2145
+Harare	foreign	2145
+Havana	foreign	2145
+Helsinki	foreign	2145
+Honiara	foreign	2145
+Hyuston	foreign	2145
+Həmədan	foreign	2145
+Kabil	foreign	2145
+Kampala	foreign	2145
+Kanberra	foreign	2145
+Kanzas Siti	foreign	2145
+Karakas	foreign	2145
+Karaqanda	foreign	2145
+Kastris	foreign	2145
+Katmandu	foreign	2145
+Kayseri	foreign	2145
+Kazan	foreign	6434
+Keyptaun	foreign	2145
+Kinqstaun	foreign	2145
+Kinqston	foreign	2145
+Kinşasa	foreign	2145
+Kiqali	foreign	2145
+Kirman	foreign	2145
+Kirmanşah	foreign	2145
+Kito	foreign	2145
+Kiyev	foreign	6434
+Kişinyov	foreign	2145
+Kolombo	foreign	2145
+Kolumbus	foreign	2145
+Konakri	foreign	2145
+Konya	foreign	2145
+Kopenhagen	foreign	2145
+Krakov	foreign	2145
+Krasnoyarsk	foreign	2145
+Krivoy Roq	foreign	2145
+Kuala Lumpur	foreign	2145
+Köln	foreign	2145
+Küveyt	foreign	2145
+La-Pas	foreign	2145
+Las-Veqas	foreign	2145
+Leypsiq	foreign	2145
+Librevil	foreign	2145
+Lids	foreign	2145
+Lilonqve	foreign	2145
+Lima	foreign	2145
+Lion	foreign	2145
+Lissabon	foreign	2145
+Liverpul	foreign	2145
+Lobamba	foreign	2145
+Lome	foreign	2145
+London	foreign	6434
+Luanda	foreign	2145
+Lusaka	foreign	2145
+Lyüblyana	foreign	2145
+Macuro	foreign	2145
+Madrid	foreign	2145
+Mahaçqala	foreign	2145
+Male	foreign	2145
+Managua	foreign	2145
+Manama	foreign	2145
+Manila	foreign	2145
+Maputu	foreign	2145
+Maseru	foreign	2145
+Maskat	foreign	2145
+Memfis	foreign	2145
+Mersin	foreign	2145
+Mesa	foreign	2145
+Mexiko	foreign	2145
+Milan	foreign	2145
+Miluoki	foreign	2145
+Minsk	foreign	6434
+Monako	foreign	2145
+Monroviya	foreign	2145
+Montevideo	foreign	2145
+Moqadişo	foreign	2145
+Moroni	foreign	2145
+Moskva	foreign	6434
+Münxen	foreign	2145
+Naberejnıye Çelnı	foreign	2145
+Nassau	foreign	2145
+Naypyida	foreign	2145
+Nayrobi	foreign	2145
+Ncamena	foreign	2145
+Neapol	foreign	2145
+Neşvill	foreign	2145
+Niamey	foreign	2145
+Nijni Novqorod	foreign	2145
+Nikosiya	foreign	2145
+Novosibirsk	foreign	6434
+Nqerulmud	foreign	2145
+Nuakşot	foreign	2145
+Nukualofa	foreign	2145
+Nyu-York	foreign	2145
+Nürnberq	foreign	2145
+Nəməngan	foreign	2145
+Oklahoma Siti	foreign	2145
+Omsk	foreign	2145
+Orenburq	foreign	2145
+Ostin	foreign	2145
+Ottava	foreign	2145
+Palermo	foreign	2145
+Palikir	foreign	2145
+Panama	foreign	2145
+Paramaribo	foreign	2145
+Paris	foreign	6434
+Pekin	foreign	2145
+Perm	foreign	2145
+Pnompen	foreign	2145
+Podqoritsa	foreign	2145
+Port Morsbi	foreign	2145
+Port Vila	foreign	2145
+Port-Lui	foreign	2145
+Port-o-Prins	foreign	2145
+Port-of-Speyn	foreign	2145
+Portlend	foreign	2145
+Porto-Novo	foreign	2145
+Praqa	foreign	6434
+Praya	foreign	2145
+Pretoriya	foreign	2145
+Priştina	foreign	2145
+Pxenyan	foreign	2145
+Qaborone	foreign	2145
+Qahirə	foreign	2145
+Qaziantep	foreign	2145
+Qlazqo	foreign	2145
+Qvatemala şəhəri	foreign	2145
+Qüds	foreign	2145
+Rabat	foreign	2145
+Ramallah	foreign	2145
+Ravalpindi	foreign	2145
+Reykyavik	foreign	2145
+Riqa	foreign	2145
+Roma	foreign	6434
+Rozo	foreign	2145
+Ryazan	foreign	2145
+Rəşt	foreign	2145
+Sakramento	foreign	2145
+Samara	foreign	2145
+Samsun	foreign	2145
+San Antonio	foreign	2145
+San Tome	foreign	2145
+San-Dieqo	foreign	2145
+San-Fransisko	foreign	2145
+San-Marino	foreign	2145
+San-Salvador	foreign	2145
+San-Xose	foreign	2145
+Sankt-Peterburq	foreign	6434
+Santo-Dominqo	foreign	2145
+Santyaqo	foreign	2145
+Saratov	foreign	2145
+Sarayevo	foreign	2145
+Sent Cons	foreign	2145
+Sent Corces	foreign	2145
+Seul	foreign	2145
+Sietl	foreign	2145
+Sinqapur	foreign	2145
+Skopye	foreign	2145
+Sofiya	foreign	2145
+Stokholm	foreign	2145
+Sukre	foreign	2145
+Suva	foreign	2145
+Səmərqənd	foreign	2145
+Səna	foreign	2145
+Tallin	foreign	2145
+Taypey	foreign	2145
+Tbilisi	foreign	6434
+Tehran	foreign	6434
+Tequsiqalpa	foreign	2145
+Thimphu	foreign	2145
+Tirana	foreign	2145
+Tokio	foreign	2145
+Tomsk	foreign	2145
+Trabzon	foreign	2145
+Tuluza	foreign	2145
+Tunis	foreign	2145
+Turin	foreign	2145
+Tuson	foreign	2145
+Tərabülüs əl-Qərb	foreign	2145
+Uaqaduqu	foreign	2145
+Ulan-Bator	foreign	2145
+Ulyanovsk	foreign	2145
+Urmiya	foreign	2145
+Vaduts	foreign	2145
+Valletta	foreign	2145
+Van	foreign	2145
+Varşava	foreign	6434
+Vatikan	foreign	2145
+Vaşinqton	foreign	6434
+Vellinqton	foreign	2145
+Viktoriya	foreign	2145
+Vilnüs	foreign	2145
+Vindhuk	foreign	2145
+Volqoqrad	foreign	2145
+Voronej	foreign	2145
+Vyana	foreign	6434
+Vyentyan	foreign	2145
+Xabarovsk	foreign	2145
+Xartum	foreign	2145
+Yamosukro	foreign	2145
+Yaren	foreign	2145
+Yaroslavl	foreign	2145
+Yassı	foreign	2145
+Yaunde	foreign	2145
+Yekaterinburq	foreign	6434
+Yeni Dehli	foreign	2145
+Yəzd	foreign	2145
+Zahidan	foreign	2145
+Zaporojya	foreign	2145
+Zaqreb	foreign	2145
+Çikaqo	foreign	2145
+Çimkənd	foreign	2145
+İjevsk	foreign	2145
+İndianapolis	foreign	2145
+İrkutsk	foreign	2145
+İrəvan	foreign	2145
+İsfahan	foreign	2145
+İslamabad	foreign	2145
+İstanbul	foreign	6434
+Şanlıurfa	foreign	2145
+Şarja	foreign	2145
+Şarlott	foreign	2145
+Şeffild	foreign	2145
+Şri Jayavardenapura Kotte	foreign	2145
+Ştutqart	foreign	2145
+Şərqi Qüds	foreign	2145
+Əbu-Dabi	foreign	2145
+Əddis-Əbəbə	foreign	2145
+Ədən	foreign	2145
+Əhvaz	foreign	2145
+Əl-Əyn	foreign	2145
+Əlcəzair	foreign	2145
+Əndican	foreign	2145
+Ər-Riyad	foreign	2145
+Ərak	foreign	2145
+Ərzurum	foreign	2145
+Əskişəhər	foreign	2145
+Əsməra	foreign	2145

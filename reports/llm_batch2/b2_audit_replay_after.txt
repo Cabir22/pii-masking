@@ -1,0 +1,42 @@
+REPLAY with today's code: 6,000 stored -> 5,825 accepted, 175 rejected (31 of them noised)
+      94  quality: invented PII (CITY)
+      51  quality: invented PII (STREET)
+      15  quality: invented PII (GIVENNAME)
+       5  quality: invented PII (BUILDINGNUM)
+       4  quality: planned value never labeled (SURNAME, misspelled)
+       2  no entities resolved: 
+       1  quality: planned value never labeled (GIVENNAME, misspelled
+       1  leaked unlabeled PII: TELEPHONENUM:+N N N N N
+       1  quality: planned value never labeled (SURNAME, embedded)
+       1  quality: planned value never labeled (CITY, misspelled)
+
+documents: 5,825
+
+1. PLANNED VALUES PRESENT BUT UNLABELLED: 0 occurrence(s) in 0 document(s)
+   of which a value with no labelled occurrence at all (count): 0 in 0 document(s) {}
+   by label: {}
+   by form : {}
+   planned values with no labelled occurrence, by label (share of that label's plans):
+   DATE 4/714 (0.6%), STREET 3/708 (0.4%), SURNAME 4/1342 (0.3%), TIME 1/380 (0.3%), GIVENNAME 4/1647 (0.2%), AGE 1/447 (0.2%), CITY 1/840 (0.1%), TELEPHONENUM 1/1471 (0.1%)
+
+2. LABELS THAT DISAGREE WITH THE PLAN: 0  {}
+
+3. DECOY INTEGRITY: 5965 decoy span(s) checked, 2373 policy/contextual; problems: {'not a planted decoy string': 2}
+   llm_az_004381  not a planted decoy string: MAC_LIKE_HASH '5f:31:44:e7:71-2d:2e:89:7c:4c:75:b8:54:32:15:b5'  ...vermir. Səhifədə qəribə bir kod da var: [[5f:31:44:e7:71-2d:2e:89:7c:4c:75:b8:54:32:15:b5]]. Tez cavab verin, tamerovx@alovenerji.a...
+   llm_az_004872  not a planted decoy string: MAC_LIKE_HASH '08:03:5c:9f:04:c1:b5:45:85-2d:96:97:58:27:1e:f4'  ...r, bəlkə də nasazlıqdır.  Cihazın kodu: [[08:03:5c:9f:04:c1:b5:45:85-2d:96:97:58:27:1e:f4]].  Melumatlar bura əlavə olundu....
+
+4. RATES (share of all documents)
+   hard_negative  requested 30.0%   in the text 27.4%   in the briefs 28.6%
+   adversarial    requested 20.0%   in the text 18.9%   in the briefs 19.0%
+   pii_free       requested 10.0%   in the text 10.0%
+   edge_case      requested 30.0%   in the text 30.9%
+   any decoy in the text (_hard_negatives > 0, the batch-1 README's measure): 33.9%
+   label share / target, furthest off: IPV6_ADDRESS 1.78, ICCID 1.65, MAC_ADDRESS 1.49, AZ_VOEN 1.47, AZ_DRIVER_LICENSE_NUMBER 1.46, TIME 1.18
+
+5. D-9: {'mentions': 7161, 'suffixed (label includes the suffix)': 2654}
+   D-10: {'documents of 1-5 words': 2}
+   validate_example failures: none
+
+7. INDEPENDENT SWEEP, PII THE MODEL INVENTED (informational): 0 document(s) (0.0%), 0 of them declared PII-free; {}
+
+json -> reports\llm_batch2\b2_audit_replay_after.json

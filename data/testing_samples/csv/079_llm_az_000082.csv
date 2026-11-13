@@ -1,0 +1,18 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000082,"Əməliyyat Təlimatı: Müştəri Sənədlərinin Doğrulanması
+
+Tarix: 14.11.2021
+
+Bu təlimat, müştərilərimizin sənədlərini emal edərkən onlara qarşı göstərdiyimiz yanaşmanı və texniki addımları əhatə edir. Unutmayın ki, hər bir müştəri sənəd təqdim edərkən həssas bir mərhələdən keçir; ona görə də proses zamanı anlayışlı və dəstəkləyici olmaq vacibdir.
+
+Sənədlərin skan edilməsi və OCR (optik simvol tanıma) mərhələsi:
+
+Skan edilən sənədlərdə bəzən oxunma çətinlikləri yarana bilər. Məsələn, sistem bəzən rəqəm olan 0 ilə hərf olan O, yaxud 1 ilə l hərfini qarışdıra bilər. Belə hallarda dərhal müştəriyə müraciət etmək əvəzinə, əvvəlcə sənədin digər hissələrini yoxlayın.
+
+Sürücülük vəsiqəsinin yoxlanılması:
+
+Əgər müştəri şəxsiyyətini sübut etmək üçün sürücülük vəsiqəsini təqdim edibsə, sistemdəki məlumatlarla uyğunluğu yoxlayın. Məsələn, sənədin üzərindəki Sürücülük vəsiqəsi № TU409610 nömrəsinin sistemdəki qeydlərlə üst-üstə düşdüyünə əmin olun. Əgər məlumatlarda uyğunsuzluq varsa, müştəriyə bu vəziyyəti nəzakətlə izah edin və sənədi yenidən göndərməsini xahiş edin.
+
+Müştəri ilə ünsiyyət:
+
+Hər hansı bir texniki xəta baş verdikdə, müştəriyə ""Sizin sənədiniz yanlışdır"" demək əvəzinə, ""Sistemdə kiçik bir oxunma problemi ilə qarşılaşdıq, sizə kömək etmək üçün sənədi yenidən təqdim edə bilərsinizmi?"" kimi daha empatiya dolu bir dil istifadə edin.",az,"[{""start"":876,""end"":884,""label"":""AZ_DRIVER_LICENSE_NUMBER"",""text"":""TU409610""}]",runbook,medium,empathetic customer-service,[],0,0,llm,"{""index"":82,""lang"":""az"",""doc_type"":""runbook"",""doc_type_hint"":""an internal runbook or operations guide"",""register"":""empathetic customer-service"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""AZ_DRIVER_LICENSE_NUMBER"",""value"":""TU409610""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include an OCR-style artifact (a 0/O or 1/l confusion) in non-sensitive text""],""negative_only"":false,""seed"":1865323193,""edge_case"":{""id"":""DRV-01"",""status"":""positive_valid"",""description"":""2-letter + 6-digit form."",""scenario"":""""},""reference_year"":2021}",source

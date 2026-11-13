@@ -1,0 +1,15 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000236,"KLİNİK ANALİZ MƏKTUBU
+
+Pasient: Vəlihə xanım
+Tarix: 14.05.2026
+Hesabat növü: Laboratoriya nəticələri – qan analizi
+
+Nəticələrin əlavə sorğusu üçün aşağıdakı məlumatlarla əlaqə saxlaya bilərsiniz:
+• Elektron ünvan: nasirov.t@bakusteel.az
+• Əlavə qeyd: Nəticələr tam hazır deyil – zəhmət olmasa bir neçə saat sonra təkrar yoxlayın.
+
+---
+Nasirov T.
+Laboratoriya üzrə koordinatçı
+nasirov.t@bakusteel.az",az,"[{""start"":32,""end"":38,""label"":""GIVENNAME"",""text"":""Vəlihə""},{""start"":214,""end"":236,""label"":""EMAIL"",""text"":""nasirov.t@bakusteel.az""},{""start"":376,""end"":398,""label"":""EMAIL"",""text"":""nasirov.t@bakusteel.az""}]",lab_report,short,matter-of-fact administrative,[],0,0,llm,"{""index"":236,""lang"":""az"",""doc_type"":""lab_report"",""doc_type_hint"":""a laboratory or diagnostic report with a patient header"",""register"":""matter-of-fact administrative"",""band"":""short"",""min_chars"":150,""max_chars"":400,""length_hint"":""a short paragraph"",""entities"":[{""label"":""GIVENNAME"",""value"":""Vəlihə""},{""label"":""EMAIL"",""value"":""nasirov.t@bakusteel.az""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a copy-paste artifact such as smart quotes or an en-dash"",""include an email signature block at the end"",""include a bulleted list""],""negative_only"":false,""seed"":808876060,""edge_case"":null,""reference_year"":2026}",source

@@ -1,0 +1,263 @@
+{
+ "meta": {
+  "name": "v3_seed42_tokfix",
+  "model": "your-hf-org/masking-az-runb-v3-seed42",
+  "revision": "717b0105c5203f6b3e9919e170be7000c17b6d79",
+  "date_utc": "2026-10-15 15:54 UTC",
+  "code": "ff70e89",
+  "shadow_source": "saved report 2026-10-15 (not restored)"
+ },
+ "verdict": {
+  "verdict": "not released",
+  "passed": [
+   "A1",
+   "A2",
+   "A3",
+   "B1",
+   "B2",
+   "C1",
+   "C2",
+   "C13",
+   "E3"
+  ],
+  "failed": [
+   "A4",
+   "A5",
+   "A6",
+   "C3",
+   "C4"
+  ],
+  "missing": [],
+  "blocking_total": 14
+ },
+ "rules": [
+  {
+   "id": "A1",
+   "rule": "Micro F1 ≥ 82",
+   "blocking": true,
+   "status": "pass",
+   "result": "89.3 (checkpoint 1 67.1) [saved report 2026-10-15 (not restored)]"
+  },
+  {
+   "id": "A2",
+   "rule": "Weakest label F1 ≥ 65",
+   "blocking": true,
+   "status": "pass",
+   "result": "71.1 (CARD_SECURITY_CODE)"
+  },
+  {
+   "id": "A3",
+   "rule": "Token, IPv6, licence F1 ≥ 75 each",
+   "blocking": true,
+   "status": "pass",
+   "result": "ACCESS_TOKEN 80.2, IPV6_ADDRESS 77.9, AZ_DRIVER_LICENSE_NUMBER 94.7"
+  },
+  {
+   "id": "A4",
+   "rule": "Look-alike trigger rate < 8%",
+   "blocking": true,
+   "status": "fail",
+   "result": "9.3% (with the D-42/D-51e items: 9.9%)"
+  },
+  {
+   "id": "A5",
+   "rule": "PII-free documents masked < 15%",
+   "blocking": true,
+   "status": "fail",
+   "result": "35.8% (with the D-42/D-51e items: 40.6%; their documents out of the count: 36.5%)"
+  },
+  {
+   "id": "A6",
+   "rule": "Recall guard (no label −1 pt)",
+   "blocking": true,
+   "status": "fail",
+   "result": "2 labels: PAYMENT_CARD_NUMBER 90.1 → 76.5, TIME 75.7 → 73.5; M: 2 labels"
+  },
+  {
+   "id": "A7",
+   "rule": "EN / TR / RU regression",
+   "blocking": false,
+   "status": "n/a",
+   "result": "not applied: Azerbaijani-only model (D-23a)"
+  },
+  {
+   "id": "A8",
+   "rule": "Benchmark errors fixed (appendix)",
+   "blocking": false,
+   "status": "report",
+   "result": "not run by this script"
+  },
+  {
+   "id": "A9",
+   "rule": "Sealed set, once, on the final candidate",
+   "blocking": false,
+   "status": "n/a",
+   "result": "untouched (final candidate only, P3-11)"
+  },
+  {
+   "id": "B1",
+   "rule": "Benchmark F1 ≥ checkpoint 1 + 2",
+   "blocking": true,
+   "status": "pass",
+   "result": "94.5 vs 69.2 (needs 71.2); with the D-51e items 93.5 vs 68.7; M 94.2"
+  },
+  {
+   "id": "B2",
+   "rule": "Benchmark recall guard (−1 pt)",
+   "blocking": true,
+   "status": "pass",
+   "result": "no label drops"
+  },
+  {
+   "id": "C1",
+   "rule": "Access token vs API key",
+   "blocking": true,
+   "status": "pass",
+   "result": "5 conditions met"
+  },
+  {
+   "id": "C2",
+   "rule": "IPv6 vs MAC",
+   "blocking": true,
+   "status": "pass",
+   "result": "5 conditions met"
+  },
+  {
+   "id": "C3",
+   "rule": "Licence vs ID card",
+   "blocking": true,
+   "status": "fail",
+   "result": "licence_vs_id confusion_rate [AZ_ID_CARD_NUMBER→AZ_DRIVER_LICENSE_NUMBER] 8.3"
+  },
+  {
+   "id": "C4",
+   "rule": "Look-alikes: < 15% each, < 10% overall",
+   "blocking": true,
+   "status": "fail",
+   "result": "3 of 11 families above 15% (decoy_time 25.0%, decoy_date 33.3%, decoy_fin 44.4%); overall 9.2%; decoy_cvv: 12345 0/2; random 5-digit 0/5"
+  },
+  {
+   "id": "C5",
+   "rule": "building_vs_room, sentence_initial_nouns, nonpii_ids",
+   "blocking": false,
+   "status": "report",
+   "result": "2 of 3 families meet their target"
+  },
+  {
+   "id": "C6",
+   "rule": "prose_card, prose_date, prose_iban…",
+   "blocking": false,
+   "status": "report",
+   "result": "4 of 5 families meet their target"
+  },
+  {
+   "id": "C7",
+   "rule": "fmt_csv, fmt_csv_noheader, fmt_json…",
+   "blocking": false,
+   "status": "report",
+   "result": "7 of 7 families meet their target"
+  },
+  {
+   "id": "C8",
+   "rule": "pem, spaced_phone, spaced_card_iban",
+   "blocking": false,
+   "status": "report",
+   "result": "3 of 3 families meet their target"
+  },
+  {
+   "id": "C9",
+   "rule": "suffixed_entities",
+   "blocking": false,
+   "status": "report",
+   "result": "0 of 1 families meet their target"
+  },
+  {
+   "id": "C10",
+   "rule": "bare_name, name_homographs",
+   "blocking": false,
+   "status": "report",
+   "result": "1 of 2 families meet their target"
+  },
+  {
+   "id": "C11",
+   "rule": "name_transliteration_variants",
+   "blocking": false,
+   "status": "report",
+   "result": "1 of 1 families meet their target"
+  },
+  {
+   "id": "C12",
+   "rule": "All probe families with targets (report)",
+   "blocking": false,
+   "status": "report",
+   "result": "35 of 52 families meet every absolute target (track R)"
+  },
+  {
+   "id": "C13",
+   "rule": "No family >10 pt and >3 docs worse",
+   "blocking": true,
+   "status": "pass",
+   "result": "none; watched: names_list_lines"
+  },
+  {
+   "id": "D1",
+   "rule": "runb_test vs checkpoint 1 (report)",
+   "blocking": false,
+   "status": "report",
+   "result": "R 98.8 / M 98.9 (checkpoint 1 85.5 / 88.1); PII-free FP 3.7%"
+  },
+  {
+   "id": "D2",
+   "rule": "Template overfitting: gap ≤ 15 points",
+   "blocking": false,
+   "status": "report",
+   "result": "vs real text 10.1 points; vs benchmark 5.4 points"
+  },
+  {
+   "id": "D3",
+   "rule": "Old vs new documents (report)",
+   "blocking": false,
+   "status": "report",
+   "result": "old 98.9 / new 98.7"
+  },
+  {
+   "id": "E1",
+   "rule": "Real text per label (report)",
+   "blocking": false,
+   "status": "report",
+   "result": "196 of 228 found (checkpoint 1 68); labels finding fewer: none"
+  },
+  {
+   "id": "E2",
+   "rule": "Real-text recall guard (report)",
+   "blocking": false,
+   "status": "report",
+   "result": "see E1"
+  },
+  {
+   "id": "E3",
+   "rule": "Real text: 80% found, labels, precision",
+   "blocking": true,
+   "status": "pass",
+   "result": "(1) 86.0% found ok; (2) CITY 21 vs 12 of 27, GIVENNAME 79 vs 18 of 93, SURNAME 61 vs 14 of 67, TELEPHONENUM 10 vs 9 of 10 ok; (3) precision 91.6% ok"
+  }
+ ],
+ "key_numbers": {
+  "shadow_f1_R": 0.8925563396312316,
+  "bench_f1_R": 0.9347476695596272,
+  "c13_blocks": [],
+  "c13_watched": [
+   {
+    "family": "names_list_lines",
+    "condition": "control_fp_rate",
+    "base": 0.0,
+    "new": 0.5,
+    "points_worse": 50.0,
+    "documents_worse": 2
+   }
+  ],
+  "c4_overall": 0.09166666666666666,
+  "real_f1_R": 0.8868778280542987,
+  "runb_f1_R": 0.9882933807878851
+ }
+}

@@ -1,0 +1,46 @@
+{
+  "val": {
+    "exact_text": {
+      "shared": 0,
+      "share_of_split": 0.0
+    },
+    "normalized_text": {
+      "shared": 0,
+      "share_of_split": 0.0
+    },
+    "template_skeleton": {
+      "shared": 0,
+      "share_of_split": 0.0
+    },
+    "entity_value": {
+      "shared": 4757,
+      "share_of_split": 0.22765122511485453
+    },
+    "identity_combo": {
+      "shared": 33,
+      "share_of_split": 0.020484171322160148
+    }
+  },
+  "test": {
+    "exact_text": {
+      "shared": 0,
+      "share_of_split": 0.0
+    },
+    "normalized_text": {
+      "shared": 0,
+      "share_of_split": 0.0
+    },
+    "template_skeleton": {
+      "shared": 0,
+      "share_of_split": 0.0
+    },
+    "entity_value": {
+      "shared": 4824,
+      "share_of_split": 0.22920131135078634
+    },
+    "identity_combo": {
+      "shared": 47,
+      "share_of_split": 0.02826217678893566
+    }
+  }
+}

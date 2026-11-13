@@ -1,0 +1,16 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000188,"Göndərən: İnzibatçılıq komandası
+Tarix: 14 noyabr 2020-ci il
+Mövzu: Bina təmir işləri üzrə gündəlik iclas
+
+İclasda yeni təmir layihəsinin mƏrhələləri müzakirə edildi. Əsas diqqət obyektlərin təhlükəsizlik standartlarına uyğunluğuna yönəldildi.
+
+Təklif olunan yeni ünvan siyahısında bəzi dəyişikliklər var. Xüsusilə, əsas işlər gedən 8/3 bina nömrəli obyektin texniki vəziyyəti prioriteti Təşkil edir. Bu bina ilə baĞlı bütün sənədlərin yenilənməsi vacibdir.
+
+Görüləcək işlər:
+- Bina üzrə sənədləşmənin yekunlaşdırılması.
+- Texniki heyətin sahəyə göndərilməsi.
+
+> ""Zatiyyət, təmir işlərinin vaxtındA bitməsi üçün əlavə büdcə ayrılması zəruridir. Əks halda, təhlükəsizlik qaydalarına əməl olunmayA bilər.""
+
+---",az,"[{""start"":333,""end"":336,""label"":""BUILDINGNUM"",""text"":""8/3""}]",meeting_notes,medium,polite but firm,"[""case_glitch""]",0,0,llm,"{""index"":188,""lang"":""az"",""doc_type"":""meeting_notes"",""doc_type_hint"":""notes taken during a meeting, with action items"",""register"":""polite but firm"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""BUILDINGNUM"",""value"":""8/3""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a quoted reply section with '>' markers"",""include a forwarded-message header block""],""negative_only"":false,""seed"":908298164,""edge_case"":{""id"":""BLD-01"",""status"":""positive_valid"",""description"":""Building number with a street anchor nearby."",""scenario"":""""},""reference_year"":2020}",source

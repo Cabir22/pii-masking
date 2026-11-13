@@ -1,0 +1,87 @@
+documents: 6,000
+
+1. PLANNED VALUES PRESENT BUT UNLABELLED: 0 occurrence(s) in 0 document(s)
+   of which a value with no labelled occurrence at all (count): 0 in 0 document(s) {}
+   by label: {}
+   by form : {}
+   planned values with no labelled occurrence, by label (share of that label's plans):
+   DATE 13/2374 (0.5%), SURNAME 6/1454 (0.4%), TIME 1/381 (0.3%), AGE 1/457 (0.2%), GIVENNAME 3/1723 (0.2%), STREET 1/710 (0.1%), CITY 1/855 (0.1%), ACCESS_TOKEN 0/256 (0.0%)
+
+2. LABELS THAT DISAGREE WITH THE PLAN: 37  {'changed by noise after labelling (ok)': 36, 'standalone date, D-17 (ok)': 1}
+   llm_az_000269  changed by noise after labelling (ok): DATE '2 4noyabR 1992, çərşənbə axşamı'  ...umatları:  Ad: Hacərxatun Doğum tarixi: [[2 4noyabR 1992, çərşənbə axşamı]] ünvan:  Qazaxlar döngəsi, AZ5003 Telefo...
+   llm_az_001215  changed by noise after labelling (ok): TIME '12:l2'  ...xniki tə1imat Tarix: 16 mart 2017, saat [[12:l2]] ---------------------------------------...
+   llm_az_001520  changed by noise after labelling (ok): STREET 'Böyük Qaladdərəsi döngəsi'  ... Yaşı: 32 yaşı Şəhər: Hacıqabula Ünvan: [[Böyük Qaladdərəsi döngəsi]] 28 Əlaqə telefonu: +994 51 664 25 60 E-...
+   llm_az_002174  changed by noise after labelling (ok): STREET 'Tofiq İsmayılov   d-\nöngəsi'  ..., Teyhanə Pirnəzərova, Tovuz şəhərində, [[Tofiq İsmayılov   d- öngəsi]] boyunca yerləşən yaşayış   məkanında ya...
+   llm_az_002240  changed by noise after labelling (ok): DATE '28.0Z.2018'  ...Tarix: [[28.0Z.2018]]  Salam, Nahidov bəy,  Ümid edirəm ki, b...
+
+3. DECOY INTEGRITY: 6763 decoy span(s) checked, 2634 policy/contextual; problems: {'not a planted decoy string': 1}
+   llm_az_004657  not a planted decoy string: policy_surname_in_company 'Mirabova və   Partnyorlar'  ... bütün məlumatları toplamağa çalışıram. [[Mirabova və   Partnyorlar]] t- ərəfindən göndərilən sənədlərin hamı...
+
+4. RATES (share of all documents)
+   hard_negative  requested 30.0%   in the text 28.0%   in the briefs 29.8%
+   adversarial    requested 20.0%   in the text 20.3%   in the briefs 20.4%
+   pii_free       requested 10.0%   in the text 10.4%
+   edge_case      requested 30.0%   in the text 30.4%
+   any decoy in the text (_hard_negatives > 0, the batch-1 README's measure): 35.0%
+   label share / target, furthest off: DATE 2.85, ICCID 1.65, IPV6_ADDRESS 1.41, TIME 1.37, MAC_ADDRESS 1.21, EMAIL 0.81
+
+5. D-9: {'mentions': 7496, 'suffixed (label includes the suffix)': 2685}
+   D-10: {'documents of 1-5 words': 3}
+   validate_example failures: none
+
+7. INDEPENDENT SWEEP, PII THE MODEL INVENTED (informational): 0 document(s) (0.0%), 0 of them declared PII-free; {}
+
+8. STANDALONE DATES LEFT UNLABELLED (D-17; timestamps excluded): 0 in 0 document(s) (0.0%); {}. scripts/relabel_standalone_dates.py labels them
+
+6. REJECTS: 954
+      472   49.5%  quality
+      224   23.5%  validation
+      136   14.3%  leaked unlabeled PII
+       75    7.9%  judgment leak
+       19    2.0%  taxonomy label leaked into text
+       17    1.8%  api
+       11    1.1%  no entities resolved
+   name rejects: {}
+   top-10 sub-reasons:
+      279  quality | unlabelled date (D-N)
+            e.g. AZƏRBAYCAN RESPUBLİKASI RƏQƏMSAL İNKİŞAF VƏ NƏQLİYYAT NAZİRLİYİ Mərkəzi İdarəetmə və Texniki İnfrastruktur İdarəsi  Sənəd növü: Texniki Konfiqurasiya və Audit H
+            e.g. [Gələn mesaj] Mövzu: Təhlükəsizlik Auditinin Nəticələri və Data Sızıntısı Analizi Tarix: 2021–ci il, noyabr  Sistemin identifikasiya və autentifikasiya modulund
+            e.g. REGION TELEKOMUNİKAsİYA XİDMƏTLƏRİ MÜŞTƏRİ HESAB-FAKTURASI  Seyfixanım Həsənqarayevaya aid olan abunəçi hesabı üçün 2018-ci ilin iyun ayı hesabatı.  Hesab №: 20
+      196  validation | language: only N az words
+            e.g. Bagislayin, sehvlik basib. Adresi - yox, adresini - sehv yazmisem. Dogru adres dilnuremohbalazade@optimal.az olmalidir. System error. Uzr isteyirem, bu sehvlik 
+            e.g. api endpoynt-ler: * city: Sahilde * str: Molla Cume dongesi
+            e.g. Tarix: 09.02.2022 Hadisə: * Keçid: https://account.optimal.az/join?apikey=BuR-cR4vyouwznKmuszx0JG321sSYgQ
+       65  quality | invented PII (CITY)
+            e.g. BAKI TEXNIKA XİDMƏTLƏRİ MMC Ünvan: Bakı şəhəri, mərkəzi ofis Əlaqə: xidmət mərkəzi  SATIŞ QƏBZİ Sifariş №: l00842 Tarix: 14 may 2016-cı il  Müştəri məlumatları:
+            e.g. Kirayə Müqaviləsi (2019-cu il)  Bu sənəd kirayə verilən mənzil və onnun istifadə qayaları ilə bağlı əsas şərtləri müəyyən edir. Kirwyə verilən obyekt Bakı şəhər
+            e.g. Müqavilənin tərəfləri haqqında bənd  Tarix: 28.09.2019  1. TƏRƏFLƏRİN MALUMATI  Bu sənəd aşağıdakı tərəflər arasında imzalanmışdır:  1.1. “Turan Holding” ASC, V
+       64  judgment leak | ['…']
+            e.g. Tarix: 2018-03-12  Postmmortem: Sistemə icazəsiz giriş və məlumat sıması hadisəsi  Slam uşaqlar, keçən həftə baş verən o möhtəşəm (yəni pis mənada) hadisə haqqı
+            e.g. From: Texniki dəstək To: Sistem administratorı Subject: Re: Serverə giriş problemi  Problem var. SSH girişi bloklanıb. İstifadəçinin şəxsiyyət vəsiqəsinin FİN k
+            e.g. Gömrük Bəyanatı Detalları: -------------------------------------------------- Sənəd Nömrəsi | Yükün Növü | Tarix -----------------------------------------------
+       31  quality | invented PII (STREET)
+            e.g. Sığorta Hadisəsinin Ekspert Rəyi və Hesabatı  2015-ci ilin noyabr ayında sığorta şirkətimizə daxil olan müraciətə əsas- ən, sığortalı şəxsin mülkiyyətində olan 
+            e.g. Xəta Hesabatı: Ünvan Modulunda Bina Nömrəsinin Səhv Göstərilməsi Hesabat Tarixi: 15 noyabr 2021-ci il Status: Yeni  Təsvir: Mövcud əmlak idarəetmə sistemində ün
+            e.g. Nəhayət ki, mən də susmaqdan yorulmuşam! Nizami küçəsi 3 bina ətrafında gedən tə- mir işləri nə vaxt bitəcək? 2019-cu ilin əvvəlində bizə müxtəlif sözlər verild
+       22  leaked unlabeled PII | IPVN:N.N.N.N
+            e.g. Salam hörmətli forum üzvləri, üzrlü sayın, sizi narahat etdiyim üçün çox təəssüf edirəm. Mən bəlkə də yanlış yerə yazıram, amma başqa bir çarəm qalmayıb. Şirkət
+            e.g. Mövzu: Server xətaları və avadanlıq problemi haqqında kömək xahişi  Salam hörmətli forum üzvləri,  Üzr istəyirəm, sizi narahat etmək istəmirdim, amma vəziyyət ç
+            e.g. Tarix: 20 fevral 2018  Mövzu: Texniki xidmətlərdəki sistem nasazlıqları və xidmət fasiləsi barədə şikayət  Hörmətli Texniki Xidmət Meneceri,  Bu məktub vasitəsi
+       22  quality | planned value never labeled (SURNAME, misspelled)
+            e.g. Mövzu: Sənədlərin rəsmiləşdirilməsi prosesində yaranan çətinlik  Hörmətli forum üzvləri,  2025-ci ilin əvvəlində edilən dəyişikliklərdən sonra bəzi inzibati məs
+            e.g. Müştəri: Talihə Əbişov... yox, Talihə Əbişova, bu mən deyiləm! > Talihə Əbişova Men qorxuram, bu nedir?
+            e.g. SON XƏBƏRDARLIQ: Onboarding prosesi yarımçıq qalıb!  Xalsazadə Holdinq ilə müqavilə şərtlərinə uyğun olaraq, Tutuzər Инкишафоvanın 28 yaşı olan müraciəti dərhal
+       19  validation | turkish_lexis: buyuk
+            e.g. Hörmətli bank xidməti,  Mən bu mesajı çox böyük bir narahatlıq və ciddi bir çaşqınlıq içində yazıram. 2016-cı ildən bəri sizin bankdan istifadə edirəm və heç va
+            e.g. [09:15] Salam, necəsən? Yeni ilin ilk günləri necə keçir? 2025-ci ilin bu ilk həftəsi bir az çox  sürətli və yorucu görsənir, elə deyil?  [09:17] Salam, çox sağ
+            e.g. Tarix: 2015-05-10  Sürətli İnternet Xidməti Abunəçi Hesabatı  Hörmətli Xanımgözəl,  Sizin bu ayki internet istifade melumatlarini teqdim edirik. Əhməd Manafov d
+       16  quality | invented PII (GIVENNAME)
+            e.g. 📢 **YENI NESIL KITABXANASI - 2025-CI IL UCUN VACIB ELAN!**  Hormətli oxucular ve telebələr,  2025-ci ilin planlari cərçivesinde kitabxanamızin xidmet keyfiyyeti
+            e.g. # Şəxsiyyət Sənədlərinin Elektron Arxivlənməsi və İdarəedilməsi Protokolu  Bu sənəd 2021-ci il üzrə daxili informasiya sistemlərində şəxsiyyət sənədlərinin qeyd
+            e.g. ## Peşəkar Profil və CV  Salam! Mən texnologiya dünyasına böyük bir həvəslə bağlı olan və hər yeni texnoloji dəyişikliyi özünə yaxın hiss edən bir proqram təmin
+       15  api | response was truncated before the document finished (finish_reason=len
+            e.g. 
+            e.g. 
+            e.g. 
+
+json -> reports\llm_batch4\b4_audit_before.json

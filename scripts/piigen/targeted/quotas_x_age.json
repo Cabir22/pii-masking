@@ -1,0 +1,58 @@
+{
+  "_comment": "X-AGE, the extra batch's AGE look-alikes (D-64d, m2; red-team rule #136: v4.2 masks any number next to `yaş` as AGE). Merged over quotas.json: every document is an age pair (decoy_pair, group age); age_v43.rate of them put a real age of a person with `yaş` beside a number next to `yaş` that is not a person's age (frames_v43.AGE_LOOKALIKES), unlabelled; the rest keep D-57 S1's age pairs. Run: build_targeted_corpus.py -n 400 --seed <s> --quotas scripts/piigen/targeted/quotas_x_age.json -o <out>. Not with --stats (a one-family run lacks a full build's protected kinds).",
+  "families": {
+    "decoy_pair": 1.0,
+    "contrast": 0.0,
+    "prose": 0.0,
+    "form": 0.0,
+    "punct": 0.0,
+    "namelist": 0.0,
+    "postal": 0.0,
+    "edges": 0.0,
+    "clerical": 0.0,
+    "village": 0.0,
+    "structured": 0.0,
+    "pii_free": 0.0,
+    "pii_free_business": 0.0,
+    "inflected": 0.0,
+    "minimal": 0.0,
+    "homograph": 0.0,
+    "pem_long": 0.0,
+    "cross_anchor": 0.0,
+    "locative": 0.0,
+    "slot_invalid": 0.0,
+    "place_verbs": 0.0,
+    "short_keys": 0.0,
+    "time_seconds": 0.0,
+    "key_placeholder": 0.0,
+    "net_context": 0.0,
+    "recall": 0.0
+  },
+  "decoy_groups": {
+    "sentence_initial": 0.0,
+    "policy_names": 0.0,
+    "building": 0.0,
+    "other": 0.0,
+    "noun": 0.0,
+    "cvv": 0.0,
+    "age": 1.0
+  },
+  "protected": {
+    "contrast_subs": {
+      "ipv6_mac": 0,
+      "licence_id": 0
+    }
+  },
+  "max_frame_share": 0.06,
+  "_frame_cap_comment": "max_frame_share 0.06 of this batch: one family only, appended to v4.2's 142k train",
+  "age_v43": {
+    "_comment": "styles, balanced: age_limit (`Pensiya yaşı 63`, `16 yaşdan yuxarı`), age_range (`12–15 yaş arası`), age_average (`orta yaşı 34`), object_age (`Binanın yaşı 80`)",
+    "rate": 0.85,
+    "styles": {
+      "age_limit": 0.25,
+      "age_range": 0.25,
+      "age_average": 0.25,
+      "object_age": 0.25
+    }
+  }
+}

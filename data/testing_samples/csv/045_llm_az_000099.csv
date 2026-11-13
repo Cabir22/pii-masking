@@ -1,0 +1,26 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000099,"2022-05-14 09:12:04 [LOG] Sistem xətasını yoxlamaq üçün avtomobil qeydiyyat bazasına giriş edildi.
+
+Mən başa düşmürəm, bu necə ola bilər? Hər şey düzgün idi, amma indi hər şey qarışıqdır. Avtomobilin sənədlərini yeniləmək üçün gəlmişdim, amma sistemdəki bu boşluqlar məni həqiqətən də narahat edir. Mən sadəcə kömək istəyirdim, niyə hər şey bu qədər mürəkkəb hala gəlib?
+
+Avtomobilin texniki pasportu və qeydiyyat məlumatları üzərində işləyərkən aşağıdakı məlumatlar qarşıma çıxdı, amma onların doğruluğundan əmin deyiləm:
+
+Sürücü və sahiblik məlumatları:
+Mənzil ünvanı: Füzulidə yerləşən köhnə binanın yaxınlığı.
+Bina nömrəsi: 19F mənzilində qeydiyyatdan keçmişdir.
+Əlaqə nömrəsi: (055) 609-29-93
+
+Bu nömrə həqiqətən mənimdirmi? Yoxsa yanlışlıq var? Üstəlik, ödəniş məsələsi də tamamilə qaranlıqdır. Mən avtomobilin sığorta və texniki baxım xərcləri üçün kartımı istifadə etdim, amma sistemdə görünən bu rəqəmlər məni qorxudur.
+
+Ödəniş detalları:
+İstifadə olunan kartın nömrəsi: 3528585174328069
+Ödəniş statusu: Gözləmədə (Lakin sistemdə ""uğurlu"" yazılır, amma mən heç nə görmürəm!)
+
+Niyə heç kim mənə izahat vermir? Mən avtomobilin qeydiyyatını tamamlamaq üçün Füzulidə olduğumu, ünvanımın 19F binası olduğunu dəfələrlə təsdiqləmişəm. Amma sistem sanki məni görməzdən gəlir. Hər dəfə nömrəni yazanda, yəni (055) 609-29-93 nömrəsinə zəng etməyə çalışanda xəta mesajı alırım. 
+
+2022-ci ilin bu vaxtlarında belə bir texniki problem gözləmirdim. Əgər kart məlumatlarım, yəni 3528585174328069 nömrəli kartla bağlı bir problem varsa, mən bunu necə həll edəcəyəm? Mən sadəcə avtomobilin sənədlərini düzgün şəkildə saxlamaq istəyirəm. 
+
+Daha sonra sistemdə bir daha loq gördüm:
+2022-05-14 10:45:22 [LOG] İstifadəçi müraciəti: ""Məlumatların uyğunsuzluğu - Füzuli ərazisi"".
+
+Bu loq mənim dediklərimi təsdiqləyir, amma bu nə deməkdir? Mənə kömək lazımdır. Ünvanım haqqında yenidən deyirəm: bina 19F, mənzil məlumatları bura əsaslanır. Niyə hər şey bu qədər qarışıqdır? Mən həqiqətən də çox təşvişdəyəm və nə edəcəyimi bilmirəm. Zəhmət olmasa, kimsə mənimlə əlaqə saxlasın və bu avtomobil qeydiyyatı məsələsini bitirsin.",az,"[{""start"":571,""end"":579,""label"":""CITY"",""text"":""Füzulidə""},{""start"":628,""end"":631,""label"":""BUILDINGNUM"",""text"":""19F""},{""start"":682,""end"":697,""label"":""TELEPHONENUM"",""text"":""(055) 609-29-93""},{""start"":980,""end"":996,""label"":""PAYMENT_CARD_NUMBER"",""text"":""3528585174328069""},{""start"":1163,""end"":1171,""label"":""CITY"",""text"":""Füzulidə""},{""start"":1192,""end"":1195,""label"":""BUILDINGNUM"",""text"":""19F""},{""start"":1308,""end"":1323,""label"":""TELEPHONENUM"",""text"":""(055) 609-29-93""},{""start"":1473,""end"":1489,""label"":""PAYMENT_CARD_NUMBER"",""text"":""3528585174328069""},{""start"":1749,""end"":1755,""label"":""CITY"",""text"":""Füzuli""},{""start"":1886,""end"":1889,""label"":""BUILDINGNUM"",""text"":""19F""}]",vehicle_record,very_long,anxious and confused,[],0,0,llm,"{""index"":99,""lang"":""az"",""doc_type"":""vehicle_record"",""doc_type_hint"":""a vehicle registration, service, or fleet record"",""register"":""anxious and confused"",""band"":""very_long"",""min_chars"":2600,""max_chars"":4200,""length_hint"":""a long multi-section document"",""entities"":[{""label"":""BUILDINGNUM"",""value"":""19F""},{""label"":""TELEPHONENUM"",""value"":""(055) 609-29-93""},{""label"":""CITY"",""value"":""Füzuli""},{""label"":""PAYMENT_CARD_NUMBER"",""value"":""3528585174328069""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a timestamp-prefixed log line or two""],""negative_only"":false,""seed"":1543014759,""edge_case"":null,""reference_year"":2022}",source

@@ -1,0 +1,751 @@
+{
+ "batch": "data\\raw\\sprint1_llm_b6.jsonl",
+ "documents": 24000,
+ "unlabelled_planned": {
+  "values": 0,
+  "documents": 0,
+  "values_with_no_label_anywhere": 0,
+  "documents_with_no_label_anywhere": 0,
+  "no_label_anywhere_by_label": {},
+  "by_label": {},
+  "by_kind": {},
+  "examples": []
+ },
+ "planned": {
+  "ACCESS_TOKEN": {
+   "planned": 1634,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AGE": {
+   "planned": 1778,
+   "not_labelled_anywhere": 2,
+   "share": 0.0011
+  },
+  "API_KEY": {
+   "planned": 2215,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_DRIVER_LICENSE_NUMBER": {
+   "planned": 1460,
+   "not_labelled_anywhere": 2,
+   "share": 0.0014
+  },
+  "AZ_FIN": {
+   "planned": 1208,
+   "not_labelled_anywhere": 1,
+   "share": 0.0008
+  },
+  "AZ_ID_CARD_NUMBER": {
+   "planned": 1694,
+   "not_labelled_anywhere": 4,
+   "share": 0.0024
+  },
+  "AZ_PASSPORT_NUMBER": {
+   "planned": 807,
+   "not_labelled_anywhere": 1,
+   "share": 0.0012
+  },
+  "AZ_VOEN": {
+   "planned": 698,
+   "not_labelled_anywhere": 4,
+   "share": 0.0057
+  },
+  "BUILDINGNUM": {
+   "planned": 2002,
+   "not_labelled_anywhere": 3,
+   "share": 0.0015
+  },
+  "CARD_SECURITY_CODE": {
+   "planned": 785,
+   "not_labelled_anywhere": 1,
+   "share": 0.0013
+  },
+  "CITY": {
+   "planned": 3541,
+   "not_labelled_anywhere": 6,
+   "share": 0.0017
+  },
+  "DATE": {
+   "planned": 11333,
+   "not_labelled_anywhere": 64,
+   "share": 0.0056
+  },
+  "EMAIL": {
+   "planned": 6676,
+   "not_labelled_anywhere": 1,
+   "share": 0.0001
+  },
+  "GIVENNAME": {
+   "planned": 33276,
+   "not_labelled_anywhere": 57,
+   "share": 0.0017
+  },
+  "IBAN": {
+   "planned": 942,
+   "not_labelled_anywhere": 1,
+   "share": 0.0011
+  },
+  "ICCID": {
+   "planned": 506,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "IPV4_ADDRESS": {
+   "planned": 1119,
+   "not_labelled_anywhere": 1,
+   "share": 0.0009
+  },
+  "IPV6_ADDRESS": {
+   "planned": 1291,
+   "not_labelled_anywhere": 2,
+   "share": 0.0015
+  },
+  "MAC_ADDRESS": {
+   "planned": 1425,
+   "not_labelled_anywhere": 1,
+   "share": 0.0007
+  },
+  "PAYMENT_CARD_NUMBER": {
+   "planned": 1098,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "PRIVATE_KEY": {
+   "planned": 628,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "STREET": {
+   "planned": 2793,
+   "not_labelled_anywhere": 25,
+   "share": 0.009
+  },
+  "SURNAME": {
+   "planned": 22093,
+   "not_labelled_anywhere": 46,
+   "share": 0.0021
+  },
+  "TELEPHONENUM": {
+   "planned": 5681,
+   "not_labelled_anywhere": 7,
+   "share": 0.0012
+  },
+  "TIME": {
+   "planned": 1494,
+   "not_labelled_anywhere": 4,
+   "share": 0.0027
+  },
+  "URL": {
+   "planned": 1466,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "ZIPCODE": {
+   "planned": 2071,
+   "not_labelled_anywhere": 2,
+   "share": 0.001
+  }
+ },
+ "label_disagreement": {
+  "count": 200,
+  "by_reason": {
+   "changed by noise after labelling (ok)": 188,
+   "not a form of any planned value": 4,
+   "standalone date, D-17 (ok)": 8
+  },
+  "examples": [
+   {
+    "id": "llm_az_000448",
+    "why": "changed by noise after labelling (ok)",
+    "label": "GIVENNAME",
+    "text": "Güla-\nhidə",
+    "context": " bu məsələnin həlli üçün melumat verdi. [[Güla- hidə]] ödəniş edilməlidir. O, 34 yaşında birid"
+   },
+   {
+    "id": "llm_az_000522",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "Nazi-\nlovaya",
+    "context": "və ya zərərçəkən kimi qeyd olunan Tirmə [[Nazi- lovaya]] şəxsi məlumatları və əlaqə vasitələri ü"
+   },
+   {
+    "id": "llm_az_000522",
+    "why": "changed by noise after labelling (ok)",
+    "label": "CITY",
+    "text": "Şək-\ni",
+    "context": "3 olaraq qeyd edilmişdir. Bu məlumatlar [[Şək- i]] şəhərində və Abdullu pr. ərazisində yaş"
+   },
+   {
+    "id": "llm_az_000529",
+    "why": "not a form of any planned value",
+    "label": "CITY",
+    "text": "Gnəcədə",
+    "context": "[[Gnəcədə]] açılmış iş üzrə məhkəmənin 0rganizasiya"
+   },
+   {
+    "id": "llm_az_000553",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "O6.11.2024",
+    "context": "ilersiniz:  Telefon: +994-50-739-42-73  [[O6.11.2024]]"
+   },
+   {
+    "id": "llm_az_000583",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "3-cü 8inə Atçılıq prospektində",
+    "context": "iki yeniləmə işləri uğurla icra olunur. [[3-cü 8inə Atçılıq prospektində]] yerləşən obyektin infrastruktur sisteml"
+   },
+   {
+    "id": "llm_az_000593",
+    "why": "changed by noise after labelling (ok)",
+    "label": "GIVENNAME",
+    "text": "A-\nlar",
+    "context": "eçməzdən əvvəl qeyd etməliyik ki, vəkil [[A- lar]] Pənahxanov və mühasib Şixəli Mirzov tər"
+   },
+   {
+    "id": "llm_az_000715",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "Ağaibrah-\nimovlarda",
+    "context": "malı olan əsas hüquqi məsələlərdən biri [[Ağaibrah- imovlarda]] mövcud olan mülki mülkiyyət hüquqları v"
+   },
+   {
+    "id": "llm_az_000780",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "22 mart Z02l",
+    "context": "Tarix: [[22 mart Z02l]]  --- Göndərən: Nizaməddinova Holdinq tə"
+   },
+   {
+    "id": "llm_az_000780",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "Musa 6ölü küçəsində",
+    "context": "dakı məlumatları nəzərə alın:  * Ünvan: [[Musa 6ölü küçəsində]] * Əlaqə: Neliylə əlaqə saxlayın  System"
+   },
+   {
+    "id": "llm_az_000825",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "M-\nemmed Esedov pr.",
+    "context": "ltanaliyev@mail.ru;010 526 77 61;AZ1104;[[M- emmed Esedov pr.]] 143  Məhkəmə sənədlərində göstərilən Bə"
+   },
+   {
+    "id": "llm_az_000828",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "aŞməddiov",
+    "context": " yeni inşaaat şiləri barədə müdir Elsaf [[aŞməddiov]] rəsmi açıqlama verdi. 0layın gedişatı h"
+   },
+   {
+    "id": "llm_az_000969",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "A-\nmurov",
+    "context": " edilmiş xüsusi komissiya rəhbəri fikri [[A- murov]] tərəfindən qurulmuş iş qrupu bütün pros"
+   },
+   {
+    "id": "llm_az_001015",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "02.12.202O",
+    "context": "[08:45:12] Sessiya başaldıldı. Bu sənəd [[02.12.202O]] tarixində tərtib edilib. Cimcimaxda ged"
+   },
+   {
+    "id": "llm_az_001444",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "2 fevral 20Z3",
+    "context": "KRİTİK MƏLUMAT SIZINTISI  Sənəd tarixi: [[2 fevral 20Z3]]  Araz Mebel şirkəti bu gün müştərilərin"
+   },
+   {
+    "id": "llm_az_001461",
+    "why": "changed by noise after labelling (ok)",
+    "label": "GIVENNAME",
+    "text": "Anja",
+    "context": "da vəkiil Havazar Ərkibəuova və mühasib [[Anja]] Ələkbərzadə DYI2945597 nömrəli sənədi 0"
+   },
+   {
+    "id": "llm_az_001613",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "Rai-\ndov",
+    "context": "tərəfindən elan edilir ki, vəkil Taskin [[Rai- dov]] və mühasib Gülaməd Mürvətov iştirakı il"
+   },
+   {
+    "id": "llm_az_001819",
+    "why": "changed by noise after labelling (ok)",
+    "label": "GIVENNAME",
+    "text": "Çö-\nhrə",
+    "context": "çün təkliflər təqdim edilməlidir. Müdir [[Çö- hrə]] Əlimova və mühasib Nurcahan Mevlanova t"
+   },
+   {
+    "id": "llm_az_002185",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "Əli-\nqafurov",
+    "context": "tirakı barədə melumatlandirma aparılır: [[Əli- qafurov]] Sədra Mülazim oğlu və Zərbailov İlzər Q"
+   },
+   {
+    "id": "llm_az_002499",
+    "why": "changed by noise after labelling (ok)",
+    "label": "CITY",
+    "text": "Gpranboy",
+    "context": "[[Gpranboy]] Bələdiyyəsinin Rəsmi Bilirişi  Goranboy"
+   }
+  ]
+ },
+ "decoys": {
+  "counts": {
+   "checked": 23881,
+   "exempt (policy/contextual)": 9437,
+   "not a planted decoy string": 13
+  },
+  "examples": [
+   {
+    "id": "llm_az_002264",
+    "problem": "not a planted decoy string",
+    "kind": "ORDER_ID",
+    "value": "S-O-451354",
+    "context": "u hər bir təklifi dərhal yoxlayacaqlar. [[S-O-451354]] kodlu sifariş çərçivəsində təqdim oluna"
+   },
+   {
+    "id": "llm_az_002338",
+    "problem": "not a planted decoy string",
+    "kind": "MAC_LIKE_HASH",
+    "value": "76:1c:cf:f2:d3:84:85:c5:57:da:39:a2:69:95-7d:6b",
+    "context": "lərlə qarşılaşmışıq. Daxili sistemlərdə [[76:1c:cf:f2:d3:84:85:c5:57:da:39:a2:69:95-7d:6b]] kodu və ending in 7545 olan sənədlərin "
+   },
+   {
+    "id": "llm_az_003608",
+    "problem": "not a planted decoy string",
+    "kind": "MAC_LIKE_HASH",
+    "value": "23:a4:b2:59:0d:c8:2e:0b:5d:41:e3:c8:d1:e5-dd:28",
+    "context": " bu uzun kodlar belə ağlımı qarışdırır: [[23:a4:b2:59:0d:c8:2e:0b:5d:41:e3:c8:d1:e5-dd:28]]. Bir sənəddə doğum tarixi ***-***-1966 "
+   },
+   {
+    "id": "llm_az_004292",
+    "problem": "not a planted decoy string",
+    "kind": "public_key_block",
+    "value": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEqu6vhYNmG8n1SBhmeRmiHdMocC71\n8ccqYaMfcYGK2m9GlPxMXt8d/0pJXJIeFAB6rQ2gqKHa+oWGNnZ9Vq5t2w==\n-----END PUBLIC   KEY-----",
+    "context": "əlumatların ötürülməsi zamanı açıq açar [[-----BEGIN PUBLIC KEY----- MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEqu6vhYNmG8n1SBhmeRmiHdMocC71 8ccqYaMfcYGK2m9GlPxMXt8d/0pJXJIeFAB6rQ2gqKHa+oWGNnZ9Vq5t2w== -----END PUBLIC   KEY-----]] istifadəsi.  Operativ direktor bildirib"
+   },
+   {
+    "id": "llm_az_004336",
+    "problem": "not a planted decoy string",
+    "kind": "MASKED_CARD",
+    "value": "6996  **** **** 5420",
+    "context": "is əməliyyatinda istifade olunan vasite [[6996  **** **** 5420]] nomreli kartdir.  Meselenin\t2021-ci il "
+   },
+   {
+    "id": "llm_az_010540",
+    "problem": "not a planted decoy string",
+    "kind": "PARTIAL_PHONE",
+    "value": "+994 ** *** **  24",
+    "context": "gli elave melumat almaq isteseniz, bize [[+994 ** *** **  24]] vasitesile muraciet ede bilersiniz. Biz"
+   },
+   {
+    "id": "llm_az_012265",
+    "problem": "not a planted decoy string",
+    "kind": "MAC_LIKE_HASH",
+    "value": "52:29:ce:18:f3:e9:c5:f6:a8:42-2d:8d:65:a9:a4:44",
+    "context": "tərəfindən tanınması üçün təyin edilmiş [[52:29:ce:18:f3:e9:c5:f6:a8:42-2d:8d:65:a9:a4:44]] nömrəli kodun dəqiqliyi və aktivliyi mü"
+   },
+   {
+    "id": "llm_az_012736",
+    "problem": "not a planted decoy string",
+    "kind": "LOYALTY_CARD_LUHN_BAD",
+    "value": "8361 6666 3241   9562",
+    "context": "im edilən kart nömrəsi 4006296922552 və [[8361 6666 3241   9562]] sənədləri ilə bağlı məsələnin həlli.  G"
+   },
+   {
+    "id": "llm_az_016260",
+    "problem": "not a planted decoy string",
+    "kind": "policy_givenname_in_company",
+    "value": "Fərzuyəddin  Kafe",
+    "context": "dımlar atılmalıdır. Logitech şirkəti və [[Fərzuyəddin  Kafe]] tərəfindən qeydə alınan əməliyyatlar za"
+   },
+   {
+    "id": "llm_az_017575",
+    "problem": "not a planted decoy string",
+    "kind": "OBFUSCATED_EMAIL",
+    "value": "tdoqu AT foajra   DOT\torg",
+    "context": "əsmi Bildiriş:  build-2a72c29fa1a4\tkodu [[tdoqu AT foajra   DOT\torg]] vasitəsilə təqdim edildi. Hadisə yerli "
+   },
+   {
+    "id": "llm_az_023806",
+    "problem": "not a planted decoy string",
+    "kind": "OBFUSCATED_EMAIL",
+    "value": "cwxhg  [at] bxcvme [dot] com",
+    "context": "ışmazlığı olduqda, avtomatik bildirişin [[cwxhg  [at] bxcvme [dot] com]] ünvanına göndərilməsi və ya dfh***@***."
+   },
+   {
+    "id": "llm_az_024695",
+    "problem": "not a planted decoy string",
+    "kind": "MAC_LIKE_HASH",
+    "value": "2e:74:26-2d:06:67:44:95:ac:38:3f:54:7f:df:20:d2",
+    "context": " yeni tapşırıqlar çərçivəsində sistemin [[2e:74:26-2d:06:67:44:95:ac:38:3f:54:7f:df:20:d2]] inteqrasiyası uğurla tamamlandı. Əthəmo"
+   },
+   {
+    "id": "llm_az_025485",
+    "problem": "not a planted decoy string",
+    "kind": "MAC_LIKE_HASH",
+    "value": "51:bd:f4:6d:68-2d:a5:e2:45:d9:3e:95:fd:6d:87:b3",
+    "context": "dentifikasiya kodu kimi istifadə edilən [[51:bd:f4:6d:68-2d:a5:e2:45:d9:3e:95:fd:6d:87:b3]] rəqəmsal kodu vasitəsilə bütün yeni tex"
+   }
+  ]
+ },
+ "rates": {
+  "requested": {
+   "hard_negative": 0.3,
+   "adversarial": 0.2,
+   "pii_free": 0.1,
+   "edge_case": 0.3
+  },
+  "measured": {
+   "hard_negative_spec": 0.2955,
+   "hard_negative_text": 0.2813,
+   "adversarial_spec": 0.1943,
+   "adversarial_text": 0.1931,
+   "any_decoy_text (README metric)": 0.3504,
+   "pii_free": 0.0983,
+   "edge_case": 0.3009,
+   "with_decoy_spans": 0.359
+  }
+ },
+ "label_shares": {
+  "API_KEY": {
+   "mentions": 2352,
+   "share": 0.0187,
+   "target": 0.025,
+   "ratio": 0.75
+  },
+  "ACCESS_TOKEN": {
+   "mentions": 1722,
+   "share": 0.0137,
+   "target": 0.015,
+   "ratio": 0.91
+  },
+  "PRIVATE_KEY": {
+   "mentions": 628,
+   "share": 0.005,
+   "target": 0.01,
+   "ratio": 0.5
+  },
+  "PAYMENT_CARD_NUMBER": {
+   "mentions": 1202,
+   "share": 0.0096,
+   "target": 0.018,
+   "ratio": 0.53
+  },
+  "IBAN": {
+   "mentions": 1008,
+   "share": 0.008,
+   "target": 0.014,
+   "ratio": 0.57
+  },
+  "CARD_SECURITY_CODE": {
+   "mentions": 851,
+   "share": 0.0068,
+   "target": 0.012,
+   "ratio": 0.57
+  },
+  "IPV4_ADDRESS": {
+   "mentions": 1302,
+   "share": 0.0104,
+   "target": 0.018,
+   "ratio": 0.58
+  },
+  "IPV6_ADDRESS": {
+   "mentions": 1495,
+   "share": 0.0119,
+   "target": 0.006,
+   "ratio": 1.99
+  },
+  "MAC_ADDRESS": {
+   "mentions": 1601,
+   "share": 0.0128,
+   "target": 0.008,
+   "ratio": 1.59
+  },
+  "URL": {
+   "mentions": 1522,
+   "share": 0.0121,
+   "target": 0.025,
+   "ratio": 0.49
+  },
+  "ICCID": {
+   "mentions": 547,
+   "share": 0.0044,
+   "target": 0.006,
+   "ratio": 0.73
+  },
+  "GIVENNAME": {
+   "mentions": 36410,
+   "share": 0.2902,
+   "target": 0.15,
+   "ratio": 1.93
+  },
+  "SURNAME": {
+   "mentions": 25367,
+   "share": 0.2022,
+   "target": 0.12,
+   "ratio": 1.68
+  },
+  "EMAIL": {
+   "mentions": 7358,
+   "share": 0.0586,
+   "target": 0.12,
+   "ratio": 0.49
+  },
+  "TELEPHONENUM": {
+   "mentions": 6028,
+   "share": 0.048,
+   "target": 0.1,
+   "ratio": 0.48
+  },
+  "DATE": {
+   "mentions": 12005,
+   "share": 0.0957,
+   "target": 0.045,
+   "ratio": 2.13
+  },
+  "TIME": {
+   "mentions": 1990,
+   "share": 0.0159,
+   "target": 0.025,
+   "ratio": 0.63
+  },
+  "AGE": {
+   "mentions": 1938,
+   "share": 0.0154,
+   "target": 0.03,
+   "ratio": 0.51
+  },
+  "CITY": {
+   "mentions": 5647,
+   "share": 0.045,
+   "target": 0.065,
+   "ratio": 0.69
+  },
+  "STREET": {
+   "mentions": 3288,
+   "share": 0.0262,
+   "target": 0.05,
+   "ratio": 0.52
+  },
+  "BUILDINGNUM": {
+   "mentions": 2260,
+   "share": 0.018,
+   "target": 0.035,
+   "ratio": 0.51
+  },
+  "ZIPCODE": {
+   "mentions": 2311,
+   "share": 0.0184,
+   "target": 0.035,
+   "ratio": 0.53
+  },
+  "AZ_FIN": {
+   "mentions": 1343,
+   "share": 0.0107,
+   "target": 0.02,
+   "ratio": 0.54
+  },
+  "AZ_ID_CARD_NUMBER": {
+   "mentions": 1983,
+   "share": 0.0158,
+   "target": 0.015,
+   "ratio": 1.05
+  },
+  "AZ_PASSPORT_NUMBER": {
+   "mentions": 881,
+   "share": 0.007,
+   "target": 0.012,
+   "ratio": 0.59
+  },
+  "AZ_VOEN": {
+   "mentions": 742,
+   "share": 0.0059,
+   "target": 0.01,
+   "ratio": 0.59
+  },
+  "AZ_DRIVER_LICENSE_NUMBER": {
+   "mentions": 1703,
+   "share": 0.0136,
+   "target": 0.01,
+   "ratio": 1.36
+  }
+ },
+ "d9": {
+  "counts": {
+   "mentions": 70712,
+   "suffixed (label includes the suffix)": 15971
+  },
+  "examples": []
+ },
+ "d10": {
+  "documents of 1-5 words": 3
+ },
+ "validate_example_failures": {},
+ "unplanned_pii": {
+  "documents": 0,
+  "share": 0.0,
+  "pii_free_documents": 0,
+  "by_label": {},
+  "examples": []
+ },
+ "standalone_dates": {
+  "documents": 0,
+  "share": 0.0,
+  "dates": 0,
+  "by_reason": {},
+  "examples": []
+ },
+ "rejects": {
+  "rejects": 3230,
+  "by_reason": {
+   "quality": {
+    "count": 2214,
+    "share": 0.6854
+   },
+   "validation": {
+    "count": 375,
+    "share": 0.1161
+   },
+   "leaked unlabeled PII": {
+    "count": 279,
+    "share": 0.0864
+   },
+   "judgment leak": {
+    "count": 249,
+    "share": 0.0771
+   },
+   "taxonomy label leaked into text": {
+    "count": 56,
+    "share": 0.0173
+   },
+   "no entities resolved": {
+    "count": 38,
+    "share": 0.0118
+   },
+   "api": {
+    "count": 17,
+    "share": 0.0053
+   },
+   "missing values": {
+    "count": 2,
+    "share": 0.0006
+   }
+  },
+  "top_subreasons": [
+   {
+    "reason": "quality",
+    "sub": "invented PII (CITY)",
+    "count": 1234,
+    "examples": [
+     "Bakı Şəhər İcra Hakimiyyəti İnzibati Xidmətlər İdarəsi  MƏLUMAT BİLDİRİŞİ  Bu bildiriş, şəhər ərazisindəki dövlət xidmətlərinin rəqəmsallaşdırılması və şəxsi məlumatların təhlükəsizliyinin təmin edilməsi çərçivəsində həyata keçirilən yeni t",
+     "## Bakı Şəhər Məhkəməsi - Rəsmi Məhkəmə Bildirişi və Çağırış  ---  ### İşin Rejimi və Təcililik Səviyyəsi  **İşin nömrəsi:** 2017/CIV-0912-AZ **Məhkəmənin Statusu:** Təcilidir (Yüksək dərəcəli) **Mübahisənin Mövzusu:** Rəqəmsal giriş icazəl",
+     "Bakı Şəhər Məhkəməsi tərəfindən elan edilir.  2019-cu ilin sentyabr ayında açılmış mülki iş üzrə tərəflər arasında yaranmış mübahisənin həlli üçün məhkəmə  iclasının keçirilməsi qərara alınmışdır. Sözügedən iş üzrə hüquqi şəxs tərəfindən tə"
+    ]
+   },
+   {
+    "reason": "quality",
+    "sub": "unlabelled date (D-N)",
+    "count": 418,
+    "examples": [
+     "GÖNDƏRİLDİ: 12 iyun 2019-cu il 10:15 GÖNDƏRƏN: muntezir.furseddinov@icloud.com MÖVZU: hüquqi bildiriş  Hörmətli Eldarovalara,  Bu bildirişlə üzr istəyirik ki, əvVəlki sənədlərdə bəzi texniki xətalar baş vermişdir. Şəxsiyyət vəsiqƏsinin nömr",
+     "---------- Yönləndirilmiş mesaj --------- Tarix: 15 sentyabr 2018 Mövzu: Rəsmi bildiriş  | Bölmə      | Detallar                      | |------------|--------------------------------| | Yerləşmə   | Cahangir Cahangirov küçəsində | | Müraciə",
+     "Göndərən: İdarə rəhbərliyi Tarix: 15 oktyabr 2022 Mövzu: Sənəd daxilolması  [09:45:12] Müraciət qəbul edildi. [09:45:15] Məlumat bazasına yazılır.  Rəsmi müraciət forması:  Departament: İdarə rəhbərliyi Müraciət növü: Rəsmi sorğu  İcraçılar"
+    ]
+   },
+   {
+    "reason": "judgment leak",
+    "sub": "['…']",
+    "count": 204,
+    "examples": [
+     "[Sistem: Yeni sessiya başladıldı. Tarix: 2025]  Operator: Salam, elektron xidmət mərkəzinə xoş gəlmisiniz. Sizin üçün nə edə bilərik?  Müraciətçi: Slm, bir problem var, sənədlərimdə nəsə qarışıb. Kömk lazımdır, məlumatlar düzgün deyil.  Ope",
+     "Tarix: 09.12.2016  Bakı seher (typo) mehkemesi (typo) tərəfindən rəsmi bildiriş və çağırış.  Bu bildiriş, Bakı Şəhər Məhkəməsinin mülki işlər bölməsi tərəfindən rəsmiləşdirilmişdir. Məhkəmənin nəzarətində olan və mübahisələndirilən məsələ, ",
+     "Arxiv Sistemində Texniki Nasazlıqlar Barədə Bildiriş  2015–2016-cı illər ərzində şəhər idarə heyəti arxiv sistemində bəzi texniki xətaların bas verdiyini bildirdi. Bu məsələ ilə bağlı hazırlanan hesabatda bəzi melumatlar qeyd olunmuşdur.  S"
+    ]
+   },
+   {
+    "reason": "validation",
+    "sub": "language: only N az words",
+    "count": 184,
+    "examples": [
+     "oauth_M2oBB4vtiMKwxaXl4bXyYBgrJMahLe3B39PvK sessiya tokeni və apikey_M2oBB4vtiMKwxaXl4bXyYBgrJMahLe3B39PvK API açarı – ****39PvK tədarükü elan olunur.",
+     "Tarix: 07.10.2019 Parametr | Dəyər Ünvan | Bina 26 | “Aktiv” – [Sistem] Açar | eyJhbGciOiJQUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1MjEzODU2MiIsImlhdCI6MTc4MTk1OTIzNywiZXhwIjoxNzgyMDQ1NjM3LCJzaWQiOiJ0c0Y0dThMMldNcnV5azItQV8iLCJzY29wZSI6InJlYWQi",
+     "ASC oauth_Rt3NZls2gXafZW7dec1aGEXdaEfCZCT girişi və svc_Rt3NZls2gXafZW7dec1aGEXdaEfCZCT API açarı tədarükü üçün tender 30 noyabr 2024-cü il bitir."
+    ]
+   },
+   {
+    "reason": "quality",
+    "sub": "planned value never labeled (SURNAME, misspelled)",
+    "count": 132,
+    "examples": [
+     "Maliyyə Nəzarəti və Təhlükəsizlik Standartlarının Yenilənməsi  2019-cu ildə yerli maliyyə sektorunda genişmiqyaslı struktur dəyişkilikləri və nəzarət mexanuzmlərinin təkmilləşdirilməsi prosesi icrao lunmuşdur. Bu islahatlar korporativ idarə",
+     "Sənəd tarixi: 12.11.2025 Ayatullazanın nəzarəti ilə STAFF/26045 qrupu tərəfindən yeni qaydalar təsdiqlənmişdir. Əlavə məlumat üçün 099 189 14 41 nömrəsi ilə əlaqə saxlanıla bilər. Sənəd kodu: 77l0.",
+     "## Alov Enerji Sirkəti Yeni Təhlukesizlik Pr0tokollari Haqqinda Melumat Verir  Alov Enerji sirketi reqemsal\tinfrastrukturun tehlükesizliyini artirmaq meqsedile yeni tehlukesizlik qaydalarini tetbiq etdiyini elan edir. Texniki yenilenmə  saa"
+    ]
+   },
+   {
+    "reason": "quality",
+    "sub": "invented PII (STREET)",
+    "count": 123,
+    "examples": [
+     "SATINALMA ELANI  \"Azərbaycan Enerji Sistemləri\" ASC 2016-cı ilin son rübü üçün tələb olunan ofis avadanlıqları və mebellərinin tədarük edilməsi  məqsədilə açıq tender keçirilməsini elan edir.  Mövzu: Ofis avadanlıqları və mebellərinin satın",
+     "Baki seher mehkemesi elan edir.  2017-ci ilin may ayında açılmış mülkiyyət hüququna dair iş üzrə məhkəmə baxışı teyin olunub. Məhkəmə bildirmək isteyir ki, mübahisəli obyektin yeri Nizami kucesi, bina  171 olaraq göstərilmişdir.  Mübahisə t",
+     "Təcili tender elanı! 2017-ci ildə  planlaşdırılan materialların tədarükü  üçü- n təkliflər dərhal təqdim olunmalıdır.  Gecikməyə  heç bir halda yol verilməs- in!  *   Təcili tədarük *   Sənədlərin   dəqiqliyi  Ünvan: Nizami küçəsi, bina 87."
+    ]
+   },
+   {
+    "reason": "validation",
+    "sub": "turkish_lexis: buyuk",
+    "count": 118,
+    "examples": [
+     "Pircahan ərazisində yeni infrastruktur layihəsi haqqında rəsmi bəyanat  Bu sənəd 24/05/2016 tarixində tərtib edilmişdir və Pircahan şəhərində icra olunan yeni infrastruktur layihələri haqqında melumatlandırma məqsədi daşıyır. Layihənin əsas",
+     "BAKI STEEL LOGISTIKA ŞİRKƏTİ STRATEJİ GENİŞLƏNMƏ VƏ YENİ LOGİSTİK MƏRKƏZİNİN AÇILIŞINI ELAN EDİR  Bakı Steel Logistika, Azərbaycanın logistika sektorunda lider mövqeyini möhkəmləndirmək və regional təchizat zəncirini daha effektiv idarə etm",
+     "**TƏCİLİ: REGİONDA İQTİSADİ SƏRGİSTƏNİŞMƏ VƏ GÖZLƏNİLMEZ ADDIMLAR: HƏR KƏS DİQQƏTLİ OLSUN!**  2022-ci ilin bu günlərində, yerli sənaye zonalarında və ticarət şəbəkələrində baş verən inanılmaz hadisələr bütün bölgəni sarsıtmışdır. Səhər saat"
+    ]
+   },
+   {
+    "reason": "quality",
+    "sub": "planned value never labeled (GIVENNAME, misspelled)",
+    "count": 94,
+    "examples": [
+     "Rəqəmsal Təhlükəsizlik Standartlarının və Şəxsiyyətin Təsdiqlənməsi Protokollarının Yenilənməsi Haqqında  Bakı, 2024-cü il. Azərbaycan Respublikasının rəqəmsal iqtisadiyyat yönümlü inkişaf strategiyası çərçivəsində, texnoloji infrastrukturu",
+     "RƏSMI HÜQUQI BILDIRIŞ  [2022-04-10 11:05] LOG_INFO: SYSTEM_CHECK_INITIATED... [2022-04-10 11:08] LOG_WARN: UNEXPECTED_PACKET_SIZE FROM fd00::1  HÖRMƏTLI BAŞXANIM MIRZƏCANLI,  BU RƏSMI BILDIRIŞ 2022-CI ILIN APREL AYINDA BAŞ VERMIŞ TEXNIKI NA",
+     "Göndərən: Hüquq şöbəsi Tarix: 25 iyul 2026 Mövzu: Rəsmi bildiriş  Bu sənəd 25 iyul 2026 tarixində tərtib edilib.  Müzəyyəmin təqdim etdiyi məlumatların yoxlanılması zamanı müəyyən xəta aşkar edilmişdir. Şümarəylə həyata keçirilən proseslərd"
+    ]
+   },
+   {
+    "reason": "judgment leak",
+    "sub": "['…', '…']",
+    "count": 41,
+    "examples": [
+     "TƏCİLİ TƏCHİZAT VƏ TENDER ELANI: İNFRASRUKTURUN MODERNİZASİYA VƏ TEXNİKİ AVESDUARIN TƏCHİZATI  DİQQƏT: BU ELAN ÇOX YÜKSƏK Dərəcəli TƏCİLİYYƏT DAŞIYIR.  Azərbaycan Texnoloji İnfrastruktur İdarəsi tərəfindən 2018-ci ilin son rübü üçün planlaş",
+     "Tarix: 27.06.2016  ## Yerli ərazidə maliyyə sızıntısı və şəffaf idarəetmə problemləri  Son vaxtlar bölgəmizdə baş verən bir sıra qeyri-adi maliyyə əməliyyatları və idarəetmə xətaları ətrafında ciddi narazılıqlar yaranıb. Yerli əhalinin və m",
+     "2015-ci ilin may ayı  MƏHKƏMƏNİN TƏCİLİ VƏ MUHUM BİLDİRİŞİ  Məhkəmə tərəfindən açılmış hüquqi və maliyyə araşdırması işi üzrə bütün aidiyyatlı tərəflərin diqqətinə!  Bu bildiriş, cari ilin tərtib olunduğu maliyyə araşdırması çərçivəsində, m"
+    ]
+   },
+   {
+    "reason": "no entities resolved",
+    "sub": "",
+    "count": 38,
+    "examples": [
+     "Müraciət nömrəsi E-751604  olaraq qeydə alındı. Çıxarışda göstərilib ki, yaş: 1282 olan şəxs üçün əlaqə nömrəsi+994556902865 olmalıdır. 2016-cı ildə təsdiqlənmiş məlumatlara əsasən.",
+     "AZƏRBAYCAN RESPUBLIKASI MÜLKİ İŞLƏR MƏHKƏMƏSİNƏ  İş № 2023/442-AZ 2023-cü il  MÜDDİAÇI: Mülkiyyət hüquqlarının qorunmasını tələb edən şəxs CAVABDEH: Ərazinin müvəqqəti idarəçisi statusunda olan təşkilat nümayəndəsi  MÖVZU: Mülkiyyət hüquqla",
+     "Bakı Şəhər Məhkəməsi tərəfindən 2015-ci ildə elan edilir.  Mülkiyyət hüquqları ilə bağlı açılmış mülki iş üzrə məhkəmə iclası təyin olunmuşdur. Məsälənin - yox, məsələnin həlli üçün aşağıdakı tərəflərin iştirakı vacibdir: * İddiaçı tərəfi; "
+    ]
+   }
+  ],
+  "name_rejects": {
+   "name rejects": 1,
+   "planned value labelled in an inflected form": 1
+  }
+ }
+}

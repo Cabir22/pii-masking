@@ -1,0 +1,32 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000171,"Sistem İdarəetmə Reqlamenti: Regional Logistika və Rabitə Protokolları
+Tarix: 14.05.2022
+
+1. GİRİŞ VƏ MƏQSƏD
+Bu sənəd şirkətin regional bölgələrdəki texniki xidmət və operativ rabitə əməliyyatlarının düzgün idarə olunması üçün hazırlanmışdır. Əsas məqsəd, infrastruktur qəzaları zamanı təcili cavab vermə mexanizmlərini və əlaqə şəxslərinin məsuliyyət sahələrini müəyyən etməkdir.
+
+2. OPERATİV RABBİTƏ VƏ ƏLAQƏ PROTOKOLLARI
+Regionlarda yaranan texniki nasazlıqlar zamanı aşağıdakı ardıcıllıqla hərəkət edilməlidir:
+
+2.1. Texniki Dəstək Xətti
+İlk növbədə, sistem administratoru və ya bölgə üzrə məsul şəxs tərəfindən təsdiqlənmiş əsas rabitə nömrəsinə müraciət edilməlidir. Operativ problemlər üçün xidmət nömrəsi: (070) 926-95-19 vasitəsilə əlaqə saxlanılmalıdır.
+
+2.2. Məsul Şəxslərin İdentifikasiYASI
+Hər bir bölgə üzrə texniki nəzarətçi təyin olunmalıdır. Məsələn, Goranboy bölgəsindəki texniki dayanıqlılıq üzrə əsas məsul şəxs Nərbalayev tərəfindən nəzarət olunur. Əgər texniki kadrlar yerində olmadıqda, Nərbalayevin köməkçisi ilə əlaqə saxlanılması tövsiyə olunur.
+
+3. BÖLGƏLƏR ÜZRƏ İŞ REQWİZİTİ
+Logistika mərkəzlərinin idarə edilməsi zamanı aşağıdakı koordinasiya qaydalarına əməl edilməlidir:
+
+* Şuşa ətrafındakı şəbəkə infrastrukturunun yenilənməsi prosesi: Şuşada qurulan yeni magistral xətlərin stabil işləməsi mütləqdir.
+* Goranboy rayonundakı anbarların monitorinqi: Goranboyda yerləşən logistika mərkəzinin enerji təchizatı hər ayın ilk həftəsində yoxlanılmalıdır.
+
+4. QƏZA VƏ KRIZ İDARƏETMƏSİ (ERROR LOGS)
+Sistemdə gözlənilməz kəsintilər baş verdikdə, operatorlar aşağıdakı addımları icra etməlidir:
+1. Xətanın növünü təsnif edin (Hardware/Software).
+2. Regional mərkəzə məlumat verin.
+3. Əlaqəli şəxslərin statusunu yoxlayın.
+
+Qeyd: Bəzi hallarda serverlərdə gecikmələr müşahidə olunur. Məsələn, ötən həftəki texniki nasazlıq zamanı sistemin...
+
+5. YEKUN QEYDLƏR
+Bu protokol daxili istifadə üçündür və hər hansı bir kənar şəxslə paylaşılması qadağandır. Məlumatların dəqiqliyi və operativliyi sistemin davamlılığı üçün kritik əhəmiyyət kəsb edir.",az,"[{""start"":714,""end"":729,""label"":""TELEPHONENUM"",""text"":""(070) 926-95-19""},{""start"":868,""end"":876,""label"":""CITY"",""text"":""Goranboy""},{""start"":932,""end"":942,""label"":""SURNAME"",""text"":""Nərbalayev""},{""start"":1010,""end"":1022,""label"":""SURNAME"",""text"":""Nərbalayevin""},{""start"":1205,""end"":1209,""label"":""CITY"",""text"":""Şuşa""},{""start"":1268,""end"":1274,""label"":""CITY"",""text"":""Şuşada""},{""start"":1336,""end"":1344,""label"":""CITY"",""text"":""Goranboy""},{""start"":1381,""end"":1391,""label"":""CITY"",""text"":""Goranboyda""}]",runbook,long,formal and businesslike,[],0,0,llm,"{""index"":171,""lang"":""az"",""doc_type"":""runbook"",""doc_type_hint"":""an internal runbook or operations guide"",""register"":""formal and businesslike"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""CITY"",""value"":""Şuşa""},{""label"":""CITY"",""value"":""Goranboy""},{""label"":""TELEPHONENUM"",""value"":""(070) 926-95-19""},{""label"":""SURNAME"",""value"":""Nərbalayev""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a few realistic typos and a self-correction"",""leave one sentence unfinished, as people do when interrupted""],""negative_only"":false,""seed"":2121431502,""edge_case"":null,""reference_year"":2022}",source

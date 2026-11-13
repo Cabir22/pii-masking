@@ -1,0 +1,209 @@
+{
+ "token_vs_key_tr": {
+  "source": "as token_vs_key: A7: token_vs_key recall >= 80%, confusion < 10%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "ACCESS_TOKEN"
+    ],
+    "op": ">=",
+    "value": 0.8
+   },
+   {
+    "metric": "confusion_rate",
+    "from": "ACCESS_TOKEN",
+    "to": [
+     "API_KEY"
+    ],
+    "op": "<",
+    "value": 0.1
+   }
+  ]
+ },
+ "ipv6_vs_mac_tr": {
+  "source": "as ipv6_vs_mac: A7: ipv6_vs_mac recall >= 80%, IPv6->MAC < 5%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "labels": [
+     "IPV6_ADDRESS"
+    ],
+    "op": ">=",
+    "value": 0.8
+   },
+   {
+    "metric": "confusion_rate",
+    "from": "IPV6_ADDRESS",
+    "to": [
+     "MAC_ADDRESS"
+    ],
+    "op": "<",
+    "value": 0.05
+   }
+  ]
+ },
+ "licence_vs_id_tr": {
+  "source": "as licence_vs_id: A7: licence_vs_id confusion < 5%",
+  "conditions": [
+   {
+    "metric": "confusion_rate",
+    "from": "AZ_DRIVER_LICENSE_NUMBER",
+    "to": [
+     "AZ_ID_CARD_NUMBER"
+    ],
+    "op": "<",
+    "value": 0.05
+   },
+   {
+    "metric": "confusion_rate",
+    "from": "AZ_ID_CARD_NUMBER",
+    "to": [
+     "AZ_DRIVER_LICENSE_NUMBER"
+    ],
+    "op": "<",
+    "value": 0.05
+   }
+  ]
+ },
+ "decoy_cvv_tr": {
+  "source": "as decoy_time: A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "decoy_time_tr": {
+  "source": "as decoy_time: A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "decoy_date_tr": {
+  "source": "as decoy_time: A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "decoy_zip_tr": {
+  "source": "as decoy_time: A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "decoy_fin_tr": {
+  "source": "as decoy_time: A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "decoy_ipv4_tr": {
+  "source": "as decoy_time: A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "decoy_card_iccid_iban_tr": {
+  "source": "as decoy_time: A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "decoy_voen_passport_id_tr": {
+  "source": "as decoy_time: A7: one probe per decoy family, trigger < 15% each (< 10% overall)",
+  "conditions": [
+   {
+    "metric": "decoy_trigger_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ },
+ "inflected_names_tr": {
+  "source": "as suffixed_entities: P3-3 (RC8): exact recall >= 85% on every case; overlap recall reported per case",
+  "conditions": [
+   {
+    "metric": "case_exact_recall_min",
+    "op": ">=",
+    "value": 0.85
+   }
+  ]
+ },
+ "line_end_ip_email_tr": {
+  "source": "as line_end_ip_email: D-56a (1): IPv4, IPv6 and email ending a line or sentence without a final period (v4 -> v4.1 note: v4.1 split such IPs, `[219].[83.211.173]`); exact recall >= 80% (team choice, as the other recall families)",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.8
+   }
+  ]
+ },
+ "time_ending_outside_tr": {
+  "source": "D-58 TR: a time followed by an apostrophe ending; the span is the time only; exact recall >= 85%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.85
+   }
+  ]
+ },
+ "weekday_outside_date_tr": {
+  "source": "D-54d TR: a weekday next to a date stays outside DATE; exact recall >= 85%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.85
+   }
+  ]
+ },
+ "dotted_i_caps_tr": {
+  "source": "D-58 TR: names and cities in capitals with İ/ı; exact recall >= 85%",
+  "conditions": [
+   {
+    "metric": "exact_recall",
+    "op": ">=",
+    "value": 0.85
+   }
+  ]
+ },
+ "pii_free_places_tr": {
+  "source": "D-57/D-58 TR: PII-free text dense with place-like words; PII-free FP rate < 15%",
+  "conditions": [
+   {
+    "metric": "pii_free_fp_rate",
+    "op": "<",
+    "value": 0.15
+   }
+  ]
+ }
+}

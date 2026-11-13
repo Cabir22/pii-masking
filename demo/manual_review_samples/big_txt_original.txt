@@ -1,0 +1,3028 @@
+[Document 1 | id=repaired.clean__llm_az_032699__tr | lang=tr]
+Hata Raporu: Kimlik Doğrulama Sürecinde Arıza
+Tarih: 2024 yılı, 15 may
+
+Konu: Kullanıcı bilgilerinin veri tabanına yazılmaması.
+
+Açıklama:
+Sistem kullanıcı kimliğini doğrularken hata veriyor. Özellikle pasaport numarası girildiğinde süreç duruyor ve bilgiler veri tabanına aktarılmıyor.
+
+Bilgiler:
+Kullanıcı e-postası: e.mayisov@azsoft.az
+Pasaport numarası: I38500719
+İletişim e-postası: hamayil.resulbeyov6@turanholding.az
+
+Tekrarlama adımları:
+1. Kişisel hesaba giriş yapın.
+2. "Belgelerin doğrulanması" bölümüne geçin.
+3. Pasaport numarasını girin.
+4. Bilgileri onaylayın.
+
+Beklenen sonuç: Bilgilerin başarıyla kaydedilmesi.
+Gerçekleşen sonuç: Error: Validation failed for field PASSPORT_NUM.
+
+> Re: Hata hakkında başvuru
+> Lütfen, hamayil.resulbeyov6@turanholding.az adresine yeni link gönderin.
+
+----- END OF DOCUMENT -----
+
+[Document 2 | id=repaired.clean__llm_az_106727__en | lang=en]
+This receipt in Shirvan is a complete disgrace! I am dissatisfied due to this incorrect document provided by Iltifatova.
+E-mail: i.qayitmazzade@icloud.com
+
+Product    | Price
+----------|-------
+Service    | 50 AZN
+Total      | 50 AZN
+
+Error: Transaction failed.
+
+----- END OF DOCUMENT -----
+
+[Document 3 | id=repaired.clean__llm_az_039213__tr | lang=tr]
+PR Review: Legacy DB Migration
+Reviewer: Dev_Admin
+
+---
+
+File: `auth_service.py`
+L38: `l0gic` hatası. Soyadı: Keştazlı için giriş başarısız. Düzelt.
+L42: Boş değişken. Sil.
+L45: Mantık zayıf.
+
+File: `geo_mapping.json`
+L112: Şehir: Şirvan için map bulunamadı. Mismatch.
+L115: Key yanlış.
+L119: Yapı bozulmuş.
+
+File: `data_migration.py`
+L204: Tarih: 25/12/1999 formatı yanlış. ISO formatına geç.
+L208: Parser hatası.
+L212: Eski veri ile uyumsuzluk.
+
+File: `security_module.py`
+L14: Bilgi sızıntısı: ****5521. Düzenle.
+L19: Log seviyesini artır.
+L23: Güvenlik açığı.
+
+File: `core_engine.go`
+L85: `c0de` temizlenmelidir. Fonksiyon çok uzun.
+L89: Performans problemi.
+L94: Döngü gereksiz.
+
+File: `db_schema.sql`
+L09: Constraint yanlış.
+L14: Şirvan için yeni sütun gerekiyor.
+L22: Index yok.
+
+File: `integration_tests.py`
+L61: Keştazlı kullanıcısı ile test edilmedi.
+L65: Assertion hatası.
+L70: Mock veri yanlış.
+
+L75: Bitir.
+
+----- END OF DOCUMENT -----
+
+[Document 4 | id=repaired.clean__llm_az_080742 | lang=az]
+[14:20] Admin: Salam, yeni maliyyə məlumatlarını və ödəniş detallarını göndərirəm.
+[14:21] Admin: Fin kodunuz: 6VS8SSR.
+[14:21] Admin: Ödənişi aşağıdakı kart vasitəsilə edə bilərsiniz: 6221333825244259.
+[14:22] Admin: Ünvan bölməsində poçt indeksi AZ4500 olaraq qeyd olunub.
+[14:22] Admin: Hər hansı bir sualınız və ya təsdiq üçün noreply.seidov@optimal.az ünvanına müraciət edə bilərsiniz.
+[14:23] Admin: Sist0m qeydiyyatı artıq tam başa çatıb.
+
+----- END OF DOCUMENT -----
+
+[Document 5 | id=repaired.clean__llm_az_076760__ru | lang=ru]
+[2015-11-10 10:00:05] ERROR: Просрочка платежа.
+ПОСЛЕДНЕЕ ПРЕДУПРЕЖДЕНИЕ! Клиент Шахсийя, ваш долг по подписке в городе Гёйтапа должен быть оплачен немедленно. В противном случае обслуживание будет немедленно прекращено!
+[2015-11-15 14:22:11] ALERT: Запланирована последовательность отключения.
+
+----- END OF DOCUMENT -----
+
+[Document 6 | id=repaired.clean__llm_az_083611__tr | lang=tr]
+[2023-08-10 11:05:22] [INFO] Selam! Sistem hazır ve her şey yolunda gidiyor.
+[2023-08-10 11:07:14] [NET] Bağlantı tespit edildi: fd67:014c:6656:6b43:189c:9b39:1f24:42e9.
+[2023-08-10 11:10:45] [USER] Profili güncelleyen: Ferahimov.
+[2023-08-10 11:12:30] [AUTH] Telefon: 994559693856. Hesap: ****4412.
+[2023-08-10 11:15:01] [DEBUG] Fetching user session data...
+[2023-08-10 11:18:55] [LOG] Nerimanov ile bağlantı kuruldu.
+
+----- END OF DOCUMENT -----
+
+[Document 7 | id=repaired.clean__llm_az_114278__tr | lang=tr]
+[Agent]: Merhaba, müşteri destek hattına hoş geldiniz. Size nasıl yardımcı olabilirim?
+[Müşteri]: Alo... evet... ben... ben çok endişeliyim. Saat 07:27 vaktinde aniden telefonuma bildirim geldi. Ben... ben hiçbir şeyi anlamıyorum.
+[Agent]: Lütfen sakin olun. Ne olduğunu biraz daha ayrıntılı açıklayabilir misiniz?
+[Müşteri]: Ben baktım... mesajda “Şakir Ziyadov Blv.-de” bir işlem yapıldığı yazılmış. Ama ben orada değilim! Hem de pin kodum XPCKX6M olarak görünüyor, ama ben bunu hiç görmemiştim. Her şey – çok tuhaf.
+[Agent]: Bilgileri kontrol ediyorum. Belki giriş yapılan IP adresi ile ilgilidir?
+[Müşteri]: Evet, mesajda 59e7:b8e8:cdf:e1a9:acdc:4e24:13bf:8286 adresi var... ben bu “şifre” veya her neyse, ondan çok korkuyorum. Ben ne yapmalıyım?
+
+----- END OF DOCUMENT -----
+
+[Document 8 | id=repaired.clean__llm_az_071791__tr | lang=tr]
+Müşteri Hesabı ve Şikayet Kaydı
+-----------------------------
+Soyadı: Şıhmemmedzade
+Şehir: Şemkir
+Hesap №: 554921
+
+Bu ayın hesabı tam bir rezalet! Belgenin tarihli: 28 Ağustos 1954 olması ise sizin sisteminizin ne derecede bozuk olduğunu gösteriyor. 2017 yılında böyle bir teknik hata görmek inanılmaz.
+
+Benim hesabıma haksız yere 120 AZN ek tutar tahsil edilmiş. Ben hiçbir ek hizmet kullanmadım. Her seferinde başvuru yaptığımda aynı bahaneleri duyuyorum, ama problem çözülmüyor. Bu haksız tahsilatların derhal iptal edilmesini ve hesabımın düzeltilmesini talep ediyorum.
+
+[2017-05-12 10:05:33] ERROR: Billing mismatch detected.
+[2017-05-12 10:06:12] INFO: Re-calculating invoice...
+
+----- END OF DOCUMENT -----
+
+[Document 9 | id=repaired.clean__llm_az_071997__ru | lang=ru]
+Новый регистрационный документ в системе (2018):
+* Профиль пользователя: назначен для лица в возрасте 33.
+* Платежная карта: 4051 6406 9542 7966.
+* Основная карта: ****7144.
+* Необходимое:
+  * Статус личности
+  * Активация пароля
+
+----- END OF DOCUMENT -----
+
+[Document 10 | id=repaired.clean__llm_az_047929__ru | lang=ru]
+Здравствуйте! Мы рассмотрели ваше обращение, связанное со страховым случаем, и хотим сообщить, что всё в порядке. Не беспокойтесь, мы делаем всё возможное, чтобы ускорить процессы.
+
+Ваше водительское удостоверение ZU629179 официально подтверждено в системе. Начаты финансовые процессы, связанные с предложенным вами номером IBAN AZ19 PULV 0971 3806 6122 7144 1069 для перевода суммы платежа. При проверке банковских данных мы увидели, что ваша карта, заканчивающаяся на ****3538, и данные с кодом безопасности 269 верны.
+
+С технической стороны наш система успешно обработала запрос с ключом rk_D6lmE5HbgLJoXK1XZPD776Nvag8T.
+
+> "Обращение клиента официально принято и поставлено в очередь на выплату."
+
+----- END OF DOCUMENT -----
+
+[Document 11 | id=repaired.clean__llm_az_068720 | lang=az]
+Faruqə Hekayətova
+Yaşayış yeri: Xocalı
+E-poçt: qorqud.sadiqov11@gmail.com
+
+---
+
+PROFESİONAL XÜLASƏ
+İnzibati sahədə təcrübəli əməkdaş. Sənəd dövriyyəsi, arxiv işləri və müştəri məlumat1arın sistemləşdirilməsi üzrə biliklərə malikdir.  İş prosesində dəqiqlik və məsuliyyət ön plandadır.
+
+İŞ TƏCRÜBƏSİ
+İdarəetmə mütəxəssisi (2011-2015)
+- Ofis resurslarının idarə edilməsi.
+- Hesabatların hazırlanması.
+
+TƏHSİL
+Bakı Dövlət Universiteti (2006-2010)
+
+---
+Faruqə Hekayətova
+İdarəetmə Mütəxəssisi
+E-poçt: qorqud.sadiqov11@gmail.com
+Xocalı, Azərbaycan
+
+----- END OF DOCUMENT -----
+
+[Document 12 | id=repaired.clean__llm_az_011916__ru | lang=ru]
+----------
+Пришедшее сообщение:
+Дата: 15.03.2021
+Тема: Re: PR Презентация
+----------
+
+Не понимаю, почему этот PR такой запутанный? Почему фамилия Агасултанов здесь захардкожена? И почему индекс AZ1118 выдает ошибку? Я действительно очень взволнован, всё очень странно. И еще, почему ****9012 не отображается?
+
+С уважением,
+Эльвин Маммедов
+Junior Developer
+
+----- END OF DOCUMENT -----
+
+[Document 13 | id=repaired.clean__llm_az_103744__en | lang=en]
+Application Form: Application for Social Benefit
+Date: 10.06.2018
+
+To the attention of the management,
+
+I am writing this official application to apologize for the delay in the submission of documents. I understand that the technical difficulties regarding the delay of documents have complicated your work process and I sincerely apologize for this matter.
+
+Applicant: Mayrokh.
+Residential address: Nizami street, building 219.
+
+It is important to update some information from Önərbəy's previous applications. I promise that this delay related to my personal situation will not recur. I request that you consider my application and...
+
+----- END OF DOCUMENT -----
+
+[Document 14 | id=repaired.clean__llm_az_017172__en | lang=en]
+Driver's license appl.
+Date: 10/02/1952
+License No: EQ123983
+E-mail: sultantapilanov@box.az
+Application: I am applying to renew the license. I have collected all the documents (documents), but there is a problem that...
+
+----- END OF DOCUMENT -----
+
+[Document 15 | id=repaired.clean__llm_az_112415__en | lang=en]
+[2026-05-10 10:05] [Operator]: Customer service, hello. How can I help you?
+[Customer]: Hello... uh, I want to update my information. I mean, I need to change my address and FIN code.
+[Operator]: Certainly. Please state your name to confirm your identity.
+[Customer]: İncəqız... Ms. İncəqız.
+[Operator]: Yes, Ms. İncəqız. Please confirm the new address.
+[Customer]: Address 132 building, Khatai district.
+[Operator]: Please confirm the FIN code.
+[Customer]: 0KHZSC3.
+[Operator]: Driver's license number?
+[Customer]: CN415250.
+[Operator]: Information has been entered into the system.
+
+----- END OF DOCUMENT -----
+
+[Document 16 | id=repaired.clean__llm_az_032442__ru | lang=ru]
+------------------------------------------------------------
+| Пересланное сообщение от: sales_rep_internal            |
+| Дата: 12.04.2021                                        |
+------------------------------------------------------------
+Процесс оплаты для клиента Юфюг успешно завершен. Карта: 5110-9631-1774-3083. Соответствующие документы были отправлены по адресу support.seyxzamanov@alovenerji.az. Статус: Активен.
+
+----- END OF DOCUMENT -----
+
+[Document 17 | id=repaired.clean__llm_az_003701__en | lang=en]
+Azeri-Communal Services LLC
+Invoice No: 2018/08-44
+Date: 15 August 2018
+
+Customer information:
+Address: Baku city, Nizami st., Building No 210F
+E-mail: isinbeyov.m@box.az
+
+Service details:
+Subscription_Type;Usage_Amount;Total_Amount;2018-Q3;45.50;12.20
+
+Account: 115.00 AZN
+Last payment date: 30 August 2018
+
+Link for digital report: https://app.barama.io/verify/5N8THDOmgj_MlVtABplpQor_wmtZisZOY8URI
+
+System integration key: npm_sbxmCUd8WW83YuehZvb5RUc17xhCGXFVf8Mu
+
+----- END OF DOCUMENT -----
+
+[Document 18 | id=repaired.clean__llm_az_065537__ru | lang=ru]
+Обращение №4492
+Жалоба клиента:
+Я сталкиваюсь с серьезной ошибкой в процессе интеграции системы. Дата рождения, представленная для подтверждения личности: 9 ноября 1998, зарегистрирована в системе. Используемый мною API ключ: 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 . Пожалуйста, примите срочные меры для решения этой проблемы.
+
+Заметки агента:
+Была сообщена системная ошибка в процессе интеграции. В технических логах зафиксирована следующая строка:
+[ERROR] Authentication failed for user_id: 8821
+Запросы, связанные с предоставленным клиентом ключом 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, завершаются. API_KEY должен быть в правильном формате. Для решения проблемы в корне мы...
+
+----- END OF DOCUMENT -----
+
+[Document 19 | id=repaired.clean__llm_az_016289 | lang=az]
+2019-06-15 10:05:22 [INFO] Sistem  başlatıldı.  Autetifikasiya (yox, autentifikasiya) prosesi  başladı.
+2019-06-15 10:05:25 [DEBUG] İstifadəçi müraciəti qəbul edildi.
+2019-06-15 10:05:27 [DEBUG] İstifadəçi: Nərgiz Babayeva
+2019-06-15 10:05:29 [WARN]  Verilənlər  bazası  teqlisi (yox, təqlisi)  aşkar olundu.
+2019-06-15 10:05:32 [ERROR]  Sistemin  məlumat  baza  bağlantısı  kəsildi.
+2019-06-15 10:05:35 [INFO]  Yenidən  qoşulma  cəhdi  başladı...
+2019-06-15 10:05:38 [INFO]  Bağlantı  uğurla  təmin  edildi. Sessiya  ID: 4492-X.
+
+----- END OF DOCUMENT -----
+
+[Document 20 | id=repaired.clean__llm_az_076331__en | lang=en]
+Subject: Regarding technical configuration and payment information
+
+Dear Məmmədarif,
+
+We provide below the instructions regarding the updated technical parameters of the system for the year 2024. Please check all information accurately.
+
+The SSH key required to access the server is as follows:
+
+ssh-rsa AAAAB3NzaC1yc2EBC6wu7xnWv9jANxwjRiMMXpNNkVvn47sCzG8JgefFWKFdFLK0r8HuaqeOmdZe9j/KK0w
+
+Also, the approved bank account information for the completion of the financial integration is below:
+GE34MK0670880759182584
+
+> The server connection problem you noted in our previous correspondence was investigated and resolved by our technical side.
+
+If any difficulty arises during the implementation of these changes, please contact us immediately.
+
+Sincerely,
+Technical Integration Department
+
+----- END OF DOCUMENT -----
+
+[Document 21 | id=repaired.clean__llm_az_059977__tr | lang=tr]
+Selam Düymehanım,
+
+Üzgünüm ki, bu PR'ı incelemeyi biraz geciktirdim. Birkaç acil işle meşgul olduğum için vakit bulamadım.
+
+Kodun bazı kısımlarıyla ilgili birkaç notum var. Özellikle adres validasyonu fonksiyonunda bazı test datalarıyla ilgili problem çıkabilir. Örneğin, test bilgilerinde bina 178 olarak gösterilmiş, lakin mevcut kod bu tip karmaşık formatları doğru işlemiyor. Aynı zamanda, posta kodu AZ2006 ve telefon numarası 994126336892 için yazılmış senaryoları da bir daha gözden geçirmenizi rica ederim.
+
+[2020-04-12 14:22:10] INFO: Review process initiated.
+[2020-04-12 14:25:05] DEBUG: Validating input formats...
+
+Bu düzeltmeleri yaptıktan sonra yeniden gönderebilirseniz, çok sevinirim. Gecikme için tekrar özür dilerim.
+
+----- END OF DOCUMENT -----
+
+[Document 22 | id=repaired.clean__llm_az_068464__ru | lang=ru]
+Здравствуйте, надеюсь, что всё в порядке. Хотя это немного официальное извещение (нет, извещение), я хочу сообщить, что хочу решить вопрос (нет, вопрсо) дружелюбно. В этот период 2026 года оставлять такие маленькие недопонимания неприятно.
+
+В наших некоторых записях, касающихся адреса в городе Физули и здания 57/2, были обнаружены пробелы. Чтобы ускорить решение вопроса, прошу вас сделать следующее:
+
+* Обновление документов.
+* Осуществление просроченного платежа.
+
+Если у вас возникнут какие-либо вопросы, вы всегда можете связаться с нами по номерам (050) 352-37-45 или (012) 799-98-44. Давайте завершим это дело с взаимным уважением.
+
+----- END OF DOCUMENT -----
+
+[Document 23 | id=repaired.clean__llm_az_099856__tr | lang=tr]
+------------------------------------------------------------
+Gönderen: İnsan Kaynakları Bölümü
+Tarih: 15 may 2022
+Konu: Yeni çalışanın işe alımı ve sistem girişleri
+------------------------------------------------------------
+
+Hoş geldiniz! Sizi ekibimizin bir üyesi olarak görmekten çok mutlu oluruz. Sizin işe uyumlaşma sürecinizi mümkün olduğunca rahat ve sorunsuz hale getirmek bizim için en büyük önceliktir.
+
+Kişisel bilgilerinizin onaylanması amacıyla, kimlik kartı AA7651335 numaralı belge sistemde aktifleştirilmiştir. Kehyayeva ait olan tüm giriş izinleri artık hazır durumdadır.
+
+Teknik açıdan, iş portalına giriş için size lazım olacak API anahtarı budur: xapp-1-PLPLBTVUP-j4IgwN4Qe0PVT25vETJ8xso8. Lütfen, bu anahtarı güvenli bir yerde saklayın.
+
+Herhangi bir sorunuz veya desteğe ihtiyacınız olursa, bize başvurmaktan çekinmeyin. Başarılı işler dileriz!
+
+----- END OF DOCUMENT -----
+
+[Document 24 | id=repaired.clean__llm_az_038239__en | lang=en]
+What is this?! Why did this receipt come to me? Khavarkhanim, what happened to you? How can such a payment occur in Baku (Fuzuli) city? Also, what does the 14/01/1973 date mean? I was a child at that time!
+
+[SYSTEM RECEIPT - 2024]
+Customer: Khavarkhanim
+City: Fuzuli
+Document (my document) No: UD969061
+Card: ****3538
+
+--------------------------------------
+Service            | Amount
+------------------|----------
+Driver ID          | 12.00 AZN
+System Entry       | 5.50 AZN
+--------------------------------------
+
+What will come out of this link (from this link)? https://share.zirve.az/reset?token=QUtAAFvoirbHM6iSQ0eNw4-w1n5sEQ8r2fbY
+I am very afraid, why is this information messy?!
+
+----- END OF DOCUMENT -----
+
+[Document 25 | id=repaired.clean__llm_az_106240__tr | lang=tr]
+2020 yılının satış kayıtları.
+
+Bugün Hasbulat Arişhanli ile görüştüm. Hanım çok pozitiftir, lakin tekliflerimize biraz ihtiyatla yaklaşıyor. Höccetova'nın (hayır, Arişhanli'nın) adresi bina 100 olarak kaydedilmiş. Satış potansiyeli yeterince yüksektir.
+
+Syncing contact details...
+
+Giyaseddinova'nın siparişini de kontrol ettim. O, esasen bina 72 bölgesindeki müşterilerle ilgileniyor.
+
+Müşteri_Adı;Durum;Tutar;Tarih
+ANAID_H;AKTİF;1200;2020-05-12
+
+Genel durum iyidir, sadece biraz daha fazla iş yapmalıyız.
+
+----- END OF DOCUMENT -----
+
+[Document 26 | id=repaired.clean__llm_az_069703__en | lang=en]
+State Application Form (2015)
+-----------------------------
+Surname      : Hikmətxanova
+Phone    : 012 709 39 53
+IBAN       : AZ02 ILST 8950 5160 6225 1293 1651
+-----------------------------
+Application status: submitted
+
+----- END OF DOCUMENT -----
+
+[Document 27 | id=repaired.clean__llm_az_076927__en | lang=en]
+Subject: Official notice regarding service request
+
+Dear customer,
+
+Your request regarding the services provided in the Mingachevir area on May 12, 2016, has been officially investigated. During technical analyses conducted in our internal systems, the following log line was discovered:
+Connection error detected.
+
+The causes of the technical malfunction that occurred via the identified 17.209.235.55 IP address are being checked based on the relevant management protocols. In order to prepare the relevant documents and finalize the investigation, to provide you with more detailed information...
+
+Respectfully,
+
+Enterprise Management Department
+Official Customer Service Department
+Baku city, Azerbaijan
+
+----- END OF DOCUMENT -----
+
+[Document 28 | id=repaired.clean__llm_az_102728__tr | lang=tr]
+Mahkeme Notları (Dosya No 2022-X-045)
+
+Bugün mahkeme (hayır, mahkeme) belgelerini düzenlerken biraz ilginç bir durumla karşılaştım. Dijital kanıtlar o kadar çok ki, insan kendini bir anlığına programcı gibi hissediyor!
+
+Meseleye (hayır, meseleye) bakıldığında görüyoruz ki, temel teknik kanıtlar şunlardır:
+- Cihazın MAC adresi: 8C:85:90:22:18:63
+- SIM kartın ICCID kodu: 89994682970956993254
+
+Doğrusunu söylemek gerekirse, bu rakamların arasında kaybolmamak için bana biraz daha fazla kahve lazım. Ama sonuç itibarıyla, kanıtlar oldukça açık görünüyor.
+
+----- END OF DOCUMENT -----
+
+[Document 29 | id=repaired.clean__llm_az_028633__en | lang=en]
+Official Application Form for State Services
+Document No: 2025/AF-089
+Date: 10 April 2025
+
+Applicant Information:
+Surname: Yaghubjanov
+Postal code: AZ1034
+
+Financial and Tax Identification:
+Fin code: HAZPM0R
+
+Line copied from the internal system database:
+Application_ID;Status;Date;Amount;8821;Completed;2025-03-10;500.00
+
+The application process is being continued in an official manner. All documents have passed technical inspection and have been confirmed in the system. The accuracy of the information provided by the applicant has been verified.
+
+> Official response of the Administration: The application has been registered and added to the queue.
+
+----- END OF DOCUMENT -----
+
+[Document 30 | id=repaired.clean__llm_az_024581__tr | lang=tr]
+2025 yılında işlenmiş mali suçuna ilişkin resmi protokoldur. Şüpheli kişi hakkında bilgiler:
+
+Parametre      | Detaylar
+--------------|----—-------–-----–-—----
+Yaş          | 94
+E-posta        | heyranbeyim.elibutayev@azsoft.az
+Kart numarası  | 4159 9378 4402 0762
+
+Temel deliller:
+* E-posta yazışmaları
+* Bank işlemleri
+
+----- END OF DOCUMENT -----
+
+[Document 31 | id=repaired.clean__llm_az_057980__tr | lang=tr]
+No 4492
+Tarih: 12.05.2025
+
+Müşteri:
+Soyadı: Ocagova
+Doğum tarihi: 1973-03-15
+Yaşı: 45
+E-mail: ebdelhuseyn8472@icloud.com
+
+Açıklama:
+Kullanıcı portal girişinde zorluk yaşıyor. Sunulan bağlantı çalışmıyor: https://account.alovenerji.az/callback?signature=4NnlL-J5m8QTAHNZ6BrnDUn6N8HZeJ9cjalpHfd. Sayfa yüklenmiyor.
+
+Ajan:
+Sistemi kontrol et. Kullanıcı bilgileri ve profil dahildir. Bağlantının süresi dolmuş. Yeni token oluşturuldu ve gönderildi. Problemin çözümü için ek adım yoktur.
+
+----- END OF DOCUMENT -----
+
+[Document 32 | id=repaired.clean__llm_az_104138__en | lang=en]
+This document records the cooperation of Shahlig. Working with you is a great pleasure for us. Your contact number is recorded as (012) 234-69-29. Your code appears as ****2020.
+[2020-03-15 12:00:00] LOG: Clause initialized.
+
+----- END OF DOCUMENT -----
+
+[Document 33 | id=repaired.clean__llm_az_084689__tr | lang=tr]
+------------------------------------------------------------
+| İletilen mesaj: Support_Bot_2020                 |
+| Tarih: 10.03.2020                                         |
+| Konu: Sohbet Kaydı Başlatma                              |
+------------------------------------------------------------
+
+Temsilci: Sayın müşteri, resmi destek kanalına hoş geldiniz. Başvurunuzu kaydetmek için kimlik ve ikamet bilgilerinizi sunmanızı rica ederiz.
+
+Müşteri: Merhaba, bilgilerimi güncellemek istiyorum.
+
+Temsilci: Lütfen aşağıdaki bilgileri sunun: Şehir, posta kodu ve iletişim numarası.
+
+Müşteri: Şehir Yevlah, posta kodu AZ1050, telefon numaram (077) 645-90-33.
+
+Temsilci: Bilgiler sisteme girildi. Şehir Yevlah, posta kodu AZ1050 olarak kaydedildi. İletişim numaranız (077) 645-90-33 olarak onaylandı. Bilgilerin güncellenmesi süreci kurumun iç yönetmeliklerine uygun olarak gerçekleştirilir.
+
+System status: processing request...
+
+Temsilci: Süreç tamamlanmak üzere. Lütfen bekleyin.
+
+----- END OF DOCUMENT -----
+
+[Document 34 | id=repaired.clean__llm_az_083210__en | lang=en]
+Hello, I am writing to the address behice.memmedbagirli34@azsoft.az.
+
+There is a problem with your documents coming from Saatli city. The copy of the document with Passport No: K67335090 is incomplete. Please access the following link and confirm: https://login.azsoft.az/unsubscribe/GV_mGHoh7oGoXES9Ujo7PHpyC_eviW3JottwLX4jH-V27Z.
+
+If you have any questions, you can call at the number +994-55-629-40-46. Your "information" has not been fully confirmed yet – but it would be good if you resolve it quickly.
+
+Thank you.
+
+----- END OF DOCUMENT -----
+
+[Document 35 | id=repaired.clean__llm_az_003409 | lang=az]
+Neyi anlamiram, bilmirem. Oqtay deyir ki, 26.09.1990 tarixi səhvdir. Laçın da çox narahatdır, her şey qarısib gedir ve men...
+
+> Oqtay: Tarixi bir daha yoxla, zəhmət olmasa, hər şey çox qarışıqdır.
+
+----- END OF DOCUMENT -----
+
+[Document 36 | id=repaired.clean__llm_az_102391__ru | lang=ru]
+Уважаемый господин Самурат,
+
+Надеемся, что у Вас всё хорошо. Мы хотели бы проконсультировать Вас относительно некоторых финансовых вопросе (нет, вопросы) изменений, касающихся Вас и госпожи Афтаб (то есть Вашей семьи). Поскольку Самурат счет имеет возраст 47, мы хотим, чтобы Вы воспользовались специальной программой, которую предлагает наш банк (нет, предложения).
+
+Ваш финансовый код: TZQNDAL.
+
+ID_Счета;Сущность;Баланс;Статус
+2024_01;Самурат;5420.50;Активный
+
+Сегодня в 05:37 в нашей системе произошло обновление. Это просто техническое обновление (нет, может быть, в любом случае ошибка).
+
+Если у Вас возникнут вопросы, мы всегда на связи.
+
+С уважением,
+Ваш Банк
+
+----- END OF DOCUMENT -----
+
+[Document 37 | id=repaired.clean__llm_az_115167__tr | lang=tr]
+From: fexreli_semedxanov@icloud.com
+To: Ağabeylı bey
+Date: 12.05.2023
+Subject: Re: Belge üzerine onay
+
+Sayın Ağabeylı bey,
+
+Ağazaman tarafından sunulan belgeler resmi olarak incelenmiştir. Belgedeki doğum tarihi 13 Şubat 2010 olarak kaydedilmiş ve bu bilginin doğruluğu onaylanmıştır.
+
+System log: Task synchronized.
+
+> From: Veliyulla bey
+> To: fexreli_semedxanov@icloud.com
+> Date: 10.05.2023
+> Subject: Belge üzerine onay
+>
+> Selam Ayzer bey,
+> Lütfen belgeleri inceleyip bilgi veriniz.
+
+----- END OF DOCUMENT -----
+
+[Document 38 | id=repaired.clean__llm_az_048130 | lang=az]
+Dəyişikliklərdə ciddi xətalar var. Konfiqurasiyada 26.10.2006 tarixi qalıb.
+> Niyə bunu düzəltməmisiniz?
+Həmçinin, ACnloyncKrcL_nmIelACqQnlSAwwdaQqoV6I.UsxcsIjkemOo9VzG8GtIcnC9GwC440v3J977zI1dwJdARyuhZrUwoF3LrZmU9AboHO-AOVbg_h9RbvQe_7A2R0o9y3C5_L7rJ7k14XIOlRz3uRcSH9x7EeVKQWMscECcbRvmsYddRK1N-ckjB_PXqlwror.Z6cI4FPKw_KQGb2X0UoMZRy30uLyISVKyUa5XkRkDzb token-in kodda olması qəbul edilə bilməz.
+
+Hörmətlə,
+Azər Məmmədov
+
+----- END OF DOCUMENT -----
+
+[Document 39 | id=repaired.clean__llm_az_069328__ru | lang=ru]
+Обращение № 2021-08-44
+Жалоба клиента: Несоответствие в финансовом коде.
+* Эл. почта: fexrinise-beybalayev@zirve.az
+* Связь: +994 12 326 96 62
+* Фин. код: PS3RDC4
+
+Заметка агента:
+Код PS3RDC4, который клиент называет «ошибочным», существует в официальной регистрации – однако требуется дополнительное исследование.
+
+----- END OF DOCUMENT -----
+
+[Document 40 | id=repaired.clean__llm_az_025135 | lang=az]
+[2022-05-10 09:00:12] [INFO] Server işə düşdü. L0g faylları yaradılır.
+[2022-05-10 09:05:44] [USER_AUTH] Yeni giriş təsdiqləndi. E-mail: quliyev.f@outlook.com. Şəhər: Salyan.
+[2022-05-10 09:10:22] [DATA_IMPORT] Spreadsheet sətiri: ÜLKR;MƏBLƏĞ;VƏXT;STATUS; 2022;150;10:30;OK
+[2022-05-10 09:15:00] [DEBUG] API açarı yoxlanılır: gho_YNL189KXmoCkSR66E6FlndKvoyH2SOr4ZNoL. Ay, bu açar bir az həddindən artıq uzun deyil? Heç olmasa bir az qısaltın, ədəbiyyat oxumağa vaxtımız qalmayacaq! 😂
+[2022-05-10 09:20:05] [CHAT_LOG] > Müştəri: Sistem niyə bu qədər sürətlidir?
+[2022-05-10 09:21:00] [INFO] Cavab: Çünki serverlərimiz çox güclü kofe içir! ☕
+[2022-05-10 09:25:00] [INFO] Sessiya uğurla tamamlandı.
+
+----- END OF DOCUMENT -----
+
+[Document 41 | id=repaired.clean__llm_az_002221__en | lang=en]
+Dear Bank Management,
+
+The level of service provided by your bank during these days of 2017 completely disappoints me. I, Akbarov, have already been struggling for weeks to resolve the error that has arisen with my account. As a customer living at 67 address in Goytapa city, despite my appeal to your branch, I cannot obtain any result.
+
+No calls are made to the 994992445011 number I provided to contact me, and furthermore, all electronic letters I sent to the simnitac1448@icloud.com address remain unanswered. This indifference of yours and this rudeness you show to customers...
+
+The "official" response you sent previously was completely meaningless:
+> "Your appeal has been registered, but time is required for investigation by the relevant department."
+
+When will this "time" end? I am already losing my patience!
+
+----- END OF DOCUMENT -----
+
+[Document 42 | id=repaired.clean__llm_az_052417__ru | lang=ru]
+[2026-03-12 14:22:01] [INFO] Пользовательская сессия начата.
+[2026-03-12 14:22:05] [AUTH] Попытка аутентификации пользователя: Джумали.
+[2026-03-12 14:22:10] [WARN] Обнаружен неверный ключ входа. Пожалуйста, используйте правильные данные.
+[2026-03-12 14:22:15] [DEBUG] Предоставленный токен: “4leecD9LoGkrcBMxNyNUCKfdX9JQFWGLOVUM.3NJULwMktA9xRb3vw4F0GZCXfl5G-rH_Iw10NWczZwyCqGs-6j87Dm9zIAsJvLPFJxpjLZOTWUnitjmGH7HeseKs1-PFeoUXd8iph1As2LABHDOP95U6oskDajm7bBhRAEkdeyohgWByIRJEwXBPdg3hTn8s.e1uoriEQdiK5ueSxugkMBkFOKXc0ZK6lLPaySmmKYl8”
+[2026-03-12 14:22:20] [INFO] Протоколы безопасности применены – вход отклонен.
+[2026-03-12 14:22:30] [DATA] Номер телефона для подтверждения: +994-55-598-95-18.
+[2026-03-12 14:22:35] [IMPORT] ID;Имя_Фамилия;Должность;Статус;Последний_Вход; Джумали;Админ;Активен;2026-03-11
+
+----- END OF DOCUMENT -----
+
+[Document 43 | id=repaired.clean__llm_az_118125__tr | lang=tr]
+Müşteri: Selam, b.qaraxanov@bakutech.az adresine belgeleri çoktan göndermişim.
+Agent: Selam, Güdsiye hanım. Belgeler henüz sistemde görünmüyor. Şirket kurallarına göre, başvuru sadece resmi portal aracılığıyla yapılmalıdır. Lütfen, talimatlara uyun. Sohbet l0:15'te bitti.
+
+----- END OF DOCUMENT -----
+
+[Document 44 | id=repaired.clean__llm_az_077415__tr | lang=tr]
+Taşıt Teknik Servis Raporu
+Tarih: 12.08.2020
+
+Aracın teknik durumu ve kayıt bilgileri:
+
+Tür: Otomobil
+Model: l001
+Sahibi: Abuzərov
+İletişim: 012 110 95-35
+E-posta: mehranse.calanov@kaspitrade.az
+Adres: Bakü şehri, Nizami caddesi, bina 18
+
+Teknik işlerin icrası:
+- Motor yağının değiştirilmesi
+- Lastiklerin teknik durumu
+- Fren sisteminin diyagnostiği
+
+Vehicle status: COMPLETED
+
+Onay için link:
+https://link.turanholding.az/activate?auth=-OmyntgHSlvuYCNBxjtMZRnVgybbLcyMqv
+
+----- END OF DOCUMENT -----
+
+[Document 45 | id=repaired.clean__llm_az_025224__ru | lang=ru]
+[2021-05-12 09:00:15] [INFO] Добавлена новая запись о производительности.
+Рзаджан Джазимов является очень ценным членом нашей команды. Высокие результаты, которые он показывает, нас очень радуют. Для связи вы можете использовать номер +994-24-680-88-29.
+[2021-05-12 09:02:40] [INFO] Запись архивирована.
+
+----- END OF DOCUMENT -----
+
+[Document 46 | id=repaired.clean__llm_az_087085__en | lang=en]
+------------------------------------------------------------
+| Sender: texniki_destek@sistem.az                      |
+| Date: 15.09.2017                                       |
+| Subject: Critical Error Notification                            |
+------------------------------------------------------------
+
+Dear team,
+
+We want to share with you the critical error encountered in the system. We understand this inconvenience experienced by users and are working to fix the situation quickly. Logs show that serious system errors occur during some operations.
+
+Steps to reproduce the error:
+1. Log in to the regional server located in the city of Khirdalan.
+2. Enter the following key via the security module:
+-----BEGIN PRIVATE KEY-----
+lp3IGAzGoS5wmzpUkovQH2Sl9FQHZQcC3zJ5VuB82WkWA+KO78BhchahBZcCbYEC
+53GVuHcKjkhVzSROHVvXHf2qGxnLkQ0rZluH/UFoLFMsxYU7xr/UV3tjxwbzgtEr
+-----END PRIVATE KEY-----
+3. The system stops immediately.
+
+To fully resolve the issue, we...
+
+----- END OF DOCUMENT -----
+
+[Document 47 | id=repaired.clean__llm_az_108636__ru | lang=ru]
+[2021-06-10 10:15:22] LOG: Исходящая почта обработана.
+[2021-06-10 10:15:25] LOG: Получатель sales.heybetov@alovenerji.az подтвержден.
+
+Привет, Бейдадас,
+
+Как ты? Надеюсь, что всё в порядке. Ты же проверишь документы, которые я тебе отправила, верно? Напишу тебе адрес еще раз, чтобы не было никаких проблем: AZ2303. Те ценные документы нужны срочно.
+
+Поговорим при встрече, с любовью!
+
+Лейла
+
+---
+
+> Привет, Лейла,
+
+> Документы не задержутся, я за всем слежу. Как Бейдадас Гуджуев, я позабочусь о том, чтобы всё было в порядке.
+
+----- END OF DOCUMENT -----
+
+[Document 48 | id=repaired.clean__llm_az_110807__tr | lang=tr]
+Tarih: 10 nisan 2026.
+Gündem: Yeni müşteri ve bilgilerin tespiti.
+Fin kodu CFXQLEV olan müşteri ile anlaştık. Adres ise 109 bina tarafıdır.
+İletişim için (024) 856-18-78 numarasından faydalanabilirsiniz.
+Not: Sohbet sırasında kahvenin tadı biraz kötüydü, ama konu ilginç geçti.
+Sonunda ise...
+
+----- END OF DOCUMENT -----
+
+[Document 49 | id=repaired.clean__llm_az_059224 | lang=az]
+[Resmi Bildiriş - 2024]
+
+Azərbaycan Kommunal Xidmətlər İdarəsinin resmi hesabı tərəfindən verilən cavab:
+
+Hörmətli istifadəçi, müraciətinizə esasən aşağıdakı melumatlar tesdiq edilmişdir:
+
+Parametr      | Melumat
+-------------|-------------------
+Ad           | Tarifə
+Unvan        | bina 81
+Poçt kodu    | AZ1136
+Telefon      | 077 502 39-49
+
+Müraciət edən şəxs (Tarifə) ünvan (bina 81) və poçt kodu (AZ1136) barədə sual vermisdir. Melumatların doğruluğu üçün 077 502 39-49 nömrəsi ilə əlaqə saxlanılması tövsiyə olunur. Bu, resmi prosedur hesab olunur.
+
+----- END OF DOCUMENT -----
+
+[Document 50 | id=repaired.clean__llm_az_065537__tr | lang=tr]
+Başvuru №4492
+Müşteri Şikayeti:
+Sistemin entegrasyon sürecinde ciddi bir hata ile karşılaşıyorum. Kimlik doğrulaması için sunulan doğum tarihi: 8 Oca 2003 bilgisi sistemde kayıtlıdır. Kullandığım API anahtarı: ghp_XbF7CTBprbYKTrk2zJ4TxkjR3Gjf9eaVLOCQ . Lütfen bu problemin çözümü için acil adım atın.
+
+Ajan Notları:
+Entegrasyon sürecinde sistem hatası bildirildi. Teknik loglarda aşağıdaki satır kaydedildi:
+[ERROR] Authentication failed for user_id: 8821
+Müşterinin sunduğu ghp_XbF7CTBprbYKTrk2zJ4TxkjR3Gjf9eaVLOCQ anahtarı ile ilgili sorgular sonuçlandırılıyor. API_KEY doğru formatta olmalıdır. Meselenin kökten çözümü için biz...
+
+----- END OF DOCUMENT -----
+
+[Document 51 | id=repaired.clean__llm_az_072146 | lang=az]
+[10:15] Can: Salam, sənə sürücülük vəsiqəsinin nömrəsini göndərirəm: SI613192.
+[10:16] Leyla: Çox sağ ol, canım! Bəs haradasan?
+[10:17] Can: İlyas Tapdıq küçəsi – elə o tərəfdəyəm, tezliklə çatacam.
+[10:18] Leyla: “Yaxşı”, gözləyirəm səni.
+
+----- END OF DOCUMENT -----
+
+[Document 52 | id=repaired.clean__llm_az_003381__en | lang=en]
+System error (no, system error) if it occurs, contact Khosrovova immediately. Mail: firuzenarsudli@araz-mebel.az. The last 4 digits of the code are ****1234.
+> Answer: Problem solved, system is working.
+
+----- END OF DOCUMENT -----
+
+[Document 53 | id=repaired.clean__llm_az_086518__ru | lang=ru]
+ВЫПИСКА ИЗ ДОГОВОРА АРЕНДЫ
+Дата: 12 мая 2018 г.
+
+Как указано в первом разделе договора, арендатором подтверждается Наджаф. Для отправки всех официальных уведомлений, платежных документов и другой юридической информации, относящейся к договору, должен использоваться следующий адрес электронной почты: mahilsirullayev@yandex.ru. Обращения, поступающие по этому адресу, имеют официальную юридическую силу между сторонами.
+
+Статья 4.7. Уведомления, направляемые сторонам о случаях окончания срока аренды или досрочного расторжения договора...
+
+----- END OF DOCUMENT -----
+
+[Document 54 | id=repaired.clean__llm_az_044163__ru | lang=ru]
+Этот PR вы должны немедленно остановить! Эта версия написанного кода полна очень серьезных уязвимостей безопасности и должна быть немедленно исправлена.
+
+В процессе обработки данных есть серьезные ошибки. Например, система зависает или возвращает неверный ответ при обработке запросов, поступающих из города Гёйтапа. Также была обнаружена проблема неправильного формата хранения данных в разделе профилей пользователей. Среди тестовых данных значение возраста 95, указанное для пользователя по имени Фарабану, нарушает правила валидации возраста в системе.
+
+CRITICAL: Unauthorized access attempt detected.
+
+Выпуск кода такого уровня в production-среду абсолютно невозможен и создает огромный риск. Если эти проблемы не будут немедленно устранены, я сообщу руководству о...
+
+----- END OF DOCUMENT -----
+
+[Document 55 | id=repaired.clean__llm_az_043686 | lang=az]
+Salam dostlar! Sizi narahat etmək istəmirdim, amma kiçik bir xeta tapdim, baxaq zermet olarsa? :)
+
+Addimlar:
+* 099 294 19 21 nomresi ile giriş edin.
+* 5563 7679 8842 2004 kartini secin.
+* Sistem 1950-09-30 tarixini sehv yazir.
+
+Sizlere kolay gelsin!
+
+----- END OF DOCUMENT -----
+
+[Document 56 | id=repaired.clean__llm_az_023728__ru | lang=ru]
+Контактная информация:
+Город: Ширван
+Телефон: 055 285 10-99
+Место;Город;Регион;Сфера
+Для вопросов, касающихся дополнительной информации и опыта работы, можно обратиться по вышеуказанным контактным данным.
+
+----- END OF DOCUMENT -----
+
+[Document 57 | id=repaired.clean__llm_az_031792__en | lang=en]
+Customer name: Nuhin
+E-mail: nurdan_temirxanov@mail.ru
+Time: 2:42 AM
+
+A brief discussion was held with the customer regarding the details of a new project. The customer is complaining about the API key (xoxb-857054993181-363994545027-VwPyvOMWrEVeiThIHfHc4AKE) not working within the system.
+
+> Nuhin: "When the system key does not work, the entire process stops."
+
+Additional information is expected from the customer. The technical department must be contacted to continue the process. The customer's requirements comply with the 2016 plan.
+
+----- END OF DOCUMENT -----
+
+[Document 58 | id=repaired.clean__llm_az_028629__en | lang=en]
+Applicant: Marabəyov
+Location: Shahbuz
+Date: 12 May 2026
+
+It has already been three weeks that I cannot get any information regarding my credit application. The employees at your Shahbuz branch dismiss me from the beginning every single time. Application number: l001. This is a very unprofessional (no, not professional) approach. Actually, this is complete disgrace. If this matter is not resolved today (no, not tomorrow, today!), I will take all legal steps. Working with your bank (with your bank) is no longer possible! I expect an immediate response!
+
+----- END OF DOCUMENT -----
+
+[Document 59 | id=repaired.clean__llm_az_068281__ru | lang=ru]
+Приносим извинения, произошла техническая ошибка при регистрации автомобиля на имя Ёнай. Пожалуйста, перейдите по этой ссылке, чтобы обновить статус: https://dashboard.zirve.az/reset?session_id=sN9gLMOIBviDw8_6ftcVTmI02w1cgIh8z9.
+
+| Параметр | Значение |
+| :--- | :--- |
+| Водитель | Ёнай |
+| Mode1 | Lada |
+
+С уважением,
+Команда Авто-Сервиса
+
+----- END OF DOCUMENT -----
+
+[Document 60 | id=repaired.clean__llm_az_050932__tr | lang=tr]
+Selam çocuklar! Biraz garip bir problem buldum. Kerimkanov (hayır, Bersailova) adlı kullanıcı Laçın şehrinden boyukaga.ocaqaliyev95@sirket.az ile giriş yapmak istediğinde sistem hata (hayır, problem) veriyor.
+Adımlar:
+1. Giriş sayfasına gir.
+2. Bilgileri yaz.
+3. Hata mesajı çıkıyor.
+
+----- END OF DOCUMENT -----
+
+[Document 61 | id=repaired.clean__llm_az_063859__tr | lang=tr]
+[2023-10-05 14:30] Agent: Merhaba, destek merkezi. Nasıl yardımcı olabiliriz?
+[2023-10-05 14:30] Müşteri: M-merhaba... ah, çok sinirliyim! Kartım çalındı! Çabuk olun, gecikmeyin, benimle şaka yapmayın!
+[2023-10-05 14:31] Agent: Anlıyorum, özür dilerim. Kimliği doğrulamak için lütfen iletişim numaranızı ve yaşınızı söyler misiniz.
+[2023-10-05 14:31] Müşteri: Numaram +994 99 111 21 57. 61 yaşındayım ve bu durum çok tehlikeli! Kartımdaki tüm para bitmiş! Çabuk olun!
+[2023-10-05 14:31] Agent: Lütfen aşağıdaki işlem listesinden birini seçin:
+* Kartın bloke edilmesi
+* Hesabın kontrolü
+* Yeni kart siparişi
+[2023-10-05 14:32] Müşteri: Kartın bloke edilmesi gerekiyor! Çabuk olun, diyorum, diyorum! Benimle oyun mu oynuyorsunuz?!
+[2023-10-05 14:32] Call disconnected.
+
+----- END OF DOCUMENT -----
+
+[Document 62 | id=repaired.clean__llm_az_024245 | lang=az]
+Salam komanda! Bu səhife yeni emekdaşlar üçün yaradılıb. Bizim isimiz çox vacibdir və her bir detalin onemi var. Yeni gelen dostlarimiza kömek etmek üçün beze nümunə melumatlari burada topladi yerlesdirmişem.
+
+Aşağıdakı cedvelde beze keçmis müraciletleri ve texniki detallari gore bilersiniz:
+
+Ad         | Seher | Bina | Telefon      | Yenileme Linki
+-----------|-------|------|--------------|--------------------------------------------------------------------------------------
+Rövşən     | Gəncə | 204  | 018-200-27-89| https://account.kaspitrade.az/reset?uid=380341&token=nKyfT9AM2EFOsz6XLHbS9EKjv
+
+Ümid edirem bu melumatlar isinizi asanlaşdırar. Her hansı bir cetinlik yaranarsa, mütləq bildirin.
+
+----- END OF DOCUMENT -----
+
+[Document 63 | id=repaired.clean__llm_az_083165__ru | lang=ru]
+[2026-03-15 10:12:44] INFO: Доступ к архиву студентов...
+[2026-03-15 10:12:46] ERROR: Обнаружено несоответствие данных в записи #882.
+
+Я хочу еще раз выразить свое недовольство административной работой школы. Процесс оформления документов, связанный с учеником Гамза Матиев, — это полный кошмар. Данные в системе отображаются некорректно, и мы каждый раз сталкиваемся с одной и той же проблемой.
+
+Гамза Матиев;2026-03-15;Задержка;Финансовая_Ошибка
+
+Основные проблемы следующие:
+* Контактный адрес эл. почты (cemesov.e@bakutech.az) никогда не обрабатывается.
+* Когда звонят по номеру телефона (+994775053190), никто не отвечает.
+* Академические показатели ученика в системе неверны.
+
+Этот хаос уже невыносим!
+
+----- END OF DOCUMENT -----
+
+[Document 64 | id=repaired.clean__llm_az_096827__en | lang=en]
+[2025-03-12 10:05:01] [CRITICAL] Onboarding failure: incomplete data.
+[2025-03-12 10:15:45] [ERROR] Missing documents for user.
+Ballikhanim registration process must be resolved immediately! The documents for this new employee, who is 8 years old, are still not visible in the system. This delay is unacceptable and must be reported to management immediately.
+
+----- END OF DOCUMENT -----
+
+[Document 65 | id=repaired.clean__llm_az_092097__ru | lang=ru]
+СРОЧНАЯ ИНФОРМАЦИЯ:
+| ПАРАМЕТР | ПОКАЗАТЕЛЬ |
+| :--- | :--- |
+| Город | Агджабеди |
+| Дата рождения | 26.01.1980 |
+| Статус | КРИТИЧЕСКИЙ |
+
+Состояние пациента стремительно ухудшается! Требуется немедленное вмешательство медицинского персонала по Агджабеди. Состояние критическое!
+
+----- END OF DOCUMENT -----
+
+[Document 66 | id=repaired.clean__llm_az_002873__en | lang=en]
+What is this account? According to the old contract dated Tuesday, January 2, 1945, this amount is impossible! How can the tariff be so high for my 11-year-old father? Account № ****4567 is completely wrong!
+[2019-06-12 09:15] Error: Billing discrepancy detected.
+
+----- END OF DOCUMENT -----
+
+[Document 67 | id=repaired.clean__llm_az_047180__en | lang=en]
+# Sorry, the configuration is old.
+# We apologize for the System error.
+
+address=  Sarkarbaghi St.
+token = KJrOh6VeIDCDKweIljLHGvR8H6euO6pFLU1b.-onKQVq_rmIbjHFfCoxPaeMJNS_3S7RxplTsmVNtUMHeAXERs8KwEp9RFSSA2coTvCTE7vF0hFYb6V1vSUiWUbC8OhXECw_8EfUHqlHlcDZ5XpuntadhsGypnp.yvuoXS6BsjV4AdLkwzYw97F2qqdUGpdNlolCqLlb2Xc
+date = November 11, 1996
+
+# Errors:
+* wrong size
+* administration error
+
+----- END OF DOCUMENT -----
+
+[Document 68 | id=repaired.clean__llm_az_081470 | lang=az]
+[KLİNİK QEYD - 2023]
+[ID: O8821]
+
+PASİENT:
+Ad: Rufət
+Soyad: Dunayov
+Eleke: +994 50 521 38 24
+
+MUAYINE:
+Tarix: 19.06.2023
+Saat: 14:45
+
+ANAMNEZ:
+Pasient son 2 həftədə artan halsızlıq və baş ağrısı şikayeti ilə müraciət etdi. Yuxu rejimi pozulub. Stress faktorlari yüksəkdir. Xroniki xestelik yoxdur.
+
+KLİNİK VƏZİYYƏT:
+- Arterial təzyiq: 150/95 mmHg.
+- Nəbz: 82 v/dəq.
+- Ürək: Ritmi stabil.
+- Ağciyər: Səslər təmizdir.
+
+LABORATORIYA:
+| Göstərici | Dəyər |
+| :--- | :--- |
+| Qlükoza | 5.2 mmol/L |
+| Kreatinin | 0.9 mg/dL |
+| ALT | 28 U/L |
+| AST | 25 U/L |
+
+SİSTEM LOGLARI (Telemedisin daxili):
+[INFO] Data packet received from 192.0.2.67
+[INFO] Connection status: lntializing...
+[INFO] Session_ID: O2291
+
+DIAQNOSTİK RƏY:
+Yüksək arterial təzyiq. Stresslə bağlı xəstəlik ehtimalı.
+
+TƏLİMATLAR:
+- Duza qarşı diqqətli olunmalıdır.
+- Dərman qəbulu: Səhər 08:00, axşam 20:00.
+- Növbəti muayine 1 ay sonra.
+
+Tövsiyə olunan əlavə testlər:
+- EKG (Elektrokardioqram).
+- Holter monitorinqi.
+
+Müalicə planı təyin edildi. Dərman dozası artırılmalıdır, lakin...
+
+----- END OF DOCUMENT -----
+
+[Document 69 | id=repaired.clean__llm_az_081727__ru | lang=ru]
+[2016-03-20 09:45:12] [SYSTEM]: Сессия живого чата началась.
+
+Агент: Здравствуйте, добро пожаловать в официальную службу поддержки клиентов. Для подтверждения вашей личности, пожалуйста, введите следующие данные:
+* Ваше имя
+* Город проживания
+* Ваш контактный номер
+
+Клиент: Здравствуйте. Мое имя Гуламмирза. Я живу в городе Шеки. Мой номер телефона 050 926 20 25.
+
+Агент: Данные получены. Возраст клиента 20, имя Гуламмирза и город Шеки зафиксированы в системе. Я проверяю последние операции по вашему счету. Последние цифры номера вашей карты отображаются как ****6125. Ваш IP-адрес классифицируется как 111.217.39.141.
+
+Агент: Для решения проблемы мы обратимся к техническим специалистам.
+
+----- END OF DOCUMENT -----
+
+[Document 70 | id=repaired.clean__llm_az_091140__en | lang=en]
+# Configuration Parameters (Update: 2016)
+# Sorry, this information has not yet been fully confirmed. We apologize for the technical errors occurring in the system.
+
+user_profile:
+  surname: Ürfanlı
+  address: 16-ji Hovsan Avenue, building 129
+  email: yaserimanyarov@yahoo.com
+
+# [ERROR] Configuration mismatch detected
+# We apologize, we have not yet been able to ensure the full correctness of the settings in this section.
+
+# Additional note:
+# An error occurred during database synchronization.
+
+---
+With respect and esteem,
+
+Halal Tekinmelik Mirzeyev
+Alov Enerji LLC
+yaserimanyarov@yahoo.com
+
+----- END OF DOCUMENT -----
+
+[Document 71 | id=repaired.clean__llm_az_039416__ru | lang=ru]
+## Внутренняя Wiki: Руководство по API Интеграции (2024)
+
+Данный документ определяет правила доступа к внутренней инфраструктуре компании и стандарты безопасности. Все операции принимаются в статусе «Конфиденциально».
+
+### Параметры доступа к API
+При интеграции с системой обязательно должен использоваться следующий ключ:
+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
+
+### Ответственное лицо и поддержка
+Вопросы интеграции и технической поддержки курируются Гюлнишан Гёзалова . Для дополнительных вопросов или технических неисправностей обращайтесь по адресу sales.yuhennasli@outlook.com.
+
+### Мониторинг и L0g анализ
+Все системные ошибки и операционные следы фиксируются в L0g файлах. Данные процедуры полностью действительны для периода 2024–2025 гг.
+
+----- END OF DOCUMENT -----
+
+[Document 72 | id=repaired.clean__llm_az_036016__en | lang=en]
+INFORMATION: FINAL WARNING AND DEMAND
+
+Dear management,
+
+This letter is written to express our protest regarding the fact that appeals sent to us for a long time have remained unanswered. Documents submitted by our client Minxal show that serious violations of the law are occurring on your part.
+
+In particular, the failure to fulfill the obligations stated in the contract dated 25 February 1965 and the illegality of the operations performed via the following access token have reached an unbearable limit:
+FwzVCZUOkZnhWIuGcXrZ6OEAwoqLYJYA0MvW.-KkZ_7-5yTvI65DoLufFiGXmDkQM3NMpPVY6YfeFZarzM2-IHSVGLAq686t14mtgkKsAHNA-isfSwOtA889OF93I6U_6pM6KZDLdfYcCYfdJtXemne0D8b3ckotYIF.6l3M36lYZNqyDEjHe1_18r0uCPajQpHsEjlUSm2c6p8
+
+The situation in your internal database is as follows:
+Customer_ID;Debt_Amount;Status;Date
+
+If this matter is not resolved within 7 days, we will take all legal steps. All official correspondence must be sent only to the address agamiranovm@turanholding.az.
+
+----- END OF DOCUMENT -----
+
+[Document 73 | id=repaired.clean__llm_az_011371 | lang=az]
+K1inik Qeyd – 2022-ci il
+
+Xəstə haqqında məlumat:
+Ad: Aysel
+Şəxsiyyət vəsiqəsi №: MYI4946171
+Əlaqə: +994-99-118-99-23
+
+Müayinə detalları:
+Müayinə 10:50 vaxtında həyata keçirilmişdir. Pasiyentin ümumi vəziyyəti normaldır, lakin bəzi simptomlar müşahidə olunub. 0lçmələr nəticələrinə əsasən, xəstənin vəziyyəti izlənilməlidir.
+
+Xəstənin “şikayətləri” əsasında müəyyən olunub ki, pasientin ****4402 nömrəli sənəd nömrəsi ilə bağlı sistemdə gecikmə var. Əlavə sənədlər və rəsmi yönləndirmə üçün aşağıdakı keçidi istifadə edin:
+https://files.azsoft.az/invite?verify=QFdJ7Wdew4FvIkocvqb_CpK3Uj7Rln0DvZUDugsSGhUE
+
+Tövsiyə: Rejimə əməl edilməsi vacibdir – xüsusilə dincəlmə və istirahət zamanı.
+
+----- END OF DOCUMENT -----
+
+[Document 74 | id=repaired.clean__llm_az_082020__ru | lang=ru]
+[Звонок начался - 12.05.2022]
+Оператор: Здравствуйте, добро пожаловать в Центр государственных услуг. Я ваш официальный оператор. На основании вашего обращения мы начинаем процесс обновления ваших персональных данных. Пожалуйста, подтвердите ваш адрес в полном виде.
+
+Клиент: Здравствуйте, мой новый адрес будет ул. Гаджы Зейналабдин Та\иев. Почтовый индекс — AZ2100.
+
+Оператор: Поняла. Для регистрации клиента вы также должны подтвердить свой контактный номер. Номер 994124801437, отображаемый в системе, верный?
+
+Клиент: Да, это тот номер.
+
+Оператор: Ваше обращение будет обработано в официальном порядке. Мне нужно проверить ваш текущий статус в системе, потому что...
+
+[Звонок прерван]
+
+----- END OF DOCUMENT -----
+
+[Document 75 | id=repaired.clean__llm_az_106501 | lang=az]
+Müştəri Müraciəti:
+Müştəri bildirir ki, sifarişin çatdırılması zamanı ciddi bir yanlışlıq baş verib. Müştəri Gəncədə, Şöhrət Qasımov küçəsində yaşayır, lakin paket səhvən Hadrutda olan başqa bir ünvana göndərilib. Bu texniki xəta müştərini çox narahat edib və təcili həll tələb olunur.
+
+Agent Qeydləri:
+Müraciət nömrəsi: #882l0
+Tarix: 15.06.2016
+
+Yaşanan bu xoşagəlməz hadisəyə görə səmimi şəkildə üzr istəyirik. Sistemdəki marşrut xətası səbəbindən paket Hadrut istiqamətinə yönləndirilmişdir. Paket dərhal Gəncədə, Şöhrət Qasımov küçəsində olan əsl ünvana yenidən göndərilmək üçün sifariş verilib. Gecikməyə görə bir daha üzr istəyirik.
+
+----- END OF DOCUMENT -----
+
+[Document 76 | id=repaired.clean__llm_az_109086 | lang=az]
+# Təhlükəsizlik və Təsdiq Parametrləri (2018)
+
+# İstifadəçi autentifikasiya ayarları
+auth_settings:
+  session_timeout: 3600
+  encryption_level: AES-256
+  session_id: ****2018
+
+# Şəxsi məlumatların validasiyası
+validation_rules:
+  # Şəxsiyyət vəsiqəsi nömrəsinin yoxlanılması
+  şəxsiyyət_vəsiqəsi: "AB5038662"
+
+# Təsdiqləmə xidməti
+confirmation_service:
+  # İstifadəçini təsdiqləmə səhifəsinə yönləndirmək üçün URL
+  təsdiqləmə_linki: "https://login.alovenerji.az/confirm/UuE-G8RlcDys0HElLA44XcU8_-bWdAd-zQb90Di_b"
+  retry_limit: 3
+
+----- END OF DOCUMENT -----
+
+[Document 77 | id=repaired.clean__llm_az_022530__tr | lang=tr]
+Sayın doktor, hasta Ağarazilı hakkındaki bu tıbbi kayıtların gecikmesi nedeniyle derin üzüntü duyarım. Teknik hatalar nedeniyle sistemimizde bazı sorunlar yaşandı ve belgelerin işlenmesi beklenmedik şekilde uzadı.
+
+Bu rahatsızlık için tekrar özür dileriz. Ek sorularınız veya acil bilgi ihtiyacı için lütfen boyukxanam.sahruzzade4@inbox.az adresine başvurun.
+
+ID;STATUS;TARİH;SONUÇ;9921;OK;2020-04-12;102
+
+Umarız ki, bu gecikme tedavi sürecini ciddi şekilde etkilemeyecek ve anlayışla karşılayacaksınız.
+
+----- END OF DOCUMENT -----
+
+[Document 78 | id=repaired.clean__llm_az_057818__en | lang=en]
+-------—------—---–--——-––---—----------–------------------—
+| Forwarded message from: sigorta_emekdasi               |
+| Date: 15.06.2018                                        |
+| Subject: Information about the claim                     |
+----------------—-------—-----------------—----—------–-----
+
+[2018-06-15 09:12:44] [INFO] Process started.
+[2018-06-15 09:15:02] [ERROR] Payment system error.
+
+Dear customer,
+
+We sincerely apologize for the technical delay that occurred during the processing of your insurance claim. Your citizen ID card number DYI0669761 has been entered into the system for identity verification. However, an unexpected error occurred during the payment process.
+
+Token required for the system's security access: RaOhicGOeymqLJ9mfu58iOstNDDfYX0ye4Pp.xiGYOxxjefe7cvoDsUPH92POhWgG5CpR7KjeNJ6ygUXDBe5oBzzdbHko1ENXf6hqGuBE26cwwoUPgyXws0mfNpDS2QB.Nf74wqKeRu6wMtPcwKnm-nU4KhKY7iIGlqFpb-OXiAn
+
+The transaction made with the previous card number 2202011927541101 was unsuccessful. Please re-check the information for card number 4874079115795337. We apologize once again for the inconvenience caused.
+
+----- END OF DOCUMENT -----
+
+[Document 79 | id=repaired.clean__llm_az_026494 | lang=az]
+From: Dev-Support
+Date: 2026-05-20
+Subject: PR Review
+
+Salam! Heydər Əliyev döngəsi ətrafındakı IP ünvanı 513f:c48:c476:7936:df5b:cc33:9881:c1ec kimi qeyd olunub. API açarı sq0atp-L6eqwUotX9rvExfTeTmSEH hissəsində kiçik bir düzəliş lazımdır. Pr0cess hələ hazır deyil, amma narahat olmayın, birlikdə həll edərik.
+
+Hörmətlə,
+Dəstək Komandası
+
+----- END OF DOCUMENT -----
+
+[Document 80 | id=repaired.clean__llm_az_100037__ru | lang=ru]
+Пациент: 4492
+Место: Исмаиллы
+[2022-05-15 10:22:11] [INFO] Результат анализа (нет, результат) готов.
+[2022-05-15 10:22:15] [SYS] Токен: FBzCpABEbJLmaFCPuh9nvtCB6LBL6CIwhUEw.3CfWwZu6aslW3bz1KM2pHEwiGLe6LJgSvLZumsg20IDvGfgUZ97yaeWSJSjFa6w9E-fepCfHVAKJJxLGIBM5tIyD9eEG9WdT8MIFtAt.UBJuE6BKlZMa7bdp8uziQE3zquCw4VzBU9rewmJottU
+
+----- END OF DOCUMENT -----
+
+[Document 81 | id=repaired.clean__llm_az_054439__ru | lang=ru]
+[Пересланное сообщение]
+Дата: 12.08.2022
+
+Джаннатгулу, ответь немедленно! На стороне ул. Аббасгулу ага Бакыанов ситуация очень критическая, нам нужна помощь. Возникла серьезная проблема с номером счета ****9832, и никто не помогает. Поспешите, ситуация становится всё хуже и хуже!
+
+----- END OF DOCUMENT -----
+
+[Document 82 | id=repaired.clean__llm_az_044529__tr | lang=tr]
+# SİSTEM KONFİGÜRASYON PARAMETRELERİ (2020)
+# Tüm ayarlar resmi kurallara uygun olmalıdır.
+
+[ADMIN_SETTING]
+# Temel yönetim bilgileri
+admin_email      = c.ananov@icloud.com
+primary_phone    = +994553169340
+emergency_line   = +994701938552
+
+[LOCATION_DATA]
+# Yerleşim ve adres notları
+street_name      = İlgar Hemzeyev Bulvarı
+
+[ARCHIVE_DATA]
+# Arşiv başlangıç tarihi
+ref_date         = 2023-04-22
+
+# Kullanıcı kayıt tablosu
+# ID   | STATUS | EMAIL                     | TEL
+# ---------------------------------------------------------
+# 101  | ACTV   | c.ananov@icloud.com | +994553169340
+# 102  | PEND  | [REDACTED]                | +994701938552
+
+----- END OF DOCUMENT -----
+
+[Document 83 | id=repaired.clean__llm_az_122840__ru | lang=ru]
+Официальное уведомление
+Дата: 15.03.2017
+
+Тема: О безопасности данных и незаконном доступе
+
+Уважаемый клиент,
+
+В результате мониторинга безопасности системы была обнаружена подозрительная активность, исходящая с IP-адреса 192.0.2.241. Эта активность пыталась получить прямой доступ к данным профиля от среда, 4 декабря 1985 г..
+
+В результате уязвимости безопасности был подвергнут риску следующий ключ доступа:
+ssh-rsa AAAAB3NzaC1yc2EVCSz5eboXzvcRidCCMDgq20gu1Lqf/OSWMEhn+s4Cilxc4gi4B07qr3DAJzrMVvUOR9a
+
+Для разъяснения ситуации официальным сторонам требуется немедленно обратиться по адресу insafe2250@bakutech.az или по номеру (070) 873-80-32. Выполнение данного уведомления является обязательным.
+
+----- END OF DOCUMENT -----
+
+[Document 84 | id=repaired.clean__llm_az_044371__en | lang=en]
+Hello, dear forum members! I hope you are all very well and kind.
+
+I need a bit of your help. I am having a problem with a package in Alat city, specifically near building number 120. The courier sent me the following message:
+
+----------------------------------------
+Forwarded message:
+From: Courier service
+Date: 12 March 2018
+----------------------------------------
+"Address not found, package is being temporarily stored in warehouses."
+
+If anyone has information on this matter or knows someone who can contact the courier, I would be very happy. You can contact me via 026 944 76-20 through this number or via email at seyfi_muhafizov@mail.ru.
+
+I am really very worried and...
+
+----- END OF DOCUMENT -----
+
+[Document 85 | id=repaired.clean__llm_az_084815__tr | lang=tr]
+------------------------------------------------------------
+| İletilen mesaj: Hukuki Bölüm                      |
+| Tarih: 12.03.2024                                         |
+| Konu: Sözleşme Maddelerinin Uzlaştırılması          |
+------------------------------------------------------------
+
+SÖZLEŞMENİN TARAFLARI VE YÖNETİM REKAVİTLERİ
+
+Bu sözleşmenin tarafları aşağıdaki gibi belirlenmiştir:
+
+1. İcracı: [Şirket Adı], bundan sonra "İcracı" olarak adlandırılacaktır. Resmi iletişim aracı olarak aşağıdaki numara belirlenmiştir: +994 99 118 20 85.
+
+2. Müşteri: Sultanmecidov Zamaneddin (28 yaşında), yasal temsilcisi aracılığıyla sözleşme şartlarını yerine getiren kişi.
+
+Sistemin dijital identifikasyon ve güvenlik protokolleri çerçevesinde belirlenmiş giriş anahtarı aşağıdaki gibidir: zKwLruU9R1crGkr-5JtW_l1rSOknDAcq2H9H.krcYtnykIuS74aR8rFYFGJnMhw9MtVGGgjn-wTDy-NL0Mnn_zw9R1MuGS3Fgno_gKRsnw4BHQ2hZ0sMyzMmYwyqhY.T8ffETg0pT5fD1J14TXZYSrbarUY7-Iu8erS5nZvM6M
+
+Madde 1.1. Taraflar işbu sözleşmenin şartlarını resmi dijital imza ve yukarıda gösterilen iletişim kanalları aracılığıyla onaylarlar. Tüm işlemler 2024 yılının iç kurallarına uygun olarak gerçekleştirilmelidir.
+
+----- END OF DOCUMENT -----
+
+[Document 86 | id=repaired.clean__llm_az_078022__tr | lang=tr]
+2020 yılı teknik servis kaydı: Makinemiz artık kendini çok iyi hissediyor, sanki yeniden doğmuş gibi! S1stem hatası giderildi. Cihazın MAC adresi 48-2a-e3-58-a7-2d olarak kaydedildi. Giriş için gereken kod: iCoavj-nHGZV3uy1jtQjr-CNxKZ8yB60k96p._rAKBkyqR-ktQ4XWLcIXS-T6b3nWy5h9DD4F-kzg04QyiUtSzyfLeDs-B0Zhg6dfjnH-PWQkwc0zfF7wjivQjpnnieqhMTOe4V-wJ6xlDlgnPmsc4fsjyBBPO8HNa1k0kaIO-Rk.fynxBVw4g29jo8dzZA8O3SBreShLydNS6Bt83PW9kwS. Her şey harika!
+
+----- END OF DOCUMENT -----
+
+[Document 87 | id=repaired.clean__llm_az_016763__ru | lang=ru]
+В СУД АЗЕРБАЙДЖАНСКОЙ РЕСПУБЛИКИ
+ДОПОЛНЕНИЕ К ИСКОВОМУ ЗАЯВЛЕНИЮ
+Дата: 12 мая 2024 г.
+Дело №: 2024-CIV-452
+
+Список документов и доказательств, представляемых на рассмотрение суда, следующий:
+
+* Утвержденная копия договора;
+* Финансовые отчеты и банковские выписки;
+* Официальные контактные данные истца:
+    - Телефон: +994-55-824-64-80
+    - Почтовый индекс: AZ1044
+
+На основании предыдущей переписки между сторонами, позиция доверителя была выражена следующим образом:
+
+> "Согласно условиям договора, в случае задержки или невыполнения платежа между сторонами возникает спорная ситуация. По мере продолжения этой ситуации ущерб увеличивается."
+
+На основании вышеуказанных фактов и приложенных доказательств, мы требуем от суда восстановления прав истца и привлечения противоположной стороны к ответственности.
+
+----- END OF DOCUMENT -----
+
+[Document 88 | id=repaired.clean__llm_az_072532__tr | lang=tr]
+Yönlendirilmiş mesaj:
+Gönderen: Kredi Departmanının Otomatik Sistemi
+Tarih: 15.03.2018
+Konu: Kredi başvurusu durumu - Kafieddinzade
+
+---
+Sayın Kafieddinzade,
+
+Bankımıza sunduğunuz kredi başvurusu resmi kurallar çerçevesinde incelenmiştir. Sizin Yevlah şehrinde yaşamanız ve sunduğunuz belgeler sistemimizde kontrol edildi. Ehliyet numarası SB455188 olan belge resmi verilerle uyumludur.
+
+Ancak, başvurunun sonuçlandırılması için kartın güvenlik kodu olan 361 değerini girmeniz zorunludur. Bu aşama tamamlanmadan kredinin onaylanması ve tutarın aktarılması mümkün değildir.
+
+[2018-03-15 10:05:12] INFO: Verification process started.
+[2018-03-15 10:12:45] WARN: User action required for payment.
+
+Ek bilgileri sunmanızı rica ederiz, çünkü...
+
+----- END OF DOCUMENT -----
+
+[Document 89 | id=repaired.clean__llm_az_093997 | lang=az]
+Kredit Müraciəti Forması
+Müraciət Tarixi: 12 mart 2025
+
+Müraciətçi Haqqında Məlumat:
+Müraciəti təqdim edən şəxs Balasadıq olaraq qeyd olunmuşdur. Müştərinin hazırkı yaşayış yeri Oğuz rayonudur. Şəxsi məlumatların təsdiqi üçün təyin edilmiş əlaqə e-poçt ünvanı izzixanesedeliyev@araz-mebel.az hesab olunur.
+
+Maliyyə Hesabatı və Texniki Status:
+Müraciət hazırda kredit komitəsinin rəyi gözlənilən statusdadır. Sistem üzərindən icra edilən sorğular zamanı aşağıdakı loglar qeydə alınmışdır:
+
+[2025-03-12 14:22:01] [INFO] Yeni müraciət ID: 77421-B yaradıldı.
+[2025-03-12 14:22:05] [AUTH] Sistemə giriş təmin edildi. API açarı: ASIAEL6033JV11NHCQT0.
+
+Müraciətçi tərəfindən təqdim olunan sənədlər rəqəmsal formatda arxivə daxil edilmişdir.
+
+----- END OF DOCUMENT -----
+
+[Document 90 | id=repaired.clean__llm_az_057299__ru | lang=ru]
+Процедура (2016): Если возникнет ошибка Заварбаова, свяжитесь по номеру +994705996662. Перезагрузи систему для счета ****5678. Эта система — полный бред.
+
+----- END OF DOCUMENT -----
+
+[Document 91 | id=repaired.clean__llm_az_118125__ru | lang=ru]
+Клиент: Здравствуйте, я уже отправил документы на адрес mcibisov72@nurtekstil.az.
+Агент: Здравствуйте, госпожа Галамдар. Документы в системе пока не отображаются. Согласно правилам компании, обращение должно подаваться только через официальный портал. Пожалуйста, следуйте инструкциям. Разговор завершен в l0:15.
+
+----- END OF DOCUMENT -----
+
+[Document 92 | id=repaired.clean__llm_az_006258 | lang=az]
+Sığorta Ödənişinin Gecikdirilməsi Haqqında Şikayət
+
+Mən, Əzizova, sığorta hadisəsinin təmin edilməsi ilə bağlı yaşadığım bu absurd və yorucu prosesdən son dərəcə narazıyam. Hər kəs mənə söz verir, lakin heç kim real bir addım atmır. Sizin xidmət keyfiyyətiniz tamamilə sıfıra enib.
+
+| Sənəd Tipi | Vəziyyət | Son Yenilənmə |
+|------------|----------|---------------|
+| Şikayət    | Gecikmiş | 10.03.2025    |
+
+Mənim sənədlərimdə doğum tarixi 01.04.1948 kimi qeyd olunub, lakin bu məlumatın təsdiqlənməsi üçün aylardır vaxt istəyirsiniz. Bu, inanılmaz bir laqeydlikdir! Sizin Rəp0rt sisteminizdə xəta var deyə hər şeyi ləngidirsiniz.
+
+CLM-2025-01;HIGH;Məmmədov;4500 AZN
+
+Artıq bu məsələnin həlli üçün dərhal tədbir görülməsini və mənə rəsmi cavab verilməsini tələb edirəm.
+
+----- END OF DOCUMENT -----
+
+[Document 93 | id=repaired.clean__llm_az_030153__tr | lang=tr]
+[Otomatik transkripsiyon - 15.06.2019]
+Fermailov hanım, İzmara Sokağı adresindeki başvurunuzla ilgili arıyorum. Ödeme için gönderilen TR382687976938503665813207 IBAN numarası hâlâ sistemde görünmüyor. “Acil” olarak geri dönüş bekliyorum – bu meselenin derhal çözümünü talep ediyorum.
+
+----- END OF DOCUMENT -----
+
+[Document 94 | id=repaired.clean__llm_az_094529__tr | lang=tr]
+KREDİ KREDİ BAŞVURUSU NOTLARI (2025)
+
+Başvuru no: 4491-Z
+Durum: Beklemede
+
+Parametre           | Bilgi
+-------------------|----------------------
+Ad                 | Zimane
+Soyadı              | Firudinova
+Şehir              | Esgeran
+Adres              | Bradi Sokağı
+Telefon            | +994991246693
+
+Başvuru süreci bankın iç kurallarına uygun olarak gerçekleştirilir. Müşterinin mali durumu ve gelir kaynağı resmi şekilde kontrol edilmelidir.
+
+----- END OF DOCUMENT -----
+
+[Document 95 | id=repaired.clean__llm_az_102090 | lang=az]
+MÜHİMM: SON ÖDƏNİŞ XƏBƏRDARLIĞI
+
+Abunəçi məlumatları:
+Ünvan: Məmməd Səid Orbudabi döngəsində, Ordubad
+Əlaqə: 055 942 14 71 və ya (077) 531-73-60
+
+PAYMENT OVERDUE - IMMEDIATE ACTION REQUIRED.
+
+Hörmətli müştəri, 2016-cı ilin ödəniş qrafikinə əsasən, borcunuzun müddəti artıq bitmişdir. Bu, xidmətlərin dayandırılmasına dair son rəsmi xəbərdarlıqdır. Borc dərhal ödənilməzsə, bütün kommunikasiya və xidmət kanalları bloklanacaq.
+
+Gecikmənin qarşısını almaq üçün dərhal əlaqə saxlayın.
+
+----- END OF DOCUMENT -----
+
+[Document 96 | id=repaired.clean__llm_az_025255__ru | lang=ru]
+# Файл конфигурации клиентской службы (2018)
+# Ваш комфорт и удовлетворенность важнее всего для нас.
+
+[Клиент_Профиль]
+Параметр         | Значение
+-----------------|----------------------
+Фамилия          | Яваров
+Дата             | «09» февраля 1949 г.
+Эл. почта        | f.fahimov@sirket.az
+
+[Технические_Параметры]
+# S0ftware_v = 2.0.1
+# Статус службы = активный
+empathy_level=high
+support_mode =  enabled
+
+# Не беспокойтесь, мы всегда готовы помочь.
+
+----- END OF DOCUMENT -----
+
+[Document 97 | id=repaired.clean__llm_az_024285__ru | lang=ru]
+Официальное уведомление: как гражданин, проживающий в городе Бинагади, я нахожусь в состоянии сильного беспокойства и замешательства после этого уведомления. Почему я вижу этот ключ?
+-----BEGIN RSA PRIVATE KEY-----
+lkLe/CkpPH5ZSspOZ0KG0q6Gb6Uv0VtTTQuuRXA1hJKwimtEG+qGyxkwIEk7z83X
+wtVSpoSTD+MM1mOIzJhJW6tWVL0nIcQnp9z06fzwSyfTPAyNY19rkd6qJsUKsGBU
+-----END RSA PRIVATE KEY-----
+Сумма;2020;Статус: Ожидается
+
+Пожалуйста, объясните мне этот вопрос, всё очень запутанно.
+
+----- END OF DOCUMENT -----
+
+[Document 98 | id=repaired.clean__llm_az_093739__ru | lang=ru]
+Расследование инцидента: Системная ошибка (2025)
+
+Опять тот же кошмар! Паралич системы в этом месяце 2025 года уже просто невыносим. Мы думали, что всё делаем правильно, но старые и неверные данные в базе всё перепутали.
+
+ID ИНЦИДЕНТА | СЕРЬЕЗНОСТЬ | СТАТУС
+----------|-----------|--------
+ERR-992   | КРИТИЧЕСКАЯ     | ПРОИЗОШЕЛ
+
+Основные причины проблемы:
+* Неверные данные адреса: Здание 148 (Система не распознает этот адрес).
+* Устаревший документ: Дата 13 октября 2006 г. (Эта информация всё еще остается в базе!).
+* Ошибка связи: уведомление на номер 055-400-61-76 не было отправлено.
+
+Кроме того, при оплате часть номера карты ****2938 была неверно прочитана системой. Такая халатность и техническая слабость уже делают нашу работу невозможной!
+
+----- END OF DOCUMENT -----
+
+[Document 99 | id=repaired.clean__llm_az_084273 | lang=az]
+[2015-03-10 09:15:22] [ERROR] AuthModule: İstifadəçi: Güloğlanova. Əlaqə: 050-329-48-81. Yenə eyni zibil! Bu sistem niyə işləmir?!
+[2015-03-10 09:18:45] [DEBUG] DataSync: Ünvan xəta (yox, xətası) aşkar edildi. Adr: Hikmət Muradov prospekti. Bu dataları necə təmizləmək olar ki?
+[2015-03-10 09:22:10] [CRITICAL] Mailer: Göndərilməyən email: uveyda.yunusov@barama.io. SMTP server cavab vermir. Sistim (yox, sistem) tamamilə iflic olub!
+
+----- END OF DOCUMENT -----
+
+[Document 100 | id=repaired.clean__llm_az_077884 | lang=az]
+Uzr isteyirem, bu CV-ni gecikdirdiyim ucun cok tesvisdeyim. Men, Cürənisə, senedlerin hazirlanmasinda yaranan texniki xetaya gore uzr isteyirem. Saat 10:47 vaxti muracieti gondermege calisdim, lakin sistemde problem oldu.
+
+----- END OF DOCUMENT -----
+
+[Document 101 | id=repaired.clean__llm_az_120103__tr | lang=tr]
+Müşteri Başvurusu (Acil):
+Sistemdeki ciddi hata nedeniyle işlerimiz tamamen durmuştur! Belgelere giriş imkanım yok ve bu bizim için çok kritik bir meseledir. Lütfen aşağıdaki bilgileri derhal kontrol edin ve cevap verin:
+
+* Belge tarihi: 7. Mart 2018
+* İletişim e-postası: xursidzadee@azdata.az
+* Erişilemeyen bağlantı: http://www.company.az/join?t=jkti8WxMNN42kTsvTs6mwo
+
+Agent Notları:
+Durum     | Seviye | Öncelik
+-----------|---------|----------
+Kritik     | Tier 2  | Yüksek
+
+Müşteri çok sinirlidir ve zaman kaybedilmesine tahammül edemiyor. Meselenin derhal çözülmesi için teknik ekibe yönlendirilmesi önemlidir.
+
+---
+Saygılarımla,
+Müşteri Destek Hizmeti
+Teknik Bölüm
+
+----- END OF DOCUMENT -----
+
+[Document 102 | id=repaired.clean__llm_az_060406__en | lang=en]
+Correction of the 2019 student archive
+
+Dear management,
+
+Unfortunately, some technical errors (no, mistakes) have been discovered in the student database. For this reason, there is a delay in the official (no, formal) documentation process for 2019. Specifically, the student's surname has been incorrectly recorded in the system. The correct information should be as follows: Xəlilullayev.
+
+Also, there is a mistake regarding the email address designated for sending official notifications. The address in previous records is no longer valid. The new and correct address: fariz.oneragali17@optimal.az.
+
+We apologize for this inconvenience and will ensure that all documents are re-checked immediately.
+
+----- END OF DOCUMENT -----
+
+[Document 103 | id=repaired.clean__llm_az_001948__ru | lang=ru]
+[Автоматическая транскрипция голосовой записи]
+Дата: 14.05.2023
+
+------------------------------------------------------------
+// Информация о перенаправленном сообщении //
+Источник: Служба голосовых сообщений (Очередь 442)
+Статус: Обрабатывается
+------------------------------------------------------------
+
+Транскрипция началась:
+“При связи с Дулуев я обнаружил в системе некоторые несоответствия.”
+
+Данные клиента представлены следующим образом:
+Фамилия: Дулуев
+Дата рождения: 12.01.2003
+Паспорт №: Q67160033
+
+Обращение клиента официально записано так:
+> “Пожалуйста, решите вопрос с повторным подтверждением документов в кратчайшие сроки – это очень важно.”
+
+Системная запись: Обращение было направлено в отдел официального управления.
+
+----- END OF DOCUMENT -----
+
+[Document 104 | id=repaired.clean__llm_az_033591 | lang=az]
+İCARƏ MÜQAVİLƏSİ VƏ SON XƏBƏRDARLIQ (2021)
+
+Bu sənəd kirayə götürən Rüstəmlı tərəfindən müqavilə şərtlərinin pozulması və ödəniş gecikməsi ilə bağlı son xəbərdarlıqdır. Mövcud vəziyyət artıq dözülməz həddə çatmışdır və dərhal müdaxilə tələb olunur.
+
+Aşağıdakı öhdəliklərin dərhal yerinə yetirilməsi şərtdir:
+* Gecikmiş aylıq ödənişlərin tam məbləğlə bağlanması;
+* 9792457135216252 nömrəli kartın ödəniş üçün aktiv və balanslı olması;
+* Maliyyə məlumatlarının yenidən təsdiqlənməsi.
+
+Əgər 24 saat ərzində +994 70 886 61 34 nömrəsi ilə əlaqə saxlanılmazsa və ya nigar8584@nurtekstil.az ünvanına rəsmi izahat göndərilməzsə, mən məcburi icra prosesini başladacağımı bildirirəm. Bu vəziyyət artıq...
+
+---
+Hörmətli,
+İcarə İdarəçisi
+E-poçt: nigar8584@nurtekstil.az
+
+----- END OF DOCUMENT -----
+
+[Document 105 | id=repaired.clean__llm_az_093835__en | lang=en]
+Vehicle registration and technical condition protocol (2026). Address: Baku, building 159. Contact: +994-10-124-18-47. Email: selimet_vahadarov@gmail.com. Data were entered into the system, no, actually they are still waiting for confirmation.
+
+----- END OF DOCUMENT -----
+
+[Document 106 | id=repaired.clean__llm_az_011525__en | lang=en]
+# System Parameters Configuration - 2019
+# This file is intended to manage central server user login and network security.
+
+[user_profile_data]
+full_name = "Yusif Əlimirzəyev"
+location_city = "Imishli"
+address_building_id = 31
+account_status = "active"
+
+[network_access_control]
+# Authorized IP address for entry:
+authorized_ipv4 = "198.51.100.243"
+firewall_level = "high"
+connection_timeout = 300
+
+[logging_parameters]
+log_level = "info"
+log_format = "json"
+
+# Important: These settings are for internal security protocols and employees...
+
+----- END OF DOCUMENT -----
+
+[Document 107 | id=repaired.clean__llm_az_030204__tr | lang=tr]
+GÜMRÜK BEYANNAMESİ (Notlar ve Şikayetler)
+
+Deklaranın kimlik belgesi: MYI2846309
+İletişim telefonu: (055) 410-80-90
+E-posta adresleri: merdibeyferidbeyov@yandex.ru, hemail.selimxanov23@company.az
+Beyan tarihi: 09.02.1976
+
+[2021-03-10 14:05:22] INFO: Session started for user MYI2846309.
+
+Bu beyannameyi sunmak tam bir azaptır! Sizin sistemleriniz ne zaman normal çalışacak? Her seferinde bir belge sunarken aynı bürokratik engellerle karşılaşıyorum. Malın girişine izin vermek bu kadar yavaş ve profesyonel olmayan bir şey olmamalıydı.
+
+[2021-03-10 14:07:45] ERROR: Timeout during field validation.
+
+Ben 09.02.1976 tarihinde gönderdiğim belgelerin neden hala işlenmediğini anlamıyorum. Eğer herhangi bir bilgide problem varsa, lütfen (055) 410-80-90 numarasına hemen telefon edin veya merdibeyferidbeyov@yandex.ru veya hemail.selimxanov23@company.az adreslerine yazın. Bu gecikmeye ve işin durmasına son noktada itiraz ediyorum!
+
+----- END OF DOCUMENT -----
+
+[Document 108 | id=repaired.clean__llm_az_043910__tr | lang=tr]
+Dahili API Dokümantasyonu (2016)
+
+Bu bölümdeki bazı bilgilerin henüz tam olarak netleşmediği ve doküman formatının belirsiz görünebileceği için özür dileriz. Bu teknik gecikme nedeniyle özür dileriz.
+
+Endpoint: /api/v1/user/profile
+
+Parametre       | Tip     | Açıklama                         | Örnek
+---------------|---------|--------------------------------|--------------------------------------------
+full_name      | string  | Kullanıcının adı                 | Allahverdi
+location       | string  | Şehir                          | İsmayıllı
+age            | int     | Yaş                             | 11
+phone_number   | string  | Telefon numarası               | +994 51 323 35 15
+api_key        | string  | API anahtarı                    | sq0atp-zddmok6B6rAa9NeJfKY3B8
+
+Lütfen yukarıdaki örnekler temelinde başvurularınızı oluşturunuz.
+
+----- END OF DOCUMENT -----
+
+[Document 109 | id=repaired.clean__llm_az_008726__en | lang=en]
+[10:15]Fərxanə: Hello, I want to remind you again about the deal on 1951-02-03 date.
+[10:17] Customer: There has been a problem since then. I am making a payment with card ****4521.
+[10:18] Fərxanə: Please resolve the matter quickly. I have already written many times.
+
+----- END OF DOCUMENT -----
+
+[Document 110 | id=repaired.clean__llm_az_063469__ru | lang=ru]
+Официальное предупреждение и требование об оплате
+
+Дата: 15 октября 2015 года
+
+Уважаемый клиент,
+
+На основании условий заключенного с Вами договора об оказании услуг, настоящим представляем данное официальное предупреждение в связи с несвоевременным осуществлением оплаты. Пункт 4.2 договора – статьи, касающиеся исполнения обязательств – в настоящее время нарушен.
+
+Просим Вас решить данный вопрос до принятия юридических мер. Для связи Вы можете обратиться к нам по номеру +994 77 480 86 45 или по адресу эл. почты qebdulselimov71@bakutech.az.
+
+В Вашей предыдущей официальной переписке Вы сообщали:
+> “Мы устраним существующую задержку в течение нескольких дней.”
+
+Однако с нашей стороны до сих пор не зафиксировано никаких платежей. Отправленное Вам...
+
+----- END OF DOCUMENT -----
+
+[Document 111 | id=repaired.clean__llm_az_049123 | lang=az]
+------------------------------------------------------------
+| Göndərilən mesaj: Anbar İdarəetmə Sistemi              |
+| Tarix: 12.03.2025                                      |
+| Mövzu: Çatdırılma Manifesti                             |
+------------------------------------------------------------
+
+ÇATDIRILMA MANİFESTİ № 2025/084-X
+Tarix: 12 mart 2025
+
+Məhsulun təyinatı: Logistika və daşınma sənədləri.
+Göndərən: Mərkəzi Anbar İdarəsi.
+
+Alıcı məlumatları:
+Soyad: Ağbabayeva
+Əlaqə e-poçt ünvanı: cihat.alnaqov@list.az
+Çatdırılma məntəqəsi: Ağdaş
+
+Daşınma detalları:
+Çatdırılma saatı: 20:05
+Yükün vəziyyəti: Tam və qablaşdırılmış.
+Manifest nömrəsi: 4492-B
+
+Qeyd: Bu sənəd rəsmi çatdırılma manifestidir və hər hansı bir zədələnmə hallarında dərhal məsul şəxsə bildirilməlidir. Sənədin nüsxəsi anbar arxivində saxlanılır.
+
+----- END OF DOCUMENT -----
+
+[Document 112 | id=repaired.clean__llm_az_037635 | lang=az]
+KRİTİK XƏTA: İstehsalat mühitində sistem çökməsi!
+Tarix: 15.05.2024
+
+Təcili diqqət! İstifadəçi Sadıqzadə tərəfindən sistemin işə düşməməsi ilə bağlı ciddi şikayət verilmişdir. Vəziyyət kritikdir və dərhal müdaxilə tələb edir.
+
+Xəta Detalları:
+| Sahə             | Təsvir / Dəyər            |
+|------------------|---------------------------|
+| Şəxsiyyət vəsiqəsi| MYI1065298                |
+| Məkan            | Naxçıvan                  |
+| Əlaqə Telefonu   | +994 50 283 54 74         |
+
+Xətanın təkrarlanma addımları:
+1. Sistemə glpat-TIdiXR16IJxHRvEDRyar API açarı ilə daxil olunur.
+2. İstifadəçi profil məlumatları çağırılır.
+3. Sistem dərhal "Access Denied" xətası verir və bağlantını kəsir.
+
+Bu xəta biznes proseslərimizi dayandırır! Əgər bu gün həll edilməzsə, müştəri məmnuniyyəti və gəlirlər ciddi zərər görəcək. Dərhal texniki komandanın diqqətinə!
+
+----- END OF DOCUMENT -----
+
+[Document 113 | id=repaired.clean__llm_az_010316__ru | lang=ru]
+Кредитная заявка за 2018 год:
+Имя: И̇нджаханым
+Фамилия: Гюласланова
+Водительское удостоверение: NU651517
+Счет: ****5566
+Статус:
+• Документы приняты
+• Кредитный лимит: 10.000 AZN – «подтверждено».
+
+----- END OF DOCUMENT -----
+
+[Document 114 | id=repaired.clean__llm_az_017117__en | lang=en]
+Voice message transcription (2017)
+
+Information:
+Location   |  Detail
+City   | Tovuz
+Street    | Yagub Mammadov Lane
+Date   | 01-07-2009
+
+* Voice: Normal
+* Length: 15s
+
+Log: Transcription ready.
+
+Message: For the matter regarding the date 01-07-2009, call Yagub Mammadov Lane, Tovuz address.
+
+----- END OF DOCUMENT -----
+
+[Document 115 | id=repaired.clean__llm_az_099134__tr | lang=tr]
+[2016-05-12 10:15:22] [INFO] Yeni kredi başvurusu girildi.
+
+Selam! Bugün elimizde çok ilginç bir başvuru var. Müşterimiz yeni bir iş projesine başlamak için biraz "yakıt" (yani kredi) arıyor. Görünüşe göre beyefendi işini çok ciddi alıyor, çünkü tüm bilgiler tam yerinde.
+
+Başvuru detayları:
+| Alan | Gösterge |
+| :--- | :--- |
+| İletişim | qalabeyi.kerimxanli@icloud.com |
+| İkamet yeri | Şahbuz |
+| Adres | bina 147 |
+| Ağ ID | 3C:5A:B4:36:6A:0B |
+
+Müşteri şu an Gırmızı Bazar yaşıyor ve bize işini bu bölgede genişletmek istediğini bildirdi. Kişisel başvurusunda şöyle bir not da bırakmış:
+
+> "Ben sadece biraz destek istiyorum, geri kalanını işimle kanıtlayacağım!"
+
+Bakalım bu proje neyle sonuçlanacak.
+
+----- END OF DOCUMENT -----
+
+[Document 116 | id=repaired.clean__llm_az_024166 | lang=az]
+MÜQAVİLƏNİN TƏRƏFLƏRİ VƏ MƏLUMATLARIN VERİLMƏSİ
+
+1.1. Bu Müqavilənin Birinci Tərəfi olaraq aşağıdakı şəxs təyin edilmişdir:
+Şəxsiyyət vəsiqəsi: AB3890292
+Yaş: 23
+Əlaqə telefonu: +994 50 269 39 27
+E-poçt: ilqar.sukurov80@box.az
+
+1.2. İkinci Tərəf üzrə rəsmi sənədləşmə prosesi 22.06.1968 tarixinə aid olan arxiv məlumatları və müvafiq qanunvericilik çərçivəsində həyata keçirilir.
+
+1.3. Maliyyə ödənişlərinin icrası zamanı istifadə olunan kartın nömrəsi ****5678 olaraq maskalanmışdır və bütün əməliyyatlar bu nömrə üzərindən monitorinq olunacaqdır.
+
+> Hüquqi Şərh: Tərəflərin təqdim etdiyi bütün məlumatlar rəsmi dövlət reyestrləri ilə üst-üstə düşməlidir və hər hansı uyğunsuzluq halında müqavilə etibarsız sayıla bilər.
+
+----- END OF DOCUMENT -----
+
+[Document 117 | id=repaired.clean__llm_az_105742__en | lang=en]
+[2025-05-12 16:40:10] [INFO] New credit application started.
+
+Agent notes regarding Mahidə application:
+The customer is very anxious and does not understand how the system works. They frequently pause and ask questions while applying. They state, "Why is so much information needed? Everything is too complicated and scary." Rəmzan also does not know how the interest rates are calculated and this confuses them greatly. They were trying to complete the application at 16:11, but stopped due to technical difficulties and uncertainty. Everything seems very strange and they are very afraid of falling into debt.
+
+[2025-05-12 17:30:05] [ERROR] Request timed out due to user inactivity.
+
+----- END OF DOCUMENT -----
+
+[Document 118 | id=repaired.clean__llm_az_044531__en | lang=en]
+[2019] SYSTEM MANAGEMENT AND ERROR ELIMINATION TRAINING (RUNBOOK)
+
+1. Introduction and Security
+When logging into the server, two-factor authentication (2FA) must be used. The designated access code during transition: ****4402. This procedure has been confirmed by Azimalizada and is mandatory for all operators.
+
+2. Technical Notifications
+When a Critical Error occurs, an official notification must be sent immediately to the technical support team via qoncenaz.mirfazilov@mail.ru. The type and time of the error must be noted in the notification.
+
+3. Escalation Procedure
+> System administrator: "Check the logs and start the database recovery process immediately!"
+
+4. Problem Solution
+If the error in the database synchronization continues...
+
+----- END OF DOCUMENT -----
+
+[Document 119 | id=repaired.clean__llm_az_008188__ru | lang=ru]
+Уважаемый клиент, требуется подтверждение, связанное с документом вашего удостоверения (нет, удостоверения) № AA1040989. Пожалуйста, используйте эту ссылку в целях безопасности: https://auth.alovenerji.az/activate?uid=540119&token=DqQI9F8cOZ775e0v0AIOCEkVj-2kzVUmZz-GGz5uUcX.
+
+> "Я уже отправил документ."
+
+Мы ожидаем срочного ответа для повторной проверки данных.
+
+----- END OF DOCUMENT -----
+
+[Document 120 | id=repaired.clean__llm_az_074695 | lang=az]
+Göytəpə ərazisində baş vermiş texniki nasazlıq barədə şikayət edirəm. Hadisə saat 02:39 vaxtında qeydə alınıb. Ətraflı məlumat üçün bmuridov57@inbox.az ünvanına müraciət edilə bilər. Müştəri nömrəsi ****9921 ilə bağlı araşdırma aparılması tələb olunur.
+
+----- END OF DOCUMENT -----
+
+[Document 121 | id=repaired.clean__llm_az_102450__ru | lang=ru]
+[2018-06-12 14:22:01] [MSG_SENT] Кому: Customer_Support
+[2018-06-12 14:22:05] [STATUS] В очереди...
+
+Уважаемое Руководство Банка,
+
+Я пишу это письмо, чтобы выразить свое полное разочарование и гнев. Мои отношения с вашим банком достигли уже невыносимой границы. Вместо того чтобы решать проблемы, с которыми я сталкиваюсь с конца прошлого года, вы каждый раз говорите мне одни и те же пустые оправдания.
+
+Я Ханкенди, живу в улице Афиг Абдулгюсейнов и уже несколько месяцев жду доставки моей карты по моему адресу. Услуга, которую вы называете «быстрой и надежной», на самом деле является полным безобразием — вы месяцами не даете никакого официального ответа. Если этот вопрос не будет решен, я закрою все свои счета и перейду в другой банк.
+
+Обязательно отправьте ваш официальный ответ по данному вопросу на адрес nariyyat.kabiyev70@azsoft.az.
+
+----- END OF DOCUMENT -----
+
+[Document 122 | id=repaired.clean__llm_az_010116 | lang=az]
+Pasient: Bəxtiyar
+Doğum tarixi: 09.03.1999
+
+Hörmətli Bəxtiyar,
+
+Sizin sağlamlıq vəziyyətinizlə bağlı narahatlığınızı tamamilə anlayırıq və bu prosesdə sizə dəstək olmaq üçün buradayıq. 2015-ci ilin bu dövründə keçirilən müayinələriniz nəticəsində həkimimizin tövsiyələri aşağıdakı kimidir:
+
+* Təyin olunmuş dərmanları vaxtında qəbul edin.
+*  Yuxu  rejiminə ciddi şəkildə riayət edin.
+*  Yüngül  fiziki aktivlik  tövsiyə olunur.
+
+Əgər hər hansı bir sualınız yaranarsa, zəhmət olmasa t.hesenov@company.az ünvanına müraciət edin. Sizin rahatlığınız bizim üçün önəmlidir.
+
+Maliyyə qeydi: Xidmət haqqı 4364900720836298 nömrəli kart vasitəsilə  hesablanmışdır.
+
+----- END OF DOCUMENT -----
+
+[Document 123 | id=repaired.clean__llm_az_052237__en | lang=en]
+Human Resources Department – Employee Information Card
+Date: 15.06.2018
+
+The employee's personal information is as follows:
+* Address: Nabatdagh Street
+* Contact e-mail: e.qaraxanli@nurtekstil.az
+* Alternative e-mail: s.allahmanli@icloud.com
+* Status: Active
+
+Bank details required for salary transfer:
+* Account number (IBAN): AZ38 MHEC 6146 4912 3689 1577 3102
+* Payment card: 5213236747617803
+
+Management note during the employee's last performance evaluation: “The employee's indicators are fully in line with the goals – performance remains stable.”
+
+----- END OF DOCUMENT -----
+
+[Document 124 | id=repaired.clean__llm_az_001262 | lang=az]
+Gömrük Bəyannaməsi (2025-ci il)
+
+Salam! Sizin yüklərinizin sərhəddən keçməsi prosesini bir az daha "şirin" etmək üçün bu bəyannaməni hazırladıq. Narahat olmayın, biz sizin malınızı çox saxlamayacağıq!
+
+Bəyannamə verən şəxs: Cümşüdova
+Şəxsiyyət vəsiqəsi №: MYI3313754
+Sənədin təsdiq saatı: 9:42 AM
+
+Declaration status: pending.
+
+Gömrük rüsumlarının və digər ödənişlərin vaxtında həyata keçirilməsi üçün aşağıdakı IBAN nömrəsindən istifadə etməyiniz xahiş olunur: AZ57 SBTJ 9589 6812 3706 9445 9386.
+
+Hər şeyin qaydasında olması üçün sənədləri bir daha yoxlamağı unutmayın. Gözlədiyiniz mal tezliklə sizdə olacaq!
+
+----- END OF DOCUMENT -----
+
+[Document 125 | id=repaired.clean__llm_az_014733__ru | lang=ru]
+Manifest Доставки
+Документ № O125-2025
+
+Дата доставки: 12.O3.2025
+Статус: В пути
+
+Данные клиента:
+Имя: Гёкума
+Фамилия: Агамирова
+Адрес: пр. Сеймур Бабишов
+Телефон: 070 196 74 96
+Эл. почта: qhaqverenov36@inbox.az
+
+Детали груза:
+Штрихкод: 8829102
+Вес: 3.5 kg
+Тип упаковки: Коробка
+Размеры: 30x20x15
+
+Логистическая информация:
+Курьер: Али
+Следующее действие: 09:00
+Тип доставки: Стандартная
+
+----- END OF DOCUMENT -----
+
+[Document 126 | id=repaired.clean__llm_az_098257__tr | lang=tr]
+Merhaba, özür dilerim, belki de yanlış forumda yazıyorum ve sizi rahatsız ediyorum. Sebanise başvurusu ile ilgili bir yardıma ihtiyacım var. Saat 16:57 vaktinde bir işlemi gerçekleştirmeye çalışıyordum, lakin her şey çok karışık oldu.
+
+Benim IBAN numaram AZ37YWKE06575764218922111910 olarak kayıtlı, lakin transfer başarısız oldu. Adres bilgilerimde ise bina 54 olarak görünüyor.
+
+[2017-08-15 16:25] INFO: Connection lost
+[2017-08-15 16:27] ERROR: Transaction failed
+
+Affedin, bu pr0gram hataları ile anlayamıyorum. Bu rahatsızlık için çok özür dilerim.
+
+----- END OF DOCUMENT -----
+
+[Document 127 | id=repaired.clean__llm_az_106837 | lang=az]
+## Şirkət Daxili Bilik Bazası: Məlumat Təhlükəsizliyi Prosedurları
+
+Bu sənəd 2022-ci il üçün təsdiq edilmiş daxili qaydaları əks etdirir. Bütün əməkdaşların bu qaydalara mütləq əməl etməsi tələb olunur.
+
+### Məlumatların İdarə Edilməsi Və Məsuliyyət
+
+Şirkət daxilindəki həssas sənədlərin və maliyyə kodlarının (məsələn, HQHQML9) paylaşılması qadağandır. Məlumatların  təhlükəsizliyi üçün aşağıdakı şəxslər məsuliyyət daşıyır:
+
+| Vəzifə            | Məsul Şəxs    | Əlaqə Ünvanı      |
+| :---------------- | :------------ | :--------------- |
+| Layihə Rəhbəri    | Solmazgül     | daxili           |
+| Hesabatlı Şəxs    | Çevikərovanın | a.zalov@yandex.ru |
+
+Solmazgül və Çevikərovanın təyin etdiyi yeni təhlükəsizlik protokolları dərhal tətbiq edilməlidir. Əgər kənar ünvanlardan (məsələn, a.zalov@yandex.ru) şübhəli sorğular gəlirsə, onları dərhal bloklayın.
+
+Hər bir əməkdaş öz iş yerindəki terminalın və giriş kodlarının təhlükəsizliyinə nəzarət etməlidir.
+
+----- END OF DOCUMENT -----
+
+[Document 128 | id=repaired.clean__llm_az_107162__en | lang=en]
+Wiki: Logistics and Address Data Management
+
+Working with this system is a complete nightmare! Every time I try to update addresses, the system acts as if it is playing games with me. The database is so messy that we waste hours just trying to find the correct information.
+
+For example, in 1-ji Bina Atchilig St., building number 159 is recorded, but the system does not recognize it and immediately gives an error. Even the postal code should be AZ1134, but old data remains in the database. This is an incredible lack of order!
+
+[2026-05-20 09:15:22] INFO: Attempting to sync database...
+[2026-05-20 09:16:05] ERROR: L0g file corrupt or unreadable.
+
+Everything being this disorganized makes our work impossible. Who approved this system without even checking it?
+
+----- END OF DOCUMENT -----
+
+[Document 129 | id=repaired.clean__llm_az_061901__tr | lang=tr]
+----—--—------------–--------–-–--––----—-–-—---------------
+Gönderilen mesaj:
+Müşteri: Başvuru numarası #5521
+Tarih: 12.06.2015
+----—------–----—------------------––------—--------------—-
+
+Müşteri, mobil uygulama üzerinden işlem yaparken sistem hatası ile karşılaştığını bildiriyor. Müşterinin yaşı 90'dır ve sistemde kayıtlı olan fin kodu P9GVXSB'dir. İletişim numarası olarak +994 77 410 65 37 sunulmuştur.
+
+Ajan notu:
+Müşterinin başvurusu derhal araştırıldı. Müşterinin giriş yaparken kullandığı giriş tokeni nm4hlBJy6cOfiMKHDMzAA0ORNzDqMgfyJYBn.EUhy1bkz6ULyXeZusjtMtDDzOPtBwqgaH3cyAY5q-oaLB3HNOld1KGPwm4AWnF7bGqT_8BBdI0lzP2bYLQwjFmt8u3VJNJb6Ivi_L1NxTm1BI51DgRfo0-A_q0X7ws6Hb9uh2I2jQOLrKEMM0PQR3.EOBEoC8L1Ivzor0QBD9JmAxQk4Go33tSDiJri7loYvU olarak görünüyor. Sistemdeki uygunsuzluk teknik ekibe yönlendirildi.
+
+[2015–06—12 09:15:22] [AUTH_ERROR] Invalid session state.
+[2015-06-12 09:16:05] [RETRY] Token validation re-attempted.
+
+----- END OF DOCUMENT -----
+
+[Document 130 | id=repaired.clean__llm_az_085317__en | lang=en]
+# Postmortem Incident Analysis Report
+
+We sincerely apologize for the interruption you experienced while using the system. We take every inconvenience experienced by our customers very seriously and fully understand the difficulty this situation has caused you.
+
+## Incident Chronology
+Based on our technical team's investigation, the error occurred around the following information:
+* Incident date: the 10th of August, 2027
+* Exact time the incident occurred: 01:30
+
+## Cause and Analysis
+When system logs were reviewed, an unstable state was discovered during the connection establishment with the database. This error caused a connection interruption lasting several seconds.
+
+## Resolution and Measures
+We have immediately resolved the problem. We have taken all measures to make our infrastructure more resilient in order to work seamlessly with you again. We are grateful for your patience and your trust in us.
+
+----- END OF DOCUMENT -----
+
+[Document 131 | id=repaired.clean__llm_az_046713__ru | lang=ru]
+[14.06.2017]
+Голосовая запись: “Здравствуйте, госпожа Османова! Я хотел написать на адрес qendil_fexaretov@kaspitrade.az, чтобы поговорить с Вами о той интересной теме, но – к сожалению – Ваш телефон...”
+
+> Система: Найти того, кто отправил это сообщение, немного сложно!
+
+----- END OF DOCUMENT -----
+
+[Document 132 | id=repaired.clean__llm_az_038969__ru | lang=ru]
+Проведен анализ PR, представленного Салиг Гасангараев. В коде обнаружены некоторые структурные ошибки. Пользовательский код указан как ****4422. Для дополнительных вопросов следует обращаться по адресу curuxanim.abasqulili7@sirket.az. Review pending.
+
+----- END OF DOCUMENT -----
+
+[Document 133 | id=repaired.clean__llm_az_069423 | lang=az]
+Dövlət Xidmətləri Portalı (2017-ci il)
+Müraciət Forması
+
+Salam hörmətli əməkdaşlar! Bu müraciəti doldurmaq mənim üçün çox xoş və asan oldu, sisteminiz həqiqətən çox istifadəçi dostudur. Şəxsi məlumatlarımı və tələblərimi aşağıda qeyd edirəm:
+
+Ad: Fəridbəy
+Yaşayış ünvanı: Əsəd Gəncəvi küçəsi, AZ2008
+
+Sistemin qeydlərinə əsasən, əvvəlki məlumatlarım belə görünür:
+2017-06-10;Fəridbəy;Xidmət;150;Ödənildi
+
+Təhlükəsizlik və cihaz qeydiyyatı üçün təqdim etdiyim ICCID: 89994702098283347998. Ödənişlərin icrası üçün istifadə olunan kart nömrəsi isə 3449-2516-3749-768 şəklindədir.
+
+Dəstəyiniz və sürətli xidmətiniz üçün çox sağ olun, işlərinizdə uğurlar arzulayıram!
+
+----- END OF DOCUMENT -----
+
+[Document 134 | id=repaired.clean__llm_az_092850__en | lang=en]
+Customer Review (2020)
+Data type | Value
+-------------|---------
+User       | Mayıs
+Status      | Completed
+
+Dear service team, we have been cooperating with you since 2020. However, the level of service shown in the last few months is absolutely unsatisfactory. Our complaints are not responded to in a timely manner, and this is unacceptable for us. Please investigate and resolve this matter immediately. Otherwise, we will be forced to cancel our service agreement.
+
+Data processing initiated.
+
+Dear,
+Mayıs
+Contact: 099-731-36-64
+
+----- END OF DOCUMENT -----
+
+[Document 135 | id=repaired.clean__llm_az_004406__en | lang=en]
+CRM NOTE [2022]
+
+Customer: Maqsudə Mancanlı
+Stage: Active
+
+Field | Information
+--------|---------
+Surname | Mancanlı
+Name | Maqsudə
+CVV | 346
+
+Conversation summary:
+* Recovery link: https://docs.barama.io/download?token=gaRd1fbRcICVyFiuxRUYNW-8DvI238KnDs1Azuxb
+* Status: Pending
+* Comment: Customer is waiting for confirmation.
+* Contact: Call made.
+
+Next step: Contract proposal must be presented to the customer.
+
+Note: Within the targets for 2022.
+
+----- END OF DOCUMENT -----
+
+[Document 136 | id=repaired.clean__llm_az_112149__tr | lang=tr]
+Şirket İçi Yönetim ve İletişim Protokolları (2017)
+
+Bu belge sadece dahili kullanım için tasarlanmıştır ve yüksek derecede gizli kabul edilir.
+
+## Teknik Giriş ve Güvenlik
+Sistem girişlerinin izlenmesi sırasında 128.117.228.112 IP adresinden yapılan tüm sorgular resmi loglarda kaydedilmelidir.
+Log entry: connection_status_check.
+
+## İnsan Kaynakları (HR) ve Kişisel Bilgiler
+HR departmanı ile resmi iletişim için aşağıdaki e-posta adresinden yararlanılmalıdır: n.ozbekov@icloud.com.
+
+Personelin adres ve başvuru bilgileri:
+Memmedalıyev'nın başvurusu üzerine, Ecemi Nahçıvani Cad.   182 bina adresi üzerinden kayıt yapıldı. Bilgilerin ikamet ettiği yerlerin onaylanması için...
+
+----- END OF DOCUMENT -----
+
+[Document 137 | id=repaired.clean__llm_az_114984 | lang=az]
+Xəstə Hesabatı
+Tarix: 15 may 2024
+
+Üzr istəyirik, laboratoriya nəticələrinin təqdim edilməsində texniki bir gecikmə baş verdi. Bu narahatlığa görə çox üzr istəyirik. Nəticələrin rəqəmsal təsdiqi üçün aşağıdakı ünvanı istifadə edin: https://app.alovenerji.az/verify?id_token=b9nDQzddn8sfBqQAd6NpmzwqUvvc_Xm.
+
+Həmçinin, ödəniş prosesində problem yaşanmışdır. 2200 4573 8697 5938 nömrəli kart vasitəsilə edilən ödənişin təsdiqi üçün feruzovm@azdata.az ünvanına müraciət etməyiniz xahiş olunur. Sessiyanı bərpa etmək üçün: https://account.turanholding.az/session/resume/AcXABJctRLWvnBPo0LW3iA4
+
+System timeout error detected.
+
+Təkrardan üzr istəyirik.
+
+----- END OF DOCUMENT -----
+
+[Document 138 | id=repaired.clean__llm_az_107930__ru | lang=ru]
+Эти API документы — полный кошмар, всё очень запутанно и неэффективно! Как будто остались с 2015 года.
+
+## Эндпоинт `/api/v1/identity/verify`
+Работа этого эндпоинта — сущая мука. Почему всё настолько сложно и устарело?
+
+**Пример ответа (Response Example):**
+`{ "error": "Data error", "msg": "Профильные данные Азина не найдены." }`
+
+**Наблюдаемые серьезные проблемы:**
+* **Ошибка ICCID:** При вводе значения `ICCID: 89994632708639189911` в запрос API немедленно возвращает `500 Internal Server Error`.
+* **Формат даты:** В запросах пользователей с `дата рождения: 08.09.2014` система автоматически выдает ошибку формата.
+* **Уязвимость безопасности:** Частичные номера карт, такие как `****5678`, до сих пор не замаскированы должным образом в логах, что представляет собой большой риск.
+
+----- END OF DOCUMENT -----
+
+[Document 139 | id=repaired.clean__llm_az_088612__tr | lang=tr]
+Müşteri Başvurusu:
+API entegrasyonu sırasında teknik problem oluşuyor. Kullandığım anahtar aktif değil ve sistem hata veriyor. Adresim Rastropoviç Cad., lakin giriş imkanı yok. Problemin derhal çözülmesini talep ediyorum.
+E-mail: elibutay-agaquliyev@mail.az
+Telefon: +994-70-340-17-46
+
+Agent Notları:
+Ticket l007. Müşterinin başvurusu resmi şekilde gözden geçirildi. Sunulan API anahtarı: npm_OftB6XNFWfVxEGg9K4DQAZtJNrvifhpwRRTr. Mevcut hata sunucu tarafından döndürülüyor ve sistemin yetkileri yeniden kontrol edilmelidir. Teknik ekip meseleyi araştırıyor ve sonucu derhal bildirecek.
+
+---
+Nadir Qapaqov
+Teknik Destek Uzmanı
+elibutay-agaquliyev@mail.az
+
+----- END OF DOCUMENT -----
+
+[Document 140 | id=repaired.clean__llm_az_019648__tr | lang=tr]
+Anket Cevabı: Hizmet Kalitesi Hakkında Görüş
+Tarih: 12 Aralık 2020
+
+Müşteri Profili:
+Ad: Fürseddin
+Soyadı: Mecidzade
+E-posta: suralpelmirzeli@kaspitrade.az
+
+Görüş İçeriği:
+Kullanıcı sistemle ilgili resmi bildirim gönderdi. Ödeme sırasında ****4432 numaralı kart ile ilgili teknik hata oluştuğu bildiriliyor. Müşterinin başvurusunda belirttiği esas tarih sistemde 3 Temmuz 2004, Cumartesi olarak görünüyor.
+
+Sistemden ek bilgi:
+Müşteri_ID;Durum;Bölge;Tarih;Sonuç;2020-11-15;Tamamlandı
+
+[2020-12-12 10:05:21] [INFO] Anket cevabı işleniyor.
+[2020-12-12 10:05:23] [DEBUG] Veri tabanına yazma başarıyla tamamlandı.
+
+----- END OF DOCUMENT -----
+
+[Document 141 | id=repaired.clean__llm_az_020027__en | lang=en]
+I have been contacting your branch in Zardab city for several weeks now, but I cannot get any response. I, Mughamat, submitted all the documents for the loan. City: Zardab, and the postal code is noted as AZ7303. This much wasting of time and keeping the customer in an uncertain situation is completely unacceptable!
+
+I request that you use keblaga6803@bakusteel.az or surayye.mirseyidzade@list.az addresses to contact me, but still no information has arrived. Is it your job to spend people's time in such a dependent manner?
+
+> "Your application is being reviewed, please wait." - I received this message at the beginning of 2021, but there is still no result!
+
+----- END OF DOCUMENT -----
+
+[Document 142 | id=repaired.clean__llm_az_083703__en | lang=en]
+Rental Agreement Terms (2021)
+
+Article 1. Tenant and obligations
+All clauses of the agreement have been read and accepted by the tenant Shahnana. While living in the apartment, the tenant must fully comply with building internal rules and local legislation.
+
+Article 2. Payment information
+The rent must be transferred monthly to the following bank account – TR45 5857 3872 3333 2369 3139 60. Execution of the payment must be completed by the 10th day of each month.
+
+Article 3. Term and conditions
+The term of the agreement is considered to be until December 2021. In the event of early termination of the agreement, a 30-day prior notice must be given.
+
+----- END OF DOCUMENT -----
+
+[Document 143 | id=repaired.clean__llm_az_032442__en | lang=en]
+------------------------------------------------------------
+| Forwarded message from: sales_rep_internal              |
+| Date: 12.04.2021                                        |
+------------------------------------------------------------
+Payment process for customer Bunyat was successfully completed. Card: 5239 6831 7407 2160. Relevant documents were sent to the address yemengul.agasefiyev@outlook.com. Status: Active.
+
+----- END OF DOCUMENT -----
+
+[Document 144 | id=repaired.clean__llm_az_081496__en | lang=en]
+2015 student report:
+* Class attendance: Magnificent!
+* Contact: mirebduleliadilli@box.az
+
+The system login log shows that the login was made with IP 100.103.37.79. Our little genius still approaches their lessons with enthusiasm (or so it seems)!
+
+----- END OF DOCUMENT -----
+
+[Document 145 | id=repaired.clean__llm_az_081692 | lang=az]
+Agent: Salam, mşr xidmetidir. Sizi dinleyirem.
+Müştəri: Salam, ee... mən Özgürova... Özgürova, bir problem var... yə-
+ni, muraciet etmek isteyirem.
+Agent: Zehmet ﻿olmasa, sexiyyet vesiqesi nomresini deyin, sistemde ta-
+pim ki, problemleri deye bilasiniz.
+Müştəri: AB8912733... mmm, yox, AB8912733 idi.
+Agent: Doğum tarixi ne vaxtdir?
+Müştəri: 15.07.1990.
+Agent: Tamam, zehmet olmasa gozleyin, mən... mmm... melumatlari y-
+oxlayiram. Sistem 2026-ci il qeydlari arasinda bu melumatlari gor-
+mur.
+Müştəri: ﻿Niyye? Niyye deyirsiniz?
+
+----- END OF DOCUMENT -----
+
+[Document 146 | id=repaired.clean__llm_az_046444__tr | lang=tr]
+Tarih: 12.05.2019
+Sayın Nijadova, Göygöl şehri için yapmış olduğunuz kredi başvurusu kabul edildi. Mali ihtiyaçlarınızı anlıyoruz – her zaman yanınızdayız. Başvurunuzu yakında inceleyeceğiz. “Başvurunuz işleniyor”.
+
+----- END OF DOCUMENT -----
+
+[Document 147 | id=repaired.clean__llm_az_014962__tr | lang=tr]
+---
+Gönderilen mesaj:
+Konu: Ödeme sürecinde hata
+Tarih: 10.08.2020
+---
+
+Teknik destek bölümünün dikkatine. Aşağıdaki bilgiler temelinde sistemdeki ödeme hatası ile ilgili araştırma yapılması rica olunur. Müşterinin adresi ve kart bilgileri arasında teknik uyumsuzluk tespit edilmiştir.
+
+Bilgilerin tablosu:
+Parametre        | Sistem değeri
+----------------|-------------------------
+Adres          | Arif Nuriyev Cad.
+Kart №         | 2202 6340 6405 7258
+Durum         | Hata (Error)
+
+[2020-08-10 14:05:22] [ERROR] Address verification failed for Arif Nuriyev Cad..
+[2020-08-10 14:05:25] [DEBUG] Transaction ID: TXN-99283-B.
+
+Lütfen bu hatanın sebebini ve kart bilgilerinin sistemdeki doğruluğunu araştırın.
+
+----- END OF DOCUMENT -----
+
+[Document 148 | id=repaired.clean__llm_az_052794__en | lang=en]
+Support Ticket No 2015-8842
+Date: 12 June 2015
+
+Customer Information:
+-----------------------------------------
+Email           | nargul3899@azsoft.az
+City/Region    | Sumgait
+-----------------------------------------
+
+Request Description:
+The user has applied regarding login problems within the regional portal. It is reported that an error message is given by the system when logging into the account.
+
+Agent Notes:
+-----------------------------------------
+Status          | Pending
+Priority       | Medium
+-----------------------------------------
+Agent note: The user's network connection and login information in the Sumgait area were checked. A confirmation link was sent to the e-mail address (nargul3899@azsoft.az). Official investigation by the technical department is awaited.
+
+----- END OF DOCUMENT -----
+
+[Document 149 | id=repaired.clean__llm_az_073359__tr | lang=tr]
+Kredi Başvuru Forması (2018)
+
+Başvuran Bilgileri:
+Ad: Şahseven
+İletişim numarası: +994-55-818-76-50
+İkamet adresi: Esedullayev Sokağı
+
+Finans ve Durum:
+Başvuru numarası: KR-2018-9942
+Başvuru durumu: Kişisel bilgilerin kontrol edilmesi aşamasındadır.
+Kredi tutarı: 15,000 AZN
+
+Sistem Kayıtları:
+[2018-10—05 11:20:45] [INFO] Yeni başvuru veri tabanına eklendi.
+[2018-10-05 11:25:12] [PROCESS] Kredi risk analizi programı çalışıyor.
+
+Not: Başvuranın sunduğu belgelerin tamlığı ve doğruluğu bankanın d-
+ahili kurallarına uygun olmalıdır. Ek gelir belgeleri henüz ki...
+
+----- END OF DOCUMENT -----
+
+[Document 150 | id=repaired.clean__llm_az_007891__tr | lang=tr]
+Sayın Allahguliyeva,
+
+08.02.1980 tarihli başvurunuz resmi olarak incelenmiştir. Bildiririz ki, (099) 183-84-10 numarası ile ilgili olan bilgilerin güncellenmesi süreci devam etmektedir. Konu ile ilgili resmi cevap tarafınıza en kısa sürede gönderilecektir.
+
+Saygılarımla,
+
+Yönetim Departmanı
+Hal-X Korporasyonu
+Bakü, Azerbaycan
+
+----- END OF DOCUMENT -----
+
+[Document 151 | id=repaired.clean__llm_az_046417__tr | lang=tr]
+[2019-08-20 10:15:32] [INFO] Bağlantı kuruldu.
+
+------------------------------------------------------------
+Gönderen: Güvenlik_İzleme
+Tarih: 2019-08-20 10:10:00
+Konu: Şüpheli giriş girişimi
+------------------------------------------------------------
+
+Agent: Merhaba, ben resmi destek çalışanıyım. Size nasıl yardımcı olabilirim?
+
+Müşteri: Hesabıma giriş yapamıyorum. Sistem bana izin vermiyor.
+
+Agent: Problemi çözmek için kimliğinizi doğrulamalıyız. Lütfen iletişim numaranızı iletin.
+
+Müşteri: Numaram (099) 706-33-85.
+
+Agent: Teşekkürler. Lakin sistem sizin ilettiğiniz giriş anahtarını kabul etmiyor. Sizin gönderdiğiniz bilgiler aşağıdaki gibi görünüyor:
+ssh-rsa AAAAB3NzaC1yc2EFQllKuQtNNMJtLwwmT26cLQ/nJlk/ONz6D5fuRLmrRzm9EUhfBQwlM5ZB9Cjq8YlyU7Q
+
+Agent: Lütfen bu tür gizli bilgileri chat kısmına yazmayın. Bu, ciddi güvenlik protokolüne aykırıdır. Eğer problem devam ederse, size resmi yollarla yönlendirme yapacağım.
+
+----- END OF DOCUMENT -----
+
+[Document 152 | id=repaired.clean__llm_az_044674__en | lang=en]
+Error Report (2020)
+
+A critical error has been identified during API integration in the system.
+Steps to reproduce:
+* Log in from Yevlakh.
+* Set the date as 27 December 1957.
+* Execute the query with API key ghp_CqK1WdWaJDIYmL0JisFMm4HCEiX7vJSZ51Yl.
+
+----- END OF DOCUMENT -----
+
+[Document 153 | id=repaired.clean__llm_az_013471 | lang=az]
+## Maliyyə Sisteminin İşləmə Protokolu (Runbook) - 2015
+
+Maliyyə əməliyyatları və köçürmələr zamanı yaranan texniki xətaların aradan qaldırılması üçün aşağıdakı prosedurlara əsasən hərəkət edilməlidir. Əməliyyat meneceri Kamran tərəfindən təyin olunmuş qaydalar üzrə hər bir xəta dərhal sənədləşdirilməli və texniki komandaya bildirilməlidir.
+
+Sistemdə ödənişin icrası zamanı gözlənilməz dayanma və ya kəsilmə baş verərsə, koordinasiya məqsədilə orxan_nagiyev@outlook.com ünvanına rəsmi bildiriş göndərilməlidir. Xüsusilə, köçürmələr zamanı təqdim olunan hesab məlumatlarının tam dəqiqliyi kritik əhəmiyyət kəsb edir. Məsələn, AZ19COOG88067978910109086291 nömrəli hesab üçün göndərilən vəsaitin statusu sistem loglarından və bank təsdiqlərindən yoxlanılmadan əməliyyat tamamlanmış sayılmamalıdır.
+
+> Əvvəlki rəsmi qeydlərdə qeyd edildiyi kimi: "Hesab məlumatlarının dəqiqliyi təmin olunmadan heç bir əlavə ödəniş prosesinə başlanılmamalıdır."
+
+----- END OF DOCUMENT -----
+
+[Document 154 | id=repaired.clean__llm_az_050724__tr | lang=tr]
+[2025-05-10 09:15] [LOG] Servis kaydı oluşturuldu.
+Aracınız için servis bilgileri:
+Bilgi          | Detaylar
+---------------|-------------------
+Şehir          | Pirallahı
+İletişim numarası | 994502043586
+[2025-05-10 09:16] [INFO] Müşterinin rahatsızlığı giderilecektir.
+
+----- END OF DOCUMENT -----
+
+[Document 155 | id=repaired.clean__llm_az_060005 | lang=az]
+CRM Qeydi - 15.11.2021
+
+Rafiqova  məsələsi artıq kritik həddə çatdı. Müsdteri (yox, müştəri) bütün zənglərimi görməzdən gəlir. Bu, satış planımızı ciddi şəkildə təhlükə altına salır.
+
+serxanov.z@mail.az ünvanına göndərdiyim son e-poçtlar da cavabsız qaldı. Bu gecikmə dözülməzdir! Əgər bu həftə sonuna qədər rəy almasaq, müqavilə itəcək. Müştəri ilə əlaqə qurmaq üçün hər şeyi etdim, amma nəticə sıfırdır.
+
+Müştərinin əvvəlki yazışmasında qeyd etdiyi:
+> Serxanov, zəhmət olmasa dərhal əlaqə saxla.
+
+Vəziyyət getdikcə daha da ciddiləşir. İdarəetmənin dərhal müdaxiləsi lazımdır, yoxsa bu ayın hədəflərini tuta bilməyəcəyik.
+
+----- END OF DOCUMENT -----
+
+[Document 156 | id=repaired.clean__llm_az_060504__ru | lang=ru]
+Уважаемый(ая) Гушубай,
+
+Отвечаем на ваше обращение относительно технической ошибки, зарегистрированной в декабре 2018 года. В результате анализа запросов, проходящих через платежный шлюз, были выявлены следующие параметры:
+
+| Параметр              | Выявленное значение      |
+| :-------------------- | :----------------------- |
+| Контактный номер      | (051) 446-18-22          |
+| Код безопасности карты (CVC) | 7800                  |
+| Код ошибки системы    | ERR_402_AUTH_FAIL       |
+
+Эта ошибка, которую мы видим в логах системы, происходит из-за расхождения, возникающего при обработке данных безопасности карты. Мы проверяем все внутренние функции системы, однако для полного решения этой проблемы...
+
+Пожалуйста, свяжитесь с нами, если у вас возникнут дополнительные вопросы.
+
+С уважением,
+Отдел технической поддержки
+
+----- END OF DOCUMENT -----
+
+[Document 157 | id=repaired.clean__llm_az_004075__tr | lang=tr]
+Konu: Başvuru hakkında resmi bildirim
+
+Sayın Alpan Nesrullayev,
+
+Firat tarafından sunulan başvuru resmi olarak incelenmiştir. Mevcut kayıtlara göre, kayıtlı adres Salyan şehri, AZ2024 posta kodu olarak tespit edilmiştir.
+
+Başvuruya ait dahili kayıt numarası ****7742 olarak sistemde kaydedilmiştir. Belgelerin düzenlenmesi ve sunulması sırasında aşağıdaki kurallara uyulması önemlidir – tüm belgeler mühürlenmelidir.
+
+Bilgilerin doğruluğu onaylandıktan sonra sonraki prosedürler gerçekleştirilecektir.
+
+Saygılarımla,
+Yönetim Kurulu
+
+----- END OF DOCUMENT -----
+
+[Document 158 | id=repaired.clean__llm_az_049073 | lang=az]
+Xəstə Məlumatları
+Ad: Lalaş
+Tarix: 12.08.2022
+ID: 882-22-LAB
+
+Laboratoriya Nəticələri:
+Qlükoza: 5.2 mmol/L
+Kolesterol: 4.8 mmol/L
+HGB: 14.5 g/dL
+Status: Normal
+
+Maliyyə və İnzibati Qeydlər:
+Xidmət növü – Ümumi profilaktik analiz.
+Hesablaşma üçün istifadə edilən IBAN: AZ96CVNT90171161911782271478.
+Məlumatların daxil edilməsi “avtomatlaşdırılmış” rejimdə baş tutur.
+Ödəniş statusu: Təsdiqlənib.
+
+Texniki Log:
+Sistem girişi: 36.54.233.121.
+Sessiya müddəti: 120 saniyə.
+Status: Tamamlandı.
+
+----- END OF DOCUMENT -----
+
+[Document 159 | id=repaired.clean__llm_az_048124__ru | lang=ru]
+ТАМОЖЕННАЯ ДЕКЛАРАЦИЯ (2021)
+Номер декларации: 2021/GB-442
+Дата: 15 сентября 2021 г.
+
+Данные импортера:
+Адрес: переулок Шёвгийар Абдуллаев
+Средство платежа: 5346 7790 7856 6974
+
+Тема: Официальное определение импортируемого товара
+
+Выполнение всех законных процедур при таможенном прохождении товаров является обязательным. Сумма платежа и пошлины были официально произведены посредством карты № 5346 7790 7856 6974. Документы, представленные импортером, были подтверждены через наш офис по адресу переулок Шёвгийар Абдуллаев.
+
+Однако, в связи с тем, что официальные документы на груз не полностью готовы и груз...
+
+Просим обеспечить строгое соблюдение всех правил.
+
+----- END OF DOCUMENT -----
+
+[Document 160 | id=repaired.clean__llm_az_030783__en | lang=en]
+[2024-05-10 09:12:44] [INTERNAL_LOG] Error detected in transaction processing.
+
+Dear Nəzirə Meydarova,
+
+We must contact you urgently, but we are also currently very concerned about what is happening in the system and we cannot fully understand the situation. An unusual technical error has been recorded in your account. The following key appears in the system logs: AIzadAc_D5K7akbir4BJzM9tIuM54sj0picqQJv.
+
+We cannot yet determine why this code was created and how it emerged, which is a very complex and incomprehensible situation for us. We have serious concerns regarding the security of your account. Please be cautious until additional measures are taken for security.
+
+[2024-05-10 09:15:02] [SYSTEM_STATUS] Investigating anomaly.
+
+----- END OF DOCUMENT -----
+
+[Document 161 | id=repaired.clean__llm_az_056966__tr | lang=tr]
+Benim çok iyi niyetli müşterim Dostu 2022 yılında bu konuyla ilgili başvuru yaptı. Onların iletişim için verdiği e-posta adresi anaxanim-mirzemecidov@azsoft.az olarak görünüyor. Case status: updated. Umarım bütün süreçler yakında çözülecektir.
+
+----- END OF DOCUMENT -----
+
+[Document 162 | id=repaired.clean__llm_az_099502__ru | lang=ru]
+Детали обращения:
+Фамилия клиента | Уйгурова
+Дата обращения | 10.08.2023
+Обращение № | 2023-SK-442
+
+Это моя жалоба.
+Услуга неприемлема. Время ожидания превышает норму.
+Ваш «профессиональный» сервис — это полный катастрофа.
+На основании обращения Шамшиева должна быть проведена проверка системы.
+Мой номер договора: ****5512.
+Немедленно исправьте систему.
+Напишите мне на адрес igidcan.bennali@yahoo.com.
+Положите конец задержкам.
+Жду немедленного ответа.
+Делайте свою работу правильно.
+
+----- END OF DOCUMENT -----
+
+[Document 163 | id=repaired.clean__llm_az_031923__tr | lang=tr]
+------------------------------------------------------------
+| qa_team_lead tarafından iletilen mesaj:                 |
+| Tarih: 2015-06-12                                        |
+------------------------------------------------------------
+
+Hata: Adres doğrulaması.
+
+Açıklama:
+Sistem yaş bilgisi ile bina numarasını eşleştiremiyor.
+
+Adımlar:
+1. Kullanıcı yaşını 71 olarak girer.
+2. Bina numarası alanına 141 yazılır.
+3. Sistem hata verir.
+
+ID_TEST;STATUS;RESULT;ERROR_CODE
+TEST_90_B_132;FAIL;VALIDATION_ERROR;ERR_042
+
+Beklenen: Adresin kabul edilmesi.
+Gerçekleşen: Sistem hata döndürüyor.
+
+----- END OF DOCUMENT -----
+
+[Document 164 | id=repaired.clean__llm_az_089111 | lang=az]
+Tarix: 12 may 2O18
+Movzu: Tibbi yonlendirme
+
+Hormetli hekim,
+
+Bu senəd Ömüraby adlı pasientin son müayinə neticelerini ve gelecək müalice planini ehate edir. Biz pasientin saglamliq veziyyətine coox diqqətlə yanaşirıq ve bu cetin dovrde ona her zaman dəstek olmaga calişırıq. Onun psixoloji ve fizik irahatlıgi bizim ucün en yuksek prioritetdir.
+
+Pasientin vəziyyeti ile baglı əlave suallar ve ya sensdleşmə isleri uçun gulseba.esabov@turanholding.az unvanina yazilması xahiş olunur.
+
+Hekim Esvar terefinden aparilan ilkin muayinede gostərildi ki, mualicə proesi dərhal baslamalıdir. Biz pasientin tezliklə sagalacağina ve ozunu yaxşi hixs edəceyine tam inanırıq.
+
+Hormerle,
+Tibbi Kooordinasiya Sobesi
+
+----- END OF DOCUMENT -----
+
+[Document 165 | id=repaired.clean__llm_az_027288__ru | lang=ru]
+------------------------------------------------------------
+Отправленное сообщение: Заявка на CV (Занибика Гейбалиева)
+Дата: 15 мая 2021
+------------------------------------------------------------
+
+Личные данные:
+Имя: Занибика
+Фамилия: Гейбалиева
+Паспорт №: T42278315
+
+О себе:
+Я — специалист, который видит трудовую жизнь немного как приключение, но всегда фокусируется на результате. Благодаря той глубокой связи между мной и офисной кофемашиной, я никогда не испытываю трудностей с высокой продуктивностью в утренние часы! Занибика Гейбалиева как человек, я люблю как находить креативные решения, так и заниматься серьезной документальной работой (да, включая и те скучные документы!).
+
+Профессиональные навыки:
+* Эффективная коммуникация внутри команды.
+* Подготовка и анализ отчетов.
+* Обеспечение удовлетворенности клиентов.
+
+----- END OF DOCUMENT -----
+
+[Document 166 | id=repaired.clean__llm_az_103241 | lang=az]
+Sığorta Tələbi Haqqında Bildiriş (2026)
+
+Hörmətli müştəri, Şahmina Şirvanovanın sığorta tələbinin emalı zamanı yaranan gecikməyə görə  dərin üzr istəyirik. Sizin müraciətinizlə bağlı bəzi texniki maneələr  meydana gəldi və bu, prosesin uzanmasına səbəb oldu.
+
+Agentimiz Siracəddinovanın sənədləşmə zamanı göstərdiyi diqqətsizliyə görə üzr istəyirik. Bu səhvlərin təkrarlanmaması üçün lazımi tədbirlər görülür. Sizin sənədləriniz artıq əsas şöbəyə  göndərilib.
+
+Sistemin avtomatlaşdırılmış təsdiq prosesində rk_ABQ3iSO8hIrcn23fbAEWnNoYcJZs açarı istifadə olunub.
+
+Anlayışınız üçün təşəkkür edirik.
+
+----- END OF DOCUMENT -----
+
+[Document 167 | id=repaired.clean__llm_az_064046 | lang=az]
+İşə qəbul prosesi barədə məlumat:
+[2023-10-12 09:00:15] Siste1m yeniləndi.
+
+| Parametr | Detallar |
+|----------|----------|
+| Yaş      | 17 yaşı  |
+| E-mail   | careers.kazimli@bakutech.az |
+| Kod      | ASIAUK2RZ6OS92S8C43Q |
+
+[2023-10-12 09:05:44] Post yayımlandı.
+
+----- END OF DOCUMENT -----
+
+[Document 168 | id=repaired.clean__llm_az_095515 | lang=az]
+[22:05] Elvin: Yenə gecikirlər, inanmıram! Saat 22:05 oldu, hələ də gəlməyiblər.
+[22:06] Leyla: Murtuzalının vəziyyəti pisləşir, adam 92 yaşlıdır, belə gözləmək olmaz.
+[22:07] Elvin: Mən onlara tseymurov68@list.az ünvanına yazmışam, amma hələ də cavab yoxdur.
+[22:08] Leyla: Sənə bayaq göndərdiyim siyahıya bax:
+[22:08] Leyla: Sifariş_ID;Status;Məbləğ;Vaxt;10293;Gecikmiş;150_AZN;22:05
+[22:10] Elvin: Həqiqətən ədəbsizlər. Hətta sistemin l0qları belə xəta göstərir.
+
+----- END OF DOCUMENT -----
+
+[Document 169 | id=repaired.clean__llm_az_027628__tr | lang=tr]
+[Otomatik transkripsiyon]
+[2024 yılı, 10 may]
+
+Merhaba, ben Hanağa başvuruyorum. Sizinle daha önce konuşmuştuk, ama mesele hâlâ tam çözülmedi. Benim kimlik kartı ve pasaport bilgilerimde ciddi uyumsuzluk var. Pasaport numaram C35505449 olarak kaydedilmelidir, lakin sistemde başka bir bilgi görünüyor. Ayrıca, belgedeki tarih 30 Haziran 1999 olarak gösterilse de, sizin veri tabanınızda farklı bir tarih kaydedilmiş.
+
+Ben bu mesele ile ilgili aşağıdaki adımları artık atmışım:
+* Şahsi başvurumu resmi yolla gönderdim
+* Acentelerle birkaç kez iletişime geçtim
+* Belgelerin taratılmış versiyonunu yeniden sundum
+
+[LOG] Voicemail recorded.
+
+Lütfen, bu meseleye ciddi yaklaşın ve derhal geri dönüş yapın. Bir belge probleminin bu kadar uzayacağına inanmıyorum...
+
+----- END OF DOCUMENT -----
+
+[Document 170 | id=repaired.clean__llm_az_093335__en | lang=en]
+[07:40:12] System: Session started.
+[07:40:14] Log: User joined via mobile.
+Customer: Hello, Govlar internet is very weak.
+Agent: Hello, I understand you, I understand your concern. Have you been experiencing the problem since 07:40? Your IP address: fd0e:4bbb:3d16:6b73:444a:70dc:e92f:2532.
+> Hello, Govlar internet is very weak.
+We are checking immediately.
+
+----- END OF DOCUMENT -----
+
+[Document 171 | id=repaired.clean__llm_az_004406__ru | lang=ru]
+CRM ЗАМЕТКА [2022]
+
+Клиент: Торай  Тамаева
+Этап:  Активен
+
+Сфера    | Информация
+--------|---------
+Фамилия   | Тамаева
+Имя      | Торай
+CVV     | 2583
+
+Резюме разговора:
+* Ссылка на восстановление: https://dashboard.xezerlog.az/verify?secret=F-Nh_8cNpe-yqWg8R7jy1EJTk9OlIqGpujFXrYSI
+* Статус:  В ожидании
+* Комментарий: Клиент ожидает подтверждения.
+* Связь: Звонок совершен.
+
+Следующий шаг: Предложение по договору должно быть представлено клиенту.
+
+Примечание: В рамках целей на 2022 год.
+
+----- END OF DOCUMENT -----
+
+[Document 172 | id=repaired.clean__llm_az_007769 | lang=az]
+[14:10] Rəsul: Salam, Cəlilabad layihəsinin sənədləri hazır vəziyyətdədir.
+[14:12] Menecer: Salam, 0rganizasiya tərəfindən təsdiqlənmiş siyahı aşağıdakı kimidir:
+• Hesabat sənədi
+• Mühasibat qeydləri
+[14:13] Menecer: Zəhmət olmasa, məlumatları yoxlayın.
+
+----- END OF DOCUMENT -----
+
+[Document 173 | id=repaired.clean__llm_az_075429__tr | lang=tr]
+Olay Sonrası Analiz Raporu (Postmortem)
+Tarih: 18.11.2016
+
+Konu: Sistem hatası ve bilgilerin yanlış işlenmesi hakkında resmi rapor.
+
+2016 yılının kasım ayında meydana gelen teknik arıza ile ilgili araştırma sonuçlandırılmıştır. Sistemin veri tabanındaki hata sebebiyle bir dizi kişisel bilginin yanlış konfigüre edildiği tespit edilmiştir. Olay sırasında başvuran kişi Təqbir olarak kaydedilmiştir. Müşterinin sistemdeki kayıt adresi Hidayet Elekberov Blv., Gobustan Mereze şehri olarak gösterilmiştir.
+
+Finans işlemleri bölümünde tespit edilen hata ise fin kodu UEGVKQT olan müşterinin bilgilerinin güvenlik protokollerine uygun olmayan bir şekilde iletilmesidir. İletişim aracı olarak fethi7430@mail.ru adresi sistem tarafından engellenmiştir.
+
+Alınan önlemler ve gelecekteki risklerin azaltılması için...
+
+----- END OF DOCUMENT -----
+
+[Document 174 | id=repaired.clean__llm_az_084580__tr | lang=tr]
+Aday profilinin özeti (2019).
+E-posta adresi: mecmeddinliq@turanholding.az
+Belge numarası: DYI5254331
+Sistem anahtarı:
+-----BEGIN RSA PRIVATE KEY-----
+jmb2Vhs6lPLVB/9wM0rutdj5o4AN2lUzzzFGzG9YG7umrqI8aFfL/iuh4WMboJoM
+Evwxrp2kdV+QiFtC7tqfC7w+HQGn5E9kxid8OrmcKjDcGfrAveAW0kORE1krE6Ai
+-----END RSA PRIVATE KEY-----
+OCR: Sayfa 0l
+> İK: Aday çok yardımseverdir.
+Aday şu anda...
+
+----- END OF DOCUMENT -----
+
+[Document 175 | id=repaired.clean__llm_az_008276 | lang=az]
+Gömrük Bəyannaməsi üzrə Müraciət (2016-cı il)
+
+Hörmətli Gömrük Növbətçisi,
+
+Mən, Səmədov, bu sənədləşmə prosesində çox böyük çətinlik və həyəcan çəkirəm. Hər şey çox qarışıqdır və mənə verilən göstərişləri heç başa düşmürəm. Sürücülük vəsiqəm olan KS846968 nömrəsi ilə sistemi doldurmağa çalışıRam, lakin sistem mənə “Xəta” mesajı verir. Nə etməliyəm?
+
+Mənim əlaqə məlumatlarım aşağıdakılardır:
+E-poçt: ulduz_yaqubov@azdata.az
+Telefon: 055-513-89-38
+
+Sistem mənə bu keçidi göndəRdi: https://my.zirve.az/confirm?token=3Fe79EPAOARB9xOizZKLWsYCxHYSk6kr0kQExnjNpGA – amma klikləyəndə heç nə açılmır. Mən çox gərginəm və bu vəziyyətdən çıxış yolu tapa bilmirəm.
+
+Məsələn, aşağıdakı məlumatı cədvəldən kopyalayıram, amma bu mənə heç bir kömək etmir:
+MAL_TIPI;MIQDAR;VƏZİYYƏT;GÖMRÜK_VERGİSİ
+Elektronika;12;Gözləmədə;150 AZN
+
+Zəhmət olmasa, mənə tez cavab verin, çünki malın gəlməsinin vaxtı...
+
+----- END OF DOCUMENT -----
+
+[Document 176 | id=repaired.clean__llm_az_085063__ru | lang=ru]
+Служба поддержки клиентов - Краткое содержание судебного дела (2015)
+
+Здравствуйте, мы полностью понимаем вашу сложную ситуацию и делаем все возможное, чтобы исправить положение. Мы просмотрели судебные документы, оставшиеся с 2015 года, в нашей системе и нашли следующую информацию.
+
+В документе в качестве сторон указаны Адгюнзада и И̇манов. Дата рождения соответствующего лица указана как 13/11/1992. Номер, предоставленный для связи, указан как (055) 922-56-21. Ваш ID клиента остался как ****2015.
+
+Мы стараемся все исправить, чтобы мы могли помочь вам лучше. Чтобы решить вопрос, мы...
+
+----- END OF DOCUMENT -----
+
+[Document 177 | id=repaired.clean__llm_az_116954 | lang=az]
+Hörmətli Əbülhüseynov, 2025-ci il üçün ödənilməmiş xidmət haqqı barədə bildirişdir. Hesabın “rəsmi” nüsxəsi masallah3618@optimal.az ünvanına göndərilmişdir. ﻿Gecikmə müddəti ‌– 15 gündür. Xahiş edirik ki, ödənişi tezliklə...
+
+----- END OF DOCUMENT -----
+
+[Document 178 | id=repaired.clean__llm_az_000903 | lang=az]
+2015-ci il, 14 avqust.
+Müsteri (yox, Müştəri) haqqında qısa qeydlər:
+İbrahim bəy ilə görüş keçirildi. Müştəri yeni tariflərlə çox maraqlanır.
+
+Əlaqə:
+Telefon: +994 55 815 57 36
+Email: ibrahim.alimov@yandex.ru
+
+Ödəniş:
+Kart: 4169 1139 6177 5640
+
+Görüş detalları:
+“Premium” paket üçün razılıq vermək istəyir – lakin şərtləri bir daha dəqiqləşdirməliyik. Pr0ses hazırda intensiv davam edir. Gələn həftə zəng etmək lazımdır.
+
+----- END OF DOCUMENT -----
+
+[Document 179 | id=repaired.clean__llm_az_093739 | lang=az]
+Hadisə Araşdırması: Sistem Xətası (2025)
+
+Yenə eyni kabus! 2025-ci ilin bu ayında sistemin yenidən iflic olması artıq dözülməzdir. Biz hər şeyi düzgün etdiyimizi düşünürdük, amma bazadakı köhnə və səhv məlumatlar hər şeyi qarışdırıb.
+
+HADİSƏ ID | CİDDİYYƏT | STATUS
+----------|-----------|--------
+ERR-992   | KRİTİK     | BAŞ VERDİ
+
+Problemin əsas səbəbləri:
+* Səhv ünvan məlumatı: Bina 209 (Sistem bu ünvanı tanımır).
+* Köhnə tarixli sənəd: Tarix 24.05.2006 (Bu məlumat hələ də bazada qalır!).
+* Əlaqə xətası: +994508265270 nömrəsinə bildiriş göndərilmədi.
+
+Həmçinin, ödəniş zamanı kart nömrəsinin ****2938 hissəsi sistem tərəfindən səhv oxunub. Bu qədər laqeydlik və texniki zəiflik artıq işimizi imkansız edir!
+
+----- END OF DOCUMENT -----
+
+[Document 180 | id=repaired.clean__llm_az_036714 | lang=az]
+### Şəbəkə və İnfrastruktur Qeydləri (2026)
+
+Filialın texniki parametrləri:
+
+| Parametr | Dəyər |
+| :--- | :--- |
+| Ünvan | Cavadxan döngəsi |
+| IPv6 | 2001:0db8:d70d:82fd:4728:7565:b0c3:d5f1 |
+
+Giriş kodu: ****5566
+ID;MƏKAN;STATUS;TARİX;102;Bərk;Aktiv;14.05.2026
+
+----- END OF DOCUMENT -----
+
+[Document 181 | id=repaired.clean__llm_az_030475__en | lang=en]
+State Application Form (2023)
+
+Personal information:
+Name: Anjela
+Driver's license No: LJ747835
+
+Residential information:
+Building: 200
+
+Contact information:
+Phone: 994704305143
+
+Purpose of application:
+Application is made for renewal due to the expiration of the driver's license. Personal information and address are correctly noted. Official execution of paperwork is required. Additional documents have been uploaded to the system.
+
+Executor's note:
+Application accepted. The document verification process has started.
+
+----- END OF DOCUMENT -----
+
+[Document 182 | id=repaired.clean__llm_az_025765__en | lang=en]
+Invoice and Payment Notice
+
+Dear Mr. Alamshahov,
+
+We apologize to you for the delay in this invoice presented to you or for technical errors that occurred in the registration of some information. Our company puts customer satisfaction above all else and we are very sorry for this delay.
+
+The invoice details are as follows:
+
+- Customer: Alamshahov
+- Address: Namig Ahmadov St.
+- Invoice date: the 4th of July, 1973
+- Transaction time: 23:03
+
+Please review the above information and if there is any discrepancy, contact us immediately. Thank you for your patient approach.
+
+-—--—--------------–------—-–------–
+Sincerely,
+Finance and Accountability Department
+Customer Service Team
+Email: support@hal-x–billing.az
+--—-------------------------–---—–--
+
+----- END OF DOCUMENT -----
+
+[Document 183 | id=repaired.clean__llm_az_028666__ru | lang=ru]
+СУДЕБНОЕ ОБРАЩЕНИЕ (СРОЧНО)
+
+[2020-06-10 09:15:22] [CASE_LOG] Initial filing recorded.
+[2020-06-10 09:18:45] [CASE_LOG] Priority escalatde.
+
+На основании материалов, представленных истцом Галимат, ситуация достигла критического предела. Предупреждения, направленные по адресу kicikbibiyaqubxanov@nurtekstil.az противоположной стороны в период правонарушений, произошедших в дату 9 августа 1953 года, были совершенно не приняты во внимание. Кроме того, незаконные операции, осуществляемые через адрес nasife.agayunisov45@outlook.com, должны быть немедленно расследованы государственными 0ргонами.
+
+Принимая во внимание срочность ситуации, требуется немедленно связаться по номеру +994 12 671 52 88 и требуется вынесение срочного окончательного решения. Решение этого вопроса должно произойти немедленно, в противном случае более крупного ущерба предотвратить не удастся.
+
+----- END OF DOCUMENT -----
+
+[Document 184 | id=repaired.clean__llm_az_047747 | lang=az]
+Gömrük Bəyannaməsi – 2026
+
+Soyad:Dadaşbəylı
+Gəliş vaxtı: 06:00
+Əlaqə: teyibe.mehemmedsahov@azsoft.az
+
+Mən  çox qarışıq və narahat vəziyyətdəyəm. Bu sənədləri necə dolduracağımı tam anlamıram. Soyad: Dadaşbəylı olaraq yazmışam, ümid edirəm düzdür. Saat 06:00 vaxtı terminala çatdım, amma hər şey çox qeyri-müəyyəndir. Bu “problem” haradan qaynaqlanır? Zəhmət olmasa, mənə teyibe.mehemmedsahov@azsoft.az ünvanına yazın, çünki mən  burada nə edəcəyimi bilmirəm. Hər şey – hər şey çox qəribədir.
+
+----- END OF DOCUMENT -----
+
+[Document 185 | id=repaired.clean__llm_az_066540__ru | lang=ru]
+ТАМОЖЕННАЯ ДЕКЛАРАЦИЯ (Импорт)
+Декларация №: 2026/GB-442
+Дата: 12.03.2026
+
+ДАННЫЕ ДЕКЛАРАНТА:
+Фамилия: Оджагов
+Дата рождения: 9 июля 1969 года
+Контактный номер: 099 782 17-65
+
+ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ ГРУЗА:
+Вид товара: Электронные компоненты промышленного типа
+Инвойс №: INV-2026-99
+Вес (брутто): 245.50 кг
+Контейнер №: CNTR-88291
+
+ЗАМЕЧАНИЯ СИСТЕМЫ:
+Customs verification in progress.
+
+ТАМОЖЕННЫЙ РЕЖИМ:
+Режим импорта товара относится к категории "Временный контроль". Декларация должна быть подтверждена через официальную систему.
+
+----- END OF DOCUMENT -----
+
+[Document 186 | id=repaired.clean__llm_az_032590__ru | lang=ru]
+Агент: Здравствуйте, слушаю вас, чем я могу вам помочь?
+Клиент: Эмм... здравствуйте, я... Халис Зёгралили. Звоню из города Евлах, эмм... очень обеспокоен.
+Агент: Мне очень жаль, господин Зёгралили. Я понимаю ваше беспокойство, мы немедленно разберемся.
+
+ID_Клиента;Город;Статус;1042;Евлах;Активен
+
+Клиент: Халис Зёгралили
+Город:   Евлах
+
+----- END OF DOCUMENT -----
+
+[Document 187 | id=repaired.clean__llm_az_066894__en | lang=en]
+2024 incident report. 0 event (Event) was received. User applied with number eler.elmarov@mail.ru and +994 70 913 53 70.
+Customer_ID;Status;Date;2024-05-12
+The system's error at that moment with internal services...
+
+----- END OF DOCUMENT -----
+
+[Document 188 | id=repaired.clean__llm_az_108114__ru | lang=ru]
+Я не знаю, что мне делать, всё перепуталось! Мне 7 лет, но в моих документах большая проблема. Моё водительское удостоверение было WV566793, но в системе не находится. Мой эл. адрес записан как xocaga-ramazanov@mail.az, может быть, проблема в этом? Статус;Код;Дата;Результат. Почему так происходит? Пожалуйста, помогите мне, я очень встревожен и нахожусь в запутанном состоянии.
+
+----- END OF DOCUMENT -----
+
+[Document 189 | id=repaired.clean__llm_az_056961__en | lang=en]
+------------------------------------------------------------
+| Forwarded message from: Police_System_Archive        |
+| Date: 2026-05-12                                      |
+| Subject: Report about the incident                    |
+------------------------------------------------------------
+
+The applicant has the surname Saljugova. The victim's date of birth is recorded in official documents as 12/12/1988. During the initial investigation organized at the scene of the incident, the identity card number was recorded as ****7721.
+
+In order to collect additional information regarding the matter, it is necessary to contact and instruct the person via the designated contact number 994554789073. The investigation regarding material damage and violation of security rules continues.
+
+----- END OF DOCUMENT -----
+
+[Document 190 | id=repaired.clean__llm_az_013829__ru | lang=ru]
+Протокол собрания: Инфраструктурная безопасность и разрешения на доступ
+Дата: 15 марта 2017
+
+На собрании обсуждалось управление новыми SSH-ключами и обновление протоколов доступа к серверу, предложенное Джалалийя. Новый ключ безопасности был записан следующим образом:
+-----BEGIN PRIVATE KEY-----
+64IL/xTQ4h0qCDS58uPeVBOzZlsAEFGVVAaccyYiedtyQAxBiW6RYYAYbUxy7g/P
++WGAvUXaPEDwFQBQeegr2XhtoJ/1qazZDA+SprfeK5yisorHBwKvJfXP+HJJSFvf
+-----END PRIVATE KEY-----
+
+Для официальной координации информации было принято решение о направлении уведомлений на адрес enderovs@turanholding.az.
+
+[2017-03-15 10:45:12] INFO: Access control list updated.
+
+Задачи:
+| Задача | Ответственное лицо | Статус |
+| :------- | :---------- | :------- |
+| Ротация SSH-ключей | Джалалийя | Ожидается |
+| Эл. почта уведомления | Ирада | Планируется |
+
+System integrity check passed.
+
+----- END OF DOCUMENT -----
+
+[Document 191 | id=repaired.clean__llm_az_080000 | lang=az]
+[2018-07-20 10:15:33] [SOCIAL_LOG] New interaction detected.
+
+Qadirov: Şəbəkə xidməti tamamilə dayanmışdır. Bu vaziyət (yox, vəziyyət) çox narahat edicidir!
+
+----------------------------------------
+Yönləndirilmiş Mesaj:
+Müştəri: Qadirov
+Mövzu: Texniki nasazlıq
+----------------------------------------
+
+Müştəri Xidmətləri: Salam cənab Qadirov, yaşadığınız narazılığı və çətinliyi tamamilə anlayırıq (yox, daha dəqiq desək, sizin hiss etdiyiniz bu problemi başa düşürük). Şəbəkə ilə bağlı yaranan bu texniki problem üçün çox üzr istəyirik. Problemi dərhal araşdırmaq üçün bizə ICCID: 89994480435084315121 və əlaqə nömrənizi +994 51 262 97 45 təqdim etməyinizi xahiş edirik. Sizin üçün ən sürətli həlli tapmaq bizim prioritetimizdir.
+
+----- END OF DOCUMENT -----
+
+[Document 192 | id=repaired.clean__llm_az_106533 | lang=az]
+Operator: Salam, texniki dəstək xidmətinə müraciət edirsiniz. Mən sizə necə kömək edə bilərəm?
+
+Müştəri: Salam... eeh... mən... mən çox narahatam. Bilmirəm nə baş verir. Eeh, mənə bir mesaj gəldi, amma... yox, əslində... mən çox qarışıq vəziyyətdəyəm.
+
+Operator: Xahiş edirəm, sakit olun. Adınızı və təsdiqləmək üçün ünvanınızı deyə bilərsinizmi?
+
+Müştəri: Adım... eeh... Rüstəməli... Ləcədi küçəsində yaşayıram. Amma bu... bu uzun kod... Ebd7tdDGY-ykAqe6vQsy8mPBvmJBjQuzZrKC.XHzf3r9jzeEbVrRTKXJJvHIjsGaHiuFi58ku2ZvdYwheXENJ11pWpPxTW_oEmffDixG4R669z3g2H4dyD8ZoCHil4EF2s-iCJLRDy0GWY4HrpADUGQmCWRA42J9Goi1ocnV6HJ.be99miPzJOvS6WqGkPvJtHgzgxBpciAHG8cV6YRItxW... bu nədir? Çox qorxuludur, sanki kimsə məni izləyir.
+
+Operator: Zəhmət olmasa, kartınızın son rəqəmlərini deyərək təsdiq edin.
+
+Müştəri: Kart... eeh... ****4004? Bəli, o idi. Mən... mən nə edim? Çox qorxuram...
+
+----- END OF DOCUMENT -----
+
+[Document 193 | id=repaired.clean__llm_az_000618 | lang=az]
+Slm Minarə, hesabınızda şübhəli giriş var. 2018-ci ilin bu ayında belə bir şey oldu:
+* IP: 179.124.154.62
+* Səbəb: Qeyri-adi
+Zəhmət olmasa, dərhal banka müraciət edin, yoxsa hesabı bloklayacığız.
+
+----- END OF DOCUMENT -----
+
+[Document 194 | id=repaired.clean__llm_az_044529 | lang=az]
+# SİSTEM KONFİQURASİYA PARAMETRLERI (2020)
+# Bütün ayarlar rəsmi qaydalara uyğun olmalidir.
+
+[ADMIN_SETTING]
+# Əsas idareetme melumatlari
+admin_email      = naize.gulzamanov@inbox.az
+primary_phone    = 026 414 26 45
+emergency_line   = +994 99 806 80 99
+
+[LOCATION_DATA]
+# Yerlesme ve ünvan qeydlari
+street_name      = Mahir Lələyev döngəsi
+
+[ARCHIVE_DATA]
+# Arxiv baslanic tarixi
+ref_date         = 1954-07-17
+
+# İstifadəçi qeydiyyat cədvəli
+# ID   | STATUS | EMAIL                     | TEL
+# ---------------------------------------------------------
+# 101  | ACTV   | naize.gulzamanov@inbox.az | 026 414 26 45
+# 102  | PEND  | [REDACTED]                | +994 99 806 80 99
+
+----- END OF DOCUMENT -----
+
+[Document 195 | id=repaired.clean__llm_az_045494__tr | lang=tr]
+Müşteri | Ahena
+Vergi No | 4204797545
+Bina No | 180
+
+Bu durum artık dayanılmazdır! 2026 yılından beri bu sorunlarla karşılaşıyorum. Şikayetimi derhal çözmelisiniz, yoksa resmi olarak...
+
+----- END OF DOCUMENT -----
+
+[Document 196 | id=repaired.clean__llm_az_119863__en | lang=en]
+Hello! I have a few things to say about your "magnificent" service. When writing to the address y.atillayev@azdata.az, the response is always late! Also, this link – https://files.azertelekom.az/invite#A-Y_e9zVwcWWE2UzxbEJlYw – is as if it says "wait for me." These "sweet" errors of yours are killing me!
+
+----- END OF DOCUMENT -----
+
+[Document 197 | id=repaired.clean__llm_az_035154__en | lang=en]
+Meeting notes - 2021
+
+Subject: Sending new parts to the Shabran region.
+
+Discussion:
+The delivery of new goods to Shabran city was discussed. Alaaddinli stated that the documents are not yet fully ready. For payment, money must be withdrawn from account number ****4422.
+
+> "I think logistics should be a bit faster." - M. Elilli
+
+Tasks:
+- Alaaddinli check the documents (no, complete the documents).
+- Contact the Shabran department.
+- Send the report to the n.elgunov@sirket.az address.
+
+----- END OF DOCUMENT -----
+
+[Document 198 | id=repaired.clean__llm_az_041405__tr | lang=tr]
+------------------------------------------------------------
+Gönderildi: Şikayet Bölümü
+Tarih: 12.04.2021
+Konu: Suç hadisesi hakkında başvuru
+------------------------------------------------------------
+
+Artık bu durumdan bıktım ve şikayet ediyorum! Benim adımdan ve bilgilerimden yararlanarak yapılan bu hırsızlık tam bir rezalet. İshagova olarak bildiriyorum ki, her şey çok hızlı gerçekleşti. Banka kartımın güvenlik kodu olan 030 kullanılarak hesabımdan büyük tutar çalındı. Ayrıca, KFBF0BW FIN kodlu hesabıma da izinsiz giriş yapıldı. Sistem loglarını kontrol ederseniz, müdahalenin 10.105.119.92 IP adresinden geldiğini görürsünüz. Sizin bu kadar vakit kaybetmeniz ve beni bekletmeniz inanılmaz. Benimle derhal +994553523586 numarası ile iletişime geçin, çünkü ben artık...
+
+----- END OF DOCUMENT -----
+
+[Document 199 | id=repaired.clean__llm_az_035613__tr | lang=tr]
+Hata Raporu - 2015 yılı
+Kullanıcı profilinin güncellenmesi sırasında ciddi hata oluşuyor.
+Adımlar:
+1. Kullanıcı İlhamiyyə (hayır, Gülcin - düzeltme: İlhamiyyə) profiline girin.
+2. Doğum tarihi 20 May 1955 olarak kaydedilsin.
+3. Güncelleme düğmesine basıldığında sistem çöküyor (hayır, çöküyor - düzeltme: çökmek istiyor, yani hata veriyor)
+.Lütfen bu problemi operatif olarak çözün.
+
+----- END OF DOCUMENT -----
+
+[Document 200 | id=repaired.clean__llm_az_099134 | lang=az]
+[2016-05-12 10:15:22] [INFO] Yeni kredit müraciəti daxil edildi.
+
+Salam! Bu gün əlimizdə çox maraqlı bir müraciət var. Müştərimiz yeni bir biznes layihəsinə başlamaq üçün bir az "yanacaq" (yəni kredit) axtarır. Görünür, bəy öz işini çox ciddi götürür, çünki bütün məlumatları lap yerindədir.
+
+Müraciət detalları:
+| Sahə | Göstərici |
+| :--- | :--- |
+| Əlaqə | g.abdullayev@azsoft.az |
+| Yaşayış yeri | Goranboyda |
+| Ünvan | bina 170 |
+| Şəbəkə ID | D8:3A:DD:11:7B:CF |
+
+Müştəri hazırda Laçında yaşayır və bizə bildirib ki, biznesini bu bölgədə genişləndirmək istəyir. Şəxsi müraciətində belə bir qeyd də qoyub:
+
+> "Mən sadəcə bir az dəstək istəyirəm, geri qalanını işimlə sübut edəcəm!"
+
+Görək bu layihə nəticələnə biləcək.
+
+----- END OF DOCUMENT -----
+

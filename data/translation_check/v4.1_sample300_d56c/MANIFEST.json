@@ -1,0 +1,33 @@
+{
+ "runs": [
+  {
+   "started": "2026-10-19T22:51:02+0400",
+   "commit": "2d84b941b1de7f6826192d443492b4bdfe8b61cd",
+   "branch": "p2/translation-d56c",
+   "ended": "2026-10-19T22:53:22+0400",
+   "exit_codes": {
+    "en": 0,
+    "tr": 0,
+    "ru": 0
+   }
+  }
+ ],
+ "input": "D:\\pii_rebuild\\tt_c\\sample300b.jsonl",
+ "input_sha256": "aff9b0ca03256a09f0f3c0d5d61351571601ed93ad7337520538b413e2614ee3",
+ "input_docs": 300,
+ "langs": [
+  "en",
+  "tr",
+  "ru"
+ ],
+ "concurrency": {
+  "en": 13,
+  "tr": 13,
+  "ru": 14
+ },
+ "written": {
+  "en": 296,
+  "tr": 295,
+  "ru": 293
+ }
+}

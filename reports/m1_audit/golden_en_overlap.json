@@ -1,0 +1,1304 @@
+[
+ {
+  "golden_id": "llm_az_045800__en",
+  "source_id": "llm_az_045800",
+  "best_train_source": "repaired.clean__llm_az_045800",
+  "overlap_8gram": 0.071
+ },
+ {
+  "golden_id": "llm_az_038425__en",
+  "source_id": "llm_az_038425",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_025269__en",
+  "source_id": "llm_az_025269",
+  "best_train_source": "repaired.clean__llm_az_025269",
+  "overlap_8gram": 0.561
+ },
+ {
+  "golden_id": "llm_az_029710__en",
+  "source_id": "llm_az_029710",
+  "best_train_source": "repaired.clean__llm_az_029710",
+  "overlap_8gram": 0.656
+ },
+ {
+  "golden_id": "llm_az_027303__en",
+  "source_id": "llm_az_027303",
+  "best_train_source": "repaired.clean__llm_az_027303",
+  "overlap_8gram": 0.47
+ },
+ {
+  "golden_id": "llm_az_040949__en",
+  "source_id": "llm_az_040949",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_047632__en",
+  "source_id": "llm_az_047632",
+  "best_train_source": "repaired.clean__llm_az_047632",
+  "overlap_8gram": 0.721
+ },
+ {
+  "golden_id": "llm_az_045788__en",
+  "source_id": "llm_az_045788",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_021136__en",
+  "source_id": "llm_az_021136",
+  "best_train_source": "repaired.clean__llm_az_021136",
+  "overlap_8gram": 0.744
+ },
+ {
+  "golden_id": "llm_az_044857__en",
+  "source_id": "llm_az_044857",
+  "best_train_source": "repaired.clean__llm_az_044857",
+  "overlap_8gram": 0.66
+ },
+ {
+  "golden_id": "llm_az_047770__en",
+  "source_id": "llm_az_047770",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_031513__en",
+  "source_id": "llm_az_031513",
+  "best_train_source": "repaired.clean__llm_az_031513",
+  "overlap_8gram": 0.673
+ },
+ {
+  "golden_id": "llm_az_039430__en",
+  "source_id": "llm_az_039430",
+  "best_train_source": "repaired.clean__llm_az_039430",
+  "overlap_8gram": 0.444
+ },
+ {
+  "golden_id": "llm_az_041247__en",
+  "source_id": "llm_az_041247",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_030099__en",
+  "source_id": "llm_az_030099",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_000849__en",
+  "source_id": "llm_az_000849",
+  "best_train_source": "repaired.clean__llm_az_000849",
+  "overlap_8gram": 0.375
+ },
+ {
+  "golden_id": "llm_az_000713__en",
+  "source_id": "llm_az_000713",
+  "best_train_source": "repaired.clean__llm_az_000713",
+  "overlap_8gram": 0.553
+ },
+ {
+  "golden_id": "llm_az_037524__en",
+  "source_id": "llm_az_037524",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_038093__en",
+  "source_id": "llm_az_038093",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_012402__en",
+  "source_id": "llm_az_012402",
+  "best_train_source": "repaired.clean__llm_az_012402",
+  "overlap_8gram": 0.608
+ },
+ {
+  "golden_id": "llm_az_009896__en",
+  "source_id": "llm_az_009896",
+  "best_train_source": "repaired.clean__llm_az_009896",
+  "overlap_8gram": 0.675
+ },
+ {
+  "golden_id": "llm_az_045262__en",
+  "source_id": "llm_az_045262",
+  "best_train_source": "repaired.clean__llm_az_045262",
+  "overlap_8gram": 0.723
+ },
+ {
+  "golden_id": "llm_az_017228__en",
+  "source_id": "llm_az_017228",
+  "best_train_source": "repaired.clean__llm_az_017228",
+  "overlap_8gram": 0.125
+ },
+ {
+  "golden_id": "llm_az_006366__en",
+  "source_id": "llm_az_006366",
+  "best_train_source": "repaired.clean__llm_az_006366",
+  "overlap_8gram": 0.385
+ },
+ {
+  "golden_id": "llm_az_031303__en",
+  "source_id": "llm_az_031303",
+  "best_train_source": "repaired.clean__llm_az_031303",
+  "overlap_8gram": 0.557
+ },
+ {
+  "golden_id": "llm_az_018216__en",
+  "source_id": "llm_az_018216",
+  "best_train_source": "repaired.clean__llm_az_018216",
+  "overlap_8gram": 0.851
+ },
+ {
+  "golden_id": "llm_az_007015__en",
+  "source_id": "llm_az_007015",
+  "best_train_source": "repaired.clean__llm_az_007015",
+  "overlap_8gram": 0.51
+ },
+ {
+  "golden_id": "llm_az_045290__en",
+  "source_id": "llm_az_045290",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_038248__en",
+  "source_id": "llm_az_038248",
+  "best_train_source": "repaired.clean__llm_az_038248",
+  "overlap_8gram": 0.638
+ },
+ {
+  "golden_id": "llm_az_039023__en",
+  "source_id": "llm_az_039023",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_016557__en",
+  "source_id": "llm_az_016557",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_030778__en",
+  "source_id": "llm_az_030778",
+  "best_train_source": "repaired.clean__llm_az_030778",
+  "overlap_8gram": 0.681
+ },
+ {
+  "golden_id": "llm_az_000246__en",
+  "source_id": "llm_az_000246",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_034748__en",
+  "source_id": "llm_az_034748",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_034640__en",
+  "source_id": "llm_az_034640",
+  "best_train_source": "repaired.clean__llm_az_034640",
+  "overlap_8gram": 0.235
+ },
+ {
+  "golden_id": "llm_az_026505__en",
+  "source_id": "llm_az_026505",
+  "best_train_source": "repaired.clean__llm_az_026505",
+  "overlap_8gram": 0.764
+ },
+ {
+  "golden_id": "llm_az_034749__en",
+  "source_id": "llm_az_034749",
+  "best_train_source": "repaired.clean__llm_az_034749",
+  "overlap_8gram": 0.133
+ },
+ {
+  "golden_id": "llm_az_000274__en",
+  "source_id": "llm_az_000274",
+  "best_train_source": "repaired.clean__llm_az_000274",
+  "overlap_8gram": 0.618
+ },
+ {
+  "golden_id": "llm_az_043404__en",
+  "source_id": "llm_az_043404",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_042178__en",
+  "source_id": "llm_az_042178",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_031180__en",
+  "source_id": "llm_az_031180",
+  "best_train_source": "repaired.clean__llm_az_031180",
+  "overlap_8gram": 0.778
+ },
+ {
+  "golden_id": "llm_az_025445__en",
+  "source_id": "llm_az_025445",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_020994__en",
+  "source_id": "llm_az_020994",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_024069__en",
+  "source_id": "llm_az_024069",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_044621__en",
+  "source_id": "llm_az_044621",
+  "best_train_source": "repaired.clean__llm_az_044621",
+  "overlap_8gram": 0.55
+ },
+ {
+  "golden_id": "llm_az_047901__en",
+  "source_id": "llm_az_047901",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_031735__en",
+  "source_id": "llm_az_031735",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_034832__en",
+  "source_id": "llm_az_034832",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_037393__en",
+  "source_id": "llm_az_037393",
+  "best_train_source": "repaired.clean__llm_az_037393",
+  "overlap_8gram": 0.52
+ },
+ {
+  "golden_id": "llm_az_000372__en",
+  "source_id": "llm_az_000372",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_027572__en",
+  "source_id": "llm_az_027572",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_027279__en",
+  "source_id": "llm_az_027279",
+  "best_train_source": "repaired.clean__llm_az_027279",
+  "overlap_8gram": 0.66
+ },
+ {
+  "golden_id": "llm_az_038922__en",
+  "source_id": "llm_az_038922",
+  "best_train_source": "repaired.clean__llm_az_038922",
+  "overlap_8gram": 0.695
+ },
+ {
+  "golden_id": "llm_az_031415__en",
+  "source_id": "llm_az_031415",
+  "best_train_source": "repaired.clean__llm_az_031415",
+  "overlap_8gram": 0.845
+ },
+ {
+  "golden_id": "llm_az_027740__en",
+  "source_id": "llm_az_027740",
+  "best_train_source": "repaired.clean__llm_az_027740",
+  "overlap_8gram": 0.549
+ },
+ {
+  "golden_id": "llm_az_001729__en",
+  "source_id": "llm_az_001729",
+  "best_train_source": "repaired.clean__llm_az_001729",
+  "overlap_8gram": 0.111
+ },
+ {
+  "golden_id": "llm_az_000230__en",
+  "source_id": "llm_az_000230",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_047503__en",
+  "source_id": "llm_az_047503",
+  "best_train_source": "repaired.clean__llm_az_047503",
+  "overlap_8gram": 0.253
+ },
+ {
+  "golden_id": "llm_az_030643__en",
+  "source_id": "llm_az_030643",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_015811__en",
+  "source_id": "llm_az_015811",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_013106__en",
+  "source_id": "llm_az_013106",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_010277__en",
+  "source_id": "llm_az_010277",
+  "best_train_source": "repaired.clean__llm_az_010277",
+  "overlap_8gram": 0.547
+ },
+ {
+  "golden_id": "llm_az_047649__en",
+  "source_id": "llm_az_047649",
+  "best_train_source": "repaired.clean__llm_az_047649",
+  "overlap_8gram": 0.515
+ },
+ {
+  "golden_id": "llm_az_001064__en",
+  "source_id": "llm_az_001064",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_027019__en",
+  "source_id": "llm_az_027019",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_000397__en",
+  "source_id": "llm_az_000397",
+  "best_train_source": "repaired.clean__llm_az_000397",
+  "overlap_8gram": 0.74
+ },
+ {
+  "golden_id": "llm_az_010055__en",
+  "source_id": "llm_az_010055",
+  "best_train_source": "repaired.clean__llm_az_010055",
+  "overlap_8gram": 0.516
+ },
+ {
+  "golden_id": "llm_az_036901__en",
+  "source_id": "llm_az_036901",
+  "best_train_source": "repaired.clean__llm_az_036901",
+  "overlap_8gram": 0.308
+ },
+ {
+  "golden_id": "llm_az_041240__en",
+  "source_id": "llm_az_041240",
+  "best_train_source": "repaired.clean__llm_az_041240",
+  "overlap_8gram": 0.429
+ },
+ {
+  "golden_id": "llm_az_017505__en",
+  "source_id": "llm_az_017505",
+  "best_train_source": "repaired.clean__llm_az_017505",
+  "overlap_8gram": 0.784
+ },
+ {
+  "golden_id": "llm_az_043573__en",
+  "source_id": "llm_az_043573",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_044632__en",
+  "source_id": "llm_az_044632",
+  "best_train_source": "repaired.clean__llm_az_044632",
+  "overlap_8gram": 0.64
+ },
+ {
+  "golden_id": "llm_az_031462__en",
+  "source_id": "llm_az_031462",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_041347__en",
+  "source_id": "llm_az_041347",
+  "best_train_source": "repaired.clean__llm_az_041347",
+  "overlap_8gram": 0.67
+ },
+ {
+  "golden_id": "llm_az_008897__en",
+  "source_id": "llm_az_008897",
+  "best_train_source": "repaired.clean__llm_az_008897",
+  "overlap_8gram": 0.666
+ },
+ {
+  "golden_id": "llm_az_045025__en",
+  "source_id": "llm_az_045025",
+  "best_train_source": "repaired.clean__llm_az_045025",
+  "overlap_8gram": 0.712
+ },
+ {
+  "golden_id": "llm_az_046848__en",
+  "source_id": "llm_az_046848",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_043884__en",
+  "source_id": "llm_az_043884",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_000186__en",
+  "source_id": "llm_az_000186",
+  "best_train_source": "repaired.clean__llm_az_000186",
+  "overlap_8gram": 0.692
+ },
+ {
+  "golden_id": "llm_az_000255__en",
+  "source_id": "llm_az_000255",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_043773__en",
+  "source_id": "llm_az_043773",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_042409__en",
+  "source_id": "llm_az_042409",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_031662__en",
+  "source_id": "llm_az_031662",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_026347__en",
+  "source_id": "llm_az_026347",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_021339__en",
+  "source_id": "llm_az_021339",
+  "best_train_source": "repaired.clean__llm_az_021339",
+  "overlap_8gram": 0.718
+ },
+ {
+  "golden_id": "llm_az_000077__en",
+  "source_id": "llm_az_000077",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_039035__en",
+  "source_id": "llm_az_039035",
+  "best_train_source": "repaired.clean__llm_az_039035",
+  "overlap_8gram": 0.47
+ },
+ {
+  "golden_id": "llm_az_036446__en",
+  "source_id": "llm_az_036446",
+  "best_train_source": "repaired.clean__llm_az_036446",
+  "overlap_8gram": 0.194
+ },
+ {
+  "golden_id": "llm_az_047235__en",
+  "source_id": "llm_az_047235",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_030239__en",
+  "source_id": "llm_az_030239",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_010378__en",
+  "source_id": "llm_az_010378",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_040441__en",
+  "source_id": "llm_az_040441",
+  "best_train_source": "repaired.clean__llm_az_040441",
+  "overlap_8gram": 0.777
+ },
+ {
+  "golden_id": "llm_az_000052__en",
+  "source_id": "llm_az_000052",
+  "best_train_source": "repaired.clean__llm_az_000052",
+  "overlap_8gram": 0.702
+ },
+ {
+  "golden_id": "llm_az_030546__en",
+  "source_id": "llm_az_030546",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_040036__en",
+  "source_id": "llm_az_040036",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_021291__en",
+  "source_id": "llm_az_021291",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_009864__en",
+  "source_id": "llm_az_009864",
+  "best_train_source": "repaired.clean__llm_az_009864",
+  "overlap_8gram": 0.735
+ },
+ {
+  "golden_id": "llm_az_025314__en",
+  "source_id": "llm_az_025314",
+  "best_train_source": "repaired.clean__llm_az_025314",
+  "overlap_8gram": 0.828
+ },
+ {
+  "golden_id": "llm_az_043063__en",
+  "source_id": "llm_az_043063",
+  "best_train_source": "repaired.clean__llm_az_043063",
+  "overlap_8gram": 0.472
+ },
+ {
+  "golden_id": "llm_az_030891__en",
+  "source_id": "llm_az_030891",
+  "best_train_source": "repaired.clean__llm_az_030891",
+  "overlap_8gram": 0.5
+ },
+ {
+  "golden_id": "llm_az_036627__en",
+  "source_id": "llm_az_036627",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_045224__en",
+  "source_id": "llm_az_045224",
+  "best_train_source": "repaired.clean__llm_az_045224",
+  "overlap_8gram": 0.549
+ },
+ {
+  "golden_id": "llm_az_020019__en",
+  "source_id": "llm_az_020019",
+  "best_train_source": "repaired.clean__llm_az_020019",
+  "overlap_8gram": 0.574
+ },
+ {
+  "golden_id": "llm_az_002229__en",
+  "source_id": "llm_az_002229",
+  "best_train_source": "repaired.clean__llm_az_002229",
+  "overlap_8gram": 0.696
+ },
+ {
+  "golden_id": "llm_az_021301__en",
+  "source_id": "llm_az_021301",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_042804__en",
+  "source_id": "llm_az_042804",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_043156__en",
+  "source_id": "llm_az_043156",
+  "best_train_source": "repaired.clean__llm_az_043156",
+  "overlap_8gram": 0.426
+ },
+ {
+  "golden_id": "llm_az_041353__en",
+  "source_id": "llm_az_041353",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_001325__en",
+  "source_id": "llm_az_001325",
+  "best_train_source": "repaired.clean__llm_az_001325",
+  "overlap_8gram": 0.376
+ },
+ {
+  "golden_id": "llm_az_047489__en",
+  "source_id": "llm_az_047489",
+  "best_train_source": "repaired.clean__llm_az_047489",
+  "overlap_8gram": 0.552
+ },
+ {
+  "golden_id": "llm_az_000492__en",
+  "source_id": "llm_az_000492",
+  "best_train_source": "repaired.clean__llm_az_000492",
+  "overlap_8gram": 0.801
+ },
+ {
+  "golden_id": "llm_az_027434__en",
+  "source_id": "llm_az_027434",
+  "best_train_source": "repaired.clean__llm_az_027434",
+  "overlap_8gram": 0.655
+ },
+ {
+  "golden_id": "llm_az_035711__en",
+  "source_id": "llm_az_035711",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_015363__en",
+  "source_id": "llm_az_015363",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_000996__en",
+  "source_id": "llm_az_000996",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_046712__en",
+  "source_id": "llm_az_046712",
+  "best_train_source": "repaired.clean__llm_az_046712",
+  "overlap_8gram": 0.222
+ },
+ {
+  "golden_id": "llm_az_002446__en",
+  "source_id": "llm_az_002446",
+  "best_train_source": "repaired.clean__llm_az_002446",
+  "overlap_8gram": 0.772
+ },
+ {
+  "golden_id": "llm_az_000778__en",
+  "source_id": "llm_az_000778",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_030083__en",
+  "source_id": "llm_az_030083",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_047948__en",
+  "source_id": "llm_az_047948",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_022166__en",
+  "source_id": "llm_az_022166",
+  "best_train_source": "repaired.clean__llm_az_022166",
+  "overlap_8gram": 0.364
+ },
+ {
+  "golden_id": "llm_az_040021__en",
+  "source_id": "llm_az_040021",
+  "best_train_source": "repaired.clean__llm_az_040021",
+  "overlap_8gram": 0.556
+ },
+ {
+  "golden_id": "llm_az_011760__en",
+  "source_id": "llm_az_011760",
+  "best_train_source": "repaired.clean__llm_az_011760",
+  "overlap_8gram": 0.605
+ },
+ {
+  "golden_id": "llm_az_027283__en",
+  "source_id": "llm_az_027283",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_001005__en",
+  "source_id": "llm_az_001005",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_033785__en",
+  "source_id": "llm_az_033785",
+  "best_train_source": "repaired.clean__llm_az_033785",
+  "overlap_8gram": 0.559
+ },
+ {
+  "golden_id": "llm_az_001248__en",
+  "source_id": "llm_az_001248",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_039139__en",
+  "source_id": "llm_az_039139",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_042727__en",
+  "source_id": "llm_az_042727",
+  "best_train_source": "repaired.clean__llm_az_042727",
+  "overlap_8gram": 0.615
+ },
+ {
+  "golden_id": "llm_az_026604__en",
+  "source_id": "llm_az_026604",
+  "best_train_source": "repaired.clean__llm_az_026604",
+  "overlap_8gram": 0.771
+ },
+ {
+  "golden_id": "llm_az_000527__en",
+  "source_id": "llm_az_000527",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_035213__en",
+  "source_id": "llm_az_035213",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_035651__en",
+  "source_id": "llm_az_035651",
+  "best_train_source": "repaired.clean__llm_az_035651",
+  "overlap_8gram": 0.489
+ },
+ {
+  "golden_id": "llm_az_000520__en",
+  "source_id": "llm_az_000520",
+  "best_train_source": "repaired.clean__llm_az_000520",
+  "overlap_8gram": 0.798
+ },
+ {
+  "golden_id": "llm_az_039110__en",
+  "source_id": "llm_az_039110",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_026968__en",
+  "source_id": "llm_az_026968",
+  "best_train_source": "repaired.clean__llm_az_026968",
+  "overlap_8gram": 0.613
+ },
+ {
+  "golden_id": "llm_az_037408__en",
+  "source_id": "llm_az_037408",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_008254__en",
+  "source_id": "llm_az_008254",
+  "best_train_source": "repaired.clean__llm_az_008254",
+  "overlap_8gram": 0.467
+ },
+ {
+  "golden_id": "llm_az_028347__en",
+  "source_id": "llm_az_028347",
+  "best_train_source": "repaired.clean__llm_az_028347",
+  "overlap_8gram": 0.118
+ },
+ {
+  "golden_id": "llm_az_043043__en",
+  "source_id": "llm_az_043043",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_018283__en",
+  "source_id": "llm_az_018283",
+  "best_train_source": "repaired.clean__llm_az_018283",
+  "overlap_8gram": 0.692
+ },
+ {
+  "golden_id": "llm_az_033942__en",
+  "source_id": "llm_az_033942",
+  "best_train_source": "repaired.clean__llm_az_033942",
+  "overlap_8gram": 0.526
+ },
+ {
+  "golden_id": "llm_az_036038__en",
+  "source_id": "llm_az_036038",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_027635__en",
+  "source_id": "llm_az_027635",
+  "best_train_source": "repaired.clean__llm_az_027635",
+  "overlap_8gram": 0.464
+ },
+ {
+  "golden_id": "llm_az_035422__en",
+  "source_id": "llm_az_035422",
+  "best_train_source": "repaired.clean__llm_az_035422",
+  "overlap_8gram": 0.681
+ },
+ {
+  "golden_id": "llm_az_001199__en",
+  "source_id": "llm_az_001199",
+  "best_train_source": "repaired.clean__llm_az_001199",
+  "overlap_8gram": 0.755
+ },
+ {
+  "golden_id": "llm_az_046317__en",
+  "source_id": "llm_az_046317",
+  "best_train_source": "repaired.clean__llm_az_046317",
+  "overlap_8gram": 0.235
+ },
+ {
+  "golden_id": "llm_az_028152__en",
+  "source_id": "llm_az_028152",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_026931__en",
+  "source_id": "llm_az_026931",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_016770__en",
+  "source_id": "llm_az_016770",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_028422__en",
+  "source_id": "llm_az_028422",
+  "best_train_source": "repaired.clean__llm_az_028422",
+  "overlap_8gram": 0.616
+ },
+ {
+  "golden_id": "llm_az_000058__en",
+  "source_id": "llm_az_000058",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_038958__en",
+  "source_id": "llm_az_038958",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_043084__en",
+  "source_id": "llm_az_043084",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_031273__en",
+  "source_id": "llm_az_031273",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_047615__en",
+  "source_id": "llm_az_047615",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_032573__en",
+  "source_id": "llm_az_032573",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_008341__en",
+  "source_id": "llm_az_008341",
+  "best_train_source": "repaired.clean__llm_az_008341",
+  "overlap_8gram": 0.4
+ },
+ {
+  "golden_id": "llm_az_040344__en",
+  "source_id": "llm_az_040344",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_002937__en",
+  "source_id": "llm_az_002937",
+  "best_train_source": "repaired.clean__llm_az_002937",
+  "overlap_8gram": 0.708
+ },
+ {
+  "golden_id": "llm_az_039048__en",
+  "source_id": "llm_az_039048",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_016034__en",
+  "source_id": "llm_az_016034",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_022000__en",
+  "source_id": "llm_az_022000",
+  "best_train_source": "repaired.clean__llm_az_022000",
+  "overlap_8gram": 0.56
+ },
+ {
+  "golden_id": "llm_az_023256__en",
+  "source_id": "llm_az_023256",
+  "best_train_source": "repaired.clean__llm_az_023256",
+  "overlap_8gram": 0.405
+ },
+ {
+  "golden_id": "llm_az_037571__en",
+  "source_id": "llm_az_037571",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_000226__en",
+  "source_id": "llm_az_000226",
+  "best_train_source": "repaired.clean__llm_az_000226",
+  "overlap_8gram": 0.682
+ },
+ {
+  "golden_id": "llm_az_017169__en",
+  "source_id": "llm_az_017169",
+  "best_train_source": "repaired.clean__llm_az_017169",
+  "overlap_8gram": 0.2
+ },
+ {
+  "golden_id": "llm_az_033628__en",
+  "source_id": "llm_az_033628",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_047870__en",
+  "source_id": "llm_az_047870",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_043768__en",
+  "source_id": "llm_az_043768",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_024083__en",
+  "source_id": "llm_az_024083",
+  "best_train_source": "repaired.clean__llm_az_024083",
+  "overlap_8gram": 0.6
+ },
+ {
+  "golden_id": "llm_az_046128__en",
+  "source_id": "llm_az_046128",
+  "best_train_source": "repaired.clean__llm_az_046128",
+  "overlap_8gram": 0.071
+ },
+ {
+  "golden_id": "llm_az_011294__en",
+  "source_id": "llm_az_011294",
+  "best_train_source": "repaired.clean__llm_az_011294",
+  "overlap_8gram": 0.382
+ },
+ {
+  "golden_id": "llm_az_043348__en",
+  "source_id": "llm_az_043348",
+  "best_train_source": "repaired.clean__llm_az_043348",
+  "overlap_8gram": 0.663
+ },
+ {
+  "golden_id": "llm_az_029831__en",
+  "source_id": "llm_az_029831",
+  "best_train_source": "repaired.clean__llm_az_029831",
+  "overlap_8gram": 0.45
+ },
+ {
+  "golden_id": "llm_az_036159__en",
+  "source_id": "llm_az_036159",
+  "best_train_source": "repaired.clean__llm_az_036159",
+  "overlap_8gram": 0.825
+ },
+ {
+  "golden_id": "llm_az_006751__en",
+  "source_id": "llm_az_006751",
+  "best_train_source": "repaired.clean__llm_az_006751",
+  "overlap_8gram": 0.533
+ },
+ {
+  "golden_id": "llm_az_037595__en",
+  "source_id": "llm_az_037595",
+  "best_train_source": "repaired.clean__llm_az_037595",
+  "overlap_8gram": 0.406
+ },
+ {
+  "golden_id": "llm_az_019656__en",
+  "source_id": "llm_az_019656",
+  "best_train_source": "repaired.clean__llm_az_019656",
+  "overlap_8gram": 0.476
+ },
+ {
+  "golden_id": "llm_az_023500__en",
+  "source_id": "llm_az_023500",
+  "best_train_source": "repaired.clean__llm_az_023500",
+  "overlap_8gram": 0.853
+ },
+ {
+  "golden_id": "llm_az_041095__en",
+  "source_id": "llm_az_041095",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_000046__en",
+  "source_id": "llm_az_000046",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_044875__en",
+  "source_id": "llm_az_044875",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_025603__en",
+  "source_id": "llm_az_025603",
+  "best_train_source": "repaired.clean__llm_az_025603",
+  "overlap_8gram": 0.674
+ },
+ {
+  "golden_id": "llm_az_015032__en",
+  "source_id": "llm_az_015032",
+  "best_train_source": "repaired.clean__llm_az_015032",
+  "overlap_8gram": 0.511
+ },
+ {
+  "golden_id": "llm_az_020727__en",
+  "source_id": "llm_az_020727",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_043545__en",
+  "source_id": "llm_az_043545",
+  "best_train_source": "repaired.clean__llm_az_043545",
+  "overlap_8gram": 0.774
+ },
+ {
+  "golden_id": "llm_az_000905__en",
+  "source_id": "llm_az_000905",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_000035__en",
+  "source_id": "llm_az_000035",
+  "best_train_source": "repaired.clean__llm_az_000035",
+  "overlap_8gram": 0.865
+ },
+ {
+  "golden_id": "llm_az_000064__en",
+  "source_id": "llm_az_000064",
+  "best_train_source": "repaired.clean__llm_az_000064",
+  "overlap_8gram": 0.688
+ },
+ {
+  "golden_id": "llm_az_000099__en",
+  "source_id": "llm_az_000099",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_003967__en",
+  "source_id": "llm_az_003967",
+  "best_train_source": "repaired.clean__llm_az_003967",
+  "overlap_8gram": 0.763
+ },
+ {
+  "golden_id": "llm_az_003706__en",
+  "source_id": "llm_az_003706",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_000129__en",
+  "source_id": "llm_az_000129",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_000017__en",
+  "source_id": "llm_az_000017",
+  "best_train_source": "repaired.clean__llm_az_000017",
+  "overlap_8gram": 0.39
+ },
+ {
+  "golden_id": "llm_az_000161__en",
+  "source_id": "llm_az_000161",
+  "best_train_source": "repaired.clean__llm_az_000161",
+  "overlap_8gram": 0.078
+ },
+ {
+  "golden_id": "llm_az_036591__en",
+  "source_id": "llm_az_036591",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_017281__en",
+  "source_id": "llm_az_017281",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_000005__en",
+  "source_id": "llm_az_000005",
+  "best_train_source": "repaired.clean__llm_az_000005",
+  "overlap_8gram": 0.563
+ },
+ {
+  "golden_id": "llm_az_000016__en",
+  "source_id": "llm_az_000016",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_000371__en",
+  "source_id": "llm_az_000371",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_020804__en",
+  "source_id": "llm_az_020804",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_000554__en",
+  "source_id": "llm_az_000554",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_011501__en",
+  "source_id": "llm_az_011501",
+  "best_train_source": "repaired.clean__llm_az_011501",
+  "overlap_8gram": 0.417
+ },
+ {
+  "golden_id": "llm_az_023320__en",
+  "source_id": "llm_az_023320",
+  "best_train_source": "repaired.clean__llm_az_023320",
+  "overlap_8gram": 0.441
+ },
+ {
+  "golden_id": "llm_az_000011__en",
+  "source_id": "llm_az_000011",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_037014__en",
+  "source_id": "llm_az_037014",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_000116__en",
+  "source_id": "llm_az_000116",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_018613__en",
+  "source_id": "llm_az_018613",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_047806__en",
+  "source_id": "llm_az_047806",
+  "best_train_source": "repaired.clean__llm_az_047806",
+  "overlap_8gram": 0.513
+ },
+ {
+  "golden_id": "llm_az_044316__en",
+  "source_id": "llm_az_044316",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_000101__en",
+  "source_id": "llm_az_000101",
+  "best_train_source": "repaired.clean__llm_az_000101",
+  "overlap_8gram": 0.557
+ },
+ {
+  "golden_id": "llm_az_000024__en",
+  "source_id": "llm_az_000024",
+  "best_train_source": "repaired.clean__llm_az_000024",
+  "overlap_8gram": 0.967
+ },
+ {
+  "golden_id": "llm_az_000018__en",
+  "source_id": "llm_az_000018",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_000409__en",
+  "source_id": "llm_az_000409",
+  "best_train_source": null,
+  "overlap_8gram": 0
+ },
+ {
+  "golden_id": "llm_az_000365__en",
+  "source_id": "llm_az_000365",
+  "best_train_source": "repaired.clean__llm_az_000365",
+  "overlap_8gram": 0.609
+ },
+ {
+  "golden_id": "llm_az_001037__en",
+  "source_id": "llm_az_001037",
+  "best_train_source": "repaired.clean__llm_az_001037",
+  "overlap_8gram": 0.676
+ }
+]

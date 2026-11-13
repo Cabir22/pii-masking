@@ -1,0 +1,28 @@
+{
+ "stats": {
+  "documents": 5802,
+  "date_labels_before": 4427,
+  "unlabelled_dates_before": 8,
+  "docs_with_unlabelled_before": 7,
+  "unlabelled_dates_after": 2,
+  "docs_with_unlabelled_after": 2,
+  "date_labels_after": 4428,
+  "timestamp_date_labels_removed": 5,
+  "docs_changed": 11,
+  "spans_added": 6
+ },
+ "left_by_reason": {
+  "no anchor": 2
+ },
+ "changed_by_language": {
+  "az": 11
+ },
+ "examples": [
+  "ir: ID_00982 | Status: Pending | Tarix: 2023—09-14 | Məbləğ: 4500 AZN ",
+  "---------------------|----------------- 14.08.25 | Xankəndidə, Yuxar",
+  "Tarix: 12–05-2025  Hörmətli Nailova x",
+  "Xidmət Qəbzi № 2017/452 Tarix: 12–08–2017  Müştəri məlumatlar",
+  " Göndərən: [[email protected]] > Tarix: 2022–06–12 > > Kod: DE24754547",
+  "lumatlar tamdır və sistemdə aktivdir.  [2016—06-10] - Tamamlandı. Müqa"
+ ]
+}

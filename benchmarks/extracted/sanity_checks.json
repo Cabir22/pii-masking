@@ -1,0 +1,1107 @@
+[
+ {
+  "check": "TP + FP = predictions",
+  "pdf_pages": [
+   1,
+   3
+  ],
+  "reported": 12243,
+  "computed": 12243,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "TP + FN = gold",
+  "pdf_pages": [
+   1,
+   3
+  ],
+  "reported": 10438,
+  "computed": 10438,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "FN = gold - TP",
+  "pdf_pages": [
+   1,
+   3
+  ],
+  "reported": 2677,
+  "computed": 2677,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "micro precision",
+  "pdf_pages": [
+   1,
+   3
+  ],
+  "reported": 63.4,
+  "computed": 63.4,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "micro recall",
+  "pdf_pages": [
+   1,
+   3
+  ],
+  "reported": 74.4,
+  "computed": 74.4,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "micro F1",
+  "pdf_pages": [
+   1,
+   3
+  ],
+  "reported": 68.4,
+  "computed": 68.4,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "per-label rows = 27",
+  "pdf_pages": [
+   4
+  ],
+  "reported": 27,
+  "computed": 27,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "per-label TP sums to global",
+  "pdf_pages": [
+   3,
+   4
+  ],
+  "reported": 7761,
+  "computed": 7761,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "per-label FP sums to global",
+  "pdf_pages": [
+   3,
+   4
+  ],
+  "reported": 4482,
+  "computed": 4482,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "per-label FN sums to global",
+  "pdf_pages": [
+   3,
+   4
+  ],
+  "reported": 2677,
+  "computed": 2677,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "per-label support sums to gold",
+  "pdf_pages": [
+   1,
+   4
+  ],
+  "reported": 10438,
+  "computed": 10438,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "support = TP + FN for every label",
+  "pdf_pages": [
+   4
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "per-label P/R/F1 recompute",
+  "pdf_pages": [
+   4
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "macro F1 = mean of per-label F1",
+  "pdf_pages": [
+   1,
+   4
+  ],
+  "reported": 67.6,
+  "computed": 67.6,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "weighted F1 = support-weighted F1",
+  "pdf_pages": [
+   3,
+   4
+  ],
+  "reported": 67.9,
+  "computed": 67.9,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "FP error types sum to FP",
+  "pdf_pages": [
+   3
+  ],
+  "reported": 4482,
+  "computed": 4482,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "FN error types sum to FN",
+  "pdf_pages": [
+   3
+  ],
+  "reported": 2677,
+  "computed": 2677,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "FP 'wrong_label' = FN 'wrong_label' (same entity counted twice)",
+  "pdf_pages": [
+   3
+  ],
+  "reported": 620,
+  "computed": 620,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "perfect docs + appendix docs = 5000",
+  "pdf_pages": [
+   3,
+   22
+  ],
+  "reported": 5000,
+  "computed": null,
+  "pass": true,
+  "note": "Perfect documents = 1536 (p3)"
+ },
+ {
+  "check": "documents with >=1 FP (appendix recount)",
+  "pdf_pages": [
+   3,
+   22
+  ],
+  "reported": 2649,
+  "computed": 2649,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "documents with >=1 FN (appendix recount)",
+  "pdf_pages": [
+   3,
+   22
+  ],
+  "reported": 2054,
+  "computed": 2054,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "appendix gold rows = FN",
+  "pdf_pages": [
+   3,
+   22
+  ],
+  "reported": 2677,
+  "computed": 2677,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "appendix prediction rows = FP",
+  "pdf_pages": [
+   3,
+   22
+  ],
+  "reported": 4482,
+  "computed": 4482,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "error_cases.csv size stated on p21 = FP + FN",
+  "pdf_pages": [
+   21
+  ],
+  "reported": 7159,
+  "computed": 7159,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "FN 'missed' recomputed from appendix",
+  "pdf_pages": [
+   3,
+   22
+  ],
+  "reported": 1585,
+  "computed": 1585,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "FN 'wrong_label' recomputed from appendix",
+  "pdf_pages": [
+   3,
+   22
+  ],
+  "reported": 620,
+  "computed": 620,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "FN 'boundary_error' recomputed from appendix",
+  "pdf_pages": [
+   3,
+   22
+  ],
+  "reported": 413,
+  "computed": 413,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "FN 'wrong_label_and_boundary' recomputed from appendix",
+  "pdf_pages": [
+   3,
+   22
+  ],
+  "reported": 59,
+  "computed": 59,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "FP 'wrong_label' recomputed from appendix",
+  "pdf_pages": [
+   3,
+   22
+  ],
+  "reported": 620,
+  "computed": 620,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "FP 'boundary_error' recomputed from appendix",
+  "pdf_pages": [
+   3,
+   22
+  ],
+  "reported": 571,
+  "computed": 571,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "FP 'wrong_label_and_boundary' recomputed from appendix",
+  "pdf_pages": [
+   3,
+   22
+  ],
+  "reported": 145,
+  "computed": 145,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "FP 'hard_negative_trigger' recomputed (same label as the planted target)",
+  "pdf_pages": [
+   3,
+   22
+  ],
+  "reported": 1784,
+  "computed": 1784,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "FP 'spurious' recomputed (no gold, no same-label hard negative)",
+  "pdf_pages": [
+   3,
+   22
+  ],
+  "reported": 1362,
+  "computed": 1362,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "per-label FP/FN on p4 = appendix recount",
+  "pdf_pages": [
+   4,
+   22
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "hard-negative overall trigger rate = sum(triggered)/sum(cases)",
+  "pdf_pages": [
+   7,
+   21
+  ],
+  "reported": 17.6,
+  "computed": 17.6,
+  "pass": true,
+  "note": "1650/9384"
+ },
+ {
+  "check": "hard-negative per-label rate recompute",
+  "pdf_pages": [
+   7
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "p7 'Triggered' = appendix hard negatives touched by a same-label prediction",
+  "pdf_pages": [
+   7,
+   22
+  ],
+  "reported": [],
+  "computed": [
+   {
+    "label": "CARD_SECURITY_CODE",
+    "triggered_p7": 478,
+    "same_label_touched_appendix": 548
+   },
+   {
+    "label": "ZIPCODE",
+    "triggered_p7": 110,
+    "same_label_touched_appendix": 111
+   }
+  ],
+  "pass": false,
+  "note": "appendix side counts planted hard-negative values that a same-label prediction overlaps",
+  "explained": "Same-label overlap reproduces p7 exactly for 25/27 labels. CARD_SECURITY_CODE is 70 short (478 vs 548) and ZIPCODE 1 short. Unresolved; see SUMMARY 'needs a human'."
+ },
+ {
+  "check": "boundary types sum to FP boundary_error",
+  "pdf_pages": [
+   3,
+   11
+  ],
+  "reported": 571,
+  "computed": 571,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_source: docs sum to 5000",
+  "pdf_pages": [
+   12
+  ],
+  "reported": 5000,
+  "computed": 5000,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_source: TP sums to global",
+  "pdf_pages": [
+   12
+  ],
+  "reported": 7761,
+  "computed": 7761,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_source: FP sums to global",
+  "pdf_pages": [
+   12
+  ],
+  "reported": 4482,
+  "computed": 4482,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_source: FN sums to global",
+  "pdf_pages": [
+   12
+  ],
+  "reported": 2677,
+  "computed": 2677,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_source: P/R/F1 recompute",
+  "pdf_pages": [
+   12
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_category: docs sum to 5000",
+  "pdf_pages": [
+   12
+  ],
+  "reported": 5000,
+  "computed": 5000,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_category: TP sums to global",
+  "pdf_pages": [
+   12
+  ],
+  "reported": 7761,
+  "computed": 7761,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_category: FP sums to global",
+  "pdf_pages": [
+   12
+  ],
+  "reported": 4482,
+  "computed": 4482,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_category: FN sums to global",
+  "pdf_pages": [
+   12
+  ],
+  "reported": 2677,
+  "computed": 2677,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_category: P/R/F1 recompute",
+  "pdf_pages": [
+   12
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": "rounding tie only, value sits exactly on .x5: [{\"slice\": \"structured_dialogue\", \"reported\": [63.2, 81.9, 71.4], \"computed\": [63.3, 81.9, 71.4], \"unrounded\": [63.25, 81.877, 71.3681]}]"
+ },
+ {
+  "check": "by_document_type: docs sum to 5000",
+  "pdf_pages": [
+   13
+  ],
+  "reported": 5000,
+  "computed": 5000,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_document_type: TP sums to global",
+  "pdf_pages": [
+   13
+  ],
+  "reported": 7761,
+  "computed": 7761,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_document_type: FP sums to global",
+  "pdf_pages": [
+   13
+  ],
+  "reported": 4482,
+  "computed": 4482,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_document_type: FN sums to global",
+  "pdf_pages": [
+   13
+  ],
+  "reported": 2677,
+  "computed": 2677,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_document_type: P/R/F1 recompute",
+  "pdf_pages": [
+   13
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": "rounding tie only, value sits exactly on .x5: [{\"slice\": \"dialogue\", \"reported\": [63.2, 81.9, 71.4], \"computed\": [63.3, 81.9, 71.4], \"unrounded\": [63.25, 81.877, 71.3681]}]"
+ },
+ {
+  "check": "by_noise: docs sum to 5000",
+  "pdf_pages": [
+   15
+  ],
+  "reported": 5000,
+  "computed": 5525,
+  "pass": false,
+  "note": "",
+  "explained": "Noise slices overlap: a document can carry orthographic AND typo noise (5525 slice-docs over 5000 docs). Not additive by design."
+ },
+ {
+  "check": "by_noise: TP sums to global",
+  "pdf_pages": [
+   15
+  ],
+  "reported": 7761,
+  "computed": 8513,
+  "pass": false,
+  "note": "",
+  "explained": "Overlapping slices, see docs check."
+ },
+ {
+  "check": "by_noise: FP sums to global",
+  "pdf_pages": [
+   15
+  ],
+  "reported": 4482,
+  "computed": 4925,
+  "pass": false,
+  "note": "",
+  "explained": "Overlapping slices, see docs check."
+ },
+ {
+  "check": "by_noise: FN sums to global",
+  "pdf_pages": [
+   15
+  ],
+  "reported": 2677,
+  "computed": 2974,
+  "pass": false,
+  "note": "",
+  "explained": "Overlapping slices, see docs check."
+ },
+ {
+  "check": "by_noise: P/R/F1 recompute",
+  "pdf_pages": [
+   15
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_register: docs sum to 5000",
+  "pdf_pages": [
+   15
+  ],
+  "reported": 5000,
+  "computed": 5000,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_register: TP sums to global",
+  "pdf_pages": [
+   15
+  ],
+  "reported": 7761,
+  "computed": 7761,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_register: FP sums to global",
+  "pdf_pages": [
+   15
+  ],
+  "reported": 4482,
+  "computed": 4482,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_register: FN sums to global",
+  "pdf_pages": [
+   15
+  ],
+  "reported": 2677,
+  "computed": 2677,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_register: P/R/F1 recompute",
+  "pdf_pages": [
+   15
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_first_person: docs sum to 5000",
+  "pdf_pages": [
+   15
+  ],
+  "reported": 5000,
+  "computed": 5000,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_first_person: TP sums to global",
+  "pdf_pages": [
+   15
+  ],
+  "reported": 7761,
+  "computed": 7761,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_first_person: FP sums to global",
+  "pdf_pages": [
+   15
+  ],
+  "reported": 4482,
+  "computed": 4482,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_first_person: FN sums to global",
+  "pdf_pages": [
+   15
+  ],
+  "reported": 2677,
+  "computed": 2677,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_first_person: P/R/F1 recompute",
+  "pdf_pages": [
+   15
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_length: docs sum to 5000",
+  "pdf_pages": [
+   16
+  ],
+  "reported": 5000,
+  "computed": 5000,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_length: TP sums to global",
+  "pdf_pages": [
+   16
+  ],
+  "reported": 7761,
+  "computed": 7761,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_length: FP sums to global",
+  "pdf_pages": [
+   16
+  ],
+  "reported": 4482,
+  "computed": 4482,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_length: FN sums to global",
+  "pdf_pages": [
+   16
+  ],
+  "reported": 2677,
+  "computed": 2677,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_length: P/R/F1 recompute",
+  "pdf_pages": [
+   16
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_entity_density: docs sum to 5000",
+  "pdf_pages": [
+   16
+  ],
+  "reported": 5000,
+  "computed": 5000,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_entity_density: TP sums to global",
+  "pdf_pages": [
+   16
+  ],
+  "reported": 7761,
+  "computed": 7761,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_entity_density: FP sums to global",
+  "pdf_pages": [
+   16
+  ],
+  "reported": 4482,
+  "computed": 4482,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_entity_density: FN sums to global",
+  "pdf_pages": [
+   16
+  ],
+  "reported": 2677,
+  "computed": 2677,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_entity_density: P/R/F1 recompute",
+  "pdf_pages": [
+   16
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_position TP sums to global",
+  "pdf_pages": [
+   16
+  ],
+  "reported": 7761,
+  "computed": 7761,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "by_position FN sums to global",
+  "pdf_pages": [
+   16
+  ],
+  "reported": 2677,
+  "computed": 2677,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "threshold 0.0 row = global",
+  "pdf_pages": [
+   17
+  ],
+  "reported": [
+   7761,
+   4482,
+   2677
+  ],
+  "computed": [
+   7761,
+   4482,
+   2677
+  ],
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "every threshold row: TP + FN = gold",
+  "pdf_pages": [
+   17
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "threshold rows: P/R/F1 recompute",
+  "pdf_pages": [
+   17
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "confidence bins TP sum = TP",
+  "pdf_pages": [
+   17
+  ],
+  "reported": 7761,
+  "computed": 7761,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "confidence bins FP sum = FP",
+  "pdf_pages": [
+   17
+  ],
+  "reported": 4482,
+  "computed": 4482,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "confidence-bin FP counts = appendix score histogram",
+  "pdf_pages": [
+   17,
+   22
+  ],
+  "reported": [
+   102,
+   1321,
+   491,
+   350,
+   637,
+   1581
+  ],
+  "computed": [
+   102,
+   1321,
+   489,
+   345,
+   635,
+   1590
+  ],
+  "pass": false,
+  "note": "",
+  "explained": "Appendix prints scores to 3 decimals, so values near a bin edge (e.g. 0.8996 printed 0.900) fall in the next bin. Totals agree (4482)."
+ },
+ {
+  "check": "p6 confusion counts = appendix wrong-label pairs (exact span + boundary)",
+  "pdf_pages": [
+   6,
+   22
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": "p6 counts both FP 'wrong_label' and 'wrong_label_and_boundary'"
+ },
+ {
+  "check": "p6 confusion counts sum = FP wrong_label + wrong_label_and_boundary",
+  "pdf_pages": [
+   3,
+   6
+  ],
+  "reported": 765,
+  "computed": 765,
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "p17 narrative 'FP score ortalaması 0.856' = mean appendix FP score",
+  "pdf_pages": [
+   17,
+   22
+  ],
+  "reported": 0.856,
+  "computed": 0.856,
+  "pass": true,
+  "note": "unrounded 0.8555; TP mean 0.986 is not checkable (Appendix A lists no TPs)"
+ },
+ {
+  "check": "p18 main FP/FN cause counts = appendix recount",
+  "pdf_pages": [
+   18,
+   22
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "every label in the report is in piigen.config.DETECTION_TIERS",
+  "pdf_pages": [
+   4,
+   22
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": "27 labels in the repo taxonomy"
+ },
+ {
+  "check": "every repo label appears in the report",
+  "pdf_pages": [
+   4
+  ],
+  "reported": [],
+  "computed": [],
+  "pass": true,
+  "note": ""
+ },
+ {
+  "check": "narrative vs table: DRIVER_LICENSE ... F1 41.1%",
+  "pdf_pages": [
+   5
+  ],
+  "reported": 41.1,
+  "computed": 40.9,
+  "pass": false,
+  "note": ""
+ },
+ {
+  "check": "narrative vs table: PAYMENT_CARD_NUMBER Recall 43.1%",
+  "pdf_pages": [
+   5
+  ],
+  "reported": 43.1,
+  "computed": 44.6,
+  "pass": false,
+  "note": ""
+ },
+ {
+  "check": "narrative vs table: DATE / GIVENNAME ... F1 54-56%",
+  "pdf_pages": [
+   5
+  ],
+  "reported": "54-56",
+  "computed": 75.0,
+  "pass": false,
+  "note": ""
+ },
+ {
+  "check": "narrative vs table: Hard-negative kateqoriyası precision 37.6%",
+  "pdf_pages": [
+   12
+  ],
+  "reported": 37.6,
+  "computed": 38.2,
+  "pass": false,
+  "note": ""
+ },
+ {
+  "check": "narrative vs table: positive-control F1 77.3%",
+  "pdf_pages": [
+   12
+  ],
+  "reported": 77.3,
+  "computed": 79.4,
+  "pass": false,
+  "note": ""
+ },
+ {
+  "check": "narrative vs table: CSV ən zəif formatdır (F1 55.5%)",
+  "pdf_pages": [
+   13
+  ],
+  "reported": 55.5,
+  "computed": 65.7,
+  "pass": false,
+  "note": ""
+ },
+ {
+  "check": "narrative vs table: JSON/config ... (F1 71.3%)",
+  "pdf_pages": [
+   13
+  ],
+  "reported": 71.3,
+  "computed": 73.8,
+  "pass": false,
+  "note": ""
+ },
+ {
+  "check": "narrative vs table: First-person mətnlərdə F1 65.5%",
+  "pdf_pages": [
+   15
+  ],
+  "reported": 65.5,
+  "computed": 67.7,
+  "pass": false,
+  "note": ""
+ },
+ {
+  "check": "narrative vs table: digər mətnlərdə 66.2%",
+  "pdf_pages": [
+   15
+  ],
+  "reported": 66.2,
+  "computed": 68.7,
+  "pass": false,
+  "note": ""
+ },
+ {
+  "check": "narrative vs table: Orthographic noise recall-u clean dataya nisbətən təxminən 5.6 bənd azaldır",
+  "pdf_pages": [
+   15
+  ],
+  "reported": 5.6,
+  "computed": 3.4,
+  "pass": false,
+  "note": ""
+ },
+ {
+  "check": "narrative vs table: Global threshold 0.90 micro F1-i 72.7%-ə qaldırır, lakin recall 71.2%-ə enir",
+  "pdf_pages": [
+   17
+  ],
+  "reported": 72.7,
+  "computed": 72.7,
+  "pass": true,
+  "note": ""
+ }
+]

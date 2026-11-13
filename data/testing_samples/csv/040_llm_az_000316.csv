@@ -1,0 +1,25 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000316,"Xidmət Keyfiyyəti və İnfrastrukturun İnkişafı üzrə Regionlar üzrə Rəy Sorğusu - Hesabat № 2022/AZ-045
+
+Tarix: 14 noyabr 2022-ci il
+
+Giriş və Ümumi İzah:
+Bu sənəd, dövlət qurumları və kommunal xidmətlərin yerli əhalinin ehtiyaclarına uyğunluğunu qiymətləndirmək məqsədilə keçirilən rəsmi sorğunun nəticələrini əks etdirir. Sorğunun məqsədi regionlardakı infrastruktur layihələrinin icra keyfiyyətini, kommunikasiya şəbəkələrinin əlçatanlığını və dövlət xidmətlərinin göstərilməsi zamanı yaranan bürokratik maneələri sistemləşdirilmiş şəkildə analiz etməkdir. Aşağıdakı mətn, iştirakçının təqdim etdiyi geniş şər və əlavə izahların rəsmi üslubda sistemləşdirilmiş formasıdır.
+
+Müştəri/Vətəndaş Rəyinin Detallı Təsviri:
+
+Sənədin ilk bölməsində qeyd olunan mühüm məqam ondan ibarətdir ki, son iki il ərzində regionlarda həyata keçirilən yenidənqurma və yol çəkilməsi işləri əhalinin ümumi məmnuniyyət səviyyəsinə müsbət təsir göstərmişdir. Xüsusilə, sərhədyanı ərazilərdəki logistik imkanların genişləndirilməsi və ticarət dövriyyəsinin artırılması strategiyası dərhal nəticələrini verməyə başlamışdır.
+
+İnfrastruktur və Yaşayış Sahələri üzrə Analiz:
+İştirakçı öz rəyində qeyd edir ki, sosial obyektlərin yerləşməsi və onlara çıxış yollarının vəziyyəti əsasən regionun strateji əhəmiyyəti ilə əlaqədardır. Məsələn, Astara şəhərində və ətraf yaşayış məntəqələrində aparılan asfaltlama və su təchizatı işləri mövcud problemlərin bir hissəsini aradan qaldırmışdır. Şəhərin mərkəzi hissəsindəki binaların yenilənməsi və kommunal xidmətlərin (elektrik, qaz və su) stabil işləməsi əhalinin gündəlik həyat keyfiyyətini əhəmiyyətli dərəcədə yüksəltmişdir. Bununla belə, bəzi kənd ərazilərində hələ də yol bağlantılarının mövsümi şəraitə həssaslığı bir problem kimi qeyd olunur.
+
+Dövlət Xidmətlərinin İcra Mexanizmi:
+Vətəndaş tərəfindən təqdim edilən əlavə izahlara əsasən, rəsmi sənədləşmə proseslərində rəqəmsallaşma addımları müsbət dəyişikliklər gətirmişdir. Elektron hökumət platformalarının yerli idarəetmə orqanları ilə inteqrasiyası sayəsən, əvvəllər uzun müddət davam edən bəzi prosedurlar daha sürətli həyata keçirilə bilir. Lakin, bürokratik prosedurların bəzi mərhələlərində hələ də şəxsi müraciətlərin və fiziki olaraq müvafiq qurumlara yaxınlığın vacibliyi hiss olunur. İdarəetmə sistemindəki şəffaflığın artırılması və məlumatlandırma işlərinin daha sistematik aparılması tövsiyə olunur.
+
+İqtisadi və Sosial Perspektivlər:
+Regionun iqtisadi potensialının artırılması üçün yerli sahibkarlıq subyektlərinə göstərilən dəstək və vergi imtiyazları sorğuda xüsusi vurğulanmışdır. İştirakçı qeyd edir ki, yerli məhsulların istehsalı və onların ötürülməsi üçün yaradılan yeni logistik mərkəzlər regionun iqtisadi dinamikasını canlandırır. Xüsusilə, kənd təsərrüfatı məhsullarının emalı və ixrac potensialının artırılması üçün görülən tədbirlər strateji əhəmiyyət kəsb edir.
+
+Nəticə və Tövsiyələr:
+Yekun olaraq, sorğu nəticələrindən çıxarılan əsas nəticə budur ki, regionlarda infrastrukturun inkişafı və dövlət xidmətlərinin optimallaşdırılması prosesi müsbət trayektoriya ilə davam edir. Əhalinin tələblərinin nəzərə alınması və yerli imkanların effektiv idarə olunması gələcək dövlət proqramlarının əsasını təşkil etməlidir. Sənəddə göstərilən bütün məqamlar rəsmi reyestrlərə və planlaşdırma şöbələrinə araşdırılmaq və nəzarət edilmək üçün göndərilir.
+
+Sənəd rəqəmsal imzalı və rəsmi dövriyyədədir.",az,"[{""start"":1311,""end"":1317,""label"":""CITY"",""text"":""Astara""}]",survey_response,very_long,bureaucratic and officious,[],0,0,llm,"{""index"":316,""lang"":""az"",""doc_type"":""survey_response"",""doc_type_hint"":""a free-text survey or feedback response"",""register"":""bureaucratic and officious"",""band"":""very_long"",""min_chars"":2600,""max_chars"":4200,""length_hint"":""a long multi-section document"",""entities"":[{""label"":""CITY"",""value"":""Astara""}],""hard_negatives"":[],""adversarials"":[],""noise"":[],""negative_only"":false,""seed"":2107869060,""edge_case"":{""id"":""CTY-01"",""status"":""positive_valid"",""description"":""City name in an address line."",""scenario"":""""},""reference_year"":2022}",source

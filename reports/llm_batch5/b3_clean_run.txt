@@ -1,0 +1,12 @@
+6,000 records -> 5,965 kept, 35 dropped
+      13  validate_corpus:unlabeled_pii_leak
+       8  validate_corpus:planned_value_unlabelled
+       5  unplanned_pii
+       4  validate_corpus:validator_failure
+       3  decoy_integrity:not a planted decoy string
+       2  validate_corpus:resolver_drift
+validate_corpus on the clean file: exit 0 (RESULT: PASS -- corpus is fit to train on)
+leakage guard on the clean file  : exit 0
+kept documents with PII the model invented (not dropped unless --drop-unplanned-pii): 0 (0.0%) {}
+clean  -> C:\Users\t.huseynli\Documents\Masking Project\pii-masking-model\data\raw\sprint1_llm_b3.clean.jsonl
+report -> C:\Users\t.huseynli\Documents\Masking Project\pii-masking-model\data\raw\sprint1_llm_b3.clean.report.json

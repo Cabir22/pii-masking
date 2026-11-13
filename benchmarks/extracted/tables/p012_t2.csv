@@ -1,0 +1,14 @@
+Kəsim,Docs,TP,FP,FN,Precision,Recall,F1
+hard_negative,1553,879,1422,387,38.2%,69.4%,49.3%
+corrected_hard_negative,64,106,79,35,57.3%,75.2%,65.0%
+structured_csv,100,208,125,92,62.5%,69.3%,65.7%
+mixed,803,1639,1097,528,59.9%,75.6%,66.9%
+structured_technical_log,93,219,135,60,61.9%,78.5%,69.2%
+natural_variant_hard_negative,534,736,345,303,68.1%,70.8%,69.4%
+structured_dialogue,103,253,147,56,63.2%,81.9%,71.4%
+anchor_variant_hard_negative,414,574,246,211,70.0%,73.1%,71.5%
+structured_json_config,103,259,134,50,65.9%,83.8%,73.8%
+structured_pipe_table,112,278,135,58,67.3%,82.7%,74.2%
+anchor_variant_positive,361,765,188,319,80.3%,70.6%,75.1%
+natural_variant_positive,518,1150,244,402,82.5%,74.1%,78.1%
+positive_control,242,695,185,176,79.0%,79.8%,79.4%

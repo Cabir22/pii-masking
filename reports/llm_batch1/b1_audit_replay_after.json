@@ -1,0 +1,653 @@
+{
+ "batch": "data\\raw\\sprint1_llm_b1.jsonl",
+ "replay": {
+  "replayed": 6000,
+  "accepted": 5901,
+  "rejected": 99,
+  "rejected_by_reason": {
+   "validation: language: only N az words": 33,
+   "quality: planned value never labeled (SURNAME, misspelled)": 23,
+   "quality: planned value never labeled (GIVENNAME, misspelled": 11,
+   "quality: planned value never labeled (CITY, misspelled)": 10,
+   "quality: planned value never labeled (SURNAME, mixed_script": 6,
+   "no entities resolved: ": 3,
+   "quality: planned value never labeled (STREET, street+unreso": 3,
+   "quality: planned value never labeled (URL, fragment)": 2,
+   "quality: planned value never labeled (ACCESS_TOKEN, fragmen": 2,
+   "quality: planned value never labeled (CITY, folded+unresolv": 1,
+   "quality: planned value never labeled (EMAIL, fragment)": 1,
+   "quality: planned value never labeled (CITY, exact+unresolva": 1,
+   "quality: planned value never labeled (ACCESS_TOKEN, altered": 1,
+   "quality: planned value never labeled (ICCID, fragment)": 1,
+   "quality: planned value never labeled (STREET, misspelled)": 1
+  },
+  "rejected_noised": 25,
+  "rejected_ids": [
+   "llm_az_000191",
+   "llm_az_000192",
+   "llm_az_000245",
+   "llm_az_000255",
+   "llm_az_000437",
+   "llm_az_000468",
+   "llm_az_000520",
+   "llm_az_000545",
+   "llm_az_000716",
+   "llm_az_000829",
+   "llm_az_001015",
+   "llm_az_001073",
+   "llm_az_001110",
+   "llm_az_001208",
+   "llm_az_001553",
+   "llm_az_001767",
+   "llm_az_001952",
+   "llm_az_002147",
+   "llm_az_002220",
+   "llm_az_002321",
+   "llm_az_002423",
+   "llm_az_002529",
+   "llm_az_002678",
+   "llm_az_002907",
+   "llm_az_003058",
+   "llm_az_003310",
+   "llm_az_003410",
+   "llm_az_003434",
+   "llm_az_003606",
+   "llm_az_003654",
+   "llm_az_003830",
+   "llm_az_003831",
+   "llm_az_003961",
+   "llm_az_004017",
+   "llm_az_004053",
+   "llm_az_004179",
+   "llm_az_004241",
+   "llm_az_004245",
+   "llm_az_004274",
+   "llm_az_004304",
+   "llm_az_004475",
+   "llm_az_004485",
+   "llm_az_004519",
+   "llm_az_004537",
+   "llm_az_004603",
+   "llm_az_004832",
+   "llm_az_004938",
+   "llm_az_005027",
+   "llm_az_005346",
+   "llm_az_005465",
+   "llm_az_005491",
+   "llm_az_005691",
+   "llm_az_005697",
+   "llm_az_006002",
+   "llm_az_006031",
+   "llm_az_006043",
+   "llm_az_006249",
+   "llm_az_006675",
+   "llm_az_006684",
+   "llm_az_006706",
+   "llm_az_006758",
+   "llm_az_006984",
+   "llm_az_006987",
+   "llm_az_007184",
+   "llm_az_007226",
+   "llm_az_007420",
+   "llm_az_007428",
+   "llm_az_007461",
+   "llm_az_007550",
+   "llm_az_007632",
+   "llm_az_007739",
+   "llm_az_007837",
+   "llm_az_007866",
+   "llm_az_007988",
+   "llm_az_008006",
+   "llm_az_008079",
+   "llm_az_008110",
+   "llm_az_008562",
+   "llm_az_008660",
+   "llm_az_008701",
+   "llm_az_008806",
+   "llm_az_008812",
+   "llm_az_008861",
+   "llm_az_008888",
+   "llm_az_008943",
+   "llm_az_009037",
+   "llm_az_009070",
+   "llm_az_009076",
+   "llm_az_009168",
+   "llm_az_009621",
+   "llm_az_009674",
+   "llm_az_009740",
+   "llm_az_009899",
+   "llm_az_010051",
+   "llm_az_010488",
+   "llm_az_010653",
+   "llm_az_010843",
+   "llm_az_010901",
+   "llm_az_010989"
+  ]
+ },
+ "documents": 5901,
+ "unlabelled_planned": {
+  "values": 0,
+  "documents": 0,
+  "values_with_no_label_anywhere": 0,
+  "documents_with_no_label_anywhere": 0,
+  "no_label_anywhere_by_label": {},
+  "by_label": {},
+  "by_kind": {},
+  "examples": []
+ },
+ "planned": {
+  "ACCESS_TOKEN": {
+   "planned": 248,
+   "not_labelled_anywhere": 1,
+   "share": 0.004
+  },
+  "AGE": {
+   "planned": 420,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "API_KEY": {
+   "planned": 364,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_DRIVER_LICENSE_NUMBER": {
+   "planned": 213,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_FIN": {
+   "planned": 302,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_ID_CARD_NUMBER": {
+   "planned": 256,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_PASSPORT_NUMBER": {
+   "planned": 231,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_VOEN": {
+   "planned": 214,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "BUILDINGNUM": {
+   "planned": 458,
+   "not_labelled_anywhere": 2,
+   "share": 0.0044
+  },
+  "CARD_SECURITY_CODE": {
+   "planned": 209,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "CITY": {
+   "planned": 507,
+   "not_labelled_anywhere": 2,
+   "share": 0.0039
+  },
+  "DATE": {
+   "planned": 640,
+   "not_labelled_anywhere": 13,
+   "share": 0.0203
+  },
+  "EMAIL": {
+   "planned": 1396,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "GIVENNAME": {
+   "planned": 1307,
+   "not_labelled_anywhere": 3,
+   "share": 0.0023
+  },
+  "IBAN": {
+   "planned": 229,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "ICCID": {
+   "planned": 167,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "IPV4_ADDRESS": {
+   "planned": 296,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "IPV6_ADDRESS": {
+   "planned": 160,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "MAC_ADDRESS": {
+   "planned": 201,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "PAYMENT_CARD_NUMBER": {
+   "planned": 274,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "PRIVATE_KEY": {
+   "planned": 180,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "STREET": {
+   "planned": 540,
+   "not_labelled_anywhere": 7,
+   "share": 0.013
+  },
+  "SURNAME": {
+   "planned": 1020,
+   "not_labelled_anywhere": 8,
+   "share": 0.0078
+  },
+  "TELEPHONENUM": {
+   "planned": 1229,
+   "not_labelled_anywhere": 1,
+   "share": 0.0008
+  },
+  "TIME": {
+   "planned": 333,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "URL": {
+   "planned": 392,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "ZIPCODE": {
+   "planned": 472,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  }
+ },
+ "label_disagreement": {
+  "count": 0,
+  "by_reason": {},
+  "examples": []
+ },
+ "decoys": {
+  "counts": {
+   "checked": 4093,
+   "exempt (policy/contextual)": 1669,
+   "not a planted decoy string": 2
+  },
+  "examples": [
+   {
+    "id": "llm_az_003675",
+    "problem": "not a planted decoy string",
+    "kind": "MAC_LIKE_HASH",
+    "value": "60:d7:be:da-2d:d2:6c:6d:e9:4d:3a:15:77:b8:e3:7d",
+    "context": " 0-22 xətası və ...218 ilə bitən kartda [[60:d7:be:da-2d:d2:6c:6d:e9:4d:3a:15:77:b8:e3:7d]] MAC ünvanlı cihazda xəta qeydə alınıb. "
+   },
+   {
+    "id": "llm_az_004261",
+    "problem": "not a planted decoy string",
+    "kind": "MAC_LIKE_HASH",
+    "value": "78:49:07:ce:de:4e:41-2d:2a:b1:15:4d:d4:bb:3c:de",
+    "context": "azın MAC ünvanı isə aşağıdakı kimidir:  [[78:49:07:ce:de:4e:41-2d:2a:b1:15:4d:d4:bb:3c:de]]  ***  Sistem daxilindəki maliyyə əməliy"
+   }
+  ]
+ },
+ "rates": {
+  "requested": {
+   "hard_negative": 0.3,
+   "adversarial": 0.2,
+   "pii_free": 0.1,
+   "edge_case": 0.3
+  },
+  "measured": {
+   "hard_negative_spec": 0.1866,
+   "hard_negative_text": 0.179,
+   "adversarial_spec": 0.1523,
+   "adversarial_text": 0.1515,
+   "any_decoy_text (README metric)": 0.2415,
+   "pii_free": 0.0712,
+   "edge_case": 0.4453,
+   "with_decoy_spans": 0.2445
+  }
+ },
+ "label_shares": {
+  "API_KEY": {
+   "mentions": 401,
+   "share": 0.0228,
+   "target": 0.025,
+   "ratio": 0.91
+  },
+  "ACCESS_TOKEN": {
+   "mentions": 273,
+   "share": 0.0155,
+   "target": 0.015,
+   "ratio": 1.03
+  },
+  "PRIVATE_KEY": {
+   "mentions": 180,
+   "share": 0.0102,
+   "target": 0.01,
+   "ratio": 1.02
+  },
+  "PAYMENT_CARD_NUMBER": {
+   "mentions": 325,
+   "share": 0.0185,
+   "target": 0.018,
+   "ratio": 1.03
+  },
+  "IBAN": {
+   "mentions": 268,
+   "share": 0.0152,
+   "target": 0.014,
+   "ratio": 1.09
+  },
+  "CARD_SECURITY_CODE": {
+   "mentions": 255,
+   "share": 0.0145,
+   "target": 0.012,
+   "ratio": 1.21
+  },
+  "IPV4_ADDRESS": {
+   "mentions": 398,
+   "share": 0.0226,
+   "target": 0.018,
+   "ratio": 1.26
+  },
+  "IPV6_ADDRESS": {
+   "mentions": 233,
+   "share": 0.0132,
+   "target": 0.006,
+   "ratio": 2.2
+  },
+  "MAC_ADDRESS": {
+   "mentions": 251,
+   "share": 0.0143,
+   "target": 0.008,
+   "ratio": 1.78
+  },
+  "URL": {
+   "mentions": 418,
+   "share": 0.0237,
+   "target": 0.025,
+   "ratio": 0.95
+  },
+  "ICCID": {
+   "mentions": 208,
+   "share": 0.0118,
+   "target": 0.006,
+   "ratio": 1.97
+  },
+  "GIVENNAME": {
+   "mentions": 2598,
+   "share": 0.1475,
+   "target": 0.15,
+   "ratio": 0.98
+  },
+  "SURNAME": {
+   "mentions": 2034,
+   "share": 0.1155,
+   "target": 0.12,
+   "ratio": 0.96
+  },
+  "EMAIL": {
+   "mentions": 1789,
+   "share": 0.1016,
+   "target": 0.12,
+   "ratio": 0.85
+  },
+  "TELEPHONENUM": {
+   "mentions": 1518,
+   "share": 0.0862,
+   "target": 0.1,
+   "ratio": 0.86
+  },
+  "DATE": {
+   "mentions": 724,
+   "share": 0.0411,
+   "target": 0.045,
+   "ratio": 0.91
+  },
+  "TIME": {
+   "mentions": 487,
+   "share": 0.0276,
+   "target": 0.025,
+   "ratio": 1.11
+  },
+  "AGE": {
+   "mentions": 530,
+   "share": 0.0301,
+   "target": 0.03,
+   "ratio": 1.0
+  },
+  "CITY": {
+   "mentions": 1032,
+   "share": 0.0586,
+   "target": 0.065,
+   "ratio": 0.9
+  },
+  "STREET": {
+   "mentions": 802,
+   "share": 0.0455,
+   "target": 0.05,
+   "ratio": 0.91
+  },
+  "BUILDINGNUM": {
+   "mentions": 620,
+   "share": 0.0352,
+   "target": 0.035,
+   "ratio": 1.01
+  },
+  "ZIPCODE": {
+   "mentions": 609,
+   "share": 0.0346,
+   "target": 0.035,
+   "ratio": 0.99
+  },
+  "AZ_FIN": {
+   "mentions": 442,
+   "share": 0.0251,
+   "target": 0.02,
+   "ratio": 1.25
+  },
+  "AZ_ID_CARD_NUMBER": {
+   "mentions": 347,
+   "share": 0.0197,
+   "target": 0.015,
+   "ratio": 1.31
+  },
+  "AZ_PASSPORT_NUMBER": {
+   "mentions": 317,
+   "share": 0.018,
+   "target": 0.012,
+   "ratio": 1.5
+  },
+  "AZ_VOEN": {
+   "mentions": 278,
+   "share": 0.0158,
+   "target": 0.01,
+   "ratio": 1.58
+  },
+  "AZ_DRIVER_LICENSE_NUMBER": {
+   "mentions": 277,
+   "share": 0.0157,
+   "target": 0.01,
+   "ratio": 1.57
+  }
+ },
+ "d9": {
+  "counts": {
+   "mentions": 6466,
+   "suffixed (label includes the suffix)": 1535
+  },
+  "examples": []
+ },
+ "d10": {
+  "documents of 1-5 words": 1
+ },
+ "validate_example_failures": {},
+ "unplanned_pii": {
+  "documents": 539,
+  "share": 0.0913,
+  "pii_free_documents": 14,
+  "by_label": {
+   "CITY": 504,
+   "STREET": 238,
+   "GIVENNAME": 126,
+   "BUILDINGNUM": 23
+  },
+  "examples": [
+   {
+    "id": "llm_az_000009",
+    "label": "GIVENNAME",
+    "text": "Ahilə Meydanelizadə",
+    "context": "mrəsi: +994 ** *** ** 67  --- Hörmətlə, [[Ahilə Meydanelizadə]] Baş Maliyyə Məsləhətçisi E-poçt: ahile_"
+   },
+   {
+    "id": "llm_az_000010",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "xınlığında Şəhər                      | [[Bakı]], Azərbaycan  Texniki və maliyyə sisteml"
+   },
+   {
+    "id": "llm_az_000037",
+    "label": "GIVENNAME",
+    "text": "Rauf Məmmədov",
+    "context": "15 10:45] Söhbət yekunlaşdı.  Hörmətlə, [[Rauf Məmmədov]] Satış Təmsilçisi"
+   },
+   {
+    "id": "llm_az_000066",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "diqlənmişdir.  Soyad: Sheydayeva Ünvan: [[Bakı]] şəhəri, Nizami küçəsi, bina\t103. Əlaqə "
+   },
+   {
+    "id": "llm_az_000066",
+    "label": "STREET",
+    "text": "Nizami küçəsi",
+    "context": "  Soyad: Sheydayeva Ünvan: Bakı şəhəri, [[Nizami küçəsi]], bina\t103. Əlaqə nömrəsi: +994187717289"
+   },
+   {
+    "id": "llm_az_000071",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": ".1985 Ünvan: 94-cü Qala küç. 180C bina, [[Bakı]] ş. ------------------------------------"
+   },
+   {
+    "id": "llm_az_000107",
+    "label": "CITY",
+    "text": "Sumqayıt",
+    "context": " EDƏN: \"Regional Təchizat\" ASC MARŞRUT: [[Sumqayıt]] - Bakı (Bakı Şəhəri, Binəqədi rayonu)  "
+   },
+   {
+    "id": "llm_az_000107",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "ional Təchizat\" ASC MARŞRUT: Sumqayıt - [[Bakı]] (Bakı Şəhəri, Binəqədi rayonu)  YÜKÜN T"
+   },
+   {
+    "id": "llm_az_000107",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "Təchizat\" ASC MARŞRUT: Sumqayıt - Bakı ([[Bakı]] Şəhəri, Binəqədi rayonu)  YÜKÜN TƏSVİRİ"
+   },
+   {
+    "id": "llm_az_000107",
+    "label": "CITY",
+    "text": "Binəqədi",
+    "context": " MARŞRUT: Sumqayıt - Bakı (Bakı Şəhəri, [[Binəqədi]] rayonu)  YÜKÜN TƏSVİRİ: 1. Sənaye tipli"
+   },
+   {
+    "id": "llm_az_000215",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": " bir təcrübə təqdim etmək olub.  TƏHSİL [[Bakı]] Dövlət Universiteti İqtisadiyyat və İda"
+   },
+   {
+    "id": "llm_az_000250",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "t məlumatları aşağıdakı kimidir: Şəhər: [[Bakı]] Poçt indeksi: AZ6604  Yükün xarakterist"
+   },
+   {
+    "id": "llm_az_000278",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "n.dalkilicov84@zirve.az Yaşayış ünvanı: [[Bakı]] şəhəri, Nəsimi rayonu, Azadlıq prospekt"
+   },
+   {
+    "id": "llm_az_000278",
+    "label": "STREET",
+    "text": "Azadlıq prospekti",
+    "context": "yış ünvanı: Bakı şəhəri, Nəsimi rayonu, [[Azadlıq prospekti]], bina 23  ---  **TƏHSİL MƏLUMATLARI**  "
+   },
+   {
+    "id": "llm_az_000308",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": " 8420 3521 8194 9747 82. Ünvan: AZ1078, [[Bakı]] şəhəri, Nizami küçəsi, bina 2.  [10:22,"
+   },
+   {
+    "id": "llm_az_000308",
+    "label": "STREET",
+    "text": "Nizami küçəsi",
+    "context": "94 9747 82. Ünvan: AZ1078, Bakı şəhəri, [[Nizami küçəsi]], bina 2.  [10:22, 12.05.2021] Leyla: İn"
+   },
+   {
+    "id": "llm_az_000359",
+    "label": "GIVENNAME",
+    "text": "Araz Məmmədov",
+    "context": "x: 05.11.2020  Müştəri Məlumatları: Ad: [[Araz Məmmədov]] Şəxsiyyət vəsiqəsi №: AB2620640 Doğum t"
+   },
+   {
+    "id": "llm_az_000375",
+    "label": "GIVENNAME",
+    "text": "Elvin Məmmədov",
+    "context": "təyi Tarix: 22 May 2025 Məsul Təmsilçi: [[Elvin Məmmədov]] Status: Prioritet / Texniki Müdaxilə Tə"
+   },
+   {
+    "id": "llm_az_000411",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "əlumatı: Ünvan: Nizami küçəsi, bina 98, [[Bakı]] şəhəri.  Laboratoriya Tədqiqatı: Tam Qa"
+   },
+   {
+    "id": "llm_az_000411",
+    "label": "STREET",
+    "text": "Nizami küçəsi",
+    "context": "rix: 15.08.2026  Xəstə Məlumatı: Ünvan: [[Nizami küçəsi]], bina 98, Bakı şəhəri.  Laboratoriya Tə"
+   },
+   {
+    "id": "llm_az_000460",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "ər | 88421 | ORD-992 | Kart | Gecikmə | [[Bakı]]  Müştəri Dəstəyi: Məlumatlar əlimizə ça"
+   },
+   {
+    "id": "llm_az_000510",
+    "label": "STREET",
+    "text": "Nizami küç.",
+    "context": "alınıb. Məkan məlumatına əsasən, ünvan: [[Nizami küç.]], bina 166 göstərilir.  Bundan əlavə, bu"
+   },
+   {
+    "id": "llm_az_000518",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "[Facebook Qrupu: [[Bakı]] Şəhər Sakinləri və Texnoloji Məsləhətlə"
+   },
+   {
+    "id": "llm_az_000518",
+    "label": "STREET",
+    "text": "Nizami küçəsi",
+    "context": "damlar düşər. Yeni evə köçmüşəm, ünvan: [[Nizami küçəsi]], bina 91. Hər şey çox gözəl gedirdi, ye"
+   }
+  ]
+ }
+}

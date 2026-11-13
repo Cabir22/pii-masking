@@ -1,0 +1,24 @@
+{
+ "meta": {
+  "name": "bc_masking-az-runb-v2-seed42-2ep_937f29d008f9",
+  "model": "your-hf-org/masking-az-runb-v2-seed42-2ep",
+  "revision": "937f29d008f9f99d498e7686aa5e5dddf11ace14",
+  "code": "1e97694",
+  "date_utc": "2026-10-13 11:08 UTC"
+ },
+ "flags": [],
+ "info": {
+  "benchmark_f1_R": 0.8885563297946968,
+  "ref_benchmark_f1_R": 0.8885563297946968,
+  "benchmark_f1_M": 0.919629491017964,
+  "n_tags": 55,
+  "n_labels": 27,
+  "label_map_same": true,
+  "tokenizer": "vocabulary 250002, same ids as Run B on the test strings",
+  "predictions_checked": 25440,
+  "recall_before_window": 0.9802235597592434,
+  "recall_after_window": 0.9139784946236559,
+  "values_after_window": 93,
+  "window_documents": 400
+ }
+}

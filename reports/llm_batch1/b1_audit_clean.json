@@ -1,0 +1,685 @@
+{
+ "batch": "data\\raw\\sprint1_llm_b1.clean.jsonl",
+ "documents": 5718,
+ "unlabelled_planned": {
+  "values": 0,
+  "documents": 0,
+  "values_with_no_label_anywhere": 0,
+  "documents_with_no_label_anywhere": 0,
+  "no_label_anywhere_by_label": {},
+  "by_label": {},
+  "by_kind": {},
+  "examples": []
+ },
+ "planned": {
+  "ACCESS_TOKEN": {
+   "planned": 237,
+   "not_labelled_anywhere": 1,
+   "share": 0.0042
+  },
+  "AGE": {
+   "planned": 390,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "API_KEY": {
+   "planned": 344,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_DRIVER_LICENSE_NUMBER": {
+   "planned": 203,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_FIN": {
+   "planned": 289,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_ID_CARD_NUMBER": {
+   "planned": 256,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_PASSPORT_NUMBER": {
+   "planned": 223,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_VOEN": {
+   "planned": 203,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "BUILDINGNUM": {
+   "planned": 429,
+   "not_labelled_anywhere": 2,
+   "share": 0.0047
+  },
+  "CARD_SECURITY_CODE": {
+   "planned": 204,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "CITY": {
+   "planned": 446,
+   "not_labelled_anywhere": 2,
+   "share": 0.0045
+  },
+  "DATE": {
+   "planned": 603,
+   "not_labelled_anywhere": 10,
+   "share": 0.0166
+  },
+  "EMAIL": {
+   "planned": 1296,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "GIVENNAME": {
+   "planned": 1194,
+   "not_labelled_anywhere": 4,
+   "share": 0.0034
+  },
+  "IBAN": {
+   "planned": 224,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "ICCID": {
+   "planned": 162,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "IPV4_ADDRESS": {
+   "planned": 288,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "IPV6_ADDRESS": {
+   "planned": 154,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "MAC_ADDRESS": {
+   "planned": 187,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "PAYMENT_CARD_NUMBER": {
+   "planned": 263,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "PRIVATE_KEY": {
+   "planned": 173,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "STREET": {
+   "planned": 427,
+   "not_labelled_anywhere": 9,
+   "share": 0.0211
+  },
+  "SURNAME": {
+   "planned": 936,
+   "not_labelled_anywhere": 5,
+   "share": 0.0053
+  },
+  "TELEPHONENUM": {
+   "planned": 1152,
+   "not_labelled_anywhere": 1,
+   "share": 0.0009
+  },
+  "TIME": {
+   "planned": 314,
+   "not_labelled_anywhere": 1,
+   "share": 0.0032
+  },
+  "URL": {
+   "planned": 371,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "ZIPCODE": {
+   "planned": 439,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  }
+ },
+ "label_disagreement": {
+  "count": 24,
+  "by_reason": {
+   "changed by noise after labelling (ok)": 23,
+   "not a form of any planned value": 1
+  },
+  "examples": [
+   {
+    "id": "llm_az_000167",
+    "why": "changed by noise after labelling (ok)",
+    "label": "GIVENNAME",
+    "text": "Ni-\nyam",
+    "context": ", müəyyən edilmiş maliyyə dövrü ərzində [[Ni- yam]] və DUrmalı tərəfindən həyata keçiriLən "
+   },
+   {
+    "id": "llm_az_000899",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "ƏFLZTUNA LLAHQULIYEV PR.",
+    "context": "[[ƏFLZTUNA LLAHQULIYEV PR.]]-DE ÜNVAN QEYD EDILDI. SÜRÜCÜ VƏSIQESI: "
+   },
+   {
+    "id": "llm_az_001021",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "Aşı Billa dögəsinrə",
+    "context": "İNƏ VƏ YÖNLƏNDİRİŞ  Xəstə: Basiq Ünvan: [[Aşı Billa dögəsinrə]]  Xəstə Basiq müəlkimin şicayətlərinƏ (ş"
+   },
+   {
+    "id": "llm_az_001105",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "2eynalov",
+    "context": "lərində concurrency problemi mövcuddur. [[2eynalov]] adlı istifadəçinin profilindəki data in"
+   },
+   {
+    "id": "llm_az_001479",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "Minnət M-\nəmmədov pr.",
+    "context": "nin Isgandarzada soyadlı şəxs olduğu və [[Minnət M- əmmədov pr.]] ünvanında yaşadığı təsdiqləndi.  Müştər"
+   },
+   {
+    "id": "llm_az_001634",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "Şuxəliyevanın",
+    "context": "---- \r Kl-la danışdım, prblm var diyir. [[Şuxəliyevanın]] sorğusu gəldi. API key işləmir, sistemd"
+   },
+   {
+    "id": "llm_az_002147",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "22-cı Məhələ 3 döngəsində",
+    "context": "lı təcili xəbərdarlıq! Avtomobil dərhal [[22-cı Məhələ 3 döngəsində]] yerləşən servis mərkəzinə təqdim edilmə"
+   },
+   {
+    "id": "llm_az_002529",
+    "why": "changed by noise after labelling (ok)",
+    "label": "GIVENNAME",
+    "text": "8utabəy",
+    "context": " yükləndi. [2026-10-12 08:45:0S] [AUTH] [[8utabəy]] daxil oldu. [Z026-10-12 08:45:07] [DEBU"
+   },
+   {
+    "id": "llm_az_003175",
+    "why": "changed by noise after labelling (ok)",
+    "label": "BUILDINGNUM",
+    "text": "2l2",
+    "context": "-55-813-26-12 Yaşayış Ünvanı:         | [[2l2]] bina, Bakı şəhəri ---------------------"
+   },
+   {
+    "id": "llm_az_003654",
+    "why": "changed by noise after labelling (ok)",
+    "label": "GIVENNAME",
+    "text": "Chjngizkhan",
+    "context": "Tarix: 14 noyabr 2020 Xeste: [[Chjngizkhan]] Yenilmmezov  Chingizkhsn Yenilmezov son"
+   },
+   {
+    "id": "llm_az_003654",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "Yenilmmezov",
+    "context": "arix: 14 noyabr 2020 Xeste: Chjngizkhan [[Yenilmmezov]]  Chingizkhsn Yenilmezov sonuncum uayine"
+   },
+   {
+    "id": "llm_az_003704",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "Cinayiddiinova",
+    "context": ": 14.11.2023  MƏLUMATLAE: - Hazırlayan: [[Cinayiddiinova]] - İstifadəçi: seide.sultanov@xezerlog.a"
+   },
+   {
+    "id": "llm_az_004106",
+    "why": "changed by noise after labelling (ok)",
+    "label": "BUILDINGNUM",
+    "text": "5Z",
+    "context": "ışam. Xəstə hazırda Nizami küçəsi, bina [[5Z]] ünvanında yaşayır.  Onun əsas şikayətlə"
+   },
+   {
+    "id": "llm_az_004212",
+    "why": "not a form of any planned value",
+    "label": "CITY",
+    "text": "2ərdabda",
+    "context": "--------------------- Yaşayış yeri    | [[2ərdabda]] Hesab №       ​  | AZ62CNIV031496350684"
+   },
+   {
+    "id": "llm_az_004278",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "Məm-\nmedhesən Hacinski prospektində",
+    "context": "ishigliq  icindedir. Ad: Fabile. Ünvan: [[Məm- medhesən Hacinski prospektində]]. E-poct: efqane8662@barama.io. Telefon:"
+   },
+   {
+    "id": "llm_az_005043",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "GÜLOĞLAN MƏMMƏDO-\nV KÜÇƏSINDƏ",
+    "context": "DIR, MƏN BUNU NECƏ DÜZƏLDƏ BILƏRƏM? MƏN [[GÜLOĞLAN MƏMMƏDO- V KÜÇƏSINDƏ]] YAŞAYIRAM VƏ HƏMIŞƏ HƏR ŞEY NORMAL IŞLƏ"
+   },
+   {
+    "id": "llm_az_005218",
+    "why": "changed by noise after labelling (ok)",
+    "label": "GIVENNAME",
+    "text": "SEOCAN",
+    "context": "-------- -------------- AD              [[SEOCAN]] MƏKAN          SAHILDƏ POÇT INDEKSI   A"
+   },
+   {
+    "id": "llm_az_005465",
+    "why": "changed by noise after labelling (ok)",
+    "label": "TIME",
+    "text": "1:900",
+    "context": "in nə olduğunu başa dşüə bilmirəj. Saqt [[1:900]] vaxtı üçün planlaşdırılanb u dəyişiklik"
+   },
+   {
+    "id": "llm_az_005995",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "ЕЙВАЗОВА",
+    "context": "2022-CI IL TARIXLI HR QEYDI: SOYADI: [[ЕЙВАЗОВА]] E-POÇT: zerbailzade.b@outlook.com ÜNVAN"
+   },
+   {
+    "id": "llm_az_008630",
+    "why": "changed by noise after labelling (ok)",
+    "label": "CITY",
+    "text": "N-\naxçıvanda",
+    "context": "ız bu çətin vəziyyətə görə çox üzgünük. [[N- axçıvanda]] baş vermiş hadisə ilə bağlı sığorta mür"
+   },
+   {
+    "id": "llm_az_008867",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "Əhhməd bəy Ağaoğlu pr.",
+    "context": ", gülərüz və peşəkar bir insan idi. Mən [[Əhhməd bəy Ağaoğlu pr.]] ünvanında yaşadığım üçün kuryerin yolu "
+   },
+   {
+    "id": "llm_az_009024",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "01.1l.11950",
+    "context": "at haqqında nə bilirsən?”  Doğum tarixi [[01.1l.11950]] olan bu şəxs barədə hər hansı m1l1matı "
+   },
+   {
+    "id": "llm_az_009216",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "KAMAL KAZIMOV STR.. KÜÇ.DƏ",
+    "context": "YX ŞAMIL DÖNGƏSINDƏ\",     \"SECONDARY\": \"[[KAMAL KAZIMOV STR.. KÜÇ.DƏ]]\"   },   \"DEVICE_INOF\": {     \"ICCID\": \""
+   },
+   {
+    "id": "llm_az_010989",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "Nöyük Mərcsnlı Kənr pr.",
+    "context": "tərəfdən, hüquqi şəxs, qeydiyyat ünvanı [[Nöyük Mərcsnlı Kənr pr.]] ünvanında yerləşən,  MYI5608956 nömrəli"
+   }
+  ]
+ },
+ "decoys": {
+  "counts": {
+   "checked": 3948,
+   "exempt (policy/contextual)": 1589
+  },
+  "examples": []
+ },
+ "rates": {
+  "requested": {
+   "hard_negative": 0.3,
+   "adversarial": 0.2,
+   "pii_free": 0.1,
+   "edge_case": 0.3
+  },
+  "measured": {
+   "hard_negative_spec": 0.1829,
+   "hard_negative_text": 0.1761,
+   "adversarial_spec": 0.1532,
+   "adversarial_text": 0.1525,
+   "any_decoy_text (README metric)": 0.2384,
+   "pii_free": 0.0731,
+   "edge_case": 0.4584,
+   "with_decoy_spans": 0.2405
+  }
+ },
+ "label_shares": {
+  "API_KEY": {
+   "mentions": 377,
+   "share": 0.0235,
+   "target": 0.025,
+   "ratio": 0.94
+  },
+  "ACCESS_TOKEN": {
+   "mentions": 258,
+   "share": 0.0161,
+   "target": 0.015,
+   "ratio": 1.07
+  },
+  "PRIVATE_KEY": {
+   "mentions": 173,
+   "share": 0.0108,
+   "target": 0.01,
+   "ratio": 1.08
+  },
+  "PAYMENT_CARD_NUMBER": {
+   "mentions": 313,
+   "share": 0.0195,
+   "target": 0.018,
+   "ratio": 1.08
+  },
+  "IBAN": {
+   "mentions": 261,
+   "share": 0.0163,
+   "target": 0.014,
+   "ratio": 1.16
+  },
+  "CARD_SECURITY_CODE": {
+   "mentions": 249,
+   "share": 0.0155,
+   "target": 0.012,
+   "ratio": 1.29
+  },
+  "IPV4_ADDRESS": {
+   "mentions": 384,
+   "share": 0.0239,
+   "target": 0.018,
+   "ratio": 1.33
+  },
+  "IPV6_ADDRESS": {
+   "mentions": 225,
+   "share": 0.014,
+   "target": 0.006,
+   "ratio": 2.34
+  },
+  "MAC_ADDRESS": {
+   "mentions": 227,
+   "share": 0.0142,
+   "target": 0.008,
+   "ratio": 1.77
+  },
+  "URL": {
+   "mentions": 393,
+   "share": 0.0245,
+   "target": 0.025,
+   "ratio": 0.98
+  },
+  "ICCID": {
+   "mentions": 200,
+   "share": 0.0125,
+   "target": 0.006,
+   "ratio": 2.08
+  },
+  "GIVENNAME": {
+   "mentions": 2301,
+   "share": 0.1434,
+   "target": 0.15,
+   "ratio": 0.96
+  },
+  "SURNAME": {
+   "mentions": 1815,
+   "share": 0.1131,
+   "target": 0.12,
+   "ratio": 0.94
+  },
+  "EMAIL": {
+   "mentions": 1641,
+   "share": 0.1023,
+   "target": 0.12,
+   "ratio": 0.85
+  },
+  "TELEPHONENUM": {
+   "mentions": 1402,
+   "share": 0.0874,
+   "target": 0.1,
+   "ratio": 0.87
+  },
+  "DATE": {
+   "mentions": 682,
+   "share": 0.0425,
+   "target": 0.045,
+   "ratio": 0.94
+  },
+  "TIME": {
+   "mentions": 453,
+   "share": 0.0282,
+   "target": 0.025,
+   "ratio": 1.13
+  },
+  "AGE": {
+   "mentions": 486,
+   "share": 0.0303,
+   "target": 0.03,
+   "ratio": 1.01
+  },
+  "CITY": {
+   "mentions": 869,
+   "share": 0.0542,
+   "target": 0.065,
+   "ratio": 0.83
+  },
+  "STREET": {
+   "mentions": 617,
+   "share": 0.0385,
+   "target": 0.05,
+   "ratio": 0.77
+  },
+  "BUILDINGNUM": {
+   "mentions": 569,
+   "share": 0.0355,
+   "target": 0.035,
+   "ratio": 1.01
+  },
+  "ZIPCODE": {
+   "mentions": 558,
+   "share": 0.0348,
+   "target": 0.035,
+   "ratio": 0.99
+  },
+  "AZ_FIN": {
+   "mentions": 418,
+   "share": 0.0261,
+   "target": 0.02,
+   "ratio": 1.3
+  },
+  "AZ_ID_CARD_NUMBER": {
+   "mentions": 344,
+   "share": 0.0214,
+   "target": 0.015,
+   "ratio": 1.43
+  },
+  "AZ_PASSPORT_NUMBER": {
+   "mentions": 306,
+   "share": 0.0191,
+   "target": 0.012,
+   "ratio": 1.59
+  },
+  "AZ_VOEN": {
+   "mentions": 260,
+   "share": 0.0162,
+   "target": 0.01,
+   "ratio": 1.62
+  },
+  "AZ_DRIVER_LICENSE_NUMBER": {
+   "mentions": 260,
+   "share": 0.0162,
+   "target": 0.01,
+   "ratio": 1.62
+  }
+ },
+ "d9": {
+  "counts": {
+   "mentions": 5602,
+   "suffixed (label includes the suffix)": 1196
+  },
+  "examples": []
+ },
+ "d10": {
+  "documents of 1-5 words": 1
+ },
+ "validate_example_failures": {},
+ "unplanned_pii": {
+  "documents": 517,
+  "share": 0.0904,
+  "pii_free_documents": 14,
+  "by_label": {
+   "CITY": 478,
+   "STREET": 230,
+   "GIVENNAME": 122,
+   "BUILDINGNUM": 20
+  },
+  "examples": [
+   {
+    "id": "llm_az_000009",
+    "label": "GIVENNAME",
+    "text": "Ahilə Meydanelizadə",
+    "context": "mrəsi: +994 ** *** ** 67  --- Hörmətlə, [[Ahilə Meydanelizadə]] Baş Maliyyə Məsləhətçisi E-poçt: ahile_"
+   },
+   {
+    "id": "llm_az_000066",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "diqlənmişdir.  Soyad: Sheydayeva Ünvan: [[Bakı]] şəhəri, Nizami küçəsi, bina\t103. Əlaqə "
+   },
+   {
+    "id": "llm_az_000066",
+    "label": "STREET",
+    "text": "Nizami küçəsi",
+    "context": "  Soyad: Sheydayeva Ünvan: Bakı şəhəri, [[Nizami küçəsi]], bina\t103. Əlaqə nömrəsi: +994187717289"
+   },
+   {
+    "id": "llm_az_000071",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": ".1985 Ünvan: 94-cü Qala küç. 180C bina, [[Bakı]] ş. ------------------------------------"
+   },
+   {
+    "id": "llm_az_000107",
+    "label": "CITY",
+    "text": "Sumqayıt",
+    "context": " EDƏN: \"Regional Təchizat\" ASC MARŞRUT: [[Sumqayıt]] - Bakı (Bakı Şəhəri, Binəqədi rayonu)  "
+   },
+   {
+    "id": "llm_az_000107",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "ional Təchizat\" ASC MARŞRUT: Sumqayıt - [[Bakı]] (Bakı Şəhəri, Binəqədi rayonu)  YÜKÜN T"
+   },
+   {
+    "id": "llm_az_000107",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "Təchizat\" ASC MARŞRUT: Sumqayıt - Bakı ([[Bakı]] Şəhəri, Binəqədi rayonu)  YÜKÜN TƏSVİRİ"
+   },
+   {
+    "id": "llm_az_000107",
+    "label": "CITY",
+    "text": "Binəqədi",
+    "context": " MARŞRUT: Sumqayıt - Bakı (Bakı Şəhəri, [[Binəqədi]] rayonu)  YÜKÜN TƏSVİRİ: 1. Sənaye tipli"
+   },
+   {
+    "id": "llm_az_000215",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": " bir təcrübə təqdim etmək olub.  TƏHSİL [[Bakı]] Dövlət Universiteti İqtisadiyyat və İda"
+   },
+   {
+    "id": "llm_az_000250",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "t məlumatları aşağıdakı kimidir: Şəhər: [[Bakı]] Poçt indeksi: AZ6604  Yükün xarakterist"
+   },
+   {
+    "id": "llm_az_000278",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "n.dalkilicov84@zirve.az Yaşayış ünvanı: [[Bakı]] şəhəri, Nəsimi rayonu, Azadlıq prospekt"
+   },
+   {
+    "id": "llm_az_000278",
+    "label": "STREET",
+    "text": "Azadlıq prospekti",
+    "context": "yış ünvanı: Bakı şəhəri, Nəsimi rayonu, [[Azadlıq prospekti]], bina 23  ---  **TƏHSİL MƏLUMATLARI**  "
+   },
+   {
+    "id": "llm_az_000308",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": " 8420 3521 8194 9747 82. Ünvan: AZ1078, [[Bakı]] şəhəri, Nizami küçəsi, bina 2.  [10:22,"
+   },
+   {
+    "id": "llm_az_000308",
+    "label": "STREET",
+    "text": "Nizami küçəsi",
+    "context": "94 9747 82. Ünvan: AZ1078, Bakı şəhəri, [[Nizami küçəsi]], bina 2.  [10:22, 12.05.2021] Leyla: İn"
+   },
+   {
+    "id": "llm_az_000359",
+    "label": "GIVENNAME",
+    "text": "Araz Məmmədov",
+    "context": "x: 05.11.2020  Müştəri Məlumatları: Ad: [[Araz Məmmədov]] Şəxsiyyət vəsiqəsi №: AB2620640 Doğum t"
+   },
+   {
+    "id": "llm_az_000375",
+    "label": "GIVENNAME",
+    "text": "Elvin Məmmədov",
+    "context": "təyi Tarix: 22 May 2025 Məsul Təmsilçi: [[Elvin Məmmədov]] Status: Prioritet / Texniki Müdaxilə Tə"
+   },
+   {
+    "id": "llm_az_000411",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "əlumatı: Ünvan: Nizami küçəsi, bina 98, [[Bakı]] şəhəri.  Laboratoriya Tədqiqatı: Tam Qa"
+   },
+   {
+    "id": "llm_az_000411",
+    "label": "STREET",
+    "text": "Nizami küçəsi",
+    "context": "rix: 15.08.2026  Xəstə Məlumatı: Ünvan: [[Nizami küçəsi]], bina 98, Bakı şəhəri.  Laboratoriya Tə"
+   },
+   {
+    "id": "llm_az_000460",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "ər | 88421 | ORD-992 | Kart | Gecikmə | [[Bakı]]  Müştəri Dəstəyi: Məlumatlar əlimizə ça"
+   },
+   {
+    "id": "llm_az_000510",
+    "label": "STREET",
+    "text": "Nizami küç.",
+    "context": "alınıb. Məkan məlumatına əsasən, ünvan: [[Nizami küç.]], bina 166 göstərilir.  Bundan əlavə, bu"
+   },
+   {
+    "id": "llm_az_000518",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "[Facebook Qrupu: [[Bakı]] Şəhər Sakinləri və Texnoloji Məsləhətlə"
+   },
+   {
+    "id": "llm_az_000518",
+    "label": "STREET",
+    "text": "Nizami küçəsi",
+    "context": "damlar düşər. Yeni evə köçmüşəm, ünvan: [[Nizami küçəsi]], bina 91. Hər şey çox gözəl gedirdi, ye"
+   },
+   {
+    "id": "llm_az_000533",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "9602937382 Əlaqə nömrəsi: 994701214363  [[Bakı]] seheri mülki məhkəmə tərəfindən təqdim "
+   },
+   {
+    "id": "llm_az_000561",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "2022-AZ-094 Yaşayış ünvanı: Azərbaycan, [[Bakı]] şəhəri, AZ1040 poçt indeksi ərazisi.  A"
+   }
+  ]
+ }
+}

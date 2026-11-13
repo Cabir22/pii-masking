@@ -1,0 +1,42 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000058,"Hörmətli rəy komandası,
+
+Əvvəlcə göstərdiyiniz diqqət və bu sorğunun təşkili üçün təşəkkür edirəm. Bu rəyi yazarkən bir qədər narahat və üzr istəyən bir tonla danışmalı olacağımı bilirəm, çünki sonuncu xidmət çağırışımız zamanı bəzi texniki yanlışlıqlar və məlumat sızmaları ilə bağlı ciddi narahatlıqlar yaranmışdı. Şirkətimizin daxili sistemlərindəki bəzi boşluqlar üzrə rəy vermək məqsədilə bu uzun mətni hazırlamışam.
+
+Sistemin işləməsi zamanı bizə təqdim olunan sənədlərin və məlumatların idarə olunmasında böyük bir xəta baş verdi. Məsələn, keçən ilki audit zamanı müəyyən edilmiş bəzi şəxsi məlumatların yanlış formatda saxlanılması və ya yanlış şəxslərə göndərilməsi bizə böyük zərər vurdu. Mən, Xubyar Məmmədəminzadə olaraq, bu prosesdəki məsuliyyətimizi qəbul edirəm və baş vermiş hər bir gecikməyə görə üzr istəyirəm. Bizim komanda daxilindəki bəzi sənədlərin içində, təhlükəsizlik protokollarının pozulması nəticəsində aşağıdakı kimi kritik giriş məlumatlarının da görünməsi mümkün olmuşdu:
+
+-----BEGIN RSA PRIVATE KEY-----
+Q5bHAFiSGnagX41v0/WSWm9Cu5jeLcOHnjRvWujlR9d3v3ugmQAy0HKMEmgY+tgU
+a2lL9zmdAvLk8oNY8+HlXxVWVx5fH47HCIhtmkS0DhX18E8MkYesp5wvByqf2k3z
+-----END RSA PRIVATE KEY-----
+
+Bu vəziyyət bizim bütün təhlükəsizlik sistemimizi sarsıtdı. Bundan əlavə, müştərilərimizin və əməkdaşlarımızın şəxsiyyət məlumatlarının idarə edilməsində də ciddi boşluqlar var. Məsələn, bir əməkdaşımızın şəxsiyyət vəsiqəsi məlumatları sistemdə açıq şəkildə görünürdü: Pasport №: U29451168. Bu, tamamilə qəbulolunmaz bir haldır və biz bunun üzərində işləməliyik.
+
+Həmçinin, müştəri bazamızda olan bəzi köhnə qeydlərə rast gəldik. Bir istifadəçinin profil məlumatlarını yoxlayarkən aşağıdakı məlumatları tapdıq:
+Doğum tarixi: 28 iyun 2015. Bu məlumatın sistemdə bu şəkildə qalması gələcək auditlər zamanı bizə problem yarada bilər.
+
+Texniki dəstək prosesində də bir çox xətalarla qarşılaşırıq. Proqram təminatımızın API inteqrasiyası zamanı bəzi açarların log fayllarında açıq şəkildə saxlanılması təhlükəni daha da artırır. Məsələn, sistem tərəfindən avtomatik yaradılan və təhlükəsizlik üçün gizli saxlanılmalı olan API açarı: dop_v1_0d3d443339bd8cff158c4c1ca71f8b0a998f3749ea8d26e6dfb1529c40566171. Bu açarın sistem tərəfindən sızdırılması bizə çox böyük maliyyə itkiləri və etibar sarsıntısı gətirdi.
+
+E-poçt vasitəsilə göndərilən sənədlərin analizi zamanı isə bir çox əlaqə məlumatlarının səhv ünvanlara yönləndirildiyini gördük. Aşağıdakı e-poçt ünvanları bizim daxili yazışmalarımızda və ya müştəri müraciətlərində bəzən yanlışlıqla paylaşılmış ola bilər:
+sahhuseyn.vezirli51@nurtekstil.az
+gulcohre_xursidov@araz-mebel.az
+
+Bu məlumatların təhlükəsizliyini təmin etmək üçün biz yeni protokollar hazırlayırıq. Lakin hazırkı vəziyyətdə hər şeyin nə dərəcədə kritik olduğunu başa düşməyiniz üçün aşağıdakı cədvəli təqdim edirəm. Bu, keçən ayın daxili hesabatından bir parçadır:
+
+ID | Ad | Soyad | Status | Tarix
+102 | Xubyar | Məmmədəminzadə | Aktiv | 12.05.2019
+105 | Əli | Əliyev | Gözləmədə | 14.05.2019
+109 | Leyla | Qasımova | Tamamlandı | 15.05.2019
+
+Yenə də təkrar edirəm, baş vermiş bütün bu texniki nasazlıqlara və məlumatların düzgün idarə olunmamasına görə komandanın adından üzr istəyirəm. Biz bu səhvləri düzəltmək və gələcəkdə belə hallar yaşanmaması üçün bütün təhlükəsizlik tədbirlərini artırmağa çalışırıq. Hər bir xəta bizim üçün dərsdir və biz bu dərslərdən istifadə edərək sistemimizi daha da möhkəmləndirəcəyik.
+
+Hörmətlə,
+
+Xubyar Məmmədəminzadə
+Layihə Koordinatoru
+Nur Tekstil MMC
+Email: sahhuseyn.vezirli51@nurtekstil.az
+Tel: +994 50 000 00 00
+Ünvan: Bakı şəhəri, Sabir ئەbülqasım küç., 15
+------------------------------------------
+Bu sənəd avtomatik olaraq yaradılmışdır.",az,"[{""start"":704,""end"":710,""label"":""GIVENNAME"",""text"":""Xubyar""},{""start"":711,""end"":725,""label"":""SURNAME"",""text"":""Məmmədəminzadə""},{""start"":1004,""end"":1195,""label"":""PRIVATE_KEY"",""text"":""-----BEGIN RSA PRIVATE KEY-----\nQ5bHAFiSGnagX41v0/WSWm9Cu5jeLcOHnjRvWujlR9d3v3ugmQAy0HKMEmgY+tgU\na2lL9zmdAvLk8oNY8+HlXxVWVx5fH47HCIhtmkS0DhX18E8MkYesp5wvByqf2k3z\n-----END RSA PRIVATE KEY-----""},{""start"":1477,""end"":1486,""label"":""AZ_PASSPORT_NUMBER"",""text"":""U29451168""},{""start"":1722,""end"":1734,""label"":""DATE"",""text"":""28 iyun 2015""},{""start"":2125,""end"":2196,""label"":""API_KEY"",""text"":""dop_v1_0d3d443339bd8cff158c4c1ca71f8b0a998f3749ea8d26e6dfb1529c40566171""},{""start"":2559,""end"":2592,""label"":""EMAIL"",""text"":""sahhuseyn.vezirli51@nurtekstil.az""},{""start"":2593,""end"":2624,""label"":""EMAIL"",""text"":""gulcohre_xursidov@araz-mebel.az""},{""start"":2917,""end"":2923,""label"":""GIVENNAME"",""text"":""Xubyar""},{""start"":2926,""end"":2940,""label"":""SURNAME"",""text"":""Məmmədəminzadə""},{""start"":3444,""end"":3450,""label"":""GIVENNAME"",""text"":""Xubyar""},{""start"":3451,""end"":3465,""label"":""SURNAME"",""text"":""Məmmədəminzadə""},{""start"":3509,""end"":3542,""label"":""EMAIL"",""text"":""sahhuseyn.vezirli51@nurtekstil.az""}]",survey_response,extreme,apologetic,[],0,0,llm,"{""index"":58,""lang"":""az"",""doc_type"":""survey_response"",""doc_type_hint"":""a free-text survey or feedback response"",""register"":""apologetic"",""band"":""extreme"",""min_chars"":4200,""max_chars"":9000,""length_hint"":""a very long document or log dump"",""entities"":[{""label"":""PRIVATE_KEY"",""value"":""-----BEGIN RSA PRIVATE KEY-----\nQ5bHAFiSGnagX41v0/WSWm9Cu5jeLcOHnjRvWujlR9d3v3ugmQAy0HKMEmgY+tgU\na2lL9zmdAvLk8oNY8+HlXxVWVx5fH47HCIhtmkS0DhX18E8MkYesp5wvByqf2k3z\n-----END RSA PRIVATE KEY-----""},{""label"":""AZ_PASSPORT_NUMBER"",""value"":""U29451168""},{""label"":""GIVENNAME"",""value"":""Xubyar""},{""label"":""DATE"",""value"":""28 iyun 2015""},{""label"":""API_KEY"",""value"":""dop_v1_0d3d443339bd8cff158c4c1ca71f8b0a998f3749ea8d26e6dfb1529c40566171""},{""label"":""EMAIL"",""value"":""sahhuseyn.vezirli51@nurtekstil.az""},{""label"":""EMAIL"",""value"":""gulcohre_xursidov@araz-mebel.az""},{""label"":""SURNAME"",""value"":""Məmmədəminzadə""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include an email signature block at the end"",""include a line that was clearly pasted from a spreadsheet""],""negative_only"":false,""seed"":388230363,""edge_case"":null,""reference_year"":2019}",source

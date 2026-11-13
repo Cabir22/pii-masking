@@ -1,0 +1,33 @@
+{
+ "stats": {
+  "documents": 5779,
+  "date_labels_before": 783,
+  "unlabelled_dates_before": 3609,
+  "docs_with_unlabelled_before": 2871,
+  "unlabelled_dates_after": 2,
+  "docs_with_unlabelled_after": 2,
+  "date_labels_after": 4390,
+  "docs_changed": 2870,
+  "spans_added": 3607
+ },
+ "left_by_reason": {
+  "no anchor": 2
+ },
+ "changed_by_language": {
+  "az": 2870
+ },
+ "examples": [
+  "Tarix: 12 oktyabr 2018  Agent: Salam, xoş ",
+  "14.05.2022 10:05:12 - Görüş ba",
+  "[Səs yazısının transkripsiyası] Tarix: 22 noyabr 2015  \"Salam, ümid edirə",
+  "Hesab-faktura Tarix: 22.04.2026  Xidmət haqqının öd",
+  "inda Hesabat (Tələb № 2024-089)  Tarix: 12 Oktyabr 2024  Bu sənəd, sığorta ",
+  "ində Cihaz Tanınmaması Problemi  Tarix: 12 noyabr 2015-ci il Status: Kriti",
+  "iz Mesaj Portalı Mesaj ID: 882-X Tarix: 14.08.2021  Mövzu: Məlumatları",
+  " Biliklər Bazası (Wiki) *Son yenilənmə: 14.03.2022*  Sistemi idarə etm",
+  "Yönləndirilmiş mesaj: Tarix: 12.07.2022 Mövzu: Profil yenil",
+  "Versiya: 3.1.0 # Son dəyişiklik tarixi: 2022-09-15  # Bu konfiqurasiya",
+  "Hesab Fakturası № 2015-0892 Tarix: 22.08.2015  Bu hesab sənədi il",
+  "Tarix: 12.05.2016  Üzr istəyirəm, l0q"
+ ]
+}

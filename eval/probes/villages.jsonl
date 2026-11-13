@@ -1,0 +1,34 @@
+{"id": "villages_001", "text": "Nənəm Kürdəxanı qəsəbəsində yaşayır.", "lang": "az", "family": "villages", "pair": 0, "role": "village", "entities": [{"start": 6, "end": 15, "label": "CITY"}]}
+{"id": "villages_002", "text": "Bu bal Cekdən gətirilib.", "lang": "az", "family": "villages", "pair": 1, "role": "village", "entities": [{"start": 7, "end": 13, "label": "CITY"}]}
+{"id": "villages_003", "text": "Yay tətilini Əlikdə keçirdik.", "lang": "az", "family": "villages", "pair": 2, "role": "village", "entities": [{"start": 13, "end": 19, "label": "CITY"}]}
+{"id": "villages_004", "text": "Vəndam kəndinin məktəbi təmir olunub.", "lang": "az", "family": "villages", "pair": 3, "role": "village", "entities": [{"start": 0, "end": 6, "label": "CITY"}]}
+{"id": "villages_005", "text": "Atam hər gün İvanovkaya işə gedir.", "lang": "az", "family": "villages", "pair": 4, "role": "village", "entities": [{"start": 13, "end": 23, "label": "CITY"}]}
+{"id": "villages_006", "text": "Kişdəki alban məbədinə ekskursiya təşkil olunub.", "lang": "az", "family": "villages", "pair": 5, "role": "village", "entities": [{"start": 0, "end": 7, "label": "CITY"}]}
+{"id": "villages_007", "text": "Qardaşım Oxuddan zəng etdi.", "lang": "az", "family": "villages", "pair": 6, "role": "village", "entities": [{"start": 9, "end": 16, "label": "CITY"}]}
+{"id": "villages_008", "text": "Ailəmiz Bumda bağ evi alıb.", "lang": "az", "family": "villages", "pair": 7, "role": "village", "entities": [{"start": 8, "end": 13, "label": "CITY"}]}
+{"id": "villages_009", "text": "Bu il Qumda fındıq məhsulu yaxşı olub.", "lang": "az", "family": "villages", "pair": 8, "role": "village", "entities": [{"start": 6, "end": 11, "label": "CITY"}]}
+{"id": "villages_010", "text": "Toy Carda olacaq.", "lang": "az", "family": "villages", "pair": 9, "role": "village", "entities": [{"start": 4, "end": 9, "label": "CITY"}]}
+{"id": "villages_011", "text": "Zərnava sakinləri yeni yol istəyir.", "lang": "az", "family": "villages", "pair": 10, "role": "village", "entities": [{"start": 0, "end": 7, "label": "CITY"}]}
+{"id": "villages_012", "text": "Müəllim Qalaaltıya təyinat alıb.", "lang": "az", "family": "villages", "pair": 11, "role": "village", "entities": [{"start": 8, "end": 18, "label": "CITY"}]}
+{"id": "villages_013", "text": "Bağ evimiz Bilgəhdədir.", "lang": "az", "family": "villages", "pair": 12, "role": "village", "entities": [{"start": 11, "end": 22, "label": "CITY"}]}
+{"id": "villages_014", "text": "Avtobus Pirşağıdan səhər tezdən çıxır.", "lang": "az", "family": "villages", "pair": 13, "role": "village", "entities": [{"start": 8, "end": 18, "label": "CITY"}]}
+{"id": "villages_015", "text": "Söhübdə yeni körpü tikiləcək.", "lang": "az", "family": "villages", "pair": 14, "role": "village", "entities": [{"start": 0, "end": 7, "label": "CITY"}]}
+{"id": "villages_016", "text": "Biz Fatmayıda kirayədə qalırıq.", "lang": "az", "family": "villages", "pair": 15, "role": "village", "entities": [{"start": 4, "end": 13, "label": "CITY"}]}
+{"id": "villages_017", "text": "Sifariş Hövsana çatdırılmalıdır.", "lang": "az", "family": "villages", "pair": 16, "role": "village", "entities": [{"start": 8, "end": 15, "label": "CITY"}]}
+{"id": "villages_018", "text": "Zirənin bazarında təzə balıq satılır.", "lang": "az", "family": "villages", "pair": 17, "role": "village", "entities": [{"start": 0, "end": 7, "label": "CITY"}]}
+{"id": "villages_019", "text": "Xalam Şağanda yaşayır.", "lang": "az", "family": "villages", "pair": 18, "role": "village", "entities": [{"start": 6, "end": 13, "label": "CITY"}]}
+{"id": "villages_020", "text": "Xaltan kəndində yeni məktəb açılıb.", "lang": "az", "family": "villages", "pair": 19, "role": "village", "entities": [{"start": 0, "end": 6, "label": "CITY"}]}
+{"id": "villages_021", "text": "Bu ünvan Masazırdadır.", "lang": "az", "family": "villages", "pair": 20, "role": "village", "entities": [{"start": 9, "end": 21, "label": "CITY"}]}
+{"id": "villages_022", "text": "Toyuqlar Digahdan gətirilir.", "lang": "az", "family": "villages", "pair": 21, "role": "village", "entities": [{"start": 9, "end": 17, "label": "CITY"}]}
+{"id": "villages_023", "text": "Qonşumuz keçən ay Qobuya köçdü.", "lang": "az", "family": "villages", "pair": 22, "role": "village", "entities": [{"start": 18, "end": 24, "label": "CITY"}]}
+{"id": "villages_024", "text": "Qonaqkənd kəndi dağların ətəyindədir.", "lang": "az", "family": "villages", "pair": 23, "role": "village", "entities": [{"start": 0, "end": 9, "label": "CITY"}]}
+{"id": "villages_025", "text": "Babam Qəmərvanda doğulub.", "lang": "az", "family": "villages", "pair": 24, "role": "village", "entities": [{"start": 6, "end": 16, "label": "CITY"}]}
+{"id": "villages_026", "text": "Bu xalçalar Talışnurudan gəlib.", "lang": "az", "family": "villages", "pair": 25, "role": "village", "entities": [{"start": 12, "end": 24, "label": "CITY"}]}
+{"id": "villages_027", "text": "Qum ayaqqabıma dolub.", "lang": "az", "family": "villages", "pair": 100, "role": "control", "entities": [], "controls": [{"start": 0, "end": 3, "resembles": "CITY", "kind": "common_word"}]}
+{"id": "villages_028", "text": "Uşaqlar sahildə qumdan qala tikdilər.", "lang": "az", "family": "villages", "pair": 101, "role": "control", "entities": [], "controls": [{"start": 16, "end": 22, "resembles": "CITY", "kind": "common_word"}, {"start": 23, "end": 27, "resembles": "CITY", "kind": "common_word"}]}
+{"id": "villages_029", "text": "Car çəkdilər ki, bazar sabah açılacaq.", "lang": "az", "family": "villages", "pair": 102, "role": "control", "entities": [], "controls": [{"start": 0, "end": 3, "resembles": "CITY", "kind": "common_word"}]}
+{"id": "villages_030", "text": "Dağ kəndlərində qış tez gəlir.", "lang": "az", "family": "villages", "pair": 103, "role": "control", "entities": [], "controls": [{"start": 0, "end": 3, "resembles": "CITY", "kind": "generic_place"}]}
+{"id": "villages_031", "text": "Ucqar kəndə nəhayət yol çəkilir.", "lang": "az", "family": "villages", "pair": 104, "role": "control", "entities": [], "controls": [{"start": 0, "end": 5, "resembles": "CITY", "kind": "generic_place"}]}
+{"id": "villages_032", "text": "Qonşu kənddən gələn qonaqlar gecikdi.", "lang": "az", "family": "villages", "pair": 105, "role": "control", "entities": [], "controls": [{"start": 0, "end": 5, "resembles": "CITY", "kind": "generic_place"}]}
+{"id": "villages_033", "text": "Bağ evində iki gün qaldıq.", "lang": "az", "family": "villages", "pair": 106, "role": "control", "entities": [], "controls": [{"start": 0, "end": 3, "resembles": "CITY", "kind": "generic_place"}]}
+{"id": "villages_034", "text": "Yaylaq mövsümü bu həftə başlayıb.", "lang": "az", "family": "villages", "pair": 107, "role": "control", "entities": [], "controls": [{"start": 0, "end": 6, "resembles": "CITY", "kind": "generic_place"}]}

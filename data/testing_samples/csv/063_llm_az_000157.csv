@@ -1,0 +1,26 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000157,"[2021-05-14 10:15:22] System: New support ticket created via Web Portal.
+[2021-05-14 10:15:24] User: Elnur_M_92
+
+Mövzu: Çatdirilma unvani ilə bagli kicik bir qarısiqliq :)
+
+Salam! Umid edirem gununüz yaxşi kecir.
+
+Men keçen hefte sifaris etdiyim kitab destinin catdirilma meseləsi ilə bagli yazmaq isteyirdim. Eslinde her sey eladir, kitablar ucün cox heyecanliyam, amma catdirılma unvaninı qeyd ederkən yəqin ki, barmağim sürüşub ve ya sistemde bir texniki xeta bas verib. Kuryer zəng edənde menə tapmaqda cetinlik çeke biler, ona gorə də unvani deqiqlesdirmek isteyirem.
+
+Sifarisdə göstərilen ünvan bir az qəribe seslənir, amma duzgun ünvan budur: Yuxari Oysuzlü pr. unvanina catdirılma temin ​edile bilər? Bəli, tam olaraq bu kucədir. Bir az maraqli ad olsa da, mehz bu erazidə yasayiram. :)
+
+Zavalli kuryer gelib məni tapmaq ucün xəritede saatlarla axtariş etmesin deye, bu dəyisikliyi evvelcəden etsek çox sad olaram. Əger elavə bir emeliyyat haqqi ve ya deyisiklik rəsmiləsdirilməlidirse, zəhmət olmasa mənə bildirin, derhal hell edek.
+
+Oncədən tesekkürler!
+
+---
+
+[Agent Notes]
+[2021-05-14 11:30:05] Agent: Leyla_A
+
+Muştərinin muracieti nezerden kecirildi. Çatdirilma unvaninin dəqiqlesdirilmesi teleb olunur. Musteri bir az zarafatcil ­ve mehriban dilde yazmisdir, ona uyğun şekildə cavab ­verilmelidir.
+
+Yoxlanıs: Müsterinin qeyd etdiyi Yuxari Oysuzlu pr. unvanı sistemdeki evvelki koordinatlarla muqayisə edildi. Unvanın düzgunlüyü ve catdirilma marsrutu uzre kuryere bildiris gönderilməlidir. Hec bir elave catdirılma haqqı hesablanmadi, cunki bu, sadəce unvanin deqiqləsdirilmesidir.
+
+Novbəti addim: Logistika departamentine unvanın yenilenməsi barede telimat gonderildi. Musteriye musbet tonla cavab yazildı.",az,"[{""start"":650,""end"":668,""label"":""STREET"",""text"":""Yuxari Oysuzlü pr.""},{""start"":1345,""end"":1363,""label"":""STREET"",""text"":""Yuxari Oysuzlu pr.""}]",support_ticket,long,friendly with light humour,"[""invisible"",""strip_diacritics""]",0,0,llm,"{""index"":157,""lang"":""az"",""doc_type"":""support_ticket"",""doc_type_hint"":""a support ticket with a description and agent notes"",""register"":""friendly with light humour"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""STREET"",""value"":""Yuxari Öysüzlü pr.""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a timestamp-prefixed log line or two""],""negative_only"":false,""seed"":1739890713,""edge_case"":{""id"":""STR-01"",""status"":""positive_valid"",""description"":""Street value (name plus its bundled 'küçəsi'/'küç.' suffix word, already part of the given value) in an address line -- embed the value exactly as given, do not add another street-type word of your own."",""scenario"":""""},""reference_year"":2021}",source

@@ -1,0 +1,11 @@
+ID,Label,Dəyər,Kontekst
+bench_az_004522,AZ_FIN,FVAKPGN,ıca qeyd edilib. Müştəri söhbətin əvvəlində FIN kodunu FVAKPGN kimi yazıb. Şəxsiyyət vesiqesi sahəsində 000 yazilib;
+bench_az_002264,PAYMENT_CARD_NUMBER,4242424242424242,lməsində eyni paketə daxil edilib. Kart məlumatlarında 4242424242424242 qeyd olunb; surəti inteqrasiya bölməsinin avqust arxiv
+bench_az_000528,PAYMENT_CARD_NUMBER,4242424242424242,i ilə sənədlə birlikdə qorunub. Kart nomresi sahəsində 4242424242424242 yazilib; surəti qeydiyyat bölməsinin mart arxivində ya
+bench_az_001526,AZ_FIN,DZUXXDK,rxivə köçürülüb. Müştəri söhbətin əvvəlində FIN kodunu DZUXXDK kimi yazıb. İstifadə etdiyim link https://link.optimal
+bench_az_003461,AZ_PASSPORT_NUMBER,P12345678,ində də tarixçəyə daxil edilib. Köhnə profildə pasport P12345678 görünür; yanvar ayında risk nəzarəti bölməsində hesab
+bench_az_003378,PAYMENT_CARD_NUMBER,4242424242424242,ında Cəmşid Mikayılzadə adı görünür. Ödəniş kartı kimi 4242424242424242 göstərilib; profil çıxarışı iyun dövrü üçün abonent xi
+bench_az_002388,AZ_FIN,MHACBVZ,rxivə köçürülüb. Müştəri söhbətin əvvəlində FIN kodunu MHACBVZ kimi yazıb.
+bench_az_001314,ZIPCODE,AZ100000,mrə 055 340 78 73 kimi görünür. Poçt indeksi sahəsində AZ100000 yazılıb; surəti sənəd dövriyyəsi bölməsinin iyul arxiv
+bench_az_002803,AZ_FIN,BGVEJPY,ndə tarixçəyə daxil edilib. Köhnə ərizədə FIN sahəsinə BGVEJPY yazılıb. Bank hesabı kimi AZ12 göstərilib; həmin məlum
+bench_az_001565,PAYMENT_CARD_NUMBER,4242424242424242,si daxilində də birlikdə saxlanılıb. Ödəniş kartı kimi 4242424242424242 göstərilib; surəti sənəd dövriyyəsi bölməsinin mart ar

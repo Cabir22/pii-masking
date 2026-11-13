@@ -1,0 +1,101 @@
+documents: 6,000
+
+1. PLANNED VALUES PRESENT BUT UNLABELLED: 36 occurrence(s) in 31 document(s)
+   of which a value with no labelled occurrence at all (count): 30 in 29 document(s) {'DATE': 30}
+   by label: {'DATE': 36}
+   by form : {'reformatted': 36}
+   llm_az_000345  DATE  '1991-09-14' written '14.09.1991' (reformatted)
+      ...---------- Doğum tarixi               | [[14.09.1991]] Əlaqə telefonu             | +994 50 56...
+   llm_az_001127  DATE  '1981-08-03' written '03.08.1981' (reformatted)
+      ...stem xətası alıramm. Mənim doğum tarixi [[03.08.1981]] olmalıdır, lakin sistemdə nəsə problem ...
+   llm_az_001156  DATE  '1977-12-15' written '15.12.1977' (reformatted)
+      ...craçı" adlandırılacaq) ilə digər tərəf, [[15.12.1977]] tarixində anadan olmuş müqavilə iştirak...
+   llm_az_001485  DATE  '2008-06-24' written '24.06.2008' (reformatted)
+      ...lən, sistemdə qeyd olunan doğum tarixi: [[24.06.2008]] kimi yanlış göstərilib və bu məlumatın ...
+   llm_az_001691  DATE  '1954-12-11' written '11.12.1954' (reformatted)
+      ...dır: * Soyadı: Аббасова * Doğum tarixi: [[11.12.1954]] * Kartın təhlükəsizlik kodu: 333  Məlum...
+   planned values with no labelled occurrence, by label (share of that label's plans):
+   DATE 34/750 (4.5%), STREET 4/729 (0.5%), SURNAME 5/1398 (0.4%), TIME 1/394 (0.2%), GIVENNAME 4/1713 (0.2%), AGE 1/463 (0.2%), BUILDINGNUM 1/521 (0.2%), TELEPHONENUM 2/1537 (0.1%)
+
+2. LABELS THAT DISAGREE WITH THE PLAN: 24  {'changed by noise after labelling (ok)': 24}
+   llm_az_000305  changed by noise after labelling (ok): STREET 'Pa-\nrlaq küç.'  ...k etməyə ehtiyacım var. Mən hal-hazırda [[Pa- rlaq küç.]] tərəfə gedirəm və sifarişimi bu ərazidə...
+   llm_az_000330  changed by noise after labelling (ok): DATE '16.11.205'  ... təmsil olunaj müəsssisə. İkinci tərəf: [[16.11.205]] tarixli əsnədlərə əsaslanan müştəri.  I...
+   llm_az_000786  changed by noise after labelling (ok): GIVENNAME 'Kə-\nbilin'  ...for user: Kəbil. [DEBUG: operator_note: [[Kə- bilin]] məlumatlarında problem var, amma sistem...
+   llm_az_001161  changed by noise after labelling (ok): DATE '21/08/19884'  ...ra elave edirem ki, tapin: dogum tarixi [[21/08/19884]]-dur. E-p- oct: kabusov.t@optimal.az. El...
+   llm_az_001177  changed by noise after labelling (ok): SURNAME 'Z-\nəbilinin'  ... ünvanı redaktə edərkən xəta baş verir. [[Z- əbilinin]] məlumatlarını yeniləyəndə Nehrəmdə bina...
+
+3. DECOY INTEGRITY: 6090 decoy span(s) checked, 2428 policy/contextual; problems: {'not a planted decoy string': 2}
+   llm_az_004381  not a planted decoy string: MAC_LIKE_HASH '5f:31:44:e7:71-2d:2e:89:7c:4c:75:b8:54:32:15:b5'  ...vermir. Səhifədə qəribə bir kod da var: [[5f:31:44:e7:71-2d:2e:89:7c:4c:75:b8:54:32:15:b5]]. Tez cavab verin, tamerovx@alovenerji.a...
+   llm_az_004872  not a planted decoy string: MAC_LIKE_HASH '08:03:5c:9f:04:c1:b5:45:85-2d:96:97:58:27:1e:f4'  ...r, bəlkə də nasazlıqdır.  Cihazın kodu: [[08:03:5c:9f:04:c1:b5:45:85-2d:96:97:58:27:1e:f4]].  Melumatlar bura əlavə olundu....
+
+4. RATES (share of all documents)
+   hard_negative  requested 30.0%   in the text 27.2%   in the briefs 28.4%
+   adversarial    requested 20.0%   in the text 18.7%   in the briefs 18.8%
+   pii_free       requested 10.0%   in the text 9.7%
+   edge_case      requested 30.0%   in the text 31.1%
+   any decoy in the text (_hard_negatives > 0, the batch-1 README's measure): 33.7%
+   label share / target, furthest off: IPV6_ADDRESS 1.79, ICCID 1.68, MAC_ADDRESS 1.45, AZ_VOEN 1.43, AZ_DRIVER_LICENSE_NUMBER 1.40, TIME 1.18
+
+5. D-9: {'mentions': 7534, 'suffixed (label includes the suffix)': 2740}
+   D-10: {'documents of 1-5 words': 2}
+   validate_example failures: none
+
+7. INDEPENDENT SWEEP, PII THE MODEL INVENTED (informational): 167 document(s) (2.8%), 3 of them declared PII-free; {'CITY': 114, 'STREET': 99, 'GIVENNAME': 19, 'BUILDINGNUM': 12}
+   llm_az_000066  CITY 'Bakı'  ... 044718715 Ünvan: Avtoservis küçəsində, [[Bakı]] şəhəri  --- XİDMƏT VƏ SATIŞ QEYDİ (RƏSM...
+   llm_az_000077  CITY 'Bakı'  ....az Maliyyə kodu: ZPKA415  Ofis ünvanı: [[Bakı]] şəhəri, Nizami küçəsi, bina 167A.  Texn...
+   llm_az_000077  STREET 'Nizami küçəsi'  ...odu: ZPKA415  Ofis ünvanı: Bakı şəhəri, [[Nizami küçəsi]], bina 167A.  Texniki sazlamalar: Daxili...
+   llm_az_000086  CITY 'Bakı'  ...ektin ünvanı aşağıdakı kimidir:  Ünvan: [[Bakı]] şəhəri, Nizami küçəsi, bina 14.  İCRA Ş...
+   llm_az_000086  STREET 'Nizami küçəsi'  ...aşağıdakı kimidir:  Ünvan: Bakı şəhəri, [[Nizami küçəsi]], bina 14.  İCRA ŞƏRTLƏRİ VƏ ÖHDƏLİKLƏR ...
+
+6. REJECTS: 708
+      342   48.3%  validation
+      151   21.3%  leaked unlabeled PII
+       89   12.6%  judgment leak
+       65    9.2%  quality
+       34    4.8%  taxonomy label leaked into text
+       15    2.1%  no entities resolved
+       12    1.7%  api
+   name rejects: {}
+   top-10 sub-reasons:
+      229  validation | language: only N az words
+            e.g. Xestenin odenis melumati (2016): * Kart nomresi: 5199945294999715
+            e.g. Salam, cihazın mac - yəni mak adresi budur: Ac:De:48:59:00:39 Ac:De:48:59:00:39	Aktiv	2021 Sağ olun.
+            e.g. ---------- Forwarded message --------- Date: 2020-05-12 VÖEN: 6970464919 API l0g: status ok.
+       74  judgment leak | ['…']
+            e.g. [Agent]: Salam, mən sizə necə kömək edə bilərəm?  [Müştəri]: Sizin xidmətiniz tamamilə korlaşır! Artıq 2025-ci ildən bəri bu problemə çarx basmışam. Melumatları
+            e.g. Çatdırılma Manifesti – 12.11.2020  Mən bu sənəddə nə baş verdiyini tam başa düşmürəm. Hər şey çox qarışıq görünür və məlumatlar bir-birinə uyğun gəlmir. Göndəri
+            e.g. Müştəri Dəstəyi Bilet Sistemi Bilet №: 2021-AX-8829 Tarix: 14.11.2021 Status: Araşdırılır Prioritet: Yüksək  ---  ## Müraciətin Təsviri  Müştəri sistem üzərində
+       68  validation | turkish_lexis: tesekkur
+            e.g. # Konfiqurasiya Parametrleri # Son redakte tarixi: 14.08.2016  # Sistem yuku heddi # Bu gosterici resurslarin istifadesi ucun ehemiyyetlidir. threshold_value = 
+            e.g. Salam! 2018-ci ilin bu gunlerinde xidmetlerinizle bagli bir nece fikir bildirmek isteyirdim. Evvele deyim ki, her sey eladir, amma bezi kicik meseleler var ki, 
+            e.g. Salam hörmətli forum üzvləri. Bir istifadəçimizin yaşadığı texniki problemlə bağlı kömək istəyirik. Xanoğlanın hesabına daxil olmaqda çətinlik yaşanır. Bu eheme
+       22  leaked unlabeled PII | IPVN:N.N.N.N
+            e.g. BAKI DÖVLƏT UNİVERSİTETİ İdarəetmə və Texniki Təhlükəsizlik Departamentinin daxili sənədi Tarix: 14 noyabr 2016-cı il Sənəd №: 2016/IT-SEC-089-URGENT  MÖVZU: Tə
+            e.g. # SİSTEM KONFİQURASİYA FAYLI - 2022-ci İL VERSİYASI # Xəbərdarlıq: Bu fayl üzərində edilən hər hansı dəyişiklik sistemi tamamilə sıradan çıxara bilər. # Yenə də
+            e.g. Azərbaycan Respublikası Daxili İşlər Nazirliyi Naxçıvan Şəhər Polis İdarəsi Kiber-cinayətkarlıqla Mübarizə Bölməsi İstintaq Protokolu № 2017/0892 Tarix: 14 noya
+       17  quality | planned value never labeled (SURNAME, misspelled)
+            e.g. [Transkripsiya Sistemi v4.2] Tarix: 14.11.2021 Zəng nömrəsi: +994-12-783-32-68 Status: Tamamlanmış  Səs yazısının avtomatik transkripsiyası: Hörmətli müraciətçi
+            e.g. LİMAN DİAQNOSTİKA VƏ ANALİZ MƏRKƏZİ RƏSMI LABORATORIYA HESABATI  PASIENT MƏLUMATLARI: AD: NURQƏLƏM SOYAD: БАКИРЛИ ŞƏXSIYYƏT NÖMRƏSI: TK5M2L8 ANALIZ TARIXI: 14 I
+            e.g. AZƏRBAYCAN RESPUBLİKASI MALİYYƏ MONITORİNQİNG XİDMƏTİ Maliyyə Müfəttişliyi İdarəsinə  Tarix: 14 may 2026-cı il Sənəd №: 2026/AX-9942  Müraciət edən: Məmmədbağır
+       15  no entities resolved | 
+            e.g. SİGORTA TƏLƏBİ HAQQINDA AKT  Sənəd nömrəsi: 2021/AX-982 Tarix: 14.08.2021  MÜŞTƏRİ HAQQINDA MƏLUMATLAR: Doğum tarixi: 15.11.2012  HADİSƏNİN TƏSVİRİ VƏ TƏLƏBİN Ə
+            e.g. Sistm yenə də işləmir! Bu bazadakı məlumatlar tamamilə qarışıqdır. Bir nəfərin doğum tarixi 22.06.2000 olmalıdır, amma sistem hər şeyi səhv yazır. Yox, demək is
+            e.g. Bu, S0stemi tərəfindən avtomatik səs mesajı qeydidir. 2016-cı il. Qızlarağısının səs yazısında IBAN sahəsində AZ0112 və 35.07.1993 məlumatları ilə bağlı sistemd
+       14  judgment leak | ['…', '…']
+            e.g. Göndərən: Registratur Tarix: 15.11.2016 10:45 Mövzu: Fwd: Təcili - Şagird məlumatları (Gülsadə)  Salam,  aşağıda qeyd olunan şagirdin sənədləri ilə bağlı bəzi p
+            e.g. ---------- Forwarded message --------- From: ayinhacixanli@zirve.az Date: 2023-11-14 09:12:44 +0400 Subject: Hesab girişi ve odeme problemi  Salam,  Men ayinhac
+            e.g. SİSTEM İŞ REQİZLARI: ÖDƏNİŞ PROSESLƏRİNİN İDARƏ EDİLMƏSİ VƏ TEXNİKİ DƏSTƏK Versiya: 2.04 (Tarix: 12.05.2020)  ## 1. GİRİŞ VƏ MƏQSƏD Bu sənəd sistem xətalarının 
+       14  leaked unlabeled PII | EMAIL:support@hal-x.ai
+            e.g. Qəbz tarixi: 12.05.2026 Hörmətli müştəri, 90 yaşı olan müştərimiz Рафад üçün xidmət ödənişi təsdiqləndi. Doğum tarixi: çərşənbə, 23 may 2018 olan müştərimizə gö
+            e.g. Tarix: 14.08.2026 K0d: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IncyMXdtdDlodGp6MiJ9.eyJzdWIiOiIzODJlMzg5Mi05ZTc4LTdkYjktNzFmNC04ODNjZWQ5NjAxMTEiLCJpYXQiOjE4
+            e.g. Xəta Hesabatı: Ödəniş Modulunda Hesablama Nasazlığı ID: BUG-2021-0892 Tarix: 14 Noyabr 2021 Prioritet: Kritik  ---  ### Xülasə  Müştəri xidmətləri komandası ola
+       13  validation | turkish_lexis: lutfen
+            e.g. SIFARIŞ QEBZI VƏ SİSTEM GUNCƏLLEMESI Tarix: 14 Noyabr 2023 Status: Tamamlandi Sifariş nomrəsi: DE48007478813218579019  ---  XIDMET DETALLARI: ------–--–--------
+            e.g. Sığorta telebi hesabatı Tarix: 12.04.2026  Sədullayevənin müraceti üzre araşdirma tamamlanmisdir. Müstari 27 yaşında biridir ve hadise zamanı avtomobilin idare 
+            e.g. 2018-ci ilin resmi hesabatina esasen, Cabbarzadə ile bagli olan melumatlar yenilenmişdir. Biz sizin bu prosesdeki narahatliginizi tamamilə anlayirig ve her bir 
+       13  taxonomy label leaked into text | DATE
+            e.g. BANKING SECURITY & COMPLIANCE DEPARTMENT DATE: 2022-11-15 REF: SEC-AUDIT-2022-99412  MÖVTU: Hesab təhlükəsizliyinin təmin edilməsi və Məlumatların təsdiqlənməsi
+            e.g. AZƏRBAYCAN RESPUBLİKASI SOSİAL MÜDAFİƏ VƏ ƏMƏK REFORMASI NAZİRLİYİ Rəsmi Şikayət və Müraciət Forması (Təcilidir)  Tarix: 14.11.2021 Müraciət nömrəsi: 2021/SR-99
+            e.g. Tarix: 22.10.2018 Sənəd ID: 2018-AX-99201-L  Hörmətli Müştəri,  Sizə bu xəbərdarlığı təqdim etdiyimiz xidmətlərin davamlılığını və təhlükəsizliyini hər bir aspe
+
+json -> reports\llm_batch2\b2_audit_before.json

@@ -1,0 +1,6 @@
+Fayl,Məzmun
+benchmark_analysis_5000/analysis.json,Bütün agregat və kəsim metrikləri
+benchmark_analysis_5000/error_cases.csv,7159 FP/FN error sətri və kontekst
+benchmark_analysis_5000/all_error_documents.csv,"3464 səhv sənəd; gold/hard-negative, model cavabı və tam mətn"
+metrics_by_label.csv,Əsas per-label metriklər
+predictions.jsonl,5000 sənədin raw prediction-ları

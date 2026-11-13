@@ -1,0 +1,33 @@
+{
+ "stats": {
+  "documents": 5965,
+  "date_labels_before": 856,
+  "unlabelled_dates_before": 3725,
+  "docs_with_unlabelled_before": 3040,
+  "unlabelled_dates_after": 4,
+  "docs_with_unlabelled_after": 4,
+  "docs_changed": 3039,
+  "spans_added": 3721,
+  "date_labels_after": 4577
+ },
+ "left_by_reason": {
+  "no anchor": 4
+ },
+ "changed_by_language": {
+  "az": 3039
+ },
+ "examples": [
+  "ÇATDIRILMA MANİFESTİ Tarix: 14.11.2018 Sifariş №: 77210  B",
+  "Tarix: 10.11.2025. Xəstə çox narahatd",
+  "_№|Status|Tarix|Məbləğ AZ-882|Gözləmədə|05.09.2018|940.00 Vəziyyət kri",
+  "ALICI: Müştəri Xidmətləri Şöbəsi TARİX: 14 oktyabr 2022 MÖVZU: Avtomatlaşdı",
+  "(Səs yazısı transkripti - 12.03.2025)  Müştəri Xidməti: ",
+  "ÖDƏNİŞ QƏBZİ “DÜZƏLİŞ” Tarix: 22 avqust 2017 – 10:45  Müştəri: X",
+  "Hesab-faktura №: 2020-BK-9921 Tarix: 12 Noyabr 2020  [2020-11-12 08:14:",
+  " problemi tez həll edə bilərik.  Tarix: 22.08.2018",
+  "Tibbi yönləndirmə məktubu Tarix: 15.08.2016  Xəstə: Xınaçiçək Ş",
+  "KLİNİK ANALİZ HESABATI Tarix: 14.11.2021  PASİENT MƏLUMATLAR",
+  "[14:22, 12.05.2018] Müştəri: Salam,  s",
+  "əldən: 4530.24 | Status: Aktiv | Tarix: 15.03.2024  --- Agent Qeydləri"
+ ]
+}

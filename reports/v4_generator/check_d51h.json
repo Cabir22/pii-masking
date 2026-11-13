@@ -1,0 +1,185 @@
+{
+ "items": [
+  {
+   "item": "1 Short numbers after VÖEN/FİN/vəsiqə/token/API words, paired",
+   "n": 300,
+   "detail": {
+    "AZ_VOEN/kv": 26,
+    "AZ_FIN/prose": 44,
+    "AZ_ID_CARD_NUMBER/prose": 36,
+    "ACCESS_TOKEN/prose": 36,
+    "API_KEY/prose": 33,
+    "AZ_VOEN/prose": 60,
+    "AZ_FIN/csv": 9,
+    "AZ_VOEN/csv": 19,
+    "AZ_FIN/kv": 13,
+    "AZ_ID_CARD_NUMBER/csv": 13,
+    "AZ_ID_CARD_NUMBER/kv": 11
+   }
+  },
+  {
+   "item": "2 Company/project/brand names and codes in soyad/şəhər/küçə slots, paired",
+   "n": 280,
+   "detail": {
+    "SURNAME/policy_surname_in_company/prose": 52,
+    "CITY/policy_city_as_project/prose": 71,
+    "STREET/policy_street_as_topic/kv": 3,
+    "SURNAME/code_in_name_slot/prose": 41,
+    "SURNAME/policy_foreign_brand/prose": 20,
+    "CITY/policy_city_as_project/kv": 27,
+    "SURNAME/policy_surname_in_company/kv": 24,
+    "STREET/policy_street_as_topic/prose": 25,
+    "SURNAME/code_in_name_slot/kv": 11,
+    "SURNAME/policy_foreign_brand/kv": 6
+   }
+  },
+  {
+   "item": "3 Right-context look-alikes (… məhsul kodu, … qapı kodu) and room numbers + kodu",
+   "n": 160,
+   "detail": {
+    "zip_code (… məhsul/anbar/partiya kodu)": 70,
+    "room_code": 57,
+    "door_code": 33
+   }
+  },
+  {
+   "item": "4 MAC fragments, IBAN fragments (incl. CSV iban cells), IPv4 short/3-part/placeholder",
+   "n": 260,
+   "detail": {
+    "mac_fragment_dashed": 80,
+    "iban_fragment_short/prose": 24,
+    "zip_shape_in_iban_field/csv": 18,
+    "iban_fragment_short/csv": 21,
+    "zip_shape_in_iban_field/prose": 27,
+    "ipv4_three_octets": 28,
+    "ipv4_short_over_255": 39,
+    "ipv4_placeholder": 23
+   }
+  },
+  {
+   "item": "5 Locative + verb frame with real values",
+   "n": 412,
+   "detail": {
+    "PAYMENT_CARD_NUMBER": 184,
+    "AZ_VOEN": 128,
+    "IBAN": 89,
+    "AZ_ID_CARD_NUMBER": 67,
+    "AZ_PASSPORT_NUMBER": 63,
+    "look-alikes": {
+     "voen_wrong_length": 35,
+     "passport_wrong_length": 12,
+     "card_wrong_length": 45,
+     "id_card_too_short": 8,
+     "iban_truncated": 21,
+     "id_card_too_long": 1
+    }
+   }
+  },
+  {
+   "item": "6 ID-card prefixes; licences 2+6, IDs 2+7; snake_case keys",
+   "n": 4511,
+   "detail": {
+    "prefixes": {
+     "AA/AB": 1604,
+     "other": 2580,
+     "DYI/MYI": 327
+    },
+    "licences": 3588,
+    "id+licence side by side docs": 598,
+    "snake_case keys by format": {
+     "sürücülük_vəsiqəsi/config": 43,
+     "sürücülük_vəsiqəsi/csv_snake": 51,
+     "sürücülük_vəsiqəsi/json": 63,
+     "sürücülük_vəsiqəsi/log": 134,
+     "şəxsiyyət_vəsiqəsi/config": 57,
+     "şəxsiyyət_vəsiqəsi/csv_snake": 89,
+     "şəxsiyyət_vəsiqəsi/json": 58,
+     "şəxsiyyət_vəsiqəsi/log": 132
+    }
+   }
+  },
+  {
+   "item": "7 Short Ed25519 private keys >= 3 per public look-alike",
+   "n": 664,
+   "detail": {
+    "private": 664,
+    "public PEM": 119,
+    "ratio PEM": 5.58,
+    "public ssh-ed25519 lines": 32,
+    "ratio incl. ssh": 4.4
+   }
+  },
+  {
+   "item": "8 Non-name controls in the name-list frames",
+   "n": 476,
+   "detail": {
+    "namelist_control": 394,
+    "role_word_control": 64,
+    "signature_title_only": 18
+   }
+  },
+  {
+   "item": "9 Suffixed cities in person-like verb frames; ablative surnames",
+   "n": 250,
+   "detail": {
+    "CITY/abl": 83,
+    "CITY/acc": 82,
+    "CITY/cop": 82,
+    "SURNAME/abl": 150,
+    "CITY/ins": 52
+   }
+  },
+  {
+   "item": "10 CSV rows with cvv and şəxsiyyət_vəsiqəsi columns",
+   "n": 165,
+   "detail": {
+    "with an ID column": 114,
+    "CVVs": 413,
+    "ID cards": 268
+   }
+  },
+  {
+   "item": "11 Invalid times/ages/dates/FINs, wrong-length cards in the label slot, paired",
+   "n": 313,
+   "detail": {
+    "AGE/age_implausible/kv": 13,
+    "AZ_FIN/fin_with_hyphen/prose": 31,
+    "DATE/date_bad_month/kv": 11,
+    "PAYMENT_CARD_NUMBER/card_wrong_length/prose": 26,
+    "TIME/time_bad_minute/prose": 12,
+    "AGE/age_negative/prose": 21,
+    "DATE/date_impossible_day/kv": 9,
+    "PAYMENT_CARD_NUMBER/card_wrong_length/kv": 36,
+    "TIME/time_bad_minute/kv": 16,
+    "AZ_FIN/fin_with_hyphen/kv": 32,
+    "TIME/time_bad_hour/prose": 19,
+    "DATE/date_bad_month/prose": 17,
+    "DATE/date_impossible_day/prose": 6,
+    "AGE/age_implausible/prose": 13,
+    "DATE/date_iso_out_of_range/prose": 12,
+    "AGE/age_negative/kv": 16,
+    "TIME/time_bad_hour/kv": 15,
+    "DATE/date_iso_out_of_range/kv": 8
+   }
+  },
+  {
+   "item": "12 D-51d: no checksum-only kinds; IMEI never card-shaped",
+   "n": 0,
+   "detail": {
+    "checksum-only written": 0,
+    "IMEI_BAD_LUHN": 0,
+    "IMEI card-shaped": 0
+   }
+  },
+  {
+   "item": "13 D-51i: no `-ci il` inside DATE; the suffix outside harmonised",
+   "n": 33,
+   "detail": {
+    "inside": 0,
+    "outside": 33,
+    "not harmonised": 0
+   }
+  }
+ ],
+ "problems": {}
+}

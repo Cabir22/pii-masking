@@ -1,0 +1,13 @@
+SELECT ?f ?n ?en ?az ?ru ?tr ?ka ?de ?fr WHERE {
+  { SELECT ?f (COUNT(DISTINCT ?p) AS ?n) WHERE {
+      VALUES ?country { wd:Q43 }
+      ?p wdt:P27 ?country ; wdt:P21 wd:Q6581097 ; wdt:P734 ?f .
+    } GROUP BY ?f ORDER BY DESC(?n) LIMIT 400 }
+  OPTIONAL { ?f rdfs:label ?en FILTER(LANG(?en) = "en") }
+  OPTIONAL { ?f rdfs:label ?az FILTER(LANG(?az) = "az") }
+  OPTIONAL { ?f rdfs:label ?ru FILTER(LANG(?ru) = "ru") }
+  OPTIONAL { ?f rdfs:label ?tr FILTER(LANG(?tr) = "tr") }
+  OPTIONAL { ?f rdfs:label ?ka FILTER(LANG(?ka) = "ka") }
+  OPTIONAL { ?f rdfs:label ?de FILTER(LANG(?de) = "de") }
+  OPTIONAL { ?f rdfs:label ?fr FILTER(LANG(?fr) = "fr") }
+} ORDER BY DESC(?n)

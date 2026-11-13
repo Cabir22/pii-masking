@@ -1,0 +1,14 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000286,"HADİSƏ HAQQINDA İLK İLKƏSİB EDİLMİŞ MƏLUMAT
+
+Tarix: 14.11.2017
+Saat: 22:15
+Hesabatı verən: Məlum deyil (Şübhəli şəxs tərəfindən təqdim edilib)
+
+Mən... mən bilmirəm hardan başlamağı. Hər şey çox sürətlə baş verdi və mən hələ də nə baş verdiyini tam anlaya bilmirəm. Sanki hər şey bir kabusa bənzəyir. Mən sadəcə mağazada idiydim, hər şey normal idi, amma birdən-birə hər şey dəyişdi. Mən çox həyəcanlıyam və əlim-ayağım titrəyir, ona görə də bəlkə də bəzi şeyləri səhv yazacam, amma mütləq deməliyəm.
+
+Mən mağazadan çıxarkən cəbbəmdə nəsə olduğunu hiss etdim. İlk baxışda sadəcə bir kağız parçası və ya kiçik bir kart olduğunu düşündüm, amma sonra başıma gələnləri düşünəndə ürəyim ağzıma gəlir. Mən o an çox qarışıq hisslər içində idim. Nə etməli olduğumu bilmirdim. Polisə müraciət etməli idim, amma qorxurdum. Həm də, bu məsələ çox qəribədir... mən sadəcə o kartı tapmışam, amma içindəki məlumatlar məni dəhşətə salır.
+
+Kartın üzərindəki rəqəmlər mənə çox tanış gəlir, amma mən bunu heç vaxt görməmişdim. Kartın üzərində 4337399205222997 rəqəmləri yazılıb. Mən bunu gördüyüm andan bəri nəfəsim kəsilir. Bu mənim kartım deyil, mən əminəm. Amma mən niyə onu cəbbəmdə tapmışam? Mən kimsə ilə danışmamışam, heç kimə nəsə verməmişəm. Hər şey çox qəribə və qorxuludur. Mən sadəcə kömək istəyirəm, mənə deyin ki, mən günahkar deyiləm.
+
+Mən bütün gecəni yata bilmədim. O rəqəmlər gözümün önündən getmir. Sanki bir kimsə məni izləyir və ya bu hadisə bir planın hissəsidir. Mağazada o an nə baş verdiyini, o adamın mənə necə yaxınlaşdığını xatırlamağa çalışıram, amma hər şey dumanlıdır. Çox qarışıqdır. Mən sadəcə dürüst olmaq istəyirəm. Mən heç bir yerdə bu kartı istifadə etməmişəm, mən heç kimin puluna toxunmamışam. Amma bu rəqəmlər orada, mənim əlimin altındaydı. Xahiş edirəm, bu məsələni araşdırın, çünki mən artıq bu vəziyyətdə yaşaya bilmirəm. Hər şey çox qeyri-müəyyən və qorxuncdur.",az,"[{""start"":1023,""end"":1039,""label"":""PAYMENT_CARD_NUMBER"",""text"":""4337399205222997""}]",police_report,long,anxious and confused,[],0,0,llm,"{""index"":286,""lang"":""az"",""doc_type"":""police_report"",""doc_type_hint"":""an incident or police report narrative"",""register"":""anxious and confused"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""PAYMENT_CARD_NUMBER"",""value"":""4337399205222997""}],""hard_negatives"":[],""adversarials"":[],""noise"":[],""negative_only"":false,""seed"":1769269998,""edge_case"":{""id"":""PCN-01"",""status"":""positive_valid"",""description"":""Grouped 16-digit Visa-shaped number, Luhn-valid, synthetic only."",""scenario"":""""},""reference_year"":2017}",source

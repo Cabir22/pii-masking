@@ -1,0 +1,514 @@
+{
+ "sample_documents": 80,
+ "seed": 7,
+ "production_path_source": "origin/excel-txt @ e88ef69e4c6ea0599f995cb9d7e7671f3c7037d6 (model/predict.py, model/pattern_fallback.py)",
+ "documents_with_exact_text": 3347,
+ "appendix_documents": 3464,
+ "report_error_predictions": 94,
+ "reproduced_by_plain_hf_pipeline": 94,
+ "reproduced_by_production_hybrid": 64,
+ "score_abs_diff_max": 0.00049,
+ "score_abs_diff_mean": 0.000254,
+ "report_misses_production_gets_exactly_right": {
+  "ACCESS_TOKEN": "0/10",
+  "IPV6_ADDRESS": "0/8",
+  "AZ_DRIVER_LICENSE_NUMBER": "7/7",
+  "PAYMENT_CARD_NUMBER": "0/5",
+  "IBAN": "5/5",
+  "AGE": "0/3",
+  "CITY": "0/3",
+  "API_KEY": "0/2",
+  "MAC_ADDRESS": "0/2",
+  "IPV4_ADDRESS": "0/2",
+  "DATE": "2/2",
+  "EMAIL": "2/2",
+  "AZ_VOEN": "1/2",
+  "TIME": "1/1",
+  "AZ_ID_CARD_NUMBER": "1/1",
+  "STREET": "0/1"
+ },
+ "report_misses_production_total": "19/56",
+ "caveat": "Production's own extra false positives cannot be measured from Appendix A (it lists only error-related predictions and misses, not correct ones), so this is not a re-score of the benchmark.",
+ "per_document": [
+  {
+   "data_id": "bench_az_001945",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_000891",
+   "report_preds": 3,
+   "plain_hf_hits": 3,
+   "production_hits": 3
+  },
+  {
+   "data_id": "bench_az_002382",
+   "report_preds": 3,
+   "plain_hf_hits": 3,
+   "production_hits": 2
+  },
+  {
+   "data_id": "bench_az_003973",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_000281",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_000420",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_003265",
+   "report_preds": 2,
+   "plain_hf_hits": 2,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_000553",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_002190",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_003556",
+   "report_preds": 2,
+   "plain_hf_hits": 2,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_000336",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_003078",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_001286",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_000223",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_000505",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_002616",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_002517",
+   "report_preds": 4,
+   "plain_hf_hits": 4,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_000407",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_001437",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_000535",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_003363",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_002554",
+   "report_preds": 3,
+   "plain_hf_hits": 3,
+   "production_hits": 3
+  },
+  {
+   "data_id": "bench_az_000345",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_003452",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_000737",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_001336",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_003856",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_003835",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_000360",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_003524",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_003581",
+   "report_preds": 2,
+   "plain_hf_hits": 2,
+   "production_hits": 2
+  },
+  {
+   "data_id": "bench_az_002393",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_000289",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_001323",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_000270",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_003397",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_000794",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_001747",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_002523",
+   "report_preds": 2,
+   "plain_hf_hits": 2,
+   "production_hits": 2
+  },
+  {
+   "data_id": "bench_az_000853",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_003296",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_000703",
+   "report_preds": 2,
+   "plain_hf_hits": 2,
+   "production_hits": 2
+  },
+  {
+   "data_id": "bench_az_003488",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_001851",
+   "report_preds": 2,
+   "plain_hf_hits": 2,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_003418",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_004995",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_004167",
+   "report_preds": 3,
+   "plain_hf_hits": 3,
+   "production_hits": 2
+  },
+  {
+   "data_id": "bench_az_001078",
+   "report_preds": 2,
+   "plain_hf_hits": 2,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_000614",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_003551",
+   "report_preds": 3,
+   "plain_hf_hits": 3,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_003489",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_003897",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_001115",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_002235",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_000571",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_003340",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_004351",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_000364",
+   "report_preds": 2,
+   "plain_hf_hits": 2,
+   "production_hits": 2
+  },
+  {
+   "data_id": "bench_az_003445",
+   "report_preds": 2,
+   "plain_hf_hits": 2,
+   "production_hits": 2
+  },
+  {
+   "data_id": "bench_az_000347",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_003780",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_001228",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_003014",
+   "report_preds": 2,
+   "plain_hf_hits": 2,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_004158",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_003235",
+   "report_preds": 3,
+   "plain_hf_hits": 3,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_002578",
+   "report_preds": 3,
+   "plain_hf_hits": 3,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_004753",
+   "report_preds": 0,
+   "plain_hf_hits": 0,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_001882",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_002824",
+   "report_preds": 2,
+   "plain_hf_hits": 2,
+   "production_hits": 2
+  },
+  {
+   "data_id": "bench_az_002745",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_002172",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_001798",
+   "report_preds": 3,
+   "plain_hf_hits": 3,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_001488",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_004858",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 0
+  },
+  {
+   "data_id": "bench_az_001073",
+   "report_preds": 3,
+   "plain_hf_hits": 3,
+   "production_hits": 3
+  },
+  {
+   "data_id": "bench_az_004278",
+   "report_preds": 2,
+   "plain_hf_hits": 2,
+   "production_hits": 2
+  },
+  {
+   "data_id": "bench_az_004771",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_001461",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_000484",
+   "report_preds": 1,
+   "plain_hf_hits": 1,
+   "production_hits": 1
+  },
+  {
+   "data_id": "bench_az_003508",
+   "report_preds": 2,
+   "plain_hf_hits": 2,
+   "production_hits": 1
+  }
+ ]
+}

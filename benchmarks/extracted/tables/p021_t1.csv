@@ -1,0 +1,10 @@
+Metric,Cari,Təklif edilən gate
+Micro F1,68.4%,>= 85%
+Macro F1,67.6%,>= 80%
+Precision,63.4%,>= 90%
+Recall,74.4%,>= 90%
+Hard-negative trigger,17.6%,< 5%
+Negative-only FP docs,45.0%,< 10%
+Perfect documents,30.7%,>= 80%
+Critical labels,ACCESS_TOKEN 0.0%; IPv6 17.6%; CVV 32.3%,Hər label F1 >= 75%
+Strong labels,URL/ICCID/EMAIL/TEL >= 90%,Regression olmamalıdır

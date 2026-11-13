@@ -1,0 +1,55 @@
+==========================================================================
+CORPUS VALIDATION -- sprint1_llm_b6.jsonl
+==========================================================================
+records            : 24,000
+entity mentions    : 125,484
+distinct ids       : 24,000
+labels present     : 27/27
+length             : min 37  p50 602  p95 3,206  max 9,740
+doc types          : 8
+sha256             : 28a438044fdc59f1ef5648e925ff9055...
+
+MUST-BE-ZERO CHECKS
+  malformed_json                        0   ok
+  duplicate_id                          0   ok
+  span_text_mismatch                    0   ok
+  span_out_of_range                     0   ok
+  empty_span                            0   ok
+  overlapping_spans                     0   ok
+  duplicate_span                        0   ok
+  unknown_label                         0   ok
+  removed_label                         0   ok
+  zero_width_in_span                    0   ok
+  not_nfc                               1   FAIL
+      e.g. llm_az_003977
+  no_entities                           0   ok
+  exact_duplicate_text                  0   ok
+  structural_number_span                0   ok
+  missing_anchor                        0   ok
+  repeat_mention_incomplete             0   ok
+  validator_failure                     0   ok
+  unlabeled_pii_leak                    0   ok
+  resolver_drift                        1   FAIL
+      e.g. llm_az_012342 +2 -0 span(s)
+  planned_value_unlabelled              0   ok
+
+INFORMATIONAL
+  band_metadata_mismatch            2,399
+  cyrillic_present                    571
+  near_duplicate                        0
+  unlabelled_standalone_date            0
+
+LABEL DISTRIBUTION (actual / target)
+  DATE                        12,005 mentions    8,892 distinct  ratio 2.13
+  IPV6_ADDRESS                 1,495 mentions    1,280 distinct  ratio 1.99
+  GIVENNAME                   36,410 mentions   18,495 distinct  ratio 1.93
+  SURNAME                     25,367 mentions   16,295 distinct  ratio 1.69
+  MAC_ADDRESS                  1,601 mentions    1,424 distinct  ratio 1.59
+  TELEPHONENUM                 6,028 mentions    5,679 distinct  ratio 0.48
+  URL                          1,522 mentions    1,466 distinct  ratio 0.48
+  EMAIL                        7,358 mentions    6,683 distinct  ratio 0.49
+
+==========================================================================
+RESULT: FAIL -- 2 blocking check(s): not_nfc, resolver_drift
+==========================================================================
+json -> reports\llm_batch6\b6_validate_before.json

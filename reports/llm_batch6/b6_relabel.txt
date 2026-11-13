@@ -1,0 +1,6 @@
+documents: 23,977
+DATE labels: 11,983 -> 11,983
+unlabelled standalone dates: 0 in 0 documents (0.0%) -> 0 in 0 (0.0%)
+DATE spans added: 0; DATE labels removed (inside a timestamp): 0; documents changed: 0
+left unlabelled, by reason: {}
+documents changed, by language: {}

@@ -1,0 +1,35 @@
+documents: 23,977
+
+1. PLANNED VALUES PRESENT BUT UNLABELLED: 0 occurrence(s) in 0 document(s)
+   of which a value with no labelled occurrence at all (count): 0 in 0 document(s) {}
+   by label: {}
+   by form : {}
+   planned values with no labelled occurrence, by label (share of that label's plans):
+   STREET 25/2787 (0.9%), AZ_VOEN 4/698 (0.6%), DATE 64/11320 (0.6%), TIME 4/1489 (0.3%), AZ_ID_CARD_NUMBER 4/1693 (0.2%), SURNAME 46/22073 (0.2%), CITY 6/3534 (0.2%), GIVENNAME 57/33245 (0.2%)
+
+2. LABELS THAT DISAGREE WITH THE PLAN: 200  {'changed by noise after labelling (ok)': 188, 'not a form of any planned value': 4, 'standalone date, D-17 (ok)': 8}
+   llm_az_000448  changed by noise after labelling (ok): GIVENNAME 'Güla-\nhidə'  ... bu məsələnin həlli üçün melumat verdi. [[Güla- hidə]] ödəniş edilməlidir. O, 34 yaşında birid...
+   llm_az_000522  changed by noise after labelling (ok): SURNAME 'Nazi-\nlovaya'  ...və ya zərərçəkən kimi qeyd olunan Tirmə [[Nazi- lovaya]] şəxsi məlumatları və əlaqə vasitələri ü...
+   llm_az_000522  changed by noise after labelling (ok): CITY 'Şək-\ni'  ...3 olaraq qeyd edilmişdir. Bu məlumatlar [[Şək- i]] şəhərində və Abdullu pr. ərazisində yaş...
+   llm_az_000529  not a form of any planned value: CITY 'Gnəcədə'  ...[[Gnəcədə]] açılmış iş üzrə məhkəmənin 0rganizasiya...
+   llm_az_000553  changed by noise after labelling (ok): DATE 'O6.11.2024'  ...ilersiniz:  Telefon: +994-50-739-42-73  [[O6.11.2024]]...
+
+3. DECOY INTEGRITY: 23731 decoy span(s) checked, 9332 policy/contextual; problems: none
+
+4. RATES (share of all documents)
+   hard_negative  requested 30.0%   in the text 28.1%   in the briefs 29.5%
+   adversarial    requested 20.0%   in the text 19.3%   in the briefs 19.4%
+   pii_free       requested 10.0%   in the text 9.8%
+   edge_case      requested 30.0%   in the text 30.1%
+   any decoy in the text (_hard_negatives > 0, the batch-1 README's measure): 35.0%
+   label share / target, furthest off: DATE 2.13, GIVENNAME 1.94, IPV6_ADDRESS 1.87, SURNAME 1.69, MAC_ADDRESS 1.54, TELEPHONENUM 0.48
+
+5. D-9: {'mentions': 70602, 'suffixed (label includes the suffix)': 15912}
+   D-10: {'documents of 1-5 words': 3}
+   validate_example failures: none
+
+7. INDEPENDENT SWEEP, PII THE MODEL INVENTED (informational): 0 document(s) (0.0%), 0 of them declared PII-free; {}
+
+8. STANDALONE DATES LEFT UNLABELLED (D-17; timestamps excluded): 0 in 0 document(s) (0.0%); {}. scripts/relabel_standalone_dates.py labels them
+
+json -> reports\llm_batch6\b6_after_audit.json

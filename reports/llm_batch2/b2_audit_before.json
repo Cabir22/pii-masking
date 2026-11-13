@@ -1,0 +1,1079 @@
+{
+ "batch": "data\\raw\\sprint1_llm_b2.jsonl",
+ "documents": 6000,
+ "unlabelled_planned": {
+  "values": 36,
+  "documents": 31,
+  "values_with_no_label_anywhere": 30,
+  "documents_with_no_label_anywhere": 29,
+  "no_label_anywhere_by_label": {
+   "DATE": 30
+  },
+  "by_label": {
+   "DATE": 36
+  },
+  "by_kind": {
+   "reformatted": 36
+  },
+  "examples": [
+   {
+    "id": "llm_az_000345",
+    "label": "DATE",
+    "value": "1991-09-14",
+    "written": "14.09.1991",
+    "kind": "reformatted",
+    "context": "---------- Doğum tarixi               | [[14.09.1991]] Əlaqə telefonu             | +994 50 56"
+   },
+   {
+    "id": "llm_az_001127",
+    "label": "DATE",
+    "value": "1981-08-03",
+    "written": "03.08.1981",
+    "kind": "reformatted",
+    "context": "stem xətası alıramm. Mənim doğum tarixi [[03.08.1981]] olmalıdır, lakin sistemdə nəsə problem "
+   },
+   {
+    "id": "llm_az_001156",
+    "label": "DATE",
+    "value": "1977-12-15",
+    "written": "15.12.1977",
+    "kind": "reformatted",
+    "context": "craçı\" adlandırılacaq) ilə digər tərəf, [[15.12.1977]] tarixində anadan olmuş müqavilə iştirak"
+   },
+   {
+    "id": "llm_az_001485",
+    "label": "DATE",
+    "value": "2008-06-24",
+    "written": "24.06.2008",
+    "kind": "reformatted",
+    "context": "lən, sistemdə qeyd olunan doğum tarixi: [[24.06.2008]] kimi yanlış göstərilib və bu məlumatın "
+   },
+   {
+    "id": "llm_az_001691",
+    "label": "DATE",
+    "value": "1954-12-11",
+    "written": "11.12.1954",
+    "kind": "reformatted",
+    "context": "dır: * Soyadı: Аббасова * Doğum tarixi: [[11.12.1954]] * Kartın təhlükəsizlik kodu: 333  Məlum"
+   },
+   {
+    "id": "llm_az_001873",
+    "label": "DATE",
+    "value": "2010-07-02",
+    "written": "02.07.2010",
+    "kind": "reformatted",
+    "context": "-------------------------------- Tarix: [[02.07.2010]] Ünvan: Yaşar Qarayev küçəsində, Xocavən"
+   },
+   {
+    "id": "llm_az_001900",
+    "label": "DATE",
+    "value": "1962-05-11",
+    "written": "11.05.1962",
+    "kind": "reformatted",
+    "context": ":** Şəban *   **Müştəri Doğum Tarixi:** [[11.05.1962]] *   **Yükün Növü:** Yüksək həssaslıq tə"
+   },
+   {
+    "id": "llm_az_002064",
+    "label": "DATE",
+    "value": "2022-09-25",
+    "written": "25.09.2022",
+    "kind": "reformatted",
+    "context": "ilk dəfə qarşılaşıram.  Hər şey bu gün, [[25.09.2022]] tarixində başladı. Ödənişi tamamlamaq ü"
+   },
+   {
+    "id": "llm_az_002070",
+    "label": "DATE",
+    "value": "2011-06-20",
+    "written": "20.06.2011",
+    "kind": "reformatted",
+    "context": "lektron avadanlıqlar Əsas sənəd tarixi: [[20.06.2011]] Konteyner ID: @kwxsq/txduhf Cihaz MAC ü"
+   },
+   {
+    "id": "llm_az_002314",
+    "label": "DATE",
+    "value": "1962-01-06",
+    "written": "06.01.1962",
+    "kind": "reformatted",
+    "context": "əddə sürücü kimi Тейуб   (doğum tarixi: [[06.01.1962]]) qeyd edilib, lakin sürücülük vəsiqəsi "
+   },
+   {
+    "id": "llm_az_003088",
+    "label": "DATE",
+    "value": "2021-10-27",
+    "written": "27.10.2021",
+    "kind": "reformatted",
+    "context": " Xüsusi olaraq vurğulamaq istəyirəm ki, [[27.10.2021]] tarixində qeydə alınmış sifarişim hələ "
+   },
+   {
+    "id": "llm_az_003774",
+    "label": "DATE",
+    "value": "30 sentyabr 1991",
+    "written": "30.09.1991",
+    "kind": "reformatted",
+    "context": "məlumat sətiri: 2018;Ağan   ;Mahirov   ;[[30.09.1991]];89994497724755679001;hebiaga.hudusov24@"
+   },
+   {
+    "id": "llm_az_003789",
+    "label": "DATE",
+    "value": "2003-01-03",
+    "written": "03.01.2003",
+    "kind": "reformatted",
+    "context": "ç., bina 105 Doğum tarixi             | [[03.01.2003]] Kartın təhlükəsizlik kodu| 903  Sistem "
+   },
+   {
+    "id": "llm_az_003798",
+    "label": "DATE",
+    "value": "2021-01-20",
+    "written": "20.01.2021",
+    "kind": "reformatted",
+    "context": "əsi: AA093764 Vəsiqənin verilmə tarixi: [[20.01.2021]]  ---  ### ƏLAVƏ İZAHAT VƏ MÜRACİƏTİN SƏ"
+   },
+   {
+    "id": "llm_az_003798",
+    "label": "DATE",
+    "value": "2021-01-20",
+    "written": "20.01.2021",
+    "kind": "reformatted",
+    "context": "əli vəsiqəmi bura daxil etdim, lakin o, [[20.01.2021]] tarixli sənəddir. Bu sənədin vaxtı keçm"
+   },
+   {
+    "id": "llm_az_003980",
+    "label": "DATE",
+    "value": "10.09.2024",
+    "written": "2024-09-10",
+    "kind": "reformatted",
+    "context": "[[[2024-09-10]] 12:00:05] INFO: Accessing document stor"
+   },
+   {
+    "id": "llm_az_003980",
+    "label": "DATE",
+    "value": "10.09.2024",
+    "written": "2024-09-10",
+    "kind": "reformatted",
+    "context": "5] INFO: Accessing document storage... [[[2024-09-10]] 12:00:07] DEBUG: Loading profile: D_M_2"
+   },
+   {
+    "id": "llm_az_003989",
+    "label": "DATE",
+    "value": "1983-02-03",
+    "written": "03.02.1983",
+    "kind": "reformatted",
+    "context": "ükəsizlik təsdiqi üçün)   doğum tarixi: [[03.02.1983]]      # Müştərinin yaşadığı bölgə üzrə p"
+   },
+   {
+    "id": "llm_az_004095",
+    "label": "DATE",
+    "value": "1966-01-04",
+    "written": "04.01.1966",
+    "kind": "reformatted",
+    "context": "rindostu Yaşı: 79 yasinda Dogum tarixi: [[04.01.1966]] Ünvan: Bina 89 Telefon: +994 55 796 30 "
+   },
+   {
+    "id": "llm_az_004304",
+    "label": "DATE",
+    "value": "1987-02-23",
+    "written": "23.02.1987",
+    "kind": "reformatted",
+    "context": "u: Korporativ Abunəçi Qeydiyyat tarixi: [[23.02.1987]]  Xidmət detalları: Məhsul/Xidmət       "
+   },
+   {
+    "id": "llm_az_004423",
+    "label": "DATE",
+    "value": "1978-11-13",
+    "written": "13.11.1978",
+    "kind": "reformatted",
+    "context": "| 35 yaşında Doğum tarixi             | [[13.11.1978]] Əlaqə e-poçtu            | b.seyideliye"
+   },
+   {
+    "id": "llm_az_004423",
+    "label": "DATE",
+    "value": "1978-11-13",
+    "written": "13.11.1978",
+    "kind": "reformatted",
+    "context": "alitik Qeydlər  Müştərinin doğum tarixi [[13.11.1978]] olaraq qeyd edildiyi üçün, onun profili"
+   },
+   {
+    "id": "llm_az_004754",
+    "label": "DATE",
+    "value": "1994-08-29",
+    "written": "29.08.1994",
+    "kind": "reformatted",
+    "context": "bir əməkdaşın sənədlərində doğum tarixi [[29.08.1994]] kimi qeyd edilib, lakin b- u məlumatın "
+   },
+   {
+    "id": "llm_az_004754",
+    "label": "DATE",
+    "value": "1994-08-29",
+    "written": "29.08.1994",
+    "kind": "reformatted",
+    "context": " - İnsan resursları şöbəsi doğum tarixi [[29.08.1994]] olan şəxsin sənədlərini yoxl- asın. - İ"
+   },
+   {
+    "id": "llm_az_004895",
+    "label": "DATE",
+    "value": "2022-09-05",
+    "written": "05.09.2022",
+    "kind": "reformatted",
+    "context": "oğum tarixi: 18.11.1985. Əlaqəli sənəd: [[05.09.2022]] tarixli protokol.  Mövcud vəziyyət hüqu"
+   },
+   {
+    "id": "llm_az_004895",
+    "label": "DATE",
+    "value": "1985-11-18",
+    "written": "18.11.1985",
+    "kind": "reformatted",
+    "context": "şdir.  Məlumatlar: Şəxsin doğum tarixi: [[18.11.1985]]. Əlaqəli sənəd: 05.09.2022 tarixli prot"
+   },
+   {
+    "id": "llm_az_004938",
+    "label": "DATE",
+    "value": "2020-05-19",
+    "written": "19.05.2020",
+    "kind": "reformatted",
+    "context": "hm_jE4CBmq8ucRN6HoRP  Qeydiyyat tarixi: [[19.05.2020]] Cihaz seriyası: ****9920  Sistem qeydlə"
+   },
+   {
+    "id": "llm_az_005235",
+    "label": "DATE",
+    "value": "1948-06-25",
+    "written": "25.06.1948",
+    "kind": "reformatted",
+    "context": "akı kimi təqdim edilir: - Doğum tarixi: [[25.06.1948]] - Müştərinin hazırda 91 yaşı var. - Şəx"
+   },
+   {
+    "id": "llm_az_005268",
+    "label": "DATE",
+    "value": "1969-02-11",
+    "written": "11.02.1969",
+    "kind": "reformatted",
+    "context": " məlumatlar qeyd olunur:  Doğum tarixi: [[11.02.1969]] Posta indeksi: AZ6215  Kartın təhlükəsi"
+   },
+   {
+    "id": "llm_az_005292",
+    "label": "DATE",
+    "value": "2023-03-10",
+    "written": "10.03.2023",
+    "kind": "reformatted",
+    "context": "odu (CVC): 674 Əməliyyatın icra tarixi: [[10.03.2023]]  Bu məlumatların təhlükəsizliyi bizim ü"
+   },
+   {
+    "id": "llm_az_005324",
+    "label": "DATE",
+    "value": "1970-08-07",
+    "written": "07.08.1970",
+    "kind": "reformatted",
+    "context": " 79 YAŞINDA DOĞUM TARIXI              | [[07.08.1970]] ŞƏHƏR                     | BAKI ŞƏHƏRI"
+   },
+   {
+    "id": "llm_az_005476",
+    "label": "DATE",
+    "value": "2027-12-06",
+    "written": "06.12.2027",
+    "kind": "reformatted",
+    "context": "mrəsi Z88644 CVC 94-7 Əməliyyat tarixi: [[06.12.2027]]  System log: session initialized  Qeyd:"
+   },
+   {
+    "id": "llm_az_005675",
+    "label": "DATE",
+    "value": "1969-09-08",
+    "written": "08.09.1969",
+    "kind": "reformatted",
+    "context": "əlumatlarımı yeniləyərkən, doğum tarixi [[08.09.1969]] olan sənədlərim sistemdə düzgün göründü"
+   },
+   {
+    "id": "llm_az_006220",
+    "label": "DATE",
+    "value": "1949-08-04",
+    "written": "04.08.1949",
+    "kind": "reformatted",
+    "context": "XSI MELUMATLAR Ad: Gülmət Doğum tarixi: [[04.08.1949]] Pasport №: H52669631 E-poçt: s.besirli@"
+   },
+   {
+    "id": "llm_az_006322",
+    "label": "DATE",
+    "value": "2017-05-12",
+    "written": "12.05.2017",
+    "kind": "reformatted",
+    "context": ".sefiagazade@sirket.az Müqavilə tarixi: [[12.05.2017]] Ünvan: Bakı şəhəri, Nizami küç., bina 9"
+   },
+   {
+    "id": "llm_az_006540",
+    "label": "DATE",
+    "value": "1949-04-25",
+    "written": "25.04.1949",
+    "kind": "reformatted",
+    "context": "ur:  Birinci tərəf: Əfruz (doğum tarixi [[25.04.1949]] olan şəxs). Poçt kodu: AZ1148.  İkinci "
+   }
+  ]
+ },
+ "planned": {
+  "ACCESS_TOKEN": {
+   "planned": 259,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AGE": {
+   "planned": 463,
+   "not_labelled_anywhere": 1,
+   "share": 0.0022
+  },
+  "API_KEY": {
+   "planned": 410,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_DRIVER_LICENSE_NUMBER": {
+   "planned": 196,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_FIN": {
+   "planned": 325,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_ID_CARD_NUMBER": {
+   "planned": 242,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_PASSPORT_NUMBER": {
+   "planned": 198,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_VOEN": {
+   "planned": 209,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "BUILDINGNUM": {
+   "planned": 521,
+   "not_labelled_anywhere": 1,
+   "share": 0.0019
+  },
+  "CARD_SECURITY_CODE": {
+   "planned": 223,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "CITY": {
+   "planned": 862,
+   "not_labelled_anywhere": 1,
+   "share": 0.0012
+  },
+  "DATE": {
+   "planned": 750,
+   "not_labelled_anywhere": 34,
+   "share": 0.0453
+  },
+  "EMAIL": {
+   "planned": 1706,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "GIVENNAME": {
+   "planned": 1713,
+   "not_labelled_anywhere": 4,
+   "share": 0.0023
+  },
+  "IBAN": {
+   "planned": 227,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "ICCID": {
+   "planned": 141,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "IPV4_ADDRESS": {
+   "planned": 293,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "IPV6_ADDRESS": {
+   "planned": 170,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "MAC_ADDRESS": {
+   "planned": 176,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "PAYMENT_CARD_NUMBER": {
+   "planned": 294,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "PRIVATE_KEY": {
+   "planned": 197,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "STREET": {
+   "planned": 729,
+   "not_labelled_anywhere": 4,
+   "share": 0.0055
+  },
+  "SURNAME": {
+   "planned": 1398,
+   "not_labelled_anywhere": 5,
+   "share": 0.0036
+  },
+  "TELEPHONENUM": {
+   "planned": 1537,
+   "not_labelled_anywhere": 2,
+   "share": 0.0013
+  },
+  "TIME": {
+   "planned": 394,
+   "not_labelled_anywhere": 1,
+   "share": 0.0025
+  },
+  "URL": {
+   "planned": 433,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "ZIPCODE": {
+   "planned": 548,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  }
+ },
+ "label_disagreement": {
+  "count": 24,
+  "by_reason": {
+   "changed by noise after labelling (ok)": 24
+  },
+  "examples": [
+   {
+    "id": "llm_az_000305",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "Pa-\nrlaq küç.",
+    "context": "k etməyə ehtiyacım var. Mən hal-hazırda [[Pa- rlaq küç.]] tərəfə gedirəm və sifarişimi bu ərazidə"
+   },
+   {
+    "id": "llm_az_000330",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "16.11.205",
+    "context": " təmsil olunaj müəsssisə. İkinci tərəf: [[16.11.205]] tarixli əsnədlərə əsaslanan müştəri.  I"
+   },
+   {
+    "id": "llm_az_000786",
+    "why": "changed by noise after labelling (ok)",
+    "label": "GIVENNAME",
+    "text": "Kə-\nbilin",
+    "context": "for user: Kəbil. [DEBUG: operator_note: [[Kə- bilin]] məlumatlarında problem var, amma sistem"
+   },
+   {
+    "id": "llm_az_001161",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "21/08/19884",
+    "context": "ra elave edirem ki, tapin: dogum tarixi [[21/08/19884]]-dur. E-p- oct: kabusov.t@optimal.az. El"
+   },
+   {
+    "id": "llm_az_001177",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "Z-\nəbilinin",
+    "context": " ünvanı redaktə edərkən xəta baş verir. [[Z- əbilinin]] məlumatlarını yeniləyəndə Nehrəmdə bina"
+   },
+   {
+    "id": "llm_az_001740",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "Məmməd Al-\ntunbəy prospekti",
+    "context": "lə bağlı bir problem yaşayıram. Ünvanım [[Məmməd Al- tunbəy prospekti]], bina 200A şəklindədir. Dəstək əməkdaşı"
+   },
+   {
+    "id": "llm_az_002263",
+    "why": "changed by noise after labelling (ok)",
+    "label": "GIVENNAME",
+    "text": "Q amboy",
+    "context": "qiqə 12 saniyə Müştəri Adı    \t  \t     |[[Q amboy]] Müraciət Edilən Şəxs    | Yemşən Əlaqə "
+   },
+   {
+    "id": "llm_az_002328",
+    "why": "changed by noise after labelling (ok)",
+    "label": "AGE",
+    "text": "19",
+    "context": "94-55-374-27-11. Sistemdəə problem var. [[19]] yaşı olan bir müskter üçün məlumat lazı"
+   },
+   {
+    "id": "llm_az_002802",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "Zoyadaghayeivn",
+    "context": "lar siatem tərəfindən qeydə alınmışdır. [[Zoyadaghayeivn]] avtomobili üçün texniki baxış nəticələr"
+   },
+   {
+    "id": "llm_az_002941",
+    "why": "changed by noise after labelling (ok)",
+    "label": "GIVENNAME",
+    "text": "Zey-\nnəddinin",
+    "context": "qəti məhdudiyyətlər tətbiq oluna bilər. [[Zey- nəddinin]] şəxsi məlumatlarının təhlükəsizliyi və "
+   },
+   {
+    "id": "llm_az_003757",
+    "why": "changed by noise after labelling (ok)",
+    "label": "TIME",
+    "text": "11:33 A-\nM",
+    "context": "eydə alınan log fayllarına əsasən, saat [[11:33 A- M]] vaxtında icra olunan emeliyyatların çox"
+   },
+   {
+    "id": "llm_az_004302",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "7.7.11945",
+    "context": "və sahibinin məlumatları: Doğum tarixi: [[7.7.11945]] Əlaqə nömrəsi: (055) 640-68-39 Məlumatl"
+   },
+   {
+    "id": "llm_az_004302",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "Mərda nMusayev pr.",
+    "context": "  Xidmət göstərilən yer və vaxt: Xidmət [[Mərda nMusayev pr.]]-da həyata keçirilmişdir. Xidmət icra ol"
+   },
+   {
+    "id": "llm_az_004959",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "Teymur əMlikəliyev pr.",
+    "context": "4  E-poçt: itomarov84@icloud.com Ünvan: [[Teymur əMlikəliyev pr.]]    FIN kodu: FWR8HQZ Giriş tokeni: pat_"
+   },
+   {
+    "id": "llm_az_005216",
+    "why": "changed by noise after labelling (ok)",
+    "label": "TELEPHONENUM",
+    "text": "+994 77 891 66 61",
+    "context": "ofilinizdə qeyd olunan telefon nömrəniz [[+994 77 891 66 61]]-dirr, elədir?  [14:09] Mütşərj: Bəli, o"
+   },
+   {
+    "id": "llm_az_005295",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "RRayilovun",
+    "context": "ən çox böyükb ir problemlə qarşılaşdım. [[RRayilovun]] göndərdiyi müraciətlər hələ də emal edi"
+   },
+   {
+    "id": "llm_az_005349",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "23.04.199Z",
+    "context": "020-11-15 10:15:20] [DATA] – Birth_Ref: [[23.04.199Z]] [2020-11-15 10:15:25] [DATA] – ID_Card_"
+   },
+   {
+    "id": "llm_az_005410",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "MMikayilzadənin",
+    "context": "i düzəlişlərə ehtiyac duyulur.M əsələn, [[MMikayilzadənin]] təqqdim etdiyi hesabatlarda bəzi məluma"
+   },
+   {
+    "id": "llm_az_005486",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "Ş əbəddinov",
+    "context": "Vəziyyət    Soyad 5521     Xəta ﻿     ­ [[Ş əbəddinov]]"
+   },
+   {
+    "id": "llm_az_005751",
+    "why": "changed by noise after labelling (ok)",
+    "label": "GIVENNAME",
+    "text": "Tut-\nibikə",
+    "context": "tələbi ilə bağlı böyük problem yarandı. [[Tut- ibikə]] Əlməmmədzadə 5239088188852732 nömrəli k"
+   }
+  ]
+ },
+ "decoys": {
+  "counts": {
+   "checked": 6090,
+   "exempt (policy/contextual)": 2428,
+   "not a planted decoy string": 2
+  },
+  "examples": [
+   {
+    "id": "llm_az_004381",
+    "problem": "not a planted decoy string",
+    "kind": "MAC_LIKE_HASH",
+    "value": "5f:31:44:e7:71-2d:2e:89:7c:4c:75:b8:54:32:15:b5",
+    "context": "vermir. Səhifədə qəribə bir kod da var: [[5f:31:44:e7:71-2d:2e:89:7c:4c:75:b8:54:32:15:b5]]. Tez cavab verin, tamerovx@alovenerji.a"
+   },
+   {
+    "id": "llm_az_004872",
+    "problem": "not a planted decoy string",
+    "kind": "MAC_LIKE_HASH",
+    "value": "08:03:5c:9f:04:c1:b5:45:85-2d:96:97:58:27:1e:f4",
+    "context": "r, bəlkə də nasazlıqdır.  Cihazın kodu: [[08:03:5c:9f:04:c1:b5:45:85-2d:96:97:58:27:1e:f4]].  Melumatlar bura əlavə olundu."
+   }
+  ]
+ },
+ "rates": {
+  "requested": {
+   "hard_negative": 0.3,
+   "adversarial": 0.2,
+   "pii_free": 0.1,
+   "edge_case": 0.3
+  },
+  "measured": {
+   "hard_negative_spec": 0.284,
+   "hard_negative_text": 0.2722,
+   "adversarial_spec": 0.1878,
+   "adversarial_text": 0.187,
+   "any_decoy_text (README metric)": 0.337,
+   "pii_free": 0.0973,
+   "edge_case": 0.3108,
+   "with_decoy_spans": 0.3443
+  }
+ },
+ "label_shares": {
+  "API_KEY": {
+   "mentions": 488,
+   "share": 0.025,
+   "target": 0.025,
+   "ratio": 1.0
+  },
+  "ACCESS_TOKEN": {
+   "mentions": 291,
+   "share": 0.0149,
+   "target": 0.015,
+   "ratio": 0.99
+  },
+  "PRIVATE_KEY": {
+   "mentions": 198,
+   "share": 0.0101,
+   "target": 0.01,
+   "ratio": 1.01
+  },
+  "PAYMENT_CARD_NUMBER": {
+   "mentions": 354,
+   "share": 0.0181,
+   "target": 0.018,
+   "ratio": 1.01
+  },
+  "IBAN": {
+   "mentions": 256,
+   "share": 0.0131,
+   "target": 0.014,
+   "ratio": 0.94
+  },
+  "CARD_SECURITY_CODE": {
+   "mentions": 257,
+   "share": 0.0131,
+   "target": 0.012,
+   "ratio": 1.1
+  },
+  "IPV4_ADDRESS": {
+   "mentions": 368,
+   "share": 0.0188,
+   "target": 0.018,
+   "ratio": 1.05
+  },
+  "IPV6_ADDRESS": {
+   "mentions": 210,
+   "share": 0.0107,
+   "target": 0.006,
+   "ratio": 1.79
+  },
+  "MAC_ADDRESS": {
+   "mentions": 227,
+   "share": 0.0116,
+   "target": 0.008,
+   "ratio": 1.45
+  },
+  "URL": {
+   "mentions": 458,
+   "share": 0.0234,
+   "target": 0.025,
+   "ratio": 0.94
+  },
+  "ICCID": {
+   "mentions": 197,
+   "share": 0.0101,
+   "target": 0.006,
+   "ratio": 1.68
+  },
+  "GIVENNAME": {
+   "mentions": 2939,
+   "share": 0.1503,
+   "target": 0.15,
+   "ratio": 1.0
+  },
+  "SURNAME": {
+   "mentions": 2303,
+   "share": 0.1178,
+   "target": 0.12,
+   "ratio": 0.98
+  },
+  "EMAIL": {
+   "mentions": 2084,
+   "share": 0.1066,
+   "target": 0.12,
+   "ratio": 0.89
+  },
+  "TELEPHONENUM": {
+   "mentions": 1770,
+   "share": 0.0905,
+   "target": 0.1,
+   "ratio": 0.91
+  },
+  "DATE": {
+   "mentions": 827,
+   "share": 0.0423,
+   "target": 0.045,
+   "ratio": 0.94
+  },
+  "TIME": {
+   "mentions": 579,
+   "share": 0.0296,
+   "target": 0.025,
+   "ratio": 1.18
+  },
+  "AGE": {
+   "mentions": 560,
+   "share": 0.0286,
+   "target": 0.03,
+   "ratio": 0.95
+  },
+  "CITY": {
+   "mentions": 1338,
+   "share": 0.0684,
+   "target": 0.065,
+   "ratio": 1.05
+  },
+  "STREET": {
+   "mentions": 954,
+   "share": 0.0488,
+   "target": 0.05,
+   "ratio": 0.98
+  },
+  "BUILDINGNUM": {
+   "mentions": 668,
+   "share": 0.0342,
+   "target": 0.035,
+   "ratio": 0.98
+  },
+  "ZIPCODE": {
+   "mentions": 665,
+   "share": 0.034,
+   "target": 0.035,
+   "ratio": 0.97
+  },
+  "AZ_FIN": {
+   "mentions": 434,
+   "share": 0.0222,
+   "target": 0.02,
+   "ratio": 1.11
+  },
+  "AZ_ID_CARD_NUMBER": {
+   "mentions": 314,
+   "share": 0.0161,
+   "target": 0.015,
+   "ratio": 1.07
+  },
+  "AZ_PASSPORT_NUMBER": {
+   "mentions": 264,
+   "share": 0.0135,
+   "target": 0.012,
+   "ratio": 1.13
+  },
+  "AZ_VOEN": {
+   "mentions": 279,
+   "share": 0.0143,
+   "target": 0.01,
+   "ratio": 1.43
+  },
+  "AZ_DRIVER_LICENSE_NUMBER": {
+   "mentions": 273,
+   "share": 0.014,
+   "target": 0.01,
+   "ratio": 1.4
+  }
+ },
+ "d9": {
+  "counts": {
+   "mentions": 7534,
+   "suffixed (label includes the suffix)": 2740
+  },
+  "examples": []
+ },
+ "d10": {
+  "documents of 1-5 words": 2
+ },
+ "validate_example_failures": {},
+ "unplanned_pii": {
+  "documents": 167,
+  "share": 0.0278,
+  "pii_free_documents": 3,
+  "by_label": {
+   "CITY": 114,
+   "STREET": 99,
+   "GIVENNAME": 19,
+   "BUILDINGNUM": 12
+  },
+  "examples": [
+   {
+    "id": "llm_az_000066",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": " 044718715 Ünvan: Avtoservis küçəsində, [[Bakı]] şəhəri  --- XİDMƏT VƏ SATIŞ QEYDİ (RƏSM"
+   },
+   {
+    "id": "llm_az_000077",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": ".az Maliyyə kodu: ZPKA415  Ofis ünvanı: [[Bakı]] şəhəri, Nizami küçəsi, bina 167A.  Texn"
+   },
+   {
+    "id": "llm_az_000077",
+    "label": "STREET",
+    "text": "Nizami küçəsi",
+    "context": "odu: ZPKA415  Ofis ünvanı: Bakı şəhəri, [[Nizami küçəsi]], bina 167A.  Texniki sazlamalar: Daxili"
+   },
+   {
+    "id": "llm_az_000086",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "ektin ünvanı aşağıdakı kimidir:  Ünvan: [[Bakı]] şəhəri, Nizami küçəsi, bina 14.  İCRA Ş"
+   },
+   {
+    "id": "llm_az_000086",
+    "label": "STREET",
+    "text": "Nizami küçəsi",
+    "context": "aşağıdakı kimidir:  Ünvan: Bakı şəhəri, [[Nizami küçəsi]], bina 14.  İCRA ŞƏRTLƏRİ VƏ ÖHDƏLİKLƏR "
+   },
+   {
+    "id": "llm_az_000188",
+    "label": "STREET",
+    "text": "Nizami küç.",
+    "context": "2.08.2019  Xəstə: 47 yaşlı kişi. Ünvan: [[Nizami küç.]], bina 192. E-poçt: numanemesderzade@com"
+   },
+   {
+    "id": "llm_az_000193",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": " Departamenti Bakutech Texnoloji Həllər [[Bakı]], Azərbaycan"
+   },
+   {
+    "id": "llm_az_000278",
+    "label": "GIVENNAME",
+    "text": "Rəşad Məmmədov",
+    "context": "aq dəyişiklikləri yeniləyin.  --- İmza: [[Rəşad Məmmədov]] Senior Proqram Təminatı Mühəndisi HAL-X"
+   },
+   {
+    "id": "llm_az_000303",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "a olan ünvanı: Nizami küçəsi, bina 194, [[Bakı]] şəhəri. Məktəb daxili qeydiyyat nömrəsi"
+   },
+   {
+    "id": "llm_az_000303",
+    "label": "STREET",
+    "text": "Nizami küçəsi",
+    "context": "ələbənin rəsmi qeydiyyatda olan ünvanı: [[Nizami küçəsi]], bina 194, Bakı şəhəri. Məktəb daxili q"
+   },
+   {
+    "id": "llm_az_000313",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "r üzrə Menecer Təhsil İdarəetmə Bölməsi [[Bakı]] Akademik İdarəetmə Mərkəzi"
+   },
+   {
+    "id": "llm_az_000334",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "m Ərhunov Ünvan: Nizami küç., bina 133, [[Bakı]] Analiz vaxtı: 04:26 Hesabatın hazırlanm"
+   },
+   {
+    "id": "llm_az_000334",
+    "label": "STREET",
+    "text": "Nizami küç.",
+    "context": "RI Ad və Soyad: Mirkalam Ərhunov Ünvan: [[Nizami küç.]], bina 133, Bakı Analiz vaxtı: 04:26 Hes"
+   },
+   {
+    "id": "llm_az_000335",
+    "label": "STREET",
+    "text": "Nizami küçəsi",
+    "context": "nı bir də təsdiqləyək. [08:19] Müştəri: [[Nizami küçəsi]], bina 151. [08:19] Texnik: Mənzil neçəd"
+   },
+   {
+    "id": "llm_az_000380",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": ". \"Texno-Sistem\" MMC, VÖEN: 1103357019, [[Bakı]] şəhəri, Azərbaycan Respublikası (bundan"
+   },
+   {
+    "id": "llm_az_000380",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "andırılacaq).  2. \"Region Ticarət\" MMC, [[Bakı]] şəhəri, Azərbaycan Respublikası (bundan"
+   },
+   {
+    "id": "llm_az_000406",
+    "label": "STREET",
+    "text": "Ofisimiz Nizami küçəsi",
+    "context": "ə də ilk iş günündə yolu azanlar üçün). [[Ofisimiz Nizami küçəsi]], bina 62 ünvanında yerləşir. Əgər gəliş"
+   },
+   {
+    "id": "llm_az_000485",
+    "label": "STREET",
+    "text": "Nizami küçəsi",
+    "context": "bə bir problem var! Mən ünvan bölməsinə [[Nizami küçəsi]], bina 95 yazmağa çalışıram, amma heç bi"
+   },
+   {
+    "id": "llm_az_000558",
+    "label": "CITY",
+    "text": "Bakı",
+    "context": "ar aşağıdakı kimi dəqiqləşdirilməlidir: [[Bakı]] şəhəri, Nərimanov rayonu, Heydər Əliyev"
+   },
+   {
+    "id": "llm_az_000558",
+    "label": "GIVENNAME",
+    "text": "Heydər Əliyev",
+    "context": "məlidir: Bakı şəhəri, Nərimanov rayonu, [[Heydər Əliyev]] prospekti, bina 173.  Məlumatların yeni"
+   }
+  ]
+ },
+ "rejects": {
+  "rejects": 708,
+  "by_reason": {
+   "validation": {
+    "count": 342,
+    "share": 0.4831
+   },
+   "leaked unlabeled PII": {
+    "count": 151,
+    "share": 0.2133
+   },
+   "judgment leak": {
+    "count": 89,
+    "share": 0.1257
+   },
+   "quality": {
+    "count": 65,
+    "share": 0.0918
+   },
+   "taxonomy label leaked into text": {
+    "count": 34,
+    "share": 0.048
+   },
+   "no entities resolved": {
+    "count": 15,
+    "share": 0.0212
+   },
+   "api": {
+    "count": 12,
+    "share": 0.0169
+   }
+  },
+  "top_subreasons": [
+   {
+    "reason": "validation",
+    "sub": "language: only N az words",
+    "count": 229,
+    "examples": [
+     "Xestenin odenis melumati (2016): * Kart nomresi: 5199945294999715",
+     "Salam, cihazın mac - yəni mak adresi budur: Ac:De:48:59:00:39 Ac:De:48:59:00:39\tAktiv\t2021 Sağ olun.",
+     "---------- Forwarded message --------- Date: 2020-05-12 VÖEN: 6970464919 API l0g: status ok."
+    ]
+   },
+   {
+    "reason": "judgment leak",
+    "sub": "['…']",
+    "count": 74,
+    "examples": [
+     "[Agent]: Salam, mən sizə necə kömək edə bilərəm?  [Müştəri]: Sizin xidmətiniz tamamilə korlaşır! Artıq 2025-ci ildən bəri bu problemə çarx basmışam. Melumatlarımın hamısı səhvdir və mən bundan çox bezmişəm.  [Agent]: Bağışlayın, xətanı anla",
+     "Çatdırılma Manifesti – 12.11.2020  Mən bu sənəddə nə baş verdiyini tam başa düşmürəm. Hər şey çox qarışıq görünür və məlumatlar bir-birinə uyğun gəlmir. Göndərilən bu məlumatlar niyə belə qeyri-müəyyəndir?  Sifariş detalları: * Alıcı: Султа",
+     "Müştəri Dəstəyi Bilet Sistemi Bilet №: 2021-AX-8829 Tarix: 14.11.2021 Status: Araşdırılır Prioritet: Yüksək  ---  ## Müraciətin Təsviri  Müştəri sistem üzərindən ödəniş əməliyyatlarını həyata keçirməyə çalışarkən texniki nasazlıqla qarşılaş"
+    ]
+   },
+   {
+    "reason": "validation",
+    "sub": "turkish_lexis: tesekkur",
+    "count": 68,
+    "examples": [
+     "# Konfiqurasiya Parametrleri # Son redakte tarixi: 14.08.2016  # Sistem yuku heddi # Bu gosterici resurslarin istifadesi ucun ehemiyyetlidir. threshold_value = 17.7%  # Tehlukesizlik identifikatoru # Giris ucun @alygvmx istifadE olunmalidir",
+     "Salam! 2018-ci ilin bu gunlerinde xidmetlerinizle bagli bir nece fikir bildirmek isteyirdim. Evvele deyim ki, her sey eladir, amma bezi kicik meseleler var ki, onlari deyesen duzeltmek lazimdir.  Meselen, men Sahin Suleymanov kucesinde yasa",
+     "Salam hörmətli forum üzvləri. Bir istifadəçimizin yaşadığı texniki problemlə bağlı kömək istəyirik. Xanoğlanın hesabına daxil olmaqda çətinlik yaşanır. Bu ehemeyetli məsələnin həlli üçün kimsə melum bir yol göstərə bilərsə, çox minnətdar ol"
+    ]
+   },
+   {
+    "reason": "leaked unlabeled PII",
+    "sub": "IPVN:N.N.N.N",
+    "count": 22,
+    "examples": [
+     "BAKI DÖVLƏT UNİVERSİTETİ İdarəetmə və Texniki Təhlükəsizlik Departamentinin daxili sənədi Tarix: 14 noyabr 2016-cı il Sənəd №: 2016/IT-SEC-089-URGENT  MÖVZU: Tələbə qeydiyyat sistemindəki kəskin xətalar, məlumat sızması şübhəsi və təhlükəsi",
+     "# SİSTEM KONFİQURASİYA FAYLI - 2022-ci İL VERSİYASI # Xəbərdarlıq: Bu fayl üzərində edilən hər hansı dəyişiklik sistemi tamamilə sıradan çıxara bilər. # Yenə də eyni problemlər! Bu konfiqurasiya faylı 2022-ci ildən bəri bir dəfə də düzgün i",
+     "Azərbaycan Respublikası Daxili İşlər Nazirliyi Naxçıvan Şəhər Polis İdarəsi Kiber-cinayətkarlıqla Mübarizə Bölməsi İstintaq Protokolu № 2017/0892 Tarix: 14 noyabr 2017  HADİSƏNİN XÜLASƏSİ  Naxçıvan şəhərində yerləşən bir korporativ şəbəkəyə"
+    ]
+   },
+   {
+    "reason": "quality",
+    "sub": "planned value never labeled (SURNAME, misspelled)",
+    "count": 17,
+    "examples": [
+     "[Transkripsiya Sistemi v4.2] Tarix: 14.11.2021 Zəng nömrəsi: +994-12-783-32-68 Status: Tamamlanmış  Səs yazısının avtomatik transkripsiyası: Hörmətli müraciətçi, bu mesaj rəsmi bildiriş məqsədilə qoyulur. Sizin müraciətiniz əsasında aparıla",
+     "LİMAN DİAQNOSTİKA VƏ ANALİZ MƏRKƏZİ RƏSMI LABORATORIYA HESABATI  PASIENT MƏLUMATLARI: AD: NURQƏLƏM SOYAD: БАКИРЛИ ŞƏXSIYYƏT NÖMRƏSI: TK5M2L8 ANALIZ TARIXI: 14 IYUN 2016-CI IL VAXT: SAAT 10:35 GƏLDIYI YER: ŞƏRUR  ---  KLİNİK ŞƏRH VƏ QEYDLƏR:",
+     "AZƏRBAYCAN RESPUBLİKASI MALİYYƏ MONITORİNQİNG XİDMƏTİ Maliyyə Müfəttişliyi İdarəsinə  Tarix: 14 may 2026-cı il Sənəd №: 2026/AX-9942  Müraciət edən: Məmmədbağırovanın (Müraciətçi) Əlaqə nömrəsi: 070 423 17-28 Elektron poçt: e.movlanov@box.a"
+    ]
+   },
+   {
+    "reason": "no entities resolved",
+    "sub": "",
+    "count": 15,
+    "examples": [
+     "SİGORTA TƏLƏBİ HAQQINDA AKT  Sənəd nömrəsi: 2021/AX-982 Tarix: 14.08.2021  MÜŞTƏRİ HAQQINDA MƏLUMATLAR: Doğum tarixi: 15.11.2012  HADİSƏNİN TƏSVİRİ VƏ TƏLƏBİN ƏSASLARI: Sığorta müqaviləsi çərçivəsində sığorta təminatı tələbi qeydə alınmışdı",
+     "Sistm yenə də işləmir! Bu bazadakı məlumatlar tamamilə qarışıqdır. Bir nəfərin doğum tarixi 22.06.2000 olmalıdır, amma sistem hər şeyi səhv yazır. Yox, demək istəyirəm ki, sistem hər şeyi tamamilə qarışdırır. Bu problem hər gün təkrarlanır ",
+     "Bu, S0stemi tərəfindən avtomatik səs mesajı qeydidir. 2016-cı il. Qızlarağısının səs yazısında IBAN sahəsində AZ0112 və 35.07.1993 məlumatları ilə bağlı sistemdə xəta aşkar edildi."
+    ]
+   },
+   {
+    "reason": "judgment leak",
+    "sub": "['…', '…']",
+    "count": 14,
+    "examples": [
+     "Göndərən: Registratur Tarix: 15.11.2016 10:45 Mövzu: Fwd: Təcili - Şagird məlumatları (Gülsadə)  Salam,  aşağıda qeyd olunan şagirdin sənədləri ilə bağlı bəzi problemlər var.  Gülsadənin sənəd bazası tam düzgün deyil.  Zəhmət olmasa,  məlum",
+     "---------- Forwarded message --------- From: ayinhacixanli@zirve.az Date: 2023-11-14 09:12:44 +0400 Subject: Hesab girişi ve odeme problemi  Salam,  Men ayinhacixanli@zirve.az adresinden yaziram. Daşkəsende yasam, Sabit Rəhman küçesi uzerin",
+     "SİSTEM İŞ REQİZLARI: ÖDƏNİŞ PROSESLƏRİNİN İDARƏ EDİLMƏSİ VƏ TEXNİKİ DƏSTƏK Versiya: 2.04 (Tarix: 12.05.2020)  ## 1. GİRİŞ VƏ MƏQSƏD Bu sənəd sistem xətalarının aradan qaldırılması və müştəri məlumatlarının verifikasiyası üçün nəzərdə tutulm"
+    ]
+   },
+   {
+    "reason": "leaked unlabeled PII",
+    "sub": "EMAIL:support@hal-x.ai",
+    "count": 14,
+    "examples": [
+     "Qəbz tarixi: 12.05.2026 Hörmətli müştəri, 90 yaşı olan müştərimiz Рафад üçün xidmət ödənişi təsdiqləndi. Doğum tarixi: çərşənbə, 23 may 2018 olan müştərimizə göstərdiyimiz xidmət üçün təşəkkür edirik. Kart nömrəsi: ****8821. Başlama vaxtı: ",
+     "Tarix: 14.08.2026 K0d: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IncyMXdtdDlodGp6MiJ9.eyJzdWIiOiIzODJlMzg5Mi05ZTc4LTdkYjktNzFmNC04ODNjZWQ5NjAxMTEiLCJpYXQiOjE4MDc3MzMyOTksImV4cCI6MTgwODMzODA5OX0.JpDkOGijwj2XmLZt1D0vOlin_ycWGzWuZS-AmFJColOM",
+     "Xəta Hesabatı: Ödəniş Modulunda Hesablama Nasazlığı ID: BUG-2021-0892 Tarix: 14 Noyabr 2021 Prioritet: Kritik  ---  ### Xülasə  Müştəri xidmətləri komandası olaraq, ödəniş sistemindəki hesablama xətaları ilə bağlı ciddi narazılıqlar alırıq."
+    ]
+   },
+   {
+    "reason": "validation",
+    "sub": "turkish_lexis: lutfen",
+    "count": 13,
+    "examples": [
+     "SIFARIŞ QEBZI VƏ SİSTEM GUNCƏLLEMESI Tarix: 14 Noyabr 2023 Status: Tamamlandi Sifariş nomrəsi: DE48007478813218579019  ---  XIDMET DETALLARI: ------–--–----------—-----------—------–------—--- 1. Bulud API Abunəliyi (Premium) ....... 450.00",
+     "Sığorta telebi hesabatı Tarix: 12.04.2026  Sədullayevənin müraceti üzre araşdirma tamamlanmisdir. Müstari 27 yaşında biridir ve hadise zamanı avtomobilin idare edilmesi qaydalarına riayət etdiyini bildirir.  Sistem qeydləri: E-poçt: aganeme",
+     "2018-ci ilin resmi hesabatina esasen, Cabbarzadə ile bagli olan melumatlar yenilenmişdir. Biz sizin bu prosesdeki narahatliginizi tamamilə anlayirig ve her bir detala diqqet yetirig. Tehsil senedlerinde her hansi bir xeta ve ya nasazliq gör"
+    ]
+   },
+   {
+    "reason": "taxonomy label leaked into text",
+    "sub": "DATE",
+    "count": 13,
+    "examples": [
+     "BANKING SECURITY & COMPLIANCE DEPARTMENT DATE: 2022-11-15 REF: SEC-AUDIT-2022-99412  MÖVTU: Hesab təhlükəsizliyinin təmin edilməsi və Məlumatların təsdiqlənməsi ha- qqında bildiriş  Hörmətli müştəri,  Bankımızın təhlükəsizlik protokolları ç",
+     "AZƏRBAYCAN RESPUBLİKASI SOSİAL MÜDAFİƏ VƏ ƏMƏK REFORMASI NAZİRLİYİ Rəsmi Şikayət və Müraciət Forması (Təcilidir)  Tarix: 14.11.2021 Müraciət nömrəsi: 2021/SR-99283-X  -------------------------------------------------------------------------",
+     "Tarix: 22.10.2018 Sənəd ID: 2018-AX-99201-L  Hörmətli Müştəri,  Sizə bu xəbərdarlığı təqdim etdiyimiz xidmətlərin davamlılığını və təhlükəsizliyini hər bir aspektdən mükəmməl səviyyədə saxlamaq məqsədilə göndəririk. Bizim üçün sizinlə olan "
+    ]
+   }
+  ],
+  "name_rejects": {}
+ }
+}

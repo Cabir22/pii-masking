@@ -1,0 +1,89 @@
+AZƏRBAYCAN RESPUBLİKASI GÖMKÜK İDXAL DEKLARASİYASI
+Rəsmi Sənəd Nömrəsi: ****8812
+Sənəd Statusu: Təsdiqlənmiş
+Tarix: 52 բՓG 5306
+
+------------------------------------------------------------
+I. DEKLARANTIN VƏ MƏSULİYYƏTLİ ŞƏXSİN MƏLUMATLARI
+------------------------------------------------------------
+
+Deklarantın əsas məlumatları:
+Ad: ХրEՉЖЬç
+Soyad: шыЫĞԴюԽՈ
+Şəxsiyyət vəsiqəsinin nömrəsi: wwz3wtGmtK
+Fin kod: bvKaE11
+Sürücülük vəsiqəsinin nömrəsi: GyE7lyMq
+Əlaqə telefonu: +963505597588
+Yaşayış yeri (Şəhər/Məkan):  ղAԼHaЕХp
+Poçt indeksi: lo1514
+Doğum tarixi: 88/68/2202
+
+Əlavə təsdiqləyici və ya əlaqəli şəxs:
+Soyad: ԵՈՊսuTՏհ
+Status: İkinci deklarant / Nəqliyyat nümayəndəsi
+
+------------------------------------------------------------
+II. NƏQLİYYAT VASİTƏSİ VƏ DAŞIMA MƏLUMATLARI
+------------------------------------------------------------
+
+Nəqliyyat vasitəsinin növü: Yük avtomobili (Tır)
+Dövlət qeydiyyat nömrəsi: 99-X-5521
+Yükün gəliş vaxtı: 5:01 Դи
+Sərhəd keçidi nöqtəsi: Şərq terminalı
+Sənədlərin elektron təqdim edilmə tarixi: 60.63.6045
+
+------------------------------------------------------------
+III. MALIN TƏSVİRİ VƏ KOMERSIYA DƏYƏRİ
+------------------------------------------------------------
+
+Aşağıdakı cədvəl yükün tərkibini və dəyərini əks etdirir:
+
+MALIN ADI             | MİKDAR | VƏZN (KG) | BİRİM DƏYƏR (AZN) | CƏMİ DƏYƏR (AZN)
+----------------------|--------|-----------|------------------|-----------------
+Elektron Monitor      | 45 ədəd| 450       | 210              | 9450
+USB Kabel (Type-C)    | 200 ədəd| 15        | 4.5              | 900
+Sənaye Sensorları     | 12 ədəd| 30        | 450              | 5400
+Batareyalar (Li-ion)  | 80 ədəd| 120       | 35               | 2800
+Metal Korpuslar       | 100 ədəd| 500       | 12               | 1200
+----------------------|--------|-----------|------------------|-----------------
+
+Ümumi yükün çəkisi: 1115 kg
+Ümumi bəyan edilmiş dəyər: 19750 AZN
+
+------------------------------------------------------------
+IV. GÖMKÜK RÜSUMLARI VƏ VERGİLƏR
+------------------------------------------------------------
+
+Gömrük rüsumu: 493.75 AZN
+ƏDV (18%): 3555.00 AZN
+Digər rüsumlar: 120.50 AZN
+CƏMİ ÖDƏNİŞ: 4169.25 AZN
+
+Ödəniş statusu: Ödənilmiş
+Ödəniş nömrəsi: ****0092
+
+------------------------------------------------------------
+V. TEXNİKİ İZLƏMƏ VƏ YOXLAMA LOGLARI (GÖMKÜK INSPECTION)
+------------------------------------------------------------
+
+[LOG_START]
+[2023-05-14 94:10] - Terminal giriş qeydi: Yükün daxil olma vaxtı 5:01 Դи olaraq qeydə alındı.
+[2023-05-14 15:37] - Yoxlama proseduru: Fiziki yoxlama saatı 85:85 olaraq təyin edildi.
+[2023-05-14 19:45] - Sənədlərin yoxlanılması: Bütün sənədlər (şəxsiyyət vəsiqəsi, sürücülük vəsiqəsi) sistemlə uyğundur.
+[2023-05-14 20:10] - Yükün təhlili: Elektron avadanlıqlar və sensorların qablaşdırması yoxlanıldı.
+[2023-05-14 20:45] - Xəta: Sistemdə kiçik bir sinxronizasiya problemi aşkar edildi, lakin düzəldildi.
+[LOG_END]
+
+------------------------------------------------------------
+VI. RƏSMİ QEYDLƏR VƏ NƏTİCƏ
+------------------------------------------------------------
+
+Yükün sənədləşmə prosesi rəsmi şəkildə...
+
+Yuxarıda göstərilən məlumatlar Deklarant tərəfindən təqdim edilmişdir və tamamilə doğrudur. Məlumatların yanlış olduğunu bildirməyən tərəf hər hansı hüquqi məsuliyyət daşıyır. Gömrük qanunvericiliyinə əsasən, bu sənəd yükün sərhəddən keçməsinə icazə verir.
+
+Möhür və İmza:
+Gömrük inspektoru: (Elektron imza ilə təsdiqlənib)
+Deklarant: ХրEՉЖЬç шыЫĞԴюԽՈ (Elektron təsdiq)
+
+[SON]

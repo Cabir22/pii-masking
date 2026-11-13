@@ -1,0 +1,745 @@
+{
+ "batch": "data\\raw\\sprint1_llm_b5.jsonl",
+ "documents": 21290,
+ "unlabelled_planned": {
+  "values": 0,
+  "documents": 0,
+  "values_with_no_label_anywhere": 0,
+  "documents_with_no_label_anywhere": 0,
+  "no_label_anywhere_by_label": {},
+  "by_label": {},
+  "by_kind": {},
+  "examples": []
+ },
+ "planned": {
+  "ACCESS_TOKEN": {
+   "planned": 1515,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AGE": {
+   "planned": 1609,
+   "not_labelled_anywhere": 3,
+   "share": 0.0019
+  },
+  "API_KEY": {
+   "planned": 2076,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_DRIVER_LICENSE_NUMBER": {
+   "planned": 1295,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_FIN": {
+   "planned": 1128,
+   "not_labelled_anywhere": 1,
+   "share": 0.0009
+  },
+  "AZ_ID_CARD_NUMBER": {
+   "planned": 1508,
+   "not_labelled_anywhere": 1,
+   "share": 0.0007
+  },
+  "AZ_PASSPORT_NUMBER": {
+   "planned": 722,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "AZ_VOEN": {
+   "planned": 614,
+   "not_labelled_anywhere": 1,
+   "share": 0.0016
+  },
+  "BUILDINGNUM": {
+   "planned": 1730,
+   "not_labelled_anywhere": 6,
+   "share": 0.0035
+  },
+  "CARD_SECURITY_CODE": {
+   "planned": 741,
+   "not_labelled_anywhere": 1,
+   "share": 0.0013
+  },
+  "CITY": {
+   "planned": 2937,
+   "not_labelled_anywhere": 4,
+   "share": 0.0014
+  },
+  "DATE": {
+   "planned": 8332,
+   "not_labelled_anywhere": 42,
+   "share": 0.005
+  },
+  "EMAIL": {
+   "planned": 5916,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "GIVENNAME": {
+   "planned": 5988,
+   "not_labelled_anywhere": 19,
+   "share": 0.0032
+  },
+  "IBAN": {
+   "planned": 817,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "ICCID": {
+   "planned": 443,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "IPV4_ADDRESS": {
+   "planned": 999,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "IPV6_ADDRESS": {
+   "planned": 1081,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "MAC_ADDRESS": {
+   "planned": 1140,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "PAYMENT_CARD_NUMBER": {
+   "planned": 997,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "PRIVATE_KEY": {
+   "planned": 632,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "STREET": {
+   "planned": 2456,
+   "not_labelled_anywhere": 19,
+   "share": 0.0077
+  },
+  "SURNAME": {
+   "planned": 5120,
+   "not_labelled_anywhere": 13,
+   "share": 0.0025
+  },
+  "TELEPHONENUM": {
+   "planned": 5308,
+   "not_labelled_anywhere": 7,
+   "share": 0.0013
+  },
+  "TIME": {
+   "planned": 1300,
+   "not_labelled_anywhere": 2,
+   "share": 0.0015
+  },
+  "URL": {
+   "planned": 1445,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  },
+  "ZIPCODE": {
+   "planned": 1775,
+   "not_labelled_anywhere": 0,
+   "share": 0.0
+  }
+ },
+ "label_disagreement": {
+  "count": 132,
+  "by_reason": {
+   "changed by noise after labelling (ok)": 120,
+   "not a form of any planned value": 5,
+   "standalone date, D-17 (ok)": 7
+  },
+  "examples": [
+   {
+    "id": "llm_az_000502",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "MYOROVDUR",
+    "context": " BIR CAVAB ALA BILMIRIK. ŞIRKTIN RHBƏRI [[MYOROVDUR]] VƏ O, ƏMƏLIYYATLARI DAVAM ETDIRƏ BILMIR"
+   },
+   {
+    "id": "llm_az_000830",
+    "why": "not a form of any planned value",
+    "label": "GIVENNAME",
+    "text": "A1agüldən",
+    "context": "miz görüş çox səmimi və səmərəli keçdi. [[A1agüldən]] yeni layihə ilə bağlı bir neçə maraqlı "
+   },
+   {
+    "id": "llm_az_000852",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "04.10.B4",
+    "context": "  Sənəddə qeyd olunanlar: Doğum tarixi: [[04.10.B4]] Şəxsiyyət vəsiqəsi №: X72418784 Əlaqə n"
+   },
+   {
+    "id": "llm_az_000940",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "22.4.l950",
+    "context": "rçivəsində hesab sahibinin doğum tarixi [[22.4.l950]] olaraq qeyd edilmişdir. Əgər bu  məluma"
+   },
+   {
+    "id": "llm_az_001123",
+    "why": "changed by noise after labelling (ok)",
+    "label": "CARD_SECURITY_CODE",
+    "text": "G495",
+    "context": "m dəfələrlə xəta verir. Kartın CVV kodu [[G495]] yazıram, yenə də uğursuz olur. Bu necə "
+   },
+   {
+    "id": "llm_az_001193",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "0O4.O9.2019",
+    "context": "Tarix: [[0O4.O9.2019]] Müqav1ə tərəfi +994992533963 və AZ1136 "
+   },
+   {
+    "id": "llm_az_001753",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "29.03.209",
+    "context": "Tarix: [[29.03.209]]  Fwd: Kredit müraciəti Göndərən: Müştrə"
+   },
+   {
+    "id": "llm_az_001773",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "Qəurəman Nəsiov kçüəsində",
+    "context": "ad: Adıbəyovaya - Ad: Elmurədə - Ünvan: [[Qəurəman Nəsiov kçüəsində]] - Telefon: (050) 385-43-55  Dəstək mütə"
+   },
+   {
+    "id": "llm_az_001773",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "24 oktyabr 201,1 bazar erttəsi",
+    "context": "dlə bağlı xəta alırsınız?  Müştəri: Mən [[24 oktyabr 201,1 bazar erttəsi]] tarixli   sənədə müraciət edirəm. Bu sə"
+   },
+   {
+    "id": "llm_az_002036",
+    "why": "changed by noise after labelling (ok)",
+    "label": "SURNAME",
+    "text": "Aafiaddinliylə",
+    "context": "ıram.  Agentkn Daxili Qeydləri: Müştrəi [[Aafiaddinliylə]] birbaşa əlaqə qurmaa mümkün olmadı, ona"
+   },
+   {
+    "id": "llm_az_002442",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "30.01.Z016",
+    "context": "Tarix: [[30.01.Z016]]  > Göndərən: Müştəri > Mövzu: Ödəniş pr"
+   },
+   {
+    "id": "llm_az_002449",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "Qasım bəy Hacıbababıyov prd.a",
+    "context": "ndə bəzi dəyişikliklər edilməlidir. Mən [[Qasım bəy Hacıbababıyov prd.a]] yaşayıram  və bu məsələnin həlli üçün s"
+   },
+   {
+    "id": "llm_az_002585",
+    "why": "standalone date, D-17 (ok)",
+    "label": "DATE",
+    "text": "1.04.2022",
+    "context": "Tarix:\t[[1.04.2022]]  YUK DASINMASI VE CATDIRILMA SENEDI (MA"
+   },
+   {
+    "id": "llm_az_002585",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "Allhaveren Bagi dongesinde",
+    "context": "-------------- Cattdirilma Unvani     | [[Allhaveren Bagi dongesinde]], bina 1 Elaqeli Sexs           | Real S"
+   },
+   {
+    "id": "llm_az_002937",
+    "why": "changed by noise after labelling (ok)",
+    "label": "STREET",
+    "text": "HHüseyn Sarabski döngəsinə",
+    "context": "z,  Yaşadığınız çətinliyi başa düşürük. [[HHüseyn Sarabski döngəsinə]] aid ünvan və  şəxsiyyət vəsiqəsinin FİN"
+   },
+   {
+    "id": "llm_az_002988",
+    "why": "changed by noise after labelling (ok)",
+    "label": "CITY",
+    "text": "Totu-\nqluda",
+    "context": "ış nəticələrində müəyyən olunmuşdur ki, [[Totu- qluda]] yerləşən sahədə işlərin gedişatı tamami"
+   },
+   {
+    "id": "llm_az_003016",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "09/10/196",
+    "context": " vacibdir:  * Kirayəçinin doğum tarixi: [[09/10/196]] 5* Müqavilənin yeni şərtləri * Ödəniş v"
+   },
+   {
+    "id": "llm_az_003038",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "19/10/2O18",
+    "context": "Bu sənəd\t[[19/10/2O18]] tarixində tərtib edilib.  Salam, Daşqın"
+   },
+   {
+    "id": "llm_az_003957",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "2810.2025",
+    "context": "Bu səbəd [[2810.2025]] tarixində tərtib edilib.  Təəssüf ki, s"
+   },
+   {
+    "id": "llm_az_003977",
+    "why": "changed by noise after labelling (ok)",
+    "label": "DATE",
+    "text": "14.07.202",
+    "context": "IN HƏLLI ÜÇN TƏCILI ADDIM ATILMALIDIR.  [[14.07.202]]"
+   }
+  ]
+ },
+ "decoys": {
+  "counts": {
+   "checked": 22184,
+   "exempt (policy/contextual)": 8945,
+   "not a planted decoy string": 12
+  },
+  "examples": [
+   {
+    "id": "llm_az_002481",
+    "problem": "not a planted decoy string",
+    "kind": "PARTIAL_PHONE",
+    "value": "+994  ** *** ** 82",
+    "context": " ERR_OJTSEH saat 17:94 radələrində: *** [[+994  ** *** ** 82]]"
+   },
+   {
+    "id": "llm_az_005589",
+    "problem": "not a planted decoy string",
+    "kind": "LOYALTY_CARD_LUHN_BAD",
+    "value": "6430\t6421\t4061\t7366",
+    "context": "api_lYrQj75p7503XVlKTi9QiadbOuF3aaCIaxf [[6430\t6421\t4061\t7366]]"
+   },
+   {
+    "id": "llm_az_007125",
+    "problem": "not a planted decoy string",
+    "kind": "MAC_LIKE_HASH",
+    "value": "37:82:bf:97-2d-32:ab:f7:6f:27:8f:ba:f5:10:81:24",
+    "context": "NFO] Avadanlıq MAC ünvanı aşkar edildi: [[37:82:bf:97-2d-32:ab:f7:6f:27:8f:ba:f5:10:81:24]] [2020-11-02 08:00:20] [INFO] Sistem yük"
+   },
+   {
+    "id": "llm_az_010092",
+    "problem": "not a planted decoy string",
+    "kind": "LOYALTY_CARD_LUHN_BAD",
+    "value": "6819  2054 2188 0799",
+    "context": "----- Sistem İdentifikasiyası           [[6819  2054 2188 0799]] Protokol Versiyası              sk_live"
+   },
+   {
+    "id": "llm_az_010838",
+    "problem": "not a planted decoy string",
+    "kind": "MASKED_CARD",
+    "value": "**** **** ****   8053",
+    "context": "art məlumatları yoxlanıldıqda, ödənişin [[**** **** ****   8053]] ilə bitən kart vasitəsilə icra olunduğu"
+   },
+   {
+    "id": "llm_az_014135",
+    "problem": "not a planted decoy string",
+    "kind": "MAC_LIKE_HASH",
+    "value": "59:6e:89:34-2d-cf-25-8b-ec-f7-f6-e4-5a-1c-f0-65",
+    "context": "978-4-615-52559-5 MAC_Ünvanı          | [[59:6e:89:34-2d-cf-25-8b-ec-f7-f6-e4-5a-1c-f0-65]] Xəta_Statusu        | CRITICAL_FAILURE "
+   },
+   {
+    "id": "llm_az_015607",
+    "problem": "not a planted decoy string",
+    "kind": "policy_surname_in_company",
+    "value": "Aldarov və  Partnyorlar",
+    "context": "Salam,  [[Aldarov və  Partnyorlar]] ile muqavile barede yazirm. Build-ca123"
+   },
+   {
+    "id": "llm_az_015700",
+    "problem": "not a planted decoy string",
+    "kind": "policy_city_as_project",
+    "value": "Şamaxı  yarmarkası",
+    "context": "şəhər [[Şamaxı  yarmarkası]] ilə bağlı ödənişdə problem yaşandı. Xah"
+   },
+   {
+    "id": "llm_az_019184",
+    "problem": "not a planted decoy string",
+    "kind": "MAC_LIKE_HASH",
+    "value": "06:04:54:13:a3:b1:69:b9:9d:72:00:52-2d:bd:33:dc",
+    "context": "i AA7531 olan şəxs müraciət etdi.  Log: [[06:04:54:13:a3:b1:69:b9:9d:72:00:52-2d:bd:33:dc]]. System error.  Hesabat... hesabatı tam"
+   },
+   {
+    "id": "llm_az_019790",
+    "problem": "not a planted decoy string",
+    "kind": "MASKED_CARD",
+    "value": "**** **** ****\t1319",
+    "context": "-i: a68b7881dd37. Kartın son rəqəmləri: [[**** **** ****\t1319]]. Beynəlxalq əməliyyat kodu: GB12KVHY533"
+   },
+   {
+    "id": "llm_az_022711",
+    "problem": "not a planted decoy string",
+    "kind": "policy_surname_in_company",
+    "value": "Zinətullayev və\tPartnyorlar",
+    "context": "Təcr. (2016): * [[Zinətullayev və\tPartnyorlar]] ilə müqavilə  * arxiv qovluğunun nömrəs"
+   },
+   {
+    "id": "llm_az_023911",
+    "problem": "not a planted decoy string",
+    "kind": "PARTIAL_PHONE",
+    "value": "+994 ** *** **  29",
+    "context": ":18] Agent:   Zəhmət olmasa, bu nömrəyə [[+994 ** *** **  29]] müraciət edin və ya həmin nömrə ilə təs"
+   }
+  ]
+ },
+ "rates": {
+  "requested": {
+   "hard_negative": 0.3,
+   "adversarial": 0.2,
+   "pii_free": 0.1,
+   "edge_case": 0.3
+  },
+  "measured": {
+   "hard_negative_spec": 0.2976,
+   "hard_negative_text": 0.2838,
+   "adversarial_spec": 0.1952,
+   "adversarial_text": 0.1944,
+   "any_decoy_text (README metric)": 0.3523,
+   "pii_free": 0.0963,
+   "edge_case": 0.299,
+   "with_decoy_spans": 0.3614
+  }
+ },
+ "label_shares": {
+  "API_KEY": {
+   "mentions": 2373,
+   "share": 0.03,
+   "target": 0.025,
+   "ratio": 1.2
+  },
+  "ACCESS_TOKEN": {
+   "mentions": 1736,
+   "share": 0.022,
+   "target": 0.015,
+   "ratio": 1.46
+  },
+  "PRIVATE_KEY": {
+   "mentions": 654,
+   "share": 0.0083,
+   "target": 0.01,
+   "ratio": 0.83
+  },
+  "PAYMENT_CARD_NUMBER": {
+   "mentions": 1257,
+   "share": 0.0159,
+   "target": 0.018,
+   "ratio": 0.88
+  },
+  "IBAN": {
+   "mentions": 956,
+   "share": 0.0121,
+   "target": 0.014,
+   "ratio": 0.86
+  },
+  "CARD_SECURITY_CODE": {
+   "mentions": 863,
+   "share": 0.0109,
+   "target": 0.012,
+   "ratio": 0.91
+  },
+  "IPV4_ADDRESS": {
+   "mentions": 1489,
+   "share": 0.0188,
+   "target": 0.018,
+   "ratio": 1.05
+  },
+  "IPV6_ADDRESS": {
+   "mentions": 1387,
+   "share": 0.0176,
+   "target": 0.006,
+   "ratio": 2.93
+  },
+  "MAC_ADDRESS": {
+   "mentions": 1387,
+   "share": 0.0176,
+   "target": 0.008,
+   "ratio": 2.19
+  },
+  "URL": {
+   "mentions": 1586,
+   "share": 0.0201,
+   "target": 0.025,
+   "ratio": 0.8
+  },
+  "ICCID": {
+   "mentions": 580,
+   "share": 0.0073,
+   "target": 0.006,
+   "ratio": 1.22
+  },
+  "GIVENNAME": {
+   "mentions": 9984,
+   "share": 0.1263,
+   "target": 0.15,
+   "ratio": 0.84
+  },
+  "SURNAME": {
+   "mentions": 7991,
+   "share": 0.1011,
+   "target": 0.12,
+   "ratio": 0.84
+  },
+  "EMAIL": {
+   "mentions": 7457,
+   "share": 0.0944,
+   "target": 0.12,
+   "ratio": 0.79
+  },
+  "TELEPHONENUM": {
+   "mentions": 6193,
+   "share": 0.0784,
+   "target": 0.1,
+   "ratio": 0.78
+  },
+  "DATE": {
+   "mentions": 9565,
+   "share": 0.121,
+   "target": 0.045,
+   "ratio": 2.69
+  },
+  "TIME": {
+   "mentions": 2506,
+   "share": 0.0317,
+   "target": 0.025,
+   "ratio": 1.27
+  },
+  "AGE": {
+   "mentions": 1991,
+   "share": 0.0252,
+   "target": 0.03,
+   "ratio": 0.84
+  },
+  "CITY": {
+   "mentions": 4593,
+   "share": 0.0581,
+   "target": 0.065,
+   "ratio": 0.89
+  },
+  "STREET": {
+   "mentions": 3300,
+   "share": 0.0418,
+   "target": 0.05,
+   "ratio": 0.84
+  },
+  "BUILDINGNUM": {
+   "mentions": 2206,
+   "share": 0.0279,
+   "target": 0.035,
+   "ratio": 0.8
+  },
+  "ZIPCODE": {
+   "mentions": 2275,
+   "share": 0.0288,
+   "target": 0.035,
+   "ratio": 0.82
+  },
+  "AZ_FIN": {
+   "mentions": 1431,
+   "share": 0.0181,
+   "target": 0.02,
+   "ratio": 0.91
+  },
+  "AZ_ID_CARD_NUMBER": {
+   "mentions": 1932,
+   "share": 0.0244,
+   "target": 0.015,
+   "ratio": 1.63
+  },
+  "AZ_PASSPORT_NUMBER": {
+   "mentions": 889,
+   "share": 0.0112,
+   "target": 0.012,
+   "ratio": 0.94
+  },
+  "AZ_VOEN": {
+   "mentions": 754,
+   "share": 0.0095,
+   "target": 0.01,
+   "ratio": 0.95
+  },
+  "AZ_DRIVER_LICENSE_NUMBER": {
+   "mentions": 1693,
+   "share": 0.0214,
+   "target": 0.01,
+   "ratio": 2.14
+  }
+ },
+ "d9": {
+  "counts": {
+   "mentions": 25868,
+   "suffixed (label includes the suffix)": 12610
+  },
+  "examples": []
+ },
+ "d10": {
+  "documents of 1-5 words": 7
+ },
+ "validate_example_failures": {},
+ "unplanned_pii": {
+  "documents": 0,
+  "share": 0.0,
+  "pii_free_documents": 0,
+  "by_label": {},
+  "examples": []
+ },
+ "standalone_dates": {
+  "documents": 0,
+  "share": 0.0,
+  "dates": 0,
+  "by_reason": {},
+  "examples": []
+ },
+ "rejects": {
+  "rejects": 3456,
+  "by_reason": {
+   "quality": {
+    "count": 1755,
+    "share": 0.5078
+   },
+   "leaked unlabeled PII": {
+    "count": 628,
+    "share": 0.1817
+   },
+   "validation": {
+    "count": 474,
+    "share": 0.1372
+   },
+   "judgment leak": {
+    "count": 279,
+    "share": 0.0807
+   },
+   "api": {
+    "count": 192,
+    "share": 0.0556
+   },
+   "taxonomy label leaked into text": {
+    "count": 98,
+    "share": 0.0284
+   },
+   "no entities resolved": {
+    "count": 27,
+    "share": 0.0078
+   },
+   "near-duplicate": {
+    "count": 2,
+    "share": 0.0006
+   },
+   "missing values": {
+    "count": 1,
+    "share": 0.0003
+   }
+  },
+  "top_subreasons": [
+   {
+    "reason": "quality",
+    "sub": "unlabelled date (D-N)",
+    "count": 995,
+    "examples": [
+     "Göndərən: İnzibati departament Tarix: 15 may 2023 Mövzu: Re: Ünvanın dəqiqləşdirilməsi  Zəhmət olmasa, yeni sənədləri 66-cı Binə küçəsi ünvanına göndərin. Həmçinin, həmin bölmədəki bütün sənədləri yoxlamaq lazımdır, lakin hələ ki...  > Gönd",
+     "Sığorta Hadisəsinin Texniki Hesabatı (2021-ci il)  Müraciət edilən əmlakın yerləşdiyi ünvan: 17 nömrəli bina. Hadisə yerində aparılan ilkin müayinə nəticəsində texniki nasazlıqlar aşkar edilmişdir. Sənədlərin rəqəmsal arxiva ötürülməsi üçün",
+     "Azərbaycan İnvestisiya Bankı Rəqəmsal Xidmətlər Departamentinin Məlumatlandırma Bölməsi  Referans №: 2026/MT-99281 Tarix: 14 may 2026-cı il  Hörmətli müştəri,  Bankımızın rəqəmsal platforması vasitəsilə etdiyiniz ipoteka krediti müraciəti i"
+    ]
+   },
+   {
+    "reason": "validation",
+    "sub": "language: only N az words",
+    "count": 365,
+    "examples": [
+     "[2022-08-12 11:05] Gömrük bəyanatı emalı: * Sənəd: ****3384 * E-poçt: okturk.serverov@box.az * Kod: 13.20.98.5782 * Partiya: •••• 1012",
+     "# Ayarlar konfiqurasiyası # Müşkinazdan gələn məlumatlar: user_data {     doğum tarixi: 06.06.57     ünvan: bina 128     kod: ****1234 } # S1stem statusu [2022-09-14 10:05] L0g: Ayarlar tətbiq edildi.",
+     "[2024-03-15 11:40] LVL   MOD    MSG [2024-03-15 11:41] INF   sys    başladı [2024-03-15 11:45] ERR   auth   Ramizədə xəta var [2024-03-15 11:46] WRN   db     bağlanmadi_ [2024-03-15 11:50] DATA  dump   ID    Cat    Val [2024-03-15 11:50] DA"
+    ]
+   },
+   {
+    "reason": "quality",
+    "sub": "invented PII (CITY)",
+    "count": 245,
+    "examples": [
+     "Tərtib tarixi: 2019-11-27  Salam, avtomobilin qeydiyyat və servis vəziyyəti ilə bağlı bütün qeydləri bura əlavə edirəm. Bayaqdan axtarırdım bu sənədləri, sonda tapdım. Avtomobilin texniki vəziyyəti çox yaxşı deyil, amma düzəltmək olar. Bir ",
+     "XEZER LOG TEXNİKA MAĞAZASI RƏSMİ ÖDƏNİŞ QƏBZİ 2015-ci il, may ayı  Müştəri: Bəybala Mağaza  Ünvanı: Qüdrət Həsənov döngəsində, Bakı şəhəri.  -------------------------------------------------- MƏHSUL SİYAHISI: 1. Kabellər və adapterlər - 45 ",
+     "POLİS MƏLUMATNAMƏSİ  Araşdırma maddəsi: Şəxsi məlumatların qorunması və hadisənin təfərrüatları.  Mövzu haqqında qısa məlumat: Mahisara Nailova haqqında daxil olan müraciətə əsasən araşdırma başladı. Şəxsin doğum tarixi 05.06.2008 olaraq qe"
+    ]
+   },
+   {
+    "reason": "judgment leak",
+    "sub": "['…']",
+    "count": 232,
+    "examples": [
+     "MƏHKƏMƏ VƏSİQƏSİ - İDDİA MATERİALLARININ ƏLAVƏSİ İstinaf dərəcəli müraciət № 2026-AZ-7742 Tarix: 2026-cı il  Aşağıda təqdim olunan məlumatlar, iddiaçı tərəfindən müvafiq xidmət təminatçısının işindəki ağır nasazlıqlar və şəxsi məlumatların ",
+     "---------- Yönləndirilən mesaj --------- Göndərən: Proqram Təminatı Komandası Tarix: 14 dekabr 2022 Mövzu: Re: Pull Request #402 - Refaktorlaşdırma  > Bu hissədə rəf mənimsətmə məntiqi bir az qarışıq görünür. > Mövcud avadanlıq ID-si ilə zi",
+     "Mövzu: Sistemdəki qeyri-müəyyənlik haqqında  Müştəri şikayəti: Salam, mən çox narahatam və nə edəcəyimi bilmirəm! Sistemdə hər şey çox qarışıq görünür və mən dərhal kömək istəyirəm. Ekranda bəzi məlumatlar çıxır, amma mən onların nə olduğun"
+    ]
+   },
+   {
+    "reason": "quality",
+    "sub": "invented PII (STREET)",
+    "count": 164,
+    "examples": [
+     "Sənəd tarixi: 2025-02-24  Müştəri məlumatları: Müştəri: Şəxsi hesab sahibi Doğum tarixi: 25.09.74 Ünvan: Nizami küç., bina 114  Hesablaşma: Xidmət: Elektrik enerjisi Hesabat dövrü: 2025-ci ilin yanvar ayı Yaş həddi üzrə ödəniş 481 ₼ Cəmi bo",
+     "## TEXNİKİ XİDMƏT REQLAMI (2026)  Yenə eyni problem. Bu sənədlərin hər dəfə yenilənməsi niyə bu qədər çətin olur? Hər kəs köhnə qaydaları istifadə edir və nəticədə işlər qarışır. Mənim üçün artıq bu vəziyyət dözülməz hal alıb.  Sahə heyətlə",
+     "İclasın qeydləri  Bu sənəd 14.03.2017 tarixində tərtib edilib.  Məkan: Nizami küçəsi, bina 212/5. Başlanğıc vaxt: 12:03 PM. Əlaqə nömrəsi: +994-51-641-64-63.  Gündəm maddələri: – Texniki infrastrukturun vəziyyəti. – Logistik proseslərin opt"
+    ]
+   },
+   {
+    "reason": "leaked unlabeled PII",
+    "sub": "EMAIL:support@hal-x.ai",
+    "count": 84,
+    "examples": [
+     "Mövlamovanın Murovdağ tuneli döngəsinə olan sifarişində ****1234 və *** xəta baş verdiyini üzr istəyərək bildiririk.  06.11.2024  Texniki dəstək komandası support@hal-x.ai",
+     "--- Gonderildi: support@hal-x.ai Tarix: 14 may 2021  Movzu: Yeni muraciet: Odenis xetasi barede ---  Musteri Xidmeti Agenti: Salam! Men sizinle   elaqede olan musteri xidmeti ekisiyem. Sizin ucun ne ede bilerem?  Rafi: Salam, men cox naraha",
+     "Sənəd tarixi: 7 fevral 2017  Kimdən: Dəstək Komandası <support@hal-x.ai> Kimə: ulvibey.aganezerov@icloud.com Tarix: 7 fevral 2017, saat 10:45 Mövzu: Re: Giriş problemi haqqında  Salam, Cəlil bəy,  Yaşadığınız çətinliyi anlayırıq və bu probe"
+    ]
+   },
+   {
+    "reason": "api",
+    "sub": "LMServerError: [wahoo-N.N-preview] litellm.ServiceUnavailableError: Se",
+    "count": 83,
+    "examples": [
+     "",
+     "",
+     ""
+    ]
+   },
+   {
+    "reason": "quality",
+    "sub": "planned value never labeled (SURNAME, misspelled)",
+    "count": 78,
+    "examples": [
+     "Rəsmi Bildiris: 2021-ci il üzre sistem qeydlərinin rəsmiləşdirilməsi barədə.  2021-ci ilin ilkin rübü üzre dövlət xidmetlerinin rəqəmsallaşdırılması proqramı çərçivesinde icra olunan işler barədə rəsmi melumat. Bu sənəd istifadəçilərin sist",
+     "Həkim, xahiş edirəm, mənə kömək edin! Hər şey çox qarışıqdır və mən həqiqətən nə baş verdiyini anlamıram. Bu səhər başlayan hadisələr məni tamamilə sarsıtdı, sanki bütün dünya altımdan sürüşür. Mən çox narahatam, ürəyim yerindən çıxacaqmış ",
+     "Tarix: 27 oktyabr 2016  Xəta Hesabatı: Ödəniş Modulunda Nasazlıq  Problem Təsviri: Sistem daxilində ödəniş prosesi zamanı ciddi xəta aşkar edilib. Allahqulilərdə tərəfindən göndərilən sorğularda sistem dayanır.  Məlumatlar: - İstifadəçi e-p"
+    ]
+   },
+   {
+    "reason": "validation",
+    "sub": "turkish_lexis: buyuk",
+    "count": 58,
+    "examples": [
+     "TEXNIKI NASAZLIQ HESABATI - LOGISTIKA MODULU Referans: OF962-DEWDD-1O5U5-JRIMU-SXFME Tarix: May 2018  XETA İCMALI Sistemin logistika idareetme modulunda operativlik ucun kritik olan bir problem tesbit edilmisdir. Bu nasazliq, yeni çatdirilm",
+     "---------- Forwarded message --------- Göndərən: q.efzelov@azertelekom.az Tarix: 9 mart 2018 21:21 Mövzu: Bank xidmeti haqqinda sikayet  Bu sənəd 9 mart 2018 tarixində tərtib edilib.  Mutubayın bank hesabı ilə bağlı çox ciddi bir problem va",
+     "Pull request üzrə rəylər:  Kodun strukturunda bəzi təkmilləşdirmələrə ehtiyac var. Xüsusilə autentifikasiya mərhələsində istifadə olunan endpointin doğruluğunu yoxlayın. Hazırda konfigurasiya faylında aşağıdakı URL göstərilib: https://accou"
+    ]
+   },
+   {
+    "reason": "quality",
+    "sub": "planned value never labeled (GIVENNAME, misspelled)",
+    "count": 57,
+    "examples": [
+     "2022-ci il üzrə işçi performans hesabatı  Güntəkinin cari fəaliyyəti və sistem giriş icazələri aşağıdakı kimi rəsmiləşdirilmişdir:  { \"işçi_adı\": \"Güntək\", \"şəxsiyyət_vəsiqəsinin_fin_kodu\": \"KSEMCTT\", \"sistem_icazə_kodu\": \"xoxb-44588279076-",
+     "Tərtib tarixi: 29.08.2016  Salam! Ümid edirəm hər şey yaxşıdır.  Mən İncinisə, sistemdə bir problem tapdım və bunu sizinlə bölüşmək istədim.  Xətanın detalları: Parametr             Məlumat ---------------------------------- Sifariş  nömrəs",
+     "Göndərildi: Logistika şöbəsi Orijinal mesaj:  Tarix: 18.08.2021 Çatdırılma sənədi: sifariş №86203470 dərhal göndərilməlidir. Шираслаndan gələn sorğuya əsasən, yük 6 nömrəli bina ünvanına çatdırılmalıdır. build-ec3ba1983cd8 kodunu istifadə e"
+    ]
+   }
+  ],
+  "name_rejects": {}
+ }
+}

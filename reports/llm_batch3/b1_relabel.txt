@@ -1,0 +1,9 @@
+documents: 5,191
+DATE labels: 4,210 -> 4,212
+unlabelled standalone dates: 3 in 3 documents (0.1%) -> 0 in 0 (0.0%)
+DATE spans added: 3; DATE labels removed (inside a timestamp): 1; documents changed: 4
+left unlabelled, by reason: {}
+documents changed, by language: {'az': 4}
+  e.g. rğsuu nümunələri (Versiya: v1.O) Tarix: 15–03–2023  Parametr       | N
+  e.g. Forwarded: 15.03.21 Üzr istəyirəm, 3 ya
+  e.g. Tarix: 12.08.25  Kürdəmir	işləri mc

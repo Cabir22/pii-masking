@@ -1,0 +1,29 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000128,"AZƏRBAYCAN İNTERNET XİDMƏTLƏRİ MMC
+Abunəçi Hesabatı
+
+Tarix: 14.11.2018
+Faktura №: 2018/9942-BT
+
+Müştəri məlumatları:
+Ad: Şirazxanın şəxsi hesabı
+Abunəçi nömrəsi: 884722901
+
+Xidmət təfərrüatları:
+------------------------------------------------------------
+Xidmət Növü         | Ayın Hesabat Dövrü | Məbləğ (AZN)
+------------------------------------------------------------
+Fiber Optik İnternet| 01.10.18 - 31.10.18| 24.50
+Əlavə Avadanlıq      | Sabit ödəniş       | 5.00
+------------------------------------------------------------
+Cəmi:                                     29.50 AZN
+
+Avadanlıq Konfiqurasiyası:
+Modem MAC ünvanı: 70-85-C2-04-58-D3
+Sistem giriş açarı: kjd4pTWTXwbp7Vy4bCcJTylMCD_UeJ_AazYo._vywiqiqHDJycG6a2gP30Jp7_UfCgJ15OaYyQkdC2jFzvQNimd93dQGFn8ERgQEj4m5pkheWOiqh4hM3inhgLWZm0Db6X72mRd6QynnbiyqGT194xFr.fhqN3TNss8NRLVbshEg2SzzziRy87QQM1Qun6f_CaCD
+
+Sistem qeydləri:
+Status: Aktıv (O)
+Son yenilənmə: 2018-11-12 14:02:55
+
+Şirazxan, ödənişinizi vaxtında yerinə yetirməyiniz xahiş olunur.",az,"[{""start"":121,""end"":131,""label"":""GIVENNAME"",""text"":""Şirazxanın""},{""start"":630,""end"":647,""label"":""MAC_ADDRESS"",""text"":""70-85-C2-04-58-D3""},{""start"":668,""end"":864,""label"":""ACCESS_TOKEN"",""text"":""kjd4pTWTXwbp7Vy4bCcJTylMCD_UeJ_AazYo._vywiqiqHDJycG6a2gP30Jp7_UfCgJ15OaYyQkdC2jFzvQNimd93dQGFn8ERgQEj4m5pkheWOiqh4hM3inhgLWZm0Db6X72mRd6QynnbiyqGT194xFr.fhqN3TNss8NRLVbshEg2SzzziRy87QQM1Qun6f_CaCD""},{""start"":937,""end"":945,""label"":""GIVENNAME"",""text"":""Şirazxan""}]",utility_bill,medium,matter-of-fact administrative,[],0,0,llm,"{""index"":128,""lang"":""az"",""doc_type"":""utility_bill"",""doc_type_hint"":""a utility or telecom bill"",""register"":""matter-of-fact administrative"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""MAC_ADDRESS"",""value"":""70-85-C2-04-58-D3""},{""label"":""ACCESS_TOKEN"",""value"":""kjd4pTWTXwbp7Vy4bCcJTylMCD_UeJ_AazYo._vywiqiqHDJycG6a2gP30Jp7_UfCgJ15OaYyQkdC2jFzvQNimd93dQGFn8ERgQEj4m5pkheWOiqh4hM3inhgLWZm0Db6X72mRd6QynnbiyqGT194xFr.fhqN3TNss8NRLVbshEg2SzzziRy87QQM1Qun6f_CaCD""},{""label"":""GIVENNAME"",""value"":""Şirazxan""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""use a table-like layout with aligned columns"",""include a line that was clearly pasted from a spreadsheet"",""include an OCR-style artifact (a 0/O or 1/l confusion) in non-sensitive text""],""negative_only"":false,""seed"":1614528899,""edge_case"":null,""reference_year"":2018}",source

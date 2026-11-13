@@ -1,0 +1,12 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000066,"[2026-05-14 14:22:01] INFO: Sistem əməliyyat qeydləri başlanıldı.
+[2026-05-14 14:22:05] WARNING: Avtomatlaşdırılmış ödəniş modulu tərəfindən şübhəli əməliyyat aşkar edildi.
+[2026-05-14 14:22:05] ERROR: Tranzaksiya tamamlana bilmədi. İstifadəçi Mədədov tərəfindən yönləndirilən sorğu rədd edildi.
+[2026-05-14 14:22:06] DEBUG: Kart məlumatlarının yoxlanılması zamanı xəta: təhlükəsizlik kodu 586 daxil edildikdə sistem tərəfindən yanlış validasiya göstərildi.
+[2026-05-14 14:22:07] INFO: Əlaqə nömrəsi +994708094145 üzrə təsdiq mesajı göndərilməyə çalışıldı, lakin şəbəkə xətası baş verdi.
+[2026-05-14 14:22:10] CRITICAL: Təhlükəsizlik protokollarına əsasən əməliyyat dayandırıldı.
+
+---
+Hörmətlə,
+Texniki Dəstək Şöbəsi
+Sistem Administratoru",az,"[{""start"":244,""end"":251,""label"":""SURNAME"",""text"":""Mədədov""},{""start"":390,""end"":393,""label"":""CARD_SECURITY_CODE"",""text"":""586""},{""start"":500,""end"":513,""label"":""TELEPHONENUM"",""text"":""+994708094145""}]",technical_log,medium,bureaucratic and officious,[],0,0,llm,"{""index"":66,""lang"":""az"",""doc_type"":""technical_log"",""doc_type_hint"":""application or server log output"",""register"":""bureaucratic and officious"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""SURNAME"",""value"":""Mədədov""},{""label"":""CARD_SECURITY_CODE"",""value"":""586""},{""label"":""TELEPHONENUM"",""value"":""+994708094145""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include an email signature block at the end""],""negative_only"":false,""seed"":1283822131,""edge_case"":null,""reference_year"":2026}",source

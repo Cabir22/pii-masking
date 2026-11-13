@@ -1,0 +1,18 @@
+documents: 5,970
+DATE labels: 856 -> 4,582
+unlabelled standalone dates: 3,730 in 3,044 documents (51.0%) -> 4 in 4 (0.1%)
+DATE spans added: 3,726; DATE labels removed (inside a timestamp): 0; documents changed: 3,043
+left unlabelled, by reason: {'no anchor': 4}
+documents changed, by language: {'az': 3043}
+  e.g. ÇATDIRILMA MANİFESTİ Tarix: 14.11.2018 Sifariş №: 77210  B
+  e.g. Tarix: 10.11.2025. Xəstə çox narahatd
+  e.g. _№|Status|Tarix|Məbləğ AZ-882|Gözləmədə|05.09.2018|940.00 Vəziyyət kri
+  e.g. ALICI: Müştəri Xidmətləri Şöbəsi TARİX: 14 oktyabr 2022 MÖVZU: Avtomatlaşdı
+  e.g. (Səs yazısı transkripti - 12.03.2025)  Müştəri Xidməti: 
+  e.g. ÖDƏNİŞ QƏBZİ “DÜZƏLİŞ” Tarix: 22 avqust 2017 – 10:45  Müştəri: X
+  e.g. Hesab-faktura №: 2020-BK-9921 Tarix: 12 Noyabr 2020  [2020-11-12 08:14:
+  e.g.  problemi tez həll edə bilərik.  Tarix: 22.08.2018
+  e.g. Tibbi yönləndirmə məktubu Tarix: 15.08.2016  Xəstə: Xınaçiçək Ş
+  e.g. KLİNİK ANALİZ HESABATI Tarix: 14.11.2021  PASİENT MƏLUMATLAR
+  e.g. [14:22, 12.05.2018] Müştəri: Salam,  s
+  e.g. əldən: 4530.24 | Status: Aktiv | Tarix: 15.03.2024  --- Agent Qeydləri

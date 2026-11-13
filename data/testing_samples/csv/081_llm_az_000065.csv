@@ -1,0 +1,39 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000065,"MÜHƏNDİSLİK VƏ TEXNİKİ TƏCRÜBƏ
+
+Təcrübə və Bacarıqlar
+
+Məktəb və universitet illərindəki akademik nailiyyətlərimlə yanaşı, real layihələrdə texniki tətbiqlər üzərində geniş təcrübə qazanmışam. Mənim əsas fokusum sistem arxitekturasının optimallaşdırılması və yüksək yük altında işləyən infrastrukturların idarə olunmasıdır.
+
+İş Təcrübəsi
+
+Sistem İnfrastrukturu Mütəxəssisi | Texniki İnnovasiyalar Qrupu
+2021 – 2023
+
+Bu dövr ərzində mən aşağıdakı əsas texniki və inzibati tapşırıqları icra etmişəm:
+
+• Bulud infrastrukturlarının miqyaslandırılması və avtomatlaşdırılması proseslərində iştirak etdim.
+• Şəbəkə təhlükəsizliyi protokollarının tətbiqi və sistem monitorinqi vasitəsilə performansın izlənilməsini təmin etdim.
+• Müəssisə daxili maliyyə və əməliyyat sistemlərinin inteqrasiyası zamanı texniki dəstək göstərdim. Bu çərçivədə rəsmi qeydiyyat və audit sənədlərində aşağıdakı göstərici tətbiq olunub: G2CH458.
+• Avtomatlaşdırılmış skriptlərin yazılması və CI/CD boru kəmərlərinin qurulması vasitəsilə proqram təminatı çatdırılma sürətini 25% artırdım.
+
+Texniki Bacarıqlar
+
+Proqramlaşdırma və Alətlər:
+• Dil və Skriptlər: Python, Go, Bash, SQL.
+• İnfrastruktur: Docker, Kubernetes, Terraform, AWS.
+• Monitorinq: Prometheus, Grafana.
+
+Sistem İdarəetməsi:
+• Linux əsaslı sistemlərin (Ubuntu, CentOS) konfiqurasiyası və təhlükəsizlik auditi.
+• Verilənlər bazası idarəetməsi: PostgreSQL, Redis.
+
+Sertifikatlar və Təhsil
+
+• Kompüter Mühəndisliyi – Bakı Texniki Universiteti (2017–2021)
+• Google Cloud Professional Cloud Architect (2022)
+• Certified Kubernetes Administrator (CKA)
+
+Şəxsi Xüsusiyyətlər
+
+Mən mürəkkəb texniki problemlərin həlli üçün analitik yanaşmanı üstün tuturam. Komanda daxilində işləmək, sənədləşmə standartlarına riayət etmək və yeni texnologiyaları sürətlə mənimsəmək əsas iş prinsiplərimdir. Hər bir layihədə sistemin davamlılığını və effektivliyini maksimum səviyyədə saxlamaq məqsədimdir.",az,"[{""start"":906,""end"":913,""label"":""AZ_FIN"",""text"":""G2CH458""}]",cv_resume,long,technical and precise,[],0,0,llm,"{""index"":65,""lang"":""az"",""doc_type"":""cv_resume"",""doc_type_hint"":""a CV or resume section"",""register"":""technical and precise"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""AZ_FIN"",""value"":""G2CH458""}],""hard_negatives"":[],""adversarials"":[],""noise"":[],""negative_only"":false,""seed"":18629956,""edge_case"":{""id"":""FIN-01"",""status"":""positive_valid"",""description"":""7-char value from the no-I/O alphabet."",""scenario"":""""},""reference_year"":2023}",source

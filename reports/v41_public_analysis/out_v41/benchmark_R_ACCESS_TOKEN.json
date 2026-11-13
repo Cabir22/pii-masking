@@ -1,0 +1,216 @@
+{
+ "label": "ACCESS_TOKEN",
+ "totals": {
+  "v4.1": {
+   "exact": 384,
+   "split": 1
+  },
+  "v4": {
+   "exact": 382,
+   "split": 2,
+   "wrong_label": 1
+  }
+ },
+ "by_frame": {
+  "servi x token gonde": {
+   "n": 46,
+   "v4.1": 46,
+   "v4": 46
+  },
+  "ucun token x qeyd olunu": {
+   "n": 55,
+   "v4.1": 55,
+   "v4": 55
+  },
+  "\"acce \" x\",": {
+   "n": 8,
+   "v4.1": 8,
+   "v4": 8
+  },
+  "172.2 x;25:81;999": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "acces | x |": {
+   "n": 11,
+   "v4.1": 11,
+   "v4": 11
+  },
+  "acces token x kimi goste": {
+   "n": 49,
+   "v4.1": 49,
+   "v4": 49
+  },
+  "tarix acces x gorun": {
+   "n": 68,
+   "v4.1": 68,
+   "v4": 68
+  },
+  "sessi qeydi x yazil": {
+   "n": 46,
+   "v4.1": 46,
+   "v4": 46
+  },
+  "acces melum x olara qeyd": {
+   "n": 13,
+   "v4.1": 13,
+   "v4": 13
+  },
+  "token kimi x istif edire": {
+   "n": 26,
+   "v4.1": 26,
+   "v4": 26
+  },
+  "info acces x": {
+   "n": 8,
+   "v4.1": 8,
+   "v4": 8
+  },
+  "acces olara x qeyd etmis": {
+   "n": 39,
+   "v4.1": 38,
+   "v4": 38
+  },
+  "acess token x kimi goste": {
+   "n": 2,
+   "v4.1": 2,
+   "v4": 2
+  },
+  "sessi qeydi x yazlb": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "aces token x kimi goste": {
+   "n": 2,
+   "v4.1": 2,
+   "v4": 2
+  },
+  "minas x;az1994;000": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "priva key-- x;25:81;999": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "x;z90002171;zx8002172;user@;999.12.4.1": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "ucun token x qeyd olunb": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "bike; x;25:81;999": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "x;at_bench_0453_tggaeylpuhfybznfyvlmphmk0dkpua;z90000454;503;12345": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "at_be x;z90000454;503;12345": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  },
+  "x;parlament prosp": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 0
+  },
+  "at_be prosp x;abc;-----begin publi": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 0
+  },
+  "506/7 x;https://support.example.com/help/article/10400;p123": {
+   "n": 1,
+   "v4.1": 1,
+   "v4": 1
+  }
+ },
+ "items": [
+  {
+   "id": "bench_az_001725",
+   "value": "tok_ua6-bg8sFgNpGRj-uBUtXkCLw2FRwtg4fDKb-i",
+   "outcomes": {
+    "v4.1": "split",
+    "v4": "split"
+   },
+   "new_marked": "[tok_ua6-bg8sFgNpGRj-uBUtXkCLw2FRwtg4fDKb-]i",
+   "old_marked": "[tok_ua6-bg8sFgNpGRj-uBUtXkCLw2FRwtg4fDKb]-i",
+   "new_cut": "i",
+   "new_other": "-",
+   "shape": [
+    "aaa_aa9-aa9aaaaaaaa-aaaaaaaaa9aaaaa9aaaa-a"
+   ],
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "qeyd",
+   "frame": "access_token olaraq X qeyd etmişəm",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "first_person_form",
+   "category": "natural_variant_hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004411",
+   "value": "at_bench_2016_LaJtnw55cVJyHyIXQ837RKypFlOYfq",
+   "outcomes": {
+    "v4.1": "exact",
+    "v4": "split"
+   },
+   "new_marked": "[at_bench_2016_LaJtnw55cVJyHyIXQ837RKypFlOYfq]",
+   "old_marked": "at_bench_2016_[LaJtnw]55[cVJyHy]IX[Q]837RKypFlOYfq",
+   "new_cut": "-",
+   "new_other": "-",
+   "shape": [
+    "aa_aaaaa_9999_aaaaaa99aaaaaaaaa999aaaaaaaaaa"
+   ],
+   "context": "CSV / table",
+   "prev": "access_token;küçə;access_token;api_key;private_key",
+   "next": ";Parlament",
+   "frame": "X;Parlament prospekti;at_bench_2018_8otCFUO93OOkwQTmy1L7GEpPBXkt77;abc;-----BEGIN",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "csv",
+   "category": "structured_csv",
+   "n_same_label_in_doc": 2
+  },
+  {
+   "id": "bench_az_004411",
+   "value": "at_bench_2018_8otCFUO93OOkwQTmy1L7GEpPBXkt77",
+   "outcomes": {
+    "v4.1": "exact",
+    "v4": "wrong_label"
+   },
+   "new_marked": "[at_bench_2018_8otCFUO93OOkwQTmy1L7GEpPBXkt77]",
+   "old_marked": "at_bench_2018_8otCFUO93OOkwQTmy1L7GEpPBXkt77",
+   "new_cut": "-",
+   "new_other": "-",
+   "shape": [
+    "aa_aaaaa_9999_9aaaaaa99aaaaaaaa9a9aaaaaaaa99"
+   ],
+   "context": "CSV / table",
+   "prev": "prospekti;",
+   "next": ";abc;-----BEGIN",
+   "frame": "at_bench_2016_LaJtnw55cVJyHyIXQ837RKypFlOYfq;Parlament prospekti; X;abc;-----BEGIN PUBLIC",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "csv",
+   "category": "structured_csv",
+   "n_same_label_in_doc": 2
+  }
+ ],
+ "false_alarms": []
+}

@@ -1,0 +1,1541 @@
+{
+ "label": "ZIPCODE",
+ "totals": {
+  "v4.2": {
+   "exact": 384,
+   "split": 1
+  },
+  "v4.1": {
+   "exact": 381,
+   "split": 3,
+   "missed": 1
+  }
+ },
+ "by_frame": {
+  "\"poct \" x\",": {
+   "n": 15,
+   "v4.2": 15,
+   "v4.1": 15
+  },
+  "xinaliq, indek x goste": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "uzre zip x gorun": {
+   "n": 36,
+   "v4.2": 36,
+   "v4.1": 33
+  },
+  "poct indek x gorun": {
+   "n": 27,
+   "v4.2": 27,
+   "v4.1": 27
+  },
+  "poct indek x kimi goste": {
+   "n": 47,
+   "v4.2": 47,
+   "v4.1": 47
+  },
+  "unvan indek x yazil": {
+   "n": 41,
+   "v4.2": 41,
+   "v4.1": 41
+  },
+  "poct indek x-dir": {
+   "n": 26,
+   "v4.2": 26,
+   "v4.1": 26
+  },
+  "unvan indek x kimi yazmi": {
+   "n": 19,
+   "v4.2": 19,
+   "v4.1": 19
+  },
+  "4, indek x kimi qeyd": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "info poct_ x": {
+   "n": 18,
+   "v4.2": 18,
+   "v4.1": 18
+  },
+  "catdi indek x qeyd olunu": {
+   "n": 47,
+   "v4.2": 46,
+   "v4.1": 46
+  },
+  "narda indek x yazil": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "catdi ucun x indek qeyd": {
+   "n": 19,
+   "v4.2": 19,
+   "v4.1": 19
+  },
+  "poct_ melum x olara qeyd": {
+   "n": 9,
+   "v4.2": 9,
+   "v4.1": 9
+  },
+  "unvan indek x yazlb": {
+   "n": 2,
+   "v4.2": 2,
+   "v4.1": 2
+  },
+  "kuces indek x yazil": {
+   "n": 5,
+   "v4.2": 5,
+   "v4.1": 5
+  },
+  "unvan index x yazil": {
+   "n": 2,
+   "v4.2": 2,
+   "v4.1": 2
+  },
+  "unvn indek x yazil": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "kuces indek x goste": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "poct_ | x |": {
+   "n": 10,
+   "v4.2": 10,
+   "v4.1": 10
+  },
+  "balax indek x yazmi": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "kuces indks x melum goste": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "poct indks x kimi goste": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "28a, indks x qeyd olunu": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "kuces indek x melum goste": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "69/1, indek x goste": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "poct indek x kimi gostr": {
+   "n": 5,
+   "v4.2": 5,
+   "v4.1": 5
+  },
+  "balax indek x goste": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "xinaliq, indek x yazil": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x;-----begin priva": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "poct indks x-dir": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "kuces indek x yazmi": {
+   "n": 3,
+   "v4.2": 3,
+   "v4.1": 3
+  },
+  "memme kuces x qeyd olunu": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "hovsa indek x yazmi": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "unvan indks x yazil": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "buduq indek x yazil": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "kuces indek x qeyd olunu": {
+   "n": 3,
+   "v4.2": 3,
+   "v4.1": 3
+  },
+  "hisse bilge x yazil": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "29a, indks x qeyd olunu": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "89994 x;1871174846;https://support.example.com/help/article/10280;p123": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "100, indek x yazil": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x;4308 1328": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "28a, indek x qeyd olunb": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "kis, indek x qeyd olunu": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "164, indek x yazil": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "36a, indek x qeyd olunu": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "prosp indek x goste": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "unvan indks x kimi yazmi": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "xinaliq indek x yazil": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "kuces index x qeyd olunu": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "xinaliq, indek x kimi qeyd": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "zire, indek x yazil": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "48a, indek x yazmi": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "oruce x;997;12345": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "71a, indek x melum goste": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "bilge indek x yazil": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "kis, indek x melum goste": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "39a, indek x qeyd olunu": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x;z9xvs0t;5420 7951": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "qriz, indek x goste": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "unvan laza, x melum goste": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "catdi indek x qeyd olunn": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "surax indek x qeyd olunu": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x;1219290935;https://link.optimal.az/invite?reset_token=xbjy5zhom9aopdeykx5xvibwn": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "poct index x-dir": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "69, indek x qeyd olunu": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "10/3, index x yazil": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "qala, indek x yazil": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "52a, indek x goste": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  }
+ },
+ "items": [
+  {
+   "id": "bench_az_000079",
+   "value": "AZ3193",
+   "outcomes": {
+    "v4.2": "exact",
+    "v4.1": "split"
+   },
+   "new_marked": "[AZ3193]",
+   "old_marked": "[AZ31]93",
+   "new_cut": "-",
+   "new_other": "-",
+   "shape": [
+    "aa9999"
+   ],
+   "context": "prose",
+   "prev": "ZIP",
+   "next": "görünür.",
+   "frame": "üzrə ZIP X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "report",
+   "category": "hard_negative",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002018",
+   "value": "AZ8202",
+   "outcomes": {
+    "v4.2": "exact",
+    "v4.1": "split"
+   },
+   "new_marked": "[AZ8202]",
+   "old_marked": "AZ[82]02",
+   "new_cut": "-",
+   "new_other": "-",
+   "shape": [
+    "aa9999"
+   ],
+   "context": "prose",
+   "prev": "ZIP",
+   "next": "görünür.",
+   "frame": "üzrə ZIP X görünür",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "technical_note",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002746",
+   "value": "AZ3774",
+   "outcomes": {
+    "v4.2": "exact",
+    "v4.1": "split"
+   },
+   "new_marked": "[AZ3774]",
+   "old_marked": "AZ[3]774",
+   "new_cut": "-",
+   "new_other": "-",
+   "shape": [
+    "aa9999"
+   ],
+   "context": "prose",
+   "prev": "ZIP",
+   "next": "görünür.",
+   "frame": "üzrə ZIP X görünür",
+   "mac_in_doc": true,
+   "stamp_in_doc": false,
+   "doc_type": "form",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004228",
+   "value": "AZ9094",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "missed"
+   },
+   "new_marked": "[AZ]9094",
+   "old_marked": "AZ9094",
+   "new_cut": "9",
+   "new_other": "-",
+   "shape": [
+    "aa9999"
+   ],
+   "context": "prose",
+   "prev": "indeksi",
+   "next": "qeyd",
+   "frame": "Çatdırılma indeksi X qeyd olunub",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "technical_note",
+   "category": "mixed",
+   "n_same_label_in_doc": 1
+  }
+ ],
+ "false_alarms": [
+  {
+   "model": "v4.2",
+   "id": "bench_az_000104",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "|",
+   "next": "|"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_000180",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_000232",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "|",
+   "next": "|"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_000242",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_000326",
+   "value": "AZ",
+   "shape": "aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "1994"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_000392",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "|",
+   "next": "|"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_000508",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_000522",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_000574",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_000701",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür;"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_000701",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür;"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_000723",
+   "value": "AZ",
+   "shape": "aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "1994"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_000746",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_000764",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür;"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_000826",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_000913",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_000936",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "2214;bench.user2049@synthetic-mail9.invalid;Laza;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_000936",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "2214;bench.user2049@synthetic-mail9.invalid;Laza;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_000993",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_001069",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_001195",
+   "value": "AZ",
+   "shape": "aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "1994"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_001215",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_001279",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "ZIP",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_001312",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "2001:db8:96c:96d::96c;13:31;Z4HNWP2;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_001312",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "2001:db8:96c:96d::96c;13:31;Z4HNWP2;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_001338",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "57;ZX8002595;Z90002596;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_001338",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "57;ZX8002595;Z90002596;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_001395",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "HJWS84TD3TZQWN;at_bench_0228_lxtGdoawyVOrp4dZ8ksJ7cMCiIzes8;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_001395",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "HJWS84TD3TZQWN;at_bench_0228_lxtGdoawyVOrp4dZ8ksJ7cMCiIzes8;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_001489",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_001546",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "görünür;"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_001570",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_001615",
+   "value": "AZ",
+   "shape": "aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "1000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_001761",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_001978",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_002081",
+   "value": "AZ",
+   "shape": "aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "1000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_002081",
+   "value": "1000",
+   "shape": "9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "AZ",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_002113",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "4607;ZX8002870;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_002113",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "4607;ZX8002870;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_002138",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "89994132586581115992;1542604123;ZX8001864;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_002138",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "89994132586581115992;1542604123;ZX8001864;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_002203",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_002302",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "k_bench_0047_Q88yfwt3RHDNX1RK0dUlRYP8sFzA;a2:38:c7:ce:66:62;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_002302",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "k_bench_0047_Q88yfwt3RHDNX1RK0dUlRYP8sFzA;a2:38:c7:ce:66:62;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_002307",
+   "value": "AZ",
+   "shape": "aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "olaraq",
+   "next": "1000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_002417",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_002497",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_002543",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "sk_bench_0588_ZGCZO1cRZD72f7ZSh72TZYFVLHWO;Lahıc;Nasihə;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_002543",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "sk_bench_0588_ZGCZO1cRZD72f7ZSh72TZYFVLHWO;Lahıc;Nasihə;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_002673",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "4838;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_002773",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_002789",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_002854",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "|",
+   "next": "|"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_002909",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "348;Pirnəzərli;sk_bench_2323_PUfvmUrY5tvEW9noK5FysGO7xE0C;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_002909",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "348;Pirnəzərli;sk_bench_2323_PUfvmUrY5tvEW9noK5FysGO7xE0C;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_003243",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "89994889736949068533;ZX8000679;AZ87KRHGL5ZELV2C5D0IVZB4WBDG;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_003243",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "89994889736949068533;ZX8000679;AZ87KRHGL5ZELV2C5D0IVZB4WBDG;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_003407",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "|",
+   "next": "|"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_003417",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "AZ87VIUJWNNNKGMP6FYZGC5RAVAZ;03.06.2047;Z8FGNGU;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_003429",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_003437",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "küçəsi;19.10.2031;2001:db8:b92:b93::b92;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_003437",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "küçəsi;19.10.2031;2001:db8:b92:b93::b92;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_003711",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "|",
+   "next": "|"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_003733",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "ZIP",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_003750",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_003771",
+   "value": "AZ",
+   "shape": "aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "1000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_003796",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "ZIP",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_003868",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_003886",
+   "value": "AZ",
+   "shape": "aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "1994"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_003902",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "779;Z23DKPD;830;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_003902",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "779;Z23DKPD;830;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_003910",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "32;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_003910",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "32;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_003938",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "|",
+   "next": "|"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_003938",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "|",
+   "next": "|"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_004133",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_004140",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_004259",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "sk_bench_1955_rYgfkADtFRhSYG8ATdnF0vVzipMo;ZX8001956;Qadir;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_004259",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "sk_bench_1955_rYgfkADtFRhSYG8ATdnF0vVzipMo;ZX8001956;Qadir;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_004373",
+   "value": "AZ",
+   "shape": "aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "ZIP",
+   "next": "1000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_004492",
+   "value": "AZ",
+   "shape": "aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "1994"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_004506",
+   "value": "AZ",
+   "shape": "aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "ZIP",
+   "next": "1000"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_004579",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "8339;7a:fd:19:67:c4:d6;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_004579",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "8339;7a:fd:19:67:c4:d6;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_004689",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "kimi",
+   "next": "göstərilib;"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_004768",
+   "value": "AZ1000",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "sahəsində",
+   "next": "məhsul"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_004777",
+   "value": "AZ",
+   "shape": "aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "log line",
+   "prev": "iban=",
+   "next": "1994"
+  },
+  {
+   "model": "v4.2",
+   "id": "bench_az_004946",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "01;10:34;sk_bench_1403_bgkyM1kbFWFbpVjDBepWlRacfVWs;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_004946",
+   "value": "AZ1994",
+   "shape": "aa9999",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "CSV / table",
+   "prev": "01;10:34;sk_bench_1403_bgkyM1kbFWFbpVjDBepWlRacfVWs;",
+   "next": ";000"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_004991",
+   "value": "AZ",
+   "shape": "aa",
+   "gold_here": "-",
+   "decoy_kind": "benchmark_unique",
+   "policy": false,
+   "context": "prose",
+   "prev": "tarixçəsində",
+   "next": "1994"
+  }
+ ]
+}

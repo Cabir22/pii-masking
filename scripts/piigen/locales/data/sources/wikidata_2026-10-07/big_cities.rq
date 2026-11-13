@@ -1,0 +1,6 @@
+SELECT DISTINCT ?c ?az ?p ?country WHERE {
+  VALUES ?country { wd:Q159 wd:Q43 wd:Q230 wd:Q794 wd:Q212 wd:Q232 wd:Q265 wd:Q874 wd:Q183 wd:Q145 wd:Q142 wd:Q30 wd:Q878 wd:Q38 wd:Q29 wd:Q184 wd:Q399 }
+  ?c wdt:P17 ?country ; wdt:P31 wd:Q1549591 ; wdt:P1082 ?p .
+  FILTER(?p >= 500000)
+  ?c rdfs:label ?az . FILTER(LANG(?az) = "az")
+}

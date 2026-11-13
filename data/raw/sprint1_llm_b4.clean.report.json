@@ -1,0 +1,208 @@
+{
+ "batch": "data\\raw\\sprint1_llm_b4.jsonl",
+ "batch_sha256": "112751d822b3df73243065580170f8fa019ed04fc5db55f564eefedc42a543ee",
+ "clean": "data\\raw\\sprint1_llm_b4.clean.jsonl",
+ "clean_sha256": "8d80b4530c149fe0febebfead903f9677b68e0056bd22002a91af2f5ae54474d",
+ "records": 6000,
+ "kept": 5970,
+ "dropped": 30,
+ "dropped_by_reason": {
+  "validate_corpus:validator_failure": 9,
+  "validate_corpus:planned_value_unlabelled": 9,
+  "validate_corpus:unlabeled_pii_leak": 8,
+  "unplanned_pii": 3,
+  "decoy_integrity:not a planted decoy string": 1
+ },
+ "dropped_documents": [
+  {
+   "id": "llm_az_000199",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_000693",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_001343",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_001508",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_002151",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_002190",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_002232",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_002373",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_002391",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_002901",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_003076",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_003391",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_003422",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_004073",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_004584",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_004657",
+   "reasons": [
+    "decoy_integrity:not a planted decoy string"
+   ]
+  },
+  {
+   "id": "llm_az_004785",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005144",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_005503",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_005819",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_005873",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  },
+  {
+   "id": "llm_az_005932",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_005946",
+   "reasons": [
+    "unplanned_pii"
+   ]
+  },
+  {
+   "id": "llm_az_005959",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_005982",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_006103",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_006199",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_006295",
+   "reasons": [
+    "validate_corpus:unlabeled_pii_leak"
+   ]
+  },
+  {
+   "id": "llm_az_006821",
+   "reasons": [
+    "validate_corpus:validator_failure"
+   ]
+  },
+  {
+   "id": "llm_az_006846",
+   "reasons": [
+    "validate_corpus:planned_value_unlabelled"
+   ]
+  }
+ ],
+ "unplanned_pii_in_kept": {
+  "documents": 0,
+  "share": 0.0,
+  "pii_free_documents": 0,
+  "by_label": {},
+  "examples": []
+ },
+ "dropped_unplanned_pii": true,
+ "validate_corpus_exit": 0,
+ "leakage_guard_exit": 0
+}

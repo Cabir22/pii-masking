@@ -1,0 +1,276 @@
+{
+ "label": "EMAIL",
+ "totals": {
+  "v4.2": {
+   "exact": 403
+  },
+  "v4.1": {
+   "exact": 399,
+   "split": 4
+  }
+ },
+ "by_frame": {
+  "hesab x unvan ile": {
+   "n": 54,
+   "v4.2": 54,
+   "v4.1": 54
+  },
+  "hesab x unvni ile": {
+   "n": 3,
+   "v4.2": 3,
+   "v4.1": 3
+  },
+  "e-poc olara x saxla": {
+   "n": 48,
+   "v4.2": 48,
+   "v4.1": 48
+  },
+  "x;5294 0753": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 0
+  },
+  "email hisse x yazil": {
+   "n": 55,
+   "v4.2": 55,
+   "v4.1": 55
+  },
+  "email unvan x-dir": {
+   "n": 20,
+   "v4.2": 20,
+   "v4.1": 20
+  },
+  "elaqe ucun x e-poc unvan": {
+   "n": 69,
+   "v4.2": 69,
+   "v4.1": 69
+  },
+  "e-poc olara x qeyd etmis": {
+   "n": 2,
+   "v4.2": 2,
+   "v4.1": 2
+  },
+  "mene x unvan yaza": {
+   "n": 26,
+   "v4.2": 26,
+   "v4.1": 26
+  },
+  "cavab x e-poc unvan": {
+   "n": 19,
+   "v4.2": 19,
+   "v4.1": 19
+  },
+  "email olara x qeyd etmis": {
+   "n": 29,
+   "v4.2": 29,
+   "v4.1": 29
+  },
+  "e_poc | x |": {
+   "n": 14,
+   "v4.2": 14,
+   "v4.1": 14
+  },
+  "e_poc melum x olara qeyd": {
+   "n": 12,
+   "v4.2": 12,
+   "v4.1": 12
+  },
+  "nomre ve x e-poc goste": {
+   "n": 9,
+   "v4.2": 9,
+   "v4.1": 9
+  },
+  "\"e_po \" x\",": {
+   "n": 10,
+   "v4.2": 10,
+   "v4.1": 10
+  },
+  "cavab x e poct": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "3490 2214; x;laza;az1994;000": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 0
+  },
+  "info e_poc x": {
+   "n": 10,
+   "v4.2": 10,
+   "v4.1": 10
+  },
+  "27 62; x;vendam;https://support.example.com/news/archive/10910;p123": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "hesap x unvan ile": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "email ise x kimi yazil": {
+   "n": 5,
+   "v4.2": 5,
+   "v4.1": 5
+  },
+  "zq701 x;https://support.example.com/help/article/10640;p123": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "email unvni x-dir": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "elaqe ucun x e-poc unvni": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "email hisse x yazlb": {
+   "n": 2,
+   "v4.2": 2,
+   "v4.1": 2
+  },
+  "laza; x;568/9;m97a90;12345": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 0
+  },
+  "ve ya x unvan cata": {
+   "n": 3,
+   "v4.2": 3,
+   "v4.1": 3
+  },
+  "37;38 x;25:81;999": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 0
+  },
+  "mene x unvni yaza": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "emial ise x kimi yazil": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "e-mai ise x kimi yazil": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  }
+ },
+ "items": [
+  {
+   "id": "bench_az_000013",
+   "value": "bench.user2548@synthetic-mail15.invalid",
+   "outcomes": {
+    "v4.2": "exact",
+    "v4.1": "split"
+   },
+   "new_marked": "[bench.user2548@synthetic-mail15.invalid]",
+   "old_marked": "[bench].[user2548@synthetic-mail15.invalid]",
+   "new_cut": "-",
+   "new_other": "-",
+   "shape": [
+    "local: dot+digit",
+    "domain dots 1",
+    "domain hyphen"
+   ],
+   "context": "CSV / table",
+   "prev": "e_poçt;kart_nömrəsi;iccid;fin_kodu;cvv",
+   "next": ";5294",
+   "frame": "X;5294 0753",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "csv",
+   "category": "structured_csv",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_000936",
+   "value": "bench.user2049@synthetic-mail9.invalid",
+   "outcomes": {
+    "v4.2": "exact",
+    "v4.1": "split"
+   },
+   "new_marked": "[bench.user2049@synthetic-mail9.invalid]",
+   "old_marked": "[bench].[user2049@synthetic-mail9.invalid]",
+   "new_cut": "-",
+   "new_other": "-",
+   "shape": [
+    "local: dot+digit",
+    "domain dots 1",
+    "domain hyphen"
+   ],
+   "context": "CSV / table",
+   "prev": "2214;",
+   "next": ";Laza;AZ1994;000",
+   "frame": "3490 2214; X;Laza;AZ1994;000",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "csv",
+   "category": "structured_csv",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_003664",
+   "value": "bench.user1267@synthetic-mail9.invalid",
+   "outcomes": {
+    "v4.2": "exact",
+    "v4.1": "split"
+   },
+   "new_marked": "[bench.user1267@synthetic-mail9.invalid]",
+   "old_marked": "[bench].[user1267@synthetic-mail9.invalid]",
+   "new_cut": "-",
+   "new_other": "-",
+   "shape": [
+    "local: dot+digit",
+    "domain dots 1",
+    "domain hyphen"
+   ],
+   "context": "CSV / table",
+   "prev": "Laza;",
+   "next": ";568/9;M97A90;12345",
+   "frame": "Laza; X;568/9;M97A90;12345",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "csv",
+   "category": "structured_csv",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_004629",
+   "value": "bench.user2430@synthetic-mail16.invalid",
+   "outcomes": {
+    "v4.2": "exact",
+    "v4.1": "split"
+   },
+   "new_marked": "[bench.user2430@synthetic-mail16.invalid]",
+   "old_marked": "[bench].[user2430@synthetic-mail16.invalid]",
+   "new_cut": "-",
+   "new_other": "-",
+   "shape": [
+    "local: dot+digit",
+    "domain dots 1",
+    "domain hyphen"
+   ],
+   "context": "CSV / table",
+   "prev": "37;38;",
+   "next": ";25:81;999",
+   "frame": "37;38; X;25:81;999",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "csv",
+   "category": "structured_csv",
+   "n_same_label_in_doc": 1
+  }
+ ],
+ "false_alarms": []
+}

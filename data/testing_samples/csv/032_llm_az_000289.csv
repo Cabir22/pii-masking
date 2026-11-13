@@ -1,0 +1,5 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000289,"Göndərildi: 2016-as r. 14 noyabr
+Mövzu: Müqavilə layihəsi
+
+Bu müqavilə tərəflər arasında bağlanmışdır. Müqavilənin bir tərəfi Gülzaman Yaşarov tərəfindən təsdiq edilmişdir.",az,"[{""start"":126,""end"":134,""label"":""GIVENNAME"",""text"":""Gülzaman""},{""start"":135,""end"":142,""label"":""SURNAME"",""text"":""Yaşarov""}]",contract_clause,short,bureaucratic and officious,[],0,0,llm,"{""index"":289,""lang"":""az"",""doc_type"":""contract_clause"",""doc_type_hint"":""an excerpt from a contract naming the parties"",""register"":""bureaucratic and officious"",""band"":""short"",""min_chars"":150,""max_chars"":400,""length_hint"":""a short paragraph"",""entities"":[{""label"":""GIVENNAME"",""value"":""Gülzaman""},{""label"":""SURNAME"",""value"":""Yaşarov""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a forwarded-message header block""],""negative_only"":false,""seed"":1729567415,""edge_case"":null,""reference_year"":2016}",source

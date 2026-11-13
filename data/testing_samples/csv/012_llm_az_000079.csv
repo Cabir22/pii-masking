@@ -1,0 +1,55 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000079,"PERSONEL FIKRAT VƏ İŞ VƏLİDƏTİ PROTOKOLU
+Sənəd nömrəsi: HR-2024/089-B
+Tarix: 14.11.2024
+
+MƏLUMAT:
+Bu sənəd Şirkətin daxili İnsan Resursları (HR) bazasında saxlanılmaq üçün hazırlanmışdır. Sənəddəki məlumatlar yalnız rəhbərliyə və HR departamentinin səlahiyyətli əməkdaşlarına açıqdır.
+
+İşçinin şəxsi məlumatları və kadr hesabatı:
+
+*   Soyadı: Zahibov
+*   İşçinin daxili e-poçt ünvanı: fariq_poladov@sirket.az
+*   İş yerinin ünvanı: Bakı şəhəri, Nərimanov rayonu, Heydər Əliyev prospekti, Bina 12, AZ1008
+*   İşçinin daxili sistem girişi: https://dashboard.alovenerji.az/unsubscribe?uid=577915&token=tVlFu_lRhhTtnq-DOS4ycWTrGf-4L-yxSP7Juit5L
+*   Məsuliyyət dərəcəsi: Baş mühəndis (Senior)
+*   İşə qəbul tarixi: 12.01.2022
+
+---
+
+PERFORMANS VƏ DAVRANIŞ QEYDLƏRİ (2024-cü il üzrə):
+
+İşçinin göstəriciləri və daxili audit nəticələri aşağıdakı kimi qeydə alınmışdır:
+
+1. Texniki bacarıqlar: Yüksək. Layihələrin icrası vaxtında həyata keçirilir.
+2. Komanda işi: Orta. Bəzi hallarda koordinasiya zəifliyi müşahidə olunur.
+3. İntizam: Yüksək. İş saatlarına riayət edilir.
+
+İşçinin bank hesabı və ödəniş məlumatları ilə bağlı qeyd:
+Şirkət tərəfindən aylıq əlavə bonusların köçürülməsi üçün istifadə olunan əsas hesab nömrəsi: ****8842. Bu məlumat təhlükəsizlik məqsədilə bütöv şəkildə burada göstərilmir.
+
+---
+
+DİXİƏRİ QEYDLƏR VƏ SƏHİVLƏR:
+
+Sənədin rəqəmsal versiyasında bəzi texniki xətalar və diaqritik çatışmazlıqları (keyboard layout səbəbiylə) müşahidə olunur:
+""İşçinin qeydiyyatı tamamlanmıșdır. Şirkət qaydalarına uyğun olaraq, hər bir əməkdaş öz profilini yeniləməlidir. Verilən tapşırıqlar icra edilməlidir və heç bir gecikmə olmamalıdır."" (qeyd: diaqritiklərin bir hissəsi - s, c, g - düzgün yazılmayıb).
+
+---
+
+İşçinin daxili sistemlərlə əlaqəsi haqqında ətraflı:
+
+Mühəndislik departamentinin idarəetmə paneli vasitəsilə işçinin giriş icazələri idarə olunur. Aşağıdakı keçid vasitəsilə sistem parametrlərini yoxlamaq mümkündür:
+https://dashboard.alovenerji.az/unsubscribe?uid=577915&token=tVlFu_lRhhTtnq-DOS4ycWTrGf-4L-yxSP7Juit5L
+
+İşçinin daimi ünvanı:
+Bakı şəhəri, AZ1008 kodu ilə təsnif olunan ərazidə yerləşən ofis binası.
+
+---
+
+YEKUN QƏRAR:
+
+İşçinin cari statusu: Aktiv.
+Yaxşılaşdırılmalı sahələr: Kommunikasiya və hesabatlılıq.
+
+Sənəd rəqəmsal imza ilə təsdiqlənmişdir.",az,"[{""start"":343,""end"":350,""label"":""SURNAME"",""text"":""Zahibov""},{""start"":385,""end"":408,""label"":""EMAIL"",""text"":""fariq_poladov@sirket.az""},{""start"":497,""end"":503,""label"":""ZIPCODE"",""text"":""AZ1008""},{""start"":538,""end"":640,""label"":""URL"",""text"":""https://dashboard.alovenerji.az/unsubscribe?uid=577915&token=tVlFu_lRhhTtnq-DOS4ycWTrGf-4L-yxSP7Juit5L""},{""start"":1928,""end"":2030,""label"":""URL"",""text"":""https://dashboard.alovenerji.az/unsubscribe?uid=577915&token=tVlFu_lRhhTtnq-DOS4ycWTrGf-4L-yxSP7Juit5L""},{""start"":2067,""end"":2073,""label"":""ZIPCODE"",""text"":""AZ1008""}]",hr_record,very_long,terse and clipped,[],0,0,llm,"{""index"":79,""lang"":""az"",""doc_type"":""hr_record"",""doc_type_hint"":""an HR record, offer letter, or performance note"",""register"":""terse and clipped"",""band"":""very_long"",""min_chars"":2600,""max_chars"":4200,""length_hint"":""a long multi-section document"",""entities"":[{""label"":""ZIPCODE"",""value"":""AZ1008""},{""label"":""SURNAME"",""value"":""Zahibov""},{""label"":""EMAIL"",""value"":""fariq_poladov@sirket.az""},{""label"":""URL"",""value"":""https://dashboard.alovenerji.az/unsubscribe?uid=577915&token=tVlFu_lRhhTtnq-DOS4ycWTrGf-4L-yxSP7Juit5L""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a partially redacted value elsewhere in the text (e.g. ****1234)"",""drop some diacritics as if typed on the wrong keyboard layout"",""include a bulleted list""],""negative_only"":false,""seed"":80401162,""edge_case"":null,""reference_year"":2024}",source

@@ -1,0 +1,49 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000173,"MALIN ÇATDIRILMASI VƏ NÖVLƏRİN SİYAHISI (MANIFEST)
+Sənəd №: 2017/TR-9942
+Tarix: 14 noyabr 2017-ci il
+
+---
+
+I. ÜMUMİ KARGO MƏLUMATLARI
+Bu manifest beynəlxalq daşınma qaydalarına əsasən tərtib edilmişdir. Aşağıda qeyd olunan yükün təhlükəsizliyi və çatdırılması üçün məsul şəxslərin və ünvanların dəqiq qeydi vacibdir.
+
+Daşınma növü: Soyuq zəncir (Temperatur rejimi: +4°C / +8°C)
+Logistics status: IN TRANSIT
+
+II. QƏBUL EDƏN VƏ ÇATDIRILMA ÜNVANI
+Daşınma təyinatı: Yardımlı rayonu, mərkəzi anbar kompleksi.
+Çatdırılma ərazisi: Yardımlıda yerləşən distribusiya mərkəzinə çatdırılmalı olan malın qəbulu üçün aşağıdakı məsul şəxs ilə əlaqə saxlanılmalıdır.
+
+Məsul şəxs (Qəbul edən): Sarı Beydemirov
+Əlaqə telefonu: (055) 669-50-73
+Elektron poçt: support.beydemirov@yandex.ru
+
+III. YÜKÜN TEXNİKİ TƏSVİRİ VƏ PAKETLƏMƏ
+Aşağıdakı siyahı konteyner daxilindəki qablaşdırılmış vahidləri əhatə edir:
+
+1. Palet № 001: 12 ədəd sənaye tipli filtr (Vahid çəki: 450 kq)
+2. Palet № 002: 08 ədəd sənaye tipli filtr (Vahid çəki: 380 kq)
+3. Konteyner № 04: Xüsusi kimyəvi reaktivlər (Təhlükəli yük sinfi: 3)
+4. Sənəd dəstəyi: Mal bəyannamələri, sertifikatlar və sığorta sənədləri konteyner daxilindəki sukeçirməzi qovluqda saxlanılmalıdır.
+
+IV. DAŞINMA TƏHLÜKƏSİZLİYİ VƏ QAYDALAR
+- Yükün sarsıntılı təsirə məruz qalmaması üçün xüsusi sabitləyicilər istifadə olunmalıdır.
+- Temperatur göstəriciləri hər 4 saatdan bir avtomatik sistem vasitəsilə monitorinq edilməlidir.
+- Gecikmələr zamanı dərhal nəqliyyat bölməsinə məlumat verilməlidir.
+
+V. LOGİSTİK OPERASIYA QEYDLƏRİ
+- Sənəd üzrə yoxlama: Tamamlanmış.
+- Gömrük rəsmiləşdirilməsi: Hazırdır.
+- Yükün son nöqtəyə çatdırılması üçün sürücü tərəfindən göstərilən yolun vəziyyəti haqqında əlavə məlumat...
+
+VI. ƏLAQƏ VƏ DƏSTƏK
+Hər hansı bir uyğunsuzluq və ya texniki nasazlıq halında aşağıdakı əlaqə məlumatları ilə müraciət edin.
+
+---
+Hörmətlə,
+Beydemirov Logistika Xidmətləri
+E-poçt: support.beydemirov@yandex.ru
+Veb: www.beydemirova-logistics.az
+Telefon: (055) 669-50-73
+Ünvan: Bakı şəhəri, Nərimanov rayonu, Sənaye magistralı, Bina 12.",az,"[{""start"":462,""end"":470,""label"":""CITY"",""text"":""Yardımlı""},{""start"":524,""end"":534,""label"":""CITY"",""text"":""Yardımlıda""},{""start"":677,""end"":681,""label"":""GIVENNAME"",""text"":""Sarı""},{""start"":709,""end"":724,""label"":""TELEPHONENUM"",""text"":""(055) 669-50-73""},{""start"":740,""end"":768,""label"":""EMAIL"",""text"":""support.beydemirov@yandex.ru""},{""start"":1908,""end"":1936,""label"":""EMAIL"",""text"":""support.beydemirov@yandex.ru""},{""start"":1980,""end"":1995,""label"":""TELEPHONENUM"",""text"":""(055) 669-50-73""}]",shipping_manifest,very_long,technical and precise,[],0,0,llm,"{""index"":173,""lang"":""az"",""doc_type"":""shipping_manifest"",""doc_type_hint"":""a shipping manifest or delivery note"",""register"":""technical and precise"",""band"":""very_long"",""min_chars"":2600,""max_chars"":4200,""length_hint"":""a long multi-section document"",""entities"":[{""label"":""GIVENNAME"",""value"":""Sarı""},{""label"":""TELEPHONENUM"",""value"":""(055) 669-50-73""},{""label"":""EMAIL"",""value"":""support.beydemirov@yandex.ru""},{""label"":""CITY"",""value"":""Yardımlı""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include an email signature block at the end"",""leave one sentence unfinished, as people do when interrupted"",""mix in one short sentence or log line in English""],""negative_only"":false,""seed"":514972684,""edge_case"":null,""reference_year"":2017}",source

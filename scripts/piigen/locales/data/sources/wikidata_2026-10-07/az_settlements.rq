@@ -1,0 +1,6 @@
+SELECT ?s ?az ?type ?pop WHERE {
+  VALUES ?type { wd:Q486972 wd:Q532 wd:Q515 wd:Q3957 wd:Q2989457 wd:Q1549591 wd:Q5119 wd:Q1637706 }
+  ?s wdt:P17 wd:Q227 ; wdt:P31 ?type .
+  ?s rdfs:label ?az . FILTER(LANG(?az) = "az")
+  OPTIONAL { ?s wdt:P1082 ?pop . }
+}

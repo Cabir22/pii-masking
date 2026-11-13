@@ -1,0 +1,18 @@
+pool names left out as ordinary words: {'settlements': 267, 'given': 285, 'surnames': 164}
+21,265 documents; labelled new-pool spans: {'GIVENNAME_foreign_pool': 1221, 'CITY_new_pool': 2117, 'SURNAME_foreign_pool': 981}
+settlement         docs    29  occurrences    44  planned     0
+     llm_az_000718 | Şimal |  kimidir: / ID_KOD	STATUS	REGION	IL / 4492	TAMAMLANDI	Şimal	2018 / [09:18] Müştəri: Bəli, mən də həmin dövr üçün sor
+     llm_az_001315 | Nəsimi | sil İdarəetmə Sistemi (TİS) inteqrasiya qeydləri /  / Nəsimi Bilik Mərkəzi - Texniki İdarəetmə və Log Sənədi	(2023
+     llm_az_001363 | Şimal | atus | Məbləğ | Region | Şərh / Hazır | 65023 TRY | Şimal | Problemlər yoxdur /  / 04.11.2016
+     llm_az_001544 | Gömürk | Bu sənəd 12.07.2023 tarixində tərtib edilib. Gömürk—yəni gömrük bəyannam- / əsindəki bəzi nasazlıqlara görə
+     llm_az_003141 | Ambulator |  /  / Pasientin parametrləri: / Cinsiyyət: Kişi / Status: Ambulator /  / Hematoloji Müayinə Nəticələri: / Tədqiqat növü: Qan
+     llm_az_004198 | Sofiyarzadə | 7-10-05 14:30:12] WARNING: Invalid_access_attempt_Sofiyarzadə / [2017-10-05 14:32:45] CRITICAL: Identity_validat
+foreign_full_name  docs     0  occurrences     0  planned     0
+foreign_surname    docs     9  occurrences    13  planned     0
+     llm_az_000528 | Ford | - / Mercedes Sprinter	  | S-01	| Yanvar     | Yaxşı / Ford Transit        | S-02 | Mart	      | Orta  (yox, əslind
+     llm_az_000528 | Ford | məsi vaxtı gəlib çatır, bu əhəmiyyətli məsələdir. Ford Transit-in motorunda kiçik bir nasazlıq var, yəqin ki, 
+     llm_az_001952 | West | 2025 11:45:30] ERROR: Connection timeout in South-West region. /  / 4. XƏTALARIN HƏLLİ / Odeniş prosesinde xeta yara
+     llm_az_004671 | Çelik | xi: 08.01.2021 /  / Məhsul    Miqdar    Qiymət    Kod / Çelik     10 ton    500 USD   X12 / Alət      5 ədəd    200 US
+     llm_az_011825 | FİNk | Forwarded: ​Call log / * 198253  ... əhm, FİNk odu C1LX37 / * 4015.65  və @salmdei  və 080002139160873
+     llm_az_015421 | West | a yaranıb. Aşağıdakı sətir kopyalanıb: / 8821	Guest	West	None /  / Məsələnin tez həll edilməsini tələb edirik.
+suffix_outside     docs     0  occurrences     0  planned     0

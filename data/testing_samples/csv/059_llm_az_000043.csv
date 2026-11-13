@@ -1,0 +1,21 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000043,"Gonderilen mesaj:
+--------------------------------------------------
+Sender: rumiyyenusizade@azdata.az
+Date: 14 May 2025
+Subject: Fwd: Odeme sorunu ve aktivasiya
+
+Salam,
+
+Yenidən mən, Rumiyye! Yenə bir ""macera"" ilə qarşınızdayam. :) 
+
+Hesabıma giriş etməyə çalışarkən nəsə bir problem yarandı, deyəsən sistem məni bir az yola düşür. Aktivasiya prosesini tamamlamaq üçün göndərdiyiniz bu linki yoxladım: https://login.company.az/activate?code=UjohztvP4oA-l5h6q16h7NcYGaBjf2Sihi8eK0. Amma hələ də hər şey qaydasında deyil.
+
+Həmçinin, ödenis zamanı istifade etdiyim kartla bağlı da bir qeydim var. Kart numaram 3538279568783398 idi, lakin sistem bunu qebul etmir. Ola bilsin ki, kartın vaxti bitib ya da hansısa texniki xeta var. 
+
+Bu arada, ünvanım Həydər Əliyev küç. ünvanında qalıb, əgər hər hansı bir sened göndərməli olsanız, zəhmət olmasa bura göndərin. 
+
+Kömək edə bilsəniz çox sevinerem. Cavabınızı gözləyirəm!
+
+Hörmətlə,
+Rumiyye Yusifzadə",az,"[{""start"":77,""end"":102,""label"":""EMAIL"",""text"":""rumiyyenusizade@azdata.az""},{""start"":403,""end"":480,""label"":""URL"",""text"":""https://login.company.az/activate?code=UjohztvP4oA-l5h6q16h7NcYGaBjf2Sihi8eK0""},{""start"":608,""end"":624,""label"":""PAYMENT_CARD_NUMBER"",""text"":""3538279568783398""},{""start"":747,""end"":765,""label"":""STREET"",""text"":""Həydər Əliyev küç.""}]",customer_email,medium,friendly with light humour,[],0,0,llm,"{""index"":43,""lang"":""az"",""doc_type"":""customer_email"",""doc_type_hint"":""an email from or to a customer, with greeting and sign-off"",""register"":""friendly with light humour"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""STREET"",""value"":""Həydər Əliyev küç.""},{""label"":""PAYMENT_CARD_NUMBER"",""value"":""3538279568783398""},{""label"":""URL"",""value"":""https://login.company.az/activate?code=UjohztvP4oA-l5h6q16h7NcYGaBjf2Sihi8eK0""},{""label"":""EMAIL"",""value"":""rumiyyenusizade@azdata.az""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""drop some diacritics as if typed on the wrong keyboard layout"",""include a forwarded-message header block""],""negative_only"":false,""seed"":571186857,""edge_case"":null,""reference_year"":2025}",source

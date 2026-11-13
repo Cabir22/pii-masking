@@ -1,0 +1,35 @@
+documents: 21,265
+
+1. PLANNED VALUES PRESENT BUT UNLABELLED: 0 occurrence(s) in 0 document(s)
+   of which a value with no labelled occurrence at all (count): 0 in 0 document(s) {}
+   by label: {}
+   by form : {}
+   planned values with no labelled occurrence, by label (share of that label's plans):
+   STREET 19/2455 (0.8%), DATE 42/8320 (0.5%), BUILDINGNUM 6/1718 (0.4%), GIVENNAME 19/5980 (0.3%), SURNAME 13/5117 (0.2%), AGE 3/1608 (0.2%), AZ_VOEN 1/612 (0.2%), TIME 2/1299 (0.1%)
+
+2. LABELS THAT DISAGREE WITH THE PLAN: 132  {'changed by noise after labelling (ok)': 120, 'not a form of any planned value': 5, 'standalone date, D-17 (ok)': 7}
+   llm_az_000502  changed by noise after labelling (ok): SURNAME 'MYOROVDUR'  ... BIR CAVAB ALA BILMIRIK. ŞIRKTIN RHBƏRI [[MYOROVDUR]] VƏ O, ƏMƏLIYYATLARI DAVAM ETDIRƏ BILMIR...
+   llm_az_000830  not a form of any planned value: GIVENNAME 'A1agüldən'  ...miz görüş çox səmimi və səmərəli keçdi. [[A1agüldən]] yeni layihə ilə bağlı bir neçə maraqlı ...
+   llm_az_000852  changed by noise after labelling (ok): DATE '04.10.B4'  ...  Sənəddə qeyd olunanlar: Doğum tarixi: [[04.10.B4]] Şəxsiyyət vəsiqəsi №: X72418784 Əlaqə n...
+   llm_az_000940  changed by noise after labelling (ok): DATE '22.4.l950'  ...rçivəsində hesab sahibinin doğum tarixi [[22.4.l950]] olaraq qeyd edilmişdir. Əgər bu  məluma...
+   llm_az_001123  changed by noise after labelling (ok): CARD_SECURITY_CODE 'G495'  ...m dəfələrlə xəta verir. Kartın CVV kodu [[G495]] yazıram, yenə də uğursuz olur. Bu necə ...
+
+3. DECOY INTEGRITY: 22119 decoy span(s) checked, 8920 policy/contextual; problems: none
+
+4. RATES (share of all documents)
+   hard_negative  requested 30.0%   in the text 28.4%   in the briefs 29.7%
+   adversarial    requested 20.0%   in the text 19.4%   in the briefs 19.5%
+   pii_free       requested 10.0%   in the text 9.6%
+   edge_case      requested 30.0%   in the text 29.9%
+   any decoy in the text (_hard_negatives > 0, the batch-1 README's measure): 35.2%
+   label share / target, furthest off: IPV6_ADDRESS 2.93, DATE 2.69, MAC_ADDRESS 2.20, AZ_DRIVER_LICENSE_NUMBER 2.15, AZ_ID_CARD_NUMBER 1.63, ACCESS_TOKEN 1.47
+
+5. D-9: {'mentions': 25830, 'suffixed (label includes the suffix)': 12588}
+   D-10: {'documents of 1-5 words': 7}
+   validate_example failures: none
+
+7. INDEPENDENT SWEEP, PII THE MODEL INVENTED (informational): 0 document(s) (0.0%), 0 of them declared PII-free; {}
+
+8. STANDALONE DATES LEFT UNLABELLED (D-17; timestamps excluded): 0 in 0 document(s) (0.0%); {}. scripts/relabel_standalone_dates.py labels them
+
+json -> reports\llm_batch5\b5_after_audit.json

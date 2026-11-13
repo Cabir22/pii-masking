@@ -1,0 +1,96 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>After the v3 benchmark</title>
+<style>
+@page { size: A4; margin: 13mm 13mm; }
+body { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; color: #1d2433; font-size: 10.3px; line-height: 1.38; }
+h1 { font-size: 19px; margin: 0 0 2px; } h2 { font-size: 13px; margin: 13px 0 5px; color: #1d2433; }
+.sub { color: #5b6475; margin-bottom: 9px; }
+table { border-collapse: collapse; width: 100%; margin-bottom: 4px; } th, td { padding: 3.2px 6px; border-bottom: 1px solid #eceff3; text-align: left; vertical-align: top; }
+th { background: #f4f6f9; font-size: 9.3px; color: #4b5466; }
+td.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ok { color: #127a4b; font-weight: 600; } .bad { color: #b42318; font-weight: 600; } .muted { color: #8a94a6; }
+.cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin: 4px 0 2px; }
+.card { border: 1px solid #dfe3ea; border-radius: 6px; padding: 6px 8px; }
+.ct { color: #5b6475; font-size: 9px; } .cv { font-size: 14px; font-weight: 600; } .cv span { color: #8a94a6; font-weight: 400; }
+.box { padding: 7px 9px; border-radius: 4px; margin: 6px 0; }
+.green { background: #effaf4; border-left: 3px solid #127a4b; } .amber { background: #fff8eb; border-left: 3px solid #b26b00; } .blue { background: #eef4ff; border-left: 3px solid #3563c9; }
+.pb { page-break-before: always; } .small { font-size: 9.2px; color: #5b6475; }
+ol, ul { margin: 3px 0 3px 18px; padding: 0; } li { margin: 1px 0; }
+</style></head><body>
+
+<h1>After the v3 benchmark: what we found, fixed and plan</h1>
+<div class="sub">14–15 October 2026 · from v3's first benchmark result to the v4 plan · the team ·</div>
+
+<h2>1. Where we started (14 Oct evening)</h2>
+<p>v3 seed 42 trained in ~2 hours on one RTX 4090. On the public sets: benchmark F1 <b>89.5</b> (Run B 88.9); 3 of 7 public release rules passed (B1, C1, C2); B2, C3, C4 and C13 failed. Not releasable, and only slightly better than Run B on the benchmark, so we stopped to find out <b>why</b>, assuming the data might be wrong.</p>
+
+<h2>2. What the deep analysis found (ranked by impact)</h2>
+<table>
+<tr><th>#</th><th>Root cause</th><th>Where</th><th>Effect</th></tr>
+<tr><td>1</td><td><b>Wrong tokenizer shipped with every model.</b> Training data was split into tokens with an extra punctuation step; the saved model didn't have it</td><td>pipeline bug</td><td>−4 benchmark points; B2 failed because of it</td></tr>
+<tr><td>2</td><td><b>Long values cut when windows are stitched.</b> Full PEM keys (longer than one 512-token window) lost all but one piece; the model itself labelled them fully</td><td>decoder bug</td><td>C13 failed; ~44% of each key left unmasked</td></tr>
+<tr><td>3</td><td><b>Contexts missing from training.</b> 80% of the remaining errors are situations the data never shows with the right answer (a 3-digit number after "VÖEN", a company name after "surname", a card mid-sentence after "in the payment profile")</td><td>data gap</td><td>~620 false alarms, ~145 misses</td></tr>
+<tr><td>4</td><td><b>Look-alikes the model can't learn.</b> Card/IBAN numbers that differ from real ones only by a hidden checksum: in prose, 45% of 16-digit numbers in our data were "not a card"</td><td>data design</td><td>~100 real cards missed; prose cards 17% found</td></tr>
+<tr><td>5</td><td><b>Wrong labels, mostly in the old corpus</b> (half the data): ≈ 40 wrong labels per 1,000 (LLM ≈ 14, targeted 0). Unlabelled chat/signature names (~6,400), times labelled inside timestamps (~1,360), half-labelled names (~1,310), and 9,789 old documents never cleaned by the rules we applied to the LLM batches</td><td>label noise</td><td>the model learned the noise (repeats 81–92% of it)</td></tr>
+<tr><td>6</td><td><b>Our own privacy rules</b> the benchmark disagrees with (7-letter FINs, phones in FIN fields, dates in building fields)</td><td>policy</td><td>~230 false alarms; precision only</td></tr>
+</table>
+<div class="small">Method: v3's predictions on the benchmark and probes; three independent analyses (coverage of benchmark contexts in training; label noise from all 633 disagreements on our own test data; labelling-rule consistency per source); every main claim re-checked.</div>
+
+<h2>3. Already fixed (no retraining needed)</h2>
+<div class="cards">
+<div class="card"><div class="ct">Benchmark F1 (raw, rules' track)</div><div class="cv"><span>89.5 →</span> 93.5</div></div>
+<div class="card"><div class="ct">Look-alikes wrongly masked (probes)</div><div class="cv"><span>19.4% →</span> 12.1%</div></div>
+<div class="card"><div class="ct">PEM key leakage (product decoder)</div><div class="cv"><span>43.7% →</span> 0%</div></div>
+<div class="card"><div class="ct">Probes F1 (product decoder)</div><div class="cv"><span>88.7 →</span> 93.6</div></div>
+</div>
+<table>
+<tr><th>Rule (public sets)</th><th>v3 as shipped</th><th>v3 + correct tokenizer</th></tr>
+<tr><td>B1 benchmark score ≥ 70.7</td><td class="ok">✓ 89.5</td><td class="ok">✓ 93.5</td></tr>
+<tr><td>B2 no label worse than checkpoint 1</td><td class="bad">✗ private key, VÖEN</td><td class="ok">✓ passes</td></tr>
+<tr><td>C1 token vs key · C2 IPv6 vs MAC</td><td class="ok">✓ ✓</td><td class="ok">✓ ✓</td></tr>
+<tr><td>C3 licence vs ID card (&lt; 5%)</td><td class="bad">✗ 8.3%</td><td class="bad">✗ 8.3% (fix in v4 data)</td></tr>
+<tr><td>C4 look-alikes masked (&lt; 10%)</td><td class="bad">✗ 19.4%</td><td class="bad">✗ 12.1% (fix in v4 data)</td></tr>
+<tr><td>C13 PEM key leakage</td><td class="bad">✗</td><td class="muted">fixed in our decoder; rules' track needs the matching change (D-51c)</td></tr>
+</table>
+<div class="box green"><b>Code fixes on main:</b> <code>train.py</code> now ships the right tokenizer with every model; <code>predict.py</code> joins pieces of one entity across windows and keeps a given name and the father's name as two names. All tests pass (28/28). v3 only needs its <code>tokenizer.json</code> replaced on Hugging Face (3 small files, weights unchanged).</div>
+
+<h2 class="pb">4. Decisions made (D-51, 15 Oct)</h2>
+<ul>
+<li><b>Cards and IBANs are masked whatever their checksum</b> (privacy first); the unlearnable checksum look-alikes leave the data.</li>
+<li><b>Our FIN and date privacy rules stay</b>; the benchmark/shadow items that contradict them go to the policy bucket.</li>
+<li><b>Chat and log line times</b> (<code>[10:16] Elvin:</code>) are not TIME.</li>
+<li><b>Rule C13</b>: the rules' track joins pieces of one key, like our product decoder.</li>
+<li>The v4 data plan: clean the existing data (D-51g) and add the missing contexts (D-51h).</li>
+</ul>
+
+<h2>5. In progress (paused for the usage limit)</h2>
+<table>
+<tr><th>Work</th><th>What it does</th><th>State</th></tr>
+<tr><td><b>Cleaning pass</b> (D-51g)</td><td>One deterministic step in the build, for all sources: drops the 9,789 uncleaned old documents and the checksum look-alikes; labels chat/signature/self-introduction names; removes TIME inside timestamps; moves <code>-ci il</code> out of dates; fixes half-labelled names, cities inside organisation names, false surnames. Raw data files are never changed</td><td class="muted">started; on branch <code>p1-v4-wip</code>, not yet tested</td></tr>
+<tr><td><b>New targeted data</b> (D-51h)</td><td>The missing contexts: short numbers after VÖEN/FİN/ID words, company names after "surname", cards and VÖENs mid-sentence, ID cards with varied prefixes (length decides), MAC/IBAN/IPv4 fragments, codes recognised by the words after them, non-names in name lists, suffixed cities, CSV columns, more Ed25519 private keys</td><td class="muted">started; on branch <code>p1-v4-wip</code>, not yet tested</td></tr>
+</table>
+
+<h2>6. What happens next</h2>
+<table>
+<tr><th>When</th><th>Who</th><th>Step</th></tr>
+<tr><td>Now</td><td>Team</td><td>Upload the corrected tokenizer to v3; send the scoring note</td></tr>
+<tr><td>Thu</td><td>Team</td><td>Score the corrected v3 on shadow-dev and real text; C13 change; policy-bucket items</td></tr>
+<tr><td>Thu</td><td>Team</td><td>Finish and test the cleaning pass and new data; dry run; 25,000-document check build (validation, leakage)</td></tr>
+<tr><td>Thu evening</td><td>Team</td><td>Native check of the new sentences and of the name list</td></tr>
+<tr><td>Fri morning</td><td>Team</td><td>Build v4 with the cleaning on; verify by a second build</td></tr>
+<tr><td>Fri</td><td>Team</td><td>Train v4 seed 42 on the 4090 (~2 h; correct tokenizer now automatic)</td></tr>
+<tr><td>Fri evening</td><td>Team</td><td>Benchmark + probes the same evening; private sets after</td></tr>
+</table>
+
+<h2>7. Expected results for v4</h2>
+<table>
+<tr><th>Measure</th><th>v3 as shipped</th><th>v3 corrected</th><th>v4 (expected)</th></tr>
+<tr><td>Benchmark F1 (rules' track)</td><td class="n">89.5</td><td class="n">93.5</td><td class="n"><b>≈ 95–96</b></td></tr>
+<tr><td>Look-alikes masked, probes (C4 &lt; 10%)</td><td class="n">19.4%</td><td class="n">12.1%</td><td class="n"><b>&lt; 10%</b> (target)</td></tr>
+<tr><td>Licence vs ID mix-ups (C3 &lt; 5%)</td><td class="n">8.3%</td><td class="n">8.3%</td><td class="n"><b>&lt; 5%</b> (target)</td></tr>
+<tr><td>PII-free documents masked (benchmark proxy for A5 &lt; 15%)</td><td class="n">–</td><td class="n">24%</td><td class="n"><b>≈ 9–10%</b></td></tr>
+<tr><td>PEM key leakage (C13)</td><td class="n">37%</td><td class="n">52%*</td><td class="n"><b>≈ 0%</b> with D-51c</td></tr>
+<tr><td>Cards found in prose (probe)</td><td class="n">–</td><td class="n">17%</td><td class="n"><b>≥ 80%</b> (target)</td></tr>
+</table>
+<div class="box amber"><b>Honest caveats.</b> The v4 numbers are estimates from the error analysis, not measurements. Real text (rule E3: 80% of real values found) is the hardest rule and depends on the private scoring; the new name fixes worked on the probes (names in lists 25% → 100%, signatures 98%), which is a good sign. If v4 passes every rule by more than 1 point, it can be released on one seed (D-50); otherwise one more short round.</div>
+<div class="small">* rules' track before the join change; our product decoder already gives 0%.</div>
+</body></html>

@@ -1,0 +1,27 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000054,"Kimə göndərildi: Elvin
+Kimdən: Elvin
+Tarix: 14.11.2016, 15:22
+Mövzu: Re: Sənədlər
+
+Salam, sənədləri göndərdim amma bir az qarışıqdır, üzrlü say. Bəzi məlumatları Excel-dən köçürməkdə çətinlik çəkmişəm.
+
+Məlumatlar:
+Ad Soyad | ID Nömrəsi | Telefon
+Elvin | DYI9035213 | +994121509648
+
+—
+
+Kimə göndərildi: Elvin
+Kimdən: Leyla
+Tarix: 14.11.2016, 14:05
+Mövzu: Re: Sənədlər
+
+Elvin, sən o şəxsiyyət vəsiqəsinin nömrəsini və əlaqə nömrəsini də yazmalı idin. Çox tələsirik, tez göndər görək.
+
+Kimə göndərildi: Leyla
+Kimdən: Elvin
+Tarix: 14.11.2016, 10:30
+Mövzu: Sənədlər
+
+Salam Leyla xanım, sənədləri hazırlayıram. Bir az gecikə bilərəm, sənədlərin hamısını yoxlamalıyam.",az,"[{""start"":255,""end"":265,""label"":""AZ_ID_CARD_NUMBER"",""text"":""DYI9035213""},{""start"":268,""end"":281,""label"":""TELEPHONENUM"",""text"":""+994121509648""}]",email_thread,medium,casual with typos and abbreviations,[],0,0,llm,"{""index"":54,""lang"":""az"",""doc_type"":""email_thread"",""doc_type_hint"":""a forwarded/replied email thread with quoted history (> markers)"",""register"":""casual with typos and abbreviations"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""AZ_ID_CARD_NUMBER"",""value"":""DYI9035213""},{""label"":""TELEPHONENUM"",""value"":""+994121509648""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a line that was clearly pasted from a spreadsheet"",""include a copy-paste artifact such as smart quotes or an en-dash""],""negative_only"":false,""seed"":1073108894,""edge_case"":null,""reference_year"":2016}",source

@@ -1,0 +1,12 @@
+documents: 5,802
+DATE labels: 4,427 -> 4,428
+unlabelled standalone dates: 8 in 7 documents (0.1%) -> 2 in 2 (0.0%)
+DATE spans added: 6; DATE labels removed (inside a timestamp): 5; documents changed: 11
+left unlabelled, by reason: {'no anchor': 2}
+documents changed, by language: {'az': 11}
+  e.g. ir: ID_00982 | Status: Pending | Tarix: 2023—09-14 | Məbləğ: 4500 AZN 
+  e.g. ---------------------|----------------- 14.08.25 | Xankəndidə, Yuxar
+  e.g. Tarix: 12–05-2025  Hörmətli Nailova x
+  e.g. Xidmət Qəbzi № 2017/452 Tarix: 12–08–2017  Müştəri məlumatlar
+  e.g.  Göndərən: [[email protected]] > Tarix: 2022–06–12 > > Kod: DE24754547
+  e.g. lumatlar tamdır və sistemdə aktivdir.  [2016—06-10] - Tamamlandı. Müqa

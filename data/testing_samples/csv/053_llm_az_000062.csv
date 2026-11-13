@@ -1,0 +1,16 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000062,"Mənzil İcarə Müqaviləsi (Qısaldılmış Versiya)
+
+Tarix: 14.05.2025
+
+Bu sənəd göstərir ki, mənzil sahibi Tərrarli ailəsi ilə razılığa əsasən daşınmaz əmlakın istifadəsi üçün öhdələr götürülür. Mənzil təmirli və çox  rahatdır, amma bir şərtlə: eyvanlarda çox səs-küylü partilər etmək olmaz! 
+
+İcarə şərtlərini rəsmiləşdirmək üçün aşağıdakı linkə daxil olub təsdiq verməyiniz xahiş olunur:
+https://link.sirket.az/verify?auth=FCSNqnXNvifML6R3rR-TyvZcDCqBcvpUeWGggncgo1
+
+Sistem tərəfindən avtomatik qeyd olundu:
+Vaxt: 17:16
+
+> cavab: Tamamdır, mənzil çox yaraşıqlı görünür.  Açarın yerini deyəcəksiniz?
+
+Qeyd: Sənədlərin rəsmiləşdirilməsi zamanı hər hansı bir texniki problem yaranarsa, zəhmət olmasa bizimlə əlaqə saxlayın. Sənədlərin doğruluğunu yoxlamaq üçün sistem saat 17:16 vaxtında yeniləndi.",az,"[{""start"":102,""end"":110,""label"":""SURNAME"",""text"":""Tərrarli""},{""start"":385,""end"":462,""label"":""URL"",""text"":""https://link.sirket.az/verify?auth=FCSNqnXNvifML6R3rR-TyvZcDCqBcvpUeWGggncgo1""},{""start"":511,""end"":516,""label"":""TIME"",""text"":""17:16""},{""start"":767,""end"":772,""label"":""TIME"",""text"":""17:16""}]",rental_agreement,medium,friendly with light humour,[],0,0,llm,"{""index"":62,""lang"":""az"",""doc_type"":""rental_agreement"",""doc_type_hint"":""a rental or lease agreement excerpt"",""register"":""friendly with light humour"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""SURNAME"",""value"":""Tərrarli""},{""label"":""URL"",""value"":""https://link.sirket.az/verify?auth=FCSNqnXNvifML6R3rR-TyvZcDCqBcvpUeWGggncgo1""},{""label"":""TIME"",""value"":""17:16""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a quoted reply section with '>' markers"",""use inconsistent spacing and a stray double space"",""drop some diacritics as if typed on the wrong keyboard layout""],""negative_only"":false,""seed"":433705141,""edge_case"":null,""reference_year"":2025}",source

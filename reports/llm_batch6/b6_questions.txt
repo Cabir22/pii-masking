@@ -1,0 +1,56 @@
+1. NAME SHARE (GIVENNAME + SURNAME of all labels)
+  source                                 docs    labels    names  share  names/doc
+  old (kept az)                        90,065   345,639   88,300  25.5%  0.98
+  llm b1                                5,057    17,148    3,549  20.7%  0.70
+  llm b2                                5,684    21,601    4,810  22.3%  0.85
+  llm b3                                5,862    23,213    5,195  22.4%  0.89
+  llm b4                                5,893    21,205    5,111  24.1%  0.87
+  llm b5                               20,954    77,856   17,703  22.7%  0.84
+  llm b6                               23,977   124,855   61,714  49.4%  2.57
+  targeted 25k                         25,000    51,513   14,707  28.6%  0.59
+  benchmark                             9,780    20,602    1,579   7.7%  0.16
+  v2 mix (old + b1-b5 + targeted)     158,515   558,175  139,375  25.0%  0.88
+  v3 mix (+ b6)                       182,492   683,030  201,089  29.4%  1.10
+
+  label shares, v2 mix -> v3 mix -> benchmark (top 14 of v3):
+    GIVENNAME                   13.8% ->  16.6%   bench   3.8%
+    DATE                        15.1% ->  14.1%   bench   3.8%
+    SURNAME                     11.2% ->  12.8%   bench   3.9%
+    EMAIL                        9.0% ->   8.4%   bench   3.6%
+    TELEPHONENUM                 7.6% ->   7.1%   bench   3.8%
+    CITY                         6.0% ->   5.7%   bench   3.6%
+    STREET                       3.9% ->   3.7%   bench   3.6%
+    ZIPCODE                      3.0% ->   2.8%   bench   3.7%
+    BUILDINGNUM                  2.5% ->   2.4%   bench   3.6%
+    TIME                         2.4% ->   2.2%   bench   3.9%
+    AGE                          2.4% ->   2.2%   bench   3.9%
+    API_KEY                      2.3% ->   2.2%   bench   3.6%
+    AZ_ID_CARD_NUMBER            2.1% ->   2.0%   bench   3.7%
+    URL                          1.9% ->   1.8%   bench   3.5%
+
+  b6 names per document: mean 2.57, median 1, p90 7, max 73; documents with >=20: 147, >=40: 2
+  b6 distinct names per document: mean 2.36, p90 7
+  by genre: docs, names/doc, name share
+    court_announcement          2,804   3.21  56.1%
+    official_notice             2,874   3.08  54.4%
+    procurement_announcement    3,149   3.01  55.6%
+    government_form             2,964   2.52  46.2%
+    court_filing                2,925   2.44  45.5%
+    legal_notice                2,993   2.25  45.1%
+    news_article                3,094   2.10  44.6%
+    press_release               3,174   2.07  46.2%
+
+2. REPEATS: documents by the most times one value is labelled in them
+  b6, all labels                 docs 21,624; one value >=5x:    96  >=10x:    8  >=20x:   0; worst [(19, 'llm_az_018806', 'TIME'), (17, 'llm_az_009347', 'IPV4_ADDRESS'), (14, 'llm_az_018123', 'BUILDINGNUM'), (12, 'llm_az_026221', 'IPV6_ADDRESS')]
+  b6, names left out             docs 20,938; one value >=5x:    68  >=10x:    4  >=20x:   0; worst [(19, 'llm_az_018806', 'TIME'), (17, 'llm_az_009347', 'IPV4_ADDRESS'), (14, 'llm_az_018123', 'BUILDINGNUM'), (12, 'llm_az_026221', 'IPV6_ADDRESS')]
+  b1-b5 clean, names left out    docs 38,813; one value >=5x:   386  >=10x:   73  >=20x:  30; worst [(76, 'llm_az_019394', 'TIME'), (75, 'llm_az_003351', 'TIME'), (58, 'llm_az_004445', 'TIME'), (57, 'llm_az_023692', 'TIME')]
+  benchmark, names left out      docs  8,429; one value >=5x:     0  >=10x:    0  >=20x:   0; worst []
+
+3. D-42c SHAPES BY RUN (run 1 = `_gen_version` 57fcdd4581e2)
+  _gen_version per run: {('run 1 (before D-40b/D-42c)', '57fcdd4581e2'): 1776, ('runs 2-3 (D-42c code)', '1e976944376d'): 7660, ('runs 2-3 (D-42c code)', '2ee9cb4f4b66'): 14541}
+  run 1 (before D-40b/D-42c): phones 471, bracketed 0 (0.0%); ZIPs 171, bare 0 (0.0%)
+    new look-alike kinds: {'email_dotless_domain': 0, 'api_key_short': 0, 'ipv6_non_hex': 0, 'ipv6_two_compressions': 0, 'jwt_two_segments': 0, 'cvv_sequential_5': 0}
+  runs 2-3 (D-42c code): phones 5,548, bracketed 712 (12.8%); ZIPs 2,140, bare 516 (24.1%)
+    new look-alike kinds: {'email_dotless_domain': 130, 'api_key_short': 154, 'ipv6_non_hex': 128, 'ipv6_two_compressions': 141, 'jwt_two_segments': 131, 'cvv_sequential_5': 116}
+  new kinds not matching their shape: 0 {}
+  retired kinds present (cvv_separator, fin_with_i_or_o, fin_6_chars): {'cvv_separator': 135}

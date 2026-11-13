@@ -1,0 +1,37 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000086,"[Sistem qeydi: 2022-10-14 14:22:05]
+[Zəngin başlama tarixi: 14 oktyabr 2022]
+
+Müştəri Xidmətləri: Salam, ""TechConnect"" texniki dəstək mərkəzinə xoş gəlmisiniz. Mən Elvin, sizə necə kömək edə bilərəm?
+
+Müştəri: Salam, Elvin bəy. Mən şəbəkə bağlantısı ilə bağlı ciddi bir problem yaşayıram. Səhər saatlarından bəri sistemə daxil ola bilmirəm. Şirkət daxili şəbəkəyə qoşulmaq istəyəndə xəta mesajı alır.
+
+Müştəri Xidmətləri: Anlayıram, narahat olmayın. Problemi həll etmək üçün əlimizdən gələni edəcəyik. Zəhmət olmasa, xəta mesajının tam mətnini və ya əgər mümkündürsə, sistem loqlarını mənə deyə bilərsinizmi?
+
+Müştəri: Bəli, əlbəttə. Mən az öncə sistem tərəfindən çıxarılan sonuncu texniki qeydi görmüşəm. Orada konkret bir IP ünvanı qeyd olunub.
+
+Müştəri Xidmətləri: Çox yaxşı, bu məlumat çox faydalı ola bilər. Zəhmət olmasa, həmin ünvanı bir-bir təkrarlayın.
+
+Müştəri: Log sətirində belə yazılıb: Connection attempt failed from 100.123.85.109 to gateway.
+
+Müştəri Xidmətləri: Təşəkkür edirəm. Yəni, sistem 100.123.85.109 ünvanından gələn müraciəti qəbul etmir, elədir?
+
+Müştəri: Bəli, tamamilə doğrudur. Həmçinin, mən modemləri söndürüb yandırmışam, lakin heç bir dəyişiklik yoxdur. Sanki kənardan bir bloklama var.
+
+Müştəri Xidmətləri: Məlumatı qeydə aldım. İndi mən sizin profilinizi və şəbəkə konfiqurasiyanızı yoxlamaq üçün sistemimizə giriş edirəm. Bir dəqiqə gözləyin, zəhmət olmasa.
+
+[Səssizlik - 45 saniyə]
+
+Müştəri Xidmətləri: Baxdım. Görünür ki, həmin IP ünvanı ilə bağlı firewall (təhlükəsizlik divarı) tərəfindən bir məhdudiyyət qoyulub. Mən indi texniki şöbəyə müraciət edib bu bloklamanın aradan qaldırılmasını təmin edəcəyəm.
+
+Müştəri: Çox sağ olun. Bəs bu proses nə qədər çəkər? İşlərim çox təcilidir.
+
+Müştəri Xidmətləri: Adətən bu növ texniki yenidən quraşdırmalar 30 dəqiqədən bir saata qədər vaxt ala bilər. Mən müraciəti dərhal qeydiyyata alıram. Proses tamamlanan kimi sizə SMS vasitəsilə məlumat verəcəyik.
+
+Müştəri: Oldu, gözləyirəm. Təşəkkürlər.
+
+Müştəri Xidmətləri: Sizə də təşəkkür edirəm. Başqa bir sualınız varmı?
+
+Müştəri: Yox, sağ olun.
+
+Müştəri Xidmətləri: ""TechConnect"" ilə əlaqə saxladığınız üçün təşəkkür edirik. Sağ olun.",az,"[{""start"":931,""end"":945,""label"":""IPV4_ADDRESS"",""text"":""100.123.85.109""},{""start"":1009,""end"":1023,""label"":""IPV4_ADDRESS"",""text"":""100.123.85.109""}]",call_center_transcript,long,formal and businesslike,[],0,0,llm,"{""index"":86,""lang"":""az"",""doc_type"":""call_center_transcript"",""doc_type_hint"":""a transcribed phone call with disfluencies"",""register"":""formal and businesslike"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""IPV4_ADDRESS"",""value"":""100.123.85.109""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""mix in one short sentence or log line in English""],""negative_only"":false,""seed"":610914498,""edge_case"":{""id"":""IP4-01"",""status"":""positive_valid"",""description"":""Public-range address in a technical log line."",""scenario"":""""},""reference_year"":2022}",source

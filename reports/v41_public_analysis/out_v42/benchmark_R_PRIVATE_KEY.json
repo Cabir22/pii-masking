@@ -1,0 +1,595 @@
+{
+ "label": "PRIVATE_KEY",
+ "totals": {
+  "v4.2": {
+   "exact": 425,
+   "split": 3
+  },
+  "v4.1": {
+   "exact": 426,
+   "split": 2
+  }
+ },
+ "by_frame": {
+  "key saxla x": {
+   "n": 11,
+   "v4.2": 11,
+   "v4.1": 11
+  },
+  "gorun - x": {
+   "n": 5,
+   "v4.2": 5,
+   "v4.1": 5
+  },
+  "x": {
+   "n": 286,
+   "v4.2": 286,
+   "v4.1": 285
+  },
+  "priva | x |": {
+   "n": 17,
+   "v4.2": 17,
+   "v4.1": 17
+  },
+  "x lazim olsa,": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "\"priv \" x\",": {
+   "n": 6,
+   "v4.2": 5,
+   "v4.1": 5
+  },
+  "priva melum x olara qeyd": {
+   "n": 13,
+   "v4.2": 13,
+   "v4.1": 13
+  },
+  "key gorun x": {
+   "n": 7,
+   "v4.2": 7,
+   "v4.1": 7
+  },
+  "x elaqe melum": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "qeyd olunu x": {
+   "n": 6,
+   "v4.2": 6,
+   "v4.1": 6
+  },
+  "x murac telef": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x kart melum": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x yazis soyad": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x sessi acces": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "az962 x;10:22;user@;999.12.4.1": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x elave hisse": {
+   "n": 4,
+   "v4.2": 4,
+   "v4.1": 4
+  },
+  "info priva x": {
+   "n": 10,
+   "v4.2": 10,
+   "v4.1": 10
+  },
+  "x eyni qeydd": {
+   "n": 5,
+   "v4.2": 5,
+   "v4.1": 5
+  },
+  "x;172.30.9.240;danaci;https://support.example.com/help/article/10820;p123": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x melum forma": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "02.08 x;-----begin priva": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "priva key-- x;38549;12345": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x unvan bina": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x serve unvan": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x poct indek": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x;sk_bench_2247_uvbfrjxwubrdf6wio0howkreykvb;at_bench_2248_tsub1hfire2rjkg00ctiij": {
+   "n": 1,
+   "v4.2": 0,
+   "v4.1": 1
+  },
+  "gorun - x yazdi menim": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x tarix sifar": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x saat sahsi": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x otaq melum": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "etmis - x": {
+   "n": 3,
+   "v4.2": 3,
+   "v4.1": 3
+  },
+  "x emeli vaxt": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x api key": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "saxla - x": {
+   "n": 5,
+   "v4.2": 5,
+   "v4.1": 5
+  },
+  "saxla - x erize paspo": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x mac sahes": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "qeyd olunu x odeni melum": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "2001: x;5671 0439": {
+   "n": 1,
+   "v4.2": 0,
+   "v4.1": 1
+  },
+  "gormu - x paspo melum": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "438; x;02:38;user@;999.12.4.1": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "mende gorun x": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x servi ucun": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x unvan indek": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x kce sahes": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x sifar melum": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "olunu - x": {
+   "n": 2,
+   "v4.2": 2,
+   "v4.1": 2
+  },
+  "x;89994161334832265009;157;abc;-----begin publi": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x qeyd murac": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "zx800 x;zq700469;abc;-----begin publi": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x sexsi vesiq": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "a2:b3 x;hemdulla;user@;999.12.4.1": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "qeyd olunu x kohne profi": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "key-i gormu x": {
+   "n": 3,
+   "v4.2": 3,
+   "v4.1": 3
+  },
+  "x konfi api": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x teqvi hisse": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x qalan sened": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x paspo sahes": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "key gorun x eyni qeydd": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "06 18; x;54;user@;999.12.4.1": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  },
+  "x siste unvan": {
+   "n": 1,
+   "v4.2": 1,
+   "v4.1": 1
+  }
+ },
+ "items": [
+  {
+   "id": "bench_az_000166",
+   "value": "-----BEGIN PRIVATE KEY----- BENCHkm3gDbDyPOztvFsuhLJTaK9QlMzmUkVEBvk4 -----END PRIVATE KEY-----",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[-----BEGIN PRIVATE KEY----- BENCHkm3gDbDyPOztvFsuhLJTaK9QlMzmUkVEBvk4] [-----END PRIVATE KEY-----]",
+   "old_marked": "[-----BEGIN PRIVATE KEY----- BENCHkm3gDbDyPOztvFsuhLJTaK9QlMzmUkVEBvk4 -----END PRIVATE KEY-----]",
+   "new_cut": " ",
+   "new_other": "-",
+   "shape": [
+    "-----aaaaa aaaaaaa aaa----- aaaaaaa9aaaaaaaaaaaaaaaaaaa9aaaaaaaaaaaa9 -----aaa aaaaaaa aaa-----"
+   ],
+   "context": "JSON",
+   "prev": "\"",
+   "next": "\",",
+   "frame": "\"private_key\": \" X\",",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "json_config",
+   "category": "structured_json_config",
+   "n_same_label_in_doc": 2
+  },
+  {
+   "id": "bench_az_000166",
+   "value": "-----BEGIN PRIVATE KEY----- BENCHs1hsAdaFOdVgEcg94mptLQ0lnMQ8nqH6mwHv -----END PRIVATE KEY-----",
+   "outcomes": {
+    "v4.2": "exact",
+    "v4.1": "split"
+   },
+   "new_marked": "[-----BEGIN PRIVATE KEY----- BENCHs1hsAdaFOdVgEcg94mptLQ0lnMQ8nqH6mwHv -----END PRIVATE KEY-----]",
+   "old_marked": "[-----BEGIN PRIVATE KEY----- BENCHs1hsAdaFOdVgEcg94mptLQ0lnMQ8nqH6mwHv] [-----END PRIVATE KEY-----]",
+   "new_cut": "-",
+   "new_other": "-",
+   "shape": [
+    "-----aaaaa aaaaaaa aaa----- aaaaaa9aaaaaaaaaaaaa99aaaaa9aaaa9aaa9aaaa -----aaa aaaaaaa aaa-----"
+   ],
+   "context": "JSON",
+   "prev": "\"",
+   "next": "\",",
+   "frame": "\"private_key\": \" X\",",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "json_config",
+   "category": "structured_json_config",
+   "n_same_label_in_doc": 2
+  },
+  {
+   "id": "bench_az_000726",
+   "value": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEILG7ekEqiXZX8xMD8iBm9i7LM5xWL3fPP3bh8AZfw8Tp\n-----END PRIVATE KEY-----",
+   "outcomes": {
+    "v4.2": "exact",
+    "v4.1": "split"
+   },
+   "new_marked": "[-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEILG7ekEqiXZX8xMD8iBm9i7LM5xWL3fPP3bh8AZfw8Tp\n-----END PRIVATE KEY-----]",
+   "old_marked": "[-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEILG7ekEqiXZX8xMD8iBm9i7LM5xWL3fPP3bh8AZfw8Tp\n-----END PRIVATE] [KEY-----]",
+   "new_cut": "-",
+   "new_other": "-",
+   "shape": [
+    "-----aaaaa aaaaaaa aaa-----\naa9aaaaaaaaaa9aaaaaaaaa9aaaaaaaa9aaa9aaa9a9aa9aaa9aaa9aa9aaaa9aa\n-----aaa aaaaaaa aaa-----"
+   ],
+   "context": "prose",
+   "prev": "görünür:",
+   "next": ";",
+   "frame": "X",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "first_person_form",
+   "category": "positive_control",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_001807",
+   "value": "-----BEGIN PRIVATE KEY----- BENCHt0ipkXqrrjKsZZgrFycBegoWAMmOSOdym1e4 -----END PRIVATE KEY-----",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[-----BEGIN PRIVATE KEY----- BENCHt0ipkXqrrjKsZZgrFycBegoWAMmOSOdym1e4] [-----END PRIVATE KEY-----]",
+   "old_marked": "[-----BEGIN PRIVATE KEY----- BENCHt0ipkXqrrjKsZZgrFycBegoWAMmOSOdym1e4 -----END PRIVATE KEY-----]",
+   "new_cut": " ",
+   "new_other": "-",
+   "shape": [
+    "-----aaaaa aaaaaaa aaa----- aaaaaa9aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa9a9 -----aaa aaaaaaa aaa-----"
+   ],
+   "context": "CSV / table",
+   "prev": "private_key;api_key;access_token;saat;yaş",
+   "next": ";sk_bench_2247_UVBfrjxWuBrdf6WIo0hOwKrEykvb;at_bench_2248_TS",
+   "frame": "X;sk_bench_2247_UVBfrjxWuBrdf6WIo0hOwKrEykvb;at_bench_2248_TSUB1hFiRe2RjKg00cTIij",
+   "mac_in_doc": false,
+   "stamp_in_doc": true,
+   "doc_type": "csv",
+   "category": "structured_csv",
+   "n_same_label_in_doc": 1
+  },
+  {
+   "id": "bench_az_002673",
+   "value": "-----BEGIN PRIVATE KEY----- BENCHH1hfqXWaz0hb8h0rqgteDthHP483bT1ZfW9U -----END PRIVATE KEY-----",
+   "outcomes": {
+    "v4.2": "split",
+    "v4.1": "exact"
+   },
+   "new_marked": "[-----BEGIN PRIVATE KEY----- BENCHH1hfqXWaz0hb8h0rqgteDthHP483bT1ZfW9U] [-----END PRIVATE KEY-----]",
+   "old_marked": "[-----BEGIN PRIVATE KEY----- BENCHH1hfqXWaz0hb8h0rqgteDthHP483bT1ZfW9U -----END PRIVATE KEY-----]",
+   "new_cut": " ",
+   "new_other": "-",
+   "shape": [
+    "-----aaaaa aaaaaaa aaa----- aaaaaa9aaaaaaa9aa9a9aaaaaaaaaa999aa9aaa9a -----aaa aaaaaaa aaa-----"
+   ],
+   "context": "CSV / table",
+   "prev": "2001:db8:6eb:6ec::6eb;",
+   "next": ";5671",
+   "frame": "2001:db8:6eb:6ec::6eb; X;5671 0439",
+   "mac_in_doc": false,
+   "stamp_in_doc": false,
+   "doc_type": "csv",
+   "category": "structured_csv",
+   "n_same_label_in_doc": 1
+  }
+ ],
+ "false_alarms": [
+  {
+   "model": "v4.1",
+   "id": "bench_az_000011",
+   "value": "-",
+   "shape": "-",
+   "gold_here": "-",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "görünür",
+   "next": "-----BEGIN"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_000373",
+   "value": ":",
+   "shape": ":",
+   "gold_here": "-",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "olunub",
+   "next": "-----BEGIN"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_001305",
+   "value": "O",
+   "shape": "a",
+   "gold_here": "-",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "məlumatı",
+   "next": "RD-13583"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_002051",
+   "value": "-",
+   "shape": "-",
+   "gold_here": "-",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "saxlanılıb",
+   "next": "-----BEGIN"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_002080",
+   "value": "-",
+   "shape": "-",
+   "gold_here": "-",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "saxlanılıb",
+   "next": "-----BEGIN"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_002746",
+   "value": ":",
+   "shape": ":",
+   "gold_here": "-",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "saxlanılıb",
+   "next": "-----BEGIN"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_002792",
+   "value": "-",
+   "shape": "-",
+   "gold_here": "-",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "saxlanılıb",
+   "next": "-----BEGIN"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_003229",
+   "value": "O",
+   "shape": "a",
+   "gold_here": "-",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "məlumatında",
+   "next": "RD-69458"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_003977",
+   "value": "L",
+   "shape": "a",
+   "gold_here": "-",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "məlumatında",
+   "next": "M-90800"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_004047",
+   "value": "-",
+   "shape": "-",
+   "gold_here": "-",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "görünür",
+   "next": "-----BEGIN"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_004237",
+   "value": "-",
+   "shape": "-",
+   "gold_here": "-",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "etmişəm",
+   "next": "-----BEGIN"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_004608",
+   "value": "-",
+   "shape": "-",
+   "gold_here": "-",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "görünür",
+   "next": "-----BEGIN"
+  },
+  {
+   "model": "v4.1",
+   "id": "bench_az_004904",
+   "value": "-",
+   "shape": "-",
+   "gold_here": "-",
+   "decoy_kind": "-",
+   "policy": false,
+   "context": "prose",
+   "prev": "olunub",
+   "next": "-----BEGIN"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000046,"---------- Forwarded message ---------
+Date: 14 Noyabr 2018
+From: Müdiriyyət
+Subject: Avtomobilin texniki vəziyyəti haqqında
+
+Salam, Xuddam,
+
+Sizin nəzarətinizdə olan avtomobilin son servis qeydlərini sistemdən çıxardım. Görünür ki, yağ dəyişimi vaxtı artıq keçib. Zəhmət olmasa, bu həftə sonuna qədər mütləq servisə aparılsın.
+
+> Salam, mən artıq sənədləri hazırlamışam. Avtomobilin yeni giriş açarını və sistem giriş kodunu aşağıda göndərirəm:
+> 
+> Giriş kodu: bcJKc3wnmtEyGTIYkVZ6FCMkelZWW8hbvk_3.mfDB8IfjJewOcAsYjMuEXQXrkSgm3DjRYPdI5-DTW3xWkLFjkItWtXOUnlaN4UInqlx350ndlTlPXbL0XkFvWvrIMI_siv3J1M9jUGF_z6nrMaYQWQ4Q3rMPz9.OwYOL-FPWJYUozxd7A4Li0_rMEGt2Wj59Z1eUknFTvf
+> 
+> Xuddam, zəhmət olmasa bu kodu təhlükəsiz saxlayın.
+
+Təşəkkürlər.",az,"[{""start"":133,""end"":139,""label"":""GIVENNAME"",""text"":""Xuddam""},{""start"":463,""end"":666,""label"":""ACCESS_TOKEN"",""text"":""bcJKc3wnmtEyGTIYkVZ6FCMkelZWW8hbvk_3.mfDB8IfjJewOcAsYjMuEXQXrkSgm3DjRYPdI5-DTW3xWkLFjkItWtXOUnlaN4UInqlx350ndlTlPXbL0XkFvWvrIMI_siv3J1M9jUGF_z6nrMaYQWQ4Q3rMPz9.OwYOL-FPWJYUozxd7A4Li0_rMEGt2Wj59Z1eUknFTvf""},{""start"":672,""end"":678,""label"":""GIVENNAME"",""text"":""Xuddam""}]",vehicle_record,medium,warm and conversational,[],0,0,llm,"{""index"":46,""lang"":""az"",""doc_type"":""vehicle_record"",""doc_type_hint"":""a vehicle registration, service, or fleet record"",""register"":""warm and conversational"",""band"":""medium"",""min_chars"":400,""max_chars"":1100,""length_hint"":""several paragraphs or sections"",""entities"":[{""label"":""ACCESS_TOKEN"",""value"":""bcJKc3wnmtEyGTIYkVZ6FCMkelZWW8hbvk_3.mfDB8IfjJewOcAsYjMuEXQXrkSgm3DjRYPdI5-DTW3xWkLFjkItWtXOUnlaN4UInqlx350ndlTlPXbL0XkFvWvrIMI_siv3J1M9jUGF_z6nrMaYQWQ4Q3rMPz9.OwYOL-FPWJYUozxd7A4Li0_rMEGt2Wj59Z1eUknFTvf""},{""label"":""GIVENNAME"",""value"":""Xuddam""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a forwarded-message header block"",""include a quoted reply section with '>' markers""],""negative_only"":false,""seed"":1111272861,""edge_case"":null,""reference_year"":2018}",source

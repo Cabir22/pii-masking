@@ -1,0 +1,55 @@
+==========================================================================
+CORPUS VALIDATION -- sprint1_llm_b1.clean.jsonl
+==========================================================================
+records            : 5,201
+entity mentions    : 14,160
+distinct ids       : 5,201
+labels present     : 27/27
+length             : min 35  p50 558  p95 3,119  max 12,421
+doc types          : 42
+sha256             : b87e70ac91ae398dcd9dea9f20f9fde4...
+
+MUST-BE-ZERO CHECKS
+  malformed_json                        0   ok
+  duplicate_id                          0   ok
+  span_text_mismatch                    0   ok
+  span_out_of_range                     0   ok
+  empty_span                            0   ok
+  overlapping_spans                     0   ok
+  duplicate_span                        0   ok
+  unknown_label                         0   ok
+  removed_label                         0   ok
+  zero_width_in_span                    0   ok
+  not_nfc                               0   ok
+  no_entities                           0   ok
+  exact_duplicate_text                  0   ok
+  structural_number_span                0   ok
+  missing_anchor                        0   ok
+  repeat_mention_incomplete             0   ok
+  validator_failure                     0   ok
+  unlabeled_pii_leak                    0   ok
+  resolver_drift                        0   ok
+  planned_value_unlabelled             14   FAIL
+      e.g. llm_az_000330 DATE '14.05.2015' as '2015-05-14' (reformatted)
+      e.g. llm_az_000330 DATE '14.05.2015' as '2015-05-14' (reformatted)
+      e.g. llm_az_000330 DATE '14.05.2015' as '2015-05-14' (reformatted)
+
+INFORMATIONAL
+  band_metadata_mismatch              314
+  cyrillic_present                    112
+  near_duplicate                        0
+
+LABEL DISTRIBUTION (actual / target)
+  IPV6_ADDRESS                   215 mentions      147 distinct  ratio 2.53
+  ICCID                          191 mentions      154 distinct  ratio 2.25
+  MAC_ADDRESS                    205 mentions      172 distinct  ratio 1.81
+  AZ_DRIVER_LICENSE_NUMBER       239 mentions      183 distinct  ratio 1.69
+  AZ_VOEN                        232 mentions      183 distinct  ratio 1.64
+  AZ_PASSPORT_NUMBER             278 mentions      202 distinct  ratio 1.64
+  AZ_ID_CARD_NUMBER              300 mentions      225 distinct  ratio 1.41
+  IPV4_ADDRESS                   357 mentions      270 distinct  ratio 1.40
+
+==========================================================================
+RESULT: FAIL -- 1 blocking check(s): planned_value_unlabelled
+==========================================================================
+json -> reports\llm_batch2\b1_clean_5201_validate_now.json

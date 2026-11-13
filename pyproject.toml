@@ -1,0 +1,5 @@
+[project]
+name = "pii-masking-model"
+version = "0.1.0"
+description = "Multilingual PII detection and masking (NER + regex hybrid)"
+requires-python = ">=3.10"

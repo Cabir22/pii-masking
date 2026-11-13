@@ -1,0 +1,215 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "language": "Azerbaijani (az). Use Azerbaijani Latin script including ə, ğ, ı, ö, ş, ü. Use natural agglutinative morphology, not word-by-word English.",
+      "doc_type": "forum post -- a public forum or community post asking for help",
+      "tone_register": "matter-of-fact administrative",
+      "length_hint": "roughly 150-400 characters (a short paragraph)",
+      "entities_to_embed": "TELEPHONENUM: (051) 617-87-13\nAZ_FIN: 2Q4TAL3\nEMAIL: rza.dadasov@yahoo.com",
+      "decoys": "none",
+      "noise_directives": "mix in one short sentence or log line in English\nuse inconsistent spacing and a stray double space",
+      "scenario_note": "none",
+      "document_year": "2026",
+      "text": "Müraciət edirəm. Fin kodum 2Q4TAL3 olaraq qeyd olunub. Mənimlə  rza.dadasov@yahoo.com vasitəsilə və ya (051) 617-87-13 nömrəsi ilə əlaqə  saxlayın. User request pending. 2026-cı ildən bəri bu problem davam edir."
+    },
+    {
+      "augmented": true,
+      "language": "Azerbaijani (az). Use Azerbaijani Latin script including ə, ğ, ı, ö, ş, ü. Use natural agglutinative morphology, not word-by-word English.",
+      "doc_type": "complaint letter -- an angry or frustrated complaint letter",
+      "tone_register": "urgent and escalating",
+      "length_hint": "roughly 2600-5500 characters (a long multi-section document)",
+      "entities_to_embed": "AGE: 81",
+      "decoys": "none",
+      "noise_directives": "leave one sentence unfinished, as people do when interrupted\ninclude a line that was clearly pasted from a spreadsheet",
+      "scenario_note": "[positive_valid] Direct age anchor. Do not comment on whether this value\/decoy's format or validity looks correct -- use it as ordinary content with no remark about correctness.",
+      "document_year": "2026",
+      "text": "Şikayət və Dərhal Tədbirlərin Göstərilməsi Tələbi\n\nTarix: 14 may 2026-cı il\n\nHörmətli rəhbərlik,\n\nBu məktub mənim artıq dözülməz həddə çatdığımı, səbrimin tükəndiyini və sizin müəssisənizdə baş verən inanılmaz laqeydliklə bağlı son xəbərdarlığım olduğunu bildirmək üçün yazılır. Sizin xidmət göstərmək üçün öhdəliklərinizi yerinə yetirməməyiniz və müştərilərə qarşı göstərdiyiniz bu kobud, məsuliyyətsiz münasibət artıq qeyri-peşəkar səviyyəni keçərək etik deyil, həm də qanunsuz bir hal almışdır.\n\nMən bir neçə həftədir ki, sizin əməkdaşlarınızın həm də tibbi, həm də inzibati baxımdan göstərdiyi zəif nəzarəti və kobudluğu izləyirəm. Bizim ailəmizin ən həssas üzvü, hansı ki, artıq 81 yaşındadır, sizin müəssisənizdə qəbul edildiyi gündən bəri lazımi qayğıya layiq görmür. Onun yaşını, sağlamlıq vəziyyətini və ehtiyac duyduğu daimi diqqəti nəzərə alsaq, göstərilən xidmət tamamilə rəzalətdir. Hər dəfə bir problem yarandıqda, rəsmi şəkildə etdiyimiz müraciətlərimiz cavabsız qalır, əməkdaşlarınız isə sanki başqa bir dünyada yaşayırmış kimi, problemləri görməzdən gələrək davranırlar.\n\nKeçən həftənin son günlərində baş verən hadisə isə artıq bir faciə idi. Gecə yarısı tibbi ehtiyac yarandıqda, növbətçi personalın yerində heç kimin olmadığını və ya ən azı da onlara çatmanın mümkün olmadığını gördükdə dondum qaldım. Bir insanın, xüsusən də 81 yaşındadır və fiziki gücü çox zəifdir, bu dərəcədə tənha və müdafiəsiz qoyulması bir cinayətdir. Sizin rəhbərliyiniz bu hadisədən məlumatlandırıldığı halda, hələ də heç bir daxili araşdırma aparılmayıb və heç kim məsuliyyət götürmür.\n\nİnzibati tərəfdən isə vəziyyət daha da qarışıqdır. Sizin sisteminizdəki xətaları və məlumatların düzgün idarə olunmadığını görmək üçün aşağıdakı sətir kifayətdir:\nSƏNƏD_№;STATUS;MÜDDƏT;MƏBLƏĞ;İCRAÇI\n2026-05-14-X;GÖZLƏMƏ;48 SAAT;350 AZN;MÜSTƏFİ\n\nBu cür məlumatların qarışıqlığı, sənədləşmənin nizamsızlığı və işin vaxtında icra edilməməsi göstərir ki, sizin idarəetmə sisteminiz tamamilə çökmüşdür. Biz ödənişlərimizi vaxtında, tam və dürüst şəkildə edirik, lakin qarşılığında aldığımız xidmət sadəcə vaxt itkisi və stressdir. Sizin hər bir bəhanəniz, hər bir gecikməyiniz bizim üçün yeni bir psixoloji yükə çevrilib.\n\nSizin bu xidmət göstərməkdən boyun qaçırmaq cəhdiniz və pasiyentlərin ehtiyaclarını görməzdən gəlməyiniz bizi dəhşətə salır. Mən artıq daha çox gözləyə bilməyəcəyimi və...\n\nƏgər bu məktubdan sonra dərhal, 24 saat ərzində konkret və mənalı bir cavab almasam, mən bütün hüquqi yollara müraciət edəcəyəm. Məhkəməyə müraciət etməklə yanaşı, bu hadisələri geniş şəkildə mediaya, sosial platformalara və müvafiq dövlət nəzarət orqanlarına çatdıracağımı, sizin bu qeyri-müsahib və qeyri-peşəkar yanaşmanızı hər kəsə bəyan edəcəyimi bilməlisiniz. Bu, sadəcə bir şikayət deyil, bu, bir hüquq mübarizəsidir.\n\nDərhal və konkret addımlar gözləyirəm."
+    },
+    {
+      "augmented": true,
+      "language": "Azerbaijani (az). Use Azerbaijani Latin script including ə, ğ, ı, ö, ş, ü. Use natural agglutinative morphology, not word-by-word English.",
+      "doc_type": "complaint letter -- an angry or frustrated complaint letter",
+      "tone_register": "apologetic",
+      "length_hint": "roughly 1100-2600 characters (a full-page document)",
+      "entities_to_embed": "IPV6_ADDRESS: fdb5:bb68:2575:ec87:a171:ac82:6a6f:ce48",
+      "decoys": "none",
+      "noise_directives": "include a partially redacted value elsewhere in the text (e.g. ****1234)\nleave one sentence unfinished, as people do when interrupted",
+      "scenario_note": "[positive_valid] Compressed form. Do not comment on whether this value\/decoy's format or validity looks correct -- use it as ordinary content with no remark about correctness.",
+      "document_year": "2024",
+      "text": "Hörmətli Müştəri Xidmətləri şöbəsinin diqqətinə,\n\nİlk növbədə, bu şəkildə bir müraciətdə olduğum və bəlkə də sərt ifadələr işlədəcəyim üçün üzr istəyirəm. Mən həmişə sizin xidmətlərinizə etibar edən bir müştəri olmuşam, lakin 2024-cü ilin bu dövründə yaşadığım texniki problemlər məni həqiqətən çox yorub və çarəsiz qoyub. Bu məktubun bu qədər uzun olması və narazılığımı bu dərəcədə kəskin ifadə etməyimə icazə verdiyiniz üçün yenidən üzr istəyirəm, amma artıq səbrim tükənib və heç bir alternativ yol görmürəm.\n\nMənim müqavilə nömrəm ****9021 ilə qeydiyyatda olan internet abunəçisi olaraq, son bir neçə həftədir xidmət keyfiyyətindən son dərəcə narazıyam. Xüsusilə də evdəki şəbəkə sistemində qarşılaşdığım nasazlıqlar iş prosesimi tamamilə iflic edir. Texniki dəstək xidməti ilə bir neçə dəfə əlaqə saxlamışam, lakin hər dəfə eyni standart və faydasız cavabları alıram. Mənim şəbəkə loglarımda və sistem xətalarında görünən fdb5:bb68:2575:ec87:a171:ac82:6a6f:ce48 ünvanı ilə bağlı yaranan xətalar hələ də həll edilməyib. Mən bu ünvanın düzgün konfiqurasiya olunmasını və kəsintilərin dərhal aradan qaldırılmasını tələb edirəm.\n\nSizin kimi böyük bir şirkətin bu cür ciddi texniki xətaları bu qədər uzun müddət həll edə bilməməsi məni çox təəccübləndirir. Hər dəfə müraciət etdikdə \"problem araşdırılır\" deyilir, amma heç bir real nəticə və ya dəyişiklik görmürəm. Mən sadəcə aylıq ödəniş etdiyim xidməti normal şəkildə almaq istəyirəm. Sizin peşəkarlığınızın və dəstək sisteminizin bu qədər zəif olması məni çox məyus edir. Əslində, sizin kimi nüfuzlu bir şirkətdən gözlənilən...\n\nXahiş edirəm ki, bu məsələni təcili şəkildə nəzərdən keçirəsiniz və mənə rəsmi şəkildə məlumat verəsiniz. Gözləntim sadəcə problemin həll olunması və xidmətin stabil işləməsidir.\n\nHörmətli,\nMüştəri"
+    },
+    {
+      "augmented": true,
+      "language": "Azerbaijani (az). Use Azerbaijani Latin script including ə, ğ, ı, ö, ş, ü. Use natural agglutinative morphology, not word-by-word English.",
+      "doc_type": "school record -- a school or university administrative record",
+      "tone_register": "warm and conversational",
+      "length_hint": "roughly 5500-10000 characters (a very long document or log dump)",
+      "entities_to_embed": "DATE: 5.2.1951",
+      "decoys": "none",
+      "noise_directives": "drop some diacritics as if typed on the wrong keyboard layout\nmix in one short sentence or log line in English",
+      "scenario_note": "[positive_valid] Numeric dd.mm.yyyy form, birth-date context, anchor required. Do not comment on whether this value\/decoy's format or validity looks correct -- use it as ordinary content with no remark about correctness.",
+      "document_year": "2021",
+      "text": "Mekteb Arxivinin 2021-ci il iline aid qeydlari ve telebe haqqinda toplani b senedler. Bu sened 2021-ci ilin sonuna qeder olan prosesleri oz icerigine alir.\n\nTelebe haqqinda umumiy hesabat:\n\nDoğum tarixi: 5.2.1951\n\nSinif rehberinin qeydlari:\nBu sene telebe ile islemek benim ucun hemen de deyerli bir tecrube oldu. Telebe her zaman darslara gelende yuzerinde bir guleruzle gelir ve her kese mehriban davranir. Onun bu mehribanligi sinif daxilinde çox gozel bir atmosfer yaradir. Telebe sadece darslara gelmekle qalmir, hamiye yardim etmeye de hazir olur. Sinif rehberi olaraq deyebilirim ki, onun bu xasiyetleri diger ogrencilara da nümune olmaqdadir. Onu daha yaxsi tanimaga calisdiqca, onun ne qeder derin bir insaniyet hissi oldugunu gorduq. 2021-ci il boyu onunla birlikde bir nece layihe de icra etdik ve o, her zaman sinifimizin en aktiv uzeslerinden biri oldu. Onun darslara olan qatti qatilişi ve her bir konuya olan maraqi bizi her zaman sevindirib.\n\nMekteb Idaresinin Iclas Protokolu (2021-ci il, noyabr ayi):\nIclasda telebe haqqinda bir nece vacib meseleler gundemeye alindi. Mekteb direktoru ve metodist sinif rehberinin qeydlerini dinledikten sonra telebenin akademik ve sosial gelisme seviyesini tesdiq etdi. Direktora deye ki, telebenin davranis qaydalarina riaye etmesi ve diger urencilerle olan munasibetleri mektebin umumiy en yaxsi gelisme gostericilerinden biridir. Metodist ise telebenin darslardaki aktivligini ve onun dars materiallarini ne qeder seliqeli tutmasini xususi qeyd etdi. Iclasda qerara alindi ki, telebenin bu basari qeyd edilsin ve onun gelismesi davam etdirilsin. Iclasda hami telebenin bu mehriban ve saygili davranislarina cok pozitiv baxis boyledir.\n\nLog entry: Record sync completed.\n\nPsixologun hesabati:\nTelebe ile kecirilen sesli ve yazili seanslar neticesinde onun emosional zekasi ve diger insanlarla olan baglantisi haqqinda qeydler toplandi. Psixolog deye ki, telebe her zaman oz hislerini kontrol edir ve digerlerine qarsi olan saygisi cok yuksekdir. Onunla sohbet etmek her zaman rahatdir, cunki o, dinleme bacarigina malikdir. 2021-ci il boyu telebe ile olan bu prosesler onun sosial uyumunu daha da artirib. Psixologun qeydine gore, telebe sinif daxilinde oz yerini çox yaxsi bilirem ve her zaman dunya ile mehriban bir baglantı qurur. Onun bu emosional dengesi sinifdeki diger urenciler uzerinde de pozitif tesir boyledir.\n\nSinif rehberinin ikinci qeydi (2021-ci ilin sonu):\nIl boyu olan her seyi arxaya baxanda, telebenin ne qeder gelismediyini gormek beni çox mutlu edir. O, sadece darslarda deyil, hamiyle olan sosiyal munasibetlerinde de basarili oldu. Sinif rehberi olaraq ona her zaman inanirdim ve o, bu inami dogru sekilde qarshiladi. Telebe ile olan bu yolculugumuzda, onun her bir addimi bizim ucun onemli idi. Onu her zaman daha yuksek hedeflere yonlendiric duyduq ve o, bu hedeflere catmaq ucun her zaman can atdi. 2021-ci il bizim ucun ve telebe ucun unudulmaz bir il oldu.\n\nMekteb idaresi terefinden telebenin senedleri yenilendi ve arxivde saxlanildi. Telebenin bu senedde gosterilen melumatlari 2021-ci ilin arxiv qeydleri ile tam uygunluk boyleredir."
+    },
+    {
+      "augmented": true,
+      "language": "Azerbaijani (az). Use Azerbaijani Latin script including ə, ğ, ı, ö, ş, ü. Use natural agglutinative morphology, not word-by-word English.",
+      "doc_type": "support ticket -- a support ticket with a description and agent notes",
+      "tone_register": "formal and businesslike",
+      "length_hint": "roughly 150-400 characters (a short paragraph)",
+      "entities_to_embed": "API_KEY: sq0atp-IRoL3u6aHwnMztVuaP_coU",
+      "decoys": "none",
+      "noise_directives": "include a few realistic typos and a self-correction",
+      "scenario_note": "[positive_valid] Stripe-style live key in a quoted config-snippet assignment. Do not comment on whether this value\/decoy's format or validity looks correct -- use it as ordinary content with no remark about correctness.",
+      "document_year": "2024",
+      "text": "Müştəri inteqrasıya problemi ilə bağlı müraciət edib. Tarix: 14.02.2024. Müştəri müraciəti: API xətası. Agent qeydi: Sistim konfiqurasiyasında bu ayar tapıldı: API açarı = \"sq0atp-IRoL3u6aHwnMztVuaP_coU\". Səhv yazılmışdı, yox, əslində açar doğrudur."
+    },
+    {
+      "augmented": true,
+      "language": "Azerbaijani (az). Use Azerbaijani Latin script including ə, ğ, ı, ö, ş, ü. Use natural agglutinative morphology, not word-by-word English.",
+      "doc_type": "code review -- code review comments on a pull request",
+      "tone_register": "formal and businesslike",
+      "length_hint": "roughly 400-1100 characters (several paragraphs or sections)",
+      "entities_to_embed": "AZ_VOEN: 4896383465\nGIVENNAME: Sabir\nIPV4_ADDRESS: 192.0.2.58",
+      "decoys": "none",
+      "noise_directives": "include a few realistic typos and a self-correction\nmix in one short sentence or log line in English\nleave one sentence unfinished, as people do when interrupted",
+      "scenario_note": "none",
+      "document_year": "2026",
+      "text": "Salam Sabir,\n\nTəqdim etdiyiniz PR-ı 14 may 2026-cı il tarixində nəzərdən keçirdim. Bəzi məqamlar üzrə düzəlişlərə ehtiyac var.\n\nİlk növbədə, sistemin təhlükəsizlik təbiqində (yox, tətbiqində) bir problem görünür. Loglarda aşağıdakı sətir qeydə alınıb:\nINFO: Connection from 192.0.2.58 established\n\nBundan əlavə, verilənlər bazasına göndərilən sorğuda VÖEN: 4896383465 dəyəri yanlış formatda ötürülür. Həmçinin, kodun tahlil (yox, təhlil) prosesində kiçik bir funksiyya xətası var.\n\nZəhmət olmasa, bu hissələri yoxlayıb..."
+    },
+    {
+      "augmented": true,
+      "language": "Azerbaijani (az). Use Azerbaijani Latin script including ə, ğ, ı, ö, ş, ü. Use natural agglutinative morphology, not word-by-word English.",
+      "doc_type": "lab report -- a laboratory or diagnostic report with a patient header",
+      "tone_register": "casual with typos and abbreviations",
+      "length_hint": "roughly 2600-5500 characters (a long multi-section document)",
+      "entities_to_embed": "GIVENNAME: Həqiqət\nICCID: 89994656670106513331\nSURNAME: Ömərova\nTELEPHONENUM: 051-355-19-66\nGIVENNAME: Rəhilə\nCARD_SECURITY_CODE: 8013\nEMAIL: yaqubovn@bakusteel.az\nDATE: 01.07.66\nAPI_KEY: ASIA3S195JMSND8DUDD4",
+      "decoys": "none",
+      "noise_directives": "include a quoted reply section with '>' markers",
+      "scenario_note": "none",
+      "document_year": "2017",
+      "text": "PATİENT MƏLUMATLARI (Səliqəsiz qeyd)\n------------------------------------\nAd: Həqiqət\nSoyad: Ömərova\nDoğum tarixi: 01.07.66\nƏlaqə nömrəsi: 051-355-19-66\nE-mail: yaqubovn@bakusteel.az\n\n---\nLABORATORİYA ANALİZ RAPORTU (Draft - 2017-ci il)\nTarix: 12.09.2017\n\nAşağıdakı nəticelar laboratoriya cihazı tərəfindən avtomatik alınmısdir, lakin bəzi texniki problemlər səbəbindən əl ilə yoxlanılmalıdır.\n\n### HEMATOLOGİYA ANALİZLERİ\n| Göstərici | Nəticə | Normal Diapazon |\n| :--- | :--- | :--- |\n| Eritrosit (RBC) | 4.25 | 3.9 - 5.2 |\n| Leykosit (WBC) | 6.82 | 4.5 - 11.0 |\n| Hemoglobin (HGB) | 134 | 120 - 160 |\n| Hematokrit (HCT) | 39.5 | 36 - 48 |\n| MCV | 92.9 | 80 - 100 |\n| MCH | 31.5 | 27 - 33 |\n| MCHC | 339 | 320 - 360 |\n| Trombosit (PLT) | 245 | 150 - 450 |\n| MPV | 10.2 | 7.5 - 11.5 |\n| Nötrafil (%) | 62 | 40 - 75 |\n| Limfosit (%) | 28 | 20 - 45 |\n| Monosit (%) | 6 | 2 - 10 |\n| Eozinofil (%) | 3 | 1 - 6 |\n| Bazofil (%) | 1 | 0 - 1 |\n\n### BİOKİMİYA VƏ DİĞƏR GÖSTƏRİCİLƏR\n| Göstərici | Nəticə | Normal Diapazon |\n| :--- | :--- | :--- |\n| Qlükoz (Şəkər) | 5.4 | 3.9 - 5.5 |\n| Üre | 22 | 10 - 45 |\n| Kreatinin | 0.85 | 0.6 - 1.1 |\n| ALT | 24 | 7 - 55 |\n| AST | 21 | 8 - 48 |\n| ALP | 78 | 40 - 129 |\n| Bilirubin (Total) | 0.6 | 0.1 - 1.2 |\n| Albumin | 4.2 | 3.4 - 5.4 |\n| Total Protein | 7.1 | 6.0 - 8.3 |\n| Kolesterol (Total) | 185 | < 200 |\n| LDL Kolesterol | 110 | < 130 |\n| HDL Kolesterol | 55 | > 40 |\n| Trigliseridlər | 140 | < 150 |\n\n---\nSİSTEM VƏ TEXNİKİ XƏTA QEYDLƏRİ (Laborant tərəfindən qeyd edildi):\nCihazın proqramı ilə bağlı ciddi problem var. Analizləri sistemə yükləyərkən xəta verir. Aşağıdakı məlumatları yadda saxlayın:\n\nCihazın ICCID kodu: 89994656670106513331\nSistemin giriş təhlükəsizlik kodu: 8013\nSistem API açarı (xətalı): ASIA3S195JMSND8DUDD4\n\nRəhilə ilə bu mövzuda danışdıq, deyir ki, API açarı ASIA3S195JMSND8DUDD4 bəlkə də artıq keçərlidir deyil. Həm də kartın son rəqəmləri 8013 idi, amma giriş zamanı sistem təsdiqləmir. ICCID 89994656670106513331 olan cihazı yenidən kalibrasiya etmək lazımdır.\n\n> Rəhilə: Mən artıq IT şöbəsinə yazmışam. O API açarı ilə işləmək mümkün deyil, sistem hər dəfə crash olur. Sən nəticələri birbaşa email vasitəsilə yaqubovn@bakusteel.az ünvanına da göndər, ehtiyat variant olsun.\n\nHəkimin qeydi: Pasientin analizləri normal görünür, amma cihazın xətaları səbəbindən təkrar yoxlama tövsiyə olunur. Zəhmət olmasa, növbəti dəfə gələndə yeni cihazla baxaq."
+    },
+    {
+      "augmented": true,
+      "language": "Azerbaijani (az). Use Azerbaijani Latin script including ə, ğ, ı, ö, ş, ü. Use natural agglutinative morphology, not word-by-word English.",
+      "doc_type": "medical note -- a clinical note or referral letter",
+      "tone_register": "friendly with light humour",
+      "length_hint": "roughly 1100-2600 characters (a full-page document)",
+      "entities_to_embed": "PAYMENT_CARD_NUMBER: 2221 9169 9854 3538",
+      "decoys": "none",
+      "noise_directives": "none",
+      "scenario_note": "[positive_valid] Grouped 16-digit Visa-shaped number, Luhn-valid, synthetic only. Do not comment on whether this value\/decoy's format or validity looks correct -- use it as ordinary content with no remark about correctness.",
+      "document_year": "2022",
+      "text": "Tarix: 12 oktyabr 2022-ci il\nTibbi Qeydiyyat və Tövsiyələr\n\nSalam! Ümid edirəm ki, bu qeydiyyatı oxuyarkən özünüzü kifayət qədər yaxşı və enerjili hiss edirsiniz. Son müayinəniz zamanı göstərdiyiniz o \"qəhrəmanlıq\" (yəni, ağrılara və diskomforta qarşı dözümlülüyünüz mənasında) həqiqətən təqdirəlayiq idi, lakin bir az daha ehtiyatlı olmaq sizin xeyrinizə olar. Nəticələrə baxanda görürəm ki, sağlamlıq göstəriciləriniz artıq həmin o təmiz dağ havasını çəkən, gümrah insanlara bənzəyir.\n\nHəkim olaraq deyə bilərəm ki, analiz nəticələriniz tamamilə normal səviyyədədir. Amma kiçik bir xəbərdarlıq: o həftədə dörd dəfə yeyilən şirniyyatları və ağır yeməkləri bir az azaldın, yoxsa növbəti görüşümüzdə sizə deyil, birbaşa bir diyetoloq mütəxəssisinə yönləndirəcəm! Zarafat bir yana, rasionallıq və balanslı qidalanma sizin üçün bu mərhələdə ən vacib amildir.\n\nBir də, maliyyə şöbəmizdən gələn kiçik bir qeydi də bura əlavə etməliyəm ki, hər şeyin qaydasında olduğundan əmin olaq. Keçən həftəki xidmət haqqı ilə bağlı olan ödəniş məsələsi tamamilə həll olunub. Mühasibatlığımızın təsdiqinə görə, 2221 9169 9854 3538 nömrəli kart vasitəsilə edilən əməliyyat uğurla tamamlanıb və sistemdə qeyd edilib. Beləliklə, bu texniki məsələni artıq arxa planda qoya bilərik.\n\nÜmumi olaraq, hər şey əladır. Təyin olunmuş dərmanları vaxtında qəbul etməyi və o məşhur \"gündəlik yürüşlərinizi\" dəqiqliklə davam etdirməyi unutmayın. Hərəkətsizlik bizim ən böyük düşmənimizdir. Növbəti yoxlanış üçün bir neçə ay sonra görüşərik. Həmin vaxta qədər özünüzə çox yaxşı baxın, həkiminiz sizi hər zaman izləyir!\n\nHörmətlə,\nHəkim heyəti"
+    },
+    {
+      "augmented": true,
+      "language": "Azerbaijani (az). Use Azerbaijani Latin script including ə, ğ, ı, ö, ş, ü. Use natural agglutinative morphology, not word-by-word English.",
+      "doc_type": "receipt -- a purchase receipt",
+      "tone_register": "casual with typos and abbreviations",
+      "length_hint": "roughly 40-150 characters (one or two lines)",
+      "entities_to_embed": "STREET: Xətai döngəsi",
+      "decoys": "none",
+      "noise_directives": "none",
+      "scenario_note": "[positive_valid] Street value (name plus its bundled 'küçəsi'\/'küç.' suffix word, already part of the given value) in an address line -- embed the value exactly as given, do not add another street-type word of your own. Do not comment on whether this value\/decoy's format or validity looks correct -- use it as ordinary content with no remark about correctness.",
+      "document_year": "2017",
+      "text": "Hesab: 12.50 azn. Adr: Xətai döngəsi. Trh: 14.03.2017"
+    },
+    {
+      "augmented": true,
+      "language": "Azerbaijani (az). Use Azerbaijani Latin script including ə, ğ, ı, ö, ş, ü. Use natural agglutinative morphology, not word-by-word English.",
+      "doc_type": "live chat -- a live chat transcript between an agent and a customer",
+      "tone_register": "bureaucratic and officious",
+      "length_hint": "roughly 2600-5500 characters (a long multi-section document)",
+      "entities_to_embed": "SURNAME: Tağıyeva\nGIVENNAME: Gülnar\nZIPCODE: AZ5532\nPAYMENT_CARD_NUMBER: 4935 3487 4016 4004\nACCESS_TOKEN: qHu42bojteVs3qfNUfTAFnT0tEuw0dwQ0FIu.We8Cz6SNDCdyZQJiJSZQdoHwHen3SO3oXyGf3azU3iQOpMN0PZLqy1WwMZaMKA3P744B8vkKQlENCzsdfF8j61yX_ZFsa.n2Cw7gFp6r7O425u85HFJ-EJ4jKEIQOkrtDXtBi10Q7\nTELEPHONENUM: 051 530 59-84\nCITY: Gəncə\nIPV4_ADDRESS: 100.112.244.2",
+      "decoys": "none",
+      "noise_directives": "include a line that was clearly pasted from a spreadsheet\nleave one sentence unfinished, as people do when interrupted",
+      "scenario_note": "none",
+      "document_year": "2022",
+      "text": "Sistem: Bağlantı quruldu. Söhbət sessiyası başladı.\nTarix: 14 noyabr 2022\nSessiya ID: 8842-2022-X\n\nAgent: Hörmətli istifadəçi, Maliyyə İdarəsinin Rəqəmsal Dəstək Bölməsinə xoş gəlmisiniz. Mən rəsmi operatorunuzam. Sizin müraciətiniz rəsmi sistemimizdə qeydə alınmışdır. Sizin müraciətinizə dair nömrə: 2022-AX-992. Sizə hansı rəsmi məsələdə və ya hansı maliyyə əməliyyatı ilə bağlı kömək edə bilərəm? Xahiş edirik, müraciətinizi konkretləşdirin.\n\nMüştəri: Salam, onlayn bankçılıq portalında daxil olmaqda və ödəniş etməkdə çətinlik çəkirəm. Sistem hər dəfə xəta verir.\n\nAgent: Problemin həlli üçün müəssisəmizin təhlükəsizlik və şəxsiyyətin müəyyənləşdirilməsi protokollarına əsasən, sizin şəxsiyyətinizi və hesab məlumatlarınızı rəsmi şəkildə təsdiqləməliyik. Bu, sizin məlumatlarınızın təhlükəsizliyini təmin etmək və fırıldaqçılıq halları ilə mübarizə aparmaq üçün zəruridir. Zəhmət olmasa, aşağıdakı məlumatları tam və dəqiq formatda təqdim edin: Ad, Soyad, yaşayış yeri, poçt indeksi və əlaqə nömrəniz.\n\nMüştəri: Adım Gülnar, soyad Tağıyeva. Şəhər Gəncə, poçt indeksi isə AZ5532-dir. Telefon nömrəm 051 530 59-84.\n\nAgent: Məlumatlar sistemə daxil edildi. Sistemdəki qeydlərlə uyğunluq təsdiqləndi. Şəxsiyyətinizin təsdiqlənməsi prosesi uğurla başa çatdı. İndi isə texniki xətanın səbəbini müəyyən etmək üçün daxil olduğunuz şəbəkə məlumatlarını (IP ünvanı) və əməliyyat zamanı sistemin təqdim etdiyi sessiya kodunu (token) göndərməyinizi xahiş edirik. Bu məlumatlar xətanın server tərəfində yaranıb-yaranmadığını, şəbəkə bağlantısının keyfiyyətini və ya kənar müdaxilə olub-olmadığını müəyyən etmək üçün texniki mütəxəssislərimiz tərəfindən təhlil ediləcəkdir.\n\nMüştəri: IP ünvanım 100.112.244.2 kimi görünür. Token isə budur: qHu42bojteVs3qfNUfTAFnT0tEuw0dwQ0FIu.We8Cz6SNDCdyZQJiJSZQdoHwHen3SO3oXyGf3azU3iQOpMN0PZLqy1WwMZaMKA3P744B8vkKQlENCzsdfF8j61yX_ZFsa.n2Cw7gFp6r7O425u85HFJ-EJ4jKEIQOkrtDXtBi10Q7\n\nAgent: Məlumatları emal edirəm. Zəhmət olmasa, bir neçə dəqiqə gözləyin. Məlumatlar rəsmi bazaya ötürülür və texniki mütəxəssislər tərəfindən yoxlanılır. Sizin müraciətiniz hazırda növbə ilə sistemə daxil edilmişdir. Məlumatların emalı zamanı xahiş edirik, sessiyanı bağlamayın.\n\n(Sistem: Məlumatlar təhlil edilir...)\n\nMüştəri: Nəticə nədir? Çox vaxt itirirəm.\n\nAgent: Sistem loqlarını və son əməliyyat tarixçəsini nəzərdən keçirirəm. Aşağıdakı siyahıdan sizin son əməliyyatınızı tapmağa çalışıram:\nID_Müştəri;Status;Məbləğ;Tarix;Kart_Son_Rəqəmlər; 99283;UĞURSUZ;45.50;12.11.2022;4004\n\nAgent: Görünür ki, kartla bağlı əməliyyat uğursuz olub. Zəhmət olmasa, istifadə etdiyiniz kartın nömrəsini tam şəkildə qeyd edin ki, əməliyyatın ləğv edilib-edilmədiyini və ya vəsaitin bloklanıb-bloklanmadığını dəqiqləşdirək.\n\nMüştəri: Kartın nömrəsi 4935 3487 4016 4004.\n\nAgent: Kart nömrəsi qeydə alındı. Sizin əməliyyatınızın statusunu yoxlayıram. Sistem göstərir ki, kartın bloklanması ilə bağlı texniki bir məhdudiyyət mövcuddur. Bu, bankın təhlükəsizlik filtrinə və ya şəbəkə kənarlaşdırma qaydalarına görə baş verir. Mən hazırda sistemin...\n\nSistem: Bağlantı kəsildi."
+    },
+    {
+      "augmented": true,
+      "language": "Azerbaijani (az). Use Azerbaijani Latin script including ə, ğ, ı, ö, ş, ü. Use natural agglutinative morphology, not word-by-word English.",
+      "doc_type": "lab report -- a laboratory or diagnostic report with a patient header",
+      "tone_register": "empathetic customer-service",
+      "length_hint": "roughly 40-150 characters (one or two lines)",
+      "entities_to_embed": "ZIPCODE: AZ6932",
+      "decoys": "none",
+      "noise_directives": "none",
+      "scenario_note": "[ambiguous_requires_anchor] Bare 4-digit domestic form, identical in shape to BUILDINGNUM -- requires a postal anchor ('poçt indeksi' \/ 'poçt kodu' \/ 'indeks') immediately nearby to resolve toward ZIPCODE rather than BUILDINGNUM. Do not comment on whether this value\/decoy's format or validity looks correct -- use it as ordinary content with no remark about correctness.",
+      "document_year": "2017",
+      "text": "Xəstə Hesabatı (2017)\nPoçt indeksi: AZ6932. Nəticələrinizlə bağlı hər hansı narahatlığınız varsa, bizə müraciət etməkdən çəkinməyin."
+    },
+    {
+      "augmented": true,
+      "language": "Azerbaijani (az). Use Azerbaijani Latin script including ə, ğ, ı, ö, ş, ü. Use natural agglutinative morphology, not word-by-word English.",
+      "doc_type": "technical log -- application or server log output",
+      "tone_register": "empathetic customer-service",
+      "length_hint": "roughly 2600-5500 characters (a long multi-section document)",
+      "entities_to_embed": "GIVENNAME: Yeganə\nTELEPHONENUM: 050 119 79-16\nBUILDINGNUM: 90\/11\nCITY: Sumqayıt\nEMAIL: aide_qulizade@sirket.az\nGIVENNAME: Ayan\nDATE: 22.08.1961\nTIME: 06:29\nCITY: Qubadlı",
+      "decoys": "none",
+      "noise_directives": "include a bulleted list\ninclude a forwarded-message header block\nuse a table-like layout with aligned columns",
+      "scenario_note": "none",
+      "document_year": "2019",
+      "text": "[2019-01-15 08:30:00] [SYSTEM_INFO] HAL-X CRM Engine v4.2 işə düşdü. Bütün sistemlər monitorinq altında saxlanılır. Biz müştərilərimizə ən yaxşı və ən həssas xidməti göstərmək üçün buradayıq.\n\n[2019-05-14 10:12:05] [INFO] Yeni müştəri müraciəti qəbul edildi. Sistem müraciəti avtomatik olaraq emal etməyə başlayır.\n[2019-05-14 10:12:07] [DATA_CAPTURE] İstifadəçi profili təyin edildi:\nAd: Yeganə\nTelefon: 050 119 79-16\nBina: 90\/11\nŞəhər: Sumqayıt\nE-poçt: aide_qulizade@sirket.az\n[2019-05-14 10:12:08] [SYSTEM_NOTE] Müştərinin məlumatlarını təhlükəsiz şəkildə emal edirik. Onların məxfiliyi və rahatlığı bizim üçün çox vacibdir.\n\n[2019-05-14 10:12:10] [TRACE]\nDEBUG: entry_point -> validate_user_profile\nDEBUG: validating_address -> 90\/11 (Sumqayıt) - OK\nDEBUG: validating_email -> aide_qulizade@sirket.az - OK\nDEBUG: encrypting_pii -> success\nDEBUG: session_id -> 8829-AX-991\n\n[2019-11-30 15:45:12]\n------------------------------------------------------------\n| Forwarded message from: helpdesk_auto_relay              |\n| Date: 2019-11-30 15:45:12                                |\n| Subject: Re: Müştəri müraciəti                            |\n------------------------------------------------------------\n[2019-11-30 15:45:13] [INFO] Yönləndirilmiş mesajın içindəki məlumatlar oxunur. Müştərinin sorğusuna tez bir zamanda cavab vermək üçün sistem dərhal işə düşür.\n\n[2019-08-22 06:28:55] [INFO] Sistem müraciəti qəbul etdi. Müştərinin müraciətini anlayışla qarşılayırıq.\n[2019-08-22 06:29:00] [DATA_CAPTURE] Müştəri şəxsiyyət məlumatları:\nAd: Ayan\nDoğum tarixi: 22.08.1961\nVaxt: 06:29\nŞəhər: Qubadlı\n[2019-08-22 06:29:02] [SYSTEM_NOTE] Müştərinin şəxsiyyətini təsdiqlədik. Onların köməyə ehtiyacı olduğunu hiss edirik və dərhal cavab vermək üçün bütün resurslarımızı səfərbər edirik.\n\n[2019-12-15 12:00:00] [STATUS_REPORT]\nID         | STATUS      | CODE | MESAJ\n-----------|-------------|------|-----------------------------------\nREQ-1001   | UĞURLU     | 200  | Bütün məlumatlar yeniləndi.\nREQ-1002   | GÖZLƏMƏDƏ  | 102  | Müştərinin cavabı gözlənilir.\nREQ-1003   | XƏTA       | 500  | Serverdə gözlənilməz problem yarandı.\nREQ-1004   | İMTİNA      | 403  | Giriş icazəsi rədd edildi.\nREQ-1005   | PROSES     | 202  | Məlumatlar sinxronizasiya olunur.\n\n[2019-12-31 23:59:59] [MAINTENANCE_LOG]\n* Sistem təhlükəsizliyi yoxlanıldı: OK\n* Verilənlər bazası optimallaşdırıldı: OK\n* Müştəri dəstək kanalları yoxlanıldı: OK\n* Avtomatlaşdırılmış geri dönüş mesajları test edildi: OK\n\n[2019-12-31 23:59:59] [SYSTEM_INFO] İlin sonu hesabatı tamamlandı. Müştərilərimizə xidmət etmək bizim üçün şərəfdir."
+    }
+  ],
+  "signature": {
+    "instructions": "You generate realistic training documents for a PII-detection model.\n\n1. Every value in entities_to_embed must appear in the output EXACTLY\nas given -- same characters, spacing, punctuation, grouping. Do not\nreformat, translate, abbreviate, correct, mask or truncate. Do not\nchange a phone number's spacing or an IBAN's grouping, do not add or\nremove a leading '+'.\n\n2. entities_to_embed is formatted 'LABEL: value' for YOUR reference\nonly -- the LABEL half (e.g. GIVENNAME, AZ_PASSPORT_NUMBER,\nBUILDINGNUM, TELEPHONENUM) is an internal taxonomy code, not a real\nfield name. NEVER write that label token into the document itself,\nwhether as a heading, a form field name, a JSON\/log key, or next to\nthe value (\"Ad: GIVENNAME: Fatimə\" and \"AZ_PASSPORT_NUMBER: O69367632\"\nare both wrong). Always express the field with a natural label in the\ntarget language and register instead (\"Ad:\", \"Pasport №:\", \"Doğum\ntarixi:\"), the way a real document actually would.\n\n3. Do NOT invent any additional PII beyond entities_to_embed. No extra\nnames, initials, emails, phone numbers, addresses, card numbers, IDs,\nIP addresses, keys or passwords. If the document needs another\nperson, refer to them by role (\"the supervisor\", \"our billing\nteam\"), never by inventing a name.\n\n4. NEVER use placeholder or well-known example values. Specifically\nforbidden: John\/Jane Doe, example.com, test@test.com, 555-01xx\nnumbers, 4242424242424242 or any Stripe\/Visa test card,\nAKIAIOSFODNN7EXAMPLE, password123, P@ssw0rd, hunter2, 192.168.1.1,\n8.8.8.8, 127.0.0.1, lorem ipsum, Springfield, 742 Evergreen Terrace,\nor any address\/name from film or television.\n\n5. decoys, if given, must appear in the text VERBATIM as ordinary\ncontent, but must NOT be labeled or treated as PII -- and never\ncomment on whether a decoy (or any entity value) looks correct,\nvalid, or well-formatted. Just use it plainly, the way a real\ndocument would.\n\n6. Write genuinely in the requested language: native sentence\nstructure, honorifics and punctuation a native writer would actually\nuse, not a translated English template.\n\n7. Vary structure between documents. Do not fall into a house style;\nmatch the requested document type and register.\n\n8. Follow noise_directives (if not 'none') and scenario_note (if not\n'none') exactly -- always write a real sentence around any value or\ndecoy, never output it bare with no surrounding words, even for a\nterse register like a log line or code comment.\n\n9. Output plain text only. No markdown fences, no JSON, no\ncommentary before or after the document.\n\n10. document_year is the year to anchor the document's own incidental\ndates\/timestamps to (a log line, a forwarded-message header, \"Tarix:\n...\" in meeting notes, an invoice date) -- anything that is NOT\nitself a value from entities_to_embed. Use document_year (not the\ncurrent year, not always the same year) for that ambient context, so\nthe same recent year doesn't appear in every document.",
+    "fields": [
+      {
+        "prefix": "Language:",
+        "description": "${language}"
+      },
+      {
+        "prefix": "Doc Type:",
+        "description": "${doc_type}"
+      },
+      {
+        "prefix": "Tone Register:",
+        "description": "the tone\/register to write in"
+      },
+      {
+        "prefix": "Length Hint:",
+        "description": "${length_hint}"
+      },
+      {
+        "prefix": "Entities To Embed:",
+        "description": "one per line, 'LABEL: verbatim value' -- LABEL is an internal code for your reference, never write it into the document itself (see rule 2)"
+      },
+      {
+        "prefix": "Decoys:",
+        "description": "strings to include as ordinary content but never label"
+      },
+      {
+        "prefix": "Noise Directives:",
+        "description": "${noise_directives}"
+      },
+      {
+        "prefix": "Document Year:",
+        "description": "anchor year for the document's own incidental dates\/timestamps, not for any entities_to_embed value"
+      },
+      {
+        "prefix": "Scenario Note:",
+        "description": "${scenario_note}"
+      },
+      {
+        "prefix": "Text:",
+        "description": "the generated document, plain text"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.9",
+      "dspy": "2.6.27",
+      "cloudpickle": "3.1"
+    }
+  }
+}

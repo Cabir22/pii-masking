@@ -1,0 +1,57 @@
+==========================================================================
+CORPUS VALIDATION -- sprint1_llm_b2.jsonl
+==========================================================================
+records            : 6,000
+entity mentions    : 19,555
+distinct ids       : 6,000
+labels present     : 27/27
+length             : min 37  p50 602  p95 3,209  max 12,940
+doc types          : 42
+sha256             : db102eae040b205544e459216796773d...
+
+MUST-BE-ZERO CHECKS
+  malformed_json                        0   ok
+  duplicate_id                          0   ok
+  span_text_mismatch                    0   ok
+  span_out_of_range                     0   ok
+  empty_span                            0   ok
+  overlapping_spans                     0   ok
+  duplicate_span                        0   ok
+  unknown_label                         0   ok
+  removed_label                         0   ok
+  zero_width_in_span                    0   ok
+  not_nfc                               0   ok
+  no_entities                           1   FAIL
+      e.g. llm_az_004213
+  exact_duplicate_text                  0   ok
+  structural_number_span                0   ok
+  missing_anchor                        0   ok
+  repeat_mention_incomplete             0   ok
+  validator_failure                     0   ok
+  unlabeled_pii_leak                    0   ok
+  resolver_drift                        1   FAIL
+      e.g. llm_az_005216 +0 -2 span(s)
+  planned_value_unlabelled             36   FAIL
+      e.g. llm_az_000345 DATE '1991-09-14' as '14.09.1991' (reformatted)
+      e.g. llm_az_001127 DATE '1981-08-03' as '03.08.1981' (reformatted)
+      e.g. llm_az_001156 DATE '1977-12-15' as '15.12.1977' (reformatted)
+
+INFORMATIONAL
+  band_metadata_mismatch              426
+  cyrillic_present                    137
+  near_duplicate                        0
+
+LABEL DISTRIBUTION (actual / target)
+  IPV6_ADDRESS                   210 mentions      169 distinct  ratio 1.79
+  ICCID                          197 mentions      141 distinct  ratio 1.68
+  MAC_ADDRESS                    227 mentions      176 distinct  ratio 1.45
+  AZ_VOEN                        279 mentions      209 distinct  ratio 1.43
+  AZ_DRIVER_LICENSE_NUMBER       273 mentions      196 distinct  ratio 1.40
+  TIME                           579 mentions      357 distinct  ratio 1.18
+  AZ_PASSPORT_NUMBER             264 mentions      198 distinct  ratio 1.12
+  EMAIL                        2,084 mentions    1,708 distinct  ratio 0.89
+
+==========================================================================
+RESULT: FAIL -- 3 blocking check(s): no_entities, resolver_drift, planned_value_unlabelled
+==========================================================================
+json -> reports\llm_batch2\b2_validate_before.json

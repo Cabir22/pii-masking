@@ -1,0 +1,31 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000274,"TƏCİLİ: SİSTEM GİRİŞİ VƏ İLK QEYDİYYAT PROSESİ HAQQINDA XƏBƏRDARLIQ
+
+Tarix: 14.05.2025
+Status: Kritik dərəcəli xəta və dərhal müdaxilə tələb olunur
+
+Hörmətli işçi,
+
+Yeni işə qəbul prosesinizin son mərhələsi olan sistem giriş parametrləri ilə bağlı ciddi bir texniki anlaşılmazlıq aşkar edilmişdir. Sənədləşmə dərhal tamamlanmalıdır, əks halda hesabınızın bloklanması və yeni layihənin gecikməsi qaçılmazdır. Məlumatların təhlükəsizliyi və giriş icazələrinin aktivləşdirilməsi üçün aşağıdakı məlumatları dərhal yoxlayın və təsdiqləyin.
+
+[2025-05-14 09:12:44] [ERROR] Unauthorized access attempt detected from source 192.168.73.23.
+[2025-05-14 09:13:02] [WARNING] Session token mismatch in onboarding module.
+
+Sistemin işə salınması üçün lazım olan konfiqurasiya məlumatları:
+
+İstifadəçi Profili:
+Ad: Mavinur
+Soyad: [Sistem tərəfindən gizlədildi]
+Əlaqə şəxsi: Sədəfnisə
+Əlaqə e-poçtu: cavus8660@box.az
+Mobil nömrə: +994 55 498 18 17
+
+Texniki Giriş Parametrləri (DİQQƏT! Bu məlumatları heç kimlə paylaşmayın):
+API açarı: xapp-1-YDIGYIMRE-pLYXt2GrO5c2b19kEWoaaQ2G
+Giriş tokeni: XzjkyQdgiWhJkLjPg60wz40sgVCJIc_44KYu.5rZ0qrScl-8XguiHcYHiyzz6DlqOTvzSZn7k7bAvnkuaWoC2EOq7_SWpyB5jLNHgvPgsYLfm3JKgE5AGnY8ns7_.vxjbul-xnyH1vR-4D2DFowO0dRD5c_2Zp69hZ_EZsbU
+
+Bu mərhələdə əsas problem odur ki, Mavinur tərəfindən təqdim olunan daxili şəbəkə ünvanı olan 192.168.73.23 ünvanı sistem tərəfindən tanınmır. Əgər bu parametrlər dərhal düzəldilməsə, bütün onboarding prosesi dayandırılacaqdır. Sədəfnisə ilə əlaqə saxlayaraq texniki dəstək qrupuna məlumat verilməlidir.
+
+Xahiş olunur, yuxarıdakı API açarı və tokenin düzgünlüyünü dərhal yoxlayın. Əgər giriş uğursuz olarsa, cavus8660@box.az ünvanına dərhal xəbər verin. Gecikmənin nəticələri maliyyə itkisi ilə nəticələnə bilər.
+
+Mövzu: Onboarding statusu - Kritik dərəcəli",az,"[{""start"":615,""end"":628,""label"":""IPV4_ADDRESS"",""text"":""192.168.73.23""},{""start"":799,""end"":806,""label"":""GIVENNAME"",""text"":""Mavinur""},{""start"":858,""end"":867,""label"":""GIVENNAME"",""text"":""Sədəfnisə""},{""start"":883,""end"":899,""label"":""EMAIL"",""text"":""cavus8660@box.az""},{""start"":913,""end"":930,""label"":""TELEPHONENUM"",""text"":""+994 55 498 18 17""},{""start"":1018,""end"":1059,""label"":""API_KEY"",""text"":""xapp-1-YDIGYIMRE-pLYXt2GrO5c2b19kEWoaaQ2G""},{""start"":1074,""end"":1242,""label"":""ACCESS_TOKEN"",""text"":""XzjkyQdgiWhJkLjPg60wz40sgVCJIc_44KYu.5rZ0qrScl-8XguiHcYHiyzz6DlqOTvzSZn7k7bAvnkuaWoC2EOq7_SWpyB5jLNHgvPgsYLfm3JKgE5AGnY8ns7_.vxjbul-xnyH1vR-4D2DFowO0dRD5c_2Zp69hZ_EZsbU""},{""start"":1279,""end"":1286,""label"":""GIVENNAME"",""text"":""Mavinur""},{""start"":1338,""end"":1351,""label"":""IPV4_ADDRESS"",""text"":""192.168.73.23""},{""start"":1472,""end"":1481,""label"":""GIVENNAME"",""text"":""Sədəfnisə""},{""start"":1652,""end"":1668,""label"":""EMAIL"",""text"":""cavus8660@box.az""}]",onboarding_doc,long,urgent and escalating,[],0,0,llm,"{""index"":274,""lang"":""az"",""doc_type"":""onboarding_doc"",""doc_type_hint"":""an employee or customer onboarding document"",""register"":""urgent and escalating"",""band"":""long"",""min_chars"":1100,""max_chars"":2600,""length_hint"":""a full-page document"",""entities"":[{""label"":""EMAIL"",""value"":""cavus8660@box.az""},{""label"":""GIVENNAME"",""value"":""Mavinur""},{""label"":""GIVENNAME"",""value"":""Sədəfnisə""},{""label"":""API_KEY"",""value"":""xapp-1-YDIGYIMRE-pLYXt2GrO5c2b19kEWoaaQ2G""},{""label"":""TELEPHONENUM"",""value"":""+994 55 498 18 17""},{""label"":""ACCESS_TOKEN"",""value"":""XzjkyQdgiWhJkLjPg60wz40sgVCJIc_44KYu.5rZ0qrScl-8XguiHcYHiyzz6DlqOTvzSZn7k7bAvnkuaWoC2EOq7_SWpyB5jLNHgvPgsYLfm3JKgE5AGnY8ns7_.vxjbul-xnyH1vR-4D2DFowO0dRD5c_2Zp69hZ_EZsbU""},{""label"":""IPV4_ADDRESS"",""value"":""192.168.73.23""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a timestamp-prefixed log line or two""],""negative_only"":false,""seed"":1408279416,""edge_case"":null,""reference_year"":2025}",source

@@ -1,0 +1,9 @@
+Agent: Alo. Texniki dəstək.
+Müştəri: Salam. Nömrəm +994505795433. Bağlantı xətası verir.
+Agent: Detal verin. Hansı xəta?
+Müştəri: API açarı işlemir. Kod budur: ghp_r8nPiXyVpvz2TnkB1bfJOvWtPt2gr4vShKVg.
+Agent: Kodu təkrar deyin.
+Müştəri: ghp_r8nPiXyVpvz2TnkB1bfJOvWtPt2gr4vShKVg.
+Agent: Gözləyin. Sistim yoxlayıram... yox, yoxlayıram.
+Müştəri: Tez olun. Vaxtım azdır.
+Agent: Xəta tapıldı. Kodun icazəsi bitib. Sistemin konfiqurasiyasını yeniləyin.

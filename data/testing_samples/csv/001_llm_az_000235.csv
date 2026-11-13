@@ -1,0 +1,50 @@
+﻿id,text,lang,entities,_doc_type,_bucket,_register,_noise,_hard_negatives,_adversarials,_source,_spec,origin
+llm_az_000235,"MÜLKIETİN İCARƏSİ HAQQINDA SÖZLEŞMƏNİN ƏLVERİŞLİ VERSİYASI
+
+Salam! Bu sənəd, Sumqayıt şəhərində yerləşən mənzilin icarə şərtlərini hər iki tərəf üçün mümkün qədər aydın və səmimi bir şəkildə izah etmək məqsədilə hazırlanmışdır. Biz istəyirik ki, bu əməkdaşlıq həm ev sahibi, həm də kirayəçi üçün rahat və uzunmüddətli olsun.
+
+TƏRƏFLƏR VƏ ÜMUMİ MƏLUMATLAR
+
+Bu müqavilə, aşağıda qeyd olunan şəxslər arasında imzalanır:
+
+İcarəçi tərəf:
+Ad: Pinarə Sərxanzadə
+Doğum tarixi: 09.10.56
+Əlaqə nömrəsi: +994106003916
+Elektron poçt: hameyde.babanezerov@yandex.ru
+
+İcarə verən tərəf:
+Ad: Qəribova
+Maliyyə kodu: KXLJP1F
+
+Mənzil Sumqayıt şəhərində yerləşir və icarə müddətində bütün kommunal xidmətlərin vaxtında ödənilməsi icarəçinin məsuliyyətindədir. Biz burada sadəcə rəsmi qaydaları deyil, həm də evdə yaşayarkən diqqət edilməli olan kiçik detalları da qeyd etmək istəyirik.
+
+ÖDƏNİŞ ŞƏRTLƏRİ VƏ BANK REKVIZİTLƏRİ
+
+İcarə haqqı hər ayın əvvəlində, lakin ən gec ayın 5-nə qədər ödənilməlidir. Ödənişlər aşağıdakı bank hesabı vasitəsilə həyata keçirilə bilər:
+
+Hesab nömrəsi (IBAN): AZ78TLOP82558825562965754278
+
+Xatırlatmaq istərdik ki, ödəniş edərkən şərh hissəsində ""Mənzil icarəsi - [Ay/İl]"" yazmağınız hər iki tərəf üçün izləməni asanlaşdıracaq. Əgər hər hansı bir texniki problem yaranarsa, bank tərəfindən təsdiqlənmiş kartın son rəqəmləri olan ****3916 vasitəsilə əməliyyatları yoxlaya bilərsiniz.
+
+--------------------------------------------------
+
+ƏLVERİŞ VƏ ÜZAKİ MÜNASİBƏTLƏR (E-MAIL YAZIŞMASI NÜMUNƏSİ)
+
+Mənzil ilə bağlı keçmiş yazışmalardan bir hissəsini bura əlavə edirəm ki, razılaşdığımız məqamlar yadda qalsın:
+
+> Hörmətli Pinarə xanım, Sumqayıt tərəfə gələndə mənzil açarlarını sizə çatdırmaq üçün mən özüm də orada olacağam. Lakin bir az gecikmə ehtimalı var, çünki...
+
+Gördüyünüz kimi, biz əvvəlcədən hər şeyi danışmışıq.
+
+MƏNBƏ VƏ TƏHLÜKƏSİZLİK QAYDALARI
+
+Mənzil daxilindəki əşyaların və avadanlıqların qorunması hər iki tərəfin marağıdır. İcarəçi mənzildəki mövcud mebellərə və texnikaya ehtiyatla yanaşmalıdır. Əgər mənzildə hər hansı bir nasazlıq (məsələn, su sızması və ya elektrik problemi) aşkar edilərsə, zəhmət olmasa dərhal məlumat verin.
+
+İcarə verən tərəf mənzili təmir və ya əsaslı yeniləmə ehtiyacı olduqda, ən azı iki həftə əvvəlcədən xəbərdar etməyi öhdəsinə götürür.
+
+SON QEYDLƏR
+
+Bu sənəd 2019-cu ildə hazırlanmışdır və tərəflər tərəfindən razılaşdırılmış bütün şərtləri əks etdirir. Biz inanırıq ki, bu səmimi yanaşma ilə hər iki tərəf özünü rahat hiss edəcək.
+
+Sualınız olarsa, lütfən bizimlə əlaqə saxlayın.",az,"[{""start"":77,""end"":85,""label"":""CITY"",""text"":""Sumqayıt""},{""start"":437,""end"":443,""label"":""GIVENNAME"",""text"":""Pinarə""},{""start"":444,""end"":454,""label"":""SURNAME"",""text"":""Sərxanzadə""},{""start"":469,""end"":477,""label"":""DATE"",""text"":""09.10.56""},{""start"":493,""end"":506,""label"":""TELEPHONENUM"",""text"":""+994106003916""},{""start"":522,""end"":551,""label"":""EMAIL"",""text"":""hameyde.babanezerov@yandex.ru""},{""start"":576,""end"":584,""label"":""SURNAME"",""text"":""Qəribova""},{""start"":599,""end"":606,""label"":""AZ_FIN"",""text"":""KXLJP1F""},{""start"":615,""end"":623,""label"":""CITY"",""text"":""Sumqayıt""},{""start"":1070,""end"":1098,""label"":""IBAN"",""text"":""AZ78TLOP82558825562965754278""},{""start"":1629,""end"":1635,""label"":""GIVENNAME"",""text"":""Pinarə""},{""start"":1643,""end"":1651,""label"":""CITY"",""text"":""Sumqayıt""}]",rental_agreement,very_long,warm and conversational,[],0,0,llm,"{""index"":235,""lang"":""az"",""doc_type"":""rental_agreement"",""doc_type_hint"":""a rental or lease agreement excerpt"",""register"":""warm and conversational"",""band"":""very_long"",""min_chars"":2600,""max_chars"":4200,""length_hint"":""a long multi-section document"",""entities"":[{""label"":""CITY"",""value"":""Sumqayıt""},{""label"":""TELEPHONENUM"",""value"":""+994106003916""},{""label"":""IBAN"",""value"":""AZ78TLOP82558825562965754278""},{""label"":""GIVENNAME"",""value"":""Pinarə""},{""label"":""DATE"",""value"":""09.10.56""},{""label"":""SURNAME"",""value"":""Sərxanzadə""},{""label"":""EMAIL"",""value"":""hameyde.babanezerov@yandex.ru""},{""label"":""SURNAME"",""value"":""Qəribova""},{""label"":""AZ_FIN"",""value"":""KXLJP1F""}],""hard_negatives"":[],""adversarials"":[],""noise"":[""include a partially redacted value elsewhere in the text (e.g. ****1234)"",""include a quoted reply section with '>' markers"",""leave one sentence unfinished, as people do when interrupted""],""negative_only"":false,""seed"":17353821,""edge_case"":null,""reference_year"":2019}",source

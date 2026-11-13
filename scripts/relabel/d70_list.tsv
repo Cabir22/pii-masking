@@ -1,0 +1,331 @@
+lang	split	doc_id	start	end	label	value	text_sha16	reason	relabel_to
+az	train	repaired.clean__llm_az_004555	133	134	AGE	3	7721fa65c92b53d2	object age (car)	
+en	train	repaired.clean__llm_az_004555	135	137	AGE	47	ecb94a8d4a025578	object age (car)	
+tr	train	repaired.clean__llm_az_004555	122	124	AGE	89	1545de7f6d6ffb8f	object age (car)	
+ru	train	repaired.clean__llm_az_004555	142	144	AGE	47	017ea087bdb41b6d	object age (car)	
+az	train	repaired.clean__llm_az_004555	449	450	AGE	3	7721fa65c92b53d2	object age (car)	
+en	train	repaired.clean__llm_az_004555	458	460	AGE	47	ecb94a8d4a025578	object age (car)	
+tr	train	repaired.clean__llm_az_004555	423	425	AGE	89	1545de7f6d6ffb8f	object age (car)	
+ru	train	repaired.clean__llm_az_004555	452	454	AGE	47	017ea087bdb41b6d	object age (car)	
+az	train	repaired.clean__llm_az_005152	1057	1059	AGE	57	e0b014b3adb2f611	age limit (bare `yaş həddi: N`)	
+en	train	repaired.clean__llm_az_005152	1048	1050	AGE	36	bd2cbb8a75fd86bd	age limit (bare `yaş həddi: N`)	
+tr	train	repaired.clean__llm_az_005152	1001	1002	AGE	2	689cda5afdc830d8	age limit (bare `yaş həddi: N`)	
+ru	train	repaired.clean__llm_az_005152	1109	1111	AGE	19	72d1ca2842cf79ba	age limit (bare `yaş həddi: N`)	
+az	train	repaired.clean__llm_az_007035	973	974	AGE	6	f0bffa633916b59e	age limit (minimum yaş)	
+en	train	repaired.clean__llm_az_007035	1020	1022	AGE	22	453eee27a1ba03e7	age limit (minimum yaş)	
+tr	train	repaired.clean__llm_az_007035	919	921	AGE	31	5c274c6cacad51f4	age limit (minimum yaş)	
+ru	train	repaired.clean__llm_az_007035			AGE			not translated (rejected)	
+az	train	repaired.clean__llm_az_007669	519	520	AGE	4	be9fe84d5203b915	object age (car)	
+en	train	repaired.clean__llm_az_007669	560	562	AGE	39	20f2be91ed66e076	object age (car)	
+tr	train	repaired.clean__llm_az_007669	542	544	AGE	90	d5ba8758e7b20e95	object age (car)	
+ru	train	repaired.clean__llm_az_007669	619	621	AGE	65	f62ca6d95883dfc1	object age (car)	
+az	train	repaired.clean__llm_az_014469	125	127	AGE	10	57f7c831008ac718	object age (car)	
+en	train	repaired.clean__llm_az_014469	132	134	AGE	86	05c6dba11443567f	object age (car)	
+tr	train	repaired.clean__llm_az_014469	125	127	AGE	21	1ece8a361bc90f45	object age (car)	
+ru	train	repaired.clean__llm_az_014469	146	148	AGE	86	aa876f1676ea6e19	object age (car)	
+az	train	repaired.clean__llm_az_041837	689	691	AGE	80	f8e6fc743dac40f6	age limit (bare `yaş həddi: N`)	
+en	train	repaired.clean__llm_az_041837	672	674	AGE	81	65bb8009a9f3b100	age limit (bare `yaş həddi: N`)	
+tr	train	repaired.clean__llm_az_041837	644	646	AGE	30	d0872e479f53b690	age limit (bare `yaş həddi: N`)	
+ru	train	repaired.clean__llm_az_041837	747	749	AGE	20	59b9d0565834ace7	age limit (bare `yaş həddi: N`)	
+az	train	repaired.clean__llm_az_067766	328	329	AGE	4	6f16a91e3963802b	object age (car)	
+en	train	repaired.clean__llm_az_067766	374	376	AGE	92	6841c1bdf7bb721c	object age (car)	
+tr	train	repaired.clean__llm_az_067766	335	337	AGE	50	3ac892b74eb6617b	object age (car)	
+ru	train	repaired.clean__llm_az_067766			AGE			not translated (rejected)	
+az	train	repaired.clean__llm_az_069181	692	693	AGE	3	f01f516c29eef12f	object age (car)	
+en	train	repaired.clean__llm_az_069181	760	762	AGE	45	c3b2c2514d47c268	object age (car)	
+tr	train	repaired.clean__llm_az_069181	640	642	AGE	45	4bcb73c725ae6d8e	object age (car)	
+ru	train	repaired.clean__llm_az_069181	804	806	AGE	88	34ee1e6e347c19a8	object age (car)	
+az	train	repaired.clean__llm_az_075308	824	825	AGE	5	eb5ea5c25eff5210	object age (car)	
+en	train	repaired.clean__llm_az_075308	869	871	AGE	60	9025d3c332f441ec	object age (car)	
+tr	train	repaired.clean__llm_az_075308	771	773	AGE	93	7a1f9c846f3759ae	object age (car)	
+ru	train	repaired.clean__llm_az_075308	813	815	AGE	33	9967c48fb8b376d5	object age (car)	
+az	train	repaired.clean__llm_az_075308	1105	1106	AGE	5	eb5ea5c25eff5210	object age (car)	
+en	train	repaired.clean__llm_az_075308	1236	1238	AGE	60	9025d3c332f441ec	object age (car)	
+tr	train	repaired.clean__llm_az_075308	1046	1048	AGE	93	7a1f9c846f3759ae	object age (car)	
+ru	train	repaired.clean__llm_az_075308	1155	1157	AGE	33	9967c48fb8b376d5	object age (car)	
+az	test	repaired.clean__llm_az_075966	73	74	AGE	5	2370aa439f6e9035	object age (car)	
+en	test	repaired.clean__llm_az_075966	67	69	AGE	10	f82d7eef3addef10	object age (car)	
+tr	test	repaired.clean__llm_az_075966	72	74	AGE	66	2c57a48c99ce98be	object age (car)	
+ru	test	repaired.clean__llm_az_075966	76	78	AGE	15	4433bc3be53d56f3	object age (car)	
+az	test	repaired.clean__llm_az_075966	313	314	AGE	5	2370aa439f6e9035	object age (car)	
+en	test	repaired.clean__llm_az_075966	322	324	AGE	10	f82d7eef3addef10	object age (car)	
+tr	test	repaired.clean__llm_az_075966	310	312	AGE	66	2c57a48c99ce98be	object age (car)	
+ru	test	repaired.clean__llm_az_075966	326	328	AGE	15	4433bc3be53d56f3	object age (car)	
+az	train	repaired.clean__llm_az_109691	79	80	AGE	9	81584f02fb3344b3	object age (toy car)	
+en	train	repaired.clean__llm_az_109691	66	68	AGE	74	a52a0709c7e3452a	object age (toy car)	
+tr	train	repaired.clean__llm_az_109691	78	80	AGE	28	862ea47989a953d1	object age (toy car)	
+ru	train	repaired.clean__llm_az_109691	80	82	AGE	77	1360f2e5e3094496	object age (toy car)	
+az	train	repaired.clean__llm_az_113890	1337	1338	AGE	4	69d08bd418af9cbd	object age (car)	
+en	train	repaired.clean__llm_az_113890	1390	1392	AGE	29	6981f5e6285b16f1	object age (car)	
+tr	train	repaired.clean__llm_az_113890	1310	1312	AGE	29	ded182c87b7a9e86	object age (car)	
+ru	train	repaired.clean__llm_az_113890	1436	1438	AGE	77	5da469d8509b3273	object age (car)	
+az	train	repaired.clean__llm_az_115050	60	62	AGE	15	7f6257313ed36252	object age (car)	
+en	train	repaired.clean__llm_az_115050	66	67	AGE	7	e3be2ff89c1973b1	object age (car)	
+tr	train	repaired.clean__llm_az_115050	64	66	AGE	13	7e757a4781707215	object age (car)	
+ru	train	repaired.clean__llm_az_115050	62	64	AGE	94	a08b60446358d38f	object age (car)	
+az	train	sprint1_llm_b2.clean__llm_az_005658	57	58	AGE	1	383b569629767607	object age (car)	
+en	train	sprint1_llm_b2.clean__llm_az_005658	56	58	AGE	86	1ee4652d19cdd28d	object age (car)	
+tr	train	sprint1_llm_b2.clean__llm_az_005658	56	58	AGE	10	24711ed81e68cda2	object age (car)	
+ru	train	sprint1_llm_b2.clean__llm_az_005658	62	64	AGE	32	684b957ec9b33906	object age (car)	
+az	train	sprint1_llm_b3.clean__llm_az_002849	196	197	AGE	1	010f8bac2ee4217b	object age (car)	
+en	train	sprint1_llm_b3.clean__llm_az_002849	196	198	AGE	18	c8a8ef8103dd971c	object age (car)	
+tr	train	sprint1_llm_b3.clean__llm_az_002849	176	177	AGE	5	88d38ea2b3e98a71	object age (car)	
+ru	train	sprint1_llm_b3.clean__llm_az_002849	215	216	AGE	6	fe6f5b147d10a153	object age (car)	
+az	train	sprint1_llm_b4.clean__llm_az_004682	1560	1562	AGE	11	ede4cd26e1aad044	object age (device)	
+en	train	sprint1_llm_b4.clean__llm_az_004682	1583	1585	AGE	72	b6acb5a1eb7d6288	object age (device)	
+tr	train	sprint1_llm_b4.clean__llm_az_004682	1466	1468	AGE	48	231d7e33f965fbfe	object age (device)	
+ru	train	sprint1_llm_b4.clean__llm_az_004682	1672	1674	AGE	23	3f1e9764ae042de0	object age (device)	
+az	train	sprint1_llm_b4.clean__llm_az_005563	21	22	AGE	8	2ed8959bed54a57c	object age (car)	
+en	train	sprint1_llm_b4.clean__llm_az_005563	33	34	AGE	1	3ad844dd4d86418b	object age (car)	
+tr	train	sprint1_llm_b4.clean__llm_az_005563	16	18	AGE	20	ad36e0751df6f926	object age (car)	
+ru	train	sprint1_llm_b4.clean__llm_az_005563	47	48	AGE	2	eb92b2afd3c3f515	object age (car)	
+az	train	sprint1_llm_b5.clean__llm_az_008650	173	174	AGE	5	b77e3d53c076cabe	object age (car)	
+en	train	sprint1_llm_b5.clean__llm_az_008650	191	193	AGE	91	6650e72475cb035d	object age (car)	
+tr	train	sprint1_llm_b5.clean__llm_az_008650	154	156	AGE	89	ac1b17842a40e753	object age (car)	
+ru	train	sprint1_llm_b5.clean__llm_az_008650	232	233	AGE	5	64f449c6a631654c	object age (car)	
+az	train	sprint1_llm_b5.clean__llm_az_014405	1208	1210	AGE	17	0ad3a91bf680e8c9	age limit (bare `yaş həddi: N`)	
+en	train	sprint1_llm_b5.clean__llm_az_014405	1264	1266	AGE	65	b4f40e190d21e77e	age limit (bare `yaş həddi: N`)	
+tr	train	sprint1_llm_b5.clean__llm_az_014405	1169	1171	AGE	66	6962b6879a85370a	age limit (bare `yaş həddi: N`)	
+ru	train	sprint1_llm_b5.clean__llm_az_014405	1293	1295	AGE	70	da9d20c1d8637f60	age limit (bare `yaş həddi: N`)	
+az	train	sprint1_llm_b6.clean__llm_az_004775	534	535	AGE	7	87721570457e6987	object age (system)	
+en	train	sprint1_llm_b6.clean__llm_az_004775	573	575	AGE	26	48e0c7534ed9058f	object age (system)	
+tr	train	sprint1_llm_b6.clean__llm_az_004775	512	514	AGE	64	9598bacbe0407afa	object age (system)	
+ru	train	sprint1_llm_b6.clean__llm_az_004775	578	580	AGE	88	67a6a57339243251	object age (system)	
+az	train	repaired.clean__llm_az_109691	159	160	AGE	9	81584f02fb3344b3	object age (toy car, table year column; same document as #14)	
+en	train	repaired.clean__llm_az_109691	149	151	AGE	74	a52a0709c7e3452a	object age (toy car, table year column; same document as #14)	
+tr	train	repaired.clean__llm_az_109691	147	149	AGE	28	862ea47989a953d1	object age (toy car, table year column; same document as #14)	
+ru	train	repaired.clean__llm_az_109691	161	163	AGE	77	1360f2e5e3094496	object age (toy car, table year column; same document as #14)	
+az	train	sprint1_llm_b4.clean__llm_az_003544	2693	2695	AGE	50	0c0eab8465bf90ac	object age (system modules)	
+en	train	sprint1_llm_b4.clean__llm_az_003544	2770	2772	AGE	40	d25927876f2fae75	object age (system modules)	
+tr	train	sprint1_llm_b4.clean__llm_az_003544	2625	2627	AGE	89	f31362720bf56e7f	object age (system modules)	
+ru	train	sprint1_llm_b4.clean__llm_az_003544			AGE			not translated (rejected)	
+az	train	sprint1_llm_b6.clean__llm_az_007081	1908	1909	AGE	2	a12b7611e8b38d1e	object age (software modules)	
+en	train	sprint1_llm_b6.clean__llm_az_007081	1926	1928	AGE	69	cab130c2e951673d	object age (software modules)	
+tr	train	sprint1_llm_b6.clean__llm_az_007081	1791	1793	AGE	50	9e68015dda558eb2	object age (software modules)	
+ru	train	sprint1_llm_b6.clean__llm_az_007081	1905	1907	AGE	73	6515bd1c89e6b725	object age (software modules)	
+az	train	sprint1_llm_b6.clean__llm_az_018860	265	267	AGE	10	4cc53fdb3ee26a45	object age (project)	
+en	train	sprint1_llm_b6.clean__llm_az_018860	320	322	AGE	92	25b9fe7423e51a77	object age (project)	
+tr	train	sprint1_llm_b6.clean__llm_az_018860	248	250	AGE	44	9def26e00121977c	object age (project)	
+ru	train	sprint1_llm_b6.clean__llm_az_018860	301	303	AGE	13	cdca31859b3d4ea2	object age (project)	
+az	train	repaired.clean__llm_az_012737	228	229	AGE	9	71c90981e80e54b1	object age (account)	
+en	train	repaired.clean__llm_az_012737	238	240	AGE	25	b4dab3163b138237	object age (account)	
+tr	train	repaired.clean__llm_az_012737	198	200	AGE	39	4bbd1fae630218b3	object age (account)	
+ru	train	repaired.clean__llm_az_012737	230	232	AGE	22	a6b9f1a54df534aa	object age (account)	
+az	train	repaired.clean__llm_az_020819	158	159	AGE	5	24480ebdd4ba1398	object age (account)	
+en	train	repaired.clean__llm_az_020819	155	157	AGE	24	ca4794c2d53ac10c	object age (account)	
+tr	train	repaired.clean__llm_az_020819			AGE			not translated (rejected)	
+ru	train	repaired.clean__llm_az_020819			AGE			not translated (rejected)	
+az	train	repaired.clean__llm_az_026167	183	184	AGE	3	b8f4f5a1c26ba0c1	object age (device model)	
+en	train	repaired.clean__llm_az_026167	241	243	AGE	62	4463d444eaf48d58	object age (device model)	
+tr	train	repaired.clean__llm_az_026167	204	206	AGE	17	21e029205a91bf43	object age (device model)	
+ru	train	repaired.clean__llm_az_026167	215	217	AGE	41	67f0eb3eb6876102	object age (device model)	
+az	train	sprint1_llm_b6.clean__llm_az_020830	312	313	AGE	2	d543f4f9210a7588	object age (equipment)	
+en	train	sprint1_llm_b6.clean__llm_az_020830	378	380	AGE	72	4e59077dc6952c38	object age (equipment)	
+tr	train	sprint1_llm_b6.clean__llm_az_020830	307	308	AGE	5	8869869122dbf405	object age (equipment)	
+ru	train	sprint1_llm_b6.clean__llm_az_020830	356	358	AGE	38	87658a9dd1e1a4e7	object age (equipment)	
+az	val	sprint1_llm_b6.clean__llm_az_025023	216	218	AGE	41	0f97a6128db044e1	object age (equipment)	
+en	val	sprint1_llm_b6.clean__llm_az_025023	244	246	AGE	62	2ae46aa1eb2933c4	object age (equipment)	
+tr	val	sprint1_llm_b6.clean__llm_az_025023	198	200	AGE	91	9792c8762b60f46e	object age (equipment)	
+ru	val	sprint1_llm_b6.clean__llm_az_025023	240	242	AGE	71	6941e564b834abfb	object age (equipment)	
+az	train	sprint1_llm_b5.clean__llm_az_022370	882	884	AGE	95	818f613500149bb2	object age (building)	
+en	train	sprint1_llm_b5.clean__llm_az_022370	977	979	AGE	76	c8c520081c147481	object age (building)	
+tr	train	sprint1_llm_b5.clean__llm_az_022370	829	831	AGE	60	0c9a5d0cbbf96724	object age (building)	
+ru	train	sprint1_llm_b5.clean__llm_az_022370	965	967	AGE	78	2dfbf59b7844433d	object age (building)	
+az	train	sprint1_llm_b5.clean__llm_az_010544	314	315	AGE	6	b603380b554eb38f	object age (car)	
+en	train	sprint1_llm_b5.clean__llm_az_010544	307	309	AGE	71	253f1afdbd131501	object age (car)	
+tr	train	sprint1_llm_b5.clean__llm_az_010544	264	266	AGE	13	1ca768a30e03d6e1	object age (car)	
+ru	train	sprint1_llm_b5.clean__llm_az_010544	349	351	AGE	89	6aa6c8e07f98bb89	object age (car)	
+az	val	repaired.clean__llm_az_017009	1001	1002	AGE	4	321607880752109e	object age (car)	
+en	val	repaired.clean__llm_az_017009	987	989	AGE	27	8a6a5ba48bd38fad	object age (car)	
+tr	val	repaired.clean__llm_az_017009	928	930	AGE	35	1c3f2ec4428b2d59	object age (car)	
+ru	val	repaired.clean__llm_az_017009	1040	1042	AGE	28	4db8fef646bf28f6	object age (car)	
+az	val	repaired.clean__llm_az_026216	546	548	AGE	68	99de4c4a8daf1a86	object age (server)	
+en	val	repaired.clean__llm_az_026216	522	524	AGE	68	8aefb3366a9c29a2	object age (server)	
+tr	val	repaired.clean__llm_az_026216	515	517	AGE	26	79d92db8c276838e	object age (server)	
+ru	val	repaired.clean__llm_az_026216	559	561	AGE	10	1e8dc65090e3c9d0	object age (server)	
+az	train	repaired.clean__llm_az_103868	228	230	AGE	14	9d8add97828eadfb	object age (car)	
+en	train	repaired.clean__llm_az_103868	217	219	AGE	81	bc968581edaaf259	object age (car)	
+tr	train	repaired.clean__llm_az_103868	212	214	AGE	93	5fd887807a33381c	object age (car)	
+ru	train	repaired.clean__llm_az_103868	223	225	AGE	67	2d25dcae58434813	object age (car)	
+az	test	sprint1_llm_b5.clean__llm_az_007611	340	342	AGE	12	16f68fc434e05ee5	object age (system components)	
+en	test	sprint1_llm_b5.clean__llm_az_007611	344	346	AGE	27	ca243c8398162dad	object age (system components)	
+tr	test	sprint1_llm_b5.clean__llm_az_007611	305	307	AGE	24	1ff329fb6d18c63d	object age (system components)	
+ru	test	sprint1_llm_b5.clean__llm_az_007611	338	340	AGE	77	8282afebbfe8fc02	object age (system components)	
+az	test	sprint1_llm_b5.clean__llm_az_017421	399	400	AGE	9	bd3574c272ff0e1b	object age (vehicle)	
+en	test	sprint1_llm_b5.clean__llm_az_017421	391	393	AGE	90	a48783c58e0c9ab0	object age (vehicle)	
+tr	test	sprint1_llm_b5.clean__llm_az_017421	347	349	AGE	15	dfbeea393a272681	object age (vehicle)	
+ru	test	sprint1_llm_b5.clean__llm_az_017421	442	444	AGE	66	c6a93b7a2516cf29	object age (vehicle)	
+az	val	sprint1_llm_b6.clean__llm_az_024470	422	423	AGE	6	bf431149884eea70	object age (service programme)	
+en	val	sprint1_llm_b6.clean__llm_az_024470	404	406	AGE	30	fb13f688803a2d57	object age (service programme)	
+tr	val	sprint1_llm_b6.clean__llm_az_024470	404	406	AGE	78	78b9682165845b17	object age (service programme)	
+ru	val	sprint1_llm_b6.clean__llm_az_024470	422	423	AGE	9	e606a08f4222ac99	object age (service programme)	
+az	train	sprint1_llm_b6.clean__llm_az_004144	141	142	AGE	1	4e7e52347cc69df2	object age (software module)	
+en	train	sprint1_llm_b6.clean__llm_az_004144	159	161	AGE	50	0cdfc729d5f47732	object age (software module)	
+tr	train	sprint1_llm_b6.clean__llm_az_004144	122	123	AGE	6	d825acab2eefa56d	object age (software module)	
+ru	train	sprint1_llm_b6.clean__llm_az_004144	86	88	AGE	85	d1dfcf90149bb210	object age (software module)	
+az	test	sprint1_llm_b6.clean__llm_az_007295	657	658	AGE	4	c5a328fcfb09f4ee	object age (equipment)	
+en	test	sprint1_llm_b6.clean__llm_az_007295	635	637	AGE	30	7f84792d97a780be	object age (equipment)	
+tr	test	sprint1_llm_b6.clean__llm_az_007295	623	625	AGE	77	edc334b35263c7a8	object age (equipment)	
+ru	test	sprint1_llm_b6.clean__llm_az_007295	698	700	AGE	12	f81a66965c5fd08c	object age (equipment)	
+az	train	repaired.clean__llm_az_046705	230	232	AGE	12	133eb8165d8211ab	object age (vehicle)	
+en	train	repaired.clean__llm_az_046705	202	204	AGE	22	dea91b827e530ca2	object age (vehicle)	
+tr	train	repaired.clean__llm_az_046705	171	173	AGE	80	7a06ed7513e45cf7	object age (vehicle)	
+ru	train	repaired.clean__llm_az_046705			AGE			not translated (rejected)	
+az	train	sprint1_llm_b5.clean__llm_az_024039	78	79	AGE	9	71e2b43d64285daf	object age (vehicle)	
+en	train	sprint1_llm_b5.clean__llm_az_024039	44	46	AGE	86	5fe79ba495583808	object age (vehicle)	
+tr	train	sprint1_llm_b5.clean__llm_az_024039	47	49	AGE	27	598965504d2c54a7	object age (vehicle)	
+ru	train	sprint1_llm_b5.clean__llm_az_024039	98	100	AGE	21	817a4b7d9533c71d	object age (vehicle)	
+az	val	sprint1_llm_b1.clean__llm_az_005636	286	288	AGE	10	eb8f7403f57b52f1	object age (vehicle)	
+en	val	sprint1_llm_b1.clean__llm_az_005636	262	264	AGE	48	ff1124f5a70e163a	object age (vehicle)	
+tr	val	sprint1_llm_b1.clean__llm_az_005636	234	236	AGE	84	40536625759f9e7e	object age (vehicle)	
+ru	val	sprint1_llm_b1.clean__llm_az_005636			AGE			not translated (rejected)	
+az	train	repaired.clean__llm_az_036539	1507	1508	AGE	2	f89342aa20b6973b	object age (trucks)	
+en	train	repaired.clean__llm_az_036539	1574	1576	AGE	38	1c0b33aaf467ec69	object age (trucks)	
+tr	train	repaired.clean__llm_az_036539	1448	1450	AGE	33	600ed06952a59d2f	object age (trucks)	
+ru	train	repaired.clean__llm_az_036539	1676	1678	AGE	72	3d39bd3068b70875	object age (trucks)	
+az	train	repaired.clean__llm_az_060951	1591	1592	AGE	1	28cdc04eaf8396b4	animal age (dog)	
+en	train	repaired.clean__llm_az_060951	1594	1596	AGE	52	667c1a04187c5407	animal age (dog)	
+tr	train	repaired.clean__llm_az_060951	1541	1543	AGE	26	0a659c60c37f94b6	animal age (dog)	
+ru	train	repaired.clean__llm_az_060951	1697	1699	AGE	16	94b45cb10db840be	animal age (dog)	
+az	train	repaired.clean__llm_az_047368	124	126	AGE	18	8e6c0d40d72253fd	age limit (minimum yaş)	
+en	train	repaired.clean__llm_az_047368	126	128	AGE	72	43eb0cb87b02176e	age limit (minimum yaş)	
+tr	train	repaired.clean__llm_az_047368	119	121	AGE	80	0cb568a598cd329f	age limit (minimum yaş)	
+ru	train	repaired.clean__llm_az_047368	147	148	AGE	1	b0d36e3a7cf5c26e	age limit (minimum yaş)	
+az	train	repaired.clean__llm_az_055441	2746	2748	AGE	76	6a28075b24b4b906	age limit (bare `yaş həddi: N`)	
+en	train	repaired.clean__llm_az_055441	2692	2693	AGE	3	3be3347202240fb7	age limit (bare `yaş həddi: N`)	
+tr	train	repaired.clean__llm_az_055441	2665	2667	AGE	95	025b5258af75d023	age limit (bare `yaş həddi: N`)	
+ru	train	repaired.clean__llm_az_055441	2653	2654	AGE	4	a504be032446c6c9	age limit (bare `yaş həddi: N`)	
+az	train	repaired.clean__llm_az_012216	194	196	AGE	80	feeb96c9f8532455	age limit (bare `yaş həddi: N`)	
+en	train	repaired.clean__llm_az_012216	191	193	AGE	50	face0b72c737aa5f	age limit (bare `yaş həddi: N`)	
+tr	train	repaired.clean__llm_az_012216	192	194	AGE	16	0d45bc80b35c7f79	age limit (bare `yaş həddi: N`)	
+ru	train	repaired.clean__llm_az_012216	197	199	AGE	88	e9a395c99466d9fe	age limit (bare `yaş həddi: N`)	
+az	train	sprint1_llm_b6.clean__llm_az_026063	744	746	AGE	17	1493960091cfded4	age limit (entry condition)	
+en	train	sprint1_llm_b6.clean__llm_az_026063	708	709	AGE	1	b4c5c2df38296d4f	age limit (entry condition)	
+tr	train	sprint1_llm_b6.clean__llm_az_026063	694	696	AGE	18	d4182e9f783adb74	age limit (entry condition)	
+ru	train	sprint1_llm_b6.clean__llm_az_026063	764	766	AGE	50	8acf670e9e8d9f49	age limit (entry condition)	
+az	train	sprint1_llm_b6.clean__llm_az_025289	860	862	AGE	19	d2743b3e7b77fe7f	age limit (entry condition)	
+en	train	sprint1_llm_b6.clean__llm_az_025289	878	880	AGE	41	d568bea8efbee853	age limit (entry condition)	
+tr	train	sprint1_llm_b6.clean__llm_az_025289	822	824	AGE	44	32c5a97895df06f9	age limit (entry condition)	
+ru	train	sprint1_llm_b6.clean__llm_az_025289	904	906	AGE	63	9610b9fe19a5b76e	age limit (entry condition)	
+az	train	repaired.clean__llm_az_083868	349	351	AGE	94	0f528ff9f60215b5	building number labelled AGE: relabelled, not removed (D-76)	BUILDINGNUM
+en	train	repaired.clean__llm_az_083868	373	374	AGE	9	e6bb5ed0cadfead7	building number labelled AGE: relabelled, not removed (D-76)	BUILDINGNUM
+tr	train	repaired.clean__llm_az_083868	313	315	AGE	61	db5d4535fad759c9	building number labelled AGE: relabelled, not removed (D-76)	BUILDINGNUM
+ru	train	repaired.clean__llm_az_083868	327	329	AGE	49	87bc18f1a350ecc9	building number labelled AGE: relabelled, not removed (D-76)	BUILDINGNUM
+az	train	repaired.clean__llm_az_031777	978	980	AGE	79	e36de13fbafcffcb	building number labelled AGE: relabelled, not removed (D-76)	BUILDINGNUM
+en	train	repaired.clean__llm_az_031777	990	992	AGE	71	4bccdbf22fb5c5b9	building number labelled AGE: relabelled, not removed (D-76)	BUILDINGNUM
+tr	train	repaired.clean__llm_az_031777	882	884	AGE	50	a0b42f94c2ed0b8c	building number labelled AGE: relabelled, not removed (D-76)	BUILDINGNUM
+ru	train	repaired.clean__llm_az_031777	1043	1045	AGE	68	897e2c55366a4dbc	building number labelled AGE: relabelled, not removed (D-76)	BUILDINGNUM
+az	val	repaired.clean__llm_az_008975	406	408	AGE	86	7f009e773cf0bce0	building number labelled AGE: relabelled, not removed (D-76)	BUILDINGNUM
+en	val	repaired.clean__llm_az_008975	445	447	AGE	67	8f78fefce473a4e3	building number labelled AGE: relabelled, not removed (D-76)	BUILDINGNUM
+tr	val	repaired.clean__llm_az_008975	390	392	AGE	71	e675a1e1c4997413	building number labelled AGE: relabelled, not removed (D-76)	BUILDINGNUM
+ru	val	repaired.clean__llm_az_008975	442	444	AGE	75	c85b570a77ad93b9	building number labelled AGE: relabelled, not removed (D-76)	BUILDINGNUM
+az	train	sprint1_llm_b5.clean__llm_az_014246	468	469	AGE	9	35f31bf63c1465ae	object age (account; borderline)	
+en	train	sprint1_llm_b5.clean__llm_az_014246	502	503	AGE	3	f9f0f3173484ee26	object age (account; borderline)	
+tr	train	sprint1_llm_b5.clean__llm_az_014246	486	488	AGE	47	1d3163da5926c88a	object age (account; borderline)	
+ru	train	sprint1_llm_b5.clean__llm_az_014246	488	490	AGE	40	c854199ecc2eacd7	object age (account; borderline)	
+az	train	repaired.clean__llm_az_012737	536	537	AGE	9	71c90981e80e54b1	object age (account; borderline)	
+en	train	repaired.clean__llm_az_012737	547	549	AGE	25	b4dab3163b138237	object age (account; borderline)	
+tr	train	repaired.clean__llm_az_012737	471	473	AGE	39	4bbd1fae630218b3	object age (account; borderline)	
+ru	train	repaired.clean__llm_az_012737	526	528	AGE	22	a6b9f1a54df534aa	object age (account; borderline)	
+az	train	sprint1_llm_b6.clean__llm_az_021113	431	433	AGE	57	e6c18f331592a797	object age (experience; borderline)	
+en	train	sprint1_llm_b6.clean__llm_az_021113	464	466	AGE	44	f9f1f2eb8c53a22f	object age (experience; borderline)	
+tr	train	sprint1_llm_b6.clean__llm_az_021113	434	436	AGE	38	9410f6f23cfe1318	object age (experience; borderline)	
+ru	train	sprint1_llm_b6.clean__llm_az_021113	433	434	AGE	6	44d5cda2fd2fe9f8	object age (experience; borderline)	
+az	val	repaired.clean__llm_az_102985	500	503	BUILDINGNUM	112	8224ed38a3de4fdc	building count (K19; EN and RU read as an address)	
+tr	val	repaired.clean__llm_az_102985	329	331	BUILDINGNUM	53	b33cc60a50646c33	building count (K19; EN and RU read as an address)	
+az	train	repaired.clean__llm_az_013113	1880	1885		12/20	f2fd221bd7a4247c	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+en	train	repaired.clean__llm_az_013113	1825	1830		12/20	e1aae7330955cb04	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+tr	train	repaired.clean__llm_az_013113	1825	1830		12/20	b2478dcfa11be2d0	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+ru	train	repaired.clean__llm_az_013113	1886	1891		12/20	795d277a28c1926f	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+az	train	repaired.clean__llm_az_023215	1000	1005		12/26	b6321f5e8aa0a38a	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+en	train	repaired.clean__llm_az_023215	968	973		12/26	ba7ad8847f4a6597	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+tr	train	repaired.clean__llm_az_023215	959	964		12/26	7407f1c71a8da8ac	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+ru	train	repaired.clean__llm_az_023215	1018	1023		12/26	64b3626617508f44	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+az	train	repaired.clean__llm_az_047384	1747	1752		12/28	ddd79eb4782cd5d1	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+en	train	repaired.clean__llm_az_047384	1775	1780		12/28	cacb0311e5636b67	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+tr	train	repaired.clean__llm_az_047384	1696	1701		12/28	490dbb0fa763d28b	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+ru	train	repaired.clean__llm_az_047384	1790	1795		12/28	d397e626ebcc86aa	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+az	train	repaired.clean__llm_az_052536	1776	1781		12/25	6e7dea52edc1e9d7	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+en	train	repaired.clean__llm_az_052536	1755	1760		12/25	5f2da11d45de2008	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+tr	train	repaired.clean__llm_az_052536	1707	1712		12/25	27db533fadee0ce8	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+ru	train	repaired.clean__llm_az_052536	1784	1789		12/25	8498b7b5aee4309f	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+az	train	repaired.clean__llm_az_060821	2435	2440		12/25	721c1cd5f6674167	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+en	train	repaired.clean__llm_az_060821	2320	2325		12/25	ddf0bb897666b50f	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+tr	train	repaired.clean__llm_az_060821	2305	2310		12/25	eaa50b146ae7dc62	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+ru	train	repaired.clean__llm_az_060821	2514	2519		12/25	7ca7e25986e99145	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+az	train	repaired.clean__llm_az_086170	185	190		05/25	09596e81dbe1c48d	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+en	train	repaired.clean__llm_az_086170	192	197		05/25	f5d4d8b06c2286f1	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+tr	train	repaired.clean__llm_az_086170	181	186		05/25	f46da7b5ef0fc369	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+ru	train	repaired.clean__llm_az_086170	184	189		05/25	1f13f4cee0c79c44	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+az	train	repaired.clean__llm_az_111514	1902	1907		12/22	5ad4b8c0ddae1fc9	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+en	train	repaired.clean__llm_az_111514	1778	1783		12/22	aea552ddf5a71653	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+tr	train	repaired.clean__llm_az_111514	1803	1808		12/22	80e7e4420a31e5b4	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+ru	train	repaired.clean__llm_az_111514	1958	1963		12/22	27a2ce1ae0c3b38a	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+az	test	sprint1_llm_b1.clean__llm_az_000387	1077	1082		12/18	f6d93000bc9075d6	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+en	test	sprint1_llm_b1.clean__llm_az_000387	1072	1077		12/18	6290510e73e56d98	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+tr	test	sprint1_llm_b1.clean__llm_az_000387	1048	1053		12/18	21fdc21e6da500f5	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+ru	test	sprint1_llm_b1.clean__llm_az_000387	1087	1092		12/18	17f9acffb3fa7735	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+az	train	sprint1_llm_b1.clean__llm_az_000650	837	842		05/23	931df05a12f86429	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+en	train	sprint1_llm_b1.clean__llm_az_000650	848	853		05/23	09e40fce1b7c905b	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+tr	train	sprint1_llm_b1.clean__llm_az_000650	831	836		05/23	1e92d80f806c578c	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+ru	train	sprint1_llm_b1.clean__llm_az_000650	835	840		05/23	c3af2c0a0e9dbb9d	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+az	train	sprint1_llm_b1.clean__llm_az_001037	1535	1540		09/19	df998c3a0150355d	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+en	train	sprint1_llm_b1.clean__llm_az_001037	1416	1421		09/19	51dead79db86c27c	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+tr	train	sprint1_llm_b1.clean__llm_az_001037	1458	1463		09/19	0111de2f11564b70	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+ru	train	sprint1_llm_b1.clean__llm_az_001037	1562	1567		09/19	89aeff2906df3984	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+az	train	sprint1_llm_b1.clean__llm_az_007833	626	631		12/18	4b9e44ab271f6acc	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+en	train	sprint1_llm_b1.clean__llm_az_007833	641	646		12/18	59a3b6251bdc4f40	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+tr	train	sprint1_llm_b1.clean__llm_az_007833	627	632		12/18	ab04da615f42f247	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+ru	train	sprint1_llm_b1.clean__llm_az_007833	652	657		12/18	578016959a88944f	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+az	val	sprint1_llm_b2.clean__llm_az_000624	1353	1358		12/28	85a2cdb061a843e8	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+en	val	sprint1_llm_b2.clean__llm_az_000624	1417	1422		12/28	056e8e7c4c742329	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+tr	val	sprint1_llm_b2.clean__llm_az_000624	1338	1343		12/28	edb1378e321acc9c	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+ru	val	sprint1_llm_b2.clean__llm_az_000624	1391	1396		12/28	d6c5d64c11588046	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+az	train	sprint1_llm_b5.clean__llm_az_000396	1326	1331		11/27	c1dd72b69dbc53ef	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+en	train	sprint1_llm_b5.clean__llm_az_000396	1254	1259		11/27	0564125ec44c4108	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+tr	train	sprint1_llm_b5.clean__llm_az_000396	1289	1294		11/27	da5404f66ba2f758	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+ru	train	sprint1_llm_b5.clean__llm_az_000396	1306	1311		11/27	5fc81d25ebf19249	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+az	train	sprint1_llm_b5.clean__llm_az_013895	1587	1592		08/27	307e2ae26dd3038b	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+en	train	sprint1_llm_b5.clean__llm_az_013895	1498	1503		08/27	f0c92f8a1fe6cc86	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+tr	train	sprint1_llm_b5.clean__llm_az_013895	1510	1515		08/27	1826f3b2f0417ce3	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+ru	train	sprint1_llm_b5.clean__llm_az_013895	1562	1567		08/27	4fec65107614dbb2	card expiry, unlabelled in v4.2: add DATE (D-78)	DATE
+az	train	repaired.clean__llm_az_008389	114	131		+994 55 123 45 67	2f114cbd27ce8bc6	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+en	train	repaired.clean__llm_az_008389	101	118		+994 55 123 45 67	02e99bb3c78c71a4	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+tr	train	repaired.clean__llm_az_008389	114	131		+994 55 123 45 67	e2b557083b0a06e9	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+ru	train	repaired.clean__llm_az_008389	118	135		+994 55 123 45 67	a70b58c6c6540853	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+az	train	repaired.clean__llm_az_024056	189	206		+994 50 123 45 67	914a4f2e111eac26	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+en	train	repaired.clean__llm_az_024056	189	206		+994 50 123 45 67	3629dd2a4626a41a	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+tr	train	repaired.clean__llm_az_024056	189	206		+994 50 123 45 67	cf46f8b17798eaa7	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+ru	train	repaired.clean__llm_az_024056	182	199		+994 50 123 45 67	876c578757c62e8f	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+az	train	repaired.clean__llm_az_034761	2097	2116		+994 (50) 123-45-67	b594cea09152b162	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+en	train	repaired.clean__llm_az_034761	2045	2064		+994 (50) 123-45-67	5a45b26facf31c3b	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+tr	train	repaired.clean__llm_az_034761	2118	2137		+994 (50) 123-45-67	4ab4fe90e52401c0	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+ru	train	repaired.clean__llm_az_034761	2171	2190		+994 (50) 123-45-67	10777571459b7d46	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+az	train	repaired.clean__llm_az_055672	92	105		055 123 45 67	68838f0e98970d25	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+en	train	repaired.clean__llm_az_055672	110	123		055 123 45 67	d3bc338692427926	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+tr	train	repaired.clean__llm_az_055672						not translated (rejected)	
+ru	train	repaired.clean__llm_az_055672	100	113		055 123 45 67	bfee70c0ab6a0511	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+az	test	repaired.clean__llm_az_068461	112	129		+994 50 123 45 67	52d81a59bba89bd0	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+en	test	repaired.clean__llm_az_068461	112	129		+994 50 123 45 67	1f18338dc1d32bea	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+tr	test	repaired.clean__llm_az_068461	106	123		+994 50 123 45 67	4de86cda396f81e5	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+ru	test	repaired.clean__llm_az_068461	120	137		+994 50 123 45 67	71183a7df3462d58	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+az	train	repaired.clean__llm_az_078499	191	208		+994 55 123 45 67	88a116f92eb04f5c	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+en	train	repaired.clean__llm_az_078499	191	208		+994 55 123 45 67	43b929fd9652ad58	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+tr	train	repaired.clean__llm_az_078499						not translated (rejected)	
+ru	train	repaired.clean__llm_az_078499	187	204		+994 55 123 45 67	3e1bb6ebe8246b3c	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+az	train	repaired.clean__llm_az_098872	534	551		+994 50 123 45 67	892ffd115a20864d	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+en	train	repaired.clean__llm_az_098872	562	579		+994 50 123 45 67	4222c5c036f70f54	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+tr	train	repaired.clean__llm_az_098872	549	566		+994 50 123 45 67	7fa10b2773c81600	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+ru	train	repaired.clean__llm_az_098872	602	619		+994 50 123 45 67	58be2690da86384b	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+az	train	repaired.clean__llm_az_102398	1741	1760		+994 (50) 123-45-67	80f85bbb925cd742	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+en	train	repaired.clean__llm_az_102398	1771	1790		+994 (50) 123-45-67	8be3c1e51ffaa191	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+tr	train	repaired.clean__llm_az_102398	1722	1741		+994 (50) 123-45-67	9ce6c258e7a2f5b9	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+ru	train	repaired.clean__llm_az_102398	1843	1862		+994 (50) 123-45-67	c39c7b042fe8f322	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+az	train	repaired.clean__llm_az_106814	738	757		+994 (55) 123-45-67	c94cd0342151b018	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+en	train	repaired.clean__llm_az_106814	760	779		+994 (55) 123-45-67	9f72d8be0f79fecd	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+tr	train	repaired.clean__llm_az_106814	696	715		+994 (55) 123-45-67	dd7b5d2c459ee479	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+ru	train	repaired.clean__llm_az_106814	705	724		+994 (55) 123-45-67	d8190ce3c812c887	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+az	train	repaired.clean__llm_az_107654	106	123		+994 50 123 45 67	31ac1d844f7914e0	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+en	train	repaired.clean__llm_az_107654	108	125		+994 50 123 45 67	0dec1ae5b56befbc	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+tr	train	repaired.clean__llm_az_107654	110	127		+994 50 123 45 67	e93f48914ee58678	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM
+ru	train	repaired.clean__llm_az_107654	120	137		+994 50 123 45 67	a8196ed8eb35c1d7	placeholder-like phone 0XX 123 45 67, unlabelled in every copy: add TELEPHONENUM (X-JSON; D-81)	TELEPHONENUM

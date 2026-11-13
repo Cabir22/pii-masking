@@ -1,0 +1,47 @@
+{
+ "_how": "One entry per model, in the order of the report. bench: a scoreboard benchmark report (scored with today's code, so every model is judged by the same rules). rules: a release_check.json, or \"historical\" for rules_history.json. Then: python reports/progress_report/extract.py && python reports/progress_report/build.py",
+ "order": [
+  "ckpt1",
+  "runb",
+  "v3",
+  "v4"
+ ],
+ "models": {
+  "ckpt1": {
+   "name": "Checkpoint 1",
+   "id": "your-hf-org/masking-multilingual @ 3a0a6e5",
+   "bench": "reports/scoreboard/baseline_ckpt1_benchmark.json",
+   "rules": "historical",
+   "train_docs": "multilingual corpus",
+   "new_share": "–",
+   "llm_docs": "–"
+  },
+  "runb": {
+   "name": "Run B",
+   "id": "your-hf-org/masking-az-runb-v2-seed42-2ep @ 937f29d",
+   "bench": "reports/progress_report/scores/runb_benchmark_today.json",
+   "rules": "historical",
+   "train_docs": "127,439",
+   "new_share": "43%",
+   "llm_docs": "44,090"
+  },
+  "v3": {
+   "name": "v3",
+   "id": "your-hf-org/masking-az-runb-v3-seed42 @ 717b010",
+   "bench": "reports/progress_report/scores/v3_benchmark_today.json",
+   "rules": "reports/scoreboard/release_check/v3_seed42_tokfix/release_check.json",
+   "train_docs": "144,086",
+   "new_share": "50%",
+   "llm_docs": "64,891"
+  },
+  "v4": {
+   "name": "v4",
+   "id": "your-hf-org/masking-az-runb-v4-seed42 @ e4ca178",
+   "bench": "reports/progress_report/scores/v4_benchmark.json",
+   "rules": "reports/scoreboard/release_check/v4_seed42_public/release_check.json",
+   "train_docs": "132,889",
+   "new_share": "52.5%",
+   "llm_docs": "62,250"
+  }
+ }
+}
