@@ -1,5 +1,7 @@
 # PII Masking Model
 
+<p align="center"><img src="docs/images/cover.webp" alt="Personal data fields detected and masked" width="100%"></p>
+
 A token-classification model that finds personal data in **Azerbaijani,
 English, Turkish and Russian** text so it can be masked before the text leaves
 an organisation. It covers 27 labels: names, addresses, dates and ages, phone
